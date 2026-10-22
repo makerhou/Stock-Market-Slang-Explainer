@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint --if-present
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Test
+        run: npm run test --if-present
+
+      # content-validate：CI 硬门校验（零黑话扫描 / 禁用词 / 字数 / 引用完整性 / 免责存在）
+      - name: content-validate
+        run: npm run validate --workspace=@jargon/content

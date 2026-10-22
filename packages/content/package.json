@@ -1,0 +1,27 @@
+{
+  "name": "@jargon/content",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "validate": "tsx src/cli.ts",
+    "compile": "tsx src/compile.ts"
+  },
+  "dependencies": {
+    "@jargon/contracts": "workspace:*",
+    "@jargon/db": "workspace:*",
+    "@jargon/matcher": "workspace:*",
+    "drizzle-orm": "^0.36.4",
+    "zod": "^3.23.8",
+    "yaml": "^2.6.0",
+    "gray-matter": "^4.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "tsx": "^4.19.0",
+    "@types/node": "^20.14.0"
+  }
+}

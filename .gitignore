@@ -1,0 +1,35 @@
+# dependencies
+node_modules/
+
+# build output
+.next/
+dist/
+build/
+.turbo/
+out/
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# env
+.env
+.env.local
+.env.*.local
+
+# os
+.DS_Store
+
+# coverage
+coverage/
+
+# generated
+*.tsbuildinfo
+
+# content pipeline build artifacts
+content/.compiled/
+
+# WorkBuddy local project data (not source)
+.workbuddy/
+

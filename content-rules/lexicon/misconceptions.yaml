@@ -1,0 +1,579 @@
+# 误用命题库 —— "这不代表什么"型干扰项的唯一来源
+#
+# 【关键设计决策】禁止从 not_meaning 自动反转生成干扰项。
+#   not_meaning 是「澄清说明」（30-60 字，给用户读）；
+#   误用命题是「错误选项」（≤30 字，给用户做选择）。
+#   语义方向相反、长度要求不同、审核标准不同，合并会让两边质量都下降。
+#
+# 写法约束（CI 校验）：
+#   MISC-001 claim 长度 10-30 字
+#   MISC-002 与关联词条 plain_explain 的 dice3 < 0.5
+#   MISC-003 禁用词零命中（复用 banned-words.yaml）
+#   MISC-004 term_id 必须存在于词库
+#   MISC-005 reviewed_by 非空
+#   MISC-006 claim 必须是完整的「错命题」，不能是「不能这样说」
+#   MISC-007 claim 与该词条 not_meaning 的语义方向必须相反
+#            （用否定词出现检查：claim 中不得含 不/别/勿/不能/不要/不等于）
+
+version: 2026-10-20
+maintainer: TBD
+target_count: 80
+
+claims:
+
+  # ---- 估值与财务 ----
+  - id: misc-001
+    term_id: pe
+    claim: "市盈率低说明这只股票便宜"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-002
+    term_id: pb
+    claim: "市净率低说明这只股票安全"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-003
+    term_id: ps
+    claim: "市销率低说明公司生意不好"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-004
+    term_id: peg
+    claim: "PEG 小说明这只股票一定被低估了"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-005
+    term_id: roe
+    claim: "ROE 高说明公司没有风险"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-006
+    term_id: roa
+    claim: "ROA 和 ROE 说的是同一件事"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-007
+    term_id: roic
+    claim: "ROIC 高说明股价一定会涨"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-008
+    term_id: eps
+    claim: "每股收益高说明股价一定高"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-009
+    term_id: gross-margin
+    claim: "毛利率高说明这个行业没有竞争"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-010
+    term_id: d-e
+    claim: "负债率高说明公司马上要出问题"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-011
+    term_id: cagr
+    claim: "复合增速高就等于未来也能保持"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-012
+    term_id: fcf
+    claim: "自由现金流为正说明公司永远不会缺钱"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  # ---- 技术指标 ----
+  - id: misc-020
+    term_id: ma
+    claim: "价格站上均线就说明接下来会涨"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-021
+    term_id: ema
+    claim: "EMA 比 MA 更准"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-022
+    term_id: macd
+    claim: "MACD 金叉就是买入信号"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-023
+    term_id: rsi
+    claim: "RSI 超过 70 就该抛掉了"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-024
+    term_id: kdj
+    claim: "KDJ 死叉说明趋势要反转了"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-025
+    term_id: boll
+    claim: "碰到布林线上轨就该进场"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-026
+    term_id: atr
+    claim: "ATR 大说明波动稳定"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-027
+    term_id: vwap
+    claim: "价格高于 VWAP 就说明有人在压价"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-028
+    term_id: obv
+    claim: "OBV 创新高说明主力在买"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-029
+    term_id: golden-cross
+    claim: "金叉说明趋势已经确认反转"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-030
+    term_id: golden-cross
+    claim: "均线金叉出现的频率固定不变"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-031
+    term_id: macd
+    claim: "MACD 反映的是公司赚不赚钱"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  # ---- 走势形态 ----
+  - id: misc-040
+    term_id: dead-cat-bounce
+    claim: "死猫反弹说明底部已经确定"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-041
+    term_id: rally
+    claim: "一轮上涨说明后面还会继续涨"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-042
+    term_id: pullback
+    claim: "回调就是趋势反转"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-043
+    term_id: correction
+    claim: "调整幅度固定是百分之十"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-044
+    term_id: crash
+    claim: "崩盘之后市场通常马上恢复"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-045
+    term_id: breakout
+    claim: "突破压力位就说明一定涨得动"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-046
+    term_id: breakdown
+    claim: "跌破支撑位说明底部就在下面"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-047
+    term_id: ath
+    claim: "创了历史新高就说明不会跌了"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-048
+    term_id: support
+    claim: "支撑位是跌到那里就一定反弹"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-049
+    term_id: resistance
+    claim: "阻力位是涨到那里就一定回落"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  # ---- 买卖操作 ----
+  - id: misc-060
+    term_id: averaging-down
+    claim: "补仓摊低成本说明一定会回本"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-061
+    term_id: stop-loss
+    claim: "设了止损就一定不会亏钱"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-062
+    term_id: rebalance
+    claim: "再平衡能提高收益"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-063
+    term_id: going-all-in
+    claim: "满仓说明这个人很有把握"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-064
+    term_id: hold
+    claim: "长期持有就一定赚"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-065
+    term_id: buy-the-dip
+    claim: "抄底说明底部已经出现"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-066
+    term_id: paper-hands
+    claim: "卖在最低点说明判断错了"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-067
+    term_id: bag-holder
+    claim: "被套住说明当初买得对"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  # ---- 机构与资金 ----
+  - id: misc-070
+    term_id: smart-money
+    claim: "聪明钱买入说明可以跟着买"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-071
+    term_id: short-squeeze
+    claim: "逼空说明空头马上要爆仓"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-072
+    term_id: hedge-fund
+    claim: "对冲基金一定比股票赚得多"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-073
+    term_id: whale
+    claim: "看到大额成交就能知道对方在做什么"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-074
+    term_id: retail
+    claim: "散户买卖都是错的"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-075
+    term_id: margin-call
+    claim: "追保说明只是小事"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  # ---- 交易与风险 ----
+  - id: misc-080
+    term_id: leverage
+    claim: "杠杆能放大收益所以更划算"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-081
+    term_id: drawdown
+    claim: "回撤小说明风险低"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-082
+    term_id: sharpe
+    claim: "夏普比率高就等于收益高"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-083
+    term_id: beta
+    claim: "贝塔低说明这只股票安全"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-084
+    term_id: alpha
+    claim: "阿尔法高说明能一直跑赢"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-085
+    term_id: var
+    claim: "风险价值就是最多会亏的钱"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-086
+    term_id: liquidity
+    claim: "流动性差说明公司要出事了"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-087
+    term_id: p-l
+    claim: "盈亏比高说明这笔交易很划算"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-088
+    term_id: roi
+    claim: "投资回报率高说明应该继续投"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  # ---- 宏观经济与政策 ----
+  - id: misc-090
+    term_id: cpi
+    claim: "CPI 回落就等于东西马上降价"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-091
+    term_id: ppi
+    claim: "PPI 涨了就等于超市的菜涨价了"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-092
+    term_id: pce
+    claim: "PCE 和 CPI 是一回事"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-093
+    term_id: gdp
+    claim: "GDP 增长就等于股市会涨"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-094
+    term_id: rate-cut
+    claim: "降息说明接下来一定能涨"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-095
+    term_id: rate-hike
+    claim: "加息说明经济马上要崩"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-096
+    term_id: lpr
+    claim: "LPR 调整只影响房贷"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-097
+    term_id: qe
+    claim: "量化宽松一定会带来通胀"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-098
+    term_id: dxy
+    claim: "美元指数跌人民币就一定升值"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  # ---- 基金与产品 ----
+  - id: misc-100
+    term_id: aum
+    claim: "规模大说明这只基金收益高"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-101
+    term_id: nav
+    claim: "净值高就等于这只基金贵"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-102
+    term_id: etf
+    claim: "买 ETF 就等于分散了所有风险"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-103
+    term_id: reit
+    claim: "REITs 完全没有风险"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-104
+    term_id: adr
+    claim: "ADR 价格和美股完全一样"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  # ---- 市场情绪 ----
+  - id: misc-110
+    term_id: bull
+    claim: "看多的人说的会成真"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-111
+    term_id: bear
+    claim: "看空的人一定知道要跌"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-112
+    term_id: fomo
+    claim: "怕错过说明这次机会难得"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-113
+    term_id: fud
+    claim: "有疑虑说明对方的说法有问题"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-114
+    term_id: panic-selling
+    claim: "恐慌抛售说明市场已经到底"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-115
+    term_id: euphoria
+    claim: "情绪高涨说明行情还会继续"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-116
+    term_id: risk-on
+    claim: "风险偏好回来就该加仓"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  # ---- 财报与公司 ----
+  - id: misc-120
+    term_id: beat
+    claim: "超预期一次说明公司一直很好"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-121
+    term_id: miss
+    claim: "低于预期一次这家公司就不行了"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-122
+    term_id: guidance
+    claim: "公司给的目标一定能达到"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-123
+    term_id: moat
+    claim: "有护城河就说明能一直赚"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-124
+    term_id: blue-chip
+    claim: "蓝筹股不会跌"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-125
+    term_id: penny-stock
+    claim: "低价股说明便宜"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-126
+    term_id: dividend
+    claim: "分红多说明公司经营好"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-127
+    term_id: buyback
+    claim: "回购说明公司股价一定被低估"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  # ---- 常见误用与澄清（信任基石分类，全量必做） ----
+  - id: misc-130
+    term_id: treating-term-as-signal
+    claim: "看到这个词就能提前知道行情"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-131
+    term_id: pe-low-equals-cheap
+    claim: "市盈率低就等于便宜"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-132
+    term_id: chasing-rally
+    claim: "追涨杀跌是聪明做法"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-133
+    term_id: kline-is-prediction
+    claim: "K 线能预测未来走势"
+    reviewed_by: TBD
+    reviewed_at: null
+
+  - id: misc-134
+    term_id: main-force-is-dealer
+    claim: "主力就是庄家"
+    reviewed_by: TBD
+    reviewed_at: null

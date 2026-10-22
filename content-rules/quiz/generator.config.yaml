@@ -1,0 +1,279 @@
+# 自动出题配置 —— 生成参数、干扰项决策树、弃权阈值、质量门禁
+# 本文件是 packages/quiz 生成器的唯一参数来源。
+# 任何参数变更 = 一次 PR = 触发评测回归（见 §3.1 抽检不合格回退表）
+version: 2026-10-20
+generator_version: v1.0
+
+# ---------------------------------------------------------------------------
+# 题目配额（总量 374 ≥ 产品要求的 360）
+# 依据：产品 §7.7 词条 120 条；难度分布由 §9.2 C1 验收（L1≥40/L2≥50/L3≥10）反推
+# ---------------------------------------------------------------------------
+quota:
+  total_terms: 120
+  total_senses: 145
+  by_difficulty:
+    L1: { terms: 45, questions_per_term: 2 }
+    L2: { terms: 60, questions_per_term: 3 }
+    L3: { terms: 15, questions_per_term: 4 }
+  special:
+    T3_context: 24
+    T4_polysemy: 20
+  expected_total: 374
+  auto_manual:
+    pure_auto: 262      # T1×120 + T2×120 + 变体×22
+    semi_auto: 68      # 需人工润色题干
+    pure_manual: 44    # T3×24 + T4×20
+    auto_ratio: 0.70
+    manual_ratio: 0.30
+
+# ---------------------------------------------------------------------------
+# 题型定义
+# ---------------------------------------------------------------------------
+types:
+  T1:
+    label: 正向识词
+    stem_templates:
+      - "{term} 在财经语境里指的是？"
+      - "{term}（{context_label}里）指的是？"
+      - "{term} 这个缩写通常代表什么？"
+      - "{term} 这个说法在股市里是什么意思？"
+    template_by_condition:
+      polysemy: "{term}（{context_label}里）指的是？"
+      l3: "{term} 这个指标/说法，具体是怎么算、怎么理解？"
+      english_abbr: "{term} 这个缩写通常代表什么？"
+      default: "{term} 在财经语境里指的是？"
+    correct_option_source: sense.plain_explain   # 不用 advanced_explain（过长）
+    rationale_priority: [confusion, plain_plus_example, plain_plus_advanced, plain_only]
+
+  T2:
+    label: 反向识词
+    variants:
+      T2a:
+        label: 释义反向
+        ratio: 0.60
+        source: sense.plain_explain
+        process: 主语化剥离 → 描述句化
+        subject_patterns:
+          - /^(?<term>[^，,。]{1,20}?)\s*(就是|是|指的是|说的是|意为)\s*(?<rest>.+)$/
+          - /^(?<rest>.+?)[，,]\s*(用来|作用是|意思是)\s*(?<rest2>.+)$/
+        fallback: 取最后一个逗号后的分句
+        min_len: 12
+        max_len: 60
+      T2b:
+        label: 举例反向
+        ratio: 0.40
+        source: sense.example
+        process: 剥离引语 → 提取动作描述 → 术语 surface 全量替换为指代
+        referent_by_category:
+          技术指标: 这个指标
+          走势形态: 这种走势
+          宏观经济: 这个说法
+          宏观政策: 这个说法
+          财报公司: 这个数字
+          估值财务: 这个数字
+          基金产品: 这个产品
+          机构与资金: 这个机构
+          交易风险: 这件事
+          市场情绪: 这个说法
+          买卖操作: 这个操作
+          常见误用: 这句话
+        min_len: 12
+        max_len: 60
+    stem_tails:
+      - "这个说法指的是哪个词？"
+      - "这指的是哪个术语？"
+      - "用哪个词能准确对应这段话？"
+
+# ---------------------------------------------------------------------------
+# 干扰项决策树
+# ---------------------------------------------------------------------------
+distractor:
+  # P0-P5 候选池来源
+  pools:
+    P0:
+      source: term_relation
+      relation_type: contrast
+      prio: 0
+      expect_min: 1
+    P1:
+      source: category_l2 + same_difficulty
+      prio: 1
+    P2:
+      source: category_l2 + adjacent_difficulty
+      prio: 1.5
+    P3:
+      source: category_l1 + same_difficulty
+      prio: 2
+    P4:
+      source: cross_category_near_surface
+      max_edit_distance: 1
+      prio: 3
+    P5:
+      source: category_l1 + same_difficulty   # 注意：不是全库随机
+      prio: 5
+      enabled: false        # 默认禁用。P0-P4 不足时才放开，且必须过全部弃权检查
+  fallback_enabled: true
+  fallback_prio: 5
+
+  # 过滤闸门（8 道）
+  filters:
+    F1: { rule: exclude_self, blocking: true }
+    F2: { rule: exclude_related_relation, blocking: true,
+          note: "related = 常一起出现，语义相邻 → 两个都对的歧义题" }
+    F3: { rule: exclude_alias_overlap, blocking: true }
+    F4: { rule: exclude_near_synonym, blocking: true, dice3_threshold: 0.62 }
+    F5: { rule: length_balance, blocking: true,
+          ratio_min: 0.62, ratio_max: 1.60, abs_diff_max: 10,
+          len_min: 10, len_max: 46 }
+    F6: { rule: banned_scan + imperative_scan, blocking: true }
+    F7: { rule: exclude_self_alias_trap, blocking: true }
+    F8: { rule: min_content_chars, blocking: true, min_chars: 8 }
+
+  # 4 道自动弃权检查
+  abstain:
+    C1:
+      name: 排除法可解
+      check: unique_discriminative_feature_on_correct
+      features:
+        - contains_arabic_number
+        - contains_time_word
+        - contains_question_mark
+        - contains_risk_tone
+        - contains_negation
+        - length_unique_bucket
+        - contains_paren_note
+      reason_code: ELIMINABLE
+    C2:
+      name: 荒谬选项
+      check: count(content_overlap < 0.08) >= 2
+      reason_code: ABSURD_OPTIONS
+    C3:
+      name: 集合歧义
+      check: (1 - sim(correct)) < inter_sim + 0.12
+      reason_code: AMBIGUOUS_SET
+    C4:
+      name: 长度离群
+      check: correct_is_unique_longest_or_shortest
+      reason_code: LENGTH_OUTLIER
+  retry:
+    strategy: deterministic_slide   # 按 prio 顺序取下一组候选，不随机
+    max_attempts: 5
+    on_exhausted: mark_no_auto       # 标记该 (term, type) 转人工，不凑数
+
+  # 长度平衡
+  length:
+    allowed_overflow_truncation: true   # 允许截断到第一个句号
+    truncation_pattern: /[。！？].*$/
+    no_padding: true                    # 长度不足不做补字，换候选
+
+  # 多样性
+  diversity:
+    max_same_term_questions: { L1: 2, L2: 3, L3: 4 }
+    unique_interference_set_per_term: true
+    max_option_text_appearances_global: 6
+    source_reason_max_per_question: 2
+    answer_position_distribution: { min: 0.18, max: 0.32, window: 100 }
+    same_term_same_level_forbidden: true   # 同关卡内同一 term 不得出现 2 次
+
+  # "这不代表什么"型干扰项
+  not_meaning_option:
+    source: misconceptions.yaml
+    auto_reverse_from_not_meaning: false   # ★ 禁止自动反转（语义质量不可控）
+    max_per_question: 1
+    sim_to_correct_max: 0.5
+    inject_probability: 0.30
+    level_guarantee: true                  # 关卡编排器保证每关至少 1 道
+
+# ---------------------------------------------------------------------------
+# 相似度度量（不使用中文分词器 —— 与架构 §3.1.4 "不引入 jieba" 决策一致）
+# ---------------------------------------------------------------------------
+similarity:
+  primary: dice3
+  dice3: { n: 3, formula: "2*|A∩B| / (|A|+|B|)" }
+  content_overlap: { n: 2, strip_stopwords: true, strip_pronouns: true }
+
+# ---------------------------------------------------------------------------
+# 答案依据
+# ---------------------------------------------------------------------------
+rationale:
+  min_len: 30
+  max_len: 80
+  max_similarity_to_correct_option: 0.70   # dice3
+  reject_if_banned: true
+  reject_if_jargon: true
+  reject_if_imperative: true
+  reject_if_contains_security: true
+  on_failure: mark_needs_human_rationale
+
+# ---------------------------------------------------------------------------
+# 质量门禁
+# ---------------------------------------------------------------------------
+quality_gate:
+  offline_difficulty:
+    target_band: [0.58, 0.67]      # 比线上目标 [0.55,0.70] 收紧，留分布偏移余量
+    features: [f1, f2, f3, f4, f5, f6, f7, f8]
+    model: logistic_regression
+    cold_start_beta: { alpha: 0.65, beta: 0.35 }   # Beta 先验
+  inspection:
+    early_batches: { threshold_questions: 50, ratio: 1.0 }
+    mid: { threshold_questions: 200, ratio: 0.5 }
+    stable: { ratio: 0.20 }
+    on_rule_change: rerun_all_previous_batch
+    dimensions:
+      D1: { name: 答案正确性, blocking: true }
+      D2: { name: 干扰项质量, blocking: true }
+      D3: { name: 送分检测, blocking: true }
+      D4: { name: 依据质量, blocking: true }
+      D5: { name: 表述合规, blocking: true }
+      D6: { name: 超纲检测, blocking: true }
+      D7: { name: 难度体感, blocking: false, feeds: knob_tuning }
+      D8: { name: 题干自然度, blocking: conditional, note: "T2b 阻塞，T1/T2a 参考" }
+
+# ---------------------------------------------------------------------------
+# 首次正确率调优旋钮
+# ---------------------------------------------------------------------------
+knobs:
+  K1: { name: contrast 干扰项配额, dir: "增加→更难", scope: all, cost: "改 1 常量 + 重生成" }
+  K2: { name: 干扰项相似度下限, range: [0.62, 0.78], dir: "提高→更难", scope: all }
+  K3: { name: 干扰项长度窗口, range: [[0.62,1.60],[0.72,1.42]], dir: "收窄→更难", scope: all }
+  K4: { name: 跨分类干扰项占比上限, range: [0,1], dir: "提高→更易", scope: all }
+  K5: { name: 题目类型配比, dir: "T1 占比↑→更易", scope: all }
+  K6: { name: L1 词条题位占比, dir: "↑→更易", scope: level }
+  K7: { name: 移除这不代表什么型干扰项, dir: "待实测", scope: all,
+        note: "对小白可能更难（失去迷惑项），对熟手可能更易（失去提示）→ 必须实测" }
+  K8: { name: 依据展示时机, dir: "信息更少→更易", scope: frontend, needs: frontend 确认 }
+
+# ---------------------------------------------------------------------------
+# 去重
+# ---------------------------------------------------------------------------
+dedup:
+  exact_fingerprint: sha1(type + term_id + sense_id + stem + sorted(options))
+  interference_fingerprint: sha1(sorted(distractor_term_ids))
+  same_term_semantic: { metric: jaccard3, threshold: 0.80 }
+  cross_term_semantic:
+    jaccard3_threshold: 0.75
+    gloss_dice3_threshold: 0.60
+  answer_equivalence: { metric: dice3, threshold: 0.85 }
+  keep_preference: manual > semi > auto
+
+# ---------------------------------------------------------------------------
+# 词条修订联动
+# ---------------------------------------------------------------------------
+staleness:
+  # ★ fingerprint 输入用「参与生成的内容字段哈希」，不用 content_version
+  #   否则每次改版都触发全量重审（无谓返工）
+  fingerprint_inputs:
+    - term.content_version     # 仅审计，不作为触发条件
+    - sense.gloss
+    - sense.example
+    - sense.not_meaning
+    - term.confusion[0]
+    - misconceptions[term_id].claim
+    - distractor_term_ids
+    - generator_version
+  rules:
+    source_auto_and_changed: regenerate
+    source_semi_or_manual_and_changed: mark_needs_human_review
+    term_status_needs_revision: mark_stale
+    term_archived: soft_delete_question
+    term_sense_added: recompute_quota

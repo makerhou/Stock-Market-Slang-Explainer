@@ -1,0 +1,26 @@
+{
+  "name": "stock-jargon-explainer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "股票黑话解释器 — 面向金融小白的术语查询 + 测验 Web 工具",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "npm run dev --workspace=@jargon/web",
+    "build": "npm run build --workspace=@jargon/web",
+    "start": "npm run start --workspace=@jargon/web",
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "db:generate": "npm run db:generate --workspace=@jargon/db",
+    "db:migrate": "npm run db:migrate --workspace=@jargon/db"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}

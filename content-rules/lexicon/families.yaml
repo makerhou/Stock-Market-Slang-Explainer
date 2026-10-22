@@ -1,0 +1,233 @@
+# 族模板注册表 —— 骨架与差异分离
+# 作用：把同构词条的共同结构交给模板，只让作者填差异槽
+# 反雷同三重保障：
+#   ① required_slots 缺失 → CI 阻断（TERM-011）
+#   ② 同族成员 plain_explain 两两 dice3 > 0.45 → CI 阻断（DUP-002 family）
+#   ③ 同族成员 example 场景槽位互斥（DUP-003 family）
+#   ④ 全库任意两词条 plain_explain dice3 > 0.60 → CI 阻断（DUP-002 global）
+# 维护责任：内容负责人提出 / 内容工程维护
+
+version: 2026-10-20
+
+families:
+
+  # -------------------------------------------------------------------------
+  - id: ratio-metric
+    label: "比率型指标（分子 ÷ 分母）"
+    category_l1: 估值与财务
+    required_slots: [numerator, denominator, quote, common_misuse]
+    skeleton:
+      plain_template: "把{term}算出来就是一个比值：{numerator}除以{denominator}，{quote}。"
+      advanced_template: "{term} = {numerator} ÷ {denominator}，衡量的是{quote}。"
+      not_meaning_template: "{term} 低只说明价格和{denominator}的比例关系，不等于这只股票便宜。"
+      risk_note_template: "比率型指标只反映价格与{denominator}之间的关系，不构成买卖依据。"
+    example_slots:
+      scene_pool: [生活类比, 职场社交, 家庭财务, 商业实务]
+      distinct_required: true
+    members:
+      - term: pe
+        numerator: 股价
+        denominator: 每年净利润
+        quote: 愿意为公司一元利润付多少钱
+        common_misuse: "P/E 低就等于这只股票便宜"
+      - term: pb
+        numerator: 股价
+        denominator: 账面净资产
+        quote: 愿意为公司一元家底付多少钱
+        common_misuse: "P/B 低就等于这只股票安全"
+      - term: ps
+        numerator: 股价
+        denominator: 每年销售收入
+        quote: 愿意为公司一元收入付多少钱
+        common_misuse: "P/S 低就等于这只股票便宜"
+      - term: peg
+        numerator: 股价
+        denominator: 未来利润增速
+        quote: 愿意为公司一元增长付多少钱
+        common_misuse: "PEG 低就等于这只股票稳"
+
+  # -------------------------------------------------------------------------
+  - id: return-metric
+    label: "回报率型指标（利润 ÷ 某个基数）"
+    category_l1: 估值与财务
+    required_slots: [numerator, denominator, perspective, quote, common_misuse]
+    skeleton:
+      plain_template: "{term} 看的是{denominator}里，一年能分到多少{quotation_unit}。"
+      advanced_template: "{term} = {numerator} ÷ {denominator}，从{perspective}的视角看盈利能力。"
+      not_meaning_template: "{term} 高只说明过去一段时间这个比例高，不能说明之后也一样。"
+      risk_note_template: "历史比例不代表未来表现，不构成买卖依据。"
+    example_slots:
+      scene_pool: [生活类比, 职场社交, 家庭财务, 商业实务]
+      distinct_required: true
+    members:
+      - term: roe
+        numerator: 净利润
+        denominator: 股东权益
+        perspective: 股东
+        quotation_unit: 利润
+        common_misuse: "ROE 高就等于公司没有风险"
+      - term: roa
+        numerator: 净利润
+        denominator: 全部资产
+        perspective: 全部出资人
+        quotation_unit: 利润
+        common_misuse: "ROA 和 ROE 是一回事"
+      - term: roic
+        numerator: 税后经营利润
+        denominator: 投入资本
+        perspective: 全部长期出资人
+        quotation_unit: 回报
+        common_misuse: "ROIC 高就等于股价一定涨"
+
+  # -------------------------------------------------------------------------
+  - id: moving-average
+    label: "均线族（近期价格的平均）"
+    category_l1: 技术指标
+    required_slots: [window_set, weight_rule, smoothing_effect, common_misuse]
+    skeleton:
+      plain_template: "{term} 是把最近一段时间的价格平均一下连成线，作用是{smoothing_effect}。"
+      advanced_template: "{term} 取 {window_set}，{weight_rule}。"
+      not_meaning_template: "价格站上或跌破{term}只是对过去价格的描述，不能说明之后会怎么走。"
+      risk_note_template: "技术指标是对历史价格的统计，不预测未来。"
+    example_slots:
+      scene_pool: [生活类比, 职场社交, 商业实务]
+      distinct_required: true
+    members:
+      - term: ma
+        window_set: 5/10/20/60 日
+        weight_rule: 简单平均，近期价格权重相同
+        smoothing_effect: 盖住忽高忽低的波动
+        common_misuse: "站上均线就说明接下来会涨"
+      - term: ema
+        window_set: 同 MA 常见周期
+        weight_rule: 指数加权，近期价格权重更高
+        smoothing_effect: 更快贴近当下的价格
+        common_misuse: "EMA 比 MA 准"
+      - term: sma
+        window_set: 任意指定周期
+        weight_rule: 简单移动平均
+        smoothing_effect: 抹平短期起伏
+        common_misuse: "SMA 和 MA 不是一个东西"
+
+  # -------------------------------------------------------------------------
+  - id: price-index
+    label: "物价指数族（衡量一篮子东西的价格变化）"
+    category_l1: 宏观经济
+    required_slots: [basket_content, comparison_base, common_misuse]
+    skeleton:
+      plain_template: "{term} 是给一篮子日常商品的价格拍个照，再和{basket_content}比，看它们变贵了还是变便宜了。"
+      advanced_template: "{term} 统计{basket_content}的价格，与{comparison_base}相比得出涨跌幅。"
+      not_meaning_template: "{term} 变化只反映这一篮子商品，不等于你个人生活成本一定同样变化。"
+      risk_note_template: "统计口径以发布机构公布为准，不构成投资建议。"
+    example_slots:
+      scene_pool: [生活类比, 家庭财务, 职场社交]
+      distinct_required: true
+    members:
+      - term: cpi
+        basket_content: 居民日常消费的商品和服务
+        comparison_base: 上年同期的价格
+        common_misuse: "CPI 回落就等于东西马上降价"
+      - term: ppi
+        basket_content: 工厂出厂的工业产品
+        comparison_base: 上年同期的出厂价
+        common_misuse: "PPI 涨了就等于超市的菜涨价了"
+      - term: pce
+        basket_content: 个人消费支出的更宽口径
+        comparison_base: 上年同期的支出价格
+        common_misuse: "PCE 和 CPI 是一回事"
+
+  # -------------------------------------------------------------------------
+  - id: bull-bear
+    label: "多空阵营族"
+    category_l1: 市场情绪
+    required_slots: [literal_meaning, figurative_meaning, frequency, common_misuse]
+    skeleton:
+      plain_template: "{term} 原本说的是{literal_meaning}，在股票里是{figurative_meaning}。"
+      advanced_template: "{term} 在市场语境中指{figurative_meaning}，属于{frequency}说法。"
+      not_meaning_template: "有人说{term}，只说明他对行情的判断，不代表接下来一定这样走。"
+      risk_note_template: "多空说法是对他人观点的描述，不构成任何操作建议。"
+    example_slots:
+      scene_pool: [职场社交, 生活类比]
+      distinct_required: true
+    members:
+      - term: bull
+        literal_meaning: 成年公牛
+        figurative_meaning: 看好行情、觉得会涨的一方
+        frequency: 高频
+        common_misuse: "他说自己是 bull 就说明他说的会成真"
+      - term: bear
+        literal_meaning: 成年母熊
+        figurative_meaning:  看跌行情、觉得会跌的一方
+        frequency: 高频
+        common_misuse: "看空的人一定知道要跌"
+
+  # -------------------------------------------------------------------------
+  - id: earnings-surprise
+    label: "财报超预期族"
+    category_l1: 财报与公司
+    required_slots: [benchmark, surprise_direction, plain_reading, common_misuse]
+    skeleton:
+      plain_template: "{term} 是拿公司这次报出来的数字和{benchmark}比，看是{surprise_direction}。"
+      advanced_template: "{term} 指实际值与{benchmark}的偏离，{plain_reading}。"
+      not_meaning_template: "{term} 只说明这一次报的数字和预期有差距，不能推出之后股价的走向。"
+      risk_note_template: "单期财报不代表长期表现，不构成投资建议。"
+    example_slots:
+      scene_pool: [职场社交, 商业实务]
+      distinct_required: true
+    members:
+      - term: beat
+        benchmark: 市场事先估计的数字
+        surprise_direction: 比预期好
+        plain_reading: 实际数字高于预期
+        common_misuse: "beat 一次就说明这家公司一直好"
+      - term: miss
+        benchmark: 市场事先估计的数字
+        surprise_direction: 比预期差
+        plain_reading: 实际数字低于预期
+        common_misuse: "miss 一次这家公司就不行了"
+
+  # -------------------------------------------------------------------------
+  - id: price-limit
+    label: "涨跌停与熔断族"
+    category_l1: 交易与风险
+    required_slots: [threshold, mechanism, common_misuse]
+    skeleton:
+      plain_template: "{term} 是{mechanism}，让价格一天最多只能动{threshold}。"
+      advanced_template: "{term} 的规则是{mechanism}，幅度上限{threshold}。"
+      not_meaning_template: "{term} 是交易规则，不说明这家公司值不值得持有。"
+      risk_note_template: "相关产品可能出现本金大幅损失，不构成投资建议。"
+    example_slots:
+      scene_pool: [生活类比, 职场社交]
+      distinct_required: true
+    members:
+      - term: limit-up
+        threshold: 10%
+        mechanism: 涨到当天上限就排队等卖
+        common_misuse: "涨停说明第二天一定还涨"
+      - term: limit-down
+        threshold: 10%
+        mechanism: 跌到当天下限就排队等买
+        common_misuse: "跌停说明跌不动了"
+
+  # -------------------------------------------------------------------------
+  - id: market-value
+    label: "规模型指标族（某个总量）"
+    category_l1: 基金产品
+    required_slots: [what_is_measured, unit, common_misuse]
+    skeleton:
+      plain_template: "{term} 就是一个数：{what_is_measured}，单位是{unit}。"
+      advanced_template: "{term} 衡量{what_is_measured}，单位{unit}。"
+      not_meaning_template: "{term} 大只说明规模大，不说明赚得多。"
+      risk_note_template: "规模数据以披露口径为准，不构成投资建议。"
+    example_slots:
+      scene_pool: [生活类比, 商业实务]
+      distinct_required: true
+    members:
+      - term: aum
+        what_is_measured: 基金一共管着多少钱
+        unit: 元
+        common_misuse: "AUM 大就等于收益高"
+      - term: nav
+        what_is_measured: 基金每一份现在值多少钱
+        unit: 元
+        common_misuse: "净值高就等于这只基金贵"

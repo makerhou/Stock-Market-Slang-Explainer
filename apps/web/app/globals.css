@@ -1,0 +1,340 @@
+@import "tailwindcss";
+
+/* 隐藏 search 输入框内部的原生清除按钮（webkit 的 “×”），避免双输入框观感 */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+}
+input[type="search"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* 搜索框：容器已有描边，聚焦时不再叠加内部蓝紫描边（全局 :focus-visible 会命中输入框） */
+#search-input:focus,
+#search-input:focus-visible {
+  outline: none;
+}
+
+:root {
+  /* ── 基础文字 ── */
+  --color-fg: #0f172a;          /* 标题墨色 */
+  --color-body: #334155;        /* 正文 */
+  --color-muted: #64748b;       /* 次级文字 */
+  --color-faint: #94a3b8;       /* 占位/最弱 */
+
+  /* ── 表面与边框 ── */
+  --color-surface: #ffffff;     /* 卡片表面 */
+  --color-border: #e8eaf1;      /* 分隔线 */
+  --color-bg: #f3f4f8;          /* 画布：柔和冷灰 */
+
+  /* ── 品牌色（金融·可信·靛蓝）── */
+  --brand: #4f46e5;
+  --brand-strong: #4338ca;
+  --brand-soft: #eef2ff;
+  --brand-ring: #c7d2fe;
+
+  /* ── 语义色 ── */
+  --ok: #059669;
+  --ok-bg: #ecfdf5;
+  --bad: #e11d48;
+  --bad-bg: #fff1f2;
+  --warn: #d97706;
+  --warn-bg: #fffbeb;
+
+  /* ── 市场风险色（中国习惯：涨红跌绿）── */
+  --up: #e11d48;                /* 涨 / 红 */
+  --up-bg: #fff1f2;
+  --down: #059669;              /* 跌 / 绿 */
+  --down-bg: #ecfdf5;
+
+  /* ── 风险提示 ── */
+  --color-risk-bg: #fffbeb;
+  --color-risk-border: #fcd34d;
+  --color-risk-fg: #92400e;
+
+  /* ── 高亮 Token（色盲友好：黄底 + 下边框）── */
+  --mark-bg: #fde68a;
+  --mark-fg: #1f2937;
+  --mark-weak-bg: #fef3c7;
+
+  /* ── 阴影（分层柔和）── */
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.05);
+  --shadow-card: 0 1px 2px rgba(15, 23, 42, 0.04), 0 16px 38px -20px rgba(15, 23, 42, 0.22);
+  --shadow-lift: 0 2px 4px rgba(15, 23, 42, 0.06), 0 24px 48px -22px rgba(79, 70, 229, 0.30);
+  --radius-card: 1.1rem;
+  --radius-btn: 0.85rem;
+
+  --font-size-base: 100%; /* 三档字号：100% / 115% / 130%（A3 无障碍） */
+}
+
+html {
+  font-size: var(--font-size-base);
+}
+
+body {
+  background-color: var(--color-bg);
+  /* 画布顶部一抹极淡品牌光晕，营造层次（不喧宾夺主） */
+  background-image:
+    radial-gradient(120% 60% at 50% -10%, rgba(99, 102, 241, 0.08), rgba(99, 102, 241, 0) 60%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--color-body);
+  font-family: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "tnum" 1; /* 数字等宽，统计更稳 */
+}
+
+/* 选区：品牌浅染 */
+::selection {
+  background: var(--brand-soft);
+  color: var(--brand-strong);
+}
+
+/* 焦点环（a11y）：品牌色 + 2px offset，仅键盘聚焦显示 */
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+/* 动效降级（a11y）：用户偏好减少动效时关闭过渡/动画 */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ───────────────────────── 语义原语 ───────────────────────── */
+
+/* 页面内容容器：移动优先，桌面收窄居中、留白充足 */
+.app-container {
+  width: 100%;
+  max-width: 42rem;      /* ≈ 672px，阅读舒适 */
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+@media (min-width: 768px) {
+  .app-container {
+    padding-inline: 1.5rem;
+  }
+}
+
+/* 卡片：白底 + 细边 + 柔和分层阴影 */
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+}
+
+/* 品牌渐变（hero / 主行动） */
+.brand-gradient {
+  background-image: linear-gradient(135deg, #6366f1 0%, #4f46e5 55%, #4338ca 100%);
+}
+
+/* 区块标题：左侧靛蓝短条 + 紧凑字距 */
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--color-fg);
+}
+.section-title::before {
+  content: "";
+  width: 4px;
+  height: 1rem;
+  border-radius: 9999px;
+  background: var(--brand);
+}
+
+/* 胶囊 / 标签 */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  border-radius: 9999px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  padding: 0.2rem 0.7rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-muted);
+  white-space: nowrap;
+}
+.chip-soft {
+  background: var(--brand-soft);
+  border-color: transparent;
+  color: var(--brand-strong);
+}
+
+/* 按钮 */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  min-height: 44px;            /* 触摸友好 */
+  border-radius: var(--radius-btn);
+  padding: 0.6rem 1.1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: transform 0.12s ease, background-color 0.18s ease, box-shadow 0.18s ease;
+  cursor: pointer;
+  border: 1px solid transparent;
+  user-select: none;
+}
+.btn:active {
+  transform: scale(0.975);
+}
+.btn-primary {
+  background-image: linear-gradient(135deg, #6366f1 0%, #4f46e5 55%, #4338ca 100%);
+  color: #fff;
+  box-shadow: 0 8px 20px -8px rgba(79, 70, 229, 0.6);
+}
+.btn-primary:hover {
+  box-shadow: 0 12px 26px -8px rgba(79, 70, 229, 0.7);
+}
+.btn-ghost {
+  background: var(--color-surface);
+  border-color: var(--color-border);
+  color: var(--color-body);
+}
+.btn-ghost:hover {
+  border-color: var(--brand-ring);
+  color: var(--brand-strong);
+}
+
+/* 统计数字（等宽、强调） */
+.stat-num {
+  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--color-fg);
+}
+
+/* 入场动画 */
+@keyframes pop-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-pop {
+  animation: pop-in 0.28s ease-out both;
+}
+
+@keyframes slide-in {
+  from { opacity: 0; transform: translateX(10px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+.animate-slide {
+  animation: slide-in 0.22s ease-out both;
+}
+
+/* 细滚动条（webkit） */
+*::-webkit-scrollbar { width: 8px; height: 8px; }
+*::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 9999px;
+}
+
+/* ───────────────────────── 互动可视化（看图秒懂） ───────────────────────── */
+/* 大号触摸滑块：品牌填充 + 圆头，移动端友好 */
+.viz-range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 9999px;
+  background: var(--color-border);
+  outline: none;
+  cursor: pointer;
+}
+.viz-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--brand);
+  border: 4px solid #fff;
+  box-shadow: 0 2px 8px -1px rgba(79, 70, 229, 0.55);
+  cursor: pointer;
+}
+.viz-range::-moz-range-thumb {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--brand);
+  border: 4px solid #fff;
+  box-shadow: 0 2px 8px -1px rgba(79, 70, 229, 0.55);
+  cursor: pointer;
+}
+
+/* 数据小表（文图+表） */
+.viz-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.82rem;
+  overflow: hidden;
+  border-radius: 0.8rem;
+  border: 1px solid var(--color-border);
+}
+.viz-table th,
+.viz-table td {
+  padding: 0.5rem 0.6rem;
+  text-align: left;
+}
+.viz-table thead th {
+  background: var(--brand-soft);
+  color: var(--brand-strong);
+  font-weight: 700;
+}
+.viz-table tbody tr:nth-child(even) td {
+  background: #fafbff;
+}
+.viz-table td:not(:first-child),
+.viz-table th:not(:first-child) {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* 分段切换大按钮 */
+.viz-seg {
+  display: inline-flex;
+  gap: 0.3rem;
+  background: var(--color-bg);
+  border-radius: 9999px;
+  padding: 0.25rem;
+}
+.viz-seg button {
+  min-height: 40px;
+  border-radius: 9999px;
+  padding: 0.4rem 0.9rem;
+  font-weight: 700;
+  font-size: 0.85rem;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--color-muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.viz-seg button[aria-pressed="true"] {
+  background: #fff;
+  color: var(--brand-strong);
+  border-color: var(--brand-ring);
+  box-shadow: var(--shadow-sm);
+}

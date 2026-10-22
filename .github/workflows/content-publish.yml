@@ -1,0 +1,37 @@
+name: content-publish
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/**"
+      - "content-rules/**"
+      - "packages/content/**"
+  workflow_dispatch:
+
+# 内容编译写库与 schema 迁移都写同一个生产库，必须全局串行（devops-delivery.md §5.2 场景 12）：
+# 并发会导致 content_release.version 跳号 + checksum 与内容错配。
+concurrency:
+  group: prod-db-writes
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      # M2：CI 硬门校验 → 编译 upsert（幂等）→ content_release 版本机制
+      - name: compile & upsert (M2)
+        run: npm run compile --workspace=@jargon/content
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}

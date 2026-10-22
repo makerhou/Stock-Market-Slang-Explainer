@@ -1,0 +1,475 @@
+# 零黑话词典 · Layer B（通用金融黑话集，人工维护）
+# Layer A（词库黑话集）由 CI 从 content/terms/*.mdx 自动抽取，不在此文件维护。
+# 维护责任：内容负责人（入库）/ 专业审核人（季度全量复核）
+# 复核频率：每季度一次 —— 防止过度收录导致误杀
+
+version: 2026-10-20
+layer: B
+maintainer: TBD
+
+# ---------------------------------------------------------------------------
+# B1. 市场情绪与俚语
+# ---------------------------------------------------------------------------
+terms:
+  - surface: 追高
+    kind: jargon
+  - surface: 杀跌
+    kind: jargon
+  - surface: 割肉
+    kind: jargon
+  - surface: 套牢
+    kind: jargon
+  - surface: 解套
+    kind: jargon
+  - surface: 抄底
+    kind: jargon
+  - surface: 站上
+    kind: jargon
+  - surface: 跌破
+    kind: jargon
+  - surface: 冲高
+    kind: jargon
+  - surface: 回落
+    kind: jargon
+  - surface: 高开
+    kind: jargon
+  - surface: 低开
+    kind: jargon
+  - surface: 低走
+    kind: jargon
+  - surface: 横盘
+    kind: jargon
+  - surface: 缩量
+    kind: jargon
+  - surface: 放量
+    kind: jargon
+  - surface: 量能
+    kind: jargon
+  - surface: 换手
+    kind: jargon
+  - surface: 振幅
+    kind: jargon
+  - surface: 跳空
+    kind: jargon
+  - surface: 缺口
+    kind: jargon
+  - surface: 背离
+    kind: jargon
+  - surface: 钝化
+    kind: jargon
+  - surface: 金叉
+    kind: jargon
+  - surface: 死叉
+    kind: jargon
+  - surface: 超买
+    kind: jargon
+  - surface: 超卖
+    kind: jargon
+  - surface: 震荡
+    kind: jargon
+  - surface: 单边
+    kind: jargon
+  - surface: 普涨
+    kind: jargon
+  - surface: 普跌
+    kind: jargon
+  - surface: 分化
+    kind: jargon
+  - surface: 反弹
+    kind: jargon
+  - surface: 反抽
+    kind: jargon
+  - surface: 回踩
+    kind: jargon
+  - surface: 破位
+    kind: jargon
+  - surface: 洗盘
+    kind: jargon
+  - surface: 砸盘
+    kind: jargon
+  - surface: 拉抬
+    kind: jargon
+  - surface: 护盘
+    kind: jargon
+  - surface: 抬轿
+    kind: jargon
+  - surface: 接力
+    kind: jargon
+  - surface: 出货
+    kind: jargon
+  - surface: 进场
+    kind: jargon
+  - surface: 埋伏
+    kind: jargon
+  - surface: 布局
+    kind: jargon
+  - surface: 补涨
+    kind: jargon
+  - surface: 题材
+    kind: jargon
+  - surface: 概念
+    kind: jargon
+  - surface: 龙头
+    kind: jargon
+  - surface: 跟风
+    kind: jargon
+  - surface: 补盘
+    kind: jargon
+  - surface: 满仓
+    kind: jargon
+  - surface: 空仓
+    kind: jargon
+  - surface: 半仓
+    kind: jargon
+  - surface: 加仓
+    kind: jargon
+  - surface: 减仓
+    kind: jargon
+  - surface: 清仓
+    kind: jargon
+  - surface: 建仓
+    kind: jargon
+  - surface: 补仓
+    kind: jargon
+  - surface: 持有
+    kind: jargon
+  - surface: 观望
+    kind: jargon
+  - surface: 追涨
+    kind: jargon
+  - surface: 杀跌盘
+    kind: jargon
+  - surface: 恐慌盘
+    kind: jargon
+  - surface: 情绪
+    kind: contextual   # 语境词：单看不算黑话，需结合搭配判定
+  - surface: 筹码
+    kind: jargon
+  - surface: 主力
+    kind: jargon
+  - surface: 庄家
+    kind: jargon
+  - surface: 散户
+    kind: jargon
+  - surface: 接盘
+    kind: jargon
+  - surface: 解套盘
+    kind: jargon
+  - surface: 老鼠仓
+    kind: jargon
+  - surface: 对倒
+    kind: jargon
+
+# ---------------------------------------------------------------------------
+# B2. 估值与财报常见误用方向
+# ---------------------------------------------------------------------------
+  - surface: 便宜
+    kind: contextual   # 与"股票/估值"搭配时属投资判断
+  - surface: 贵
+    kind: contextual
+  - surface: 值得
+    kind: contextual
+  - surface: 便宜货
+    kind: jargon
+  - surface: 白马
+    kind: jargon
+  - surface: 灰马
+    kind: jargon
+  - surface: 黑马
+    kind: jargon
+  - surface: 仙股
+    kind: jargon
+  - surface: 妖股
+    kind: jargon
+  - surface: 绩差股
+    kind: jargon
+  - surface: 周期股
+    kind: jargon
+  - surface: 成长股
+    kind: jargon
+  - surface: 价值股
+    kind: jargon
+  - surface: 蓝筹股
+    kind: jargon
+  - surface: 科技股
+    kind: jargon
+  - surface: 消费股
+    kind: jargon
+  - surface: 医药股
+    kind: jargon
+  - surface: 资源股
+    kind: jargon
+  - surface: 军工股
+    kind: jargon
+  - surface: 地产股
+    kind: jargon
+  - surface: 金融股
+    kind: jargon
+  - surface: 周期股
+    kind: jargon
+  - surface: 护城河
+    kind: jargon
+  - surface: 业绩爆雷
+    kind: jargon
+  - surface: 暴雷
+    kind: jargon
+  - surface: 踩雷
+    kind: jargon
+  - surface: 踩坑
+    kind: contextual
+  - surface: 翻倍
+    kind: contextual   # 收益承诺语境下违规
+  - surface: 腰斩
+    kind: jargon
+  - surface: 一字板
+    kind: jargon
+  - surface: 天地板
+    kind: jargon
+  - surface: 龙虎榜
+    kind: jargon
+  - surface: 北向资金
+    kind: jargon
+  - surface: 南向资金
+    kind: jargon
+  - surface: 聪明钱
+    kind: jargon
+  - surface: 机构抱团
+    kind: jargon
+  - surface: 抱团
+    kind: jargon
+  - surface: 价值投资
+    kind: contextual
+  - surface: 长期主义
+    kind: contextual
+
+# ---------------------------------------------------------------------------
+# B3. 宏观与政策
+# ---------------------------------------------------------------------------
+  - surface: 放水
+    kind: jargon
+  - surface: 收紧
+    kind: contextual
+  - surface: 宽松
+    kind: contextual
+  - surface: 利好
+    kind: jargon
+  - surface: 利空
+    kind: jargon
+  - surface: 靴子落地
+    kind: jargon
+  - surface: 利好出尽
+    kind: jargon
+  - surface: 强刺激
+    kind: jargon
+  - surface: 大水漫灌
+    kind: jargon
+  - surface: 强美元
+    kind: jargon
+  - surface: 美元指数
+    kind: jargon
+  - surface: 高水位
+    kind: jargon
+  - surface: 硬着陆
+    kind: jargon
+  - surface: 再通胀
+    kind: jargon
+  - surface: 滞胀
+    kind: jargon
+  - surface: 衰退
+    kind: contextual
+  - surface: 过热
+    kind: contextual
+
+# ---------------------------------------------------------------------------
+# B4. 机构与产品
+# ---------------------------------------------------------------------------
+  - surface: 爆仓
+    kind: jargon
+  - surface: 平仓
+    kind: jargon
+  - surface: 穿仓
+    kind: jargon
+  - surface: 对冲
+    kind: jargon
+  - surface: 套保
+    kind: jargon
+  - surface: 套期保值
+    kind: jargon
+  - surface: 展期
+    kind: jargon
+  - surface: 移仓
+    kind: jargon
+  - surface: 交割
+    kind: jargon
+  - surface: 强平
+    kind: jargon
+  - surface: 追保
+    kind: jargon
+  - surface: 穿价
+    kind: jargon
+  - surface: 雪球产品
+    kind: jargon
+  - surface: 结构化产品
+    kind: jargon
+  - surface: 劣后
+    kind: jargon
+  - surface: 优先档
+    kind: jargon
+  - surface: 通道业务
+    kind: jargon
+  - surface: 抽屉协议
+    kind: jargon
+  - surface: 场内
+    kind: jargon
+  - surface: 场外
+    kind: jargon
+  - surface: 做市
+    kind: jargon
+  - surface: 坐庄
+    kind: jargon
+  - surface: 操纵
+    kind: contextual
+  - surface: 内幕
+    kind: contextual
+  - surface: 老鼠
+    kind: contextual
+  - surface: 荐股
+    kind: jargon
+  - surface: 老师
+    kind: contextual   # "带单老师"语境
+  - surface: 带单
+    kind: jargon
+  - surface: 目标价
+    kind: jargon
+  - surface: 目标位
+    kind: jargon
+  - surface: 买点
+    kind: jargon
+  - surface: 卖点
+    kind: jargon
+  - surface: 止盈
+    kind: jargon
+  - surface: 止损
+    kind: jargon
+  - surface: 补仓
+    kind: jargon
+
+# ---------------------------------------------------------------------------
+# B5. 英文缩写黑话（未收录的）
+# ---------------------------------------------------------------------------
+  - surface: TIPS
+    kind: jargon
+  - surface: QT
+    kind: jargon
+  - surface: QE
+    kind: jargon
+  - surface: FOMO
+    kind: jargon
+  - surface: FUD
+    kind: jargon
+  - surface: ATH
+    kind: jargon
+  - surface: TTM
+    kind: jargon
+  - surface: CAGR
+    kind: jargon
+  - surface: WACC
+    kind: jargon
+  - surface: NPV
+    kind: jargon
+  - surface: IRR
+    kind: jargon
+  - surface: DCF
+    kind: jargon
+  - surface: PEG
+    kind: jargon
+  - surface: EPS
+    kind: jargon
+  - surface: ROA
+    kind: jargon
+  - surface: ROIC
+    kind: jargon
+  - surface: OI
+    kind: jargon
+  - surface: IV
+    kind: jargon
+  - surface: HV
+    kind: jargon
+  - surface: AUM
+    kind: jargon
+  - surface: NAV
+    kind: jargon
+  - surface: ADR
+    kind: jargon
+  - surface: SPAC
+    kind: jargon
+  - surface: ETF
+    kind: jargon
+  - surface: REIT
+    kind: jargon
+  - surface: Moat
+    kind: jargon
+  - surface: Guidance
+    kind: jargon
+  - surface: Earnings
+    kind: jargon
+  - surface: Revenue
+    kind: jargon
+  - surface: Dividend
+    kind: jargon
+  - surface: Buyback
+    kind: jargon
+  - surface: Liquidity
+    kind: jargon
+  - surface: Volatility
+    kind: jargon
+  - surface: Momentum
+    kind: jargon
+  - surface: Exposure
+    kind: jargon
+  - surface: Portfolio
+    kind: jargon
+  - surface: Capital
+    kind: jargon
+  - surface: Bond
+    kind: jargon
+  - surface: Float
+    kind: jargon
+  - surface: Margin
+    kind: jargon
+  - surface: Option
+    kind: jargon
+  - surface: Yield
+    kind: jargon
+  - surface: Hedge
+    kind: jargon
+  - surface: Position
+    kind: jargon
+  - surface: Portfolio
+    kind: jargon
+  - surface: Trust
+    kind: jargon
+  - surface: Spread
+    kind: jargon
+  - surface: Volume
+    kind: jargon
+  - surface: Support
+    kind: jargon
+  - surface: Resistance
+    kind: jargon
+  - surface: Bull
+    kind: jargon
+  - surface: Bear
+    kind: jargon
+  - surface: Short
+    kind: jargon
+  - surface: Long
+    kind: jargon
+
+# ---------------------------------------------------------------------------
+# kind 语义说明
+#   jargon     —— 一律视为黑话。出现在 plain_explain / example 中即需解释或替换。
+#   contextual —— 语境词。只有与特定搭配词共同出现时才判定为黑话，
+#                 判定规则见 content-rules/lexicon/banned-words.yaml 的 context_patterns。
+#                 例：「便宜」单独出现是日常词；「P/E 低就等于便宜」是投资判断 → 违规。
+# ---------------------------------------------------------------------------

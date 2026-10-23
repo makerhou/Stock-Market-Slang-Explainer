@@ -1,0 +1,730 @@
+source: gen from full.tsv keyword=主权|养老|保险|券商|公募|私募|做市|托管|信托|资管|投行|QFII|RQFII|互联互通|沪深股通|北上|南下|中投|平准|保险公司|银行理财|委外|明股实债 (待精修)
+terms:
+  - slug: e-t-f-hu-lian-hu-tong
+    headword: ETF互联互通
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 内地与香港交易所之间ETF产品的互挂互投通道。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 内地与香港交易所之间ETF产品的互挂互投通道。
+        example: ETF通开通后，两地投资者可便捷跨境买对方的ETF。
+        isPrimary: true
+    aliases:
+      - raw: ETF互联互通
+        aliasType: primary
+      - raw: ETF通
+        aliasType: en_alias
+      - raw: ETF Connect
+        aliasType: en_alias
+  - slug: q-f-i-i-r-q-f-i-i
+    headword: QFII/RQFII
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 合格境外机构投资者制度，允许外资在额度内直接投资内地证券市场。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 合格境外机构投资者制度，允许外资在额度内直接投资内地证券市场。
+        example: QFII/RQFII额度不断放宽，外资参与A股的渠道更顺畅。
+        isPrimary: true
+    aliases:
+      - raw: QFII/RQFII
+        aliasType: primary
+      - raw: QFII
+        aliasType: en_alias
+      - raw: RQFII
+        aliasType: en_alias
+      - raw: Qualified Foreign Institutional Investor
+        aliasType: en_alias
+  - slug: zuo-shi-shang-zhi-du
+    headword: 做市商制度
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 由持续双边报价的做市商提供流动性的交易制度，常见于债券、期权与部分小盘股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 由持续双边报价的做市商提供流动性的交易制度，常见于债券、期权与部分小盘股。
+        example: 做市商制度有助于提升冷门股票的成交活跃度。
+        isPrimary: true
+    aliases:
+      - raw: 做市商制度
+        aliasType: primary
+      - raw: Market Maker
+        aliasType: en_alias
+  - slug: zuo-shi-shang
+    headword: 做市商
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 持续双边报价、随时准备在报价上成交以提供流动性的交易商，受义务约束。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 持续双边报价、随时准备在报价上成交以提供流动性的交易商，受义务约束。
+        example: 这家做市商在这只小票上每天挂双边报价。
+        isPrimary: true
+    aliases:
+      - raw: 做市商
+        aliasType: primary
+      - raw: Market Maker
+        aliasType: en_alias
+  - slug: zhi-ding-zuo-shi-shang
+    headword: 指定做市商
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 纽交所场内负责维护某只股票公平有序开盘与连续交易的特许做市商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 纽交所场内负责维护某只股票公平有序开盘与连续交易的特许做市商。
+        example: 纽交所DMM会在开盘前处理订单不平衡。
+        isPrimary: true
+    aliases:
+      - raw: 指定做市商
+        aliasType: primary
+      - raw: Designated Market Maker
+        aliasType: en_alias
+      - raw: DMM
+        aliasType: en_alias
+  - slug: pi-fa-zuo-shi-shang
+    headword: 批发做市商
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 主要从零售券商接收订单流并与客户对盘成交的做市商，如Citadel、Virtu。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 主要从零售券商接收订单流并与客户对盘成交的做市商，如Citadel、Virtu。
+        example: 批发做市商处理了美股相当大比例的散户订单。
+        isPrimary: true
+    aliases:
+      - raw: 批发做市商
+        aliasType: primary
+      - raw: Wholesale Market Maker
+        aliasType: en_alias
+  - slug: hu-lian-hu-tong-ji-zhi
+    headword: 互联互通机制
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 沪深港股票市场之间跨境买卖对方股票的制度安排。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 沪深港股票市场之间跨境买卖对方股票的制度安排。
+        example: 互联互通机制开通后南向资金持续流入。
+        isPrimary: true
+    aliases:
+      - raw: 互联互通机制
+        aliasType: primary
+      - raw: Stock Connect
+        aliasType: en_alias
+  - slug: xin-tuo-ren
+    headword: 信托人
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 为基金或票据持有人保管资产的受托人。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 为基金或票据持有人保管资产的受托人。
+        example: REIT信托人监督资产。
+        isPrimary: true
+    aliases:
+      - raw: 信托人
+        aliasType: primary
+      - raw: Trustee
+        aliasType: en_alias
+  - slug: tuo-guan-shang
+    headword: 托管商
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 代为保管股票资金的机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 代为保管股票资金的机构。
+        example: 北向资金由托管商存管。
+        isPrimary: true
+    aliases:
+      - raw: 托管商
+        aliasType: primary
+      - raw: Custodian
+        aliasType: en_alias
+  - slug: ming-gu-shi-zhai
+    headword: 明股实债
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 名义上是股权、实质固定回报并到期回购的融资安排，应作负债。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 名义上是股权、实质固定回报并到期回购的融资安排，应作负债。
+        example: 明股实债隐藏了真实负债规模。
+        isPrimary: true
+    aliases:
+      - raw: 明股实债
+        aliasType: primary
+      - raw: Debt disguised as Equity
+        aliasType: en_alias
+  - slug: gong-mu-r-e-i-t-s
+    headword: 公募REITs
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 在交易所公开上市、投资基础设施的不动产投资信托基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 在交易所公开上市、投资基础设施的不动产投资信托基金。
+        example: 公募REITs带来稳定分红。
+        isPrimary: true
+    aliases:
+      - raw: 公募REITs
+        aliasType: primary
+      - raw: Public REITs
+        aliasType: en_alias
+  - slug: quan-shang-zhu-ti-ji-jin
+    headword: 券商主题基金
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 投资证券行业的主题基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 投资证券行业的主题基金。
+        example: 券商主题基金高贝塔。
+        isPrimary: true
+    aliases:
+      - raw: 券商主题基金
+        aliasType: primary
+      - raw: Brokerage Theme Fund
+        aliasType: en_alias
+  - slug: si-mu-zhai
+    headword: 私募债
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 非公开发行、面向合格投资者的债券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 非公开发行、面向合格投资者的债券。
+        example: 私募债发行灵活、披露要求低。
+        isPrimary: true
+    aliases:
+      - raw: 私募债
+        aliasType: primary
+      - raw: Private Bond
+        aliasType: en_alias
+  - slug: ke-jiao-huan-si-mu-zhai
+    headword: 可交换私募债
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 可交换为上市公司股份的私募债券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 可交换为上市公司股份的私募债券。
+        example: 可交换债给股东减持渠道。
+        isPrimary: true
+    aliases:
+      - raw: 可交换私募债
+        aliasType: primary
+      - raw: Exchangeable Private Bond
+        aliasType: en_alias
+  - slug: zi-jin-xin-tuo
+    headword: 资金信托
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 受托人按委托人意愿管理资金的信托产品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 受托人按委托人意愿管理资金的信托产品。
+        example: 资金信托曾是银行理财替代品。
+        isPrimary: true
+    aliases:
+      - raw: 资金信托
+        aliasType: primary
+      - raw: Money Trust
+        aliasType: en_alias
+  - slug: cai-chan-quan-xin-tuo
+    headword: 财产权信托
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 以股权、应收款等财产权为信托财产的业务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以股权、应收款等财产权为信托财产的业务。
+        example: 财产权信托用于资产隔离。
+        isPrimary: true
+    aliases:
+      - raw: 财产权信托
+        aliasType: primary
+      - raw: Property Right Trust
+        aliasType: en_alias
+  - slug: zheng-quan-tou-zi-xin-tuo
+    headword: 证券投资信托
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 投资于证券市场的信托产品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 投资于证券市场的信托产品。
+        example: 证券投资信托类似私募。
+        isPrimary: true
+    aliases:
+      - raw: 证券投资信托
+        aliasType: primary
+      - raw: Securities Investment Trust
+        aliasType: en_alias
+  - slug: gu-quan-tou-zi-xin-tuo
+    headword: 股权投资信托
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 以股权投资为投向的信托。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以股权投资为投向的信托。
+        example: 股权投资信托期限长。
+        isPrimary: true
+    aliases:
+      - raw: 股权投资信托
+        aliasType: primary
+      - raw: Equity Investment Trust
+        aliasType: en_alias
+  - slug: fang-di-chan-xin-tuo
+    headword: 房地产信托
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 投向房地产开发或并购的信托。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 投向房地产开发或并购的信托。
+        example: 房地产信托曾规模庞大。
+        isPrimary: true
+    aliases:
+      - raw: 房地产信托
+        aliasType: primary
+      - raw: Real Estate Trust
+        aliasType: en_alias
+  - slug: zheng-xin-xin-tuo
+    headword: 政信信托
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 与地方政府合作的基础设施类信托。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 与地方政府合作的基础设施类信托。
+        example: 政信信托曾被视为刚兑。
+        isPrimary: true
+    aliases:
+      - raw: 政信信托
+        aliasType: primary
+      - raw: Government-credit Trust
+        aliasType: en_alias
+  - slug: ci-shan-xin-tuo
+    headword: 慈善信托
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 以公益慈善为目的的信托。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以公益慈善为目的的信托。
+        example: 慈善信托享受税收优惠。
+        isPrimary: true
+    aliases:
+      - raw: 慈善信托
+        aliasType: primary
+      - raw: Charity Trust
+        aliasType: en_alias
+  - slug: jia-zu-xin-tuo
+    headword: 家族信托
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 以家庭财富传承与风险隔离为目的设立的信托，资产装入后按约定条款分配给家人。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 以家庭财富传承与风险隔离为目的设立的信托，资产装入后按约定条款分配给家人。
+        example: 企业家把部分资产装入信托，约定子女成年后分期领取。
+        isPrimary: true
+    aliases:
+      - raw: 家族信托
+        aliasType: primary
+      - raw: Family Trust
+        aliasType: en_alias
+  - slug: bao-zheng-bao-xian
+    headword: 保证保险
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 承保义务人不履约致权利人损失的保险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 承保义务人不履约致权利人损失的保险。
+        example: 保证保险用于履约增信。
+        isPrimary: true
+    aliases:
+      - raw: 保证保险
+        aliasType: primary
+      - raw: Guarantee Insurance
+        aliasType: en_alias
+  - slug: xin-yong-bao-xian
+    headword: 信用保险
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 承保客户违约信用风险的保险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 承保客户违约信用风险的保险。
+        example: 信用保险保护应收账款。
+        isPrimary: true
+    aliases:
+      - raw: 信用保险
+        aliasType: primary
+      - raw: Credit Insurance
+        aliasType: en_alias
+  - slug: nong-ye-bao-xian
+    headword: 农业保险
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 保障农作物与养殖因灾害损失的保险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 保障农作物与养殖因灾害损失的保险。
+        example: 农业保险由财政补贴。
+        isPrimary: true
+    aliases:
+      - raw: 农业保险
+        aliasType: primary
+      - raw: Agricultural Insurance
+        aliasType: en_alias
+  - slug: chu-kou-xin-yong-bao-xian
+    headword: 出口信用保险
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 保障出口商收汇风险的政策性保险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 保障出口商收汇风险的政策性保险。
+        example: 出口信用保险支持外贸。
+        isPrimary: true
+    aliases:
+      - raw: 出口信用保险
+        aliasType: primary
+      - raw: Export Credit Insurance
+        aliasType: en_alias
+  - slug: zai-bao-xian
+    headword: 再保险
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 保险公司向其他公司分保风险的安排。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 保险公司向其他公司分保风险的安排。
+        example: 再保险分散巨灾风险。
+        isPrimary: true
+    aliases:
+      - raw: 再保险
+        aliasType: primary
+      - raw: Reinsurance
+        aliasType: en_alias
+  - slug: liang-quan-bao-xian
+    headword: 两全保险
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 生死均赔付、满期返还的保险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 生死均赔付、满期返还的保险。
+        example: 两全保险储蓄性强。
+        isPrimary: true
+    aliases:
+      - raw: 两全保险
+        aliasType: primary
+      - raw: Endowment Insurance
+        aliasType: en_alias
+  - slug: ju-zai-bao-xian
+    headword: 巨灾保险
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 承保地震洪水等巨灾损失的保险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 承保地震洪水等巨灾损失的保险。
+        example: 巨灾保险常以再保险分散。
+        isPrimary: true
+    aliases:
+      - raw: 巨灾保险
+        aliasType: primary
+      - raw: Catastrophe Insurance
+        aliasType: en_alias
+  - slug: yin-hang-li-cai-chan-pin
+    headword: 银行理财产品
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 银行发行的、非保本浮动收益的资管产品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 银行发行的、非保本浮动收益的资管产品。
+        example: 银行理财产品净值化转型。
+        isPrimary: true
+    aliases:
+      - raw: 银行理财产品
+        aliasType: primary
+      - raw: Wealth Management Product
+        aliasType: en_alias
+  - slug: bao-xian-zi-guan-chan-pin
+    headword: 保险资管产品
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 保险资管公司发行的资管产品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 保险资管公司发行的资管产品。
+        example: 保险资管产品长久期。
+        isPrimary: true
+    aliases:
+      - raw: 保险资管产品
+        aliasType: primary
+      - raw: Insurance Asset Mgmt Product
+        aliasType: en_alias
+  - slug: quan-shang-zi-guan
+    headword: 券商资管
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 券商发行的集合或定向资管计划。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 券商发行的集合或定向资管计划。
+        example: 券商资管主动管理转型。
+        isPrimary: true
+    aliases:
+      - raw: 券商资管
+        aliasType: primary
+      - raw: Broker Asset Management
+        aliasType: en_alias
+  - slug: quan-shang-shou-yi-ping-zheng
+    headword: 券商收益凭证
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 券商发行的约定本金收益的债务凭证。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 券商发行的约定本金收益的债务凭证。
+        example: 券商收益凭证多保本。
+        isPrimary: true
+    aliases:
+      - raw: 券商收益凭证
+        aliasType: primary
+      - raw: Broker Certificate
+        aliasType: en_alias
+  - slug: quan-shang-ji-he-li-cai
+    headword: 券商集合理财
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 券商集合多个客户资金管理的产品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 券商集合多个客户资金管理的产品。
+        example: 券商集合理财类似公募。
+        isPrimary: true
+    aliases:
+      - raw: 券商集合理财
+        aliasType: primary
+      - raw: Broker Collective WMP
+        aliasType: en_alias
+  - slug: yang-lao-mu-biao-ri-qi-2-0-3-5-ji-jin
+    headword: 养老目标日期2035基金
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 面向2035年退休人群的下滑曲线FOF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 面向2035年退休人群的下滑曲线FOF。
+        example: 养老目标日期2035基金随年龄降权益。
+        isPrimary: true
+    aliases:
+      - raw: 养老目标日期2035基金
+        aliasType: primary
+      - raw: Target Date 2035 Fund
+        aliasType: en_alias
+  - slug: xin-tuo-chan-pin
+    headword: 信托产品
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 信托公司发行的理财或投资类产品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 信托公司发行的理财或投资类产品。
+        example: 信托公司发的产品，投向可以横跨股市债市和房地产。
+        isPrimary: true
+    aliases:
+      - raw: 信托产品
+        aliasType: primary
+      - raw: Trust Product
+        aliasType: en_alias
+  - slug: bao-xian-chan-pin
+    headword: 保险产品
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 保险公司提供的各类保障与储蓄型产品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 保险公司提供的各类保障与储蓄型产品。
+        example: 重疾险保大病，年金险管养老，功能不同保费差别很大。
+        isPrimary: true
+    aliases:
+      - raw: 保险产品
+        aliasType: primary
+      - raw: Insurance Product
+        aliasType: en_alias
+  - slug: ge-ren-yang-lao-jin
+    headword: 个人养老金
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 中国养老保障体系第三支柱，个人自愿开立账户、自主投入资金并享受税收优惠的养老储备制度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 中国养老保障体系第三支柱，个人自愿开立账户、自主投入资金并享受税收优惠的养老储备制度。
+        example: 参加第三支柱养老储备有每年缴存上限，还能抵扣个税。
+        isPrimary: true
+    aliases:
+      - raw: 个人养老金
+        aliasType: primary
+      - raw: Personal Pension
+        aliasType: en_alias
+  - slug: yang-lao-li-cai
+    headword: 养老理财
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 试点发行、服务养老的长期稳健理财。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 试点发行、服务养老的长期稳健理财。
+        example: 养老理财封闭期长。
+        isPrimary: true
+    aliases:
+      - raw: 养老理财
+        aliasType: primary
+      - raw: Pension WMP
+        aliasType: en_alias
+  - slug: yang-lao-chu-xu
+    headword: 养老储蓄
+    categoryL1: 机构与资金
+    categoryL2: 机构类型
+    difficulty: L2
+    summaryPlain: 特定试点银行发行的长期养老储蓄。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 特定试点银行发行的长期养老储蓄。
+        example: 养老储蓄利率略高。
+        isPrimary: true
+    aliases:
+      - raw: 养老储蓄
+        aliasType: primary
+      - raw: Pension Savings
+        aliasType: en_alias

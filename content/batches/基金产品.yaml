@@ -1,0 +1,1143 @@
+# 自动生成的批量词条源（可由 ingest 重新编译为 lexicon.json）
+category: 基金产品
+source: bootstrap from lexicon.json (2026-10-22)
+terms:
+  - slug: bei-dui-kai-cang
+    headword: 备兑开仓
+    categoryL1: 基金产品
+    categoryL2: 期权策略
+    difficulty: L3
+    summaryPlain: 拿着股票同时卖出看涨期权收权利金：用「放弃暴涨」换「稳定收租」。
+    riskNote: 涨过行权价股票就被买走，熊市里照样亏，不是稳赚策略。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 拿着股票同时卖出看涨期权收权利金：用「放弃暴涨」换「稳定收租」。
+        example: 比如持有 100 股苹果，卖出行权价高 10% 的 Call 收权利金。
+        notMeaning: 涨过行权价股票就被买走，熊市里照样亏，不是稳赚策略。
+        isPrimary: true
+        contextKeywords:
+          - 期权策略
+        frequency: mid
+    aliases:
+      - raw: 备兑开仓
+        aliasType: primary
+      - raw: Covered Call
+        aliasType: en_alias
+      - raw: 备兑
+        aliasType: cn_alias
+    viz:
+      type: OptionsLadder
+      config:
+        premium: 3
+    insights:
+      affects:
+        - 收益增强：震荡市的收租
+        - 风险对冲：权利金缓冲下跌
+      good:
+        - 每月收租：现金流策略
+      bad:
+        - 暴涨被截断：少赚
+        - 跌下来照亏
+      policy:
+        - 保证金与行权规则
+      example: 房子出租收租金：房价涨过约定价就得按约定卖（少赚），不涨每月收租（舒服），跌了自住（亏）。
+  - slug: cds
+    headword: CDS
+    categoryL1: 基金产品
+    categoryL2: 信用工具
+    difficulty: L3
+    summaryPlain: 信用违约互换：给债券买的保险，价格涨说明市场担心违约。
+    riskNote: 2008 年它差点炸了全球金融，本身也是危险的赌具。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 信用违约互换：给债券买的保险，价格涨说明市场担心违约。
+        example: 比如某公司的违约互换价格飙升，说明市场在赌它违约。
+        notMeaning: 2008 年它差点炸了全球金融，本身也是危险的赌具。
+        isPrimary: true
+        contextKeywords:
+          - 信用工具
+        frequency: mid
+    aliases:
+      - raw: CDS
+        aliasType: primary
+      - raw: 信用违约互换
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: CDS：违约保险的价格
+        min: 20
+        max: 1000
+        threshold: 200
+        initial: 120
+        valueLabel: CDS 点差
+        unit: " bp"
+        step: 10
+        zones:
+          - min: 20
+            max: 200
+            label: 违约担忧低
+            color: var(--up)
+          - min: 200
+            max: 1000
+            label: 违约担忧高
+            color: var(--down)
+    insights:
+      affects:
+        - 信用风险定价：债市保险丝
+        - 系统性风险：危机传染的通道
+      good:
+        - CDS 回落：信用环境改善
+      bad:
+        - 飙升：违约恐慌
+      policy:
+        - 金融危机后的衍生品监管
+      example: 给同学借条买的保险：保费涨=大家怀疑他还不上。全班都买同一个人保险，他真出事时保险公司先垮。
+  - slug: chang-wai-qi-quan
+    headword: 场外期权
+    categoryL1: 基金产品
+    categoryL2: 衍生品
+    difficulty: L3
+    summaryPlain: 机构之间定制的期权合约：条款量身定做，不公开交易。
+    riskNote: 散户基本无缘，且定制合约流动性极差、平仓都难。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 机构之间定制的期权合约：条款量身定做，不公开交易。
+        example: 比如上市公司股东找券商定制看跌期权对冲减持期风险。
+        notMeaning: 散户基本无缘，且定制合约流动性极差、平仓都难。
+        isPrimary: true
+        contextKeywords:
+          - 衍生品
+        frequency: mid
+    aliases:
+      - raw: 场外期权
+        aliasType: primary
+      - raw: OTC期权
+        aliasType: cn_alias
+      - raw: TRS
+        aliasType: en_alias
+    viz:
+      type: OptionsLadder
+      config:
+        premium: 5
+    insights:
+      affects:
+        - 风险管理：机构的定制保险
+        - 收益凭证：券商的发行载体
+      good:
+        - 条款灵活：精准对冲
+      bad:
+        - 流动性风险：想走走不了
+        - 定价不透明
+      policy:
+        - 券商柜台业务监管
+      example: 私人定制西装：合身（条款合适），但想转手卖很难（流动性差），改一次还要另加钱。
+  - slug: etf
+    headword: ETF
+    categoryL1: 基金产品
+    categoryL2: 基金
+    difficulty: L1
+    summaryPlain: 在交易所像股票一样买卖的一篮子资产：买一份等于同时买几十上百只股票。
+    riskNote: 也有踩雷和折溢价风险；别把 ETF 当保本理财，跨境 ETF 溢价炒作后地板是把刀。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 在交易所像股票一样买卖的一篮子资产：买一份等于同时买几十上百只股票。
+        example: 比如花几十块买沪深 300 的指数基金份额，就等于按比例买了 300 家公司。
+        notMeaning: 也有踩雷和折溢价风险；别把 ETF 当保本理财，跨境 ETF 溢价炒作后地板是把刀。
+        isPrimary: true
+        contextKeywords:
+          - 基金
+        frequency: high
+    aliases:
+      - raw: ETF
+        aliasType: primary
+      - raw: 交易型开放式指数基金
+        aliasType: cn_alias
+      - raw: 场内基金
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 你买的 ETF
+            point: 3800
+            base: 2000
+            note: 一篮子股票打包
+          - name: 单一股票
+            point: 100
+            base: 100
+            note: 风险集中
+    insights:
+      affects:
+        - 配置：一篮子分散是新手最好的朋友
+        - 交易：T+0/低费率的场内工具
+        - 套利：一二级市场折溢价连接
+      good:
+        - 费率低+分散=长期收益稳健
+        - 行业 ETF：看好赛道又怕个股暴雷
+      bad:
+        - 高位追行业 ETF：一样亏
+        - 溢价买入跨境 ETF：被情绪收割
+      policy:
+        - 互联互通扩容 ETF 选择
+        - 指数调权影响成分
+      example: 水果礼盒：单买榴莲可能踩雷（个股暴雷），礼盒里苹果香蕉都有（ETF）。坏一个果子不影响整箱。
+  - slug: etn
+    headword: ETN
+    categoryL1: 基金产品
+    categoryL2: 债务凭证
+    difficulty: L3
+    summaryPlain: 交易所交易票据：发行机构欠你钱的凭证，跟踪某个指数或商品。
+    riskNote: 它有信用风险：机构倒闭，你的 ETN 可能打水漂。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 交易所交易票据：发行机构欠你钱的凭证，跟踪某个指数或商品。
+        example: 比如某投行倒闭，它发行的交易票据直接停牌清算。
+        notMeaning: 它有信用风险：机构倒闭，你的 ETN 可能打水漂。
+        isPrimary: true
+        contextKeywords:
+          - 债务凭证
+        frequency: mid
+    aliases:
+      - raw: ETN
+        aliasType: primary
+      - raw: 交易所交易票据
+        aliasType: cn_alias
+    viz:
+      type: AdrBridge
+      config:
+        title: ETN：机构的欠条
+    insights:
+      affects:
+        - 信用风险：最大隐患
+        - 税务处理：比 ETF 简单
+      good:
+        - 无跟踪误差：结构简单
+      bad:
+        - 发行方倒闭：本金风险
+        - 流动性差
+      policy:
+        - 发行机构的信用评级
+      example: 欠条换了个市场挂牌：写欠条的人（银行）倒了，欠条就是废纸。ETF 至少还有真资产在托管。
+  - slug: gang-gan-etf
+    headword: 杠杆ETF
+    categoryL1: 基金产品
+    categoryL2: 海外产品
+    difficulty: L2
+    summaryPlain: 跟踪指数每日涨跌倍数（2 倍/3 倍）的 ETF：短线放大器，长期持有的坟场。
+    riskNote: 每日复利再平衡造成波动损耗，长期持有稳亏不意外。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪指数每日涨跌倍数（2 倍/3 倍）的 ETF：短线放大器，长期持有的坟场。
+        example: 比如纳指三天涨 10%，两倍杠杆 ETF 涨约 21%，但震荡市里慢慢磨没。
+        notMeaning: 每日复利再平衡造成波动损耗，长期持有稳亏不意外。
+        isPrimary: true
+        contextKeywords:
+          - 海外产品
+        frequency: mid
+    aliases:
+      - raw: 杠杆ETF
+        aliasType: primary
+      - raw: 反向ETF
+        aliasType: cn_alias
+      - raw: 2倍做多
+        aliasType: cn_alias
+    viz:
+      type: LeverageWheel
+      config:
+        mode: warrant
+        leverage: 3
+    insights:
+      affects:
+        - 短线工具：方向+倍数的博弈
+        - 损耗机制：波动是长期敌人
+      good:
+        - 方向对：几天翻倍
+        - 对冲工具
+      bad:
+        - 震荡市：每天磨损耗
+        - 拿长线：必亏机制
+      policy:
+        - SEC 对杠杆产品的规定
+      example: 汽车挂三挡跑赛道：直道爽翻，弯道漂移损耗轮胎。天天跑山，轮胎钱比油钱还狠。
+  - slug: gu-zhi-qi-huo
+    headword: 股指期货
+    categoryL1: 基金产品
+    categoryL2: 期货
+    difficulty: L2
+    summaryPlain: 以股票指数为标的的期货合约：不用真买股票，就能押注大盘涨跌。
+    riskNote: 杠杆高、有到期日、还可能有基差损耗；散户参与门槛和风险都不低。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 以股票指数为标的的期货合约：不用真买股票，就能押注大盘涨跌。
+        example: 比如判断大盘要跌，卖出期指合约，指数真跌 10%，合约可能赚数倍。
+        notMeaning: 杠杆高、有到期日、还可能有基差损耗；散户参与门槛和风险都不低。
+        isPrimary: true
+        contextKeywords:
+          - 期货
+        frequency: high
+    aliases:
+      - raw: 股指期货
+        aliasType: primary
+      - raw: IF
+        aliasType: en_alias
+      - raw: 期指
+        aliasType: cn_alias
+      - raw: IH
+        aliasType: en_alias
+    viz:
+      type: OptionsLadder
+      config:
+        premium: 100
+    insights:
+      affects:
+        - 对冲：机构给股票组合上保险
+        - 定价：期货引领现货情绪（A50/纳指期货）
+        - 杠杆：保证金放大盈亏
+      good:
+        - 升水：市场情绪乐观
+        - 贴水收窄：对冲盘离场
+      bad:
+        - 高杠杆爆仓极快
+        - 看不懂别碰，这是给专业选手的
+      policy:
+        - 保证金与持仓限额的逆周期调节
+        - 交割日规则影响波动
+      example: 赌博里的「买大买小」合法版：押方向，带杠杆，赢十倍输十倍。庄家（交易所）还收茶水费。
+  - slug: guo-zhai-ni-hui-gou
+    headword: 国债逆回购
+    categoryL1: 基金产品
+    categoryL2: 现金管理
+    difficulty: L1
+    summaryPlain: 把短期闲钱借给市场赚利息，有国债做抵押：股票账户里躺钱的零钱理财。
+    riskNote: 利率平时很低，只有月末季末才偶尔飙高；别把它当高息理财。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 把短期闲钱借给市场赚利息，有国债做抵押：股票账户里躺钱的零钱理财。
+        example: 比如年底券商 App 弹窗「GC001 利率 8%」，就是把闲钱借出去吃几天高息。
+        notMeaning: 利率平时很低，只有月末季末才偶尔飙高；别把它当高息理财。
+        isPrimary: true
+        contextKeywords:
+          - 现金管理
+        frequency: high
+    aliases:
+      - raw: 国债逆回购
+        aliasType: primary
+      - raw: 逆回购
+        aliasType: cn_alias
+      - raw: GC001
+        aliasType: cn_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: 逆回购：账户躺着也生息
+    insights:
+      affects:
+        - 闲钱理财：打新等待期的去处
+        - 资金面：利率飙升=市场缺钱
+        - 情绪：逆回购利率是观察流动性的窗口
+      good:
+        - 月末季末利率高：薅羊毛
+        - 保本保息属性适合过渡资金
+      bad:
+        - 平时利息薄如纸
+        - 高利率窗口稍纵即逝
+      policy:
+        - 季末考核、缴税期推高利率
+        - 央行公开市场操作平抑波动
+      example: 闲钱放余额宝的同学眼红版：把散钱按天借给缺钱的同学，他拿教科书（国债）抵押，到期连本带息还。
+  - slug: guo-zhai-qi-huo
+    headword: 国债期货
+    categoryL1: 基金产品
+    categoryL2: 期货
+    difficulty: L3
+    summaryPlain: 以国债为标的的期货：机构对冲利率风险的主战场，分 2/5/10/30 年期。
+    riskNote: 杠杆+利率博弈，散户参与门槛和专业度都高。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 以国债为标的的期货：机构对冲利率风险的主战场，分 2/5/10/30 年期。
+        example: 比如银行持债担心利率上行，用利率期货空头对冲。
+        notMeaning: 杠杆+利率博弈，散户参与门槛和专业度都高。
+        isPrimary: true
+        contextKeywords:
+          - 期货
+        frequency: mid
+    aliases:
+      - raw: 国债期货
+        aliasType: primary
+      - raw: TS/TF/T/TL
+        aliasType: cn_alias
+      - raw: 利率期货
+        aliasType: cn_alias
+    viz:
+      type: OptionsLadder
+      config:
+        premium: 100
+    insights:
+      affects:
+        - 利率风险管理：机构的保险
+        - 定价发现：反映利率预期
+      good:
+        - 对冲净值波动
+        - 方向对收益可观
+      bad:
+        - 杠杆爆仓风险
+      policy:
+        - 中金所产品体系
+      example: 给船买保险的同时再买天气赌约：真有风浪（利率变）双保护，但也可能两头挨刀。
+  - slug: huo-bi-ji-jin
+    headword: 货币基金
+    categoryL1: 基金产品
+    categoryL2: 现金管理
+    difficulty: L1
+    summaryPlain: 投短期货币工具的基金：余额宝背后的东西，灵活稳健收益薄。
+    riskNote: 不是存款不保本（虽然历史上几乎没亏过），收益随利率下行越来越薄。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 投短期货币工具的基金：余额宝背后的东西，灵活稳健收益薄。
+        example: 比如工资到账先放余额宝这类产品，随取随用还有利息。
+        notMeaning: 不是存款不保本（虽然历史上几乎没亏过），收益随利率下行越来越薄。
+        isPrimary: true
+        contextKeywords:
+          - 现金管理
+        frequency: mid
+    aliases:
+      - raw: 货币基金
+        aliasType: primary
+      - raw: MMF
+        aliasType: en_alias
+      - raw: 余额宝
+        aliasType: cn_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: 货币基金：闲钱停车位
+    insights:
+      affects:
+        - 现金管理：活期的收益升级
+        - 利率：跟着市场利率走
+      good:
+        - 安全灵活：应急钱包
+      bad:
+        - 收益薄如纸：跑不赢通胀
+      policy:
+        - 利率下行压缩收益
+      example: 停车位：不产粮但随时能走。行情来了你敢油门踩死（满仓），风大了有地方躲。
+  - slug: jie-gou-xing-cun-kuan
+    headword: 结构性存款
+    categoryL1: 基金产品
+    categoryL2: 银行产品
+    difficulty: L2
+    summaryPlain: 挂钩利率/汇率/指数的存款产品：保本+一点想象空间的银行理财。
+    riskNote: 「保本」也有条件，收益上限常远低于你的想象。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 挂钩利率/汇率/指数的存款产品：保本+一点想象空间的银行理财。
+        example: 比如挂钩黄金的存款产品，涨了分你一点、跌了保底。
+        notMeaning: 「保本」也有条件，收益上限常远低于你的想象。
+        isPrimary: true
+        contextKeywords:
+          - 银行产品
+        frequency: mid
+    aliases:
+      - raw: 结构性存款
+        aliasType: primary
+      - raw: 结构化存款
+        aliasType: cn_alias
+      - raw: 挂钩存款
+        aliasType: cn_alias
+    viz:
+      type: OptionsLadder
+      config:
+        premium: 2
+    insights:
+      affects:
+        - 存款替代：稳健配置一角
+        - 银行揽储工具
+      good:
+        - 本金相对安全
+        - 收益比定存高一点
+      bad:
+        - 流动性差：提前取亏
+        - 收益上限有限
+      policy:
+        - 存款保险与产品规范
+      example: 保底工资+销售提成：底薪稳，提成看天。行情不好只拿底薪，行情好也到不了天上去。
+  - slug: jing-zhi-tou-chi
+    headword: 净值偷吃
+    categoryL1: 基金产品
+    categoryL2: 净值现象
+    difficulty: L2
+    summaryPlain: 基民发现净值估算和实际净值对不上，怀疑「被偷吃」：其实是估算方法的锅。
+    riskNote: 净值估算按上季十大重仓推算，没算实时调仓，当然对不上。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 基民发现净值估算和实际净值对不上，怀疑「被偷吃」：其实是估算方法的锅。
+        example: 比如估算涨 2% 实际涨 0.5%，基民群里喊偷吃。
+        notMeaning: 净值估算按上季十大重仓推算，没算实时调仓，当然对不上。
+        isPrimary: true
+        contextKeywords:
+          - 净值现象
+        frequency: mid
+    aliases:
+      - raw: 净值偷吃
+        aliasType: primary
+      - raw: 偷吃
+        aliasType: cn_alias
+      - raw: 净值估算
+        aliasType: cn_alias
+    viz:
+      type: ProfitLossScale
+      config: {}
+    insights:
+      affects:
+        - 估算误差：季报重仓≠实时持仓
+        - 信任成本：误解伤害持有体验
+      good:
+        - 差异小：说明经理没大调仓
+      bad:
+        - 差异大：调仓被发现了
+      policy:
+        - 基金信息披露频率
+      example: 外卖预计 30 分钟达实际 50 分钟：不是骑手偷吃，是预估模型没算你临时加的单。
+  - slug: jiu-qi
+    headword: 久期
+    categoryL1: 基金产品
+    categoryL2: 债券指标
+    difficulty: L3
+    summaryPlain: 衡量债券价格对利率变化有多敏感的尺子：久期越长，利率一动它抖得越狠。
+    riskNote: 不懂久期别碰长债基金，跌起来和股票有得一拼。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 衡量债券价格对利率变化有多敏感的尺子：久期越长，利率一动它抖得越狠。
+        example: 比如 10 年期限的债基，利率升 1%，净值约跌 10%。
+        notMeaning: 不懂久期别碰长债基金，跌起来和股票有得一拼。
+        isPrimary: true
+        contextKeywords:
+          - 债券指标
+        frequency: mid
+    aliases:
+      - raw: 久期
+        aliasType: primary
+      - raw: Duration
+        aliasType: en_alias
+      - raw: 利率敏感度
+        aliasType: cn_alias
+    viz:
+      type: LeverageWheel
+      config:
+        mode: warrant
+        leverage: 10
+    insights:
+      affects:
+        - 利率敏感度：债基波动之源
+        - 风险测算：久期×利率变动≈净值波动
+      good:
+        - 降息时长久期：涨得猛
+      bad:
+        - 加息时长久期：跌得惨
+      policy:
+        - 央行动向决定久期策略
+      example: 船越长越怕浪：久期就是船身长度，利率是浪。小船（短债）晃一晃，长船（长债）要翻。
+  - slug: ke-jiao-huan-zhai
+    headword: 可交换债
+    categoryL1: 基金产品
+    categoryL2: 债券
+    difficulty: L3
+    summaryPlain: 可以换成「另一家公司」股票的可转债：大股东减持和融资的混合工具。
+    riskNote: 换股标的不同，条款复杂，散户容易看漏。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 可以换成「另一家公司」股票的可转债：大股东减持和融资的混合工具。
+        example: 比如大股东发行一种能换别家股票的债，变相减持。
+        notMeaning: 换股标的不同，条款复杂，散户容易看漏。
+        isPrimary: true
+        contextKeywords:
+          - 债券
+        frequency: mid
+    aliases:
+      - raw: 可交换债
+        aliasType: primary
+      - raw: EB
+        aliasType: en_alias
+    viz:
+      type: ConvertibleScale
+      config:
+        convPrice: 12
+    insights:
+      affects:
+        - 减持通道：大股东的变通工具
+        - 条款复杂度高于普通可转债
+      good:
+        - 低成本融资
+        - 换股时点灵活
+      bad:
+        - 变相减持：稀释承接盘
+        - 条款陷阱
+      policy:
+        - 发行监管与减持规则衔接
+      example: 拿别家店的代金券抵押借钱：券是真的，店不是你的，规则绕一圈要看清。
+  - slug: ke-zhuan-zhai
+    headword: 可转债
+    categoryL1: 基金产品
+    categoryL2: 混合工具
+    difficulty: L2
+    summaryPlain: 一种可以按约定价格换成公司股票的债券：涨的时候像股票，跌的时候有债性托底。
+    riskNote: 托底的前提是公司还得起钱；强赎、信用违约和炒到高溢价一样会巨亏。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 上市公司发行的、持有人可按转股价把债券换成股票的债券，兼具债底和股性。
+        example: 有人买了某公司的转债，正股大涨后转股价值超过买入价，一举赚了五成；行情差时它跌破面值，也能当债拿着等还钱。
+        notMeaning: 它不是稳赔不赚，也不是纯债：高溢价追进去，正股不涨照样亏三成。
+        isPrimary: true
+        contextKeywords:
+          - 转股
+          - 债底
+          - 面值
+          - 强赎
+        frequency: mid
+    aliases:
+      - raw: 可转债
+        aliasType: primary
+      - raw: 可转换债券
+        aliasType: cn_alias
+      - raw: 转债
+        aliasType: cn_alias
+    viz:
+      type: ConvertibleScale
+      config:
+        convPrice: 10
+    insights:
+      affects:
+        - 公司：转股成功=不用还钱，融资变增资
+        - 老股东：转股后股本变大，每股收益被摊薄
+        - 股民：下有债底、上有弹性，进可攻退可守
+      good:
+        - 正股大涨：转债跟着涨，还能转股吃股票涨幅
+        - 正股大跌：债底+到期还钱，跌幅通常远小于股票
+      bad:
+        - 正股跌太多：转债也跌，债底并非铁底
+        - 高价高溢价买入：正股涨它也跌（双杀）
+      policy:
+        - 发行/强赎规则：股价连续高于转股价 130% 会被强赎
+        - 下调转股价条款：公司可「作弊」帮债主转股
+        - 退市新规：正股退市，转债跟着遭殃
+      example: 面馆存了 100 元「牛肉面券」：你想吃面（转股）就能换一碗；不想吃，到期老板也得退你 100 元本金（债底）。但存钱那家老板要是跑路，券就成废纸；有人愿意花 160 元收你的券，也可能买贵被套。
+  - slug: lof
+    headword: LOF
+    categoryL1: 基金产品
+    categoryL2: 基金
+    difficulty: L3
+    summaryPlain: 上市开放式基金：既能像股票在场内买卖，也能去场外申购赎回。
+    riskNote: 场内场外两个价格常有价差，不懂规则容易吃亏。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 上市开放式基金：既能像股票在场内买卖，也能去场外申购赎回。
+        example: 比如同一只上市开放式基金场内溢价 5%，直接场内买就是多花钱。
+        notMeaning: 场内场外两个价格常有价差，不懂规则容易吃亏。
+        isPrimary: true
+        contextKeywords:
+          - 基金
+        frequency: mid
+    aliases:
+      - raw: LOF
+        aliasType: primary
+      - raw: 上市开放式基金
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 场内价
+            point: 105
+            base: 100
+            note: 像股票交易
+          - name: 场外净值
+            point: 100
+            base: 100
+            note: 按净值申赎
+    insights:
+      affects:
+        - 折溢价：两套价格并存
+        - 流动性：场内更方便
+      good:
+        - 折价时场内买入：捡便宜
+      bad:
+        - 溢价买入：给市场交钱
+      policy:
+        - 跨市场转托管规则
+      example: 游乐园门票：门口黄牛价（场内）和官方价（场外）不一样，聪明人比价后再买。
+  - slug: mbs-abs
+    headword: MBS/ABS
+    categoryL1: 基金产品
+    categoryL2: 资产证券化
+    difficulty: L3
+    summaryPlain: 把房贷、车贷、信用卡债打包切成证券卖：华尔街的乐高，风险藏在小字里。
+    riskNote: 结构复杂评级未必靠谱，次贷危机就是它引爆的。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 把房贷、车贷、信用卡债打包切成证券卖：华尔街的乐高，风险藏在小字里。
+        example: 比如次贷危机里，打包过的房贷证券从 AAA 变成垃圾。
+        notMeaning: 结构复杂评级未必靠谱，次贷危机就是它引爆的。
+        isPrimary: true
+        contextKeywords:
+          - 资产证券化
+        frequency: mid
+    aliases:
+      - raw: MBS/ABS
+        aliasType: primary
+      - raw: 资产证券化
+        aliasType: cn_alias
+      - raw: 次贷
+        aliasType: cn_alias
+    viz:
+      type: PoolDilution
+      config:
+        title: 打包切块的债务证券
+    insights:
+      affects:
+        - 信贷流动性：银行腾挪资产
+        - 风险传导：打包分散还是扩散
+      good:
+        - 盘活信贷：银行能继续放贷
+      bad:
+        - 底层烂账：整包变毒资产
+        - 结构复杂：没人看得懂
+      policy:
+        - 危机后的证券化监管
+      example: 把全班同学的欠条打包切成 100 份卖：看起来分散，其实源头都是同一批还不上钱的人。
+  - slug: nav
+    headword: NAV
+    categoryL1: 基金产品
+    categoryL2: 净值
+    difficulty: L1
+    summaryPlain: 基金净值：每一份基金值多少钱，每天收盘后更新。
+    riskNote: 申赎按未知价交易，收盘前下单当天涨跌都算你的。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 基金净值：每一份基金值多少钱，每天收盘后更新。
+        example: 比如基金净值从 2 元跌到 1.8，说明你的持仓也缩水了 10%。
+        notMeaning: 申赎按未知价交易，收盘前下单当天涨跌都算你的。
+        isPrimary: true
+        contextKeywords:
+          - 净值
+        frequency: mid
+    aliases:
+      - raw: NAV
+        aliasType: primary
+      - raw: 基金净值
+        aliasType: cn_alias
+      - raw: 单位净值
+        aliasType: cn_alias
+    viz:
+      type: PEScale
+      config:
+        ratioName: 净值
+        denomLabel: 每份价值
+        denomMax: 10
+        cheap: 2
+        fair: 6
+    insights:
+      affects:
+        - 申赎定价：一切交易的基准
+        - 业绩：净值曲线就是成绩单
+      good:
+        - 净值稳增：经理靠谱
+      bad:
+        - 净值大跌：经理翻车
+      policy:
+        - 估值方法与申赎规则
+      example: 众筹项目的每股估值：每天按市价重算一次，你手里的份额值多少钱一目了然。
+  - slug: pu-tong-gu
+    headword: 普通股
+    categoryL1: 基金产品
+    categoryL2: 股票类型
+    difficulty: L1
+    summaryPlain: 最标准的股票：有投票权、分红不保证、公司倒了最后分。
+    riskNote: 普通股股东是公司的「最后受益人」也是「最后接盘者」。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 最标准的股票：有投票权、分红不保证、公司倒了最后分。
+        example: 比如你买的腾讯、茅台都是这种标准股票。
+        notMeaning: 普通股股东是公司的「最后受益人」也是「最后接盘者」。
+        isPrimary: true
+        contextKeywords:
+          - 股票类型
+        frequency: mid
+    aliases:
+      - raw: 普通股
+        aliasType: primary
+      - raw: Common Stock
+        aliasType: en_alias
+      - raw: 优先股对比
+        aliasType: cn_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: 普通股：标准股东
+    insights:
+      affects:
+        - 公司治理：投票权来源
+        - 收益弹性：上不封顶下不保底
+      good:
+        - 投票参与公司决策
+        - 上涨弹性最大
+      bad:
+        - 清偿顺序垫底
+        - 分红看公司脸色
+      policy:
+        - 同股同权原则
+      example: 合伙做生意的小股东：赚钱了你分，亏钱了你扛，说话还要看大股东脸色。
+  - slug: reits
+    headword: REITs
+    categoryL1: 基金产品
+    categoryL2: 基金
+    difficulty: L2
+    summaryPlain: 把高速公路、产业园、写字楼打包上市：买一份就当包租公，收租金分红。
+    riskNote: 底层资产现金流恶化时价格照跌，别当存款替代品。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 把高速公路、产业园、写字楼打包上市：买一份就当包租公，收租金分红。
+        example: 比如买了高速公路 REIT 基金，每年靠过路费分红，收益率比国债高一些但会波动。
+        notMeaning: 底层资产现金流恶化时价格照跌，别当存款替代品。
+        isPrimary: true
+        contextKeywords:
+          - 基金
+        frequency: high
+    aliases:
+      - raw: REITs
+        aliasType: primary
+      - raw: 基础设施公募REITs
+        aliasType: cn_alias
+      - raw: 不动产信托
+        aliasType: cn_alias
+    viz:
+      type: DividendSplit
+      config: {}
+    insights:
+      affects:
+        - 资产配置：介于股债之间的现金流资产
+        - 养老/险资：长期配置的重要科目
+        - 流动性：比直接买商铺门槛低
+      good:
+        - 强制高比例分红：90% 以上可分
+        - 底层资产稳健：现金流可预期
+      bad:
+        - 估值炒作后退潮：分红不是承诺的全部
+        - 底层空置率上升时价格下跌
+      policy:
+        - 扩募规则影响稀缺性
+        - 利率下行期 REITs 相对吸引力上升
+      example: 众筹当包租公：100 个人凑钱买栋商业街，租金每月按份分。楼空了，租金就没了。
+  - slug: smart-beta
+    headword: Smart Beta
+    categoryL1: 基金产品
+    categoryL2: 策略指数
+    difficulty: L3
+    summaryPlain: 按红利、低波动、质量等因子加权的策略指数：比市值加权多一点讲究。
+    riskNote: 因子会轮动失效，「聪明」是有代价的。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 按红利、低波动、质量等因子加权的策略指数：比市值加权多一点讲究。
+        example: 比如红利低波指数基金在震荡市里更抗跌。
+        notMeaning: 因子会轮动失效，「聪明」是有代价的。
+        isPrimary: true
+        contextKeywords:
+          - 策略指数
+        frequency: mid
+    aliases:
+      - raw: Smart Beta
+        aliasType: primary
+      - raw: 策略指数
+        aliasType: cn_alias
+      - raw: 因子指数
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: Smart Beta
+            point: 110
+            base: 100
+            note: 因子加权
+          - name: 市值加权
+            point: 105
+            base: 100
+            note: 传统加权
+    insights:
+      affects:
+        - 因子投资：机构的主流配置
+        - 风格轮动：因子表现周期化
+      good:
+        - 因子顺风：超额收益
+        - 震荡市防御性强
+      bad:
+        - 因子失效：长期跑输
+        - 拥挤交易时一起杀
+      policy:
+        - 指数公司的因子编制规则
+      example: 食堂打菜按营养配比（因子）而不是按价格（市值）：更科学，但也可能不合口味。
+  - slug: xue-qiu
+    headword: 雪球
+    categoryL1: 基金产品
+    categoryL2: 结构性产品
+    difficulty: L3
+    summaryPlain: 挂钩指数的场外结构性产品：只要不大跌就每年拿高息，一旦大跌本金亏到底。
+    riskNote: 「稳赚高息」是幻觉：卖的是极端风险保护，真大跌时亏损全在买方。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 挂钩指数的场外结构性产品：只要不大跌就每年拿高息，一旦大跌本金亏到底。
+        example: 比如买了挂钩中证 500 的保本票息结构，两年没事年息 15%，第三年指数跌破敲入线直接亏 30%。
+        notMeaning: 「稳赚高息」是幻觉：卖的是极端风险保护，真大跌时亏损全在买方。
+        isPrimary: true
+        contextKeywords:
+          - 结构性产品
+        frequency: high
+    aliases:
+      - raw: 雪球
+        aliasType: primary
+      - raw: 雪球结构
+        aliasType: cn_alias
+      - raw: snowball
+        aliasType: en_alias
+      - raw: 自动赎回
+        aliasType: cn_alias
+    viz:
+      type: OptionsLadder
+      config:
+        premium: 15
+    insights:
+      affects:
+        - 票息诱惑：高息来自卖出的看跌期权
+        - 风险：亏损非线性，尾端加速
+        - 客户适当性：非专业投资者很难看清
+      good:
+        - 震荡市票息真香：现金流稳定
+        - 挂钩指数长期看是核心资产的成本
+      bad:
+        - 跌破敲入=深度亏损
+        - 「高息+保本」全是话术
+      policy:
+        - 场外期权监管与投资者门槛
+        - 雪球额度与券商资本金约束
+      example: 收保护费的看门狗：平时每月收钱（票息），强盗真来了你得替他挡刀（大跌亏损），刀刀见血。
+  - slug: yong-xu-zhai
+    headword: 永续债
+    categoryL1: 基金产品
+    categoryL2: 债券
+    difficulty: L3
+    summaryPlain: 没有明确到期日的债券：理论上永远只付利息不还本。
+    riskNote: 「永续」是有条件的，赎回权和递延条款要逐条看。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 没有明确到期日的债券：理论上永远只付利息不还本。
+        example: 比如银行发的这种没有到期日的债补充资本，利率环境差时可递延付息。
+        notMeaning: 「永续」是有条件的，赎回权和递延条款要逐条看。
+        isPrimary: true
+        contextKeywords:
+          - 债券
+        frequency: mid
+    aliases:
+      - raw: 永续债
+        aliasType: primary
+      - raw: Perpetual Bond
+        aliasType: en_alias
+    viz:
+      type: PEScale
+      config:
+        ratioName: 永续债价格
+        denomLabel: 票息
+        denomMax: 10
+        cheap: 3
+        fair: 8
+    insights:
+      affects:
+        - 资本补充：银行保险的重要工具
+        - 股性：条款设计影响定价
+      good:
+        - 高票息：比普通债收益高
+      bad:
+        - 递延付息：现金流不及预期
+        - 实质是股不是债
+      policy:
+        - 发行主体资质与条款设计
+      example: 只付房租不卖房子的房东：月月有租（利息），房子（本金）永远是你的也永远不是。
+  - slug: you-xian-gu
+    headword: 优先股
+    categoryL1: 基金产品
+    categoryL2: 股票类型
+    difficulty: L2
+    summaryPlain: 分红和清算时排在普通股前面的股票：像「股东版的欠条」，但投票权通常有限。
+    riskNote: 优先股股东也可能颗粒无收；它不是债券，没有保底一说。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 分红和清算时排在普通股前面的股票：像「股东版的欠条」，但投票权通常有限。
+        example: 比如公司利润有限时先付优先档股息，剩下的才轮到普通股股东。
+        notMeaning: 优先股股东也可能颗粒无收；它不是债券，没有保底一说。
+        isPrimary: true
+        contextKeywords:
+          - 股票类型
+        frequency: high
+    aliases:
+      - raw: 优先股
+        aliasType: primary
+      - raw: preferred stock
+        aliasType: en_alias
+      - raw: 普通股对比
+        aliasType: cn_alias
+    viz:
+      type: DividendSplit
+      config: {}
+    insights:
+      affects:
+        - 融资结构：公司不稀释控制权的工具
+        - 收益分配：优先股息先于普通股
+        - 清算顺序：破产时比普通股先分
+      good:
+        - 固定股息：现金流稳定诉求的配置
+        - 银行等机构补充资本的重要工具
+      bad:
+        - 投票权弱：对治理没话语权
+        - 公司困难时照样被欠
+      policy:
+        - 发行审批与适用机构范围
+        - 优先股股息支付政策
+      example: 婚宴上的主桌亲戚：先敬酒（分红利）、先动筷（清算优先），但买单（投票）说不上话。
+  - slug: zhai-quan
+    headword: 债券
+    categoryL1: 基金产品
+    categoryL2: 固收
+    difficulty: L1
+    summaryPlain: 借钱凭证：到期还本付息，价格和利率反向走着。
+    riskNote: 利率上行期债券会跌；低评级债有违约风险。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 借钱凭证：到期还本付息，价格和利率反向走着。
+        example: 比如市场利率涨 1%，手里的老债价格就往下掉。
+        notMeaning: 利率上行期债券会跌；低评级债有违约风险。
+        isPrimary: true
+        contextKeywords:
+          - 固收
+        frequency: mid
+    aliases:
+      - raw: 债券
+        aliasType: primary
+      - raw: 国债
+        aliasType: cn_alias
+      - raw: 企业债
+        aliasType: cn_alias
+      - raw: Bond
+        aliasType: en_alias
+    viz:
+      type: PEScale
+      config:
+        ratioName: 债券价格
+        denomLabel: 市场利率
+        denomMax: 10
+        cheap: 2
+        fair: 6
+    insights:
+      affects:
+        - 资产配置：股债平衡的压舱石
+        - 利率预期：决定债券涨跌
+      good:
+        - 降息周期：债券走牛
+        - 避险：股市跌时债常涨
+      bad:
+        - 加息周期：债券杀跌
+        - 违约：本金受损
+      policy:
+        - 货币政策决定利率方向
+      example: 老借条：市场利息涨了，你的老借条（低息）不值钱；市场利息跌了，老借条反而香了。
+  - slug: zhi-shu-ji-jin
+    headword: 指数基金
+    categoryL1: 基金产品
+    categoryL2: 基金
+    difficulty: L1
+    summaryPlain: 照着指数名单照单全买的基金：不挑不选，赚市场平均的钱。
+    riskNote: 指数跌它也跌；选错指数一样亏，别当保本。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 照着指数名单照单全买的基金：不挑不选，赚市场平均的钱。
+        example: 比如买沪深 300 的被动基金，就等于按权重买了 300 家公司。
+        notMeaning: 指数跌它也跌；选错指数一样亏，别当保本。
+        isPrimary: true
+        contextKeywords:
+          - 基金
+        frequency: mid
+    aliases:
+      - raw: 指数基金
+        aliasType: primary
+      - raw: 被动基金
+        aliasType: cn_alias
+      - raw: 增强指数
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        title: 指数基金：照单全买
+    insights:
+      affects:
+        - 配置基础：定投的核心工具
+        - 费率：便宜是最大优势
+      good:
+        - 省心：不踩个股雷
+        - 牛市跟上大盘
+      bad:
+        - 熊市照跌
+        - 指数高位时买入一样被套
+      policy:
+        - 指数编制规则
+      example: 包月套餐：不问厨子心情，照菜单上菜。多数时候比单点（个股）稳，难吃也难吃不到哪去。

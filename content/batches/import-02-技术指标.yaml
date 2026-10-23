@@ -1,0 +1,189 @@
+category: 技术指标
+source: import wave 2 from 10_技术分析.tsv (2026-10-22) — 均线系统，长尾层（无 viz/insights）；示例已逐条改写成无黑话/无建议词
+terms:
+  - slug: 5-ri-jun-xian
+    headword: 5日均线
+    categoryL1: 技术指标
+    categoryL2: 均线类
+    difficulty: L1
+    summaryPlain: 最近5个交易日收盘价的算术平均值，代表一周内短期平均成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 最近5个交易日收盘价的算术平均值，代表一周内短期平均成本。
+        example: 股价运行到5日均线下方，表示近几个交易日的平均成交价高于当前股价。
+        isPrimary: true
+    aliases:
+      - raw: 5日均线
+        aliasType: primary
+      - raw: 5-Day Moving Average
+        aliasType: en_alias
+  - slug: 10-ri-jun-xian
+    headword: 10日均线
+    categoryL1: 技术指标
+    categoryL2: 均线类
+    difficulty: L1
+    summaryPlain: 最近10个交易日收盘价的算术平均值，代表两周的短期成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 最近10个交易日收盘价的算术平均值，代表两周的短期成本。
+        example: 10日均线常被用来观察短期走势的强弱。
+        isPrimary: true
+    aliases:
+      - raw: 10日均线
+        aliasType: primary
+      - raw: 10-Day Moving Average
+        aliasType: en_alias
+  - slug: 20-ri-jun-xian
+    headword: 20日均线
+    categoryL1: 技术指标
+    categoryL2: 均线类
+    difficulty: L1
+    summaryPlain: 最近20个交易日收盘价的算术平均值，约一个月周期，常被视为月线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 最近20个交易日收盘价的算术平均值，约一个月周期，常被视为月线。
+        example: 20日均线大致覆盖一个月，常作为中期走势的参考。
+        isPrimary: true
+    aliases:
+      - raw: 20日均线
+        aliasType: primary
+      - raw: 20-Day Moving Average
+        aliasType: en_alias
+      - raw: 月线
+        aliasType: cn_alias
+  - slug: 60-ri-jun-xian
+    headword: 60日均线
+    categoryL1: 技术指标
+    categoryL2: 均线类
+    difficulty: L1
+    summaryPlain: 约三个月交易周期的移动平均线，常被称为季线，是中线趋势的分水岭。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 约三个月交易周期的移动平均线，常被称为季线，是中线趋势的分水岭。
+        example: 60日均线大致对应一个季度，常用来观察中期趋势。
+        isPrimary: true
+    aliases:
+      - raw: 60日均线
+        aliasType: primary
+      - raw: 60-Day Moving Average
+        aliasType: en_alias
+      - raw: 季线
+        aliasType: cn_alias
+  - slug: 120-ri-jun-xian
+    headword: 120日均线
+    categoryL1: 技术指标
+    categoryL2: 均线类
+    difficulty: L1
+    summaryPlain: 约半年交易周期的移动平均线，是中长期牛熊分界的参考线之一。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 约半年交易周期的移动平均线，是中长期牛熊分界的参考线之一。
+        example: 120日均线约覆盖半年，也叫半年线，常被视为中长期走势的分界参考。
+        isPrimary: true
+    aliases:
+      - raw: 120日均线
+        aliasType: primary
+      - raw: 120-Day Moving Average
+        aliasType: en_alias
+      - raw: 半年线
+        aliasType: cn_alias
+  - slug: jun-xian-zhan-he
+    headword: 均线粘合
+    categoryL1: 技术指标
+    categoryL2: 均线类
+    difficulty: L2
+    summaryPlain: 短期、中期、长期均线逐渐收敛到相近价位的状态，预示即将选择方向。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 短期、中期、长期均线逐渐收敛到相近价位的状态，预示即将选择方向。
+        example: 多条均线收敛到相近价位，通常意味着即将选择运行方向。
+        isPrimary: true
+    aliases:
+      - raw: 均线粘合
+        aliasType: primary
+      - raw: Moving Average Convergence
+        aliasType: en_alias
+  - slug: jun-xian-fa-san
+    headword: 均线发散
+    categoryL1: 技术指标
+    categoryL2: 均线类
+    difficulty: L2
+    summaryPlain: 短、中、长期均线向不同方向张开，呈多头发散或空头发散的状态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 短、中、长期均线向不同方向张开，呈多头发散或空头发散的状态。
+        example: 短、中、长期均线向不同方向张开，常出现在一段趋势形成之后。
+        isPrimary: true
+    aliases:
+      - raw: 均线发散
+        aliasType: primary
+      - raw: Moving Average Divergence
+        aliasType: en_alias
+  - slug: jun-xian-guai-tou
+    headword: 均线拐头
+    categoryL1: 技术指标
+    categoryL2: 均线类
+    difficulty: L2
+    summaryPlain: 均线由上行转为走平或向下、或由下跌转为走平或向上的转折点。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 均线由上行转为走平或向下、或由下跌转为走平或向上的转折点。
+        example: 60日均线由上行转为走平或向下，即为均线拐头。
+        isPrimary: true
+    aliases:
+      - raw: 均线拐头
+        aliasType: primary
+      - raw: Moving Average Turn
+        aliasType: en_alias
+  - slug: jun-xian-zhi-cheng
+    headword: 均线支撑
+    categoryL1: 技术指标
+    categoryL2: 均线类
+    difficulty: L2
+    summaryPlain: 股价调整到某条均线附近时跌势放缓、止跌的现象。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 股价调整到某条均线附近时跌势放缓、止跌的现象。
+        example: 股价调整到某条均线附近时跌势放缓，称为获得均线支撑。
+        isPrimary: true
+    aliases:
+      - raw: 均线支撑
+        aliasType: primary
+      - raw: Moving Average Support
+        aliasType: en_alias
+  - slug: jun-xian-ya-li
+    headword: 均线压力
+    categoryL1: 技术指标
+    categoryL2: 均线类
+    difficulty: L2
+    summaryPlain: 股价上行到某条均线附近时遇到阻力、难以继续向上的现象。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 股价上行到某条均线附近时遇到阻力、难以继续向上的现象。
+        example: 股价上行到某条均线附近时遇到阻力，称为遭遇均线压力。
+        isPrimary: true
+    aliases:
+      - raw: 均线压力
+        aliasType: primary
+      - raw: Moving Average Resistance
+        aliasType: en_alias

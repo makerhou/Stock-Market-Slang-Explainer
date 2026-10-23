@@ -1,0 +1,1188 @@
+# 自动生成的批量词条源（可由 ingest 重新编译为 lexicon.json）
+category: 财报公司
+source: bootstrap from lexicon.json (2026-10-22)
+terms:
+  - slug: agm
+    headword: 股东大会
+    categoryL1: 财报公司
+    categoryL2: 公司治理
+    difficulty: L2
+    summaryPlain: 股东投票决定重大事项的会议：分红、董事、并购都要它点头。
+    riskNote: 散户参会率低，实质是大股东的表决会；港股反对票规则对小股东有保护。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 股东投票决定重大事项的会议：分红、董事、并购都要它点头。
+        example: 比如股东会否决了并购议案，股价反而涨了。
+        notMeaning: 散户参会率低，实质是大股东的表决会；港股反对票规则对小股东有保护。
+        isPrimary: true
+        contextKeywords:
+          - 公司治理
+        frequency: mid
+    aliases:
+      - raw: 股东大会
+        aliasType: primary
+      - raw: AGM
+        aliasType: en_alias
+      - raw: EGM
+        aliasType: en_alias
+      - raw: 股东会
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: board
+        title: 股东大会：投票定大事
+    insights:
+      affects:
+        - 公司治理：决策的合法来源
+        - 股东权利：散户的发声渠道
+      good:
+        - 议案通过：经营连贯
+      bad:
+        - 议案被否：内部分歧暴露
+      policy:
+        - 股东大会召集与表决规则
+      example: 业主大会：换物业（董事会）、动用维修金（分红）都要投票。你的一票理论上有用——如果你去的话。
+  - slug: bing-gou
+    headword: 并购
+    categoryL1: 财报公司
+    categoryL2: 资本运作
+    difficulty: L2
+    summaryPlain: 一家公司买另一家（或合并）：买技术、买市场、买用户，商业世界的合纵连横。
+    riskNote: 高溢价并购常埋下商誉地雷，跨界并购成功率更是惨淡。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 一家公司买另一家（或合并）：买技术、买市场、买用户，商业世界的合纵连横。
+        example: 比如某互联网巨头收购一家游戏工作室，为的是拿到爆款 IP。
+        notMeaning: 高溢价并购常埋下商誉地雷，跨界并购成功率更是惨淡。
+        isPrimary: true
+        contextKeywords:
+          - 资本运作
+        frequency: high
+    aliases:
+      - raw: 并购
+        aliasType: primary
+      - raw: M&A
+        aliasType: en_alias
+      - raw: 收购
+        aliasType: cn_alias
+      - raw: 合并
+        aliasType: cn_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: 并购：大鱼吃小鱼
+    insights:
+      affects:
+        - 产业格局：并购重塑行业排名
+        - 股价：并购公告常刺激股价
+        - 就业：整合往往意味着裁员
+      good:
+        - 补短板：快速拿到技术或渠道
+        - 横向并购后议价权大增
+      bad:
+        - 消化不良：1+1<2
+        - 跨界并购：隔行如隔山
+      policy:
+        - 反垄断审查约束大并购
+        - 外资准入限制改变交易结构
+      example: 两家相邻小卖部合并：进货更便宜了，但原来两个收银只剩一个。协同效应是美好预期，落地看整合。
+  - slug: chai-gu
+    headword: 拆股
+    categoryL1: 财报公司
+    categoryL2: 股本运作
+    difficulty: L2
+    summaryPlain: 按比例把一股拆成多股，股价相应下调：总市值不变，但单价变便宜、更好买。
+    riskNote: 拆股本身不创造价值，反向拆股（合股）常是保上市地位的操作。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 按比例把一股拆成多股，股价相应下调：总市值不变，但单价变便宜、更好买。
+        example: 比如公司 1 拆 2，原来 200 元一股变 100 元两股，账户股票翻倍、总市值没动。
+        notMeaning: 拆股本身不创造价值，反向拆股（合股）常是保上市地位的操作。
+        isPrimary: true
+        contextKeywords:
+          - 股本运作
+        frequency: high
+    aliases:
+      - raw: 拆股
+        aliasType: primary
+      - raw: 合股
+        aliasType: cn_alias
+      - raw: 送股
+        aliasType: cn_alias
+      - raw: 拆细
+        aliasType: cn_alias
+    viz:
+      type: ExRightAdjust
+      config:
+        title: 拆股：切更多块，总值不变
+    insights:
+      affects:
+        - 流动性：低价股更好交易
+        - 指数/ETF：价格影响纳入和心理门槛
+        - 信号：管理层对前景乐观
+      good:
+        - 拆股后散户参与度上升
+        - 高价股拆股常伴随牛市情绪
+      bad:
+        - 合股常是保壳求生
+        - 拆股不等于任何价值创造
+      policy:
+        - 交易所对拆合股比例的规定
+        - 上市公司章程授权董事会
+      example: 一块披萨切 4 块变切 8 块：块小了、能分的人多了，但披萨还是那张披萨。
+  - slug: ding-zeng
+    headword: 定增
+    categoryL1: 财报公司
+    categoryL2: 再融资
+    difficulty: L3
+    summaryPlain: 上市公司向少数特定对象（大机构、大股东）打折增发新股专门融资，和公开发行两码事。
+    riskNote: 股本被摊薄；定增价倒挂、锁定到期减持都会带来压力。
+    frequency: mid
+    popularity: 560
+    senses:
+      - senseKey: default
+        plainExplain: 定向增发：公司非公开地向不超过特定数量的机构/个人发行新股募集资金。
+        example: 一家公司要建新厂，不愿对所有散户发新股，于是找几家大机构协议定价卖一批新股，只给这些人认购。
+        notMeaning: 定增不是配股（面向老股东），也不是公开增发（面向所有人）。
+        isPrimary: true
+        contextKeywords:
+          - 非公开
+          - 增发
+          - 机构
+          - 摊薄
+        frequency: mid
+    aliases:
+      - raw: 定增
+        aliasType: primary
+      - raw: 定向增发
+        aliasType: cn_alias
+    viz:
+      type: PoolDilution
+      config: {}
+    insights:
+      affects:
+        - 公司：快速拿到扩产/并购的钱
+        - 老股东：总股本变大，每股收益、控制权被稀释
+        - 市场：定增价常被视为「机构认可的价值锚」
+      good:
+        - 项目投产兑现：业绩提升，摊薄被新增利润对冲
+        - 知名机构捧场：释放看好信号
+      bad:
+        - 摊薄即期回报：EPS 被摊薄
+        - 折价过大/利益输送质疑；到期解禁形成抛压
+      policy:
+        - 定价基准：不低于定价基准日前 20 日均价 80%
+        - 锁定期：一般 6 个月/18 个月，到期才能卖
+        - 再融资松紧周期：监管窗口影响发行节奏
+      example: 三人合伙的披萨店要买新烤炉钱不够，按老规矩找熟人以 8 折价卖给他一份干股（定增）。钱到位炉子更好，但总份数从 12 块变 15 块——每块披萨变小了（摊薄），除非新烤炉带来 15 块以上的新生意。
+  - slug: esg
+    headword: ESG
+    categoryL1: 财报公司
+    categoryL2: 评估体系
+    difficulty: L2
+    summaryPlain: 环境、社会、治理三方面的非财务评估：好公司的新标准。
+    riskNote: ESG 高分不等于高回报，评级机构之间也常打架。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 环境、社会、治理三方面的非财务评估：好公司的新标准。
+        example: 比如某公司非财务评级下调，被部分基金强制卖出。
+        notMeaning: ESG 高分不等于高回报，评级机构之间也常打架。
+        isPrimary: true
+        contextKeywords:
+          - 评估体系
+        frequency: mid
+    aliases:
+      - raw: ESG
+        aliasType: primary
+      - raw: 环境社会治理
+        aliasType: cn_alias
+      - raw: 绿色金融
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: ESG：三好学生评分
+        min: 0
+        max: 100
+        threshold: 60
+        initial: 72
+        valueLabel: ESG 综合分
+        zones:
+          - min: 0
+            max: 60
+            label: 待改进
+            color: var(--down)
+          - min: 60
+            max: 100
+            label: 达标区
+            color: var(--up)
+    insights:
+      affects:
+        - 资金准入：欧基金的硬门槛
+        - 风险规避：暴雷的前瞻信号
+      good:
+        - ESG 领先：长期资金偏爱
+      bad:
+        - 漂绿嫌疑：打分注水
+      policy:
+        - 各交易所的 ESG 披露指引
+      example: 三好学生奖状：不直接加薪（收益），但好学校（基金）优先录取。
+  - slug: fen-chai-shang-shi
+    headword: 分拆上市
+    categoryL1: 财报公司
+    categoryL2: 资本运作
+    difficulty: L2
+    summaryPlain: 把子公司拆出来独立上市：一块好资产单独定价。
+    riskNote: 分拆后母公司持股比例稀释，优质资产被「掏空」的争议常在。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 把子公司拆出来独立上市：一块好资产单独定价。
+        example: 比如某集团分拆科技子公司上市，子公司估值反超母公司。
+        notMeaning: 分拆后母公司持股比例稀释，优质资产被「掏空」的争议常在。
+        isPrimary: true
+        contextKeywords:
+          - 资本运作
+        frequency: mid
+    aliases:
+      - raw: 分拆上市
+        aliasType: primary
+      - raw: Spin-off
+        aliasType: en_alias
+      - raw: 分拆
+        aliasType: cn_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: 分拆：好孩子分家单过
+    insights:
+      affects:
+        - 价值重估：隐含价值的释放
+        - 融资：子公司独立拿钱
+      good:
+        - 优质资产显性化
+        - 母公司持股享溢价
+      bad:
+        - 掏空质疑：母公司空心化
+      policy:
+        - 境内外分拆上市规则
+      example: 大家族分家：最有出息的儿子（优质子公司）自立门户，家产重新估值，老爷子（母公司）面子有光但也肉疼。
+  - slug: fen-hong
+    headword: 分红
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 公司把赚到的部分利润按持股多少分给股东，常见形式是现金红利或送红股。
+    riskNote: 分得多不等于股价会涨，除权后价格会相应调整。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 公司把赚到的部分利润按持股多少分给股东，常见形式是现金红利或送红股。
+        example: 比如一家盈利稳定的公司宣布每持有十股就派发现金若干，这就是把利润返给持有人。
+        notMeaning: 分得多不等于股价会涨，除权后价格会相应调整。
+        isPrimary: true
+        contextKeywords:
+          - 股息
+          - 派现
+          - 除权
+          - 回报
+        frequency: mid
+    aliases:
+      - raw: 分红
+        aliasType: primary
+      - raw: 派息
+        aliasType: colloquial
+    viz:
+      type: DividendSplit
+      config: {}
+    insights:
+      affects:
+        - 你实打实拿到手的现金
+        - 公司愿不愿回报股东
+        - 长期持有的底气
+      good:
+        - 赚钱后分真金白银给你
+        - 说明公司厚道、现金流好
+      bad:
+        - 不分红或‘铁公鸡’=只画饼
+        - 高分红但业绩下滑也不可持续
+      policy:
+        - 分红税收、回购政策鼓励回报
+        - 监管要求破净央国企提升分红
+      example: 公司一年净赚 1 亿，拿 3000 万按持股分给股东：你持 1% 就能拿 30 万。分红后股价会‘除权’下调，但你的总钱数没少。
+  - slug: fen-xi-shi-ping-ji
+    headword: 分析师评级
+    categoryL1: 财报公司
+    categoryL2: 分析观点
+    difficulty: L1
+    summaryPlain: 分析师给股票的买入/持有/卖出评分：市场噪音的最大来源。
+    riskNote: 评级长期偏乐观（卖出评级稀缺），别当圣旨。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 分析师给股票的买入/持有/卖出评分：市场噪音的最大来源。
+        example: 比如满屏「买入」评级的股票，反而可能是筹码派发期。
+        notMeaning: 评级长期偏乐观（卖出评级稀缺），别当圣旨。
+        isPrimary: true
+        contextKeywords:
+          - 分析观点
+        frequency: mid
+    aliases:
+      - raw: 分析师评级
+        aliasType: primary
+      - raw: 买入评级
+        aliasType: cn_alias
+      - raw: 研报
+        aliasType: cn_alias
+      - raw: Upgrade
+        aliasType: en_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 买入评级占比
+            point: 90
+            base: 100
+            note: 卖方长期偏多
+          - name: 卖出评级占比
+            point: 3
+            base: 100
+            note: 稀缺动物
+    insights:
+      affects:
+        - 情绪指标：一致看多=风险
+        - 信息茧房：评级误导散户
+      good:
+        - 深度报告：有推导链的值得读
+      bad:
+        - 目标价幻觉：只记结论不记逻辑
+      policy:
+        - 研报合规与利益冲突披露
+      example: 餐厅点评：五星多不一定好吃（刷的），带图长评（有推导）才可信。
+  - slug: gu-quan-ji-li
+    headword: 股权激励
+    categoryL1: 财报公司
+    categoryL2: 人才工具
+    difficulty: L1
+    summaryPlain: 用股票或期权激励员工：把打工人变合伙人。
+    riskNote: 激励费用摊薄利润，行权价和考核目标要看清楚。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 用股票或期权激励员工：把打工人变合伙人。
+        example: 比如公司发期权给核心团队，四年归属，留住人。
+        notMeaning: 激励费用摊薄利润，行权价和考核目标要看清楚。
+        isPrimary: true
+        contextKeywords:
+          - 人才工具
+        frequency: mid
+    aliases:
+      - raw: 股权激励
+        aliasType: primary
+      - raw: RSU
+        aliasType: en_alias
+      - raw: 期权激励
+        aliasType: cn_alias
+      - raw: ESOP
+        aliasType: en_alias
+    viz:
+      type: OptionsLadder
+      config:
+        premium: 2
+    insights:
+      affects:
+        - 人才留存：创业公司的命根
+        - 成本：股权激励费用化
+      good:
+        - 利益绑定：团队有奔头
+      bad:
+        - 过度激励：稀释股东
+        - 目标注水：躺着拿钱
+      policy:
+        - 会计准则对股份支付的要求
+      example: 把蛋糕做大大家多分：厨子（员工）从打工变入股，菜炒得用心，但你的股份被稀释。
+  - slug: hui-gou
+    headword: 回购
+    categoryL1: 财报公司
+    categoryL2: 资本运作
+    difficulty: L1
+    summaryPlain: 公司用自己的钱从市场买回自家股票，可以注销（股本变小）或放着发激励。
+    riskNote: 回购可能是配合减持的烟雾弹，注销型回购才是真回报。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 公司用自己的钱从市场买回自家股票，可以注销（股本变小）或放着发激励。
+        example: 比如公司宣布 50 亿买回自家股票并注销，股本变小后每股收益变厚，市场短期解读为利好。
+        notMeaning: 回购可能是配合减持的烟雾弹，注销型回购才是真回报。
+        isPrimary: true
+        contextKeywords:
+          - 资本运作
+        frequency: high
+    aliases:
+      - raw: 回购
+        aliasType: primary
+      - raw: 股份回购
+        aliasType: cn_alias
+      - raw: buyback
+        aliasType: en_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: 回购：公司自己下场买
+    insights:
+      affects:
+        - 股本：注销式回购让每股更值钱
+        - 信号：管理层认为股价被低估
+        - 现金：回购消耗公司弹药
+      good:
+        - 真金白银买：比画饼强的信心
+        - 注销式回购：实打实提升 EPS
+      bad:
+        - 回购护盘后大股东减持：套路
+        - 回购价高于市价太多：利益输送疑云
+      policy:
+        - 回购新规：缩短护盘披露周期
+        - 破净破发公司回购约束放宽
+      example: 村里集资修井，每户都摊一份。后来井出了名，村里决定把份额收回来注销——井还是那口井，但剩下的人份额更值钱。
+  - slug: ipo
+    headword: IPO
+    categoryL1: 财报公司
+    categoryL2: 上市
+    difficulty: L1
+    summaryPlain: 公司第一次向公众发行股票上市：从私房菜到挂牌开饭店。
+    riskNote: IPO 不是稳赚信号，定价过高照样破发。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 公司第一次向公众发行股票上市：从私房菜到挂牌开饭店。
+        example: 比如热门新股上市首日翻倍，也可能三个月就跌回去。
+        notMeaning: IPO 不是稳赚信号，定价过高照样破发。
+        isPrimary: true
+        contextKeywords:
+          - 上市
+        frequency: mid
+    aliases:
+      - raw: IPO
+        aliasType: primary
+      - raw: 首次公开发行
+        aliasType: cn_alias
+      - raw: 新股上市
+        aliasType: cn_alias
+    viz:
+      type: IpoLottery
+      config:
+        issuePrice: 12
+        rate: 0.05
+    insights:
+      affects:
+        - 融资：企业发展的加油站
+        - 打新：散户的彩票游戏
+      good:
+        - 募资投向好：成长可期
+      bad:
+        - 高位圈钱：上市即巅峰
+      policy:
+        - 注册制下的发行节奏
+      example: 小作坊升级成连锁店：引入公众股东（IPO），规矩多了、钱多了、压力也大了。
+  - slug: jie-jin-liao-jie
+    headword: 解禁潮
+    categoryL1: 财报公司
+    categoryL2: 供给压力
+    difficulty: L1
+    summaryPlain: 大量限售股集中到期的窗口：以前锁着不能卖的股票开闸，抛压排山倒海。
+    riskNote: 不是所有解禁都等于减持，但集中解禁期情绪面明显受压。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 大量限售股集中到期的窗口：以前锁着不能卖的股票开闸，抛压排山倒海。
+        example: 比如某次解禁涉及 40% 股本，公告一出股价先跌为敬。
+        notMeaning: 不是所有解禁都等于减持，但集中解禁期情绪面明显受压。
+        isPrimary: true
+        contextKeywords:
+          - 供给压力
+        frequency: high
+    aliases:
+      - raw: 解禁潮
+        aliasType: primary
+      - raw: 解禁
+        aliasType: cn_alias
+      - raw: 限售股
+        aliasType: cn_alias
+      - raw: lock-up expiry
+        aliasType: en_alias
+    viz:
+      type: UnlockPressure
+      config: {}
+    insights:
+      affects:
+        - 供需：流通盘骤增改变博弈结构
+        - 情绪：解禁前后波动加大
+        - 策略：解禁前回避、解禁后观察
+      good:
+        - 解禁+不减持公告：利空出尽
+        - 大股东自愿延长锁定：信心信号
+      bad:
+        - 集中解禁月：流动性差的票闪崩
+        - 解禁后减持公告连环
+      policy:
+        - 减持规则（比例、预披露）
+        - 注册制下战略配售锁定期规定
+      example: 水库开闸：平时下游没水（没货可卖），闸门一开（解禁）水量汹涌，河坝（股价）压力山大。
+  - slug: jie-ke
+    headword: 借壳
+    categoryL1: 财报公司
+    categoryL2: 资本运作
+    difficulty: L2
+    summaryPlain: 通过收购已上市公司实现间接上市：曲线救国那条路。
+    riskNote: 注册制下壳不值钱了，借壳的性价比和想象空间都在下降。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 通过收购已上市公司实现间接上市：曲线救国那条路。
+        example: 比如某独角兽通过收购上市公司间接挂牌，壳资源股连拉涨停。
+        notMeaning: 注册制下壳不值钱了，借壳的性价比和想象空间都在下降。
+        isPrimary: true
+        contextKeywords:
+          - 资本运作
+        frequency: mid
+    aliases:
+      - raw: 借壳
+        aliasType: primary
+      - raw: Reverse Merger
+        aliasType: en_alias
+      - raw: 壳资源
+        aliasType: cn_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: 借壳：买牌照上市
+    insights:
+      affects:
+        - 上市路径：时间换空间
+        - 壳资源：稀缺性的消退
+      good:
+        - 快速登陆资本市场
+      bad:
+        - 壳公司历史包袱
+        - 监管严查：炒壳风险
+      policy:
+        - 注册制削弱壳价值
+      example: 没名额进名校，先转学进一个差学校再改校籍：路子野，但后患（历史包袱）也多。
+  - slug: ku-cun-gu
+    headword: 库存股
+    categoryL1: 财报公司
+    categoryL2: 资本运作
+    difficulty: L3
+    summaryPlain: 公司回购后暂不注销、攥在手里的自家股票：以后可以用于激励或再卖出。
+    riskNote: 库存股不注销就不会减少股本，和「真回购」要区分。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 公司回购后暂不注销、攥在手里的自家股票：以后可以用于激励或再卖出。
+        example: 比如回购的股票放着发员工激励，股本没变、EPS 也没变厚。
+        notMeaning: 库存股不注销就不会减少股本，和「真回购」要区分。
+        isPrimary: true
+        contextKeywords:
+          - 资本运作
+        frequency: mid
+    aliases:
+      - raw: 库存股
+        aliasType: primary
+      - raw: Treasury Stock
+        aliasType: en_alias
+      - raw: 回购股
+        aliasType: cn_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: 库存股：攥在手里的自家票
+    insights:
+      affects:
+        - 股本：注销 vs 库存股差别巨大
+        - 激励：股权激励的弹药
+      good:
+        - 后续可用于激励不增发
+        - 未来再卖出：潜在抛压
+      bad:
+        - 只回购不注销：利好打折
+      policy:
+        - 库存股制度与会计准则
+      example: 超市把临期可乐回购回来放仓库：货架上的数量没少（股本没变），随时能再上架（再卖出）。
+  - slug: kui-sun
+    headword: 亏损
+    categoryL1: 财报公司
+    categoryL2: 经营业绩
+    difficulty: L1
+    summaryPlain: 公司一段时期里收入抵不过成本和费用，算下来是倒贴钱，和盈利相对。
+    riskNote: 单季承压不等于公司要垮，要看是偶发还是趋势。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 公司一段时期里收入抵不过成本和费用，算下来是倒贴钱，和盈利相对。
+        example: 比如工厂开工但订单太少，卖货的钱还不够发工资交电费，账面就是红的。
+        notMeaning: 单季承压不等于公司要垮，要看是偶发还是趋势。
+        isPrimary: true
+        contextKeywords:
+          - 亏损
+          - 亏钱
+          - 业绩
+          - ST
+        frequency: mid
+    aliases:
+      - raw: 亏损
+        aliasType: primary
+    viz:
+      type: ProfitLossScale
+      config:
+        income: 150
+        cost: 260
+    insights:
+      affects:
+        - 股价承压、融资变难
+        - 可能戴帽 ST、甚至退市
+        - 员工和供应商信心
+      good:
+        - 几乎没有（亏损本身是坏事）
+        - 但‘战略性亏损’换市场也算一种打法
+      bad:
+        - 一年赔钱=在贴钱经营
+        - 连续亏损威胁生存
+      policy:
+        - 需求不足、价格战会放大亏损
+        - 补贴、降本能减亏
+      example: 小卖部一年收 15 万、成本 26 万，净亏 11 万。亏久了房东涨租、货卖不出，就可能关门。
+  - slug: lv-xie
+    headword: 绿鞋
+    categoryL1: 财报公司
+    categoryL2: 发行机制
+    difficulty: L2
+    summaryPlain: 超额配售权：新股卖超了，承销商可以多发行 15% 稳定股价，像给发行价垫了缓冲垫。
+    riskNote: 护盘弹药耗尽后该跌还是跌，绿鞋不是保价承诺。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 超额配售权：新股卖超了，承销商可以多发行 15% 稳定股价，像给发行价垫了缓冲垫。
+        example: 比如某新股上市即破发，承销商行使超额配售权从市场买入护盘。
+        notMeaning: 护盘弹药耗尽后该跌还是跌，绿鞋不是保价承诺。
+        isPrimary: true
+        contextKeywords:
+          - 发行机制
+        frequency: high
+    aliases:
+      - raw: 绿鞋
+        aliasType: primary
+      - raw: 超额配售权
+        aliasType: cn_alias
+      - raw: greenshoe
+        aliasType: en_alias
+    viz:
+      type: IpoLottery
+      config:
+        issuePrice: 10
+        rate: 0.05
+    insights:
+      affects:
+        - 发行价：稳定上市初期股价
+        - 市场情绪：绿鞋资金=护盘信号
+        - 承销商：超额配售的博弈
+      good:
+        - 破发时有资金托底
+        - 市场平稳时绿鞋平稳结束
+      bad:
+        - 弹药耗尽=缓冲消失
+        - 别把护盘当价值背书
+      policy:
+        - 发行办法规定 15% 上限
+        - 券商资本实力影响护盘能力
+      example: 餐厅开业多备了 15% 的食材（超额配售）：头两天爆单能顶上，万一没人来，还能退给供应商。
+  - slug: md-a
+    headword: MD&A
+    categoryL1: 财报公司
+    categoryL2: 报告章节
+    difficulty: L3
+    summaryPlain: 管理层讨论与分析：财报里管理层自己解释经营情况的章节。
+    riskNote: 是管理层的话术集，要交叉验证数字。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 管理层讨论与分析：财报里管理层自己解释经营情况的章节。
+        example: 比如管理层自己解释经营时大谈愿景，但现金流数字很难看。
+        notMeaning: 是管理层的话术集，要交叉验证数字。
+        isPrimary: true
+        contextKeywords:
+          - 报告章节
+        frequency: mid
+    aliases:
+      - raw: MD&A
+        aliasType: primary
+      - raw: 经营讨论
+        aliasType: cn_alias
+      - raw: 管理层分析
+        aliasType: cn_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        title: MD&A：管理层的话术
+    insights:
+      affects:
+        - 信息解读：管理层视角的补充
+        - 话术识别：读懂弦外之音
+      good:
+        - 坦诚的公司：值得加分
+      bad:
+        - 甩锅式 MD&A：减分
+      policy:
+        - SEC 与交易所的披露要求
+      example: 学生的自我评价：「这学期我很努力（MD&A）」——老师说我看分数（数字）。
+  - slug: mu-biao-jia
+    headword: 目标价
+    categoryL1: 财报公司
+    categoryL2: 分析师观点
+    difficulty: L1
+    summaryPlain: 分析师预测的「合理股价」：媒体的股价目标常常是他们研究结论的浓缩。
+    riskNote: 不同机构目标价差一倍很常见，它只代表观点，不是承诺。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 分析师预测的「合理股价」：媒体的股价目标常常是他们研究结论的浓缩。
+        example: 比如某券商上调预测价位到 50 元，当天股价应声上涨 3%。
+        notMeaning: 不同机构目标价差一倍很常见，它只代表观点，不是承诺。
+        isPrimary: true
+        contextKeywords:
+          - 分析师观点
+        frequency: high
+    aliases:
+      - raw: 目标价
+        aliasType: primary
+      - raw: PT
+        aliasType: en_alias
+      - raw: price target
+        aliasType: en_alias
+      - raw: 分析师评级
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 分析师目标价
+            point: 50
+            base: 30
+            note: 研究观点
+          - name: 市场现价
+            point: 36
+            base: 30
+            note: 真实成交
+    insights:
+      affects:
+        - 情绪：目标价上调常引发跟风
+        - 预期管理：机构给你的锚
+        - 陷阱：免费公开的目标价常是滞后信息
+      good:
+        - 上调+超预期：戴维斯双击
+        - 深度Report：有推导链的目标价值得看
+      bad:
+        - 目标价一出就见顶：利好出尽
+        - 只看目标价忽视推导过程
+      policy:
+        - 研报合规要求披露利益冲突
+        - 评级分布长期偏乐观
+      example: 算命先生说你家孩子「高考有望 600 分」：听着鼓舞，但 600 分到底靠不靠谱，得看他怎么教的。
+  - slug: san-ji-bao
+    headword: 三季报
+    categoryL1: 财报公司
+    categoryL2: 定期报告
+    difficulty: L2
+    summaryPlain: 上市公司第三季度的成绩单：全年业绩的收官预览。
+    riskNote: 年报预告常紧跟三季报发布，是排雷和预判的节点。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 上市公司第三季度的成绩单：全年业绩的收官预览。
+        example: 比如三季度成绩单不及预期，股价当天先跌为敬。
+        notMeaning: 年报预告常紧跟三季报发布，是排雷和预判的节点。
+        isPrimary: true
+        contextKeywords:
+          - 定期报告
+        frequency: mid
+    aliases:
+      - raw: 三季报
+        aliasType: primary
+      - raw: 季报
+        aliasType: cn_alias
+      - raw: 中报
+        aliasType: cn_alias
+    viz:
+      type: EarningsSeason
+      config:
+        title: 三季报：全年收官预览
+    insights:
+      affects:
+        - 业绩趋势：全年定调的参照
+        - 预告节点：年报预期的形成期
+      good:
+        - 三季报强+年报预告好：双击
+      bad:
+        - 三季报暴雷：年报也悬
+      policy:
+        - 交易所的定期报告规则
+      example: 期中考后的月考：期末考（年报）前最后一次摸底，老师（市场）据此调整预期。
+  - slug: si-you-hua
+    headword: 私有化
+    categoryL1: 财报公司
+    categoryL2: 资本运作
+    difficulty: L3
+    summaryPlain: 大股东或联合买方把公众股份全买下来，让公司从交易所退市变成私人公司。
+    riskNote: 退市后股票无人接盘；私有化溢价是最后的离场价，犹豫可能被闷。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 大股东或联合买方把公众股份全买下来，让公司从交易所退市变成私人公司。
+        example: 比如某中概股宣布把公众股份全部买回退市，价格比市价高两成。
+        notMeaning: 退市后股票无人接盘；私有化溢价是最后的离场价，犹豫可能被闷。
+        isPrimary: true
+        contextKeywords:
+          - 资本运作
+        frequency: high
+    aliases:
+      - raw: 私有化
+        aliasType: primary
+      - raw: take-private
+        aliasType: en_alias
+      - raw: 要约收购
+        aliasType: cn_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: trap
+        shares: 500
+    insights:
+      affects:
+        - 小股东：溢价退场 vs 贱卖争议
+        - 流动性：退市后无交易市场
+        - 资本运作：从公众融资转回灵活决策
+      good:
+        - 被低估时私有化回归价值
+        - 摆脱公众市场财报压力
+      bad:
+        - 假私有化真套利风险
+        - 对价不满意又无议价能力
+      policy:
+        - 港股私有化需满足投票与反对比例
+        - 监管对定价合理性审查
+      example: 众筹的茶馆办不下去了，大股东出钱按原价+利息赎回各位股份：茶馆从大家的变成他一人的。
+  - slug: spac
+    headword: SPAC
+    categoryL1: 财报公司
+    categoryL2: 上市方式
+    difficulty: L2
+    summaryPlain: 先造一个空壳公司上市融资，再并购一家真公司让它借壳登场：曲线上市的快车道。
+    riskNote: SPAC 泡沫破裂后散户亏损惨重，壳的质量决定终点是蜜糖还是砒霜。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 先造一个空壳公司上市融资，再并购一家真公司让它借壳登场：曲线上市的快车道。
+        example: 比如某明星电动车公司通过这种空壳上市方式挂牌，市值一度数百亿美元。
+        notMeaning: SPAC 泡沫破裂后散户亏损惨重，壳的质量决定终点是蜜糖还是砒霜。
+        isPrimary: true
+        contextKeywords:
+          - 上市方式
+        frequency: high
+    aliases:
+      - raw: SPAC
+        aliasType: primary
+      - raw: 特殊目的收购公司
+        aliasType: cn_alias
+      - raw: 壳上市
+        aliasType: cn_alias
+    viz:
+      type: IpoLottery
+      config:
+        issuePrice: 10
+        rate: 0.5
+    insights:
+      affects:
+        - 上市路径：比传统 IPO 快但贵
+        - 退出：私募基金多了一条退出通道
+        - 散户：SPAC 申购曾是散户稀有能打的新股
+      good:
+        - 明星创始人自带光环
+        - 募资确定性高
+      bad:
+        - 泡沫破裂时壳股跌去 9 成
+        - 普通投资者常成最后接盘方
+      policy:
+        - SEC 加强 SPAC 监管与披露
+        - 并购失败=清盘还钱
+      example: 婚介所先注册「朝阳产业相亲大会」名额，卖完票再去找对象：对象靠谱就成，不靠谱票钱原路退回（但要等）。
+  - slug: ye-ji-kuai-bao
+    headword: 业绩快报
+    categoryL1: 财报公司
+    categoryL2: 信息披露
+    difficulty: L2
+    summaryPlain: 正式财报前的快速披露：未经审计的初步数字，先睹为快。
+    riskNote: 快报和正式财报可能有差异，审计是最后关卡。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 正式财报前的快速披露：未经审计的初步数字，先睹为快。
+        example: 比如快报净利 5 亿，正式年报 4.8 亿，投资者白激动一场。
+        notMeaning: 快报和正式财报可能有差异，审计是最后关卡。
+        isPrimary: true
+        contextKeywords:
+          - 信息披露
+        frequency: mid
+    aliases:
+      - raw: 业绩快报
+        aliasType: primary
+      - raw: 快报
+        aliasType: cn_alias
+      - raw: Flash Report
+        aliasType: en_alias
+    viz:
+      type: EarningsSeason
+      config:
+        expectEps: 1.2
+    insights:
+      affects:
+        - 预期抢跑：快报是预告的预告
+        - 审计差异：数字可能变脸
+      good:
+        - 快报高增：提前反应
+      bad:
+        - 快报翻车：正式审计打脸
+      policy:
+        - 交易所的业绩快报规则
+      example: 期末前老师口头说的估分：准不准，还得等教务处盖章。
+  - slug: ye-ji-yu-gao
+    headword: 业绩预告
+    categoryL1: 财报公司
+    categoryL2: 信息披露
+    difficulty: L1
+    summaryPlain: 正式财报前的初步披露：赚钱还是亏钱，先给你打个预防针。
+    riskNote: 预告是「区间」不是「定数」，最终可能有偏差。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 正式财报前的初步披露：赚钱还是亏钱，先给你打个预防针。
+        example: 比如公司预告全年净利增长 50%-80%，股价当天高开。
+        notMeaning: 预告是「区间」不是「定数」，最终可能有偏差。
+        isPrimary: true
+        contextKeywords:
+          - 信息披露
+        frequency: mid
+    aliases:
+      - raw: 业绩预告
+        aliasType: primary
+      - raw: 业绩快报
+        aliasType: cn_alias
+      - raw: 预告
+        aliasType: cn_alias
+    viz:
+      type: EarningsSeason
+      config:
+        expectEps: 1.5
+    insights:
+      affects:
+        - 预期管理：正式财报的缓冲垫
+        - 排雷：预告变脸是危险信号
+      good:
+        - 预告高增：抢跑行情
+      bad:
+        - 预告下修：连环跌
+      policy:
+        - 触发条件（亏损/扭亏/变动大）强制预告
+      example: 考试前的自我估分：估 90 实际 60，家长（市场）的失望加倍。
+  - slug: ye-ji-zhi-yin
+    headword: 业绩指引
+    categoryL1: 财报公司
+    categoryL2: 管理层预期
+    difficulty: L1
+    summaryPlain: 公司自己对未来业绩的预告：比分析师猜测更权威的内部信号。
+    riskNote: 指引也可能放烟雾弹，要结合历史兑现度看。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 公司自己对未来业绩的预告：比分析师猜测更权威的内部信号。
+        example: 比如公司指引下季收入增长 20%，远超一致预期，股价大涨。
+        notMeaning: 指引也可能放烟雾弹，要结合历史兑现度看。
+        isPrimary: true
+        contextKeywords:
+          - 管理层预期
+        frequency: mid
+    aliases:
+      - raw: 业绩指引
+        aliasType: primary
+      - raw: Guidance
+        aliasType: en_alias
+      - raw: 指引
+        aliasType: cn_alias
+    viz:
+      type: EarningsSeason
+      config:
+        expectEps: 2.5
+    insights:
+      affects:
+        - 预期锚：市场的定价基础
+        - 管理层信用：指引兑现的记录
+      good:
+        - 上调指引：戴维斯双击
+        - 指引保守但兑现：长期信任
+      bad:
+        - 下调指引：杀估值开始
+        - 反复变卦：信用破产
+      policy:
+        - 公平披露规则约束指引沟通
+      example: 班主任开学时说「这学期班级均分目标 85」：说到做到的老师，家长（市场）最买账。
+  - slug: yi-zhi-yu-qi
+    headword: 一致预期
+    categoryL1: 财报公司
+    categoryL2: 分析观点
+    difficulty: L2
+    summaryPlain: 所有分析师预测的平均值：市场心里那杆秤。
+    riskNote: 一致预期会自我强化：太准的预期一旦差一点就是大跌。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 所有分析师预测的平均值：市场心里那杆秤。
+        example: 比如市场一致押注全年赚 10 亿，实际 9 亿：不及预期，跌。
+        notMeaning: 一致预期会自我强化：太准的预期一旦差一点就是大跌。
+        isPrimary: true
+        contextKeywords:
+          - 分析观点
+        frequency: mid
+    aliases:
+      - raw: 一致预期
+        aliasType: primary
+      - raw: Consensus
+        aliasType: en_alias
+      - raw: 市场预期
+        aliasType: cn_alias
+    viz:
+      type: EarningsSeason
+      config:
+        expectEps: 2
+    insights:
+      affects:
+        - 业绩锚：超预期/不及预期的基准
+        - 预期博弈：股价提前反映
+      good:
+        - 预期上修：行情助推器
+      bad:
+        - 预期太高：达标也跌
+      policy:
+        - 卖方研究的汇总统计
+      example: 全班押题的平均答案：真卷子（实际业绩）和平均答案差一分，都算「考砸」。
+  - slug: ying-li
+    headword: 盈利
+    categoryL1: 财报公司
+    categoryL2: 经营业绩
+    difficulty: L1
+    summaryPlain: 公司一段时期里收入扣掉成本和费用后剩下的钱，也就是赚到了，和亏损相对。
+    riskNote: 账面赚钱不代表手里现金一定多，要看钱有没有真正收回来。
+    frequency: high
+    popularity: 900
+    senses:
+      - senseKey: default
+        plainExplain: 公司一段时期里收入扣掉成本和费用后剩下的钱，也就是赚到了，和亏损相对。
+        example: 比如一家店这个季度卖货收进来的钱，付完房租工资还有剩余，就是这笔账为正。
+        notMeaning: 账面赚钱不代表手里现金一定多，要看钱有没有真正收回来。
+        isPrimary: true
+        contextKeywords:
+          - 利润
+          - 赚钱
+          - 业绩
+          - 扣非
+        frequency: high
+    aliases:
+      - raw: 盈利
+        aliasType: primary
+      - raw: 赢利
+        aliasType: colloquial
+    viz:
+      type: ProfitLossScale
+      config: {}
+    insights:
+      affects:
+        - 股价长期涨跌的根本
+        - 能不能分红
+        - 公司会不会被 ST / 退市
+      good:
+        - 赚钱=有真金白银、股价有底
+        - 能分红、能扩张
+      bad:
+        - 亏损=在烧钱、要熬
+        - 连续亏可能被戴帽甚至退市
+      policy:
+        - 行业扶持、减税降费帮公司盈利
+        - 需求下滑、成本上涨则压缩利润
+      example: 小卖部一年卖货收 30 万、进货等成本 22 万，净赚 8 万=盈利。盈利多，老板才敢给你发红包（分红）。
+  - slug: zhao-gu-shu
+    headword: 招股书
+    categoryL1: 财报公司
+    categoryL2: 发行文件
+    difficulty: L2
+    summaryPlain: IPO 前必须公开的厚文件：公司家底、业务、风险全交代。
+    riskNote: 风险章节字字千金，但没人拦得住你打新。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: IPO 前必须公开的厚文件：公司家底、业务、风险全交代。
+        example: 比如打新前翻招股文件里的「风险因素」，比听小道消息靠谱。
+        notMeaning: 风险章节字字千金，但没人拦得住你打新。
+        isPrimary: true
+        contextKeywords:
+          - 发行文件
+        frequency: mid
+    aliases:
+      - raw: 招股书
+        aliasType: primary
+      - raw: 招股说明书
+        aliasType: cn_alias
+      - raw: S-1
+        aliasType: en_alias
+    viz:
+      type: IpoLottery
+      config:
+        issuePrice: 15
+        rate: 0.04
+    insights:
+      affects:
+        - 定价依据：市场怎么给它估值
+        - 风险揭示：爆雷公司的伏笔
+      good:
+        - 业务清晰的好公司：值那个价
+      bad:
+        - 关联交易复杂的：要警惕
+      policy:
+        - 注册制下的信息披露核心
+      example: 婚前的财产公示：对方有几套房、欠几笔债、有什么病，白纸黑字。签字前请读完。

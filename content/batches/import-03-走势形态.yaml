@@ -1,0 +1,115 @@
+category: 走势形态
+source: import wave 3 from 10_技术分析.tsv (2026-10-22) — K线基础件，长尾层；示例已改写成无黑话/无建议词
+terms:
+  - slug: huo-zhu-tu
+    headword: 蜡烛图
+    categoryL1: 走势形态
+    categoryL2: K线基础
+    difficulty: L1
+    summaryPlain: 用带实体和影线的图形表示开盘价、收盘价、最高价、最低价的绘图方法，形似蜡烛。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 用带实体和影线的图形表示开盘价、收盘价、最高价、最低价的绘图方法，形似蜡烛。
+        example: 蜡烛图用实体和影线直观表示一天的开、高、低、收。
+        isPrimary: true
+    aliases:
+      - raw: 蜡烛图
+        aliasType: primary
+      - raw: Candlestick Chart
+        aliasType: en_alias
+      - raw: K线图
+        aliasType: cn_alias
+  - slug: k-xian-shi-ti
+    headword: K线实体
+    categoryL1: 走势形态
+    categoryL2: K线基础
+    difficulty: L1
+    summaryPlain: K线中开盘价与收盘价之间的矩形部分，体现当天的净涨跌方向。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: K线中开盘价与收盘价之间的矩形部分，体现当天的净涨跌方向。
+        example: 实体越长，说明当天价格净变动的幅度越大。
+        isPrimary: true
+    aliases:
+      - raw: K线实体
+        aliasType: primary
+      - raw: Candle Body
+        aliasType: en_alias
+      - raw: 实体
+        aliasType: cn_alias
+  - slug: yang-xian
+    headword: 阳线
+    categoryL1: 走势形态
+    categoryL2: K线基础
+    difficulty: L1
+    summaryPlain: 收盘价高于开盘价的K线，A股通常用红色、港股美股多用空心表示上涨。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 收盘价高于开盘价的K线，A股通常用红色、港股美股多用空心表示上涨。
+        example: 收出阳线，说明当天收盘价高于开盘价。
+        isPrimary: true
+    aliases:
+      - raw: 阳线
+        aliasType: primary
+      - raw: Bullish Candle
+        aliasType: en_alias
+  - slug: shang-ying-xian
+    headword: 上影线
+    categoryL1: 走势形态
+    categoryL2: K线基础
+    difficulty: L1
+    summaryPlain: K线中实体上方到当天最高价的细线，反映上方抛压。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: K线中实体上方到当天最高价的细线，反映上方抛压。
+        example: 上影线越长，表示价格在当天高位遇到的抛压越大。
+        isPrimary: true
+    aliases:
+      - raw: 上影线
+        aliasType: primary
+      - raw: Upper Shadow
+        aliasType: en_alias
+  - slug: xia-ying-xian
+    headword: 下影线
+    categoryL1: 走势形态
+    categoryL2: K线基础
+    difficulty: L1
+    summaryPlain: K线中实体下方到当天最低价的细线，反映下方承接。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: K线中实体下方到当天最低价的细线，反映下方承接。
+        example: 下影线越长，表示价格在当天低位获得的支撑越强。
+        isPrimary: true
+    aliases:
+      - raw: 下影线
+        aliasType: primary
+      - raw: Lower Shadow
+        aliasType: en_alias
+  - slug: guang-tou-guang-jiao
+    headword: 光头光脚
+    categoryL1: 走势形态
+    categoryL2: K线基础
+    difficulty: L2
+    summaryPlain: 几乎没有上影线和下影线的K线，实体几乎从头包到尾，代表当天方向一致。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 几乎没有上影线和下影线的K线，实体几乎从头包到尾，代表当天方向一致。
+        example: 光头光脚的大阳线，表示当天价格几乎始终朝同一个方向运行。
+        isPrimary: true
+    aliases:
+      - raw: 光头光脚
+        aliasType: primary
+      - raw: Marubozu
+        aliasType: en_alias

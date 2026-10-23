@@ -1,0 +1,1725 @@
+# 自动生成的批量词条源（可由 ingest 重新编译为 lexicon.json）
+category: 机构与资金
+source: bootstrap from lexicon.json (2026-10-22)
+terms:
+  - slug: 13d
+    headword: 13D
+    categoryL1: 机构与资金
+    categoryL2: 持仓披露
+    difficulty: L3
+    summaryPlain: 美国持股超 5% 且有意影响公司的披露表：比 13G 更「有事要说」。
+    riskNote: 看到 13D 就知道有机构要动手（逼宫/要约/改组），往往伴随股价异动。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 美国持股超 5% 且有意影响公司的披露表：比 13G 更「有事要说」。
+        example: 比如激进基金提交这份 5% 披露表，公告后股价常跳涨。
+        notMeaning: 看到 13D 就知道有机构要动手（逼宫/要约/改组），往往伴随股价异动。
+        isPrimary: true
+        contextKeywords:
+          - 持仓披露
+        frequency: mid
+    aliases:
+      - raw: 13D
+        aliasType: primary
+      - raw: 13G
+        aliasType: cn_alias
+      - raw: 大股东申报
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: board
+        title: 13D：有人要动手
+    insights:
+      affects:
+        - 公司控制权：争夺的前哨
+        - 股价：事件驱动跳空
+      good:
+        - 要约收购预期：短期暴涨
+      bad:
+        - 逼宫失败：回落
+      policy:
+        - SEC 5% 披露门槛
+      example: 村委会里有人突然晒出全村 10% 的地契：他不是来收租的，是来改村规的。
+  - slug: 13f
+    headword: 13F
+    categoryL1: 机构与资金
+    categoryL2: 持仓披露
+    difficulty: L2
+    summaryPlain: 美国大型机构每季度向 SEC 公开的持仓报告：巴菲特、桥水的作业抄送全球。
+    riskNote: 披露滞后 45 天，你看到的可能是人家已经调过的仓。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 美国大型机构每季度向 SEC 公开的持仓报告：巴菲特、桥水的作业抄送全球。
+        example: 比如某大佬二季度大举买入某只股票，公布当天股价大涨，抄作业的人蜂拥。
+        notMeaning: 披露滞后 45 天，你看到的可能是人家已经调过的仓。
+        isPrimary: true
+        contextKeywords:
+          - 持仓披露
+        frequency: high
+    aliases:
+      - raw: 13F
+        aliasType: primary
+      - raw: 机构持仓报告
+        aliasType: cn_alias
+      - raw: 抄作业
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config: {}
+    insights:
+      affects:
+        - 风向标：观察聪明钱的窗口
+        - 拥挤度：全跟进一只票=股价短期支撑
+        - 信息差：滞后是它的原罪
+      good:
+        - 发现被低估行业的建仓线索
+        - 理解顶级机构的思路
+      bad:
+        - 滞后 45 天以上：黄花菜都凉了
+        - 明星经理也会亏，别照单全收
+      policy:
+        - SEC 披露门槛规定
+        - 12/31、3/31、6/30、9/30 四个披露日
+      example: 学霸考完试把草稿纸公开：思路可以参考，但他可能改过答案才交卷。
+  - slug: aum
+    headword: AUM
+    categoryL1: 机构与资金
+    categoryL2: 规模指标
+    difficulty: L2
+    summaryPlain: 管理规模：基金或资管机构手里管着多少钱，行业的段位勋章。
+    riskNote: 规模大≠业绩好，船大难掉头。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 管理规模：基金或资管机构手里管着多少钱，行业的段位勋章。
+        example: 比如某基金经理管理规模破千亿，一举一动都影响市场。
+        notMeaning: 规模大≠业绩好，船大难掉头。
+        isPrimary: true
+        contextKeywords:
+          - 规模指标
+        frequency: mid
+    aliases:
+      - raw: AUM
+        aliasType: primary
+      - raw: 管理规模
+        aliasType: cn_alias
+      - raw: 资管规模
+        aliasType: cn_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: AUM：管理的钱袋子
+    insights:
+      affects:
+        - 行业地位：规模的品牌效应
+        - 收入：管理费按 AUM 收
+      good:
+        - 规模效应：费率谈判力强
+      bad:
+        - 规模拖累：调仓困难
+      policy:
+        - 销售渠道决定扩张速度
+      example: 饭店翻台：大厅坐满（AUM 大）不代表菜更好吃，只代表座位多。
+  - slug: bao-cang
+    headword: 爆仓
+    categoryL1: 机构与资金
+    categoryL2: 杠杆风险
+    difficulty: L1
+    summaryPlain: 亏到保证金不够，被券商强制卖掉所有持仓平仓：本金归零甚至倒欠。
+    riskNote: 亏损到达平仓线时你没有选择权；想体验先想想自己是不是那块料。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 亏到保证金不够，被券商强制卖掉所有持仓平仓：本金归零甚至倒欠。
+        example: 比如加了五倍杠杆，碰上两个跌停就本金清零，账户直接归零。
+        notMeaning: 亏损到达平仓线时你没有选择权；想体验先想想自己是不是那块料。
+        isPrimary: true
+        contextKeywords:
+          - 杠杆风险
+        frequency: high
+    aliases:
+      - raw: 爆仓
+        aliasType: primary
+      - raw: 强平
+        aliasType: cn_alias
+      - raw: 强制平仓
+        aliasType: cn_alias
+      - raw: liquidation
+        aliasType: en_alias
+    viz:
+      type: LeverageWheel
+      config:
+        mode: cbbc
+        kind: bear
+        strike: 50
+        leverage: 10
+    insights:
+      affects:
+        - 个人：杠杆玩家归零主因
+        - 机构：连锁爆仓引发流动性危机
+        - 市场：强平盘砸出黄金坑
+      good:
+        - 无杠杆者永远免疫
+        - 降杠杆周期出清风险
+      bad:
+        - 归零倒欠：家庭财务灾难
+        - 踩踏强平：越跌越卖
+      policy:
+        - 两融维护担保比例规则
+        - 保证金比例调整（逆周期调节）
+      example: 骑 50 码的电动车逆行（高杠杆）：没事时最快，摔一次全骨折。头盔（止损）也救不了逆行。
+  - slug: bei-dui
+    headword: 北向资金
+    categoryL1: 机构与资金
+    categoryL2: 跨境资金
+    difficulty: L3
+    summaryPlain: 通过沪深港通从香港市场买入A股的外资资金（由南向北），常被当作海外机构态度的风向标。
+    riskNote: 它是资金流向的代理指标，不代表外资一定看得准，也会调头。
+    frequency: high
+    popularity: 900
+    senses:
+      - senseKey: default
+        plainExplain: 通过沪深港通从香港市场买入A股的外资资金（由南向北），常被当作海外机构态度的风向标。
+        example: 比如连着几天港资都在净买入蓝筹，盘面就把这股流入当成偏暖信号。
+        notMeaning: 它是资金流向的代理指标，不代表外资一定看得准，也会调头。
+        isPrimary: true
+        contextKeywords:
+          - 沪深港通
+          - 外资
+          - 净流入
+          - 风向标
+        frequency: high
+    aliases:
+      - raw: 北向资金
+        aliasType: primary
+      - raw: 外资
+        aliasType: colloquial
+    viz:
+      type: MoneyFlow
+      config: {}
+    insights:
+      affects:
+        - 外资对 A 股的态度风向
+        - 蓝筹白马的买盘来源
+        - 短期情绪指标
+      good:
+        - 净买入=外资看好、往里送钱
+        - 常带动核心资产上涨
+      bad:
+        - 净卖出=外资撤退、往外拿
+        - 易引发跟风抛售
+      policy:
+        - 沪深港通额度、汇率影响它
+        - 外围市场动荡会改变流向
+      example: 北向资金像‘外地游客’：往 A 股里塞钱（净买入），说明觉得便宜好玩；往外掏钱（净卖出），说明不看好或回国救火。
+  - slug: cftc
+    headword: CFTC
+    categoryL1: 机构与资金
+    categoryL2: 监管
+    difficulty: L3
+    summaryPlain: 美国商品期货交易委员会：期货、期权、商品市场的监管者。
+    riskNote: 原油、黄金期货的仓位报告（COT）出自它，是商品交易的必读数据。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 美国商品期货交易委员会：期货、期权、商品市场的监管者。
+        example: 比如持仓报告显示黄金净多创新高，常伴随见顶讨论。
+        notMeaning: 原油、黄金期货的仓位报告（COT）出自它，是商品交易的必读数据。
+        isPrimary: true
+        contextKeywords:
+          - 监管
+        frequency: mid
+    aliases:
+      - raw: CFTC
+        aliasType: primary
+      - raw: 商品期货交易委员会
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: board
+        title: COT 报告：谁在做多做空
+    insights:
+      affects:
+        - 商品定价：监管机构的数据输出
+        - 衍生品：市场操纵的监管
+      good:
+        - 数据透明：跟踪聪明钱
+      bad:
+        - 持仓拥挤：反转风险
+      policy:
+        - 持仓报告制度
+      example: 期货市场的教务+体委：既查作弊也公布各班（机构散户）的参赛报名表。
+  - slug: cong-ming-qian
+    headword: 聪明钱
+    categoryL1: 机构与资金
+    categoryL2: 概念
+    difficulty: L2
+    summaryPlain: 市场对专业资金（外资、产业资本）的俗称：大家默认它们更早看到机会。
+    riskNote: 聪明钱也会错、也会跑，标签不等于收益率。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 市场对专业资金（外资、产业资本）的俗称：大家默认它们更早看到机会。
+        example: 比如北向大幅流入被解读为专业资金看多，结果也可能被套。
+        notMeaning: 聪明钱也会错、也会跑，标签不等于收益率。
+        isPrimary: true
+        contextKeywords:
+          - 概念
+        frequency: mid
+    aliases:
+      - raw: 聪明钱
+        aliasType: primary
+      - raw: Smart Money
+        aliasType: en_alias
+      - raw: 鲸鱼
+        aliasType: cn_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: 聪明钱：真的聪明吗
+    insights:
+      affects:
+        - 跟风效应：标签本身影响走势
+        - 预期管理：媒体爱用这个词
+      good:
+        - 持续净买：确实有信息优势
+      bad:
+        - 高位站岗的聪明钱也不少
+      policy:
+        - 信息披露决定可追踪性
+      example: 学校里「消息最灵通」的那个小圈子：他们报班你也报？他们也可能补考。
+  - slug: dong-jian-gao
+    headword: 董监高
+    categoryL1: 机构与资金
+    categoryL2: 内部人
+    difficulty: L2
+    summaryPlain: 董事、监事、高级管理层的合称：公司最核心的内部人群体。
+    riskNote: 他们的买卖（增持减持）受窗口期限制，信号价值最高。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 董事、监事、高级管理层的合称：公司最核心的内部人群体。
+        example: 比如董事长窗口期外增持，常被解读为股价到底的信号。
+        notMeaning: 他们的买卖（增持减持）受窗口期限制，信号价值最高。
+        isPrimary: true
+        contextKeywords:
+          - 内部人
+        frequency: mid
+    aliases:
+      - raw: 董监高
+        aliasType: primary
+      - raw: 高管
+        aliasType: cn_alias
+      - raw: 内部人
+        aliasType: cn_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: 董监高：最了解公司的人
+    insights:
+      affects:
+        - 内部人交易：最有信息量的买卖
+        - 治理结构：三会的运作核心
+      good:
+        - 集体增持：信心票
+      bad:
+        - 集体减持：危险信号
+      policy:
+        - 窗口期与短线交易规则
+      example: 厨房里的人最先知道菜新不新鲜：他们抢着吃（增持）和躲着不吃（减持），比食客评论真实。
+  - slug: finra
+    headword: FINRA
+    categoryL1: 机构与资金
+    categoryL2: 自律组织
+    difficulty: L3
+    summaryPlain: 美国金融业监管局：管券商和经纪人的自律组织，监管从业者行为。
+    riskNote: 券商违规、内幕交易常由它先查，散户投诉也归它。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 美国金融业监管局：管券商和经纪人的自律组织，监管从业者行为。
+        example: 比如某券商因未尽责被这个自律组织处罚，从业者上征信。
+        notMeaning: 券商违规、内幕交易常由它先查，散户投诉也归它。
+        isPrimary: true
+        contextKeywords:
+          - 自律组织
+        frequency: mid
+    aliases:
+      - raw: FINRA
+        aliasType: primary
+      - raw: 金融业监管局
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: board
+        title: FINRA：券商的自律考官
+    insights:
+      affects:
+        - 从业监管：券商的行为准则
+        - 投资者保护：投诉渠道
+      good:
+        - 净化行业：违规成本高
+      bad:
+        - 调查周期长：维权慢
+      policy:
+        - 会员制自律监管
+      example: 出租车公司的内部稽查部：管司机的服务态度和绕路，罚单比警察开得勤。
+  - slug: gang-jiao-suo
+    headword: 港交所
+    categoryL1: 机构与资金
+    categoryL2: 交易所
+    difficulty: L1
+    summaryPlain: 香港交易及结算所：全球主要交易所集团之一，港股 IPO 和交易都在这里。
+    riskNote: 它的规则改革（同股不同权、SPAC、18C）直接改变港股生态。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 香港交易及结算所：全球主要交易所集团之一，港股 IPO 和交易都在这里。
+        example: 比如香港交易所放宽特专科技公司上市，港股迎来新经济潮。
+        notMeaning: 它的规则改革（同股不同权、SPAC、18C）直接改变港股生态。
+        isPrimary: true
+        contextKeywords:
+          - 交易所
+        frequency: mid
+    aliases:
+      - raw: 港交所
+        aliasType: primary
+      - raw: HKEX
+        aliasType: en_alias
+      - raw: 香港交易所
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 港交所：港股的总台
+    insights:
+      affects:
+        - 上市规则：决定谁能来融资
+        - 流动性：港股的根基问题
+      good:
+        - 制度改革：吸引新经济
+        - 互联互通：南向活水
+      bad:
+        - 成交萎缩：仙股化的土壤
+      policy:
+        - 上市规则持续改革
+      example: 城市的中央车站：车次（上市公司）多不多、轨道（规则）顺不顺，决定城市繁荣。
+  - slug: gong-mu-si-mu
+    headword: 公募/私募
+    categoryL1: 机构与资金
+    categoryL2: 基金类型
+    difficulty: L1
+    summaryPlain: 公募基金面向大众随时可买，私募面向合格投资者、策略更野。
+    riskNote: 私募门槛高（100 万起）、信息披露少，出问题时你最后知道。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 公募基金面向大众随时可买，私募面向合格投资者、策略更野。
+        example: 比如公募一季报全披露持仓，私募只给净值。
+        notMeaning: 私募门槛高（100 万起）、信息披露少，出问题时你最后知道。
+        isPrimary: true
+        contextKeywords:
+          - 基金类型
+        frequency: mid
+    aliases:
+      - raw: 公募/私募
+        aliasType: primary
+      - raw: 公募基金
+        aliasType: cn_alias
+      - raw: 私募基金
+        aliasType: cn_alias
+      - raw: 对冲基金
+        aliasType: cn_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: 公募 vs 私募：两种基金
+    insights:
+      affects:
+        - 市场生态：两类资金风格迥异
+        - 散户选择：公募透明、私募弹性
+      good:
+        - 公募发行火爆：市场情绪指标
+      bad:
+        - 私募踩雷：合格投资者的代价
+      policy:
+        - 投资者适当性管理办法
+      example: 公立学校（公募）：公开招生、统一教材；私塾（私募）：门槛高、教得猛、出事没人兜底。
+  - slug: gu-quan-zhi-ya
+    headword: 股权质押
+    categoryL1: 机构与资金
+    categoryL2: 融资风险
+    difficulty: L2
+    summaryPlain: 大股东把手里的股票抵押给金融机构借钱：股价大跌可能触发强平连环爆。
+    riskNote: 质押比例高的公司，股价下跌时大股东补仓乏力就是连环雷。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 大股东把手里的股票抵押给金融机构借钱：股价大跌可能触发强平连环爆。
+        example: 比如股价跌破质押平仓线，大股东被迫补充质押物，市场传言四起引发进一步下跌。
+        notMeaning: 质押比例高的公司，股价下跌时大股东补仓乏力就是连环雷。
+        isPrimary: true
+        contextKeywords:
+          - 融资风险
+        frequency: high
+    aliases:
+      - raw: 股权质押
+        aliasType: primary
+      - raw: 股票质押
+        aliasType: cn_alias
+      - raw: 质押平仓
+        aliasType: cn_alias
+    viz:
+      type: UnlockPressure
+      config: {}
+    insights:
+      affects:
+        - 个股风险：高质押公司股价敏感度更高
+        - 流动性危机：强平造成无量大跌
+        - 连带：大股东资金链紧张伤及经营
+      good:
+        - 质押率低、现金流好：无关痛痒
+        - 解除质押=风险释放
+      bad:
+        - 高质押+高负债=地雷组合
+        - 暴跌触发补仓，大股东被迫卖股
+      policy:
+        - 质押新规限制比例和用途
+        - 纾困资金介入化解风险
+      example: 拿房产证抵押借钱炒股：房价涨你好我好，房价跌银行收房——股票跌了也一样，只是更快更狠。
+  - slug: guo-jia-dui
+    headword: 国家队
+    categoryL1: 机构与资金
+    categoryL2: 资金类型
+    difficulty: L1
+    summaryPlain: 汇金、证金等国有金融平台的统称：市场恐慌时进场稳指数，被称为市场的压舱石。
+    riskNote: 它的目标是稳市不是造牛市；跟着买要清楚它买的是权重，不是所有票。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 汇金、证金等国有金融平台的统称：市场恐慌时进场稳指数，被称为市场的压舱石。
+        example: 比如千股跌停那天，权重股突然出现巨量买单把指数拉起，大家就知道是谁来了。
+        notMeaning: 它的目标是稳市不是造牛市；跟着买要清楚它买的是权重，不是所有票。
+        isPrimary: true
+        contextKeywords:
+          - 资金类型
+        frequency: high
+    aliases:
+      - raw: 国家队
+        aliasType: primary
+      - raw: 汇金
+        aliasType: cn_alias
+      - raw: 证金
+        aliasType: cn_alias
+      - raw: 平准基金
+        aliasType: cn_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: 国家队：谁来托底
+    insights:
+      affects:
+        - 指数：托底沪市权重，稳定信心
+        - 情绪：『救市』信号缓和恐慌
+        - 节奏：护盘常在恐慌低点出现
+      good:
+        - 进场=政策底信号之一
+        - 权重搭台给市场喘息
+      bad:
+        - ≠普涨行情，个股照跌
+        - 等它来救的思想危险
+      policy:
+        - 再贷款、平准基金等工具支撑其弹药
+        - 重大会议/节庆前后政策维稳窗口
+      example: 消防队：着火（暴跌）时进场控场，保证大家能撤，但不负责把楼装修得更漂亮。
+  - slug: guo-zi-wei
+    headword: 国资委
+    categoryL1: 机构与资金
+    categoryL2: 监管
+    difficulty: L2
+    summaryPlain: 管理央企和国有资产的委员会：央企的「大股东」，市值管理政策的源头。
+    riskNote: 它推动的央企市值管理，直接催化了中特估行情。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 管理央企和国有资产的委员会：央企的「大股东」，市值管理政策的源头。
+        example: 比如国资监管方要求央企考核，破净央企开始回购。
+        notMeaning: 它推动的央企市值管理，直接催化了中特估行情。
+        isPrimary: true
+        contextKeywords:
+          - 监管
+        frequency: mid
+    aliases:
+      - raw: 国资委
+        aliasType: primary
+      - raw: SASAC
+        aliasType: en_alias
+      - raw: 国有资产监督管理委员会
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 国资委：央企的大股东
+    insights:
+      affects:
+        - 中字头行情：政策的总开关
+        - 国企改革：重组整合的推手
+      good:
+        - 市值管理考核：央企重估
+      bad:
+        - 考核压力下短期行为
+      policy:
+        - 国企改革深化提升行动
+      example: 家族企业的大房（国资委）：定 KPI（考核）、催分红（市值管理）、安排联姻（重组整合）。
+  - slug: hkma
+    headword: 金管局
+    categoryL1: 机构与资金
+    categoryL2: 监管
+    difficulty: L2
+    summaryPlain: 香港金融管理局：港元的守门人，行使央行部分职能。
+    riskNote: 它维护联汇制度，HIBOR 和港元流动性都看它的操作。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 香港金融管理局：港元的守门人，行使央行部分职能。
+        example: 比如港元触弱，HKMA 买入港元，银行结余下降、HIBOR 走高。
+        notMeaning: 它维护联汇制度，HIBOR 和港元流动性都看它的操作。
+        isPrimary: true
+        contextKeywords:
+          - 监管
+        frequency: mid
+    aliases:
+      - raw: 金管局
+        aliasType: primary
+      - raw: HKMA
+        aliasType: en_alias
+      - raw: 香港金管局
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: 金管局：港元的守门人
+        min: 7.6
+        max: 7.9
+        threshold: 7.8
+        initial: 7.8
+        valueLabel: USD/HKD
+        step: 0.01
+        zones:
+          - min: 7.6
+            max: 7.75
+            label: 强方
+            color: var(--up)
+          - min: 7.75
+            max: 7.85
+            label: 区间内
+            color: var(--color-muted)
+          - min: 7.85
+            max: 7.9
+            label: 弱方
+            color: var(--down)
+    insights:
+      affects:
+        - 联汇制度：操作核心
+        - 银行体系：监管与最后贷款人
+      good:
+        - 维稳：港元信心来源
+      bad:
+        - 被动跟随美联储：本地政策失灵
+      policy:
+        - 联系汇率制度的自动机制
+      example: 小区物业的总阀：水压（汇率）不稳时它调总阀，但总阀接的是市政主管道（美元）。
+  - slug: hui-jin-zheng-jin
+    headword: 汇金/证金
+    categoryL1: 机构与资金
+    categoryL2: 平准平台
+    difficulty: L2
+    summaryPlain: 中央汇金和中国证金：国有金融投资平台，市场恐慌时出手的「国家队」主力。
+    riskNote: 它维稳指数不代表个股安全，买也是买权重。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 中央汇金和中国证金：国有金融投资平台，市场恐慌时出手的「国家队」主力。
+        example: 比如 2015 年证金公司大举入市，史称国家队救市。
+        notMeaning: 它维稳指数不代表个股安全，买也是买权重。
+        isPrimary: true
+        contextKeywords:
+          - 平准平台
+        frequency: mid
+    aliases:
+      - raw: 汇金/证金
+        aliasType: primary
+      - raw: 中央汇金
+        aliasType: cn_alias
+      - raw: 证金公司
+        aliasType: cn_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: 汇金证金：国家队主力
+    insights:
+      affects:
+        - 平准机制：政策底的执行者
+        - 权重股：直接买卖大盘蓝筹
+      good:
+        - 入市：历史大底信号
+      bad:
+        - 依赖心理：散户等靠要
+      policy:
+        - 平准基金思路的制度化
+      example: 消防队编制内队伍：平时不出现，火光（暴跌）一起就进场控场。
+  - slug: jin-jian-zong-ju
+    headword: 金融监管总局
+    categoryL1: 机构与资金
+    categoryL2: 监管
+    difficulty: L3
+    summaryPlain: 2023 年组建的国家金融监督管理总局：接管银保监会职责，监管银行保险信托。
+    riskNote: 保险资金、银行理财的规矩都出自它，影响机构资金入市节奏。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 2023 年组建的国家金融监督管理总局：接管银保监会职责，监管银行保险信托。
+        example: 比如它下调预定利率，保险产品的收益吸引力下降。
+        notMeaning: 保险资金、银行理财的规矩都出自它，影响机构资金入市节奏。
+        isPrimary: true
+        contextKeywords:
+          - 监管
+        frequency: mid
+    aliases:
+      - raw: 金融监管总局
+        aliasType: primary
+      - raw: NFRA
+        aliasType: en_alias
+      - raw: 金监总局
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 金融监管总局：银行保险的总管
+    insights:
+      affects:
+        - 险资规则：影响股市长线资金
+        - 银行理财：净值化转型的推动者
+      good:
+        - 规范发展：风险下降
+      bad:
+        - 收紧业务：理财供给收缩
+      policy:
+        - 机构改革后的职能划分
+      example: 教育局接管了学校和培训机构：老师学生都归它管，规矩更统一也更严。
+  - slug: kong-tou-ji-ya
+    headword: 空头挤压
+    categoryL1: 机构与资金
+    categoryL2: 做空风险
+    difficulty: L2
+    summaryPlain: 股价上涨逼得空头必须买回平仓，买盘又推着股价继续涨：轧空行情。
+    riskNote: 空头挤压里没有基本面，只有被迫的买单；做空者在这里尸横遍野。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 股价上涨逼得空头必须买回平仓，买盘又推着股价继续涨：轧空行情。
+        example: 比如逼空行情里股价三天涨 200%，空头集体爆仓。
+        notMeaning: 空头挤压里没有基本面，只有被迫的买单；做空者在这里尸横遍野。
+        isPrimary: true
+        contextKeywords:
+          - 做空风险
+        frequency: mid
+    aliases:
+      - raw: 空头挤压
+        aliasType: primary
+      - raw: 轧空
+        aliasType: cn_alias
+      - raw: Short Squeeze
+        aliasType: en_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        limitPct: 30
+        basePrice: 10
+    insights:
+      affects:
+        - 波动：轧空时涨幅不讲道理
+        - 策略：高空头股的爆发机会
+      good:
+        - 提前埋伏：轧空收益最猛
+      bad:
+        - 做空遇轧空：亏损无上限
+      policy:
+        - 融券规则影响挤压烈度
+      example: 所有人都押你输，你偏偏赢了：押注的人得按赔率掏钱，掏钱的手又把你抬得更高。
+  - slug: long-hu-bang
+    headword: 龙虎榜
+    categoryL1: 机构与资金
+    categoryL2: 公开信息
+    difficulty: L2
+    summaryPlain: 每天把异动股票买卖最猛的营业部名单公开张贴出来，等于给主力资金的「曝光台」。
+    riskNote: 上榜席位有真有假：游资、量化和对倒都可能混在里面，照抄等于接盘。
+    frequency: mid
+    popularity: 640
+    senses:
+      - senseKey: default
+        plainExplain: 交易所每日公开的异动股买卖前五营业部/机构专用席位明细，看得到谁在买、谁在卖。
+        example: 某只股票大涨后，交易所公布的异动榜单上，买第一名是知名游资营业部，第二天很多人跟着追进去。
+        notMeaning: 龙虎榜不是买卖推荐，机构也可能今天买明天砸。
+        isPrimary: true
+        contextKeywords:
+          - 营业部
+          - 席位
+          - 异动
+          - 机构
+        frequency: mid
+    aliases:
+      - raw: 龙虎榜
+        aliasType: primary
+      - raw: 公开信息
+        aliasType: cn_alias
+      - raw: 异动榜单
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: board
+        title: 龙虎榜：谁在买、谁在卖
+    insights:
+      affects:
+        - 短线情绪：敢死队/量化上榜常带动跟风盘
+        - 股价：机构专用席位大买，说明专业资金在关注
+        - 监管：异常上榜是监控内幕和操纵的线索
+      good:
+        - 看到机构持续净买入：专业资金认可价值
+        - 看清对手方：避免盲目追高被割
+      bad:
+        - 游资一日游：今天上榜明天闷杀
+        - 假机构对倒：制造流入假象诱多
+      policy:
+        - 披露规则：涨跌幅/换手达标强制上榜
+        - 减持新规：减持路径受约束，龙虎榜细节跟着变化
+        - 程序化交易监管：量化上榜越来越常见
+      example: 龙虎榜就像商场门口贴出来的「今日大客户消费榜」：谁家提货最多、谁退货最多都写着。你可以参考大客户的品味，但别指望照抄购物车就赚钱。
+  - slug: niu-san
+    headword: 牛散
+    categoryL1: 机构与资金
+    categoryL2: 参与者
+    difficulty: L2
+    summaryPlain: 长期业绩突出的个人投资者：散户里的尖子，常现身前十大股东。
+    riskNote: 他们的持仓有滞后，抄作业前先看成本和你差多少。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 长期业绩突出的个人投资者：散户里的尖子，常现身前十大股东。
+        example: 比如某超级散户新进前十大流通股东，市场关注度陡增。
+        notMeaning: 他们的持仓有滞后，抄作业前先看成本和你差多少。
+        isPrimary: true
+        contextKeywords:
+          - 参与者
+        frequency: mid
+    aliases:
+      - raw: 牛散
+        aliasType: primary
+      - raw: 超级散户
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: board
+        title: 牛散：散户里的学霸
+    insights:
+      affects:
+        - 情绪标的：牛散概念是炒作点
+        - 筹码：他们的进出影响结构
+      good:
+        - 进驻：民间高手的认可
+      bad:
+        - 被套的牛散也是牛散
+      policy:
+        - 季报披露十大股东名单
+      example: 班级里常年考前几名的那个同学：他报哪个补习班，大家都想跟着报。
+  - slug: pcaob
+    headword: PCAOB
+    categoryL1: 机构与资金
+    categoryL2: 监管
+    difficulty: L3
+    summaryPlain: 美国上市公司会计监督委员会：管审计师的机构，中概股危机的关键方。
+    riskNote: 它拿不到审计底稿，中概股就上摘牌名单——中美博弈的焦点。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 美国上市公司会计监督委员会：管审计师的机构，中概股危机的关键方。
+        example: 比如审计检查完成，中概股退市风险阶段性解除。
+        notMeaning: 它拿不到审计底稿，中概股就上摘牌名单——中美博弈的焦点。
+        isPrimary: true
+        contextKeywords:
+          - 监管
+        frequency: mid
+    aliases:
+      - raw: PCAOB
+        aliasType: primary
+      - raw: 会计监督委员会
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: PCAOB：审计底稿的关卡
+        min: 0
+        max: 100
+        threshold: 50
+        initial: 70
+        valueLabel: 检查完成度
+        unit: "%"
+        zones:
+          - min: 0
+            max: 50
+            label: 僵局：摘牌风险
+            color: var(--down)
+          - min: 50
+            max: 100
+            label: 进展：风险缓和
+            color: var(--up)
+    insights:
+      affects:
+        - 审计质量：财务造假的第一道防线
+        - 中概股：底稿检查=生死线
+      good:
+        - 检查落地：风险出清
+      bad:
+        - 底稿僵局：摘牌阴云
+      policy:
+        - 中美监管合作协议
+      example: 教育局查学校成绩单的真伪：它进不了校长办公室（审计底稿），就不认这个学校的毕业证。
+  - slug: pe-vc
+    headword: PE/VC
+    categoryL1: 机构与资金
+    categoryL2: 一级市场
+    difficulty: L2
+    summaryPlain: 私募股权和风险投资：在一级市场押注未上市公司，等上市或并购退出。
+    riskNote: 一级市场的钱退出要靠二级市场接盘，IPO 节奏影响全链条。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 私募股权和风险投资：在一级市场押注未上市公司，等上市或并购退出。
+        example: 比如 VC 投的独角兽上市，PE 基金解禁后减持。
+        notMeaning: 一级市场的钱退出要靠二级市场接盘，IPO 节奏影响全链条。
+        isPrimary: true
+        contextKeywords:
+          - 一级市场
+        frequency: mid
+    aliases:
+      - raw: PE/VC
+        aliasType: primary
+      - raw: 私募股权
+        aliasType: cn_alias
+      - raw: 风险投资
+        aliasType: cn_alias
+      - raw: 创投
+        aliasType: cn_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: 一级市场：上市前的赌局
+    insights:
+      affects:
+        - 创业生态：创新的资金来源
+        - 二级市场：Pre-IPO 的估值传导
+      good:
+        - 退出顺畅：创投繁荣
+      bad:
+        - 退出堵塞：创投过冬
+      policy:
+        - IPO 与减持规则
+      example: 电影投资人：拍片（初创）时入股，上映（上市）时离场。票房（二级市场）不好，续集（退出）就难。
+  - slug: quan-shang
+    headword: 券商
+    categoryL1: 机构与资金
+    categoryL2: 金融机构
+    difficulty: L1
+    summaryPlain: 提供交易通道和投行服务的金融机构：炒股开户的地方。
+    riskNote: 券商研究观点常带立场（自己保荐的都说好），要打折听。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 提供交易通道和投行服务的金融机构：炒股开户的地方。
+        example: 比如某证券公司研报喊「买入」，可能它刚帮这家公司做完定增。
+        notMeaning: 券商研究观点常带立场（自己保荐的都说好），要打折听。
+        isPrimary: true
+        contextKeywords:
+          - 金融机构
+        frequency: mid
+    aliases:
+      - raw: 券商
+        aliasType: primary
+      - raw: Broker
+        aliasType: en_alias
+      - raw: 证券公司
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 券商：市场的中介
+    insights:
+      affects:
+        - 交易通道：所有买卖的必经路
+        - 投行：IPO 并购的总承包
+      good:
+        - 佣金战：散户受益
+        - 研究服务：信息的集散地
+      bad:
+        - 利益冲突：研报的公信力折扣
+      policy:
+        - 牌照管理与佣金放开
+      example: 房产中介：不拥有房子（上市公司），但撮合交易（经纪）、帮房东卖房（投行）、出片区报告（研报）。
+  - slug: rong-zi-rong-quan
+    headword: 融资融券
+    categoryL1: 机构与资金
+    categoryL2: 信用交易
+    difficulty: L3
+    summaryPlain: 向券商借钱买股（融资）或借股卖出（融券）的信用交易，带杠杆也带强制平仓风险。
+    riskNote: 它不是普通买卖，放大收益也放大亏损，门槛和保证金都在。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 向券商借钱买股（融资）或借股卖出（融券）的信用交易，带杠杆也带强制平仓风险。
+        example: 比如你觉得自己看准了，就找券商垫钱加仓，亏到线以下会被要求补钱或强平。
+        notMeaning: 它不是普通买卖，放大收益也放大亏损，门槛和保证金都在。
+        isPrimary: true
+        contextKeywords:
+          - 杠杆
+          - 两融
+          - 强平
+          - 保证金
+        frequency: mid
+    aliases:
+      - raw: 融资融券
+        aliasType: primary
+      - raw: 两融
+        aliasType: colloquial
+    viz:
+      type: LongShortSeesaw
+      config: {}
+    insights:
+      affects:
+        - 市场的杠杆水位
+        - 涨跌的放大器
+        - 多空双方的力量对比
+      good:
+        - 融资多=大家借钱看多、买力足
+        - 健康杠杆助推上涨
+      bad:
+        - 融券多=有人押注下跌
+        - 杠杆过高，跌时爆仓雪崩
+      policy:
+        - 保证金比例、标的范围由监管定
+        - 降息降低融资成本→融资易增
+      example: 融资=借钱买货，赌涨；融券=借货先卖，赌跌。用 10 块本金借 10 块买 20 块货——涨 10% 你赚 20%，但跌 10% 你也亏 20%，双刃剑。
+  - slug: rong-zi-yu-e
+    headword: 融资余额
+    categoryL1: 机构与资金
+    categoryL2: 杠杆热度
+    difficulty: L2
+    summaryPlain: 借钱没还的融资盘总量：余额越高，市场杠杆越大，下跌时砸得越狠。
+    riskNote: 融资余额创新高时人多的地方不去；它是情绪指标，不是买卖信号。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 借钱没还的融资盘总量：余额越高，市场杠杆越大，下跌时砸得越狠。
+        example: 比如借钱没还的融资盘总量冲上历史新高后，市场一根阴线引发连环平仓。
+        notMeaning: 融资余额创新高时人多的地方不去；它是情绪指标，不是买卖信号。
+        isPrimary: true
+        contextKeywords:
+          - 杠杆热度
+        frequency: high
+    aliases:
+      - raw: 融资余额
+        aliasType: primary
+      - raw: 两融余额
+        aliasType: cn_alias
+      - raw: 杠杆资金
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config: {}
+    insights:
+      affects:
+        - 情绪：杠杆资金的贪婪指数
+        - 踩踏风险：下跌时融资盘是空头
+        - 流动性：余额骤降=去杠杆
+      good:
+        - 稳步增长+指数健康：慢牛
+        - 余额回落+指数企稳：泡沫挤出
+      bad:
+        - 陡增：杠杆冲顶的疯狂
+        - 骤降：去杠杆踩踏
+      policy:
+        - 两融标的扩容影响余额总量
+        - 券商可调整保证金比例
+      example: 全是信用卡套现撑起来的夜市：看着红火，一断资金链，整条街一起关门。
+  - slug: san-da-ping-ji
+    headword: 三大评级机构
+    categoryL1: 机构与资金
+    categoryL2: 评级
+    difficulty: L2
+    summaryPlain: 穆迪、标普、惠誉：给国家和公司打信用分的裁判。
+    riskNote: 评级下调会推高融资成本，但不一定准（金融危机就被骂惨了）。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 穆迪、标普、惠誉：给国家和公司打信用分的裁判。
+        example: 比如某国主权评级被下调，它的国债收益率应声走高。
+        notMeaning: 评级下调会推高融资成本，但不一定准（金融危机就被骂惨了）。
+        isPrimary: true
+        contextKeywords:
+          - 评级
+        frequency: mid
+    aliases:
+      - raw: 三大评级机构
+        aliasType: primary
+      - raw: 穆迪
+        aliasType: cn_alias
+      - raw: 标普评级
+        aliasType: cn_alias
+      - raw: 惠誉
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: 信用评级：还款能力分
+        min: 1
+        max: 22
+        threshold: 10
+        initial: 15
+        valueLabel: 评级档位
+        zones:
+          - min: 1
+            max: 10
+            label: 投资级
+            color: var(--up)
+          - min: 10
+            max: 22
+            label: 投机级
+            color: var(--down)
+    insights:
+      affects:
+        - 融资成本：评级的真金白银
+        - 债券市场：定价的锚
+      good:
+        - 上调：借钱更便宜
+      bad:
+        - 下调：国债股汇三杀
+      policy:
+        - 评级机构的付费模式争议
+      example: 央行版的芝麻信用：分高（评级高）借款利率低，分低借不到钱。但打分的是收费机构，你懂的。
+  - slug: san-hu-ji-gou
+    headword: 散户/机构
+    categoryL1: 机构与资金
+    categoryL2: 参与者
+    difficulty: L1
+    summaryPlain: 个人投资者叫散户，基金保险等大户叫机构：一个单打独斗，一个团队作战。
+    riskNote: 散户的优势是灵活和耐心，劣势是信息、工具和情绪管理，别拿鸡蛋碰系统。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 个人投资者叫散户，基金保险等大户叫机构：一个单打独斗，一个团队作战。
+        example: 比如同一则财报，机构研究员连夜建模排雷，散户开盘看个标题就下单。
+        notMeaning: 散户的优势是灵活和耐心，劣势是信息、工具和情绪管理，别拿鸡蛋碰系统。
+        isPrimary: true
+        contextKeywords:
+          - 参与者
+        frequency: high
+    aliases:
+      - raw: 散户
+        aliasType: primary
+      - raw: 机构
+        aliasType: cn_alias
+      - raw: 机构投资者
+        aliasType: cn_alias
+      - raw: retail
+        aliasType: en_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: board
+        title: 谁在买、谁在卖
+    insights:
+      affects:
+        - 定价权：机构主导核心资产波动
+        - 生态：散户提供流动性也被收割
+        - 结构：投资者结构影响市场风格
+      good:
+        - 散户情绪冰点常是底部信号
+        - 定投+长期：散户能打的正道
+      bad:
+        - 追涨杀跌：散户被反复摩擦
+        - 信息差：机构跑得快不是没道理
+      policy:
+        - 投教监管引导理性投资
+        - 保险养老金扩容改变资金结构
+      example: 散兵游勇 vs 正规军：不是单兵不能打，是战术、装备、后勤全面代差。散户的武器是耐心和常识。
+  - slug: sec
+    headword: SEC
+    categoryL1: 机构与资金
+    categoryL2: 监管
+    difficulty: L1
+    summaryPlain: 美国证监会：美股的总监管，执法严、罚款狠，文件在 EDGAR 系统都能查。
+    riskNote: 中概股最怕的部门：审计底稿、信息披露说罚就罚。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 美国证监会：美股的总监管，执法严、罚款狠，文件在 EDGAR 系统都能查。
+        example: 比如预摘牌名单一出，中概股集体大跌。
+        notMeaning: 中概股最怕的部门：审计底稿、信息披露说罚就罚。
+        isPrimary: true
+        contextKeywords:
+          - 监管
+        frequency: mid
+    aliases:
+      - raw: SEC
+        aliasType: primary
+      - raw: 美国证监会
+        aliasType: cn_alias
+      - raw: 证券交易委员会
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: SEC：美股的总裁判
+    insights:
+      affects:
+        - 上市公司：信息披露的尺子
+        - 中概股：PCAOB 审计问题的主角
+      good:
+        - 执法透明：市场的信任基础
+      bad:
+        - 预摘牌：中概黑天鹅
+      policy:
+        - EDGAR 系统公开所有文件
+      example: 美国版教务处+纪委：查作业（财报）、抓作弊（造假）、开罚单（罚款）一气呵成。
+  - slug: shi-kong-ren
+    headword: 实控人
+    categoryL1: 机构与资金
+    categoryL2: 内部人
+    difficulty: L2
+    summaryPlain: 实际掌控公司的人：穿透股权后的最终话事人，不一定是名义大股东。
+    riskNote: 实控人出事（被查/失联/占款），公司往往地动山摇。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 实际掌控公司的人：穿透股权后的最终话事人，不一定是名义大股东。
+        example: 比如实际控制人被采取强制措施，股票次日一字跌停。
+        notMeaning: 实控人出事（被查/失联/占款），公司往往地动山摇。
+        isPrimary: true
+        contextKeywords:
+          - 内部人
+        frequency: mid
+    aliases:
+      - raw: 实控人
+        aliasType: primary
+      - raw: 实际控制人
+        aliasType: cn_alias
+      - raw: 控股股东
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: board
+        title: 实控人：幕后话事人
+    insights:
+      affects:
+        - 公司治理：风险的总源头
+        - 股价：实控人动态是最大变量
+      good:
+        - 实控人稳定：经营有连续性
+      bad:
+        - 实控人爆雷：公司跟着陪葬
+      policy:
+        - 权益变动的穿透披露
+      example: 戏班班主：前台唱戏的（管理层）会换，班主（实控人）换了整台戏都变。
+  - slug: short-interest
+    headword: 空头持仓
+    categoryL1: 机构与资金
+    categoryL2: 做空数据
+    difficulty: L2
+    summaryPlain: 被做空的股票占流通股的比例：越高说明看空的人越多、潜在的上涨燃料也越多。
+    riskNote: 高空头=高挤压风险，涨起来会逼空反扑。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 被做空的股票占流通股的比例：越高说明看空的人越多、潜在的上涨燃料也越多。
+        example: 比如某股空头占比 30%，一个利好就能引发轧空暴涨。
+        notMeaning: 高空头=高挤压风险，涨起来会逼空反扑。
+        isPrimary: true
+        contextKeywords:
+          - 做空数据
+        frequency: mid
+    aliases:
+      - raw: 空头持仓
+        aliasType: primary
+      - raw: Short Interest
+        aliasType: en_alias
+      - raw: 空头比率
+        aliasType: cn_alias
+      - raw: SIR
+        aliasType: en_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        title: 空头持仓：看空的押注
+    insights:
+      affects:
+        - 挤压风险：Short Squeeze 的燃料
+        - 情绪：看空程度的量化
+      good:
+        - 空头回补：上涨加速器
+      bad:
+        - 基本面恶化时空头获利
+      policy:
+        - 双周披露制度
+      example: 全班都赌你考砸：你要么真砸（空头赢），要么爆种考第一（全班傻眼=轧空）。押注你的人越多，你翻盘的收益越大。
+  - slug: si-da
+    headword: 四大
+    categoryL1: 机构与资金
+    categoryL2: 审计
+    difficulty: L1
+    summaryPlain: 四大会计师事务所：普华永道、德勤、安永、毕马威，上市公司财报的把关人。
+    riskNote: 审计意见有保留时，财报的可信度要打问号。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 四大会计师事务所：普华永道、德勤、安永、毕马威，上市公司财报的把关人。
+        example: 比如某公司被出具「无法表示意见」，股价通常大跌。
+        notMeaning: 审计意见有保留时，财报的可信度要打问号。
+        isPrimary: true
+        contextKeywords:
+          - 审计
+        frequency: mid
+    aliases:
+      - raw: 四大
+        aliasType: primary
+      - raw: 四大会计师事务所
+        aliasType: cn_alias
+      - raw: Big 4
+        aliasType: en_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        title: 四大：财报的把关人
+    insights:
+      affects:
+        - 财报可信度：审计意见的分量
+        - 就业：财会人的天花板
+      good:
+        - 无保留意见：干净
+      bad:
+        - 非标意见：暴雷前兆
+      policy:
+        - 审计准则与轮换制度
+      example: 高考阅卷组：他们盖章（签字）的分数（财报）社会才认。他们不敢签的卷子，你敢信吗？
+  - slug: wai-hui-guan-li-ju
+    headword: 外汇管理局
+    categoryL1: 机构与资金
+    categoryL2: 监管
+    difficulty: L3
+    summaryPlain: 管外汇进出和汇率执行的总局：QDII 额度、跨境资金流都过它。
+    riskNote: 它的额度松紧直接影响外资进出和跨境理财。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 管外汇进出和汇率执行的总局：QDII 额度、跨境资金流都过它。
+        example: 比如 QDII 额度扩容，境内资金出海渠道变宽。
+        notMeaning: 它的额度松紧直接影响外资进出和跨境理财。
+        isPrimary: true
+        contextKeywords:
+          - 监管
+        frequency: mid
+    aliases:
+      - raw: 外汇管理局
+        aliasType: primary
+      - raw: SAFE
+        aliasType: en_alias
+      - raw: 外管局
+        aliasType: cn_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: 外管局：资金进出的闸门
+    insights:
+      affects:
+        - 跨境资金：额度管理
+        - 汇率：中间价机制的执行者
+      good:
+        - 额度放宽：资金流动更自由
+      bad:
+        - 收紧：资本外流担忧
+      policy:
+        - 跨境证券投资额度管理
+      example: 海关：货物（资金）出入境要报关，批文（额度）决定放行速度。
+  - slug: xian-zi-she-bao
+    headword: 险资/社保
+    categoryL1: 机构与资金
+    categoryL2: 长线资金
+    difficulty: L2
+    summaryPlain: 保险资金、社保基金这类超长期资金：市场的压舱石和稳定器。
+    riskNote: 它们偏好大盘蓝筹和高股息，它们的动向就是风格风向标。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 保险资金、社保基金这类超长期资金：市场的压舱石和稳定器。
+        example: 比如险资举牌银行股，往往意味着一轮红利行情。
+        notMeaning: 它们偏好大盘蓝筹和高股息，它们的动向就是风格风向标。
+        isPrimary: true
+        contextKeywords:
+          - 长线资金
+        frequency: mid
+    aliases:
+      - raw: 险资/社保
+        aliasType: primary
+      - raw: 保险资金
+        aliasType: cn_alias
+      - raw: 社保基金
+        aliasType: cn_alias
+      - raw: 养老金
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 长线资金：压舱石
+    insights:
+      affects:
+        - 风格定价：偏好高股息低估值
+        - 稳定器：平抑市场波动
+      good:
+        - 入市扩容：长期利好
+      bad:
+        - 撤退：风格切换信号
+      policy:
+        - 社保基金投资范围与比例限制
+      example: 家族信托的钱：只买收租的物业（高股息），不碰风口上的猪。
+  - slug: you-zi
+    headword: 游资
+    categoryL1: 机构与资金
+    categoryL2: 资金类型
+    difficulty: L1
+    summaryPlain: 灵活凶悍的短线大资金：专做题材、打板、接力，今天买明天就可能跑。
+    riskNote: 游资席位是龙虎榜常客，跟风盘追进去，大概率接最后一棒。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 灵活凶悍的短线大资金：专做题材、打板、接力，今天买明天就可能跑。
+        example: 比如某题材爆发，龙虎榜上几家知名营业部齐现，第二天千万人排队接力。
+        notMeaning: 游资席位是龙虎榜常客，跟风盘追进去，大概率接最后一棒。
+        isPrimary: true
+        contextKeywords:
+          - 资金类型
+        frequency: high
+    aliases:
+      - raw: 游资
+        aliasType: primary
+      - raw: 热钱
+        aliasType: cn_alias
+      - raw: 敢死队
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: board
+        title: 游资席位：来得快去得快
+    insights:
+      affects:
+        - 题材股：游资点火才有连板效应
+        - 波动：拉抬手法凶悍，隔日砸盘不留情
+        - 跟风：散户从龙虎榜抄作业
+      good:
+        - 游资进场=题材启动信号
+        - 接力顺畅时短线收益极高
+      bad:
+        - 接力失败闷杀 20% 不稀奇
+        - 上榜即出货的情况常见
+      policy:
+        - 监控对异常账户点名批评
+        - 减持新规影响接力生态
+      example: 夜市里的快闪摊：锣鼓喧天摆三天，赚一波就走，留下的是一地竹签和接盘的摊主。
+  - slug: zheng-jian-hui
+    headword: 证监会
+    categoryL1: 机构与资金
+    categoryL2: 监管
+    difficulty: L1
+    summaryPlain: 中国证券市场的总管：IPO、并购、违规处罚都归它管。
+    riskNote: 监管政策是 A 股最大的变量之一，风向比业绩更影响短期股价。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 中国证券市场的总管：IPO、并购、违规处罚都归它管。
+        example: 比如监管收紧再融资，次新股板块应声回调。
+        notMeaning: 监管政策是 A 股最大的变量之一，风向比业绩更影响短期股价。
+        isPrimary: true
+        contextKeywords:
+          - 监管
+        frequency: mid
+    aliases:
+      - raw: 证监会
+        aliasType: primary
+      - raw: CSRC
+        aliasType: en_alias
+      - raw: 中国证监会
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 证监会：市场的裁判
+    insights:
+      affects:
+        - 政策市：A 股的底层设定
+        - 投资者保护：监管核心职责
+      good:
+        - 政策友好：牛市催化剂
+      bad:
+        - 收紧周期：估值承压
+      policy:
+        - 全面注册制下的角色转型
+      example: 学校教务处：定规矩、查作弊、发毕业证（IPO 批文）。教务处一换校长，全校风气都变。
+  - slug: zhong-deng
+    headword: 中登公司
+    categoryL1: 机构与资金
+    categoryL2: 登记结算
+    difficulty: L3
+    summaryPlain: 中国证券登记结算公司：所有股票的户口本，持仓都以它为准。
+    riskNote: 新开户数、持仓分布都出自它，是情绪的硬数据。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 中国证券登记结算公司：所有股票的户口本，持仓都以它为准。
+        example: 比如中登新开户数暴增，常被视为散户进场的标志。
+        notMeaning: 新开户数、持仓分布都出自它，是情绪的硬数据。
+        isPrimary: true
+        contextKeywords:
+          - 登记结算
+        frequency: mid
+    aliases:
+      - raw: 中登公司
+        aliasType: primary
+      - raw: 中国结算
+        aliasType: cn_alias
+      - raw: CSDC
+        aliasType: en_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: board
+        title: 中登：股票的户口本
+    insights:
+      affects:
+        - 持仓数据：筹码结构的真相
+        - 开户数：情绪的量化
+      good:
+        - 开户低迷：底部特征
+      bad:
+        - 开户爆棚：接盘预警
+      policy:
+        - 账户体系与结算规则
+      example: 公安局户籍科：谁名下有幾套房（股票）一查便知。新生儿（新开户）暴增是繁华信号。
+  - slug: zhu-quan-ji-jin
+    headword: 主权基金
+    categoryL1: 机构与资金
+    categoryL2: 长线资金
+    difficulty: L3
+    summaryPlain: 国家出资的财富基金：中投、淡马锡、GIC，全球市场的大买家。
+    riskNote: 它们的动向被视为国家意志，抄它们作业要等季报。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 国家出资的财富基金：中投、淡马锡、GIC，全球市场的大买家。
+        example: 比如中投新进某公司十大股东，市场解读为国家队看好。
+        notMeaning: 它们的动向被视为国家意志，抄它们作业要等季报。
+        isPrimary: true
+        contextKeywords:
+          - 长线资金
+        frequency: mid
+    aliases:
+      - raw: 主权基金
+        aliasType: primary
+      - raw: SWF
+        aliasType: en_alias
+      - raw: 中投
+        aliasType: cn_alias
+      - raw: 淡马锡
+        aliasType: cn_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: 主权基金：国家的钱袋子
+    insights:
+      affects:
+        - 全球配置：影响资金流向
+        - 战略意图：超越财务回报
+      good:
+        - 长期资金：压舱石
+      bad:
+        - 透明度低：跟风难
+      policy:
+        - 外汇储备的多元化运用
+      example: 家族基金会：不追求短期暴利，求的是几代人的保值和话语权。
+  - slug: zhuang-jia
+    headword: 庄家
+    categoryL1: 机构与资金
+    categoryL2: 资金类型
+    difficulty: L2
+    summaryPlain: 有能力影响股价的大资金代称：吸筹、洗盘、拉升、出货一条龙，带贬义。
+    riskNote: 坐庄本身违规；别迷信「跟庄」，多数散户看到庄时庄正在找接盘侠。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 有能力影响股价的大资金代称：吸筹、洗盘、拉升、出货一条龙，带贬义。
+        example: 比如某小盘股莫名放量连拉，市场说是控盘资金所为，散户跟进后人家已经在对倒出货。
+        notMeaning: 坐庄本身违规；别迷信「跟庄」，多数散户看到庄时庄正在找接盘侠。
+        isPrimary: true
+        contextKeywords:
+          - 资金类型
+        frequency: high
+    aliases:
+      - raw: 庄家
+        aliasType: primary
+      - raw: 主力
+        aliasType: cn_alias
+      - raw: 控盘
+        aliasType: cn_alias
+    viz:
+      type: VolumeRatio
+      config: {}
+    insights:
+      affects:
+        - 股价：控盘度高的股走势独立
+        - 量能：对倒制造虚假活跃
+        - 风险：监管打击操纵市场
+      good:
+        - 真有资金控盘的题材股短期爆发力强
+        - 识别控盘特征避开骗线
+      bad:
+        - 被操纵的股票随时闪崩
+        - 跟庄交易=接盘预备役
+      policy:
+        - 操纵市场属违法，监管持续高压
+        - 大数据监控让老手法失效
+      example: 赌场里的老千：他坐庄的局你敢玩？看起来牌好，其实他早就看完了你的底牌。
+  - slug: zhui-jia-bao-zheng-jin
+    headword: 追加保证金
+    categoryL1: 机构与资金
+    categoryL2: 杠杆风险
+    difficulty: L2
+    summaryPlain: 账户亏到警戒线，券商打电话催你补钱：Margin Call，最恐怖的两个字。
+    riskNote: 补不上就被强平；杠杆玩家听到这个词血压飙升。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 账户亏到警戒线，券商打电话催你补钱：Margin Call，最恐怖的两个字。
+        example: 比如满仓融资遇上暴跌，一天接到三个催缴电话。
+        notMeaning: 补不上就被强平；杠杆玩家听到这个词血压飙升。
+        isPrimary: true
+        contextKeywords:
+          - 杠杆风险
+        frequency: mid
+    aliases:
+      - raw: 追加保证金
+        aliasType: primary
+      - raw: Margin Call
+        aliasType: en_alias
+      - raw: 催缴
+        aliasType: cn_alias
+    viz:
+      type: LeverageWheel
+      config:
+        mode: cbbc
+        kind: bear
+        strike: 50
+        leverage: 10
+    insights:
+      affects:
+        - 杠杆风险：margin call 是死亡倒计时
+        - 流动性危机：集中 margin call 引发踩踏
+      good:
+        - 及时补仓：还能留在桌上
+      bad:
+        - 补不上：强制平仓归零
+      policy:
+        - 券商维持担保比例要求
+      example: 赌场里输红眼时筹码不够，庄家说「再加押金不然离场」——就是这两个字。
+  - slug: zi-jin-jing-liu-ru
+    headword: 资金净流入
+    categoryL1: 机构与资金
+    categoryL2: 资金指标
+    difficulty: L2
+    summaryPlain: 买入金额减去卖出金额的口径：红彤彤的数字让散户心安，但各家算法不一。
+    riskNote: 它是统计估算不是真相：主动成交方向怎么归类，平台说了算。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 买入金额减去卖出金额的口径：红彤彤的数字让散户心安，但各家算法不一。
+        example: 比如软件显示主力净流入 3 亿，第二天股价照样跌。
+        notMeaning: 它是统计估算不是真相：主动成交方向怎么归类，平台说了算。
+        isPrimary: true
+        contextKeywords:
+          - 资金指标
+        frequency: mid
+    aliases:
+      - raw: 资金净流入
+        aliasType: primary
+      - raw: 净流入
+        aliasType: cn_alias
+      - raw: 主力流入
+        aliasType: cn_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: 净流入：进的多还是出的多
+    insights:
+      affects:
+        - 情绪指标：散户最爱的数字
+        - 短线择时：常被反向使用
+      good:
+        - 持续净流入：量价配合
+      bad:
+        - 净流入股价跌：假数据
+      policy:
+        - 数据口径无统一标准
+      example: 商场入口人数统计：显示「进 1000 出 800」叫净流入 200，但没人知道进来的人买没买东西。

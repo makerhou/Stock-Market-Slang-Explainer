@@ -1,0 +1,1066 @@
+# 自动生成的批量词条源（可由 ingest 重新编译为 lexicon.json）
+category: 指数板块
+source: bootstrap from lexicon.json (2026-10-22)
+terms:
+  - slug: a-gu-b-gu
+    headword: A股/B股
+    categoryL1: 指数板块
+    categoryL2: 股票类型
+    difficulty: L3
+    summaryPlain: A 股是人民币普通股，B 股是以外币（美元/港币）交易的特类股，已很边缘。
+    riskNote: B 股流动性差、功能被港股通和 QFII 替代，基本成了历史遗产。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: A 股是人民币普通股，B 股是以外币（美元/港币）交易的特类股，已很边缘。
+        example: 比如早年用美元账户买 B 股，如今几乎无人问津。
+        notMeaning: B 股流动性差、功能被港股通和 QFII 替代，基本成了历史遗产。
+        isPrimary: true
+        contextKeywords:
+          - 股票类型
+        frequency: mid
+    aliases:
+      - raw: A股/B股
+        aliasType: primary
+      - raw: B股
+        aliasType: cn_alias
+    viz:
+      type: HkTypesCompare
+      config:
+        defaultKey: h
+    insights:
+      affects:
+        - 历史制度：资本市场开放的试验田
+        - 投资功能：已基本被取代
+      good:
+        - 历史遗留的折价机会（理论上）
+      bad:
+        - 流动性枯竭
+        - 估值长期低迷
+      policy:
+        - B 股改革方向长期悬而未决
+      example: 公园的老门票窗口：还在售票，但游客都从新闸机（A 股/港股通）进了。
+  - slug: ah-jia-ge
+    headword: AH溢价
+    categoryL1: 指数板块
+    categoryL2: 中港价差
+    difficulty: L2
+    summaryPlain: 同一家公司 A 股价格相对 H 股的溢价程度：价差越大说明 A 股给的情绪越高。
+    riskNote: 价差常年存在且很少收敛，不能简单当作套利信号。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 同一家公司 A 股价格相对 H 股的溢价程度：价差越大说明 A 股给的情绪越高。
+        example: 比如 AH 溢价指数冲高，说明 A 股这边炒得比港股热。
+        notMeaning: 价差常年存在且很少收敛，不能简单当作套利信号。
+        isPrimary: true
+        contextKeywords:
+          - 中港价差
+        frequency: mid
+    aliases:
+      - raw: AH溢价
+        aliasType: primary
+      - raw: AH股溢价
+        aliasType: cn_alias
+      - raw: 价差
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: A 股价
+            point: 6
+            base: 5
+            note: 内地定价
+          - name: H 股价
+            point: 4
+            base: 5
+            note: 香港定价
+    insights:
+      affects:
+        - 情绪指标：A 股散户热度的刻度
+        - 资金结构：两边投资者不同
+      good:
+        - 溢价收窄：两地情绪趋同
+      bad:
+        - 溢价走阔：A 股更投机
+      policy:
+        - 互联互通资金收敛价差
+        - 两地流动性差异是根源
+      example: 同一碗面在旅游区卖 30、在老城区卖 15：溢价 100%。旅客（A 股散户）愿意付，居民（港股）不买账。
+  - slug: bei-jiao-suo
+    headword: 北交所
+    categoryL1: 指数板块
+    categoryL2: A股板块
+    difficulty: L2
+    summaryPlain: 北京证券交易所，服务创新型中小企业：涨跌幅 30%，多了一分野性。
+    riskNote: 公司更小、流动性更差，30% 涨跌幅是放大器，慎碰。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 北京证券交易所，服务创新型中小企业：涨跌幅 30%，多了一分野性。
+        example: 比如一家小巨人企业在这个最新的交易所挂牌，一天涨跌幅就能到 30%，比主板刺激得多。
+        notMeaning: 公司更小、流动性更差，30% 涨跌幅是放大器，慎碰。
+        isPrimary: true
+        contextKeywords:
+          - A股板块
+        frequency: high
+    aliases:
+      - raw: 北交所
+        aliasType: primary
+      - raw: BSE
+        aliasType: en_alias
+      - raw: 北证50
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        limitPct: 30
+        basePrice: 8
+    insights:
+      affects:
+        - 中小企业融资：新三层的升级版
+        - 打新收益：曾有一签万金的传说
+        - 市场生态：投资者门槛较高
+      good:
+        - 专精特新「小巨人」的资本通道
+        - 流动性改善预期带来估值修复
+      bad:
+        - 30% 涨跌幅：亏损同样放大
+        - 小盘股流动性差，卖不掉常发生
+      policy:
+        - 北交所改革（直接上市、转板）持续推进
+        - 投资者门槛 50 万，参与者结构特殊
+      example: 北交所像县城的创业孵化基地：门槛低、机会多，但大多数摊主很小，风一大（波动 30%）就倒。
+  - slug: chuang-ye-ban
+    headword: 创业板
+    categoryL1: 指数板块
+    categoryL2: A股板块
+    difficulty: L1
+    summaryPlain: 深交所为成长型创新企业开的板块：涨跌幅 20%，比主板更刺激。
+    riskNote: 20% 涨跌幅双刃，退市新规下分化更剧烈，不适合追高。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 深交所为成长型创新企业开的板块：涨跌幅 20%，比主板更刺激。
+        example: 比如一家做新能源的公司在这板上市，因为涨跌幅 20%，一天就能完成主板两天的波动。
+        notMeaning: 20% 涨跌幅双刃，退市新规下分化更剧烈，不适合追高。
+        isPrimary: true
+        contextKeywords:
+          - A股板块
+        frequency: high
+    aliases:
+      - raw: 创业板
+        aliasType: primary
+      - raw: ChiNext
+        aliasType: en_alias
+      - raw: 二板
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        limitPct: 20
+        basePrice: 20
+    insights:
+      affects:
+        - 创新企业融资：允许未盈利企业上市
+        - 风险偏好：创业板常率先反映情绪
+        - 估值：成长溢价高，利率敏感
+      good:
+        - 新兴产业集中：电新、医药、半导体的主阵地
+        - 成交活跃度高
+      bad:
+        - 20% 涨跌幅：一天亏两成不稀奇
+        - 估值消化期漫长
+      policy:
+        - 注册制改革全面铺开
+        - 减持规则、退市规则持续完善
+      example: 创业板是学校的「特长班」：加分项（成长性）可以偏科（暂不盈利），给的机会大、约束（20% 波动）也大。
+  - slug: fei-cheng-ban-dao-ti
+    headword: 费城半导体
+    categoryL1: 指数板块
+    categoryL2: 美股指数
+    difficulty: L2
+    summaryPlain: 美国 30 家半导体公司的指数：全球芯片景气的风向标，A 股半导体常跟它联动。
+    riskNote: 强周期属性，库存和价格双杀时跌起来不含糊。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 美国 30 家半导体公司的指数：全球芯片景气的风向标，A 股半导体常跟它联动。
+        example: 比如隔夜美国芯片股大涨，A 股半导体板块第二天集体高开。
+        notMeaning: 强周期属性，库存和价格双杀时跌起来不含糊。
+        isPrimary: true
+        contextKeywords:
+          - 美股指数
+        frequency: high
+    aliases:
+      - raw: 费城半导体
+        aliasType: primary
+      - raw: SOX
+        aliasType: en_alias
+      - raw: 费半
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 费城半导体
+            point: 5000
+            base: 1000
+            note: 30 家芯片公司
+          - name: 纳指 100
+            point: 18300
+            base: 125
+            note: 科技大盘
+    insights:
+      affects:
+        - 全球科技链：芯片是数字经济的粮食
+        - A 股映射：隔夜 SOX 常影响次日芯片股
+        - 周期定位：库存周期见底才反转
+      good:
+        - AI 算力需求爆发最大受益方向
+        - 需求上行期盈利弹性巨大
+      bad:
+        - 砍单潮：手机/PC 低迷时库存压顶
+        - 出口管制是最大黑天鹅
+      policy:
+        - 美国芯片法案补贴影响产能分布
+        - 对华出口管制反复扰动
+      example: 全球电子产品的「面粉价」：面粉涨价（芯片紧），做面包的（手机电脑汽车）全都受影响。
+  - slug: guo-qi-zhi-shu
+    headword: 国企指数
+    categoryL1: 指数板块
+    categoryL2: 港股指数
+    difficulty: L2
+    summaryPlain: 在港上市内地公司组成的指数（H 股指数）：银行、能源、电信等中资大块头。
+    riskNote: 成分偏价值，弹性小；它和恒生科技常玩跷跷板。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 在港上市内地公司组成的指数（H 股指数）：银行、能源、电信等中资大块头。
+        example: 比如稳增长政策出台，在港上市的那批银行能源公司集体反弹。
+        notMeaning: 成分偏价值，弹性小；它和恒生科技常玩跷跷板。
+        isPrimary: true
+        contextKeywords:
+          - 港股指数
+        frequency: high
+    aliases:
+      - raw: 国企指数
+        aliasType: primary
+      - raw: HSCEI
+        aliasType: en_alias
+      - raw: 国指
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 国企指数
+            point: 6600
+            base: 1000
+            note: H 股为主，价值风
+          - name: 恒生科技
+            point: 4100
+            base: 3000
+            note: 成长风
+    insights:
+      affects:
+        - 中资定价：港股里的‘内地分量’
+        - 风格轮动：价值/成长的切换标尺
+        - AH 价差：观察同一公司的两地温差
+      good:
+        - 高股息、低估值：防御配置
+        - 央企分红提升直接受益
+      bad:
+        - 成长行情中跑输恒科
+        - 金融地产占比高，周期敏感
+      policy:
+        - 央企市值管理考核利好分红
+        - 稳增长政策托底传统板块
+      example: 国企指数是内地班的「香港分校」：学生还是内地那批学霸，只是考场（香港市场）规则不同，打分常年比本校（A 股）便宜。
+  - slug: heng-sheng-ke-ji
+    headword: 恒生科技
+    categoryL1: 指数板块
+    categoryL2: 港股指数
+    difficulty: L2
+    summaryPlain: 30 只港股新经济龙头组成的指数：腾讯、阿里、美团们的平均分，弹性比恒指大。
+    riskNote: 成分集中度高，几家巨头财报就能左右指数；它不代表全港股。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 30 只港股新经济龙头组成的指数：腾讯、阿里、美团们的平均分，弹性比恒指大。
+        example: 比如隔夜美股中概大涨，第二天港股科技板块跟着高开，弹性比恒指明显。
+        notMeaning: 成分集中度高，几家巨头财报就能左右指数；它不代表全港股。
+        isPrimary: true
+        contextKeywords:
+          - 港股指数
+        frequency: high
+    aliases:
+      - raw: 恒生科技
+        aliasType: primary
+      - raw: HSTECH
+        aliasType: en_alias
+      - raw: 恒科
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 恒生科技
+            point: 4100
+            base: 3000
+            note: 30 只港股新经济龙头
+          - name: 恒生指数
+            point: 19000
+            base: 100
+            note: 港股蓝筹大盘
+    insights:
+      affects:
+        - 港股情绪：看多中国科技的首选标的
+        - 中概风向：美股中概和它联动
+        - 资金：南向定价权越来越大
+      good:
+        - 平台经济监管转暖：估值修复弹性大
+        - AI/游戏等新业务超预期
+      bad:
+        - 巨头财报暴雷指数直接跳水
+        - 美联储加息压制成长估值
+      policy:
+        - 平台经济监管口径是最大变量
+        - 股份回购、互联互通政策
+      example: 恒生科技是港股的「互联网特长班」：腾讯阿里美团全在里面，一个学霸缺考全班分数就难看。
+  - slug: hu-shen-300
+    headword: 沪深300
+    categoryL1: 指数板块
+    categoryL2: A股指数
+    difficulty: L1
+    summaryPlain: 沪深两市最大最有流动性的 300 家公司组成的篮子，机构衡量 A 股大盘的标准尺子。
+    riskNote: 它只代表头部公司，中小盘行情里会跑输。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 沪深两市最大最有流动性的 300 家公司组成的篮子，机构衡量 A 股大盘的标准尺子。
+        example: 比如今年跑赢大盘的基金不多，多数人拿沪深 300 作为业绩参照来比较。
+        notMeaning: 它只代表头部公司，中小盘行情里会跑输。
+        isPrimary: true
+        contextKeywords:
+          - A股指数
+        frequency: high
+    aliases:
+      - raw: 沪深300
+        aliasType: primary
+      - raw: 沪深300指数
+        aliasType: cn_alias
+      - raw: CSI300
+        aliasType: en_alias
+      - raw: IF
+        aliasType: en_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 沪深 300
+            point: 3800
+            base: 2000
+            note: 两市最大 300 只，A 股大盘基准
+          - name: 中证 500
+            point: 6000
+            base: 5000
+            note: 排除 300 后的大中盘
+          - name: 中证 1000
+            point: 6200
+            base: 6000
+            note: 小盘代表
+    insights:
+      affects:
+        - 基金业绩基准：大量主动/指数基金 PK 它
+        - 外资与险资配置的核心标的
+        - 衍生品：股指期货 IF 挂钩它
+      good:
+        - 成分股盈利改善：指数的真实支撑
+        - 成分调整（纳新剔旧）带来资金流向
+      bad:
+        - 金融股权重高：风格单一
+        - 熊市里龙头也扛不住系统性风险
+      policy:
+        - 分红与除权规则影响点位
+        - 互联互通扩容影响其资金结构
+      example: 沪深 300 是 A 股年级的「重点班平均分」：只收各科前 300 名，代表头部水平。重点班均分涨≠普通班涨。
+  - slug: ke-chuang-ban
+    headword: 科创板
+    categoryL1: 指数板块
+    categoryL2: A股板块
+    difficulty: L1
+    summaryPlain: 上交所为硬科技企业设的「试验田」：允许未盈利上市，涨跌幅也是 20%。
+    riskNote: 公司可能长期不盈利甚至失败，选中龙头的概率低，别当主板炒。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 上交所为硬科技企业设的「试验田」：允许未盈利上市，涨跌幅也是 20%。
+        example: 比如一家还没盈利的芯片公司在这板挂牌，开盘就翻倍，股民吵翻天了。
+        notMeaning: 公司可能长期不盈利甚至失败，选中龙头的概率低，别当主板炒。
+        isPrimary: true
+        contextKeywords:
+          - A股板块
+        frequency: high
+    aliases:
+      - raw: 科创板
+        aliasType: primary
+      - raw: STAR
+        aliasType: en_alias
+      - raw: 科创50
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        limitPct: 20
+        basePrice: 15
+    insights:
+      affects:
+        - 硬科技融资：半导体、AI、生物医药的主阵地
+        - 制度试验田：注册制、做市商都从这里推广
+        - 指数：科创50 是观察窗口
+      good:
+        - 卡脖子技术的上市通道打开
+        - 研发投入高的公司能拿到钱
+      bad:
+        - 破发率高，波动极大
+        - 技术迭代失败=血本无归
+      policy:
+        - 第五套上市标准让未盈利企业可上市
+        - 询价转让/做市制度影响流动性
+      example: 科创板是「少年科学家班」：允许没人发论文（未盈利）也给你实验室，但十年后有人拿诺奖、有人毕不了业。
+  - slug: lu-su-2000
+    headword: 罗素2000
+    categoryL1: 指数板块
+    categoryL2: 美股指数
+    difficulty: L2
+    summaryPlain: 美国 2000 家小公司的指数：经济信心的体温计，小公司活了说明美国经济底子热。
+    riskNote: 小盘股抗风险弱，信用紧缩时它是重灾区。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 美国 2000 家小公司的指数：经济信心的体温计，小公司活了说明美国经济底子热。
+        example: 比如美国区域银行一出事，小盘指数当天跌得比大盘还惨。
+        notMeaning: 小盘股抗风险弱，信用紧缩时它是重灾区。
+        isPrimary: true
+        contextKeywords:
+          - 美股指数
+        frequency: high
+    aliases:
+      - raw: 罗素2000
+        aliasType: primary
+      - raw: Russell 2000
+        aliasType: en_alias
+      - raw: 小盘股指数
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 罗素 2000
+            point: 2100
+            base: 1000
+            note: 美国小盘
+          - name: 标普 500
+            point: 5200
+            base: 10
+            note: 美国大盘
+    insights:
+      affects:
+        - 美国内需：小公司更依赖本土经济
+        - 风格切换：大盘涨完小盘补涨
+        - 信贷环境：小盘对利率极敏感
+      good:
+        - 跑赢大盘：经济广度改善的信号
+        - 盈利拐点领先于大盘股
+      bad:
+        - 跑输太久：衰退信号闪烁
+        - 融资成本上升先压垮小公司
+      policy:
+        - 区域银行危机直接冲击小盘融资
+        - 美联储利率决定小厂的借钱成本
+      example: 美国经济的毛细血管：大动脉（标普500）输血正常，毛细血管（罗素2000）堵塞了，身体一样出事。
+  - slug: mag7
+    headword: Mag 7
+    categoryL1: 指数板块
+    categoryL2: 美股概念
+    difficulty: L1
+    summaryPlain: 美股「七巨头」：苹果、微软、谷歌、亚马逊、Meta、英伟达、特斯拉，指数涨跌主要看它们脸色。
+    riskNote: 七巨头集中度创新高，它们调整时指数很难独善其身。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 美股「七巨头」：苹果、微软、谷歌、亚马逊、Meta、英伟达、特斯拉，指数涨跌主要看它们脸色。
+        example: 比如一家巨头财报不及预期，市值蒸发几千亿美元，指数被它一只股票拖累。
+        notMeaning: 七巨头集中度创新高，它们调整时指数很难独善其身。
+        isPrimary: true
+        contextKeywords:
+          - 美股概念
+        frequency: high
+    aliases:
+      - raw: Mag 7
+        aliasType: primary
+      - raw: 七巨头
+        aliasType: cn_alias
+      - raw: Magnificent Seven
+        aliasType: en_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 七巨头
+            point: 100
+            base: 40
+            note: 7 家公司绑架指数
+          - name: 标普 493
+            point: 100
+            base: 60
+            note: 剩下的 493 家
+    insights:
+      affects:
+        - 指数结构：权重太大，掩盖其余公司真实状况
+        - 资金面：被动资金买入≈买七巨头
+        - 产业链：AI/云计算/广告的景气总龙头
+      good:
+        - AI 革命主受益者，盈利持续超预期
+        - 回购+分红力度大
+      bad:
+        - 一家暴雷指数陪葬
+        - 拥挤交易：所有人都在里面，踩踏更猛
+      policy:
+        - 反垄断监管是最大政策风险
+        - AI 资本开支回报被质疑时杀估值
+      example: 班里 7 个学霸承包了几乎全部竞赛奖牌：算班级平均分时，其实是他们 7 个人的平均分。
+  - slug: msci
+    headword: MSCI
+    categoryL1: 指数板块
+    categoryL2: 全球指数
+    difficulty: L3
+    summaryPlain: 全球主要指数公司：它编的指数是被动资金的采购清单，纳入/剔除直接影响股票买卖量。
+    riskNote: 纳入不等于基本面变好，往往是事件驱动的短期行情。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 全球主要指数公司：它编的指数是被动资金的采购清单，纳入/剔除直接影响股票买卖量。
+        example: 比如某只股票宣布纳入这家公司的全球指数，被动资金当天尾盘扫货。
+        notMeaning: 纳入不等于基本面变好，往往是事件驱动的短期行情。
+        isPrimary: true
+        contextKeywords:
+          - 全球指数
+        frequency: high
+    aliases:
+      - raw: MSCI
+        aliasType: primary
+      - raw: 明晟
+        aliasType: cn_alias
+      - raw: 摩根士丹利资本国际
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: MSCI World
+            point: 3600
+            base: 1500
+            note: 发达国家篮子
+          - name: MSCI EM
+            point: 1100
+            base: 500
+            note: 新兴市场篮子
+    insights:
+      affects:
+        - 全球配置：被动基金跟着成分调整买
+        - 资金流：纳入预期阶段股价常被抢筹
+        - 估值锚：新兴市场基准之一
+      good:
+        - 纳入 MSCI：引来长期被动配置资金
+        - 成分调整=持续的研究输出
+      bad:
+        - 剔除时资金撤出，短期承压
+        - 新兴市场权重受汇率、ESG 影响
+      policy:
+        - 公司治理、外资准入影响纳入进度
+        - 指数编制方法定期检讨
+      example: 超市采购部的清单（MSCI 指数）：上了清单，全国门店（基金）都来进货；被划掉，货架瞬间撤柜。
+  - slug: san-da-yun-ying-shang
+    headword: 三大运营商
+    categoryL1: 指数板块
+    categoryL2: 中概/央企
+    difficulty: L1
+    summaryPlain: 中国移动、电信、联通三大通信央企的合称：红利资产里的定海神针。
+    riskNote: 增速平稳、想象空间有限，赚的是股息不是价差。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 中国移动、电信、联通三大通信央企的合称：红利资产里的定海神针。
+        example: 比如中特估行情里，几家通信央企常常领涨。
+        notMeaning: 增速平稳、想象空间有限，赚的是股息不是价差。
+        isPrimary: true
+        contextKeywords:
+          - 中概/央企
+        frequency: mid
+    aliases:
+      - raw: 三大运营商
+        aliasType: primary
+      - raw: 三桶油
+        aliasType: cn_alias
+      - raw: 中字头
+        aliasType: cn_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: 运营商：现金牛央企
+    insights:
+      affects:
+        - 红利策略：高股息+低估值配置
+        - 中特估：央企重估的排头兵
+      good:
+        - 分红提升：股息率更诱人
+      bad:
+        - 成长性弱：牛市里滞涨
+      policy:
+        - 央企市值管理考核
+      example: 小区物业费+宽带费：月月稳定收费（现金流），不会暴富但也不用操心。
+  - slug: shang-zheng-50
+    headword: 上证50
+    categoryL1: 指数板块
+    categoryL2: A股指数
+    difficulty: L2
+    summaryPlain: 上海市场规模最大、流动性最好的 50 只股票， A 股「核心蓝筹」代表。
+    riskNote: 盘子大意味着弹性小，牛市里常跑输中小盘。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 上海市场规模最大、流动性最好的 50 只股票， A 股「核心蓝筹」代表。
+        example: 比如险资加仓高股息，沪市那批最大公司的指数率先翻红。
+        notMeaning: 盘子大意味着弹性小，牛市里常跑输中小盘。
+        isPrimary: true
+        contextKeywords:
+          - A股指数
+        frequency: high
+    aliases:
+      - raw: 上证50
+        aliasType: primary
+      - raw: 上证50指数
+        aliasType: cn_alias
+      - raw: IH
+        aliasType: en_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 上证 50
+            point: 2500
+            base: 1000
+            note: 沪市最大 50 只
+          - name: 上证综指
+            point: 3200
+            base: 100
+            note: 沪市全部
+    insights:
+      affects:
+        - 权重股定价：银行保险石化占大头
+        - 护盘资金常优先买的篮子
+        - 风格切换的标志：价值 vs 成长
+      good:
+        - 盈利稳定分红高：收息党最爱
+        - 外资定价权高的品种集中地
+      bad:
+        - 成长行情中明显跑输
+        - 杠杆资金爆仓时首当其冲
+      policy:
+        - 央企市值管理政策利好中字头
+        - 利率下行利好高股息权重
+      example: 上证 50 是上海班的「班委天团」：话语权最大、成绩稳，但班里新转学的气质特长生（科技成长股爆发的钱景）和他们无关。
+  - slug: shang-zheng-zong-zhi
+    headword: 上证综指
+    categoryL1: 指数板块
+    categoryL2: A股指数
+    difficulty: L1
+    summaryPlain: 上海全部股票算出来的「平均分」，中国股民最常看的那一个数字。
+    riskNote: 综指包含微盘小票，涨跌未必代表龙头，看结构要配沪深300。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 上海全部股票算出来的「平均分」，中国股民最常看的那一个数字。
+        example: 比如新闻说沪指盘中站上 3300 点，证券账户群里一片欢腾，券商 App 一度卡顿。
+        notMeaning: 综指包含微盘小票，涨跌未必代表龙头，看结构要配沪深300。
+        isPrimary: true
+        contextKeywords:
+          - A股指数
+        frequency: high
+    aliases:
+      - raw: 上证综指
+        aliasType: primary
+      - raw: 上证指数
+        aliasType: cn_alias
+      - raw: 沪指
+        aliasType: cn_alias
+      - raw: 大盘
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 上证综指
+            point: 3200
+            base: 100
+            note: 沪市全部股票，看‘老沪指’
+          - name: 沪深 300
+            point: 3800
+            base: 2000
+            note: 两市最大 300 只，A 股大盘基准
+          - name: 上证 50
+            point: 2500
+            base: 1000
+            note: 沪市最大 50 只蓝筹
+    insights:
+      affects:
+        - 大众情绪：上证指数是股民最熟悉的「大盘」
+        - 基金基准：大量产品跑赢/跑输看它
+        - 政策市参照：政策效果常先看指数
+      good:
+        - 站稳关键点位：人气指标，往往带来增量资金
+        - 成交配合放大：行情有延续性
+      bad:
+        - 快速跌破整数关口：容易引发恐慌盘
+        - 指数涨个股跌：结构极端化
+      policy:
+        - 国家队常在关键点位护盘
+        - 全面降准降息后指数多高开
+      example: 上证综指是上海所有学生的平均分：学神（茅台、招行）和学困生（微盘股）一起算。它涨了，不代表每个学生都进步。
+  - slug: shen-zheng-cheng-zhi
+    headword: 深证成指
+    categoryL1: 指数板块
+    categoryL2: A股指数
+    difficulty: L2
+    summaryPlain: 深市 500 只有代表性股票编成的指数：深圳市场的大盘温度计。
+    riskNote: 它不含全部深市股票，看整体要参考深证综指。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 深市 500 只有代表性股票编成的指数：深圳市场的大盘温度计。
+        example: 比如深成指放量突破，成长风格往往开始占优。
+        notMeaning: 它不含全部深市股票，看整体要参考深证综指。
+        isPrimary: true
+        contextKeywords:
+          - A股指数
+        frequency: mid
+    aliases:
+      - raw: 深证成指
+        aliasType: primary
+      - raw: 深成指
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 深证成指
+            point: 10000
+            base: 5000
+            note: 深市 500 只代表
+          - name: 上证综指
+            point: 3200
+            base: 100
+            note: 沪市全部
+    insights:
+      affects:
+        - 风格判断：深强沪弱=成长占优
+        - 资金：深股通标的相关
+      good:
+        - 走强：深市龙头盈利改善
+      bad:
+        - 跑输沪指：价值风格主导
+      policy:
+        - 创业板改革影响成分结构
+      example: 深圳班的重点班均分：上海班（沪指）偏稳重，深圳班偏活力。
+  - slug: tmt
+    headword: TMT
+    categoryL1: 指数板块
+    categoryL2: 赛道分类
+    difficulty: L2
+    summaryPlain: 科技（T）传媒（M）电信（T）三合一的赛道叫法：成长股研究的分组单位。
+    riskNote: 是行业分类概念，不是具体投资标的。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 科技（T）传媒（M）电信（T）三合一的赛道叫法：成长股研究的分组单位。
+        example: 比如券商研究所按科技传媒电信分组，专门覆盖互联网和半导体。
+        notMeaning: 是行业分类概念，不是具体投资标的。
+        isPrimary: true
+        contextKeywords:
+          - 赛道分类
+        frequency: mid
+    aliases:
+      - raw: TMT
+        aliasType: primary
+      - raw: 科技传媒电信
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: TMT 赛道
+            point: 100
+            base: 60
+            note: 成长股聚集
+          - name: 传统行业
+            point: 100
+            base: 80
+            note: 稳健但慢
+    insights:
+      affects:
+        - 研究分工：卖方常见分组
+        - 板块轮动：TMT 常是牛市主战场
+      good:
+        - 景气上行：成长股主升浪
+      bad:
+        - 杀估值时 TMT 也最惨
+      policy:
+        - 产业政策（平台经济、AI）影响巨大
+      example: 学校的理科实验班：物理化学生物打包（TMT）。班里出学霸的频率高，挂科率也高。
+  - slug: vix
+    headword: VIX
+    categoryL1: 指数板块
+    categoryL2: 美股指数
+    difficulty: L2
+    summaryPlain: 「恐慌指数」：市场标价出来的未来 30 天波动预期。VIX 越高，说明大家越害怕。
+    riskNote: VIX 高不代表必跌，也可能是底部信号；它衡量的是波动，不是方向。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 「恐慌指数」：市场标价出来的未来 30 天波动预期。VIX 越高，说明大家越害怕。
+        example: 比如突发利空当天这个指数直接翻倍，朋友圈都在转恐慌曲线截图。
+        notMeaning: VIX 高不代表必跌，也可能是底部信号；它衡量的是波动，不是方向。
+        isPrimary: true
+        contextKeywords:
+          - 美股指数
+        frequency: high
+    aliases:
+      - raw: VIX
+        aliasType: primary
+      - raw: 恐慌指数
+        aliasType: cn_alias
+      - raw: 波动率指数
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: VIX：市场恐慌温度计
+        min: 10
+        max: 80
+        threshold: 20
+        initial: 28
+        valueLabel: VIX 读数
+        zones:
+          - min: 10
+            max: 20
+            label: 淡定区
+            color: var(--up)
+          - min: 20
+            max: 30
+            label: 紧张区
+            color: var(--warn)
+          - min: 30
+            max: 80
+            label: 恐慌区
+            color: var(--down)
+        rows:
+          - - "> 30"
+            - 恐慌：大家在抢保险
+            - 常伴随暴跌
+          - - 20-30
+            - 紧张：有点慌
+            - 波动加大
+          - - < 20
+            - 淡定：岁月静好
+            - 容易滋生自满
+    insights:
+      affects:
+        - 衍生品定价：期权保险费的锚
+        - 逆向指标：极端高读数常对应阶段性底部
+        - 仓位管理：VIX 高时机构倾向防守
+      good:
+        - 低位缓升：健康的风险意识
+        - VIX 回落：恐慌缓解，反弹基础
+      bad:
+        - 飙到 40+：系统性恐慌，流动性危机
+        - 长期低位：大家裸奔，一有雷就是大坑
+      policy:
+        - VIX 期货到期、期权持仓影响读数
+        - 地缘/信用事件直接引爆
+      example: 考试前的班级焦虑指数：月考（平静）时 15 分，突然通知明天期末考（危机）飙升到 60。分数高=怕，但怕完该考还得考。
+  - slug: xin-san-ban
+    headword: 新三板
+    categoryL1: 指数板块
+    categoryL2: A股板块
+    difficulty: L3
+    summaryPlain: 全国中小企业股份转让系统：非上市公众公司的转让平台，流动性和门槛都特殊。
+    riskNote: 投资者门槛高、成交清淡，别和北交所混淆。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 全国中小企业股份转让系统：非上市公众公司的转让平台，流动性和门槛都特殊。
+        example: 比如公司先在这个转让系统挂牌，再转板到北交所或沪深上市。
+        notMeaning: 投资者门槛高、成交清淡，别和北交所混淆。
+        isPrimary: true
+        contextKeywords:
+          - A股板块
+        frequency: mid
+    aliases:
+      - raw: 新三板
+        aliasType: primary
+      - raw: NEEQ
+        aliasType: en_alias
+      - raw: 股转系统
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 新三板
+            point: 1000
+            base: 1000
+            note: 早期融资平台
+          - name: 北交所
+            point: 1200
+            base: 1000
+            note: 升级版交易所
+    insights:
+      affects:
+        - 早期融资：创投的退出通道
+        - 转板预期：精选层的想象空间
+      good:
+        - 分层改革：流动性改善
+      bad:
+        - 成交稀薄：有价无市
+      policy:
+        - 分层管理与转板机制
+      example: 少年体校：人才还没进省队（上市）前的训练营。练出来转会费不菲，练不出来就耗着。
+  - slug: zhong-zheng-500
+    headword: 中证500
+    categoryL1: 指数板块
+    categoryL2: A股指数
+    difficulty: L2
+    summaryPlain: 剔除沪深300后，总市值排名靠前的 500 只股票：A 股中盘的代表。
+    riskNote: 成分股竞争激烈，基本面分化大，熊市里波动比 300 狠。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 剔除沪深300后，总市值排名靠前的 500 只股票：A 股中盘的代表。
+        example: 比如小盘成长行情来了，中盘指数一周涨了大盘两倍。
+        notMeaning: 成分股竞争激烈，基本面分化大，熊市里波动比 300 狠。
+        isPrimary: true
+        contextKeywords:
+          - A股指数
+        frequency: high
+    aliases:
+      - raw: 中证500
+        aliasType: primary
+      - raw: 中证500指数
+        aliasType: cn_alias
+      - raw: IC
+        aliasType: en_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 中证 500
+            point: 6000
+            base: 5000
+            note: 排除 300 后的大中盘
+          - name: 中证 1000
+            point: 6200
+            base: 6000
+            note: 更小盘的
+          - name: 沪深 300
+            point: 3800
+            base: 2000
+            note: 头部
+    insights:
+      affects:
+        - 风格基准：中盘成长vs核心蓝筹的衡量
+        - 量化对冲常用（IC 挂钩）
+        - 经济复苏预期强时弹性大
+      good:
+        - 景气回升时盈利弹性大于龙头
+        - 专精特新企业集中营
+      bad:
+        - 业绩雷多，防不胜防
+        - 流动性与抗风险弱于 300
+      policy:
+        - 再融资/注册制节奏影响供给
+        - 产业政策 (如新能源补贴) 直接影响成分盈利
+      example: 学校里 300 名开外的「第二梯队」：有人是偏科怪才（细分龙头），有人在及格线挣扎。第二梯队平均分弹性最大。
+  - slug: zhong-zheng-zhi-shu
+    headword: 中证指数
+    categoryL1: 指数板块
+    categoryL2: 指数公司
+    difficulty: L2
+    summaryPlain: 编制沪深 300、中证 500 等指数 的官方机构：A 股指数的总编。
+    riskNote: 它的成分调整（纳新剔旧）直接影响被动资金流向。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 编制沪深 300、中证 500 等指数 的官方机构：A 股指数的总编。
+        example: 比如某股被纳入沪深 300，指数基金被动买入。
+        notMeaning: 它的成分调整（纳新剔旧）直接影响被动资金流向。
+        isPrimary: true
+        contextKeywords:
+          - 指数公司
+        frequency: mid
+    aliases:
+      - raw: 中证指数
+        aliasType: primary
+      - raw: CSI
+        aliasType: en_alias
+      - raw: 中证指数公司
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 沪深 300
+            point: 3800
+            base: 2000
+            note: 旗舰宽基
+          - name: 中证 500
+            point: 6000
+            base: 5000
+            note: 中盘代表
+    insights:
+      affects:
+        - 被动资金：成分调整的指令
+        - 市场基准：产品的标尺
+      good:
+        - 纳入指数：被动买盘
+      bad:
+        - 被剔除：被动卖出
+      policy:
+        - 定期调整与临时调整规则
+      example: 教材编委会：进教材（指数）的课文（股票）全国学生（基金）都要背，出教材的瞬间最受益。

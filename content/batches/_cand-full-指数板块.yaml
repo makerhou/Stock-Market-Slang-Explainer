@@ -1,0 +1,954 @@
+source: gen from full.tsv --all 市场×类型×关键词路由 (待精修)
+terms:
+  - slug: zhong-zheng-a-5-0-0-zhi-shu
+    headword: 中证A500指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 2024年发布的宽基指数，覆盖各行业龙头与细分领军企业，行业分布更均衡。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 2024年发布的宽基指数，覆盖各行业龙头与细分领军企业，行业分布更均衡。
+        example: 中证A500指数ETF规模快速增长，成为新的核心配置工具。
+        isPrimary: true
+    aliases:
+      - raw: 中证A500指数
+        aliasType: primary
+      - raw: 中证A500
+        aliasType: en_alias
+      - raw: CSI A500
+        aliasType: en_alias
+  - slug: wan-de-quan-a-zhi-shu
+    headword: 万得全A指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 由万得编制、覆盖沪深两市全部A股的全市场指数，更贴近整体市场表现。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 由万得编制、覆盖沪深两市全部A股的全市场指数，更贴近整体市场表现。
+        example: 以万得全A指数衡量，今年散户整体仍小幅亏损。
+        isPrimary: true
+    aliases:
+      - raw: 万得全A指数
+        aliasType: primary
+      - raw: 万得全A
+        aliasType: en_alias
+      - raw: Wind All A
+        aliasType: en_alias
+  - slug: m-s-c-i-quan-qiu-zhi-shu
+    headword: MSCI全球指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: MSCI编制的覆盖全球发达与新兴市场的宽基指数，是跨国被动资金的配置基准。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: MSCI编制的覆盖全球发达与新兴市场的宽基指数，是跨国被动资金的配置基准。
+        example: MSCI全球指数调样后，部分成分股面临被动资金流入或流出。
+        isPrimary: true
+    aliases:
+      - raw: MSCI全球指数
+        aliasType: primary
+      - raw: MSCI World
+        aliasType: en_alias
+      - raw: ACWI
+        aliasType: en_alias
+      - raw: MSCI全球
+        aliasType: en_alias
+      - raw: 全球指数
+        aliasType: cn_alias
+  - slug: m-s-c-i-zhong-guo-zhi-shu
+    headword: MSCI中国指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: MSCI编制的追踪中国市场的指数，纳入港股、中概股与部分A股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: MSCI编制的追踪中国市场的指数，纳入港股、中概股与部分A股。
+        example: MSCI中国指数季度调整，被动跟踪资金随之调仓。
+        isPrimary: true
+    aliases:
+      - raw: MSCI中国指数
+        aliasType: primary
+      - raw: MSCI China Index
+        aliasType: en_alias
+  - slug: zhong-zheng-hong-li-zhi-shu
+    headword: 中证红利指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 选取高分红、高股息率股票编制的策略指数，是红利风格的代表。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 选取高分红、高股息率股票编制的策略指数，是红利风格的代表。
+        example: 中证红利指数今年表现稳健，险资持续增配。
+        isPrimary: true
+    aliases:
+      - raw: 中证红利指数
+        aliasType: primary
+      - raw: 中证红利
+        aliasType: cn_alias
+      - raw: CSI Dividend Index
+        aliasType: en_alias
+  - slug: shang-zheng-1-8-0-zhi-shu
+    headword: 上证180指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 由上交所180只核心成份股组成的大盘蓝筹指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 由上交所180只核心成份股组成的大盘蓝筹指数。
+        example: 上证180指数中的金融股今日领涨。
+        isPrimary: true
+    aliases:
+      - raw: 上证180指数
+        aliasType: primary
+      - raw: 上证180
+        aliasType: cn_alias
+      - raw: SSE 180
+        aliasType: en_alias
+  - slug: shen-zheng-1-0-0-zhi-shu
+    headword: 深证100指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 由深交所市值与流动性领先的100只股票组成的成份指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 由深交所市值与流动性领先的100只股票组成的成份指数。
+        example: 深证100指数反映深市龙头股的整体表现。
+        isPrimary: true
+    aliases:
+      - raw: 深证100指数
+        aliasType: primary
+      - raw: 深证100
+        aliasType: cn_alias
+      - raw: SZSE 100
+        aliasType: en_alias
+  - slug: fu-shi-zhong-guo-a-5-0-zhi-shu
+    headword: 富时中国A50指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 追踪沪深两市市值最大50只A股的指数，其夜期常被视作A股开盘的前瞻参考。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 追踪沪深两市市值最大50只A股的指数，其夜期常被视作A股开盘的前瞻参考。
+        example: 富时中国A50指数夜期走高，预示当天A股高开。
+        isPrimary: true
+    aliases:
+      - raw: 富时中国A50指数
+        aliasType: primary
+      - raw: FTSE China A50
+        aliasType: en_alias
+  - slug: m-s-c-i-xin-xing-shi-chang-zhi-shu
+    headword: MSCI新兴市场指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: MSCI编制的覆盖新兴市场股市的宽基指数，是外资配置新兴资产的基准。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: MSCI编制的覆盖新兴市场股市的宽基指数，是外资配置新兴资产的基准。
+        example: MSCI新兴市场指数季度调整，被动资金随之流入流出。
+        isPrimary: true
+    aliases:
+      - raw: MSCI新兴市场指数
+        aliasType: primary
+      - raw: MSCI Emerging Markets Index
+        aliasType: en_alias
+  - slug: d-e-a
+    headword: DEA
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: MACD中的慢线，即DIF的9日指数移动平均值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: MACD中的慢线，即DIF的9日指数移动平均值。
+        example: DIF在DEA上方运行说明多头动能占优。
+        isPrimary: true
+    aliases:
+      - raw: DEA
+        aliasType: primary
+      - raw: Signal Line
+        aliasType: en_alias
+  - slug: t-r-i-x
+    headword: TRIX
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对价格做三次指数平滑后再算变化率，过滤短期噪音的趋势指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 对价格做三次指数平滑后再算变化率，过滤短期噪音的趋势指标。
+        example: TRIX在零轴上方金叉是中线买入信号。
+        isPrimary: true
+    aliases:
+      - raw: TRIX
+        aliasType: primary
+      - raw: Triple Exponential Average
+        aliasType: en_alias
+  - slug: zheng-shu-guan-kou
+    headword: 整数关口
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价或指数的整数位置，如100元、5000点，容易形成支撑压力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价或指数的整数位置，如100元、5000点，容易形成支撑压力。
+        example: 跌破100元整数关口后情绪转空。
+        isPrimary: true
+    aliases:
+      - raw: 整数关口
+        aliasType: primary
+      - raw: Round Number
+        aliasType: en_alias
+  - slug: zhi-shu-hu-zheng
+    headword: 指数互证
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 道氏理论中工业指数与运输指数必须同向确认趋势才有效。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 道氏理论中工业指数与运输指数必须同向确认趋势才有效。
+        example: 只有工业指数新高不算数，需要运输指数互证。
+        isPrimary: true
+    aliases:
+      - raw: 指数互证
+        aliasType: primary
+      - raw: Index Confirmation
+        aliasType: en_alias
+  - slug: jie-gou-xing-hang-qing
+    headword: 结构性行情
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 指数整体震荡但板块与个股分化剧烈、存在局部赚钱效应的行情。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 指数整体震荡但板块与个股分化剧烈、存在局部赚钱效应的行情。
+        example: 结构性行情里选对板块比择时更重要。
+        isPrimary: true
+    aliases:
+      - raw: 结构性行情
+        aliasType: primary
+      - raw: Structural Market
+        aliasType: en_alias
+  - slug: yi-jiu-hang-qing
+    headword: 一九行情
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 极少数权重股上涨、绝大多数股票下跌的极端分化行情。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 极少数权重股上涨、绝大多数股票下跌的极端分化行情。
+        example: 一九行情里选对股票比仓位重要。
+        isPrimary: true
+    aliases:
+      - raw: 一九行情
+        aliasType: primary
+      - raw: 10/90 Market
+        aliasType: en_alias
+  - slug: quan-zhong-hang-qing
+    headword: 权重行情
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 由大盘权重股拉动指数上涨的行情。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 由大盘权重股拉动指数上涨的行情。
+        example: 权重行情里小票往往不涨。
+        isPrimary: true
+    aliases:
+      - raw: 权重行情
+        aliasType: primary
+      - raw: Blue Chip Led Rally
+        aliasType: en_alias
+  - slug: lan-chou-hang-qing
+    headword: 蓝筹行情
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 由蓝筹权重股带动的稳健上涨行情。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 由蓝筹权重股带动的稳健上涨行情。
+        example: 蓝筹行情适合长线资金。
+        isPrimary: true
+    aliases:
+      - raw: 蓝筹行情
+        aliasType: primary
+      - raw: Blue Chip Rally
+        aliasType: en_alias
+  - slug: cheng-zhang-hang-qing
+    headword: 成长行情
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 成长股跑赢价值股的行情风格。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 成长股跑赢价值股的行情风格。
+        example: 成长行情里高PE股票也能涨。
+        isPrimary: true
+    aliases:
+      - raw: 成长行情
+        aliasType: primary
+      - raw: Growth Rally
+        aliasType: en_alias
+  - slug: jia-zhi-hang-qing
+    headword: 价值行情
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 价值股跑赢成长股的行情风格。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 价值股跑赢成长股的行情风格。
+        example: 价值行情里低PE高股息股票占优。
+        isPrimary: true
+    aliases:
+      - raw: 价值行情
+        aliasType: primary
+      - raw: Value Rally
+        aliasType: en_alias
+  - slug: dao-shi-yun-shu-zhi-shu
+    headword: 道氏运输指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 道氏理论中代表物流运输的平均指数，需与工业指数互证趋势。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 道氏理论中代表物流运输的平均指数，需与工业指数互证趋势。
+        example: 道氏运输指数未跟涨说明趋势未确认。
+        isPrimary: true
+    aliases:
+      - raw: 道氏运输指数
+        aliasType: primary
+      - raw: Dow Jones Transportation Average
+        aliasType: en_alias
+  - slug: zhi-shu-cheng-fen-gu
+    headword: 指数成分股
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 被纳入某个指数样本的股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 被纳入某个指数样本的股票。
+        example: 调入指数成分股常带来被动买盘。
+        isPrimary: true
+    aliases:
+      - raw: 指数成分股
+        aliasType: primary
+      - raw: Index Constituent
+        aliasType: en_alias
+  - slug: tian-qi-yan-sheng-pin
+    headword: 天气衍生品
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以气温、降雨等天气指数为标的的衍生品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以气温、降雨等天气指数为标的的衍生品。
+        example: 天气衍生品帮助农业与能源企业。
+        isPrimary: true
+    aliases:
+      - raw: 天气衍生品
+        aliasType: primary
+      - raw: Weather Derivative
+        aliasType: en_alias
+  - slug: zhang-ting-jia
+    headword: 涨停价
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 当日允许成交的最高价格，为主板昨收×1.1向上取整（创业板/科创板×1.2）。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 当日允许成交的最高价格，为主板昨收×1.1向上取整（创业板/科创板×1.2）。
+        example: 股价触及涨停价后封板，封单量持续增加。
+        isPrimary: true
+    aliases:
+      - raw: 涨停价
+        aliasType: primary
+      - raw: Limit Up Price
+        aliasType: en_alias
+  - slug: die-ting-jia
+    headword: 跌停价
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 当日允许成交的最低价格，为主板昨收×0.9向下取整（创业板/科创板×0.8）。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 当日允许成交的最低价格，为主板昨收×0.9向下取整（创业板/科创板×0.8）。
+        example: 跌停价附近抛压沉重，尾盘打开跌停。
+        isPrimary: true
+    aliases:
+      - raw: 跌停价
+        aliasType: primary
+      - raw: Limit Down Price
+        aliasType: en_alias
+  - slug: zhong-zheng-a-5-0-0
+    headword: 中证A500
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 覆盖各行业龙头的新一代宽基指数，行业分布更均衡。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 覆盖各行业龙头的新一代宽基指数，行业分布更均衡。
+        example: 中证A500ETF成为增量资金重要载体。
+        isPrimary: true
+    aliases:
+      - raw: 中证A500
+        aliasType: primary
+      - raw: CSI A500
+        aliasType: en_alias
+  - slug: wan-de-quan-a
+    headword: 万得全A
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: Wind编制的覆盖全部A股的加权指数，反映市场整体表现。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: Wind编制的覆盖全部A股的加权指数，反映市场整体表现。
+        example: 万得全A成交额破万亿，交投活跃。
+        isPrimary: true
+    aliases:
+      - raw: 万得全A
+        aliasType: primary
+      - raw: Wind All-A
+        aliasType: en_alias
+  - slug: zeng-liang-zi-jin
+    headword: 增量资金
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新进入市场的资金，推动成交量与指数上行。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 新进入市场的资金，推动成交量与指数上行。
+        example: 增量资金入场，指数重心上移。
+        isPrimary: true
+    aliases:
+      - raw: 增量资金
+        aliasType: primary
+      - raw: Incremental Capital
+        aliasType: en_alias
+  - slug: suan-li
+    headword: 算力
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 计算能力资源，AI时代核心基础设施，相关板块为算力产业链。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 计算能力资源，AI时代核心基础设施，相关板块为算力产业链。
+        example: 算力租赁价格上行，IDC板块受益。
+        isPrimary: true
+    aliases:
+      - raw: 算力
+        aliasType: primary
+      - raw: Computing Power
+        aliasType: en_alias
+  - slug: ming-sheng-zhi-shu
+    headword: 明晟指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: MSCI编制的系列指数，A股纳入比例影响外资配置。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: MSCI编制的系列指数，A股纳入比例影响外资配置。
+        example: MSCI扩大A股纳入因子。
+        isPrimary: true
+    aliases:
+      - raw: 明晟指数
+        aliasType: primary
+      - raw: MSCI Index
+        aliasType: en_alias
+  - slug: gan-san-huo
+    headword: 干散货
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 散货运输，BDI指数跟踪。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 散货运输，BDI指数跟踪。
+        example: BDI指数反映大宗需求。
+        isPrimary: true
+    aliases:
+      - raw: 干散货
+        aliasType: primary
+      - raw: Dry Bulk
+        aliasType: en_alias
+  - slug: bo-luo-de-hai-gan-san-huo-zhi-shu
+    headword: 波罗的海干散货指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 全球干散货运价指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 全球干散货运价指数。
+        example: BDI反映大宗商品航运景气。
+        isPrimary: true
+    aliases:
+      - raw: 波罗的海干散货指数
+        aliasType: primary
+      - raw: BDI
+        aliasType: en_alias
+  - slug: c-r-b-zhi-shu
+    headword: CRB指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 大宗商品价格综合指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 大宗商品价格综合指数。
+        example: CRB指数反映商品整体走势。
+        isPrimary: true
+    aliases:
+      - raw: CRB指数
+        aliasType: primary
+      - raw: CRB Index
+        aliasType: en_alias
+  - slug: nan-hua-shang-pin-zhi-shu
+    headword: 南华商品指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国大宗商品综合指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国大宗商品综合指数。
+        example: 南华商品指数跟踪国内商品。
+        isPrimary: true
+    aliases:
+      - raw: 南华商品指数
+        aliasType: primary
+      - raw: NHCI
+        aliasType: en_alias
+  - slug: tan-lan-zhi-shu
+    headword: 贪婪指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 市场贪婪程度指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场贪婪程度指标。
+        example: 贪婪指数极端值提示反向。
+        isPrimary: true
+    aliases:
+      - raw: 贪婪指数
+        aliasType: primary
+      - raw: Greed Index
+        aliasType: en_alias
+  - slug: kong-ju-tan-lan-zhi-shu
+    headword: 恐惧贪婪指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 衡量市场情绪的指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 衡量市场情绪的指标。
+        example: 极度恐惧时或现机会。
+        isPrimary: true
+    aliases:
+      - raw: 恐惧贪婪指数
+        aliasType: primary
+      - raw: Fear & Greed Index
+        aliasType: en_alias
+  - slug: fu-shi-zhi-shu
+    headword: 富时指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 富时系列指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 富时系列指数。
+        example: 富时100是英国蓝筹。
+        isPrimary: true
+    aliases:
+      - raw: 富时指数
+        aliasType: primary
+      - raw: FTSE
+        aliasType: en_alias
+  - slug: ri-jing-2-2-5
+    headword: 日经225
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 日本主要股票指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 日本主要股票指数。
+        example: 日经指数代表日本市场。
+        isPrimary: true
+    aliases:
+      - raw: 日经225
+        aliasType: primary
+      - raw: Nikkei 225
+        aliasType: en_alias
+  - slug: han-guo-zong-he-zhi-shu
+    headword: 韩国综合指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 韩国主要股票指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 韩国主要股票指数。
+        example: KOSPI与半导体周期相关。
+        isPrimary: true
+    aliases:
+      - raw: 韩国综合指数
+        aliasType: primary
+      - raw: KOSPI
+        aliasType: en_alias
+  - slug: tai-wan-jia-quan-zhi-shu
+    headword: 台湾加权指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 台湾主要股票指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 台湾主要股票指数。
+        example: 台股与半导体高度相关。
+        isPrimary: true
+    aliases:
+      - raw: 台湾加权指数
+        aliasType: primary
+      - raw: TWSE
+        aliasType: en_alias
+  - slug: yin-du-meng-mai-zhi-shu
+    headword: 印度孟买指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 印度主要股票指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 印度主要股票指数。
+        example: 印度股市长牛受关注。
+        isPrimary: true
+    aliases:
+      - raw: 印度孟买指数
+        aliasType: primary
+      - raw: Sensex
+        aliasType: en_alias
+  - slug: de-guo-d-a-x
+    headword: 德国DAX
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 德国主要股票指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 德国主要股票指数。
+        example: DAX代表欧洲核心资产。
+        isPrimary: true
+    aliases:
+      - raw: 德国DAX
+        aliasType: primary
+      - raw: DAX
+        aliasType: en_alias
+  - slug: fa-guo-c-a-c-4-0
+    headword: 法国CAC40
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 法国主要股票指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 法国主要股票指数。
+        example: CAC40是欧洲重要指数。
+        isPrimary: true
+    aliases:
+      - raw: 法国CAC40
+        aliasType: primary
+      - raw: CAC 40
+        aliasType: en_alias
+  - slug: ying-guo-fu-shi-1-0-0
+    headword: 英国富时100
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 英国主要股票指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 英国主要股票指数。
+        example: 富时100能源金融权重高。
+        isPrimary: true
+    aliases:
+      - raw: 英国富时100
+        aliasType: primary
+      - raw: FTSE 100
+        aliasType: en_alias
+  - slug: ba-xi-i-b-o-v-e-s-p-a
+    headword: 巴西IBOVESPA
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 巴西主要股票指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 巴西主要股票指数。
+        example: IBOV代表拉美市场。
+        isPrimary: true
+    aliases:
+      - raw: 巴西IBOVESPA
+        aliasType: primary
+      - raw: IBOV
+        aliasType: en_alias
+  - slug: e-luo-si-r-t-s
+    headword: 俄罗斯RTS
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 俄罗斯主要股票指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 俄罗斯主要股票指数。
+        example: RTS受地缘影响大。
+        isPrimary: true
+    aliases:
+      - raw: 俄罗斯RTS
+        aliasType: primary
+      - raw: RTS
+        aliasType: en_alias
+  - slug: cai-bao-hang-qing
+    headword: 财报行情
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 财报期的板块行情。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 财报期的板块行情。
+        example: 财报行情看业绩兑现。
+        isPrimary: true
+    aliases:
+      - raw: 财报行情
+        aliasType: primary
+      - raw: Earnings Rally
+        aliasType: en_alias
+  - slug: zhong-xiao-qi-ye-ban
+    headword: 中小企业板
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中小企业板块，已并入主板。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中小企业板块，已并入主板。
+        example: 中小板并入深市主板。
+        isPrimary: true
+    aliases:
+      - raw: 中小企业板
+        aliasType: primary
+      - raw: SME Board
+        aliasType: en_alias
+  - slug: zhi-shu-fu-wu
+    headword: 指数服务
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 指数编制服务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 指数编制服务。
+        example: 指数服务提供基准。
+        isPrimary: true
+    aliases:
+      - raw: 指数服务
+        aliasType: primary
+      - raw: Index Service
+        aliasType: en_alias
+  - slug: zhi-shu-ping-hua
+    headword: 指数平滑
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 加权平滑方法。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 加权平滑方法。
+        example: 平滑消除噪声。
+        isPrimary: true
+    aliases:
+      - raw: 指数平滑
+        aliasType: primary
+      - raw: Exponential Smoothing
+        aliasType: en_alias
+  - slug: sou-suo-zhi-shu
+    headword: 搜索指数
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 搜索热度指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 搜索热度指数。
+        example: 搜索指数看关注。
+        isPrimary: true
+    aliases:
+      - raw: 搜索指数
+        aliasType: primary
+      - raw: Search Index
+        aliasType: en_alias
+  - slug: zhi-shu-xiao-ying
+    headword: 指数效应
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 指数调整的市场反应。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 指数调整的市场反应。
+        example: 纳入指数获增量。
+        isPrimary: true
+    aliases:
+      - raw: 指数效应
+        aliasType: primary
+      - raw: Index Effect
+        aliasType: en_alias
+  - slug: cheng-fen-gu-tiao-zheng-xiao-ying
+    headword: 成分股调整效应
+    categoryL1: 指数板块
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 成分股调整的市场反应。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 成分股调整的市场反应。
+        example: 调入调出影响资金。
+        isPrimary: true
+    aliases:
+      - raw: 成分股调整效应
+        aliasType: primary
+      - raw: Constituent Effect
+        aliasType: en_alias

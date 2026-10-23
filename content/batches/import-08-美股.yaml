@@ -1,0 +1,121 @@
+category: 美股
+source: import wave 8 from 金融黑话词典_全量5000+.tsv (2026-10-22) — 美股常用术语，长尾层；示例已改写成无黑话/无建议词
+terms:
+  - slug: fen-dan-shi-chang
+    headword: 粉单市场
+    categoryL1: 美股
+    categoryL2: 市场结构
+    difficulty: L2
+    summaryPlain: 在证券交易所之外报价成交的市场，信息披露较弱、流动性较差，风险相对较高。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 在证券交易所之外报价成交的市场，信息披露较弱、流动性较差，风险相对较高。
+        example: 粉单市场里不少低价公司信息不透明，参与前要更谨慎。
+        isPrimary: true
+    aliases:
+      - raw: 粉单市场
+        aliasType: primary
+      - raw: OTC Markets
+        aliasType: en_alias
+      - raw: Pink Sheets
+        aliasType: en_alias
+      - raw: 粉单
+        aliasType: cn_alias
+  - slug: na-si-da-kai-jin-long-zhong-guo-zhi-shu
+    headword: 纳斯达克金龙中国指数
+    categoryL1: 美股
+    categoryL2: 指数
+    difficulty: L2
+    summaryPlain: 在美上市中国公司的等权重指数，常用来观察中概股整体表现。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 在美上市中国公司的等权重指数，常用来观察中概股整体表现。
+        example: 纳斯达克金龙中国指数大涨，往往带动中概股情绪。
+        isPrimary: true
+    aliases:
+      - raw: 纳斯达克金龙中国指数
+        aliasType: primary
+      - raw: Nasdaq Golden Dragon China Index
+        aliasType: en_alias
+      - raw: 金龙中概指数
+        aliasType: cn_alias
+  - slug: quan-shi-chang-rong-duan
+    headword: 全市场熔断
+    categoryL1: 美股
+    categoryL2: 交易制度
+    difficulty: L2
+    summaryPlain: 标普500单日跌幅达到7%、13%、20%时，分层暂停全市场交易的机制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 标普500单日跌幅达到7%、13%、20%时，分层暂停全市场交易的机制。
+        example: 标普500跌7%会触发第一层全市场熔断，暂停15分钟。
+        isPrimary: true
+    aliases:
+      - raw: 全市场熔断
+        aliasType: primary
+      - raw: Market-Wide Circuit Breaker
+        aliasType: en_alias
+      - raw: 大盘熔断
+        aliasType: cn_alias
+  - slug: cai-bao-ri-li
+    headword: 财报日历
+    categoryL1: 美股
+    categoryL2: 财报
+    difficulty: L1
+    summaryPlain: 未来一段时间上市公司披露业绩的时间表，按公司和日期排列。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 未来一段时间上市公司披露业绩的时间表，按公司和日期排列。
+        example: 打开财报日历，能看到下周有哪些公司发布业绩。
+        isPrimary: true
+    aliases:
+      - raw: 财报日历
+        aliasType: primary
+      - raw: Earnings Calendar
+        aliasType: en_alias
+      - raw: 盈利日历
+        aliasType: cn_alias
+  - slug: gu-xi-gui-zu
+    headword: 股息贵族
+    categoryL1: 美股
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 标普500里连续至少25年提高股息的公司组合，代表长期持续派息。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 标普500里连续至少25年提高股息的公司组合，代表长期持续派息。
+        example: 可口可乐连续六十多年提高分红，属于这一组合。
+        isPrimary: true
+    aliases:
+      - raw: 股息贵族
+        aliasType: primary
+      - raw: Dividend Aristocrats
+        aliasType: en_alias
+  - slug: gu-xi-wang
+    headword: 股息王
+    categoryL1: 美股
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 连续至少50年提高股息的公司，门槛更高、数量更稀缺。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 连续至少50年提高股息的公司，门槛更高、数量更稀缺。
+        example: 能入选股息王的公司只有二三十家。
+        isPrimary: true
+    aliases:
+      - raw: 股息王
+        aliasType: primary
+      - raw: Dividend Kings
+        aliasType: en_alias

@@ -1,0 +1,161 @@
+category: 宏观政策
+source: import wave 10 from 金融黑话词典_全量5000+.tsv (2026-10-22) — 宏观政策工具与利率，长尾层；示例已改写成无黑话/无建议词
+terms:
+  - slug: mlf-cao-zuo
+    headword: MLF操作
+    categoryL1: 宏观政策
+    categoryL2: 央行与货币政策
+    difficulty: L3
+    summaryPlain: 央行向商业银行投放中期基础货币的工具，其利率是政策利率走廊的一部分。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行向商业银行投放中期基础货币的工具，其利率是政策利率走廊的一部分。
+        example: MLF操作利率不变，当月LPR大概率保持不变。
+        isPrimary: true
+    aliases:
+      - raw: MLF操作
+        aliasType: primary
+      - raw: 中期借贷便利
+        aliasType: cn_alias
+      - raw: Medium-term Lending Facility
+        aliasType: en_alias
+  - slug: gong-kai-shi-chang-ni-hui-gou
+    headword: 公开市场逆回购
+    categoryL1: 宏观政策
+    categoryL2: 央行与货币政策
+    difficulty: L3
+    summaryPlain: 央行以有价证券为质押向银行体系提供短期资金、到期收回的公开市场操作。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行以有价证券为质押向银行体系提供短期资金、到期收回的公开市场操作。
+        example: 公开市场逆回购加量，通常用于呵护月末的资金面。
+        isPrimary: true
+    aliases:
+      - raw: 公开市场逆回购
+        aliasType: primary
+      - raw: 逆回购
+        aliasType: cn_alias
+      - raw: OMO
+        aliasType: en_alias
+  - slug: fa-ding-cun-kuan-zhun-bei-jin-lu
+    headword: 法定存款准备金率
+    categoryL1: 宏观政策
+    categoryL2: 央行与货币政策
+    difficulty: L2
+    summaryPlain: 商业银行按规定上缴央行的存款比例，下调即俗称的降准，用于释放长期流动性。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 商业银行按规定上缴央行的存款比例，下调即俗称的降准，用于释放长期流动性。
+        example: 法定存款准备金率下调0.5个百分点，会释放较多长期资金。
+        isPrimary: true
+    aliases:
+      - raw: 法定存款准备金率
+        aliasType: primary
+      - raw: 存款准备金率
+        aliasType: cn_alias
+      - raw: RRR
+        aliasType: en_alias
+  - slug: slf-psl
+    headword: SLF/PSL
+    categoryL1: 宏观政策
+    categoryL2: 央行与货币政策
+    difficulty: L3
+    summaryPlain: 央行提供的两类流动性支持工具，SLF满足临时性需求、PSL定向支持重点领域。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 央行提供的两类流动性支持工具，SLF满足临时性需求、PSL定向支持重点领域。
+        example: SLF与PSL的余额变化，反映央行结构性支持的力度。
+        isPrimary: true
+    aliases:
+      - raw: SLF/PSL
+        aliasType: primary
+      - raw: 常备借贷便利
+        aliasType: cn_alias
+      - raw: 抵押补充贷款
+        aliasType: cn_alias
+  - slug: wu-feng-xian-li-lu
+    headword: 无风险利率
+    categoryL1: 宏观经济
+    categoryL2: 货币与信用
+    difficulty: L2
+    summaryPlain: 几乎无违约风险利率，通常以长期国债收益率为代表，是资产估值的折现基准。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 几乎无违约风险利率，通常以长期国债收益率为代表，是资产估值的折现基准。
+        example: 无风险利率下行，会降低未来现金流的折现率，资产估值往往随之抬升。
+        isPrimary: true
+    aliases:
+      - raw: 无风险利率
+        aliasType: primary
+      - raw: 无风险收益率
+        aliasType: cn_alias
+      - raw: Risk-Free Rate
+        aliasType: en_alias
+  - slug: xiao-fei-zhe-xin-xin-zhi-shu
+    headword: 消费者信心指数
+    categoryL1: 宏观经济
+    categoryL2: 就业与收入
+    difficulty: L2
+    summaryPlain: 调查消费者对经济与收入前景感受的扩散指数，常用于预判消费走势。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 调查消费者对经济与收入前景感受的扩散指数，常用于预判消费走势。
+        example: 消费者信心指数回升，预示后续消费有望改善。
+        isPrimary: true
+    aliases:
+      - raw: 消费者信心指数
+        aliasType: primary
+      - raw: Consumer Confidence Index
+        aliasType: en_alias
+  - slug: tou-zi-huo-dong-xian-jin-liu
+    headword: 投资活动现金流
+    categoryL1: 财报公司
+    categoryL2: 现金流
+    difficulty: L2
+    summaryPlain: 企业购建处置长期资产及对外投资产生的现金净额，扩张期通常为负。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 企业购建处置长期资产及对外投资产生的现金净额，扩张期通常为负。
+        example: 投资活动现金流大额为负，常说明公司在扩产投入。
+        isPrimary: true
+    aliases:
+      - raw: 投资活动现金流
+        aliasType: primary
+      - raw: 投资现金流
+        aliasType: cn_alias
+      - raw: Investing Cash Flow
+        aliasType: en_alias
+  - slug: guan-fang-pmi
+    headword: 官方PMI
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 统计部门对企业采购经理月度调查汇总的景气指数，以50为荣枯分界线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 统计部门对企业采购经理月度调查汇总的景气指数，以50为荣枯分界线。
+        example: 官方PMI连续位于50以上，制造业景气持续扩张。
+        isPrimary: true
+    aliases:
+      - raw: 官方PMI
+        aliasType: primary
+      - raw: 统计局PMI
+        aliasType: cn_alias
+      - raw: Official PMI
+        aliasType: en_alias

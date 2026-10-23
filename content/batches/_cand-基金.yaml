@@ -1,0 +1,236 @@
+source: gen from full.tsv keyword=债券基金|混合基金|股票基金|分级基金|侧袋|赎回费|申购费|管理费|托管费|销售服务费|七日年化|万份收益|市值法|影子定价|定开|持有期|分红方式|转换|Ac份额|后端收费|浮动净值|货基|摊余成本法 (待精修)
+terms:
+  - slug: zhuan-huan-tao-li
+    headword: 转换套利
+    categoryL1: 基金产品
+    categoryL2: 规模与净值
+    difficulty: L2
+    summaryPlain: 买入正股、买put、卖call的无风险套利组合，利用期权平价关系。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 买入正股、买put、卖call的无风险套利组合，利用期权平价关系。
+        example: 转换套利在股息或利率异常时出现。
+        isPrimary: true
+    aliases:
+      - raw: 转换套利
+        aliasType: primary
+      - raw: Conversion
+        aliasType: en_alias
+  - slug: fan-xiang-zhuan-huan
+    headword: 反向转换
+    categoryL1: 基金产品
+    categoryL2: 规模与净值
+    difficulty: L2
+    summaryPlain: 卖空正股、卖put、买call的反向平价套利。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 卖空正股、卖put、买call的反向平价套利。
+        example: 做市商偶尔做反向转换来赚股息。
+        isPrimary: true
+    aliases:
+      - raw: 反向转换
+        aliasType: primary
+      - raw: Reverse Conversion
+        aliasType: en_alias
+  - slug: guan-li-fei-yong-l
+    headword: 管理费用率
+    categoryL1: 基金产品
+    categoryL2: 规模与净值
+    difficulty: L2
+    summaryPlain: 管理费用占营业收入的比重，反映内部管理效率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 管理费用占营业收入的比重，反映内部管理效率。
+        example: 管理费用率随收入摊薄而下降，规模效应显现。
+        isPrimary: true
+    aliases:
+      - raw: 管理费用率
+        aliasType: primary
+      - raw: Admin Expense Ratio
+        aliasType: en_alias
+  - slug: zi-you-xian-jin-liu-zhuan-huan-l
+    headword: 自由现金流转换率
+    categoryL1: 基金产品
+    categoryL2: 规模与净值
+    difficulty: L2
+    summaryPlain: 自由现金流与净利润的比值，衡量利润转化为可支配现金的比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 自由现金流与净利润的比值，衡量利润转化为可支配现金的比例。
+        example: 自由现金流转换率高，利润含金量充足。
+        isPrimary: true
+    aliases:
+      - raw: 自由现金流转换率
+        aliasType: primary
+      - raw: FCF Conversion Ratio
+        aliasType: en_alias
+  - slug: zhi-cheng-ya-li-zhuan-huan
+    headword: 支撑压力转换
+    categoryL1: 基金产品
+    categoryL2: 规模与净值
+    difficulty: L2
+    summaryPlain: 原本的阻力位被突破后变为支撑位、原本的支撑位跌破后变为阻力位的现象。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 原本的阻力位被突破后变为支撑位、原本的支撑位跌破后变为阻力位的现象。
+        example: 前期高点突破后变成回踩支撑。
+        isPrimary: true
+    aliases:
+      - raw: 支撑压力转换
+        aliasType: primary
+      - raw: Support-Resistance Flip
+        aliasType: en_alias
+  - slug: zui-duan-chi-you-qi-ji-jin
+    headword: 最短持有期基金
+    categoryL1: 基金产品
+    categoryL2: 规模与净值
+    difficulty: L2
+    summaryPlain: 设定最短持有期、期间不可赎回的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 设定最短持有期、期间不可赎回的基金。
+        example: 最短持有期基金鼓励长期持有。
+        isPrimary: true
+    aliases:
+      - raw: 最短持有期基金
+        aliasType: primary
+      - raw: Minimum Holding Period Fund
+        aliasType: en_alias
+  - slug: zhai-quan-ji-jin
+    headword: 债券基金
+    categoryL1: 基金产品
+    categoryL2: 规模与净值
+    difficulty: L2
+    summaryPlain: 主要投资债券的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 主要投资债券的基金。
+        example: 债基波动小于股基。
+        isPrimary: true
+    aliases:
+      - raw: 债券基金
+        aliasType: primary
+      - raw: Bond Fund
+        aliasType: en_alias
+  - slug: gu-piao-ji-jin
+    headword: 股票基金
+    categoryL1: 基金产品
+    categoryL2: 规模与净值
+    difficulty: L2
+    summaryPlain: 主要投资股票的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 主要投资股票的基金。
+        example: 股基收益弹性大。
+        isPrimary: true
+    aliases:
+      - raw: 股票基金
+        aliasType: primary
+      - raw: Equity Fund
+        aliasType: en_alias
+  - slug: hun-he-ji-jin
+    headword: 混合基金
+    categoryL1: 基金产品
+    categoryL2: 规模与净值
+    difficulty: L2
+    summaryPlain: 股债混合配置的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股债混合配置的基金。
+        example: 混合基金攻守兼备。
+        isPrimary: true
+    aliases:
+      - raw: 混合基金
+        aliasType: primary
+      - raw: Balanced Fund
+        aliasType: en_alias
+  - slug: fen-ji-ji-jin
+    headword: 分级基金
+    categoryL1: 基金产品
+    categoryL2: 规模与净值
+    difficulty: L2
+    summaryPlain: 分优先级与杠杆级的基金，已整改。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 分优先级与杠杆级的基金，已整改。
+        example: 分级基金退出市场。
+        isPrimary: true
+    aliases:
+      - raw: 分级基金
+        aliasType: primary
+      - raw: Structured Fund
+        aliasType: en_alias
+  - slug: ke-zhuan-huan-you-xian-gu
+    headword: 可转换优先股
+    categoryL1: 基金产品
+    categoryL2: 规模与净值
+    difficulty: L2
+    summaryPlain: 可转普通股的优先股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 可转普通股的优先股。
+        example: 转股条款灵活。
+        isPrimary: true
+    aliases:
+      - raw: 可转换优先股
+        aliasType: primary
+      - raw: Convertible Preferred
+        aliasType: en_alias
+  - slug: zhuan-huan-cheng-ben
+    headword: 转换成本
+    categoryL1: 基金产品
+    categoryL2: 规模与净值
+    difficulty: L2
+    summaryPlain: 用户更换成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 用户更换成本。
+        example: 转换成本高粘性强。
+        isPrimary: true
+    aliases:
+      - raw: 转换成本
+        aliasType: primary
+      - raw: Switching Cost
+        aliasType: en_alias
+  - slug: zhuan-huan-bi-lei
+    headword: 转换壁垒
+    categoryL1: 基金产品
+    categoryL2: 规模与净值
+    difficulty: L2
+    summaryPlain: 切换成本障碍。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 切换成本障碍。
+        example: 转换壁垒锁定客户。
+        isPrimary: true
+    aliases:
+      - raw: 转换壁垒
+        aliasType: primary
+      - raw: Switching Barrier
+        aliasType: en_alias

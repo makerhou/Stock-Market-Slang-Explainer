@@ -1,0 +1,141 @@
+category: 基金产品
+source: import wave 11 from 金融黑话词典_全量5000+.tsv (2026-10-23) — 基金产品常用类型，长尾层；示例已改写成无黑话/无建议词
+terms:
+  - slug: qdii-ji-zhi
+    headword: QDII机制
+    categoryL1: 基金产品
+    categoryL2: 跨市场工具
+    difficulty: L2
+    summaryPlain: 合格境内机构投资者制度，允许内地资金在额度内投资海外市场。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 合格境内机构投资者制度，允许内地资金在额度内投资海外市场。
+        example: 通过QDII基金，普通投资者也能配置海外资产。
+        isPrimary: true
+    aliases:
+      - raw: QDII机制
+        aliasType: primary
+      - raw: QDII
+        aliasType: en_alias
+      - raw: 合格境内机构投资者
+        aliasType: cn_alias
+  - slug: etf-lian-jie-ji-jin
+    headword: ETF联接基金
+    categoryL1: 基金产品
+    categoryL2: 基金类型
+    difficulty: L2
+    summaryPlain: 绝大部分资产投向目标指数基金、可在银行或第三方平台申赎的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 绝大部分资产投向目标指数基金、可在银行或第三方平台申赎的基金。
+        example: 联接基金方便了没有证券账户的投资者间接投资目标品种。
+        isPrimary: true
+    aliases:
+      - raw: ETF联接基金
+        aliasType: primary
+      - raw: ETF Feeder Fund
+        aliasType: en_alias
+      - raw: ETF联接
+        aliasType: cn_alias
+  - slug: zhi-shu-zeng-qiang-ji-jin
+    headword: 指数增强基金
+    categoryL1: 基金产品
+    categoryL2: 基金类型
+    difficulty: L2
+    summaryPlain: 在跟踪指数的基础上，通过选股或权重调整争取超越基准收益的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 在跟踪指数的基础上，通过选股或权重调整争取超越基准收益的基金。
+        example: 指数增强基金的目标是跑赢所跟踪的指数。
+        isPrimary: true
+    aliases:
+      - raw: 指数增强基金
+        aliasType: primary
+      - raw: Enhanced Index Fund
+        aliasType: en_alias
+      - raw: 指增基金
+        aliasType: cn_alias
+  - slug: kuan-ji-zhi-shu-ji-jin
+    headword: 宽基指数基金
+    categoryL1: 基金产品
+    categoryL2: 指数与市场
+    difficulty: L1
+    summaryPlain: 跟踪沪深300、中证500等覆盖面较广的指数的基金，分散度较高。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪沪深300、中证500等覆盖面较广的指数的基金，分散度较高。
+        example: 宽基指数基金常被用作长期定投的底仓。
+        isPrimary: true
+    aliases:
+      - raw: 宽基指数基金
+        aliasType: primary
+      - raw: Broad-Based Index Fund
+        aliasType: en_alias
+      - raw: 宽基
+        aliasType: cn_alias
+  - slug: yang-lao-mu-biao-ji-jin
+    headword: 养老目标基金
+    categoryL1: 基金产品
+    categoryL2: 基金类型
+    difficulty: L2
+    summaryPlain: 以养老为目标、多采用基金中基金形式、设有最短锁定期以引导长期投资的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以养老为目标、多采用基金中基金形式、设有最短锁定期以引导长期投资的基金。
+        example: 养老目标基金大多采用基金中基金的形式运作。
+        isPrimary: true
+    aliases:
+      - raw: 养老目标基金
+        aliasType: primary
+      - raw: 养老FOF
+        aliasType: cn_alias
+      - raw: Target Date Fund
+        aliasType: en_alias
+  - slug: huo-bi-etf
+    headword: 货币ETF
+    categoryL1: 基金产品
+    categoryL2: 基金类型
+    difficulty: L2
+    summaryPlain: 在交易所上市、可交易的货币市场基金，常用于闲钱管理。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 在交易所上市、可交易的货币市场基金，常用于闲钱管理。
+        example: 这类基金让证券账户里的闲钱也能获得类似货基的收益。
+        isPrimary: true
+    aliases:
+      - raw: 货币ETF
+        aliasType: primary
+      - raw: Money Market ETF
+        aliasType: en_alias
+      - raw: 场内货币基金
+        aliasType: cn_alias
+  - slug: da-xin-ji-jin
+    headword: 打新基金
+    categoryL1: 基金产品
+    categoryL2: 基金类型
+    difficulty: L2
+    summaryPlain: 以参与新股申购作为增强收益手段的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以参与新股申购作为增强收益手段的基金。
+        example: 打新基金的收益曾明显受到新股上市表现的影响。
+        isPrimary: true
+    aliases:
+      - raw: 打新基金
+        aliasType: primary
+      - raw: 打新策略基金
+        aliasType: cn_alias

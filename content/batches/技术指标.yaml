@@ -1,0 +1,1046 @@
+# 自动生成的批量词条源（可由 ingest 重新编译为 lexicon.json）
+category: 技术指标
+source: bootstrap from lexicon.json (2026-10-22)
+terms:
+  - slug: adx
+    headword: ADX
+    categoryL1: 技术指标
+    categoryL2: 趋势强度
+    difficulty: L3
+    summaryPlain: 平均趋向指数：衡量趋势强弱的温度计，ADX 高说明有趋势、低说明在震荡。
+    riskNote: 它只告诉你趋势多强，不告诉你方向。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 平均趋向指数：衡量趋势强弱的温度计，ADX 高说明有趋势、低说明在震荡。
+        example: 比如这个趋势强度指标从 20 升到 40，配合价格上行，说明单边行情成立。
+        notMeaning: 它只告诉你趋势多强，不告诉你方向。
+        isPrimary: true
+        contextKeywords:
+          - 趋势强度
+        frequency: mid
+    aliases:
+      - raw: ADX
+        aliasType: primary
+      - raw: DMI
+        aliasType: en_alias
+      - raw: 趋向指标
+        aliasType: cn_alias
+    viz:
+      type: Oscillator
+      config:
+        needles:
+          - name: ADX
+        initial:
+          - 30
+        max: 60
+        zones:
+          - min: 0
+            max: 20
+            label: 无趋势
+            color: var(--color-muted)
+          - min: 20
+            max: 40
+            label: 趋势形成
+            color: var(--warn)
+          - min: 40
+            max: 60
+            label: 强趋势
+            color: var(--up)
+    insights:
+      affects:
+        - 策略开关：ADX 低时别用趋势策略
+        - 过滤：减少震荡市亏损
+      good:
+        - ADX 回升：趋势行情可跟随
+      bad:
+        - ADX 高位回落：趋势衰竭
+      policy:
+        - 市场波动环境影响读数
+      example: 风力计：告诉你风多大（趋势强弱），但不告诉你在哪边。划船要看风向，冲浪要看浪高。
+  - slug: atr
+    headword: ATR
+    categoryL1: 技术指标
+    categoryL2: 波动率
+    difficulty: L3
+    summaryPlain: 平均真实波幅：价格平均每天晃多少，设止损和仓位时的尺子。
+    riskNote: ATR 大说明波动大，止损要放宽、仓位要缩小。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 平均真实波幅：价格平均每天晃多少，设止损和仓位时的尺子。
+        example: 比如平均真实波幅 2 元的票，止损放 4 元外才不被日常波动扫掉。
+        notMeaning: ATR 大说明波动大，止损要放宽、仓位要缩小。
+        isPrimary: true
+        contextKeywords:
+          - 波动率
+        frequency: mid
+    aliases:
+      - raw: ATR
+        aliasType: primary
+      - raw: 平均真实波幅
+        aliasType: cn_alias
+    viz:
+      type: Oscillator
+      config:
+        needles:
+          - name: ATR
+        initial:
+          - 35
+        max: 100
+        zones:
+          - min: 0
+            max: 30
+            label: 低波动
+            color: var(--ok)
+          - min: 30
+            max: 70
+            label: 正常波动
+            color: var(--color-muted)
+          - min: 70
+            max: 100
+            label: 高波动
+            color: var(--down)
+    insights:
+      affects:
+        - 仓位管理：波动大就少押
+        - 止损设置：2 倍 ATR 是经典
+      good:
+        - ATR 收缩：变盘前夜
+      bad:
+        - ATR 飙升：危险期
+      policy:
+        - 事件驱动放大 ATR
+      example: 公交车晃不晃：平路（低 ATR）能站着打瞌睡，山路（高 ATR）得抓稳扶手少动。
+  - slug: bias
+    headword: BIAS
+    categoryL1: 技术指标
+    categoryL2: 偏离度
+    difficulty: L3
+    summaryPlain: 乖离率：价格偏离均线多远的刻度，偏太远大概率被拉回。
+    riskNote: 强趋势中乖离率可以一直很大，别轻易逆势。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 乖离率：价格偏离均线多远的刻度，偏太远大概率被拉回。
+        example: 比如股价暴涨偏离 20 日线 25%，短线客开始等回调。
+        notMeaning: 强趋势中乖离率可以一直很大，别轻易逆势。
+        isPrimary: true
+        contextKeywords:
+          - 偏离度
+        frequency: mid
+    aliases:
+      - raw: BIAS
+        aliasType: primary
+      - raw: 乖离率
+        aliasType: cn_alias
+    viz:
+      type: Oscillator
+      config:
+        needles:
+          - name: 乖离率
+        initial:
+          - 75
+        max: 100
+        zones:
+          - min: 0
+            max: 20
+            label: 负偏离大
+            color: var(--down)
+          - min: 20
+            max: 80
+            label: 正常
+            color: var(--color-muted)
+          - min: 80
+            max: 100
+            label: 正偏离大
+            color: var(--up)
+    insights:
+      affects:
+        - 均值回归：抄底逃顶的刻度
+        - 风险提示：偏离越大越危险
+      good:
+        - 负乖离极值：超跌反弹机会
+      bad:
+        - 正乖离极值：追高风险
+      policy:
+        - 波动环境改变正常区间
+      example: 风筝线：飞太远线绷得紧（乖离大），要么线断（趋势极强）要么风筝被拽回。
+  - slug: bu-lin-dai
+    headword: 布林带
+    categoryL1: 技术指标
+    categoryL2: 波动
+    difficulty: L2
+    summaryPlain: 在均线上下各画一条「波动通道」：价格撞上轨太热、砸下轨太冷，通道收窄常常酝酿变盘。
+    riskNote: 单边趋势里，价格可以沿上轨跑很久；把它当反转信号会死于趋势。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 在均线上下各画一条「波动通道」：价格撞上轨太热、砸下轨太冷，通道收窄常常酝酿变盘。
+        example: 比如股价连续贴着布林上轨走，很多人还按「触轨卖出」老经验，结果错过主升浪。
+        notMeaning: 单边趋势里，价格可以沿上轨跑很久；把它当反转信号会死于趋势。
+        isPrimary: true
+        contextKeywords:
+          - 波动
+        frequency: high
+    aliases:
+      - raw: 布林带
+        aliasType: primary
+      - raw: BOLL
+        aliasType: en_alias
+      - raw: 布林通道
+        aliasType: cn_alias
+    viz:
+      type: Oscillator
+      config:
+        needles:
+          - name: 价格位置
+        initial:
+          - 75
+        max: 100
+        zones:
+          - min: 0
+            max: 20
+            label: 贴下轨：冷
+            color: var(--down)
+          - min: 20
+            max: 80
+            label: 通道内：正常
+            color: var(--color-muted)
+          - min: 80
+            max: 100
+            label: 贴上轨：热
+            color: var(--up)
+    insights:
+      affects:
+        - 波动率：带宽放大=波动加剧、收窄=暴风雨前
+        - 买卖参考：相对位置而非绝对价格
+        - 策略：突破交易与均值回归两派
+      good:
+        - 触下轨回升：均值回归入场点
+        - 带宽极窄后突破：趋势行情启动
+      bad:
+        - 触上轨不跌反涨：死在趋势里
+        - 带宽骤张：变盘方向不明，风险大
+      policy:
+        - 市场流动性变化影响波动
+        - 财报/事件让带宽不规则扩张
+      example: 地铁进站的屏蔽门：正常时车在两条门轨之间晃，撞门=到边界。但有的车会直接顶破屏蔽门冲出去（趋势市）。
+  - slug: cheng-jiao-e
+    headword: 成交量/成交额
+    categoryL1: 技术指标
+    categoryL2: 量价基础
+    difficulty: L1
+    summaryPlain: 成交了多少股是成交量，一共花了多少钱是成交额：市场活跃度的两个刻度。
+    riskNote: 低价股成交量大但成交额小，别被股数迷惑。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 成交了多少股是成交量，一共花了多少钱是成交额：市场活跃度的两个刻度。
+        example: 比如两市成交额破万亿，说明资金在进场。
+        notMeaning: 低价股成交量大但成交额小，别被股数迷惑。
+        isPrimary: true
+        contextKeywords:
+          - 量价基础
+        frequency: high
+    aliases:
+      - raw: 成交量
+        aliasType: primary
+      - raw: 成交额
+        aliasType: cn_alias
+      - raw: 量能
+        aliasType: cn_alias
+      - raw: volume
+        aliasType: en_alias
+    viz:
+      type: VolumeRatio
+      config:
+        title: 成交量 vs 成交额
+    insights:
+      affects:
+        - 活跃度：行情的燃料表
+        - 流动性：进出难易的度量
+      good:
+        - 温和放量：健康
+      bad:
+        - 天量：见顶信号
+        - 地量：见底信号
+      policy:
+        - 无政策含义
+      example: 超市营业额：卖了多少袋（成交量）不重要，收了多少钱（成交额）才实在。
+  - slug: chou-ma
+    headword: 筹码
+    categoryL1: 技术指标
+    categoryL2: 持仓结构
+    difficulty: L1
+    summaryPlain: 股民手里的股票筹码：低位筹码集中=有人在收货，高位分散=在派发。
+    riskNote: 「洗筹」「筹码结构」都是这个词的衍生，别神化。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 股民手里的股票筹码：低位筹码集中=有人在收货，高位分散=在派发。
+        example: 比如股价跌但成本峰不动，说明主力没走。
+        notMeaning: 「洗筹」「筹码结构」都是这个词的衍生，别神化。
+        isPrimary: true
+        contextKeywords:
+          - 持仓结构
+        frequency: high
+    aliases:
+      - raw: 筹码
+        aliasType: primary
+      - raw: 浮筹
+        aliasType: cn_alias
+      - raw: 筹码峰
+        aliasType: cn_alias
+    viz:
+      type: TurnoverPie
+      config:
+        title: 筹码：牌在谁手里
+    insights:
+      affects:
+        - 博弈视角：股市=筹码交换游戏
+        - 持仓成本：套牢盘的压力位
+      good:
+        - 低位锁仓：拉升阻力小
+      bad:
+        - 高位派发：上方套牢盘重
+      policy:
+        - 无政策含义
+      example: 麻将桌：筹码在谁手里一目了然。都堆到一个人那儿（集中），他要胡（拉）就胡；散在各家（分散），谁也别想做大牌。
+  - slug: chou-ma-fen-bu
+    headword: 筹码分布
+    categoryL1: 技术指标
+    categoryL2: 持仓成本
+    difficulty: L2
+    summaryPlain: 估算历史成交在各个价位的堆积，看多数人的持仓成本在哪里：哪里套牢盘重。
+    riskNote: 它是估算不是事实；换手剧烈的票筹码结构说变就变。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 估算历史成交在各个价位的堆积，看多数人的持仓成本在哪里：哪里套牢盘重。
+        example: 比如筹码峰集中在 12 元，而股价 8 元，说明上方有大批人被套，反弹到 12 元抛压重。
+        notMeaning: 它是估算不是事实；换手剧烈的票筹码结构说变就变。
+        isPrimary: true
+        contextKeywords:
+          - 持仓成本
+        frequency: high
+    aliases:
+      - raw: 筹码分布
+        aliasType: primary
+      - raw: 成本分布
+        aliasType: cn_alias
+      - raw: CYQ
+        aliasType: en_alias
+    viz:
+      type: TurnoverPie
+      config:
+        title: 筹码都在哪个价位
+    insights:
+      affects:
+        - 支撑压力：筹码峰=真实成本区
+        - 反弹压力：套牢盘密集区难突破
+        - 洗盘判断：低位单峰密集易拉升
+      good:
+        - 低位单峰密集：洗盘充分
+        - 筹码上移：低位筹码获利兑现
+      bad:
+        - 上方套牢盘厚：每次反弹都是逃命机会
+        - 筹码分散：主力可能已经撤离
+      policy:
+        - 限售解禁改变筹码分布
+        - 大宗交易价影响短期筹码结构
+      example: 菜市场收摊后的账本：哪档菜卖了多少、赚没赚钱一目了然。套牢多的价位就是账本里刺眼的红色亏损行。
+  - slug: dun-hua
+    headword: 钝化
+    categoryL1: 技术指标
+    categoryL2: 极端状态
+    difficulty: L3
+    summaryPlain: 指标长时间卡在超买超卖区失效：行情极端时温度计爆表。
+    riskNote: 钝化期不能逆势操作，要等指标自己修复。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 指标长时间卡在超买超卖区失效：行情极端时温度计爆表。
+        example: 比如相对强弱指标连续两周钉在 80 以上，价格还在涨，指标就失灵了。
+        notMeaning: 钝化期不能逆势操作，要等指标自己修复。
+        isPrimary: true
+        contextKeywords:
+          - 极端状态
+        frequency: mid
+    aliases:
+      - raw: 钝化
+        aliasType: primary
+      - raw: 指标失效
+        aliasType: cn_alias
+      - raw: Saturation
+        aliasType: en_alias
+    viz:
+      type: Oscillator
+      config:
+        needles:
+          - name: RSI
+        initial:
+          - 85
+        max: 100
+        zones:
+          - min: 0
+            max: 30
+            label: 超卖钝化
+            color: var(--down)
+          - min: 30
+            max: 70
+            label: 正常
+            color: var(--color-muted)
+          - min: 70
+            max: 100
+            label: 超买钝化
+            color: var(--up)
+    insights:
+      affects:
+        - 风险提示：指标失效期
+        - 策略选择：钝化时换趋势指标
+      good:
+        - 钝化结束=极端行情尾声
+      bad:
+        - 钝化期猜顶摸底：最危险
+      policy:
+        - 单边行情必然造成钝化
+      example: 体温计插进开水：数字爆表不动了。这时候该做的是拿出来等等，不是拼命甩。
+  - slug: ema
+    headword: EMA
+    categoryL1: 技术指标
+    categoryL2: 均线
+    difficulty: L3
+    summaryPlain: 指数移动平均线：越近的日期权重越大的均线，比普通均线更敏感。
+    riskNote: 敏感是双刃剑：假信号也更多，短线用得多。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 指数移动平均线：越近的日期权重越大的均线，比普通均线更敏感。
+        example: 比如 MACD 里的快线就是短期指数均线，拐头比普通均线早。
+        notMeaning: 敏感是双刃剑：假信号也更多，短线用得多。
+        isPrimary: true
+        contextKeywords:
+          - 均线
+        frequency: mid
+    aliases:
+      - raw: EMA
+        aliasType: primary
+      - raw: 指数移动平均
+        aliasType: cn_alias
+      - raw: WMA
+        aliasType: en_alias
+    viz:
+      type: CrossLines
+      config:
+        title: EMA：更重近期的均线
+    insights:
+      affects:
+        - 短线择时：拐点更早
+        - 策略基础：双 EMA 交叉系统
+      good:
+        - 反应快：趋势初期就识别
+        - 适合波段跟踪
+      bad:
+        - 噪音多：震荡市反复交叉
+      policy:
+        - 权重参数由使用者设定
+      example: 班主任算平均分：普通算法每人一票，EMA 算法给最近一次考试三倍权重——反应快但容易被一次意外带偏。
+  - slug: fang-liang-suo-liang
+    headword: 放量/缩量
+    categoryL1: 技术指标
+    categoryL2: 量价关系
+    difficulty: L1
+    summaryPlain: 成交量明显变大叫放量，明显变小叫缩量：放量说明分歧，缩量说明一致或无人。
+    riskNote: 高位放量滞涨是出货嫌疑，高位缩量上涨是控盘；不同位置含义完全不同。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 成交量明显变大叫放量，明显变小叫缩量：放量说明分歧，缩量说明一致或无人。
+        example: 比如低位放量长阳是资金进场的号角，高位放量长阴是夺门而出的脚步声。
+        notMeaning: 高位放量滞涨是出货嫌疑，高位缩量上涨是控盘；不同位置含义完全不同。
+        isPrimary: true
+        contextKeywords:
+          - 量价关系
+        frequency: high
+    aliases:
+      - raw: 放量
+        aliasType: primary
+      - raw: 缩量
+        aliasType: cn_alias
+      - raw: 天量
+        aliasType: cn_alias
+      - raw: 地量
+        aliasType: cn_alias
+    viz:
+      type: VolumeRatio
+      config: {}
+    insights:
+      affects:
+        - 趋势确认：突破要放量、洗盘常缩量
+        - 变盘：地量之后常出地价
+        - 席位解读：龙虎榜+量能看谁在动
+      good:
+        - 放量突破平台：真突破概率大
+        - 缩量回踩：浮筹洗净
+      bad:
+        - 高位放量滞涨：派发嫌疑
+        - 放量下跌：恐慌出逃
+      policy:
+        - 涨跌停/T+1 影响量能节奏
+        - 季末年末资金面影响成交额
+      example: 商场促销：人声鼎沸（放量）说明大众关注；门可罗雀（缩量）要么没人逛、要么都在默默扫货。
+  - slug: fei-bo-na-qi
+    headword: 斐波那契回撤
+    categoryL1: 技术指标
+    categoryL2: 支撑阻力
+    difficulty: L3
+    summaryPlain: 按 38.2%、50%、61.8% 这几个比例找回调支撑位：技术派的地图坐标。
+    riskNote: 这些点位没有魔法，是自我实现的拥挤交易，信的人多才准。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 按 38.2%、50%、61.8% 这几个比例找回调支撑位：技术派的地图坐标。
+        example: 比如股价从 10 涨到 20，回调到 61.8% 位置（约 16.2）获得支撑。
+        notMeaning: 这些点位没有魔法，是自我实现的拥挤交易，信的人多才准。
+        isPrimary: true
+        contextKeywords:
+          - 支撑阻力
+        frequency: mid
+    aliases:
+      - raw: 斐波那契回撤
+        aliasType: primary
+      - raw: 黄金分割
+        aliasType: cn_alias
+      - raw: Fibonacci
+        aliasType: en_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 16
+    insights:
+      affects:
+        - 回调建仓：技术派的坐标
+        - 止损设置：常用 61.8% 下方
+      good:
+        - 关键回撤位企稳：顺势介入点
+      bad:
+        - 迷信比例：该跌照样跌
+      policy:
+        - 适用性取决于市场结构
+      example: 爬 10 楼后休息：技术派说你会退到 6 楼（38.2%）或 3 楼半（61.8%）。没人保证你一定停哪层。
+  - slug: jun-xian
+    headword: 均线
+    categoryL1: 技术指标
+    categoryL2: 趋势
+    difficulty: L1
+    summaryPlain: 把最近 N 天收盘价平均连成的线：常看 5 日、20 日、60 日，是市场平均成本的痕迹。
+    riskNote: 均线是滞后指标：价格先变、线后动；横盘时容易被反复骗。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 把最近 N 天收盘价平均连成的线：常看 5 日、20 日、60 日，是市场平均成本的痕迹。
+        example: 比如股价跌破 60 日线，老股民就说「年线失守」，仓位重的人往往先减为敬。
+        notMeaning: 均线是滞后指标：价格先变、线后动；横盘时容易被反复骗。
+        isPrimary: true
+        contextKeywords:
+          - 趋势
+        frequency: high
+    aliases:
+      - raw: 均线
+        aliasType: primary
+      - raw: 移动平均线
+        aliasType: cn_alias
+      - raw: MA
+        aliasType: en_alias
+      - raw: 5日线
+        aliasType: cn_alias
+    viz:
+      type: CrossLines
+      config: {}
+    insights:
+      affects:
+        - 趋势判断：线上持股、线下观望的简易纪律
+        - 支撑/压力：常用均线当参照
+        - 量化：双均线交叉是经典策略
+      good:
+        - 多头排列：短中长均线依次在上，顺势
+        - 回踩均线不破：洗盘结束的信号
+      bad:
+        - 空头排列：每次反弹都被压
+        - 粘合后突跌破：变盘向下
+      policy:
+        - 停复牌/除权会造成均线跳空（要复权看）
+        - 中长期资金行为影响 60 日线韧性
+      example: 一根绳子牵着市场走：价格跑太远（离均线太开）会被拽回来，跌破绳子说明趋势可能换向。
+  - slug: kdj
+    headword: KDJ
+    categoryL1: 技术指标
+    categoryL2: 随机指标
+    difficulty: L2
+    summaryPlain: 随机指标，由三条快慢线组成，常用于判断短期拐点和买卖信号，高位死叉偏空、低位金叉偏多。
+    riskNote: 震荡市好用，单边趋势里容易反复打脸。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 随机指标，由三条快慢线组成，常用于判断短期拐点和买卖信号，高位死叉偏空、低位金叉偏多。
+        example: 比如这个随机指标在极低位置出现黄金交叉，短线客就看作反弹信号。
+        notMeaning: 震荡市好用，单边趋势里容易反复打脸。
+        isPrimary: true
+        contextKeywords:
+          - 金叉
+          - 死叉
+          - 随机
+          - 短线
+        frequency: mid
+    aliases:
+      - raw: KDJ
+        aliasType: primary
+      - raw: 随机指标
+        aliasType: cn_alias
+    viz:
+      type: Oscillator
+      config:
+        needles:
+          - name: K
+          - name: D
+          - name: J
+        initial:
+          - 50
+          - 50
+          - 50
+        max: 100
+        zones:
+          - min: 0
+            max: 20
+            label: 超卖
+            color: var(--down)
+          - min: 20
+            max: 80
+            label: 中性
+            color: var(--color-muted)
+          - min: 80
+            max: 100
+            label: 超买
+            color: var(--up)
+    insights:
+      affects:
+        - 短期买卖时机的提示
+        - 金叉 / 死叉的触发
+        - 震荡市尤其好用
+      good:
+        - K 上穿 D=金叉，偏多
+        - 超卖区金叉更可靠
+      bad:
+        - K 下穿 D=死叉，偏空
+        - 超买区死叉要注意回落
+      policy:
+        - 价格波动本身算出 KDJ
+        - 单边市里它容易‘钝化’失灵
+      example: KDJ 三条线（K、D、J）像红绿灯：K 从下穿过 D 亮绿灯（金叉）提示可留意涨；K 从上穿过 D 亮红灯（死叉）提示小心跌。
+  - slug: liang-bi
+    headword: 量比
+    categoryL1: 技术指标
+    categoryL2: 成交量
+    difficulty: L2
+    summaryPlain: 当前每分钟成交量和过去一段时间平均每分钟成交量的比值，大于1说明今天比平时放量与冷清。
+    riskNote: 放量不必然上涨，可能是出货也可能是抢筹，要看价格方向。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 当前每分钟成交量和过去一段时间平均每分钟成交量的比值，大于1说明今天比平时放量与冷清。
+        example: 比如某只票今天的成交节奏明显比近几天猛，这个比值就冲到两倍以上。
+        notMeaning: 放量不必然上涨，可能是出货也可能是抢筹，要看价格方向。
+        isPrimary: true
+        contextKeywords:
+          - 成交量
+          - 放量
+          - 缩量
+          - 活跃
+        frequency: mid
+    aliases:
+      - raw: 量比
+        aliasType: primary
+    viz:
+      type: VolumeRatio
+      config: {}
+    insights:
+      affects:
+        - 今天买卖比平时热闹几倍
+        - 变盘的前兆
+        - 真假突破的验证
+      good:
+        - 放量上涨=真金白银进场，可靠
+        - 量比>1 说明比平时活跃
+      bad:
+        - 放量下跌=恐慌出逃
+        - 缩量（量比<1）=没人气、易阴跌
+      policy:
+        - 消息、资金面决定放量缩量
+        - 大盘环境放大个体量比
+      example: 平时一天成交 1 万手，今天 3 万手→量比=3，集市今天人多 3 倍。人多在涨，说明真热闹；人多在跌，说明在逃。
+  - slug: liang-jia-bei-li
+    headword: 量价背离
+    categoryL1: 技术指标
+    categoryL2: 量价关系
+    difficulty: L2
+    summaryPlain: 价格创新高但成交量没跟上，像汽车踩油门速度却不涨：上攻动能衰减的警报。
+    riskNote: 背离只代表衰竭概率，不立即反转；强趋势里可以背离了又背离。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 价格创新高但成交量没跟上，像汽车踩油门速度却不涨：上攻动能衰减的警报。
+        example: 比如股价连涨创新高，成交量却只有峰值的六成，随后一根大阴线砸下来。
+        notMeaning: 背离只代表衰竭概率，不立即反转；强趋势里可以背离了又背离。
+        isPrimary: true
+        contextKeywords:
+          - 量价关系
+        frequency: high
+    aliases:
+      - raw: 量价背离
+        aliasType: primary
+      - raw: 顶背离
+        aliasType: cn_alias
+      - raw: divergence
+        aliasType: en_alias
+    viz:
+      type: VolumeRatio
+      config: {}
+    insights:
+      affects:
+        - 逃顶：高位背离比指标背离更实用
+        - 回踩预判：上涨无量难持续
+        - 与筹码分布结合判断真假衰竭
+      good:
+        - 缩量新高+筹码稳定：控盘度高
+        - 下跌缩量（底背离）：卖压衰竭
+      bad:
+        - 把背离当交易圣杯
+        - 钝化：背离后继续背离
+      policy:
+        - 流动性环境（成交额）影响基准解读
+        - 限售解禁、指数调仓扭曲量能
+      example: 跑步机上的胖子：汗流得不多（量缩）速度却在飙（价涨）——机器快散架了。
+  - slug: macd
+    headword: MACD
+    categoryL1: 技术指标
+    categoryL2: 交叉与信号
+    difficulty: L2
+    summaryPlain: 用两条快慢均线的差值看趋势强弱，交叉方向提示动能变化。
+    riskNote: 指标会滞后，过去信号不代表未来，别只凭它做决定。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 用两条快慢均线的差值看趋势强弱，交叉方向提示动能变化。
+        example: 比如短期线从下往上穿过长期线，常被看作上涨动能可能变强。
+        notMeaning: 它只是描述价格走势的工具，不等于“该买了”或“会涨”。
+        isPrimary: true
+        contextKeywords:
+          - 均线
+          - 金叉
+          - 死叉
+          - 动能
+          - 趋势
+        frequency: mid
+    aliases:
+      - raw: MACD
+        aliasType: primary
+    viz:
+      type: CrossLines
+      config: {}
+    insights:
+      affects:
+        - 中线趋势的强弱与转折点
+        - 金叉 / 死叉买卖信号
+        - 顶底背离预警
+      good:
+        - 金叉（快线穿慢线）=趋势转强
+        - 红柱放大=上涨动能足
+      bad:
+        - 死叉=趋势转弱
+        - 顶背离=涨不动了，要小心
+      policy:
+        - 价格与均线本身算出 MACD
+        - 大级别行情里信号更可信
+      example: MACD 像两条赛跑的线：快线追上慢线（金叉）好比超车，行情可能往上；快线被慢线反超（死叉）好比被反超，行情可能往下。点‘播放’能看到它穿越的过程。
+  - slug: nei-pan-wai-pan
+    headword: 内盘/外盘
+    categoryL1: 技术指标
+    categoryL2: 盘口
+    difficulty: L2
+    summaryPlain: 主动卖出成交叫内盘（绿），主动买入成交叫外盘（红）：看谁更急着成交。
+    riskNote: 内外盘只是委托方向的统计，大单拆小可以伪装。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 主动卖出成交叫内盘（绿），主动买入成交叫外盘（红）：看谁更急着成交。
+        example: 比如涨停板上外盘远大于内盘，说明是抢着买上去的。
+        notMeaning: 内外盘只是委托方向的统计，大单拆小可以伪装。
+        isPrimary: true
+        contextKeywords:
+          - 盘口
+        frequency: mid
+    aliases:
+      - raw: 内盘/外盘
+        aliasType: primary
+      - raw: 内盘
+        aliasType: cn_alias
+      - raw: 外盘
+        aliasType: cn_alias
+    viz:
+      type: VolumeRatio
+      config:
+        title: 内盘外盘：谁更急
+    insights:
+      affects:
+        - 盘口解读：买卖急迫度
+        - 打板决策：外盘强说明承接好
+      good:
+        - 外盘压倒内盘：买方主动
+      bad:
+        - 内盘大：抛压主动
+      policy:
+        - 委托制度与拆单策略
+      example: 早高峰地铁：外盘是往车里挤的，内盘是被挤出来的。看哪边更用力，就知道车往哪站。
+  - slug: obv
+    headword: OBV
+    categoryL1: 技术指标
+    categoryL2: 量能
+    difficulty: L3
+    summaryPlain: 能量潮：把涨日的量加总、跌日的量减总，看资金是在进还是在出。
+    riskNote: 量能指标只能看方向，不看幅度，要配合价格形态。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 能量潮：把涨日的量加总、跌日的量减总，看资金是在进还是在出。
+        example: 比如价格新高但能量潮没新高，典型的量价背离。
+        notMeaning: 量能指标只能看方向，不看幅度，要配合价格形态。
+        isPrimary: true
+        contextKeywords:
+          - 量能
+        frequency: mid
+    aliases:
+      - raw: OBV
+        aliasType: primary
+      - raw: 能量潮
+        aliasType: cn_alias
+      - raw: MFI
+        aliasType: en_alias
+      - raw: CMF
+        aliasType: en_alias
+    viz:
+      type: VolumeRatio
+      config:
+        title: OBV：资金的进出账
+    insights:
+      affects:
+        - 背离信号：比价格更早预警
+        - 趋势确认：量在价先
+      good:
+        - OBV 领先突破：资金先动
+      bad:
+        - 背离：上涨缺量
+      policy:
+        - 除权/数据源影响计算
+      example: 水库水位计：进水（涨日量）出水（跌日量）记总账。水位偷偷降（OBV 背离），迟早见底。
+  - slug: pian-xian
+    headword: 骗线
+    categoryL1: 技术指标
+    categoryL2: 陷阱形态
+    difficulty: L2
+    summaryPlain: 大户故意做出的技术形态，引诱迷信图表的人上钩：图表党的天敌。
+    riskNote: 所有技术信号都要配合量能和位置看，单看线等于把方向盘交给别人。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 大户故意做出的技术形态，引诱迷信图表的人上钩：图表党的天敌。
+        example: 比如假突破后暴跌，就是经典手法。
+        notMeaning: 所有技术信号都要配合量能和位置看，单看线等于把方向盘交给别人。
+        isPrimary: true
+        contextKeywords:
+          - 陷阱形态
+        frequency: mid
+    aliases:
+      - raw: 骗线
+        aliasType: primary
+      - raw: 假突破
+        aliasType: cn_alias
+      - raw: 技术陷阱
+        aliasType: cn_alias
+    viz:
+      type: CrossLines
+      config:
+        title: 骗线：做给你看的图
+    insights:
+      affects:
+        - 对手盘：骗线的目的是让你接盘
+        - 技术分析局限：线是人画的钱堆的
+      good:
+        - 识破骗线：反手操作
+      bad:
+        - 信图不信势：反复被骗
+      policy:
+        - 监管打击市场操纵
+      example: 猎人的假脚印：顺着走（信图表）的人，都进了包围圈。
+  - slug: rsi
+    headword: RSI
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 相对强弱指标，用一段时间涨跌幅度算出一个0到100的数，偏高说超买、偏低说超卖，提示动能可能过头。
+    riskNote: 它只是提示动能，强势里也能长时间超买不回头。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 相对强弱指标，用一段时间涨跌幅度算出一个0到100的数，偏高说超买、偏低说超卖，提示动能可能过头。
+        example: 比如这个摆动指标冲到80以上，很多人就提醒说涨得太急、容易回落。
+        notMeaning: 它只是提示动能，强势里也能长时间超买不回头。
+        isPrimary: true
+        contextKeywords:
+          - 超买
+          - 超卖
+          - 摆动
+          - 动能
+        frequency: mid
+    aliases:
+      - raw: RSI
+        aliasType: primary
+      - raw: 相对强弱指标
+        aliasType: cn_alias
+    viz:
+      type: Oscillator
+      config:
+        needles:
+          - name: RSI
+        initial:
+          - 50
+        max: 100
+        zones:
+          - min: 0
+            max: 30
+            label: 超卖
+            color: var(--down)
+          - min: 30
+            max: 70
+            label: 中性
+            color: var(--color-muted)
+          - min: 70
+            max: 100
+            label: 超买
+            color: var(--up)
+    insights:
+      affects:
+        - 买卖是否‘过热’或‘过冷’
+        - 短线抄底逃顶的参考
+        - 和 MACD 搭配用
+      good:
+        - 超卖（<30）=可能跌过头，易反弹
+        - 数值低说明抛压快耗尽
+      bad:
+        - 超买（>70）=别追高，易回调
+        - 数值高说明抢购透支
+      policy:
+        - 价格走势本身决定 RSI
+        - 大势强弱放大其信号
+      example: RSI 像温度计 0–100：到 80 以上像发烧（超买），别再追；到 20 以下像体温过低（超卖），可能要回暖。但牛市里‘发烧’也能持续。
+  - slug: sar
+    headword: SAR
+    categoryL1: 技术指标
+    categoryL2: 趋势跟踪
+    difficulty: L3
+    summaryPlain: 抛物线转向指标：价格上方/下方跟一串点，点被突破了就该考虑转向。
+    riskNote: 震荡市里会被反复打脸，适合单边行情。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 抛物线转向指标：价格上方/下方跟一串点，点被突破了就该考虑转向。
+        example: 比如价格跌破抛物线点列，趋势跟踪者机械离场。
+        notMeaning: 震荡市里会被反复打脸，适合单边行情。
+        isPrimary: true
+        contextKeywords:
+          - 趋势跟踪
+        frequency: mid
+    aliases:
+      - raw: SAR
+        aliasType: primary
+      - raw: 抛物线指标
+        aliasType: cn_alias
+      - raw: 止损指标
+        aliasType: cn_alias
+    viz:
+      type: CrossLines
+      config:
+        title: SAR：跟着价格跑的点
+    insights:
+      affects:
+        - 机械离场：趋势策略的止损线
+        - 短中线：适合动量行情
+      good:
+        - 单边行情：粘着吃全程
+      bad:
+        - 震荡市：左右挨耳光
+      policy:
+        - 适合与 ADX 配合过滤
+      example: 遛狗时的伸缩绳：狗跑你追（趋势在），狗突然转向绳子绷紧（SAR 破位），你得跟着变向。
+  - slug: vwap
+    headword: VWAP
+    categoryL1: 技术指标
+    categoryL2: 成交量价
+    difficulty: L2
+    summaryPlain: 成交量加权平均价：按成交量算的「真实均价」，机构用来评估自己的成交划不划算。
+    riskNote: 日内交易者的重要参照，但拉长时间意义有限。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 成交量加权平均价：按成交量算的「真实均价」，机构用来评估自己的成交划不划算。
+        example: 比如机构大单成交价低于成交量加权均价，说明执行得好。
+        notMeaning: 日内交易者的重要参照，但拉长时间意义有限。
+        isPrimary: true
+        contextKeywords:
+          - 成交量价
+        frequency: mid
+    aliases:
+      - raw: VWAP
+        aliasType: primary
+      - raw: 成交量加权均价
+        aliasType: cn_alias
+      - raw: TWAP
+        aliasType: en_alias
+    viz:
+      type: TurnoverPie
+      config:
+        title: VWAP：按量加权的真均价
+    insights:
+      affects:
+        - 算法交易：拆单执行的基准线
+        - 业绩归因：交易成本的度量
+      good:
+        - 买在 VWAP 下方：执行优秀
+      bad:
+        - 远离 VWAP 追单：冲击成本高
+      policy:
+        - 算法交易监管披露
+      example: 全班捐款算平均：学霸出 1000、学渣出 1 块，按人头算没意义，按金额算（VWAP）才见真相。

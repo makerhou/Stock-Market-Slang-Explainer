@@ -1,0 +1,1213 @@
+# 自动生成的批量词条源（可由 ingest 重新编译为 lexicon.json）
+category: 交易制度
+source: bootstrap from lexicon.json (2026-10-22)
+terms:
+  - slug: ba-xian
+    headword: 巴仙
+    categoryL1: 交易制度
+    categoryL2: 单位俗语
+    difficulty: L3
+    summaryPlain: 港式英语音译：百分比叫巴仙（percent），股市讨论里常见。
+    riskNote: 只是说法差异，数字该是多少还是多少。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 港式英语音译：百分比叫巴仙（percent），股市讨论里常见。
+        example: 比如新闻写「升幅两个 percent」，就是涨了 2%。
+        notMeaning: 只是说法差异，数字该是多少还是多少。
+        isPrimary: true
+        contextKeywords:
+          - 单位俗语
+        frequency: mid
+    aliases:
+      - raw: 巴仙
+        aliasType: primary
+      - raw: percent
+        aliasType: en_alias
+      - raw: 百分比
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: 巴仙：港式百分比
+        min: 0
+        max: 100
+        threshold: 50
+        initial: 30
+        valueLabel: 读数
+        unit: " 巴仙"
+        zones:
+          - min: 0
+            max: 50
+            label: 低于一半
+            color: var(--down)
+          - min: 50
+            max: 100
+            label: 高于一半
+            color: var(--up)
+    insights:
+      affects:
+        - 方言梗：粤语+英语的混血
+        - 阅读门槛：看港媒要先过语言关
+      good:
+        - 无实质影响
+      bad:
+        - 误读数字：把巴仙当百分点以外的东西
+      policy:
+        - 无政策含义
+      example: 上海人说「洋泡泡」、香港人说「巴仙」：都是外语的音译本地化。
+  - slug: cdr
+    headword: CDR
+    categoryL1: 交易制度
+    categoryL2: 上市工具
+    difficulty: L3
+    summaryPlain: 中国存托凭证：让境外公司可以在 A 股上市的存托凭证，当年小米们回 A 的方案。
+    riskNote: 实际落地案例很少，流动性一直是个问题。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 中国存托凭证：让境外公司可以在 A 股上市的存托凭证，当年小米们回 A 的方案。
+        example: 比如境外上市的中国公司想回 A 募资，发行存托凭证是一种路径。
+        notMeaning: 实际落地案例很少，流动性一直是个问题。
+        isPrimary: true
+        contextKeywords:
+          - 上市工具
+        frequency: mid
+    aliases:
+      - raw: CDR
+        aliasType: primary
+      - raw: 中国存托凭证
+        aliasType: cn_alias
+      - raw: 存托凭证
+        aliasType: cn_alias
+    viz:
+      type: AdrBridge
+      config:
+        ratio: 10
+    insights:
+      affects:
+        - 资本市场开放：互联互通的工具箱
+        - 企业：多一个融资地选择
+      good:
+        - 给境外巨头进入 A 股的通道
+      bad:
+        - 案例稀少，实践存疑
+      policy:
+        - 试点办法与交易所规则
+      example: 外国电影进国内：原片引不进来，先做个官方授权版（存托凭证）给观众看。
+  - slug: da-zong-jiao-yi
+    headword: 大宗交易
+    categoryL1: 交易制度
+    categoryL2: 交易类型
+    difficulty: L2
+    summaryPlain: 大额股票不走二级市场撮合，买卖双方协议价格场外成交，收盘后披露。
+    riskNote: 折价成交常被解读为套现离场信号；接盘方动机复杂，别盲目跟风。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 大额股票不走二级市场撮合，买卖双方协议价格场外成交，收盘后披露。
+        example: 比如某股东要清仓 5 亿市值的股票，直接和机构协议打九折成交，公告出来后股价跟跌。
+        notMeaning: 折价成交常被解读为套现离场信号；接盘方动机复杂，别盲目跟风。
+        isPrimary: true
+        contextKeywords:
+          - 交易类型
+        frequency: high
+    aliases:
+      - raw: 大宗交易
+        aliasType: primary
+      - raw: block trade
+        aliasType: en_alias
+      - raw: 盘后协议转让
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: board
+        title: 大宗交易：大单怎么出
+    insights:
+      affects:
+        - 流动性：大资金减仓的泄洪渠
+        - 股价：折价率是重要信号
+        - 筹码：接盘方动机决定后续走势
+      good:
+        - 高溢价成交：可能是战略资金进场
+        - 帮助大股东合规减持、稳定市场
+      bad:
+        - 大幅折价：急着用钱，隐含看空
+        - 频繁大宗+减持公告：套现链信号
+      policy:
+        - 减持新规约束大股东减持节奏
+        - 大宗交易信息披露要求
+      example: 整箱买水果批发价便宜，零买按零售价。批发（大宗）不能退货（不灵竞价），成交价是双方私聊定的。
+  - slug: duo-tou-kong-tou
+    headword: 多头/空头
+    categoryL1: 交易制度
+    categoryL2: 市场立场
+    difficulty: L1
+    summaryPlain: 看涨买入的叫多头，看跌卖出（或做空）的叫空头：市场的两拨人对赌。
+    riskNote: 多头市场也有回调，空头持仓有成本，立场不等于收益。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 看涨买入的叫多头，看跌卖出（或做空）的叫空头：市场的两拨人对赌。
+        example: 比如论坛吵架：多头说牛市来了，空头说还要跌。
+        notMeaning: 多头市场也有回调，空头持仓有成本，立场不等于收益。
+        isPrimary: true
+        contextKeywords:
+          - 市场立场
+        frequency: high
+    aliases:
+      - raw: 多头
+        aliasType: primary
+      - raw: 空头
+        aliasType: cn_alias
+      - raw: 看多
+        aliasType: cn_alias
+      - raw: 看空
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config: {}
+    insights:
+      affects:
+        - 博弈结构：多空博弈形成价格
+        - 情绪指标：多空比例
+      good:
+        - 多头共振：趋势加速
+      bad:
+        - 多空僵持：震荡
+      policy:
+        - 融资融券制度影响空头力量
+      example: 辩论赛正反方：多头是正方（看涨），空头是反方（看跌）——评委（价格）只认票数（资金）。
+  - slug: er-ci-shang-shi
+    headword: 二次上市
+    categoryL1: 交易制度
+    categoryL2: 上市方式
+    difficulty: L2
+    summaryPlain: 已经在别的市场上市的公司，再到第二个市场挂牌交易，中概回港多走这条路。
+    riskNote: 二次上市和双重主要上市的法律地位不同，极端情况下后者受保护更多。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 已经在别的市场上市的公司，再到第二个市场挂牌交易，中概回港多走这条路。
+        example: 比如某电商巨头 2019 年回港挂牌，美股里的老股东股份可以直接转到香港交易。
+        notMeaning: 二次上市和双重主要上市的法律地位不同，极端情况下后者受保护更多。
+        isPrimary: true
+        contextKeywords:
+          - 上市方式
+        frequency: high
+    aliases:
+      - raw: 二次上市
+        aliasType: primary
+      - raw: 双重主要上市
+        aliasType: cn_alias
+      - raw: 回港上市
+        aliasType: cn_alias
+    viz:
+      type: AdrBridge
+      config:
+        theme: cnconcept
+        ratio: 8
+    insights:
+      affects:
+        - 投资者结构：亚洲时段也能交易，估值修复
+        - 风险对冲：留一条后路防止在美被摘牌
+        - 流动性：两地同时定价
+      good:
+        - 南向资金可直接买入回港公司
+        - 估值折价常被部分修复
+      bad:
+        - 二次上市≠主要上市，保护弱一档
+        - 跨市场股价联动波动
+      policy:
+        - 中美监管博弈是最大推力
+        - 港交所上市规则修订
+      example: 网红店在 A 城火了，去 B 城开分店：两边都能下单，不怕一边城管封门就没饭吃。
+  - slug: fu-quan
+    headword: 复权
+    categoryL1: 交易制度
+    categoryL2: 价格调整
+    difficulty: L2
+    summaryPlain: 把历史价格按分红送股调整过来，让 K 线连续可比：分前复权和后复权。
+    riskNote: 不复权看老 K 线全是「假跌」，做技术分析前先问自己复权没有。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 把历史价格按分红送股调整过来，让 K 线连续可比：分前复权和后复权。
+        example: 比如一只股票十年涨三倍，不调整除权缺口看可能像跌了。
+        notMeaning: 不复权看老 K 线全是「假跌」，做技术分析前先问自己复权没有。
+        isPrimary: true
+        contextKeywords:
+          - 价格调整
+        frequency: mid
+    aliases:
+      - raw: 复权
+        aliasType: primary
+      - raw: 前复权
+        aliasType: cn_alias
+      - raw: 后复权
+        aliasType: cn_alias
+      - raw: 除权价
+        aliasType: cn_alias
+    viz:
+      type: ExRightAdjust
+      config:
+        title: 复权：把砍掉的接回去
+    insights:
+      affects:
+        - 技术分析：均线、突破都要用复权价
+        - 业绩归因：真实收益=复权后的
+      good:
+        - 前复权：以最新价为基准看历史
+        - 避免误判假突破
+      bad:
+        - 不复权分析：被除权缺口骗
+        - 口径混淆：前后复权别混用
+      policy:
+        - 交易所提供复权因子
+        - 软件默认设置不同要留意
+      example: 通货膨胀调整：爷爷说他当年工资 50 块，折成今天的购买力才知高不高——复权就是给股价做通胀调整。
+  - slug: gdr
+    headword: GDR
+    categoryL1: 交易制度
+    categoryL2: 上市工具
+    difficulty: L3
+    summaryPlain: 全球存托凭证：在多个市场同时流通的存托凭证，比 ADR 更国际化。
+    riskNote: 跨境发行合规复杂，散户很难直接参与。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 全球存托凭证：在多个市场同时流通的存托凭证，比 ADR 更国际化。
+        example: 比如 A 股公司去伦敦发存托凭证，同时对接欧洲资金。
+        notMeaning: 跨境发行合规复杂，散户很难直接参与。
+        isPrimary: true
+        contextKeywords:
+          - 上市工具
+        frequency: mid
+    aliases:
+      - raw: GDR
+        aliasType: primary
+      - raw: 全球存托凭证
+        aliasType: cn_alias
+    viz:
+      type: AdrBridge
+      config:
+        ratio: 10
+    insights:
+      affects:
+        - 国际融资：多渠道拿美元欧元
+        - 资本市场开放的工具
+      good:
+        - 拓宽投资者基础
+      bad:
+        - 跨境监管复杂
+        - 流动性分散
+      policy:
+        - 境内外发行监管协同
+      example: 一本护照多国通用：手续（合规）比单国签证（ADR）麻烦，但走得远。
+  - slug: hu-gang-tong
+    headword: 沪港通
+    categoryL1: 交易制度
+    categoryL2: 互联互通
+    difficulty: L2
+    summaryPlain: 内地与香港互联互通的试点通道：沪股通（外资买沪市）+ 港股通（内地买港股）。
+    riskNote: 它限定了标的范围和额度，不是所有港美股都能买。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 内地与香港互联互通的试点通道：沪股通（外资买沪市）+ 港股通（内地买港股）。
+        example: 比如通过港股通买腾讯，用人民币结算自动换汇。
+        notMeaning: 它限定了标的范围和额度，不是所有港美股都能买。
+        isPrimary: true
+        contextKeywords:
+          - 互联互通
+        frequency: high
+    aliases:
+      - raw: 沪港通
+        aliasType: primary
+      - raw: 深港通
+        aliasType: cn_alias
+      - raw: 沪深港通
+        aliasType: cn_alias
+      - raw: 互联互通
+        aliasType: cn_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: 沪港通：两地的桥
+    insights:
+      affects:
+        - 资金流向：北向南向的载体
+        - 定价权：内地资金影响港股
+      good:
+        - 额度扩容：交易更方便
+      bad:
+        - 额度受限：极端行情买不进
+      policy:
+        - 标的扩容与额度调整
+      example: 两城之间的高铁专线：车次（标的）固定，票量（额度）有限，但比坐飞机（开海外账户）省事。
+  - slug: ji-he-jing-jia
+    headword: 集合竞价
+    categoryL1: 交易制度
+    categoryL2: 撮合机制
+    difficulty: L1
+    summaryPlain: 开盘和收盘前的一段「统一出价」时间：大家报价排队，最后按一个价全部成交。
+    riskNote: 9:15–9:20 可撤单，9:20–9:25 不能撤；虚假挂单常在可撤阶段演戏。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 开盘和收盘前的一段「统一出价」时间：大家报价排队，最后按一个价全部成交。
+        example: 比如某股票开盘定价跳空高开 5%，就是开盘前这段统一撮合撮出来的价。
+        notMeaning: 9:15–9:20 可撤单，9:20–9:25 不能撤；虚假挂单常在可撤阶段演戏。
+        isPrimary: true
+        contextKeywords:
+          - 撮合机制
+        frequency: high
+    aliases:
+      - raw: 集合竞价
+        aliasType: primary
+      - raw: 竞价撮合
+        aliasType: cn_alias
+      - raw: call auction
+        aliasType: en_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        limitPct: 10
+        basePrice: 10
+    insights:
+      affects:
+        - 开盘价：一天的定价起点，跳空常由它决定
+        - 打板选手：竞价强弱决定日内策略
+        - 流动性：竞价成交量是情绪的先行指标
+      good:
+        - 高开放量：资金抢筹意愿强
+        - 平开缩量：观望情绪浓
+      bad:
+        - 虚假申报：大单诱导后撤单
+        - 大幅低开：隔夜利空集中定价
+      policy:
+        - 开盘集合竞价 9:15–9:25，收盘 14:57–15:00（深市）
+        - 异动股票会有特别安排
+      example: 拍卖会：所有人举牌到最后一起落锤（统一价成交），牌价最高那批人拿走全部货。举了牌又跑（撤单）在拍卖里可不允许。
+  - slug: level-2
+    headword: Level 2
+    categoryL1: 交易制度
+    categoryL2: 行情数据
+    difficulty: L2
+    summaryPlain: 深度行情：能看到十档买卖盘和逐笔委托，比默认五档看更清。
+    riskNote: 要花钱买，而且看到的是委托不是成交，撤单照样骗人。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 深度行情：能看到十档买卖盘和逐笔委托，比默认五档看更清。
+        example: 比如深度行情显示买一挂万手，可能是诱多，下一秒撤单。
+        notMeaning: 要花钱买，而且看到的是委托不是成交，撤单照样骗人。
+        isPrimary: true
+        contextKeywords:
+          - 行情数据
+        frequency: mid
+    aliases:
+      - raw: Level 2
+        aliasType: primary
+      - raw: 深度行情
+        aliasType: cn_alias
+      - raw: 十档
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: board
+        title: 十档盘口：更深的水
+    insights:
+      affects:
+        - 短线决策：委托分布更透明
+        - 打板：封单质量的判断依据
+      good:
+        - 委托结构真实：判断承接力
+      bad:
+        - 虚假挂单：看到≠真实
+      policy:
+        - 交易所行情分级收费
+      example: 试衣间的镜子：普通镜子看正面（五档），付费镜子看侧面背面（十档）——但镜子仍会撒谎（撤单）。
+  - slug: lian-xu-jing-jia
+    headword: 连续竞价
+    categoryL1: 交易制度
+    categoryL2: 撮合机制
+    difficulty: L2
+    summaryPlain: 盘中实时撮合的交易时段：你挂多少价就按什么价排队成交。
+    riskNote: 市价单在连续竞价里可能吃到离谱的价。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 盘中实时撮合的交易时段：你挂多少价就按什么价排队成交。
+        example: 比如盘中挂单 10 块买，卖一有货立刻成交。
+        notMeaning: 市价单在连续竞价里可能吃到离谱的价。
+        isPrimary: true
+        contextKeywords:
+          - 撮合机制
+        frequency: high
+    aliases:
+      - raw: 连续竞价
+        aliasType: primary
+      - raw: 盘中撮合
+        aliasType: cn_alias
+      - raw: 竞价交易
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 10
+    insights:
+      affects:
+        - 日常交易：90% 的时间在这里
+        - 流动性：竞价深度决定滑点
+      good:
+        - 活跃时段：进出方便
+      bad:
+        - 冷门时段：挂单难成交
+      policy:
+        - 交易时段与收盘竞价规则
+      example: 超市收银台：排队（连续竞价）结账，队头（卖一）走了你补上——队伍乱插（市价单）会踩脚。
+  - slug: liu-dong-xing
+    headword: 流动性
+    categoryL1: 交易制度
+    categoryL2: 市场属性
+    difficulty: L2
+    summaryPlain: 资产能以合理价格快速买卖的能力：市场的血液，平时无感、缺时要命。
+    riskNote: 流动性枯竭时想卖卖不掉，小盘股和危机时刻最明显。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 资产能以合理价格快速买卖的能力：市场的血液，平时无感、缺时要命。
+        example: 比如跌停板上排队卖不出，这就是危机。
+        notMeaning: 流动性枯竭时想卖卖不掉，小盘股和危机时刻最明显。
+        isPrimary: true
+        contextKeywords:
+          - 市场属性
+        frequency: high
+    aliases:
+      - raw: 流动性
+        aliasType: primary
+      - raw: Liquidity
+        aliasType: en_alias
+      - raw: 流动性危机
+        aliasType: cn_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: 流动性：市场的血液
+    insights:
+      affects:
+        - 定价效率：流动性好价格才真
+        - 危机传导：流动性枯竭=连环爆
+      good:
+        - 充裕：进出自如
+      bad:
+        - 枯竭：有价无市
+      policy:
+        - 央行逆周期投放流动性
+      example: 高速公路收费站：平时八个口全开（流动性好）一秒过；节假日全堵（枯竭），你有票也过不去。
+  - slug: luo-pan
+    headword: 落盘
+    categoryL1: 交易制度
+    categoryL2: 交易动作
+    difficulty: L2
+    summaryPlain: 港股「下单」的粤语说法：投资者向券商系统提交买卖指令。
+    riskNote: 落盘前看清是限价盘还是市价盘，市价盘在冷门股上会吃到离谱价。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 港股「下单」的粤语说法：投资者向券商系统提交买卖指令。
+        example: 比如在交易软件点「买入」确认，粤语用户就叫这动作。
+        notMeaning: 落盘前看清是限价盘还是市价盘，市价盘在冷门股上会吃到离谱价。
+        isPrimary: true
+        contextKeywords:
+          - 交易动作
+        frequency: mid
+    aliases:
+      - raw: 落盘
+        aliasType: primary
+      - raw: 下单
+        aliasType: cn_alias
+      - raw: 落单
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 落盘：下单那一下
+    insights:
+      affects:
+        - 交易习惯：港股用户的日常用语
+        - 指令类型：限价/增强限价/特别限价
+      good:
+        - 限价落盘：价格可控
+      bad:
+        - 市价落盘：滑点风险
+      policy:
+        - 港交所的买卖盘规则
+      example: 餐厅落单：写清楚要什么菜（限价），不然厨房（系统）随便上（市价单）。
+  - slug: quan-li-hai
+    headword: 权利游戏
+    categoryL1: 交易制度
+    categoryL2: 公司治理
+    difficulty: L3
+    summaryPlain: 股东和管理层围绕控制权的博弈：投票权征集、董事会争夺都属此类。
+    riskNote: 治理混乱的公司，小股东往往最后才知道被卖了。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 股东和管理层围绕控制权的博弈：投票权征集、董事会争夺都属此类。
+        example: 比如两家股东争夺董事会席位，公司陷入内斗无暇经营。
+        notMeaning: 治理混乱的公司，小股东往往最后才知道被卖了。
+        isPrimary: true
+        contextKeywords:
+          - 公司治理
+        frequency: mid
+    aliases:
+      - raw: 权利游戏
+        aliasType: primary
+      - raw: 代理权之争
+        aliasType: cn_alias
+      - raw: proxy fight
+        aliasType: en_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: board
+        title: 董事会争夺：票多的说了算
+    insights:
+      affects:
+        - 公司价值：治理折价的来源
+        - 股价：控制权争夺常伴事件性波动
+      good:
+        - 野蛮人敲门倒逼改革
+      bad:
+        - 内斗拖垮经营
+      policy:
+        - 证券法对股东权利的框架
+      example: 宿舍夜谈谁当厅长：票多的人说话，票少的人只能听着——公司也是这样。
+  - slug: t-plus-1
+    headword: T+1
+    categoryL1: 交易制度
+    categoryL2: 交收规则
+    difficulty: L1
+    summaryPlain: 今天买的股票，下一个交易日才能卖——防止当天来回炒的制度设计。
+    riskNote: 买了跌了当天跑不掉，单日买入风险被放大；不同品种（转债/ETF）规则不同。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 今天买的股票，下一个交易日才能卖——防止当天来回炒的制度设计。
+        example: 比如有人早盘追高买进，午后跳水，只能眼睁睁看着，想卖也得等明天。
+        notMeaning: 买了跌了当天跑不掉，单日买入风险被放大；不同品种（转债/ETF）规则不同。
+        isPrimary: true
+        contextKeywords:
+          - 交收规则
+        frequency: high
+    aliases:
+      - raw: T+1
+        aliasType: primary
+      - raw: T+0
+        aliasType: cn_alias
+      - raw: 次日才能卖
+        aliasType: cn_alias
+    viz:
+      type: HaltClock
+      config: {}
+    insights:
+      affects:
+        - 买卖节奏：当天不能反悔，追高代价大
+        - 印花税：卖出才收，T+1 影响短线频率
+        - 隔夜风险：持仓被迫承担次日跳空
+      good:
+        - 抑制过度投机，降低市场波动
+        - 逼着做研究而不是赌日内情绪
+      bad:
+        - 突发利空无法当天止损
+        - 和 T+0 品种相比机会成本高
+      policy:
+        - A 股股票 T+1，部分 ETF、可转债 T+0
+        - 港美股可当日回转但结算周期不同
+      example: 食堂规定打了饭不能立马退：你得吃一天、明天才能说不要。这样大家打饭（下单）会更谨慎，泔水（炒作）也少。
+  - slug: tian-quan-tie-quan
+    headword: 填权/贴权
+    categoryL1: 交易制度
+    categoryL2: 除权后走势
+    difficulty: L2
+    summaryPlain: 分红送股除权后，股价涨回除权前叫填权，跌破除权参考价叫贴权。
+    riskNote: 别只看除权前后 K 线上的假跌；填权行情不总是发生，贴权更常见。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 分红送股除权后，股价涨回除权前叫填权，跌破除权参考价叫贴权。
+        example: 比如某股票 10 送 10，除权后股价腰斩，一周后又涨回原位，这就是教科书级填权。
+        notMeaning: 别只看除权前后 K 线上的假跌；填权行情不总是发生，贴权更常见。
+        isPrimary: true
+        contextKeywords:
+          - 除权后走势
+        frequency: high
+    aliases:
+      - raw: 填权
+        aliasType: primary
+      - raw: 贴权
+        aliasType: cn_alias
+      - raw: 除权后走势
+        aliasType: cn_alias
+    viz:
+      type: ExRightAdjust
+      config:
+        title: 填权还是贴权
+    insights:
+      affects:
+        - 策略：抢权息 vs 等填权
+        - 技术：除权缺口造成的假跌
+        - 资金：填权行情是主力的拉抬机会
+      good:
+        - 填权：说明市场认可分红价值
+        - 高送转+好业绩：资金愿意抬高
+      bad:
+        - 贴权：除权后继续阴跌
+        - 单纯为炒作的高送转被监管盯上
+      policy:
+        - 送转股监管指引约束比例
+        - 分红税影响填权意愿
+      example: 披萨从 8 块切 16 块：单块变小（除权），大家抢着要导致饼价回到 12 寸水平（填权）；没人要继续跌（贴权）。
+  - slug: tong-gu-bu-tong-quan
+    headword: 同股不同权
+    categoryL1: 交易制度
+    categoryL2: 股权结构
+    difficulty: L2
+    summaryPlain: 创始人持有的股票一票等于别人好几票：公司控制权不靠出钱多，靠投票权设计。
+    riskNote: 小股东的投票权被稀释，创始人犯错时制约更少，港股允许但有严格条件。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 创始人持有的股票一票等于别人好几票：公司控制权不靠出钱多，靠投票权设计。
+        example: 比如某科技公司在港交所上市，创始人 10% 股份却掌握一半以上投票权。
+        notMeaning: 小股东的投票权被稀释，创始人犯错时制约更少，港股允许但有严格条件。
+        isPrimary: true
+        contextKeywords:
+          - 股权结构
+        frequency: high
+    aliases:
+      - raw: 同股不同权
+        aliasType: primary
+      - raw: WVR
+        aliasType: en_alias
+      - raw: AB股
+        aliasType: cn_alias
+    viz:
+      type: HkTypesCompare
+      config:
+        defaultKey: red
+    insights:
+      affects:
+        - 公司控制：创始人说了算，长期战略稳定
+        - 上市：亏损的明星公司也愿意来
+        - 风险：小股东话语权更弱
+      good:
+        - 保障创始团队不被资本踢出
+        - 吸引新经济公司赴港
+      bad:
+        - 一股一票原则被破坏
+        - 决策失误无人纠偏
+      policy:
+        - 港交所 2018 年允许 WVR 结构上市
+        - 美股双重股权更普遍
+      example: 班级投票：学霸 1 票顶 10 票。好处是学霸能拍板搞竞赛，坏处是其他人再反对也拦不住他。
+  - slug: tui-shi
+    headword: 退市
+    categoryL1: 交易制度
+    categoryL2: 退出机制
+    difficulty: L1
+    summaryPlain: 股票被终结上市资格，可能血本无归，分强制退市和主动私有化两种。
+    riskNote: 退市整理期只有 15 个交易日且无涨跌幅，进去基本是割肉大赛。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 股票被终结上市资格，可能血本无归，分强制退市和主动私有化两种。
+        example: 比如某 *ST 公司触及财务类强制标准，进入倒计时整理期后连续跌停。
+        notMeaning: 退市整理期只有 15 个交易日且无涨跌幅，进去基本是割肉大赛。
+        isPrimary: true
+        contextKeywords:
+          - 退出机制
+        frequency: high
+    aliases:
+      - raw: 退市
+        aliasType: primary
+      - raw: 摘牌
+        aliasType: cn_alias
+      - raw: delisting
+        aliasType: en_alias
+      - raw: 强制退市
+        aliasType: cn_alias
+    viz:
+      type: RiskLadder
+      config:
+        initialStep: 3
+    insights:
+      affects:
+        - 资金：退市股流动性瞬间归零
+        - 壳价值：退市常态化让炒壳变扫雷
+        - 生态：优胜劣汰的市场组成部分
+      good:
+        - 出清烂公司，资源向优质企业集中
+        - 主动私有化：小股东溢价被收购
+      bad:
+        - 本金永久损失，无法回本
+        - 老三板流动性极差
+      policy:
+        - 退市新规：财务、交易、规范、重大违法四类标准
+        - 注册制下退市率上升
+      example: 球队降级：不是不能踢球，只是从顶级联赛降到公园野球场。你的门票（股票）几乎没人接手。
+  - slug: vie
+    headword: VIE
+    categoryL1: 交易制度
+    categoryL2: 上市架构
+    difficulty: L3
+    summaryPlain: 可变利益实体：境外公司用一纸协议控制境内公司，是中概股跨境上市的经典架构。
+    riskNote: 架构的法律有效性从未被完全确认，是中概股最大的政策灰区之一。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 可变利益实体：境外公司用一纸协议控制境内公司，是中概股跨境上市的经典架构。
+        example: 比如创业公司在开曼注册上市主体，再签协议控制境内的经营实体，美元基金的投资款这样进来出去。
+        notMeaning: 架构的法律有效性从未被完全确认，是中概股最大的政策灰区之一。
+        isPrimary: true
+        contextKeywords:
+          - 上市架构
+        frequency: high
+    aliases:
+      - raw: VIE
+        aliasType: primary
+      - raw: 协议控制
+        aliasType: cn_alias
+      - raw: 可变利益实体
+        aliasType: cn_alias
+    viz:
+      type: HkTypesCompare
+      config:
+        defaultKey: cn
+    insights:
+      affects:
+        - 融资：美元 VC/PE 进出中国的通道
+        - 上市：绕开外资准入限制挂牌美股港股
+        - 风险：监管口径一变就是系统性冲击
+      good:
+        - 协议控制结构成熟、案例多
+        - 备案制下路径更清晰
+      bad:
+        - 政策风险：协议有效性争议
+        - 两地监管都管：合规成本高
+      policy:
+        - 境外上市备案管理办法落地
+        - 数据安全、行业准入规则
+      example: 房东说这房照规定不能租给外国人，外国租客就和二房东签了份「代管协议」住进去。能用，但产权本本上没他名字——这就是协议的影子。
+  - slug: xi-gu
+    headword: 碎股
+    categoryL1: 交易制度
+    categoryL2: 交易单位
+    difficulty: L3
+    summaryPlain: 不足一手的零散股票：港股碎股流动性差，常要折价才能卖出。
+    riskNote: 碎股买卖价差大，自动撮合也常吃亏，别为凑整手多花钱。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 不足一手的零散股票：港股碎股流动性差，常要折价才能卖出。
+        example: 比如港股送股后多出 37 股，不够一手的部分只能折价处理。
+        notMeaning: 碎股买卖价差大，自动撮合也常吃亏，别为凑整手多花钱。
+        isPrimary: true
+        contextKeywords:
+          - 交易单位
+        frequency: mid
+    aliases:
+      - raw: 碎股
+        aliasType: primary
+      - raw: 零股
+        aliasType: cn_alias
+      - raw: odd lot
+        aliasType: en_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: 碎股：不够一袋的零头
+    insights:
+      affects:
+        - 持仓成本：碎股卖出常折价
+        - 流动性：专门市场清淡
+      good:
+        - 碎股收集器可帮小散归集
+      bad:
+        - 卖出价明显低于市价
+      policy:
+        - 港交所碎股市场规则
+      example: 超市散装糖果论颗买可以，论袋买要凑整。剩下的零头只能贱价处理。
+  - slug: yao-yue-shou-gou
+    headword: 要约收购
+    categoryL1: 交易制度
+    categoryL2: 收购
+    difficulty: L3
+    summaryPlain: 向全体股东公开出价买股票：要么全买要么走人。
+    riskNote: 要约价是硬承诺，股价常向要约价收敛；套利要防流产。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 向全体股东公开出价买股票：要么全买要么走人。
+        example: 比如收购方出价 12 元，股价从 9 元涨到 11.5 元，套利者吃差额。
+        notMeaning: 要约价是硬承诺，股价常向要约价收敛；套利要防流产。
+        isPrimary: true
+        contextKeywords:
+          - 收购
+        frequency: mid
+    aliases:
+      - raw: 要约收购
+        aliasType: primary
+      - raw: Tender Offer
+        aliasType: en_alias
+      - raw: 全面要约
+        aliasType: cn_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: 要约收购：明码全收
+    insights:
+      affects:
+        - 控制权争夺：终局手段
+        - 套利空间：要约价与市价差
+      good:
+        - 溢价要约：股东受益
+      bad:
+        - 要约流产：股价回落
+      policy:
+        - 港股 30% 触发全面要约
+      example: 小区整体收储：开发商贴公告「每户按 12 万一平全收」——你只能卖或不卖，不能砍价。
+  - slug: ye-pan
+    headword: 夜盘
+    categoryL1: 交易制度
+    categoryL2: 交易时段
+    difficulty: L1
+    summaryPlain: 部分券商提供的美股夜间交易：美股白天开盘时我们这里正是深夜。
+    riskNote: 夜盘时段流动性差、价差大，挂单可能成交在离谱的价格。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 部分券商提供的美股夜间交易：美股白天开盘时我们这里正是深夜。
+        example: 比如白天 A 股收盘后打开 App，还能接着买卖美股，但成交量稀稀拉拉。
+        notMeaning: 夜盘时段流动性差、价差大，挂单可能成交在离谱的价格。
+        isPrimary: true
+        contextKeywords:
+          - 交易时段
+        frequency: high
+    aliases:
+      - raw: 夜盘
+        aliasType: primary
+      - raw: 隔夜交易
+        aliasType: cn_alias
+      - raw: overnight trading
+        aliasType: en_alias
+    viz:
+      type: PrePostMarket
+      config: {}
+    insights:
+      affects:
+        - 时差便利：中国投资者不用熬夜也能交易美股
+        - 价格发现：提前反映美股预期
+        - 风险：薄市场里大单冲击成本高
+      good:
+        - 时间灵活，白天照样玩美股
+        - 抢跑美股开盘
+      bad:
+        - 点差奇大，止损难成交
+        - 部分券商品种少、功能受限
+      policy:
+        - 券商牌照和通道能力决定是否提供
+        - 美国延长交易时段监管变化
+      example: 24 小时便利店的夜间档口：能买到东西，但货少价高，泡面hurriedly卖完就没了。
+  - slug: yi-shou
+    headword: 每手
+    categoryL1: 交易制度
+    categoryL2: 交易单位
+    difficulty: L1
+    summaryPlain: 股票买卖的单位：A 股 100 股一手，港股每手股数因公司而异，美股 1 股起买。
+    riskNote: 港股买一手可能要几万块，下单前看清每手股数，别被「单价便宜」骗了。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 股票买卖的单位：A 股 100 股一手，港股每手股数因公司而异，美股 1 股起买。
+        example: 比如港股腾讯一买就是 100 股起，一次要十几万港币；某仙股 20000 股一手，单价低反而门槛更高。
+        notMeaning: 港股买一手可能要几万块，下单前看清每手股数，别被「单价便宜」骗了。
+        isPrimary: true
+        contextKeywords:
+          - 交易单位
+        frequency: high
+    aliases:
+      - raw: 每手
+        aliasType: primary
+      - raw: 一手
+        aliasType: cn_alias
+      - raw: board lot
+        aliasType: en_alias
+      - raw: 碎股
+        aliasType: cn_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: 一手 = 最小购物袋
+    insights:
+      affects:
+        - 资金门槛：每手大小直接影响小散参与
+        - 价格幻觉：股票便宜≠门槛低
+        - 成交：按手成交，不足一手按碎股处理
+      good:
+        - 美股 1 股起+碎股：几百块也能买苹果
+        - A 股 100 股：门槛低但单价高的股票也不便宜
+      bad:
+        - 港股碎股流动性差、卖出折价
+        - 最小单位=最小赌注，别被包装
+      policy:
+        - 各交易所交易单位规则
+        - 港交所不时检讨每手股数统一方案
+      example: 超市的大米不按粒卖，按袋卖：A 股一袋 100 股；美股按粒卖；港股每袋大小由掌柜定。零买碎米（碎股）不新鲜还便宜点。
+  - slug: yin-hua-shui
+    headword: 印花税
+    categoryL1: 交易制度
+    categoryL2: 交易税费
+    difficulty: L1
+    summaryPlain: 买卖股票要交的税：A 股卖出收千分之一，港美股普遍更低或免征。
+    riskNote: 频繁交易的话，税费是悄悄吞掉收益的老虎。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 买卖股票要交的税：A 股卖出收千分之一，港美股普遍更低或免征。
+        example: 比如一年里频繁买卖，光是卖出时缴的这一项就可能吃掉本金好几个百分点。
+        notMeaning: 频繁交易的话，税费是悄悄吞掉收益的老虎。
+        isPrimary: true
+        contextKeywords:
+          - 交易税费
+        frequency: high
+    aliases:
+      - raw: 印花税
+        aliasType: primary
+      - raw: 交易税费
+        aliasType: cn_alias
+      - raw: stamp duty
+        aliasType: en_alias
+    viz:
+      type: TurnoverPie
+      config:
+        title: 印花税：一小块切走
+    insights:
+      affects:
+        - 交易成本：直接减少净收益
+        - 换手率：税率高抑制过度交易
+        - 财政：股市的税收来源之一
+      good:
+        - 降低印花税：市场解读为利好
+        - 长期持有者成本趋近于零
+      bad:
+        - 重仓短线选手被反复抽税
+        - 卖出才收：割肉还要交钱
+      policy:
+        - 2008 年经下调至千分之一单边
+        - 历次调整都被视为政策底信号
+      example: 每次从 ATM 取钱都收 1 块手续费：取一次不心疼，一天取 50 次，手续费比利息还多。
+  - slug: zeng-chi-jian-chi
+    headword: 增持/减持
+    categoryL1: 交易制度
+    categoryL2: 股东行为
+    difficulty: L1
+    summaryPlain: 大股东和高管买入或卖出自家股票：最了解公司的人用钱投票。
+    riskNote: 减持猛于虎也未必准；增持可能是作秀护盘，要看规模和价格。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 大股东和高管买入或卖出自家股票：最了解公司的人用钱投票。
+        example: 比如董事长真金白银增持 1 个亿，市场解读为强烈看多信号。
+        notMeaning: 减持猛于虎也未必准；增持可能是作秀护盘，要看规模和价格。
+        isPrimary: true
+        contextKeywords:
+          - 股东行为
+        frequency: mid
+    aliases:
+      - raw: 增持/减持
+        aliasType: primary
+      - raw: 增持
+        aliasType: cn_alias
+      - raw: 减持
+        aliasType: cn_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: 内部人：买还是卖
+    insights:
+      affects:
+        - 信号价值：内部人信息优势
+        - 筹码结构：影响流通盘
+      good:
+        - 增持：底部区域的信心票
+        - 承诺不减持：稳定军心
+      bad:
+        - 清仓式减持：大股东跑路
+        - 公告增持实际迷你：作秀
+      policy:
+        - 减持新规限制比例与预披露
+        - 窗口期禁止买卖
+      example: 船长最先知道船往哪漏：他忙着补（增持）还是收拾救生艇（减持），比任何分析师报告都真实。
+  - slug: zhu-ce-zhi
+    headword: 注册制
+    categoryL1: 交易制度
+    categoryL2: 发行制度
+    difficulty: L2
+    summaryPlain: 新股上市从「家长审批」变成「考场自己审、监管部门备案」：核心是信息披露，不是监管背书。
+    riskNote: 上市变容易，退市也变容易；打新不再是稳赚，破发是常态风险。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 新股上市从「家长审批」变成「考场自己审、监管部门备案」：核心是信息披露，不是监管背书。
+        example: 比如新股上市前五天不设涨跌幅限制，有人中签一天翻倍也有人首日就亏。
+        notMeaning: 上市变容易，退市也变容易；打新不再是稳赚，破发是常态风险。
+        isPrimary: true
+        contextKeywords:
+          - 发行制度
+        frequency: high
+    aliases:
+      - raw: 注册制
+        aliasType: primary
+      - raw: 审核制
+        aliasType: cn_alias
+      - raw: IPO注册
+        aliasType: cn_alias
+    viz:
+      type: IpoLottery
+      config:
+        issuePrice: 20
+        rate: 0.02
+    insights:
+      affects:
+        - 新股供给：发行节奏市场化，壳价值下降
+        - 打新生态：无脑打新时代结束
+        - 市场分化：资金向优质公司集中
+      good:
+        - 好公司上市更快，融资效率提升
+        - 破发率上升倒逼理性定价
+      bad:
+        - 退市风险常态化，踩雷概率增加
+        - 炒新炒差套路逐步失效
+      policy:
+        - 交易所审核、证监会注册
+        - 从严打击欺诈发行、财务造假
+      example: 从「推荐上大学」（审批）到「自主招生+公示」（注册）：学校自己挑人、社会监督，名额多了，滥竽充数的也藏不住。
+  - slug: zhuan-rong-tong
+    headword: 转融通
+    categoryL1: 交易制度
+    categoryL2: 两融配套
+    difficulty: L3
+    summaryPlain: 金融机构之间互相出借证券和资金的平台：券商做两融的「弹药库」。
+    riskNote: 它决定了融券的来源和成本，影响做空的可行性。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 金融机构之间互相出借证券和资金的平台：券商做两融的「弹药库」。
+        example: 比如券商间的证券出借费率下调，融券成本降低，做空力量增强。
+        notMeaning: 它决定了融券的来源和成本，影响做空的可行性。
+        isPrimary: true
+        contextKeywords:
+          - 两融配套
+        frequency: mid
+    aliases:
+      - raw: 转融通
+        aliasType: primary
+      - raw: 证券出借
+        aliasType: cn_alias
+      - raw: " securities lending"
+        aliasType: en_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: 转融通：机构间的弹药库
+    insights:
+      affects:
+        - 融券余额：转融通放量=券源变多
+        - 定价：费率影响融券成本
+      good:
+        - 制度完善：多空工具更平衡
+      bad:
+        - 恶意做空的便利性提升
+      policy:
+        - 证金公司运营的官方平台
+      example: 央行是银行间的水龙头，转融通是券商间的证券水龙头——彼此拆借、互通有无。
+  - slug: zuo-kong
+    headword: 做空
+    categoryL1: 交易制度
+    categoryL2: 交易方向
+    difficulty: L2
+    summaryPlain: 先借股票卖掉，等跌便宜了再买回来还：靠下跌赚钱的路数。
+    riskNote: 亏损理论无上限；A 股散户能做空的工具少（融资融券/股指期货门槛高），别被忽悠。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 先借股票卖掉，等跌便宜了再买回来还：靠下跌赚钱的路数。
+        example: 比如某机构发报告质疑公司造假，同时借股票卖出，股价腰斩它就赚一半。
+        notMeaning: 亏损理论无上限；A 股散户能做空的工具少（融资融券/股指期货门槛高），别被忽悠。
+        isPrimary: true
+        contextKeywords:
+          - 交易方向
+        frequency: high
+    aliases:
+      - raw: 做空
+        aliasType: primary
+      - raw: 沽空
+        aliasType: cn_alias
+      - raw: short selling
+        aliasType: en_alias
+      - raw: 卖空
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: short
+    insights:
+      affects:
+        - 价格发现：做空让烂公司现形
+        - 对冲：机构给持仓上保险
+        - 波动：空头回补会加剧上涨
+      good:
+        - 揭露造假（做空报告）净化市场
+        - 下跌市也能赚，工具更完整
+      bad:
+        - 恶意做空+谣言操纵属违规
+        - 裸卖空、逼空风险
+      policy:
+        - A 股转融通、两融规则决定散户参与度
+        - 港美股做空机制成熟但成本高
+      example: 看天气预报说明天暴雨：你向花农赊一束花今天卖掉，明天花价跌了再买一束还回去——低买高还赚差价，但万一天晴花价涨，你得赔钱买回来。

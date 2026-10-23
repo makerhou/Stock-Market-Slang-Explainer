@@ -1,0 +1,167 @@
+category: 走势形态
+source: import wave 4 from 10_技术分析.tsv + 领域知识 (2026-10-22) — 反转/持续形态，长尾层；示例已改写成无黑话/无建议词
+terms:
+  - slug: huang-hun-zhi-xing
+    headword: 黄昏之星
+    categoryL1: 走势形态
+    categoryL2: K线形态
+    difficulty: L2
+    summaryPlain: 上涨高位的三根K线组合：一根长阳线，跟着一根位置更高的小实体星线，再一根长阴线收回到第一根阳线体内，属见顶反转信号。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 上涨高位的三根K线组合：一根长阳线，跟着一根位置更高的小实体星线，再一根长阴线收回到第一根阳线体内，属见顶反转信号。
+        example: 高位出现黄昏之星，往往提示涨势可能告一段落。
+        isPrimary: true
+    aliases:
+      - raw: 黄昏之星
+        aliasType: primary
+      - raw: Evening Star
+        aliasType: en_alias
+  - slug: huang-hun-shi-zi-xing
+    headword: 黄昏十字星
+    categoryL1: 走势形态
+    categoryL2: K线形态
+    difficulty: L3
+    summaryPlain: 黄昏之星中间那根星线为十字星时的特殊形态，见顶意味更强。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 黄昏之星中间那根星线为十字星时的特殊形态，见顶意味更强。
+        example: 黄昏十字星出现在高位时，见顶意味更强。
+        isPrimary: true
+    aliases:
+      - raw: 黄昏十字星
+        aliasType: primary
+      - raw: Evening Doji Star
+        aliasType: en_alias
+  - slug: wu-yun-gai-ding
+    headword: 乌云盖顶
+    categoryL1: 走势形态
+    categoryL2: K线形态
+    difficulty: L2
+    summaryPlain: 上涨一段后，次日开盘高出前一日高点、收盘却回到前一根阳线实体内，是偏空的反转信号。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 上涨一段后，次日开盘高出前一日高点、收盘却回到前一根阳线实体内，是偏空的反转信号。
+        example: 出现乌云盖顶，常提醒上方压力加大。
+        isPrimary: true
+    aliases:
+      - raw: 乌云盖顶
+        aliasType: primary
+      - raw: Dark Cloud Cover
+        aliasType: en_alias
+  - slug: chuan-ci-xing-tai
+    headword: 穿刺形态
+    categoryL1: 走势形态
+    categoryL2: K线形态
+    difficulty: L2
+    summaryPlain: 下跌一段后，次日开盘低于前一日低点、收盘却回到前一根阴线实体内，是偏多的反转信号。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 下跌一段后，次日开盘低于前一日低点、收盘却回到前一根阴线实体内，是偏多的反转信号。
+        example: 出现穿刺形态，常提示下方承接转强。
+        isPrimary: true
+    aliases:
+      - raw: 穿刺形态
+        aliasType: primary
+      - raw: Piercing Pattern
+        aliasType: en_alias
+  - slug: v-xing-fan-zhuan
+    headword: V形反转
+    categoryL1: 走势形态
+    categoryL2: 反转形态
+    difficulty: L2
+    summaryPlain: 股价急跌后在很短时间内急剧反向拉升、形态像字母V的剧烈反转。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价急跌后在很短时间内急剧反向拉升、形态像字母V的剧烈反转。
+        example: V形反转来得又快又猛，常在预期急剧变化后出现。
+        isPrimary: true
+    aliases:
+      - raw: V形反转
+        aliasType: primary
+      - raw: V-Reversal
+        aliasType: en_alias
+      - raw: V型反转
+        aliasType: cn_alias
+  - slug: yuan-hu-di
+    headword: 圆弧底
+    categoryL1: 走势形态
+    categoryL2: 反转形态
+    difficulty: L2
+    summaryPlain: 股价在底部缓慢走出碗形、多空力量逐渐转换的缓慢反转形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 股价在底部缓慢走出碗形、多空力量逐渐转换的缓慢反转形态。
+        example: 圆弧底形成缓慢，确认后往往对应一轮较长的升势。
+        isPrimary: true
+    aliases:
+      - raw: 圆弧底
+        aliasType: primary
+      - raw: Rounding Bottom
+        aliasType: en_alias
+  - slug: yuan-hu-ding
+    headword: 圆弧顶
+    categoryL1: 走势形态
+    categoryL2: 反转形态
+    difficulty: L2
+    summaryPlain: 股价在顶部缓慢走出拱形、多空力量逐渐转换的缓慢反转形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价在顶部缓慢走出拱形、多空力量逐渐转换的缓慢反转形态。
+        example: 圆弧顶形成缓慢，确认后往往对应一轮较长的跌势。
+        isPrimary: true
+    aliases:
+      - raw: 圆弧顶
+        aliasType: primary
+      - raw: Rounding Top
+        aliasType: en_alias
+  - slug: shang-sheng-san-fa
+    headword: 上升三法
+    categoryL1: 走势形态
+    categoryL2: 持续形态
+    difficulty: L3
+    summaryPlain: 上涨过程中一根长阳线后跟几根小阴线整理、再一根长阳创新高的持续形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上涨过程中一根长阳线后跟几根小阴线整理、再一根长阳创新高的持续形态。
+        example: 上升三法是常见的上涨持续形态。
+        isPrimary: true
+    aliases:
+      - raw: 上升三法
+        aliasType: primary
+      - raw: Rising Three Methods
+        aliasType: en_alias
+  - slug: xia-jiang-san-fa
+    headword: 下降三法
+    categoryL1: 走势形态
+    categoryL2: 持续形态
+    difficulty: L3
+    summaryPlain: 下跌过程中一根长阴线后跟几根小阳线整理、再一根长阴创新低的持续形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 下跌过程中一根长阴线后跟几根小阳线整理、再一根长阴创新低的持续形态。
+        example: 下降三法是常见的下跌持续形态。
+        isPrimary: true
+    aliases:
+      - raw: 下降三法
+        aliasType: primary
+      - raw: Falling Three Methods
+        aliasType: en_alias

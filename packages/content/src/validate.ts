@@ -45,7 +45,8 @@ export function loadRules(rootDir: string = process.cwd()): Rules {
 
 function toRegExp(pat: string): RegExp {
   const m = pat.match(/^\/(.*)\/([a-z]*)$/);
-  return new RegExp(m ? m[1] : pat, m ? m[2] : "");
+  if (m) return new RegExp(m[1] ?? pat, m[2] ?? "");
+  return new RegExp(pat);
 }
 
 /** 名词化 / 否定 / 语境 豁免判定（对应 banned-words.yaml 的 N1/N2/N3） */
@@ -74,19 +75,18 @@ function isExempt(text: string, idx: number, rules: Rules): boolean {
 }
 
 /**
- * 校验单个词条（front-matter + 正文）。
- * 覆盖 CI 硬门：字段校验(Zod) / 强禁词 / 弱禁词+豁免 / 零黑话词典 / 祈使句式 / 字数 / 免责。
+ * 内容门（不依赖 front-matter schema，可复用于 mdx 与批量 ingestion）：
+ * 强禁词 / 弱禁词+豁免 / 零黑话词典 / 祈使句式 / 举例空泛 / 免责声明。
+ * fm 需提供 slug / headword / plain_explain / example / risk_note（缺省 optional）。
  */
-export function validateTerm(
+export function runContentGates(
   fm: unknown,
   body: string,
   rules: Rules,
-): TermValidationResult {
+): Issue[] {
   const issues: Issue[] = [];
   const banned = rules.banned as any;
   const jargon = rules.jargon as any;
-  const slug = (fm as any)?.slug ?? "(unknown)";
-
   const fmAny = fm as any;
   const allText = [fmAny?.plain_explain, fmAny?.example, body]
     .filter(Boolean)
@@ -96,20 +96,7 @@ export function validateTerm(
     .filter(Boolean)
     .join("\n");
 
-  // 1. Zod 字段校验（slug / 分类合法性 / C6 / C7 / C10）
-  const parsed = termFrontMatterSchema.safeParse(fm);
-  if (!parsed.success) {
-    for (const e of parsed.error.issues) {
-      issues.push({
-        field: e.path.join(".") || "*",
-        rule: "schema",
-        message: e.message,
-        severity: "block",
-      });
-    }
-  }
-
-  // 2. 强禁词（任何字段都不得出现）
+  // 1. 强禁词（任何字段都不得出现）
   for (const w of banned.strong_banned ?? []) {
     if (allText.includes(w)) {
       issues.push({
@@ -121,7 +108,7 @@ export function validateTerm(
     }
   }
 
-  // 3. 弱禁词 + 豁免（N1/N2/N3）—— 仅针对人话层
+  // 2. 弱禁词 + 豁免（N1/N2/N3）—— 仅针对人话层
   for (const w of banned.weak_banned ?? []) {
     let idx = humanText.indexOf(w);
     while (idx !== -1) {
@@ -138,7 +125,7 @@ export function validateTerm(
     }
   }
 
-  // 4. 零黑话词典（jargon 类一律违规；contextual 类需搭配判定）—— 仅针对人话层
+  // 3. 零黑话词典（jargon 类一律违规；contextual 类需搭配判定）—— 仅针对人话层
   const headword = fmAny?.headword ?? "";
   for (const t of jargon.terms ?? []) {
     if (!humanText.includes(t.surface)) continue;
@@ -170,7 +157,7 @@ export function validateTerm(
     }
   }
 
-  // 5. 祈使句式检测（plain_explain/example 字段级 block）
+  // 4. 祈使句式检测（plain_explain/example 字段级 block）
   if ((banned.imperative_field_policy?.plain_explain ?? "block") === "block") {
     for (const p of banned.imperative_patterns ?? []) {
       if (toRegExp(p.pattern).test(fmAny?.plain_explain ?? "") ||
@@ -186,7 +173,7 @@ export function validateTerm(
     }
   }
 
-  // 6. 举例空泛提示（review）
+  // 5. 举例空泛提示（review）
   if (
     fmAny?.example &&
     /在股市中|一般来说|通常情况下|这个就不用多说了/.test(fmAny.example)
@@ -199,7 +186,7 @@ export function validateTerm(
     });
   }
 
-  // 7. 免责存在（L1/L2 合规红线）
+  // 6. 免责存在（L1/L2 合规红线）
   const hasDisclaimer =
     fmAny?.risk_note ||
     (body ?? "").includes("不构成投资建议") ||
@@ -212,6 +199,37 @@ export function validateTerm(
       severity: "block",
     });
   }
+
+  return issues;
+}
+
+/**
+ * 校验单个词条（front-matter + 正文）。
+ * 覆盖 CI 硬门：字段校验(Zod) / 强禁词 / 弱禁词+豁免 / 零黑话词典 / 祈使句式 / 字数 / 免责。
+ */
+export function validateTerm(
+  fm: unknown,
+  body: string,
+  rules: Rules,
+): TermValidationResult {
+  const issues: Issue[] = [];
+  const slug = (fm as any)?.slug ?? "(unknown)";
+
+  // 1. Zod 字段校验（slug / 分类合法性 / C6 / C7 / C10）
+  const parsed = termFrontMatterSchema.safeParse(fm);
+  if (!parsed.success) {
+    for (const e of parsed.error.issues) {
+      issues.push({
+        field: e.path.join(".") || "*",
+        rule: "schema",
+        message: e.message,
+        severity: "block",
+      });
+    }
+  }
+
+  // 2-7. 内容门（与批量 ingestion 复用同一套）
+  issues.push(...runContentGates(fm, body, rules));
 
   return {
     slug,

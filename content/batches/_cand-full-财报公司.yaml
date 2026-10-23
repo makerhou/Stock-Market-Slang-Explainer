@@ -1,0 +1,6082 @@
+source: gen from full.tsv --all 市场×类型×关键词路由 (待精修)
+terms:
+  - slug: p-c-f-shi-xian-l
+    headword: PCF/市现率
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价与经营现金流之比，相比利润更难被会计手段调节。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 股价与经营现金流之比，相比利润更难被会计手段调节。
+        example: PCF/市现率持续高于同行，说明估值偏贵。
+        isPrimary: true
+    aliases:
+      - raw: PCF/市现率
+        aliasType: primary
+      - raw: PCF
+        aliasType: en_alias
+      - raw: P/FCF
+        aliasType: en_alias
+      - raw: Price to Cash Flow
+        aliasType: en_alias
+  - slug: i-f-r-s-h-k-f-r-s-c-a-s
+    headword: IFRS/HKFRS/CAS
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 国际、香港与中国内地三套不同的企业会计准则，跨市场比较报表需注意口径差异。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 国际、香港与中国内地三套不同的企业会计准则，跨市场比较报表需注意口径差异。
+        example: 按IFRS/HKFRS/CAS调整后，两家公司利润口径才可比。
+        isPrimary: true
+    aliases:
+      - raw: IFRS/HKFRS/CAS
+        aliasType: primary
+      - raw: IFRS
+        aliasType: en_alias
+      - raw: HKFRS
+        aliasType: en_alias
+      - raw: CAS
+        aliasType: en_alias
+      - raw: 国际会计准则
+        aliasType: cn_alias
+      - raw: 香港准则
+        aliasType: cn_alias
+      - raw: 中国准则
+        aliasType: cn_alias
+  - slug: mei-yong-hu-ping-jun-shou-ru
+    headword: 每用户平均收入
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 一段时间总收入除以平均用户数，是互联网与电信公司的核心运营指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 一段时间总收入除以平均用户数，是互联网与电信公司的核心运营指标。
+        example: ARPU提升，说明用户付费意愿在增强。
+        isPrimary: true
+    aliases:
+      - raw: 每用户平均收入
+        aliasType: primary
+      - raw: ARPU
+        aliasType: en_alias
+      - raw: Average Revenue Per User
+        aliasType: en_alias
+  - slug: c-a-c-l-t-v
+    headword: CAC/LTV
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 获客成本与客户终身价值之比，LTV大于CAC才是健康的商业模式。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 获客成本与客户终身价值之比，LTV大于CAC才是健康的商业模式。
+        example: CAC/LTV比值失衡，说明获客投入可能并不划算。
+        isPrimary: true
+    aliases:
+      - raw: CAC/LTV
+        aliasType: primary
+      - raw: CAC
+        aliasType: en_alias
+      - raw: LTV
+        aliasType: en_alias
+      - raw: Customer Acquisition Cost
+        aliasType: en_alias
+      - raw: Lifetime Value
+        aliasType: en_alias
+  - slug: suo-de-shui-fei-yong
+    headword: 所得税费用
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业当期应交所得税加递延所得税后的合计费用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业当期应交所得税加递延所得税后的合计费用。
+        example: 所得税费用同比上升，主要因利润结构变化。
+        isPrimary: true
+    aliases:
+      - raw: 所得税费用
+        aliasType: primary
+      - raw: Income Tax Expense
+        aliasType: en_alias
+  - slug: qi-jian-fei-yong-l
+    headword: 期间费用率
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 销售、管理、财务三项费用合计占营业收入的比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 销售、管理、财务三项费用合计占营业收入的比例。
+        example: 期间费用率持续下降，公司费用效率不断提升。
+        isPrimary: true
+    aliases:
+      - raw: 期间费用率
+        aliasType: primary
+      - raw: Period Expense Ratio
+        aliasType: en_alias
+  - slug: xiao-shou-fei-yong-l
+    headword: 销售费用率
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 销售费用占营业收入的比重，反映获客与渠道投入强度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 销售费用占营业收入的比重，反映获客与渠道投入强度。
+        example: 销售费用率走高，说明获客成本在上升。
+        isPrimary: true
+    aliases:
+      - raw: 销售费用率
+        aliasType: primary
+      - raw: Selling Expense Ratio
+        aliasType: en_alias
+  - slug: yan-fa-fei-yong-l
+    headword: 研发费用率
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 研发费用占营业收入的比重，反映公司对技术投入的重视程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 研发费用占营业收入的比重，反映公司对技术投入的重视程度。
+        example: 研发费用率维持在一成以上，技术驱动特征明显。
+        isPrimary: true
+    aliases:
+      - raw: 研发费用率
+        aliasType: primary
+      - raw: R&D Expense Ratio
+        aliasType: en_alias
+  - slug: cai-wu-fei-yong-l
+    headword: 财务费用率
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 财务费用占营业收入的比重，反映融资成本对利润的侵蚀。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 财务费用占营业收入的比重，反映融资成本对利润的侵蚀。
+        example: 财务费用率随带息负债下降而走低。
+        isPrimary: true
+    aliases:
+      - raw: 财务费用率
+        aliasType: primary
+      - raw: Financial Expense Ratio
+        aliasType: en_alias
+  - slug: suo-de-shui-l
+    headword: 所得税率
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 所得税费用占利润总额的比例，衡量企业整体税负水平。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 所得税费用占利润总额的比例，衡量企业整体税负水平。
+        example: 所得税率波动较大，主要受税收优惠变化影响。
+        isPrimary: true
+    aliases:
+      - raw: 所得税率
+        aliasType: primary
+      - raw: Effective Tax Rate
+        aliasType: en_alias
+  - slug: kuai-ji-li-run
+    headword: 会计利润
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按会计准则核算的利润总额，与税务口径的应税所得存在差异。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按会计准则核算的利润总额，与税务口径的应税所得存在差异。
+        example: 会计利润与应税所得不同，需要做纳税调整。
+        isPrimary: true
+    aliases:
+      - raw: 会计利润
+        aliasType: primary
+      - raw: Accounting Profit
+        aliasType: en_alias
+  - slug: na-shui-tiao-zheng
+    headword: 纳税调整
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 税法与会计口径不一致时，对应纳税所得额进行的调增或调减。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 税法与会计口径不一致时，对应纳税所得额进行的调增或调减。
+        example: 纳税调整事项众多，递延所得税随之变动。
+        isPrimary: true
+    aliases:
+      - raw: 纳税调整
+        aliasType: primary
+      - raw: Tax Adjustment
+        aliasType: en_alias
+  - slug: zhui-su-tiao-zheng
+    headword: 追溯调整
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对前期差错或会计政策变更视同一直采用新方法调整报表的做法。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对前期差错或会计政策变更视同一直采用新方法调整报表的做法。
+        example: 该事项采用追溯调整，导致上年报表重述。
+        isPrimary: true
+    aliases:
+      - raw: 追溯调整
+        aliasType: primary
+      - raw: Retrospective Adjustment
+        aliasType: en_alias
+  - slug: kuai-ji-gu-ji-bian-geng
+    headword: 会计估计变更
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 因资产负债状况变化而调整折旧年限、坏账比例等估计，未来适用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 因资产负债状况变化而调整折旧年限、坏账比例等估计，未来适用。
+        example: 会计估计变更延长折旧年限，当期利润被动增厚。
+        isPrimary: true
+    aliases:
+      - raw: 会计估计变更
+        aliasType: primary
+      - raw: Change in Accounting Estimate
+        aliasType: en_alias
+  - slug: ying-ye-zong-cheng-ben
+    headword: 营业总成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 营业成本加上各项费用和税金后的经营成本合计。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 营业成本加上各项费用和税金后的经营成本合计。
+        example: 营业总成本刚性上升，挤压利润空间。
+        isPrimary: true
+    aliases:
+      - raw: 营业总成本
+        aliasType: primary
+      - raw: Total Operating Cost
+        aliasType: en_alias
+  - slug: li-xi-fei-yong
+    headword: 利息费用
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业当期带息负债实际承担的利息支出，是财务费用的主要部分。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业当期带息负债实际承担的利息支出，是财务费用的主要部分。
+        example: 利息费用随债务规模扩大而上升，加重偿债压力。
+        isPrimary: true
+    aliases:
+      - raw: 利息费用
+        aliasType: primary
+      - raw: Interest Expense
+        aliasType: en_alias
+  - slug: zi-chan-chu-zhi-shou-yi
+    headword: 资产处置收益
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 出售固定资产、无形资产等非流动资产产生的处置利得或损失。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 出售固定资产、无形资产等非流动资产产生的处置利得或损失。
+        example: 资产处置收益偶发性强，不能当作持续利润。
+        isPrimary: true
+    aliases:
+      - raw: 资产处置收益
+        aliasType: primary
+      - raw: Gain on Disposal of Assets
+        aliasType: en_alias
+  - slug: ying-ye-wai-shou-ru
+    headword: 营业外收入
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 与日常经营无直接关系的偶发性收入，如捐赠、罚没收入。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 与日常经营无直接关系的偶发性收入，如捐赠、罚没收入。
+        example: 营业外收入占比极小，不影响对主业的判断。
+        isPrimary: true
+    aliases:
+      - raw: 营业外收入
+        aliasType: primary
+      - raw: Non-operating Income
+        aliasType: en_alias
+  - slug: qi-ta-zong-he-shou-yi
+    headword: 其他综合收益
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 未计入当期损益、直接计入权益的利得和损失，如可供出售金融资产公允价值变动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 未计入当期损益、直接计入权益的利得和损失，如可供出售金融资产公允价值变动。
+        example: 其他综合收益波动大，不属于已实现利润。
+        isPrimary: true
+    aliases:
+      - raw: 其他综合收益
+        aliasType: primary
+      - raw: Other Comprehensive Income
+        aliasType: en_alias
+      - raw: OCI
+        aliasType: en_alias
+  - slug: you-xiao-shui-l
+    headword: 有效税率
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 所得税费用除以税前利润的实际负担比率，受优惠与抵免影响。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 所得税费用除以税前利润的实际负担比率，受优惠与抵免影响。
+        example: 有效税率远低于名义税率，受益于高新企业优惠。
+        isPrimary: true
+    aliases:
+      - raw: 有效税率
+        aliasType: primary
+      - raw: Effective Tax Rate
+        aliasType: en_alias
+  - slug: shui-qian-li-run
+    headword: 税前利润
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 扣除所得税之前的利润，等于利润总额口径，是税前后分析的分界。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 扣除所得税之前的利润，等于利润总额口径，是税前后分析的分界。
+        example: 税前利润稳健，所得税波动未影响经营趋势。
+        isPrimary: true
+    aliases:
+      - raw: 税前利润
+        aliasType: primary
+      - raw: Pretax Income
+        aliasType: en_alias
+  - slug: zhu-ying-ye-wu-shou-ru
+    headword: 主营业务收入
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业主要经营业务取得的收入，是收入分析的核心构成。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 企业主要经营业务取得的收入，是收入分析的核心构成。
+        example: 主营业务收入占比超九成，业务高度聚焦。
+        isPrimary: true
+    aliases:
+      - raw: 主营业务收入
+        aliasType: primary
+      - raw: Main Business Revenue
+        aliasType: en_alias
+  - slug: zhu-ying-ye-wu-cheng-ben
+    headword: 主营业务成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 与主营业务收入直接配比的成本部分。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 与主营业务收入直接配比的成本部分。
+        example: 主营业务成本上升，主要因原材料涨价。
+        isPrimary: true
+    aliases:
+      - raw: 主营业务成本
+        aliasType: primary
+      - raw: Main Business Cost
+        aliasType: en_alias
+  - slug: yan-fa-zi-ben-hua
+    headword: 研发资本化
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 符合条件的开发支出不计入当期费用、而确认为无形资产的处理方式。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 符合条件的开发支出不计入当期费用、而确认为无形资产的处理方式。
+        example: 研发资本化比例提高，是美化当期利润的常见手法。
+        isPrimary: true
+    aliases:
+      - raw: 研发资本化
+        aliasType: primary
+      - raw: 研发费用资本化
+        aliasType: cn_alias
+  - slug: zi-chan-fu-zhai-biao
+    headword: 资产负债表
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 反映企业某一时点资产、负债与所有者权益状况的会计报表，是财务分析的基石。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 反映企业某一时点资产、负债与所有者权益状况的会计报表，是财务分析的基石。
+        example: 资产负债表显示公司账上现金充裕、负债稳健。
+        isPrimary: true
+    aliases:
+      - raw: 资产负债表
+        aliasType: primary
+      - raw: Balance Sheet
+        aliasType: en_alias
+  - slug: zong-zi-chan
+    headword: 总资产
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业拥有或控制的全部资产合计，反映经营规模大小。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 企业拥有或控制的全部资产合计，反映经营规模大小。
+        example: 总资产快速扩张，说明公司在积极并购与扩产。
+        isPrimary: true
+    aliases:
+      - raw: 总资产
+        aliasType: primary
+      - raw: Total Assets
+        aliasType: en_alias
+  - slug: zong-fu-zhai
+    headword: 总负债
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业承担的全部负债合计，是衡量债务负担的总量口径。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 企业承担的全部负债合计，是衡量债务负担的总量口径。
+        example: 总负债增速高于资产增速，杠杆水平被动上升。
+        isPrimary: true
+    aliases:
+      - raw: 总负债
+        aliasType: primary
+      - raw: Total Liabilities
+        aliasType: en_alias
+  - slug: jing-zi-chan
+    headword: 净资产
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 总资产减去总负债后的所有者权益净额，即股东可主张的剩余价值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 总资产减去总负债后的所有者权益净额，即股东可主张的剩余价值。
+        example: 净资产稳步增厚，说明公司在持续积累价值。
+        isPrimary: true
+    aliases:
+      - raw: 净资产
+        aliasType: primary
+      - raw: Net Assets
+        aliasType: en_alias
+      - raw: Equity
+        aliasType: en_alias
+  - slug: gu-dong-quan-yi
+    headword: 股东权益
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资产扣除负债后归属于股东的剩余权益，含股本、资本公积与留存收益。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 资产扣除负债后归属于股东的剩余权益，含股本、资本公积与留存收益。
+        example: 股东权益结构中未分配利润占大头，盈利积累扎实。
+        isPrimary: true
+    aliases:
+      - raw: 股东权益
+        aliasType: primary
+      - raw: Shareholders' Equity
+        aliasType: en_alias
+  - slug: liu-dong-fu-zhai
+    headword: 流动负债
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 一年内到期需偿还的负债，如短期借款、应付账款与合同负债。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 一年内到期需偿还的负债，如短期借款、应付账款与合同负债。
+        example: 流动负债集中到期，公司面临短期再融资压力。
+        isPrimary: true
+    aliases:
+      - raw: 流动负债
+        aliasType: primary
+      - raw: Current Liabilities
+        aliasType: en_alias
+  - slug: ying-shou-zhang-kuan
+    headword: 应收账款
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业因销售商品或提供服务应向客户收取但尚未收回的款项。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 企业因销售商品或提供服务应向客户收取但尚未收回的款项。
+        example: 应收账款增速快于收入，回款风险需要警惕。
+        isPrimary: true
+    aliases:
+      - raw: 应收账款
+        aliasType: primary
+      - raw: Accounts Receivable
+        aliasType: en_alias
+  - slug: ying-shou-piao-ju
+    headword: 应收票据
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业收到的商业承兑或银行承兑汇票，未来可到期收款或贴现。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业收到的商业承兑或银行承兑汇票，未来可到期收款或贴现。
+        example: 应收票据以银行承兑为主，坏账风险相对可控。
+        isPrimary: true
+    aliases:
+      - raw: 应收票据
+        aliasType: primary
+      - raw: Notes Receivable
+        aliasType: en_alias
+  - slug: cun-huo
+    headword: 存货
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业在日常活动中持有的原材料、在产品、产成品等，是重要流动资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 企业在日常活动中持有的原材料、在产品、产成品等，是重要流动资产。
+        example: 存货积压可能面临跌价计提，压制未来利润。
+        isPrimary: true
+    aliases:
+      - raw: 存货
+        aliasType: primary
+      - raw: Inventory
+        aliasType: en_alias
+  - slug: qi-ta-ying-shou-kuan
+    headword: 其他应收款
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 除应收票据、账款外的各种暂付应收款项，常被视作藏污纳垢科目。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 除应收票据、账款外的各种暂付应收款项，常被视作藏污纳垢科目。
+        example: 其他应收款大额挂账，需警惕关联方资金占用。
+        isPrimary: true
+    aliases:
+      - raw: 其他应收款
+        aliasType: primary
+      - raw: Other Receivables
+        aliasType: en_alias
+  - slug: gu-ding-zi-chan
+    headword: 固定资产
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业为生产经营持有的、使用寿命超过一年的有形资产，如厂房设备。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 企业为生产经营持有的、使用寿命超过一年的有形资产，如厂房设备。
+        example: 固定资产成新率高，说明产能仍较新。
+        isPrimary: true
+    aliases:
+      - raw: 固定资产
+        aliasType: primary
+      - raw: Fixed Assets
+        aliasType: en_alias
+      - raw: PP&E
+        aliasType: en_alias
+  - slug: shi-yong-quan-zi-chan
+    headword: 使用权资产
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新租赁准则下承租人可在租期内使用标的资产的权利，确认为一项资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 新租赁准则下承租人可在租期内使用标的资产的权利，确认为一项资产。
+        example: 使用权资产随租赁扩张而增加，资产负债同步膨胀。
+        isPrimary: true
+    aliases:
+      - raw: 使用权资产
+        aliasType: primary
+      - raw: Right-of-Use Asset
+        aliasType: en_alias
+  - slug: chang-qi-ying-shou-kuan
+    headword: 长期应收款
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 回收期限在一年以上的应收款项，如分期销售形成的长期债权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 回收期限在一年以上的应收款项，如分期销售形成的长期债权。
+        example: 长期应收款回收周期长，需关注减值。
+        isPrimary: true
+    aliases:
+      - raw: 长期应收款
+        aliasType: primary
+      - raw: Long-term Receivables
+        aliasType: en_alias
+  - slug: ying-fu-zhang-kuan
+    headword: 应付账款
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 因购买材料商品或接受劳务应付未付的款项，是无息的经营性负债。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 因购买材料商品或接受劳务应付未付的款项，是无息的经营性负债。
+        example: 应付账款周转天数拉长，说明公司对上游占款能力强。
+        isPrimary: true
+    aliases:
+      - raw: 应付账款
+        aliasType: primary
+      - raw: Accounts Payable
+        aliasType: en_alias
+  - slug: ying-fu-piao-ju
+    headword: 应付票据
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业开出的商业承兑或银行承兑汇票，到期需无条件支付。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 企业开出的商业承兑或银行承兑汇票，到期需无条件支付。
+        example: 应付票据集中到期，短期支付压力上升。
+        isPrimary: true
+    aliases:
+      - raw: 应付票据
+        aliasType: primary
+      - raw: Notes Payable
+        aliasType: en_alias
+  - slug: ying-fu-zhi-gong-xin-chou
+    headword: 应付职工薪酬
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 已计提尚未支付给职工的工资、奖金、社保等薪酬。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 已计提尚未支付给职工的工资、奖金、社保等薪酬。
+        example: 应付职工薪酬计提充分，不存在拖欠工资。
+        isPrimary: true
+    aliases:
+      - raw: 应付职工薪酬
+        aliasType: primary
+      - raw: Employee Benefits Payable
+        aliasType: en_alias
+  - slug: qi-ta-ying-fu-kuan
+    headword: 其他应付款
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 除应付票据账款外的各种暂收应付款项，需关注异常挂账。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 除应付票据账款外的各种暂收应付款项，需关注异常挂账。
+        example: 其他应付款大额异常，可能隐藏关联方资金往来。
+        isPrimary: true
+    aliases:
+      - raw: 其他应付款
+        aliasType: primary
+      - raw: Other Payables
+        aliasType: en_alias
+  - slug: yi-nian-nei-dao-qi-de-fei-liu-dong-fu-zhai
+    headword: 一年内到期的非流动负债
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 长期借款、应付债券等中将在一年内到期偿还的部分。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 长期借款、应付债券等中将在一年内到期偿还的部分。
+        example: 一年内到期的非流动负债规模大，短债压力突出。
+        isPrimary: true
+    aliases:
+      - raw: 一年内到期的非流动负债
+        aliasType: primary
+      - raw: Non-current Liability Due within One Year
+        aliasType: en_alias
+  - slug: ying-fu-zhai-quan
+    headword: 应付债券
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业为筹资发行的公司债券余额，按摊余成本后续计量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 企业为筹资发行的公司债券余额，按摊余成本后续计量。
+        example: 应付债券票面利率锁定，偿债压力相对可预期。
+        isPrimary: true
+    aliases:
+      - raw: 应付债券
+        aliasType: primary
+      - raw: Bonds Payable
+        aliasType: en_alias
+  - slug: zu-lin-fu-zhai
+    headword: 租赁负债
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新租赁准则下承租人尚未支付的租赁付款额现值，确认为一项负债。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 新租赁准则下承租人尚未支付的租赁付款额现值，确认为一项负债。
+        example: 租赁负债随门店扩张同步上升，影响资产负债率。
+        isPrimary: true
+    aliases:
+      - raw: 租赁负债
+        aliasType: primary
+      - raw: Lease Liability
+        aliasType: en_alias
+  - slug: biao-wai-fu-zhai
+    headword: 表外负债
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 未在资产负债表内确认、但可能形成实际偿付义务的负债。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 未在资产负债表内确认、但可能形成实际偿付义务的负债。
+        example: 表外负债如明股实债，是排查财务风险的重点。
+        isPrimary: true
+    aliases:
+      - raw: 表外负债
+        aliasType: primary
+      - raw: Off-Balance-Sheet Liability
+        aliasType: en_alias
+  - slug: zi-chan-fu-zhai-biao-ri-hou-shi-xiang
+    headword: 资产负债表日后事项
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资产负债表日至财报批准报出日之间发生的有利或不利事项。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 资产负债表日至财报批准报出日之间发生的有利或不利事项。
+        example: 资产负债表日后事项中的大额诉讼需单独披露。
+        isPrimary: true
+    aliases:
+      - raw: 资产负债表日后事项
+        aliasType: primary
+      - raw: Events after Balance Sheet Date
+        aliasType: en_alias
+  - slug: zi-chan-he-xiao
+    headword: 资产核销
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对确实无法收回的应收款或已报废资产进行账面转销处理。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 对确实无法收回的应收款或已报废资产进行账面转销处理。
+        example: 资产核销集中处理历史包袱，轻装上阵。
+        isPrimary: true
+    aliases:
+      - raw: 资产核销
+        aliasType: primary
+      - raw: Asset Write-off
+        aliasType: en_alias
+  - slug: you-xi-fu-zhai
+    headword: 有息负债
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 需要支付利息的带息债务合计，是计算净负债的基础。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 需要支付利息的带息债务合计，是计算净负债的基础。
+        example: 有息负债规模决定公司的实际利息负担。
+        isPrimary: true
+    aliases:
+      - raw: 有息负债
+        aliasType: primary
+      - raw: Interest-bearing Debt
+        aliasType: en_alias
+  - slug: liu-cun-shou-yi
+    headword: 留存收益
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业历年实现利润中留存下来的累积盈余，含盈余公积和未分配利润。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 企业历年实现利润中留存下来的累积盈余，含盈余公积和未分配利润。
+        example: 留存收益持续增长，是公司内生积累的体现。
+        isPrimary: true
+    aliases:
+      - raw: 留存收益
+        aliasType: primary
+      - raw: Retained Earnings
+        aliasType: en_alias
+  - slug: zhang-ling-fen-xi
+    headword: 账龄分析
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按应收款拖欠时间长短分组分析，用于评估坏账风险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 按应收款拖欠时间长短分组分析，用于评估坏账风险。
+        example: 账龄分析显示一年以上应收占比上升，风险在累积。
+        isPrimary: true
+    aliases:
+      - raw: 账龄分析
+        aliasType: primary
+      - raw: Aging Analysis
+        aliasType: en_alias
+  - slug: qi-ta-fei-liu-dong-fu-zhai
+    headword: 其他非流动负债
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 除长期借款、应付债券等外的期限超过一年的负债项目。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 除长期借款、应付债券等外的期限超过一年的负债项目。
+        example: 其他非流动负债需结合附注看具体构成。
+        isPrimary: true
+    aliases:
+      - raw: 其他非流动负债
+        aliasType: primary
+      - raw: Other Non-current Liabilities
+        aliasType: en_alias
+  - slug: xian-jin-liu-liang-biao
+    headword: 现金流量表
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 反映企业一定期间现金及现金等价物流入流出的会计报表，分三大活动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 反映企业一定期间现金及现金等价物流入流出的会计报表，分三大活动。
+        example: 现金流量表比利润表更难粉饰，是验真的关键。
+        isPrimary: true
+    aliases:
+      - raw: 现金流量表
+        aliasType: primary
+      - raw: Cash Flow Statement
+        aliasType: en_alias
+  - slug: ying-yun-zi-ben-bian-dong
+    headword: 营运资本变动
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 应收、存货、应付等经营性往来在期间内的增减，影响经营现金流。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 应收、存货、应付等经营性往来在期间内的增减，影响经营现金流。
+        example: 营运资本变动占用现金，是净利润与现金流差异的主因。
+        isPrimary: true
+    aliases:
+      - raw: 营运资本变动
+        aliasType: primary
+      - raw: Change in Working Capital
+        aliasType: en_alias
+  - slug: shou-xian-bi
+    headword: 收现比
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 销售商品提供劳务收到的现金与营业收入之比，衡量收入含金量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 销售商品提供劳务收到的现金与营业收入之比，衡量收入含金量。
+        example: 收现比大于1，说明收入真金白银收回。
+        isPrimary: true
+    aliases:
+      - raw: 收现比
+        aliasType: primary
+      - raw: Cash Receipts to Revenue
+        aliasType: en_alias
+  - slug: ying-yu-zhi-liang
+    headword: 盈余质量
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 账面利润转化为真实现金、可持续可重复的程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 账面利润转化为真实现金、可持续可重复的程度。
+        example: 盈余质量高的公司，利润更难被会计手段操纵。
+        isPrimary: true
+    aliases:
+      - raw: 盈余质量
+        aliasType: primary
+      - raw: Earnings Quality
+        aliasType: en_alias
+  - slug: mei-gu-jing-ying-xian-jin-liu
+    headword: 每股经营现金流
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经营活动现金流净额除以总股本，反映每股对应的现金创造能力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 经营活动现金流净额除以总股本，反映每股对应的现金创造能力。
+        example: 每股经营现金流持续高于每股收益，盈利含金量足。
+        isPrimary: true
+    aliases:
+      - raw: 每股经营现金流
+        aliasType: primary
+      - raw: Operating Cash Flow per Share
+        aliasType: en_alias
+  - slug: xian-jin-pao-dao
+    headword: 现金跑道
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按当前烧钱速度，账上现金还能维持公司运转的月数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 按当前烧钱速度，账上现金还能维持公司运转的月数。
+        example: 现金跑道不足一年，初创公司面临融资压力。
+        isPrimary: true
+    aliases:
+      - raw: 现金跑道
+        aliasType: primary
+      - raw: Cash Runway
+        aliasType: en_alias
+  - slug: jing-shao-qian-l
+    headword: 净烧钱率
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 烧钱型公司每月现金净流出的速度，衡量资金消耗快慢。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 烧钱型公司每月现金净流出的速度，衡量资金消耗快慢。
+        example: 净烧钱率未随收入下降，盈利路径仍不清晰。
+        isPrimary: true
+    aliases:
+      - raw: 净烧钱率
+        aliasType: primary
+      - raw: Net Burn Rate
+        aliasType: en_alias
+  - slug: xian-jin-ji-xian-jin-deng-jia-wu
+    headword: 现金及现金等价物
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 持有的期限短、流动性强、易于转换为已知金额现金的资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 持有的期限短、流动性强、易于转换为已知金额现金的资产。
+        example: 现金及现金等价物充裕，公司抗风险能力强。
+        isPrimary: true
+    aliases:
+      - raw: 现金及现金等价物
+        aliasType: primary
+      - raw: Cash Equivalents
+        aliasType: en_alias
+  - slug: xian-jin-zi-ji-l
+    headword: 现金自给率
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经营现金流对资本开支与分红的覆盖程度，越高越不需外部融资。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 经营现金流对资本开支与分红的覆盖程度，越高越不需外部融资。
+        example: 现金自给率大于1，扩张可靠经营现金流支撑。
+        isPrimary: true
+    aliases:
+      - raw: 现金自给率
+        aliasType: primary
+      - raw: Self-financing Ratio
+        aliasType: en_alias
+  - slug: jing-ying-xian-jin-liu-jing-e
+    headword: 经营现金流净额
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经营活动现金流入减去流出后的净额，是现金流量表的核心数字。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 经营活动现金流入减去流出后的净额，是现金流量表的核心数字。
+        example: 经营现金流净额由负转正，公司造血功能改善。
+        isPrimary: true
+    aliases:
+      - raw: 经营现金流净额
+        aliasType: primary
+      - raw: Net Operating Cash Flow
+        aliasType: en_alias
+  - slug: zi-ben-kai-zhi-qiang-du
+    headword: 资本开支强度
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资本开支占营业收入的比例，衡量公司扩张投入的激进程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 资本开支占营业收入的比例，衡量公司扩张投入的激进程度。
+        example: 资本开支强度高，重资产行业特征明显。
+        isPrimary: true
+    aliases:
+      - raw: 资本开支强度
+        aliasType: primary
+      - raw: Capex Intensity
+        aliasType: en_alias
+  - slug: zong-shi-zhi
+    headword: 总市值
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 全部总股本乘以股价得到的公司总价值，是规模的直接度量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 全部总股本乘以股价得到的公司总价值，是规模的直接度量。
+        example: 总市值突破万亿，跻身行业头部阵营。
+        isPrimary: true
+    aliases:
+      - raw: 总市值
+        aliasType: primary
+      - raw: Total Market Cap
+        aliasType: en_alias
+  - slug: ying-kui-ping-heng-dian
+    headword: 盈亏平衡点
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 收入恰好覆盖全部成本、利润为零时的销量或收入水平。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 收入恰好覆盖全部成本、利润为零时的销量或收入水平。
+        example: 收入越过盈亏平衡点后，利润将快速释放。
+        isPrimary: true
+    aliases:
+      - raw: 盈亏平衡点
+        aliasType: primary
+      - raw: Break-even Point
+        aliasType: en_alias
+  - slug: qu-dao-jie-gou
+    headword: 渠道结构
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 线上线下、直销经销等不同销售渠道的收入构成。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 线上线下、直销经销等不同销售渠道的收入构成。
+        example: 渠道结构向高毛利的线上倾斜，利润率提升。
+        isPrimary: true
+    aliases:
+      - raw: 渠道结构
+        aliasType: primary
+      - raw: Channel Mix
+        aliasType: en_alias
+  - slug: ke-hu-jie-gou
+    headword: 客户结构
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公司收入在不同类型客户间的分布，集中度风险的重要来源。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公司收入在不同类型客户间的分布，集中度风险的重要来源。
+        example: 客户结构过度依赖单一大客户，订单波动风险高。
+        isPrimary: true
+    aliases:
+      - raw: 客户结构
+        aliasType: primary
+      - raw: Customer Mix
+        aliasType: en_alias
+  - slug: ding-dan-neng-jian-du
+    headword: 订单能见度
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公司已签订单覆盖未来收入的可见程度，能见度高则业绩可预期。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公司已签订单覆盖未来收入的可见程度，能见度高则业绩可预期。
+        example: 在手订单能见度覆盖未来一年，业绩确定性较强。
+        isPrimary: true
+    aliases:
+      - raw: 订单能见度
+        aliasType: primary
+      - raw: Order Visibility
+        aliasType: en_alias
+  - slug: zai-shou-ding-dan
+    headword: 在手订单
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 已签订但尚未确认收入的订单总额，是未来收入的先行指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 已签订但尚未确认收入的订单总额，是未来收入的先行指标。
+        example: 在手订单饱满，下季度收入增长有保障。
+        isPrimary: true
+    aliases:
+      - raw: 在手订单
+        aliasType: primary
+      - raw: Backlog
+        aliasType: en_alias
+      - raw: On-hand Orders
+        aliasType: en_alias
+  - slug: bian-ji-gong-xian
+    headword: 边际贡献
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 每多销售一单位产品带来的收入减去变动成本后的增量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 每多销售一单位产品带来的收入减去变动成本后的增量。
+        example: 边际贡献为正，短期扩产仍划算。
+        isPrimary: true
+    aliases:
+      - raw: 边际贡献
+        aliasType: primary
+      - raw: Marginal Contribution
+        aliasType: en_alias
+  - slug: ren-jun-chuang-shou
+    headword: 人均创收
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 营业收入除以员工人数，衡量组织的人均产出效率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 营业收入除以员工人数，衡量组织的人均产出效率。
+        example: 人均创收远高于同行，公司人效领先。
+        isPrimary: true
+    aliases:
+      - raw: 人均创收
+        aliasType: primary
+      - raw: Revenue per Employee
+        aliasType: en_alias
+  - slug: ren-xiao
+    headword: 人效
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 单位员工创造的收入或利润，衡量组织运营效率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 单位员工创造的收入或利润，衡量组织运营效率。
+        example: 人效是科技公司与服务业估值的重要参考。
+        isPrimary: true
+    aliases:
+      - raw: 人效
+        aliasType: primary
+      - raw: Employee Productivity
+        aliasType: en_alias
+  - slug: cheng-ben-shou-ru-bi
+    headword: 成本收入比
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 营业成本费用占营业收入的比例，金融与服务业常用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 营业成本费用占营业收入的比例，金融与服务业常用。
+        example: 成本收入比下降，说明运营效率在提升。
+        isPrimary: true
+    aliases:
+      - raw: 成本收入比
+        aliasType: primary
+      - raw: Cost-to-income Ratio
+        aliasType: en_alias
+  - slug: yan-fa-tou-ru-qiang-du
+    headword: 研发投入强度
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 研发投入占营业收入的比重，衡量对创新的投入力度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 研发投入占营业收入的比重，衡量对创新的投入力度。
+        example: 研发投入强度高，构筑长期技术壁垒。
+        isPrimary: true
+    aliases:
+      - raw: 研发投入强度
+        aliasType: primary
+      - raw: R&D Intensity
+        aliasType: en_alias
+  - slug: bian-ji-cheng-ben
+    headword: 边际成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 每多生产一单位产品所增加的总成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 每多生产一单位产品所增加的总成本。
+        example: 软件产品边际成本接近于零，规模效应极强。
+        isPrimary: true
+    aliases:
+      - raw: 边际成本
+        aliasType: primary
+      - raw: Marginal Cost
+        aliasType: en_alias
+  - slug: bian-ji-shou-ru
+    headword: 边际收入
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 每多销售一单位产品所增加的收入。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 每多销售一单位产品所增加的收入。
+        example: 边际收入等于边际成本时，利润达到最大。
+        isPrimary: true
+    aliases:
+      - raw: 边际收入
+        aliasType: primary
+      - raw: Marginal Revenue
+        aliasType: en_alias
+  - slug: xu-yue-l
+    headword: 续约率
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 订阅或合同到期后续约的客户比例，SaaS类公司核心指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 订阅或合同到期后续约的客户比例，SaaS类公司核心指标。
+        example: 续约率维持高位，订阅收入基本盘稳固。
+        isPrimary: true
+    aliases:
+      - raw: 续约率
+        aliasType: primary
+      - raw: Renewal Rate
+        aliasType: en_alias
+  - slug: a-r-p-p-u
+    headword: ARPPU
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 平均每个付费用户贡献的收入，衡量付费用户价值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 平均每个付费用户贡献的收入，衡量付费用户价值。
+        example: ARPPU提升，是游戏与订阅公司增长的重要来源。
+        isPrimary: true
+    aliases:
+      - raw: ARPPU
+        aliasType: primary
+      - raw: 付费用户平均收入
+        aliasType: cn_alias
+  - slug: ying-kui-ping-heng-xiao-liang
+    headword: 盈亏平衡销量
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 使利润为零所需达到的最低销售量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 使利润为零所需达到的最低销售量。
+        example: 盈亏平衡销量下降，抗风险能力增强。
+        isPrimary: true
+    aliases:
+      - raw: 盈亏平衡销量
+        aliasType: primary
+      - raw: Break-even Volume
+        aliasType: en_alias
+  - slug: xue-xi-qu-xian
+    headword: 学习曲线
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 随着累计产量增加单位成本逐步下降的规律，常见于制造与科技。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 随着累计产量增加单位成本逐步下降的规律，常见于制造与科技。
+        example: 学习曲线效应下，先进入者成本优势累积。
+        isPrimary: true
+    aliases:
+      - raw: 学习曲线
+        aliasType: primary
+      - raw: Learning Curve
+        aliasType: en_alias
+  - slug: shou-ru-que-ren
+    headword: 收入确认
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业在履行了履约义务、客户取得相关商品控制权时确认收入的会计处理。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 企业在履行了履约义务、客户取得相关商品控制权时确认收入的会计处理。
+        example: 新收入准则下，收入确认时点需要重新判断。
+        isPrimary: true
+    aliases:
+      - raw: 收入确认
+        aliasType: primary
+      - raw: Revenue Recognition
+        aliasType: en_alias
+  - slug: l-yue-yi-wu
+    headword: 履约义务
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 合同中企业向客户转让可明确区分商品或服务的承诺。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 合同中企业向客户转让可明确区分商品或服务的承诺。
+        example: 识别履约义务是收入确认五步法的关键一环。
+        isPrimary: true
+    aliases:
+      - raw: 履约义务
+        aliasType: primary
+      - raw: Performance Obligation
+        aliasType: en_alias
+  - slug: shi-duan-que-ren-shou-ru
+    headword: 时段确认收入
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 在某一时段内按履约进度逐步确认收入的方式，常见于工程与长期服务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 在某一时段内按履约进度逐步确认收入的方式，常见于工程与长期服务。
+        example: 时段确认收入需合理估计履约进度。
+        isPrimary: true
+    aliases:
+      - raw: 时段确认收入
+        aliasType: primary
+      - raw: Over-time Recognition
+        aliasType: en_alias
+  - slug: shi-dian-que-ren-shou-ru
+    headword: 时点确认收入
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 在客户取得商品控制权的某一时点一次性确认收入的方式。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 在客户取得商品控制权的某一时点一次性确认收入的方式。
+        example: 时点确认收入集中在交付或验收那一刻。
+        isPrimary: true
+    aliases:
+      - raw: 时点确认收入
+        aliasType: primary
+      - raw: Point-in-time Recognition
+        aliasType: en_alias
+  - slug: zu-lin-zhun-ze
+    headword: 租赁准则
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 规范承租人出租人会计处理的准则，要求承租人确认使用权资产与租赁负债。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 规范承租人出租人会计处理的准则，要求承租人确认使用权资产与租赁负债。
+        example: 租赁准则实施后，零售企业资产负债同步膨胀。
+        isPrimary: true
+    aliases:
+      - raw: 租赁准则
+        aliasType: primary
+      - raw: Lease Standard
+        aliasType: en_alias
+  - slug: jin-rong-gong-ju-zhun-ze
+    headword: 金融工具准则
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 规范金融资产负债分类、计量与减值的会计准则。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 规范金融资产负债分类、计量与减值的会计准则。
+        example: 金融工具准则下，减值从已发生模型改为预期信用损失。
+        isPrimary: true
+    aliases:
+      - raw: 金融工具准则
+        aliasType: primary
+      - raw: Financial Instruments Standard
+        aliasType: en_alias
+  - slug: he-bing-cai-wu-bao-biao
+    headword: 合并财务报表
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 将母公司及其子公司视为一个会计主体编制的综合报表。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 将母公司及其子公司视为一个会计主体编制的综合报表。
+        example: 合并财务报表抵消了集团内部交易，反映整体面貌。
+        isPrimary: true
+    aliases:
+      - raw: 合并财务报表
+        aliasType: primary
+      - raw: Consolidated Financial Statements
+        aliasType: en_alias
+  - slug: he-bing-fan-wei
+    headword: 合并范围
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 纳入合并报表的子公司范围，以是否拥有控制权为判断标准。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 纳入合并报表的子公司范围，以是否拥有控制权为判断标准。
+        example: 合并范围变化会显著影响合并利润表规模。
+        isPrimary: true
+    aliases:
+      - raw: 合并范围
+        aliasType: primary
+      - raw: Consolidation Scope
+        aliasType: en_alias
+  - slug: tao-qi-kuai-ji
+    headword: 套期会计
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对套期工具与被套期项目损益在同期配比确认的特殊会计处理。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对套期工具与被套期项目损益在同期配比确认的特殊会计处理。
+        example: 套期会计能平滑汇率与利率波动对利润的影响。
+        isPrimary: true
+    aliases:
+      - raw: 套期会计
+        aliasType: primary
+      - raw: Hedge Accounting
+        aliasType: en_alias
+  - slug: shen-ji-yi-jian-lei-xing
+    headword: 审计意见类型
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 注册会计师对财报是否公允反映发表的结论类别，分四种基本类型。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 注册会计师对财报是否公允反映发表的结论类别，分四种基本类型。
+        example: 审计意见类型是判断财报可信度的第一道关。
+        isPrimary: true
+    aliases:
+      - raw: 审计意见类型
+        aliasType: primary
+      - raw: Audit Opinion Type
+        aliasType: en_alias
+  - slug: biao-zhun-wu-bao-liu-yi-jian
+    headword: 标准无保留意见
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 注册会计师认为财报在所有重大方面公允反映的最理想审计结论。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 注册会计师认为财报在所有重大方面公允反映的最理想审计结论。
+        example: 连续多年获得标准无保留意见，财报可信度较高。
+        isPrimary: true
+    aliases:
+      - raw: 标准无保留意见
+        aliasType: primary
+      - raw: Unqualified Opinion
+        aliasType: en_alias
+  - slug: dai-qiang-diao-shi-xiang-duan
+    headword: 带强调事项段
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 在无保留意见基础上，提醒报表使用者关注某一重大不确定事项。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 在无保留意见基础上，提醒报表使用者关注某一重大不确定事项。
+        example: 带强调事项段通常指向持续经营存疑或重大诉讼。
+        isPrimary: true
+    aliases:
+      - raw: 带强调事项段
+        aliasType: primary
+      - raw: Emphasis of Matter Paragraph
+        aliasType: en_alias
+  - slug: bao-liu-yi-jian
+    headword: 保留意见
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 除某一事项影响外，财报整体公允，但存在局部保留的审计结论。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 除某一事项影响外，财报整体公允，但存在局部保留的审计结论。
+        example: 被出具保留意见，财报可信度需大打折扣。
+        isPrimary: true
+    aliases:
+      - raw: 保留意见
+        aliasType: primary
+      - raw: Qualified Opinion
+        aliasType: en_alias
+  - slug: fou-ding-yi-jian
+    headword: 否定意见
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 注册会计师认为财报整体未公允反映、存在重大错报的审计结论。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 注册会计师认为财报整体未公允反映、存在重大错报的审计结论。
+        example: 一旦被出具否定意见，投资者应高度警惕。
+        isPrimary: true
+    aliases:
+      - raw: 否定意见
+        aliasType: primary
+      - raw: Adverse Opinion
+        aliasType: en_alias
+  - slug: wu-fa-biao-shi-yi-jian
+    headword: 无法表示意见
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 审计范围受限、无法获取充分证据而不发表结论的审计意见。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 审计范围受限、无法获取充分证据而不发表结论的审计意见。
+        example: 无法表示意见往往意味着公司财务已经失控。
+        isPrimary: true
+    aliases:
+      - raw: 无法表示意见
+        aliasType: primary
+      - raw: Disclaimer of Opinion
+        aliasType: en_alias
+  - slug: ying-yu-guan-li
+    headword: 盈余管理
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 管理层在准则范围内有意识地调节利润，使结果符合预期的行为。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 管理层在准则范围内有意识地调节利润，使结果符合预期的行为。
+        example: 适度盈余管理是平滑，过度则接近造假。
+        isPrimary: true
+    aliases:
+      - raw: 盈余管理
+        aliasType: primary
+      - raw: Earnings Management
+        aliasType: en_alias
+  - slug: li-run-cao-zong
+    headword: 利润操纵
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 通过会计手段人为调高或压低利润的行为，超出合规边界。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 通过会计手段人为调高或压低利润的行为，超出合规边界。
+        example: 利润操纵往往在行业下行期集中暴露。
+        isPrimary: true
+    aliases:
+      - raw: 利润操纵
+        aliasType: primary
+      - raw: Profit Manipulation
+        aliasType: en_alias
+  - slug: shou-ru-zao-jia
+    headword: 收入造假
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 虚构或提前确认收入以美化业绩的财务造假行为。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 虚构或提前确认收入以美化业绩的财务造假行为。
+        example: 收入造假常伴随应收账款与现金流异常背离。
+        isPrimary: true
+    aliases:
+      - raw: 收入造假
+        aliasType: primary
+      - raw: Revenue Fraud
+        aliasType: en_alias
+  - slug: cun-huo-zao-jia
+    headword: 存货造假
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 通过虚增存货或少提跌价准备来虚增利润的造假手段。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 通过虚增存货或少提跌价准备来虚增利润的造假手段。
+        example: 存货造假在盘点时最容易被戳穿。
+        isPrimary: true
+    aliases:
+      - raw: 存货造假
+        aliasType: primary
+      - raw: Inventory Fraud
+        aliasType: en_alias
+  - slug: shen-ji-tiao-zheng
+    headword: 审计调整
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 注册会计师审计过程中建议企业对错报进行的账务调整。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 注册会计师审计过程中建议企业对错报进行的账务调整。
+        example: 大额审计调整，说明公司内控可能存在缺陷。
+        isPrimary: true
+    aliases:
+      - raw: 审计调整
+        aliasType: primary
+      - raw: Audit Adjustment
+        aliasType: en_alias
+  - slug: cai-wu-zhong-shu
+    headword: 财务重述
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业发现前期报表存在差错后重新公布更正后报表的行为。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 企业发现前期报表存在差错后重新公布更正后报表的行为。
+        example: 频繁财务重述，市场会对其财报质量打问号。
+        isPrimary: true
+    aliases:
+      - raw: 财务重述
+        aliasType: primary
+      - raw: Financial Restatement
+        aliasType: en_alias
+  - slug: quan-ze-fa-sheng-zhi
+    headword: 权责发生制
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以权利义务发生为标准确认收支的会计基础，而非现金实际收付。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以权利义务发生为标准确认收支的会计基础，而非现金实际收付。
+        example: 权责发生制下，利润与现金流会出现时间差。
+        isPrimary: true
+    aliases:
+      - raw: 权责发生制
+        aliasType: primary
+      - raw: Accrual Basis
+        aliasType: en_alias
+  - slug: shou-fu-shi-xian-zhi
+    headword: 收付实现制
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以现金实际收付为标准确认收支的会计基础。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以现金实际收付为标准确认收支的会计基础。
+        example: 收付实现制简单直接，但不能准确反映期间损益。
+        isPrimary: true
+    aliases:
+      - raw: 收付实现制
+        aliasType: primary
+      - raw: Cash Basis
+        aliasType: en_alias
+  - slug: li-shi-cheng-ben
+    headword: 历史成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资产取得时实际支付的成本，是会计计量的基本原则之一。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资产取得时实际支付的成本，是会计计量的基本原则之一。
+        example: 历史成本计量下，资产账面价值不随市价调整。
+        isPrimary: true
+    aliases:
+      - raw: 历史成本
+        aliasType: primary
+      - raw: Historical Cost
+        aliasType: en_alias
+  - slug: jin-shen-xing-yuan-ze
+    headword: 谨慎性原则
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 不高估资产收益、不低估负债费用的会计信息质量要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 不高估资产收益、不低估负债费用的会计信息质量要求。
+        example: 谨慎性原则要求充分预计可能的损失。
+        isPrimary: true
+    aliases:
+      - raw: 谨慎性原则
+        aliasType: primary
+      - raw: Prudence Principle
+        aliasType: en_alias
+  - slug: pei-bi-yuan-ze
+    headword: 配比原则
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 收入与其对应的成本费用在同一会计期间确认的原则。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 收入与其对应的成本费用在同一会计期间确认的原则。
+        example: 配比原则要求收入与成本在期间上匹配。
+        isPrimary: true
+    aliases:
+      - raw: 配比原则
+        aliasType: primary
+      - raw: Matching Principle
+        aliasType: en_alias
+  - slug: kuai-ji-cha-cuo-geng-zheng
+    headword: 会计差错更正
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业发现前期会计差错后按规定进行的更正处理。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业发现前期会计差错后按规定进行的更正处理。
+        example: 会计差错更正涉及上年损益调整。
+        isPrimary: true
+    aliases:
+      - raw: 会计差错更正
+        aliasType: primary
+      - raw: Error Correction
+        aliasType: en_alias
+  - slug: zhui-su-zhong-shu
+    headword: 追溯重述
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 将前期差错视同从未发生过、重新列报比较报表的做法。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 将前期差错视同从未发生过、重新列报比较报表的做法。
+        example: 重大前期差错需采用追溯重述法处理。
+        isPrimary: true
+    aliases:
+      - raw: 追溯重述
+        aliasType: primary
+      - raw: Retrospective Restatement
+        aliasType: en_alias
+  - slug: gou-mai-fa
+    headword: 购买法
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 非同一控制下企业合并中，按购买日公允价值计量取得可辨认净资产的方法。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 非同一控制下企业合并中，按购买日公允价值计量取得可辨认净资产的方法。
+        example: 购买法下，合并成本超过可辨认净资产部分确认为商誉。
+        isPrimary: true
+    aliases:
+      - raw: 购买法
+        aliasType: primary
+      - raw: Purchase Method
+        aliasType: en_alias
+  - slug: shen-ji-bao-gao
+    headword: 审计报告
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 注册会计师对财务报表发表审计意见的正式书面文件。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 注册会计师对财务报表发表审计意见的正式书面文件。
+        example: 审计报告后的附注，藏着财报的关键细节。
+        isPrimary: true
+    aliases:
+      - raw: 审计报告
+        aliasType: primary
+      - raw: Audit Report
+        aliasType: en_alias
+  - slug: ying-ji-li-run
+    headword: 应计利润
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 账面利润中尚未收到现金的应计部分，盈余管理研究的核心。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 账面利润中尚未收到现金的应计部分，盈余管理研究的核心。
+        example: 应计利润占比过高，利润质量值得怀疑。
+        isPrimary: true
+    aliases:
+      - raw: 应计利润
+        aliasType: primary
+      - raw: Accruals
+        aliasType: en_alias
+  - slug: bing-gou-huo-you-dui-jia
+    headword: 并购或有对价
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业合并中视未来事项是否发生而支付的对价部分。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业合并中视未来事项是否发生而支付的对价部分。
+        example: 或有对价按公允价值计量，后续变动计入损益。
+        isPrimary: true
+    aliases:
+      - raw: 并购或有对价
+        aliasType: primary
+      - raw: Contingent Consideration
+        aliasType: en_alias
+  - slug: l-yue-jin-du
+    headword: 履约进度
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 时段法确认收入时，对履约完成程度的估计，有产出法与投入法。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 时段法确认收入时，对履约完成程度的估计，有产出法与投入法。
+        example: 履约进度估计偏激进，会提前确认收入。
+        isPrimary: true
+    aliases:
+      - raw: 履约进度
+        aliasType: primary
+      - raw: Progress toward Satisfaction
+        aliasType: en_alias
+  - slug: chi-xu-jing-ying-jia-she
+    headword: 持续经营假设
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 假定企业将在可预见的未来继续经营、不会清算的会计基本前提。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 假定企业将在可预见的未来继续经营、不会清算的会计基本前提。
+        example: 持续经营假设存疑时，财报列报基础就要改变。
+        isPrimary: true
+    aliases:
+      - raw: 持续经营假设
+        aliasType: primary
+      - raw: Going Concern Assumption
+        aliasType: en_alias
+  - slug: shou-ru-zeng-su
+    headword: 收入增速
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 报告期营业收入相对上期的增长幅度，是成长性的最直接体现。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 报告期营业收入相对上期的增长幅度，是成长性的最直接体现。
+        example: 收入增速放缓，市场对其成长预期下调。
+        isPrimary: true
+    aliases:
+      - raw: 收入增速
+        aliasType: primary
+      - raw: Revenue Growth
+        aliasType: en_alias
+  - slug: jing-chang-xing-li-run
+    headword: 经常性利润
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 剔除一次性损益后可持续取得的利润，更能代表真实盈利能力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 剔除一次性损益后可持续取得的利润，更能代表真实盈利能力。
+        example: 经常性利润保持增长，说明主业经营稳健。
+        isPrimary: true
+    aliases:
+      - raw: 经常性利润
+        aliasType: primary
+      - raw: Recurring Profit
+        aliasType: en_alias
+  - slug: fei-jing-chang-xing-sun-yi-zhan-bi
+    headword: 非经常性损益占比
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 非经常性损益占利润总额的比重，越高盈利质量越差。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 非经常性损益占利润总额的比重，越高盈利质量越差。
+        example: 非经常性损益占比高，市场会调低其估值。
+        isPrimary: true
+    aliases:
+      - raw: 非经常性损益占比
+        aliasType: primary
+      - raw: Non-recurring Share
+        aliasType: en_alias
+  - slug: zheng-fu-bu-zhu-zhan-bi
+    headword: 政府补助占比
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 政府补助计入当期损益的金额占利润总额的比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 政府补助计入当期损益的金额占利润总额的比例。
+        example: 政府补助占比高，自主盈利能力存疑。
+        isPrimary: true
+    aliases:
+      - raw: 政府补助占比
+        aliasType: primary
+      - raw: Grant Share of Profit
+        aliasType: en_alias
+  - slug: li-xi-zi-ben-hua
+    headword: 利息资本化
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 为购建长期资产借款发生的利息计入资产成本而非当期费用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 为购建长期资产借款发生的利息计入资产成本而非当期费用。
+        example: 利息资本化会减少当期财务费用、美化利润。
+        isPrimary: true
+    aliases:
+      - raw: 利息资本化
+        aliasType: primary
+      - raw: Capitalized Interest
+        aliasType: en_alias
+  - slug: qi-ta-ye-wu-li-run
+    headword: 其他业务利润
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 主营业务之外的其他经营业务产生的利润。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 主营业务之外的其他经营业务产生的利润。
+        example: 其他业务利润占比小，不影响对主业的判断。
+        isPrimary: true
+    aliases:
+      - raw: 其他业务利润
+        aliasType: primary
+      - raw: Other Operating Profit
+        aliasType: en_alias
+  - slug: zi-chan-zong-ji
+    headword: 资产总计
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业各类流动资产与非流动资产的合计金额。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业各类流动资产与非流动资产的合计金额。
+        example: 资产总计快速扩张，并购整合力度较大。
+        isPrimary: true
+    aliases:
+      - raw: 资产总计
+        aliasType: primary
+      - raw: Total Assets
+        aliasType: en_alias
+  - slug: fu-zhai-he-ji
+    headword: 负债合计
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业流动负债与非流动负债的合计金额。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业流动负债与非流动负债的合计金额。
+        example: 负债合计增速受控，杠杆未明显攀升。
+        isPrimary: true
+    aliases:
+      - raw: 负债合计
+        aliasType: primary
+      - raw: Total Liabilities
+        aliasType: en_alias
+  - slug: suo-you-zhe-quan-yi-he-ji
+    headword: 所有者权益合计
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资产扣除负债后归属于全体股东的权益总额。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资产扣除负债后归属于全体股东的权益总额。
+        example: 所有者权益合计稳步增厚，净资产持续积累。
+        isPrimary: true
+    aliases:
+      - raw: 所有者权益合计
+        aliasType: primary
+      - raw: Total Equity
+        aliasType: en_alias
+  - slug: fei-liu-dong-fu-zhai
+    headword: 非流动负债
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 偿还期限在一年以上的负债，如长期借款与应付债券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 偿还期限在一年以上的负债，如长期借款与应付债券。
+        example: 非流动负债占比高，债务期限结构较稳。
+        isPrimary: true
+    aliases:
+      - raw: 非流动负债
+        aliasType: primary
+      - raw: Non-current Liabilities
+        aliasType: en_alias
+  - slug: su-dong-zi-chan
+    headword: 速动资产
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 流动资产中扣除存货等不易变现部分后可快速变现的资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 流动资产中扣除存货等不易变现部分后可快速变现的资产。
+        example: 速动资产覆盖流动负债，短期偿债无虞。
+        isPrimary: true
+    aliases:
+      - raw: 速动资产
+        aliasType: primary
+      - raw: Quick Assets
+        aliasType: en_alias
+  - slug: zai-chan-pin
+    headword: 在产品
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 尚未完成全部生产过程、仍在加工中的存货。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 尚未完成全部生产过程、仍在加工中的存货。
+        example: 在产品增加可能反映订单饱满或产销不畅。
+        isPrimary: true
+    aliases:
+      - raw: 在产品
+        aliasType: primary
+      - raw: Work in Progress
+        aliasType: en_alias
+  - slug: fa-chu-shang-pin
+    headword: 发出商品
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 已发货但尚未确认收入、仍属于存货的商品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 已发货但尚未确认收入、仍属于存货的商品。
+        example: 发出商品增加，预示后续收入即将确认。
+        isPrimary: true
+    aliases:
+      - raw: 发出商品
+        aliasType: primary
+      - raw: Goods in Transit
+        aliasType: en_alias
+  - slug: he-tong-l-yue-cheng-ben
+    headword: 合同履约成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 为履行当前合同发生、且预期能够收回的增量成本，确认为一项资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 为履行当前合同发生、且预期能够收回的增量成本，确认为一项资产。
+        example: 合同履约成本随项目进度逐步结转。
+        isPrimary: true
+    aliases:
+      - raw: 合同履约成本
+        aliasType: primary
+      - raw: Contract Fulfillment Cost
+        aliasType: en_alias
+  - slug: he-tong-qu-de-cheng-ben
+    headword: 合同取得成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 为取得合同而发生、预期能够收回的增量成本，如销售佣金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 为取得合同而发生、预期能够收回的增量成本，如销售佣金。
+        example: 合同取得成本在合同期内摊销。
+        isPrimary: true
+    aliases:
+      - raw: 合同取得成本
+        aliasType: primary
+      - raw: Contract Acquisition Cost
+        aliasType: en_alias
+  - slug: chang-qi-dai-tan-fei-yong
+    headword: 长期待摊费用
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 已支付但摊销期超过一年的费用，如经营租赁改良支出。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 已支付但摊销期超过一年的费用，如经营租赁改良支出。
+        example: 长期待摊费用摊销会持续影响未来利润。
+        isPrimary: true
+    aliases:
+      - raw: 长期待摊费用
+        aliasType: primary
+      - raw: Long-term Prepaid Expenses
+        aliasType: en_alias
+  - slug: gui-shu-yu-mu-gong-si-gu-dong-quan-yi
+    headword: 归属于母公司股东权益
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 合并净资产中扣除少数股东权益后归属母公司股东的部分。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 合并净资产中扣除少数股东权益后归属母公司股东的部分。
+        example: 归属于母公司股东权益持续增厚。
+        isPrimary: true
+    aliases:
+      - raw: 归属于母公司股东权益
+        aliasType: primary
+      - raw: Equity Attributable to Parent
+        aliasType: en_alias
+  - slug: zi-chan-jie-gou
+    headword: 资产结构
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 流动资产与非流动资产、有形与无形资产之间的比例构成。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 流动资产与非流动资产、有形与无形资产之间的比例构成。
+        example: 资产结构轻资产化，公司更偏向科技与服务。
+        isPrimary: true
+    aliases:
+      - raw: 资产结构
+        aliasType: primary
+      - raw: Asset Structure
+        aliasType: en_alias
+  - slug: xian-jin-jing-zeng-jia-e
+    headword: 现金净增加额
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 三大活动现金流净额之和，反映期间内现金的净变动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 三大活动现金流净额之和，反映期间内现金的净变动。
+        example: 现金净增加额为正，期末现金余额增厚。
+        isPrimary: true
+    aliases:
+      - raw: 现金净增加额
+        aliasType: primary
+      - raw: Net Increase in Cash
+        aliasType: en_alias
+  - slug: fei-fu-xian-fei-yong
+    headword: 非付现费用
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 当期计入费用但并未实际支付现金的项目，如折旧摊销、减值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 当期计入费用但并未实际支付现金的项目，如折旧摊销、减值。
+        example: 非付现费用在计算经营现金流时要加回。
+        isPrimary: true
+    aliases:
+      - raw: 非付现费用
+        aliasType: primary
+      - raw: Non-cash Expenses
+        aliasType: en_alias
+  - slug: fu-xian-cheng-ben
+    headword: 付现成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 当期需要实际支付现金的成本费用，与非付现费用相对。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 当期需要实际支付现金的成本费用，与非付现费用相对。
+        example: 付现成本压力小，公司经营现金流较稳。
+        isPrimary: true
+    aliases:
+      - raw: 付现成本
+        aliasType: primary
+      - raw: Cash Cost
+        aliasType: en_alias
+  - slug: xian-zhi
+    headword: 现值
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 未来现金流按折现率折算到当前时点的价值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 未来现金流按折现率折算到当前时点的价值。
+        example: 现值累加得到企业的内在价值。
+        isPrimary: true
+    aliases:
+      - raw: 现值
+        aliasType: primary
+      - raw: Present Value
+        aliasType: en_alias
+  - slug: ying-kui-ping-heng-shou-ru
+    headword: 盈亏平衡收入
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 使利润为零所需达到的最低营业收入规模。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 使利润为零所需达到的最低营业收入规模。
+        example: 盈亏平衡收入下降，公司抗风险能力增强。
+        isPrimary: true
+    aliases:
+      - raw: 盈亏平衡收入
+        aliasType: primary
+      - raw: Break-even Revenue
+        aliasType: en_alias
+  - slug: c-a-c-hui-ben-zhou-qi
+    headword: CAC回本周期
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 收回单个客户获客成本所需的月数，SaaS核心效率指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 收回单个客户获客成本所需的月数，SaaS核心效率指标。
+        example: CAC回收期短，说明单位经济模型健康。
+        isPrimary: true
+    aliases:
+      - raw: CAC回本周期
+        aliasType: primary
+      - raw: CAC Payback Period
+        aliasType: en_alias
+  - slug: l-t-v-c-a-c
+    headword: LTV/CAC
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 客户终身价值与获客成本之比，经验上大于3为健康。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 客户终身价值与获客成本之比，经验上大于3为健康。
+        example: LTV/CAC小于3，说明获客投入并不划算。
+        isPrimary: true
+    aliases:
+      - raw: LTV/CAC
+        aliasType: primary
+      - raw: LTV to CAC Ratio
+        aliasType: en_alias
+  - slug: zhi-xiao-zhan-bi
+    headword: 直销占比
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 通过直销渠道实现的收入占总收入的比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 通过直销渠道实现的收入占总收入的比例。
+        example: 直销占比提升，毛利率与掌控力增强。
+        isPrimary: true
+    aliases:
+      - raw: 直销占比
+        aliasType: primary
+      - raw: Direct Sales Share
+        aliasType: en_alias
+  - slug: jing-xiao-zhan-bi
+    headword: 经销占比
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 通过经销商渠道实现的收入占总收入的比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 通过经销商渠道实现的收入占总收入的比例。
+        example: 经销占比高，渠道管控与回款风险需关注。
+        isPrimary: true
+    aliases:
+      - raw: 经销占比
+        aliasType: primary
+      - raw: Distribution Share
+        aliasType: en_alias
+  - slug: shou-ru-neng-jian-du
+    headword: 收入能见度
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 未来收入可被现有订单与合同锁定的程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 未来收入可被现有订单与合同锁定的程度。
+        example: 收入能见度高，业绩可预测性强。
+        isPrimary: true
+    aliases:
+      - raw: 收入能见度
+        aliasType: primary
+      - raw: Revenue Visibility
+        aliasType: en_alias
+  - slug: zhong-biao-jin-e
+    headword: 中标金额
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公司在招投标项目中中标获得的合同金额。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公司在招投标项目中中标获得的合同金额。
+        example: 中标金额密集公布，预示后续订单充足。
+        isPrimary: true
+    aliases:
+      - raw: 中标金额
+        aliasType: primary
+      - raw: Bid Winning Amount
+        aliasType: en_alias
+  - slug: kuai-ji-fen-qi
+    headword: 会计分期
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 把持续经营活动人为划分为相等期间以便定期报告的前提。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 把持续经营活动人为划分为相等期间以便定期报告的前提。
+        example: 会计分期产生了权责发生制与配比需求。
+        isPrimary: true
+    aliases:
+      - raw: 会计分期
+        aliasType: primary
+      - raw: Accounting Period
+        aliasType: en_alias
+  - slug: li-de-yu-sun-shi
+    headword: 利得与损失
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 由非日常活动形成、直接计入当期利润的收益与损失。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 由非日常活动形成、直接计入当期利润的收益与损失。
+        example: 利得与损失具有偶发性，不属于经营成果。
+        isPrimary: true
+    aliases:
+      - raw: 利得与损失
+        aliasType: primary
+      - raw: Gains and Losses
+        aliasType: en_alias
+  - slug: jin-rong-fu-zhai
+    headword: 金融负债
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 需要交付现金或其他金融资产的合同义务，如应付债券、借款。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 需要交付现金或其他金融资产的合同义务，如应付债券、借款。
+        example: 金融负债按摊余成本或公允价值计量。
+        isPrimary: true
+    aliases:
+      - raw: 金融负债
+        aliasType: primary
+      - raw: Financial Liability
+        aliasType: en_alias
+  - slug: chan-chu-fa
+    headword: 产出法
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按时段确认收入时，按已实现价值占预计总价比例衡量履约进度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按时段确认收入时，按已实现价值占预计总价比例衡量履约进度。
+        example: 产出法以实际完工量确认履约进度。
+        isPrimary: true
+    aliases:
+      - raw: 产出法
+        aliasType: primary
+      - raw: Output Method
+        aliasType: en_alias
+  - slug: tou-ru-fa
+    headword: 投入法
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按时段确认收入时，按已发生成本占预计总成本比例衡量履约进度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按时段确认收入时，按已发生成本占预计总成本比例衡量履约进度。
+        example: 投入法以成本投入比例估计履约进度。
+        isPrimary: true
+    aliases:
+      - raw: 投入法
+        aliasType: primary
+      - raw: Input Method
+        aliasType: en_alias
+  - slug: ke-bian-dui-jia
+    headword: 可变对价
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 合同中因折扣、退款、奖励等而金额可能变动的对价部分。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 合同中因折扣、退款、奖励等而金额可能变动的对价部分。
+        example: 可变对价需按期望值或最可能金额估计。
+        isPrimary: true
+    aliases:
+      - raw: 可变对价
+        aliasType: primary
+      - raw: Variable Consideration
+        aliasType: en_alias
+  - slug: zong-e-fa
+    headword: 总额法
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按总额确认收入、将采购成本列作成本的方法，适用于主要责任人。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按总额确认收入、将采购成本列作成本的方法，适用于主要责任人。
+        example: 主要责任人按总额法确认收入，收入规模更大。
+        isPrimary: true
+    aliases:
+      - raw: 总额法
+        aliasType: primary
+      - raw: Gross Method
+        aliasType: en_alias
+  - slug: jing-e-fa
+    headword: 净额法
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按净额确认收入、仅列示佣金差价的方法，适用于代理人。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按净额确认收入、仅列示佣金差价的方法，适用于代理人。
+        example: 平台按净额法确认收入，规模小于流水。
+        isPrimary: true
+    aliases:
+      - raw: 净额法
+        aliasType: primary
+      - raw: Net Method
+        aliasType: en_alias
+  - slug: wu-bao-liu-yi-jian
+    headword: 无保留意见
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 注册会计师认为财报整体公允、无重大错报的标准审计意见。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 注册会计师认为财报整体公允、无重大错报的标准审计意见。
+        example: 无保留意见是财报可信的基本前提。
+        isPrimary: true
+    aliases:
+      - raw: 无保留意见
+        aliasType: primary
+      - raw: Unmodified Opinion
+        aliasType: en_alias
+  - slug: shen-ji-shi-bian-geng
+    headword: 审计师变更
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业更换会计师事务所的行为，频繁变更需警惕。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业更换会计师事务所的行为，频繁变更需警惕。
+        example: 审计师变更往往被市场视作风险信号。
+        isPrimary: true
+    aliases:
+      - raw: 审计师变更
+        aliasType: primary
+      - raw: Auditor Change
+        aliasType: en_alias
+  - slug: ke-cao-kong-ying-ji
+    headword: 可操控应计
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 管理层可通过会计选择调节的应计利润部分，衡量盈余管理程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 管理层可通过会计选择调节的应计利润部分，衡量盈余管理程度。
+        example: 可操控应计异常高，说明利润被人为调节。
+        isPrimary: true
+    aliases:
+      - raw: 可操控应计
+        aliasType: primary
+      - raw: Discretionary Accruals
+        aliasType: en_alias
+  - slug: dui-wai-dan-bao
+    headword: 对外担保
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业为他人债务提供的担保，可能形成或有负债。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业为他人债务提供的担保，可能形成或有负债。
+        example: 对外担保规模过大，隐性风险不容忽视。
+        isPrimary: true
+    aliases:
+      - raw: 对外担保
+        aliasType: primary
+      - raw: External Guarantee
+        aliasType: en_alias
+  - slug: yong-xu-zhai-quan-yi-cheng-fen
+    headword: 永续债权益成分
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 无明确到期日、发行人可续期的债券，部分计入权益。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 无明确到期日、发行人可续期的债券，部分计入权益。
+        example: 永续债权益成分可降低表观资产负债率。
+        isPrimary: true
+    aliases:
+      - raw: 永续债权益成分
+        aliasType: primary
+      - raw: Perpetual Bond in Equity
+        aliasType: en_alias
+  - slug: yin-man-fu-zhai
+    headword: 隐瞒负债
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 通过表外安排或不入账等手段掩盖真实负债的造假行为。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 通过表外安排或不入账等手段掩盖真实负债的造假行为。
+        example: 隐瞒负债使资产负债率看起来比实际更低。
+        isPrimary: true
+    aliases:
+      - raw: 隐瞒负债
+        aliasType: primary
+      - raw: Hidden Liability
+        aliasType: en_alias
+  - slug: zi-jin-xun-huan
+    headword: 资金循环
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 通过关联方空转资金制造虚假收入与现金流的造假手法。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 通过关联方空转资金制造虚假收入与现金流的造假手法。
+        example: 资金循环造假在银行流水核查中容易暴露。
+        isPrimary: true
+    aliases:
+      - raw: 资金循环
+        aliasType: primary
+      - raw: Fund Circulation Scheme
+        aliasType: en_alias
+  - slug: wei-lai-shi-yong-fa
+    headword: 未来适用法
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 会计估计变更时不追溯调整、自变更日起未来适用的处理方法。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 会计估计变更时不追溯调整、自变更日起未来适用的处理方法。
+        example: 会计估计变更采用未来适用法，不重述前期报表。
+        isPrimary: true
+    aliases:
+      - raw: 未来适用法
+        aliasType: primary
+      - raw: Prospective Application
+        aliasType: en_alias
+  - slug: shou-ru-fei-yong-guan
+    headword: 收入费用观
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以利润表为中心、通过配比确认收益的会计理念。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以利润表为中心、通过配比确认收益的会计理念。
+        example: 收入费用观下，资产负债表成为收入配比的副产品。
+        isPrimary: true
+    aliases:
+      - raw: 收入费用观
+        aliasType: primary
+      - raw: Revenue-expense View
+        aliasType: en_alias
+  - slug: zi-chan-fu-zhai-guan
+    headword: 资产负债观
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以资产负债表为中心、通过资产负债变动定义收益的现代理念。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以资产负债表为中心、通过资产负债变动定义收益的现代理念。
+        example: 现行准则更倾向资产负债观。
+        isPrimary: true
+    aliases:
+      - raw: 资产负债观
+        aliasType: primary
+      - raw: Asset-liability View
+        aliasType: en_alias
+  - slug: xian-jin-liu-dong-fu-zhai-bi
+    headword: 现金流动负债比
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经营现金流净额与流动负债之比，衡量经营现金对短期债务的覆盖。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 经营现金流净额与流动负债之比，衡量经营现金对短期债务的覆盖。
+        example: 现金流动负债比高，短期偿债现金来源充足。
+        isPrimary: true
+    aliases:
+      - raw: 现金流动负债比
+        aliasType: primary
+      - raw: Cash to Current Liabilities
+        aliasType: en_alias
+  - slug: dai-xi-zhai-wu
+    headword: 带息债务
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 需要支付利息的债务总额，包括借款、应付债券与租赁负债。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 需要支付利息的债务总额，包括借款、应付债券与租赁负债。
+        example: 带息债务规模决定利息支出压力。
+        isPrimary: true
+    aliases:
+      - raw: 带息债务
+        aliasType: primary
+      - raw: Interest-bearing Debt
+        aliasType: en_alias
+  - slug: guan-li-xiao-l
+    headword: 管理效率
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 管理层运用资产、控制费用实现盈利的能力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 管理层运用资产、控制费用实现盈利的能力。
+        example: 管理效率体现在费用率与资产周转率的持续改善。
+        isPrimary: true
+    aliases:
+      - raw: 管理效率
+        aliasType: primary
+      - raw: Management Efficiency
+        aliasType: en_alias
+  - slug: kuai-ji-yao-su
+    headword: 会计要素
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对会计对象的基本分类，包括资产、负债、权益、收入、费用与利润。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对会计对象的基本分类，包括资产、负债、权益、收入、费用与利润。
+        example: 会计要素的确认与计量是财报编制的基础。
+        isPrimary: true
+    aliases:
+      - raw: 会计要素
+        aliasType: primary
+      - raw: Accounting Elements
+        aliasType: en_alias
+  - slug: zi-chan-fu-zhai-biao-ri-hou-tiao-zheng-shi-xiang
+    headword: 资产负债表日后调整事项
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对资产负债表日已存在情况提供新证据、需调整报表的日后事项。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对资产负债表日已存在情况提供新证据、需调整报表的日后事项。
+        example: 资产负债表日后调整事项需相应调整报表数字。
+        isPrimary: true
+    aliases:
+      - raw: 资产负债表日后调整事项
+        aliasType: primary
+      - raw: Adjusting Events after Reporting Period
+        aliasType: en_alias
+  - slug: qian-qi-cha-cuo
+    headword: 前期差错
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以前期间财报出现的确认、计量或列报错误，需按规定更正。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以前期间财报出现的确认、计量或列报错误，需按规定更正。
+        example: 前期差错重大时，须追溯重述比较报表。
+        isPrimary: true
+    aliases:
+      - raw: 前期差错
+        aliasType: primary
+      - raw: Prior Period Error
+        aliasType: en_alias
+  - slug: shen-ji-zheng-ju
+    headword: 审计证据
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 注册会计师为形成审计结论所获取的充分适当的依据。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 注册会计师为形成审计结论所获取的充分适当的依据。
+        example: 审计证据越充分，审计意见越可靠。
+        isPrimary: true
+    aliases:
+      - raw: 审计证据
+        aliasType: primary
+      - raw: Audit Evidence
+        aliasType: en_alias
+  - slug: fei-yong-l
+    headword: 费用率
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 各项费用占营业收入的综合比例，反映费用管控水平。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 各项费用占营业收入的综合比例，反映费用管控水平。
+        example: 费用率持续下降，经营效率不断改善。
+        isPrimary: true
+    aliases:
+      - raw: 费用率
+        aliasType: primary
+      - raw: Expense Ratio
+        aliasType: en_alias
+  - slug: li-run-jie-gou
+    headword: 利润结构
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 营业利润、营业外收支与非经常性损益在利润总额中的构成。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 营业利润、营业外收支与非经常性损益在利润总额中的构成。
+        example: 利润结构中非经常性损益占比过高，盈利质量差。
+        isPrimary: true
+    aliases:
+      - raw: 利润结构
+        aliasType: primary
+      - raw: Profit Mix
+        aliasType: en_alias
+  - slug: zhu-li-cheng-ben
+    headword: 主力成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 根据筹码分布估算的主力机构平均建仓成本区域。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 根据筹码分布估算的主力机构平均建仓成本区域。
+        example: 股价回到主力成本区会有强支撑。
+        isPrimary: true
+    aliases:
+      - raw: 主力成本
+        aliasType: primary
+      - raw: Institution Cost Basis
+        aliasType: en_alias
+  - slug: ping-jun-cheng-ben
+    headword: 平均成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 市场上所有持仓者的加权平均持仓成本，通常由筹码分布算出。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 市场上所有持仓者的加权平均持仓成本，通常由筹码分布算出。
+        example: 股价在平均成本上方多数人盈利。
+        isPrimary: true
+    aliases:
+      - raw: 平均成本
+        aliasType: primary
+      - raw: Average Cost
+        aliasType: en_alias
+  - slug: 9-0-cheng-ben-qu-jian
+    headword: 90成本区间
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 筹码分布中覆盖90%持仓者的价格区间宽度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 筹码分布中覆盖90%持仓者的价格区间宽度。
+        example: 90%成本区间收窄说明筹码集中。
+        isPrimary: true
+    aliases:
+      - raw: 90成本区间
+        aliasType: primary
+      - raw: 90% Cost Range
+        aliasType: en_alias
+  - slug: 7-0-cheng-ben-qu-jian
+    headword: 70成本区间
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 筹码分布中覆盖70%持仓者的价格区间宽度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 筹码分布中覆盖70%持仓者的价格区间宽度。
+        example: 70%成本区间比90%更聚焦主力成本。
+        isPrimary: true
+    aliases:
+      - raw: 70成本区间
+        aliasType: primary
+      - raw: 70% Cost Range
+        aliasType: en_alias
+  - slug: xia-feng
+    headword: 下峰
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 筹码分布图中下方的密集峰，代表获利盘或主力成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 筹码分布图中下方的密集峰，代表获利盘或主力成本。
+        example: 下峰锁定说明主力还在。
+        isPrimary: true
+    aliases:
+      - raw: 下峰
+        aliasType: primary
+      - raw: Lower Chip Peak
+        aliasType: en_alias
+  - slug: gong-yong-shi-ye-gu
+    headword: 公用事业股
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经营电力、水务、燃气等公用事业的股票，现金流稳定。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 经营电力、水务、燃气等公用事业的股票，现金流稳定。
+        example: 公用事业股适合收息。
+        isPrimary: true
+    aliases:
+      - raw: 公用事业股
+        aliasType: primary
+      - raw: Utility Stock
+        aliasType: en_alias
+  - slug: zi-chan-zhi-chi-piao-ju
+    headword: 资产支持票据
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 在银行间市场发行、以基础资产现金流支持的票据。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 在银行间市场发行、以基础资产现金流支持的票据。
+        example: 资产支持票据注册制发行。
+        isPrimary: true
+    aliases:
+      - raw: 资产支持票据
+        aliasType: primary
+      - raw: Asset-backed Note
+        aliasType: en_alias
+      - raw: ABN
+        aliasType: en_alias
+  - slug: shang-ye-di-chan-di-ya-dai-kuan-zhi-chi-zheng-quan
+    headword: 商业地产抵押贷款支持证券
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以商业地产抵押贷款为基础资产的证券化产品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以商业地产抵押贷款为基础资产的证券化产品。
+        example: CMBS盘活商业物业。
+        isPrimary: true
+    aliases:
+      - raw: 商业地产抵押贷款支持证券
+        aliasType: primary
+      - raw: CMBS
+        aliasType: en_alias
+  - slug: zhu-fang-di-ya-dai-kuan-zhi-chi-zheng-quan
+    headword: 住房抵押贷款支持证券
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以个人住房抵押贷款为基础资产的证券化产品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以个人住房抵押贷款为基础资产的证券化产品。
+        example: RMBS是MBS的一种。
+        isPrimary: true
+    aliases:
+      - raw: 住房抵押贷款支持证券
+        aliasType: primary
+      - raw: RMBS
+        aliasType: en_alias
+  - slug: zi-chan-zhi-chi-shang-ye-piao-ju
+    headword: 资产支持商业票据
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以应收账款等为基础资产的短期资产支持票据。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以应收账款等为基础资产的短期资产支持票据。
+        example: ABCP滚动发行。
+        isPrimary: true
+    aliases:
+      - raw: 资产支持商业票据
+        aliasType: primary
+      - raw: ABCP
+        aliasType: en_alias
+  - slug: zhong-shen-shou-xian
+    headword: 终身寿险
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 保障终身、含现金价值的寿险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 保障终身、含现金价值的寿险。
+        example: 终身寿险用于财富传承。
+        isPrimary: true
+    aliases:
+      - raw: 终身寿险
+        aliasType: primary
+      - raw: Whole Life Insurance
+        aliasType: en_alias
+  - slug: shang-ye-bao-li
+    headword: 商业保理
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 收购企业应收账款并提供融资的业务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 收购企业应收账款并提供融资的业务。
+        example: 商业保理加速回款。
+        isPrimary: true
+    aliases:
+      - raw: 商业保理
+        aliasType: primary
+      - raw: Factoring
+        aliasType: en_alias
+  - slug: ge-ren-qi-che-dai-kuan-zheng-quan-hua
+    headword: 个人汽车贷款证券化
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以个人汽车贷款为基础资产的ABS。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以个人汽车贷款为基础资产的ABS。
+        example: 汽车贷款证券化盘活银行车贷。
+        isPrimary: true
+    aliases:
+      - raw: 个人汽车贷款证券化
+        aliasType: primary
+      - raw: Auto Loan ABS
+        aliasType: en_alias
+  - slug: xin-yong-ka-dai-kuan-zheng-quan-hua
+    headword: 信用卡贷款证券化
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以信用卡账单资产为基础的证券化产品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以信用卡账单资产为基础的证券化产品。
+        example: 信用卡ABS循环购买结构。
+        isPrimary: true
+    aliases:
+      - raw: 信用卡贷款证券化
+        aliasType: primary
+      - raw: Credit Card ABS
+        aliasType: en_alias
+  - slug: diao-qi
+    headword: 掉期
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 双方约定交换一系列现金流的场外衍生品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 双方约定交换一系列现金流的场外衍生品。
+        example: 掉期交易灵活定制。
+        isPrimary: true
+    aliases:
+      - raw: 掉期
+        aliasType: primary
+      - raw: Swap
+        aliasType: en_alias
+  - slug: tou-gu-fu-wu
+    headword: 投顾服务
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 持牌机构为客户提供资产配置建议。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 持牌机构为客户提供资产配置建议。
+        example: 基金投顾服务收费。
+        isPrimary: true
+    aliases:
+      - raw: 投顾服务
+        aliasType: primary
+      - raw: Investment Advisory
+        aliasType: en_alias
+  - slug: zhi-neng-tou-gu
+    headword: 智能投顾
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 基于算法提供资产配置的线上服务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 基于算法提供资产配置的线上服务。
+        example: 智能投顾门槛低。
+        isPrimary: true
+    aliases:
+      - raw: 智能投顾
+        aliasType: primary
+      - raw: Robo-advisor
+        aliasType: en_alias
+  - slug: dan-bao-bi-li
+    headword: 担保比例
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 融资账户总资产与负债之比，低于130%触发平仓预警。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 融资账户总资产与负债之比，低于130%触发平仓预警。
+        example: 担保比例跌破130%，券商通知追加保证金。
+        isPrimary: true
+    aliases:
+      - raw: 担保比例
+        aliasType: primary
+      - raw: Collateral Ratio
+        aliasType: en_alias
+  - slug: xian-jin-liu
+    headword: 现金流
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业现金流入流出情况，经营现金流是盈利质量的关键验证。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 企业现金流入流出情况，经营现金流是盈利质量的关键验证。
+        example: 经营现金流持续为负，利润含金量存疑。
+        isPrimary: true
+    aliases:
+      - raw: 现金流
+        aliasType: primary
+      - raw: Cash Flow
+        aliasType: en_alias
+  - slug: song-zhuan
+    headword: 送转
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 送股与转增股本的合称，股本扩张但不改变股东权益总额。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 送股与转增股本的合称，股本扩张但不改变股东权益总额。
+        example: 高送转预期升温，相关个股异动。
+        isPrimary: true
+    aliases:
+      - raw: 送转
+        aliasType: primary
+      - raw: Bonus and Conversion
+        aliasType: en_alias
+  - slug: shen-ji-yi-jian
+    headword: 审计意见
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 会计师事务所对公司财报出具的鉴证结论，分无保留、保留、否定与无法表示意见。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 会计师事务所对公司财报出具的鉴证结论，分无保留、保留、否定与无法表示意见。
+        example: 年报被出具保留意见，股价承压。
+        isPrimary: true
+    aliases:
+      - raw: 审计意见
+        aliasType: primary
+      - raw: Audit Opinion
+        aliasType: en_alias
+  - slug: fei-biao-yi-jian
+    headword: 非标意见
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 除标准无保留意见外的审计意见，提示财报存在重大问题。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 除标准无保留意见外的审计意见，提示财报存在重大问题。
+        example: 连续两年非标意见，公司面临退市风险。
+        isPrimary: true
+    aliases:
+      - raw: 非标意见
+        aliasType: primary
+      - raw: Modified Opinion
+        aliasType: en_alias
+  - slug: bing-gou-zhong-zu
+    headword: 并购重组
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公司间收购、合并、资产置换等资本运作行为。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 公司间收购、合并、资产置换等资本运作行为。
+        example: 并购重组新政落地，活跃度回升。
+        isPrimary: true
+    aliases:
+      - raw: 并购重组
+        aliasType: primary
+      - raw: M&A Restructuring
+        aliasType: en_alias
+  - slug: fen-pi-jian-cang
+    headword: 分批建仓
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 分多次、不同价位买入以摊薄成本、控制风险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 分多次、不同价位买入以摊薄成本、控制风险。
+        example: 左侧分批建仓，越跌越买需谨慎。
+        isPrimary: true
+    aliases:
+      - raw: 分批建仓
+        aliasType: primary
+      - raw: Ladder Entry
+        aliasType: en_alias
+  - slug: h-j-t
+    headword: HJT
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 异质结电池技术，转换效率高但成本较高。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 异质结电池技术，转换效率高但成本较高。
+        example: HJT降本提速，产业化进程加快。
+        isPrimary: true
+    aliases:
+      - raw: HJT
+        aliasType: primary
+      - raw: Heterojunction
+        aliasType: en_alias
+  - slug: na-li-zi-dian-chi
+    headword: 钠离子电池
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以钠为电荷载体的电池，成本低、低温性能好。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以钠为电荷载体的电池，成本低、低温性能好。
+        example: 钠电池在储能与两轮车领域放量。
+        isPrimary: true
+    aliases:
+      - raw: 钠离子电池
+        aliasType: primary
+      - raw: Sodium-ion Battery
+        aliasType: en_alias
+  - slug: c-r-o
+    headword: CRO
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 合同研究组织，提供药物研发外包服务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 合同研究组织，提供药物研发外包服务。
+        example: 全球CRO需求回暖，国内龙头订单恢复。
+        isPrimary: true
+    aliases:
+      - raw: CRO
+        aliasType: primary
+      - raw: Contract Research Organization
+        aliasType: en_alias
+  - slug: c-d-m-o
+    headword: CDMO
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 合同研发生产组织，承接药物工艺开发与生产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 合同研发生产组织，承接药物工艺开发与生产。
+        example: CDMO产能利用率回升。
+        isPrimary: true
+    aliases:
+      - raw: CDMO
+        aliasType: primary
+      - raw: Contract Development and Manufacturing Organization
+        aliasType: en_alias
+  - slug: ji-chang
+    headword: 机场
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 机场运营，非航收入（免税、广告）弹性大。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 机场运营，非航收入（免税、广告）弹性大。
+        example: 机场国际客流恢复，免税收入回升。
+        isPrimary: true
+    aliases:
+      - raw: 机场
+        aliasType: primary
+      - raw: Airport
+        aliasType: en_alias
+  - slug: yin-hang
+    headword: 银行
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 银行业，净息差与资产质量为核心变量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 银行业，净息差与资产质量为核心变量。
+        example: 银行板块高股息属性受青睐。
+        isPrimary: true
+    aliases:
+      - raw: 银行
+        aliasType: primary
+      - raw: Bank
+        aliasType: en_alias
+  - slug: bu-liang-l
+    headword: 不良率
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 不良贷款占贷款总额比例，衡量银行资产质量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 不良贷款占贷款总额比例，衡量银行资产质量。
+        example: 不良率保持稳定，资产质量稳健。
+        isPrimary: true
+    aliases:
+      - raw: 不良率
+        aliasType: primary
+      - raw: NPL Ratio
+        aliasType: en_alias
+  - slug: wu-ye
+    headword: 物业
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 物业管理服务，现金流稳定，抗周期。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 物业管理服务，现金流稳定，抗周期。
+        example: 物管公司关联方风险出清后修复。
+        isPrimary: true
+    aliases:
+      - raw: 物业
+        aliasType: primary
+      - raw: Property Management
+        aliasType: en_alias
+  - slug: huan-bao
+    headword: 环保
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 环保行业，运营类资产现金流稳定。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 环保行业，运营类资产现金流稳定。
+        example: 环保运营资产重估。
+        isPrimary: true
+    aliases:
+      - raw: 环保
+        aliasType: primary
+      - raw: Environmental Protection
+        aliasType: en_alias
+  - slug: shui-wu
+    headword: 水务
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 供水与污水处理，稳健现金流资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 供水与污水处理，稳健现金流资产。
+        example: 水价市场化改革提升盈利。
+        isPrimary: true
+    aliases:
+      - raw: 水务
+        aliasType: primary
+      - raw: Water Utilities
+        aliasType: en_alias
+  - slug: m-i-n-i-l-e-d
+    headword: Mini LED
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 次毫米级LED背光技术，兼顾亮度与成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 次毫米级LED背光技术，兼顾亮度与成本。
+        example: Mini LED在电视与笔电放量。
+        isPrimary: true
+    aliases:
+      - raw: Mini LED
+        aliasType: primary
+      - raw: 次毫米发光二极管
+        aliasType: cn_alias
+  - slug: lin-suan-tie-li
+    headword: 磷酸铁锂
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 磷酸铁锂正极材料电池，安全与成本优势。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 磷酸铁锂正极材料电池，安全与成本优势。
+        example: 磷酸铁锂占比持续提升。
+        isPrimary: true
+    aliases:
+      - raw: 磷酸铁锂
+        aliasType: primary
+      - raw: LFP
+        aliasType: en_alias
+  - slug: gao-su-gong-lu
+    headword: 高速公路
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 收费公路，现金流稳定。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 收费公路，现金流稳定。
+        example: 高速公路股息率高。
+        isPrimary: true
+    aliases:
+      - raw: 高速公路
+        aliasType: primary
+      - raw: Highway
+        aliasType: en_alias
+  - slug: tan-bao-cheng-ben
+    headword: 摊薄成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 下跌补仓降低均价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 下跌补仓降低均价。
+        example: 摊薄成本需控制总仓位。
+        isPrimary: true
+    aliases:
+      - raw: 摊薄成本
+        aliasType: primary
+      - raw: Average Down
+        aliasType: en_alias
+  - slug: li-run-biao
+    headword: 利润表
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 反映企业一定时期收入、成本与利润的报表。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 反映企业一定时期收入、成本与利润的报表。
+        example: 利润表营收与净利双增。
+        isPrimary: true
+    aliases:
+      - raw: 利润表
+        aliasType: primary
+      - raw: Income Statement
+        aliasType: en_alias
+  - slug: chou-zi-xian-jin-liu
+    headword: 筹资现金流
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 筹资活动产生的现金净流量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 筹资活动产生的现金净流量。
+        example: 筹资现金流反映融资活动。
+        isPrimary: true
+    aliases:
+      - raw: 筹资现金流
+        aliasType: primary
+      - raw: Financing Cash Flow
+        aliasType: en_alias
+  - slug: suo-you-zhe-quan-yi
+    headword: 所有者权益
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资产减负债，即股东权益。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资产减负债，即股东权益。
+        example: 所有者权益增长源于盈利与注资。
+        isPrimary: true
+    aliases:
+      - raw: 所有者权益
+        aliasType: primary
+      - raw: Equity
+        aliasType: en_alias
+  - slug: e-b-i-t-d-a
+    headword: EBITDA
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 息税前利润加回折旧摊销。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 息税前利润加回折旧摊销。
+        example: EBITDA衡量经营现金创造能力。
+        isPrimary: true
+    aliases:
+      - raw: EBITDA
+        aliasType: primary
+      - raw: 息税折旧摊销前利润
+        aliasType: cn_alias
+  - slug: e-b-i-t
+    headword: EBIT
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 扣除利息与税前的利润。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 扣除利息与税前的利润。
+        example: EBIT反映主营盈利能力。
+        isPrimary: true
+    aliases:
+      - raw: EBIT
+        aliasType: primary
+      - raw: 息税前利润
+        aliasType: cn_alias
+  - slug: zi-ben-hua-yan-fa
+    headword: 资本化研发
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 计入无形资产的研发支出。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 计入无形资产的研发支出。
+        example: 资本化比例过高需关注。
+        isPrimary: true
+    aliases:
+      - raw: 资本化研发
+        aliasType: primary
+      - raw: Capitalized R&D
+        aliasType: en_alias
+  - slug: cai-wu-zao-jia
+    headword: 财务造假
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 虚构收入利润的违法行为。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 虚构收入利润的违法行为。
+        example: 财务造假曝光股价崩跌。
+        isPrimary: true
+    aliases:
+      - raw: 财务造假
+        aliasType: primary
+      - raw: Financial Fraud
+        aliasType: en_alias
+  - slug: fen-hong-yu-an
+    headword: 分红预案
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 董事会提出的分红方案。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 董事会提出的分红方案。
+        example: 分红预案公布后股价或有表现。
+        isPrimary: true
+    aliases:
+      - raw: 分红预案
+        aliasType: primary
+      - raw: Dividend Proposal
+        aliasType: en_alias
+  - slug: ming-si-ji-shi-ke
+    headword: 明斯基时刻
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资产价格崩溃的临界点。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资产价格崩溃的临界点。
+        example: 明斯基时刻警示泡沫破裂。
+        isPrimary: true
+    aliases:
+      - raw: 明斯基时刻
+        aliasType: primary
+      - raw: Minsky Moment
+        aliasType: en_alias
+  - slug: jin-rong-yan-sheng-pin
+    headword: 金融衍生品
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 价值衍生自基础资产的金融工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 价值衍生自基础资产的金融工具。
+        example: 衍生品放大杠杆与风险。
+        isPrimary: true
+    aliases:
+      - raw: 金融衍生品
+        aliasType: primary
+      - raw: Derivatives
+        aliasType: en_alias
+  - slug: mei-lin-shi-zhong
+    headword: 美林时钟
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 美林证券提出的资产配置周期理论。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 美林证券提出的资产配置周期理论。
+        example: 美林时钟指导大类资产轮动。
+        isPrimary: true
+    aliases:
+      - raw: 美林时钟
+        aliasType: primary
+      - raw: Merrill Clock
+        aliasType: en_alias
+  - slug: zi-chan-zhi-chi-zheng-quan
+    headword: 资产支持证券
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以基础资产现金流为支持的证券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以基础资产现金流为支持的证券。
+        example: ABS盘活存量资产。
+        isPrimary: true
+    aliases:
+      - raw: 资产支持证券
+        aliasType: primary
+      - raw: ABS
+        aliasType: en_alias
+  - slug: fu-zhai-duan
+    headword: 负债端
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 机构的资金来源。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 机构的资金来源。
+        example: 负债端成本影响配置行为。
+        isPrimary: true
+    aliases:
+      - raw: 负债端
+        aliasType: primary
+      - raw: Liability Side
+        aliasType: en_alias
+  - slug: zi-chan-duan
+    headword: 资产端
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 机构的资金投向。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 机构的资金投向。
+        example: 资产端收益率下行挤压利差。
+        isPrimary: true
+    aliases:
+      - raw: 资产端
+        aliasType: primary
+      - raw: Asset Side
+        aliasType: en_alias
+  - slug: qi-xian-cuo-pei
+    headword: 期限错配
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资产与负债期限不匹配。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资产与负债期限不匹配。
+        example: 期限错配放大流动性风险。
+        isPrimary: true
+    aliases:
+      - raw: 期限错配
+        aliasType: primary
+      - raw: Maturity Mismatch
+        aliasType: en_alias
+  - slug: fei-biao
+    headword: 非标
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 非标准化债权资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 非标准化债权资产。
+        example: 非标转标是行业趋势。
+        isPrimary: true
+    aliases:
+      - raw: 非标
+        aliasType: primary
+      - raw: Non-standard
+        aliasType: en_alias
+  - slug: zi-chan-pei-zhi
+    headword: 资产配置
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 在大类资产间分配资金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 在大类资产间分配资金。
+        example: 资产配置决定九成收益。
+        isPrimary: true
+    aliases:
+      - raw: 资产配置
+        aliasType: primary
+      - raw: Asset Allocation
+        aliasType: en_alias
+  - slug: ya-ling-ce-l-e
+    headword: 哑铃策略
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 同时配置极保守与极进取资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 同时配置极保守与极进取资产。
+        example: 哑铃策略攻守兼备。
+        isPrimary: true
+    aliases:
+      - raw: 哑铃策略
+        aliasType: primary
+      - raw: Barbell Strategy
+        aliasType: en_alias
+  - slug: zai-ping-heng
+    headword: 再平衡
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 定期调整资产配置比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 定期调整资产配置比例。
+        example: 再平衡维持风险水平。
+        isPrimary: true
+    aliases:
+      - raw: 再平衡
+        aliasType: primary
+      - raw: Rebalancing
+        aliasType: en_alias
+  - slug: zi-chan-fu-zhai-biao-shuai-tui
+    headword: 资产负债表衰退
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业居民修复资产负债表导致的衰退。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业居民修复资产负债表导致的衰退。
+        example: 资产负债表衰退需政策强力干预。
+        isPrimary: true
+    aliases:
+      - raw: 资产负债表衰退
+        aliasType: primary
+      - raw: Balance Sheet Recession
+        aliasType: en_alias
+  - slug: zhong-deng-shou-ru-xian-jing
+    headword: 中等收入陷阱
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 人均收入难破中等水平的困境。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 人均收入难破中等水平的困境。
+        example: 跨越中等收入陷阱需产业升级。
+        isPrimary: true
+    aliases:
+      - raw: 中等收入陷阱
+        aliasType: primary
+      - raw: Middle-income Trap
+        aliasType: en_alias
+  - slug: fen-san-hua
+    headword: 分散化
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 多资产配置分散风险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 多资产配置分散风险。
+        example: 分散化是唯一免费午餐。
+        isPrimary: true
+    aliases:
+      - raw: 分散化
+        aliasType: primary
+      - raw: Diversification
+        aliasType: en_alias
+  - slug: biao-jue-quan
+    headword: 表决权
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股东投票的权利。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股东投票的权利。
+        example: 表决权与股份挂钩。
+        isPrimary: true
+    aliases:
+      - raw: 表决权
+        aliasType: primary
+      - raw: Voting Right
+        aliasType: en_alias
+  - slug: biao-di-zi-chan
+    headword: 标的资产
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 衍生品对应的基础资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 衍生品对应的基础资产。
+        example: 期权价值依赖标的走势。
+        isPrimary: true
+    aliases:
+      - raw: 标的资产
+        aliasType: primary
+      - raw: Underlying
+        aliasType: en_alias
+  - slug: ling-lei-shu-ju
+    headword: 另类数据
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 传统财报外的数据源。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 传统财报外的数据源。
+        example: 另类数据包括卫星与舆情。
+        isPrimary: true
+    aliases:
+      - raw: 另类数据
+        aliasType: primary
+      - raw: Alternative Data
+        aliasType: en_alias
+  - slug: wei-chi-dan-bao-bi-li
+    headword: 维持担保比例
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 担保资产与负债的比值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 担保资产与负债的比值。
+        example: 维持担保比例低于130%预警。
+        isPrimary: true
+    aliases:
+      - raw: 维持担保比例
+        aliasType: primary
+      - raw: Maintenance Ratio
+        aliasType: en_alias
+  - slug: yue-ding-gou-hui
+    headword: 约定购回
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 约定回购的融资方式。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 约定回购的融资方式。
+        example: 约定购回用于股东融资。
+        isPrimary: true
+    aliases:
+      - raw: 约定购回
+        aliasType: primary
+      - raw: Agreed Repurchase
+        aliasType: en_alias
+  - slug: kuai-ji-zheng-ce
+    headword: 会计政策
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业采用的会计处理方法。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业采用的会计处理方法。
+        example: 会计政策影响利润口径。
+        isPrimary: true
+    aliases:
+      - raw: 会计政策
+        aliasType: primary
+      - raw: Accounting Policy
+        aliasType: en_alias
+  - slug: kuai-ji-gu-ji
+    headword: 会计估计
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 财务数据的主观估算。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 财务数据的主观估算。
+        example: 会计估计变更影响利润。
+        isPrimary: true
+    aliases:
+      - raw: 会计估计
+        aliasType: primary
+      - raw: Accounting Estimate
+        aliasType: en_alias
+  - slug: cheng-ben-he-suan
+    headword: 成本核算
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 成本归集与分配的方法。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 成本归集与分配的方法。
+        example: 成本核算影响毛利。
+        isPrimary: true
+    aliases:
+      - raw: 成本核算
+        aliasType: primary
+      - raw: Cost Accounting
+        aliasType: en_alias
+  - slug: cun-huo-ji-jia
+    headword: 存货计价
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 存货成本的计算方法。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 存货成本的计算方法。
+        example: 先进先出与加权平均是常见法。
+        isPrimary: true
+    aliases:
+      - raw: 存货计价
+        aliasType: primary
+      - raw: Inventory Valuation
+        aliasType: en_alias
+  - slug: mu-gong-si-bao-biao
+    headword: 母公司报表
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 母公司单独财务报表。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 母公司单独财务报表。
+        example: 母公司报表与合并报表有别。
+        isPrimary: true
+    aliases:
+      - raw: 母公司报表
+        aliasType: primary
+      - raw: Parent Statement
+        aliasType: en_alias
+  - slug: gui-mu-kou-jing
+    headword: 归母口径
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 归属于母公司股东的统计口径。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 归属于母公司股东的统计口径。
+        example: 归母口径是A股主流口径。
+        isPrimary: true
+    aliases:
+      - raw: 归母口径
+        aliasType: primary
+      - raw: Attributable Basis
+        aliasType: en_alias
+  - slug: li-xi-zhi-chu
+    headword: 利息支出
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 借款利息成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 借款利息成本。
+        example: 利息支出影响财务费用。
+        isPrimary: true
+    aliases:
+      - raw: 利息支出
+        aliasType: primary
+      - raw: Interest Expense
+        aliasType: en_alias
+  - slug: shou-xu-fei-ji-yong-jin
+    headword: 手续费及佣金
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 金融机构服务收入。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 金融机构服务收入。
+        example: 券商手续费收入与成交相关。
+        isPrimary: true
+    aliases:
+      - raw: 手续费及佣金
+        aliasType: primary
+      - raw: Fee Income
+        aliasType: en_alias
+  - slug: biao-wai-ye-wu
+    headword: 表外业务
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 不计入资产负债表的业务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 不计入资产负债表的业务。
+        example: 表外业务需关注风险。
+        isPrimary: true
+    aliases:
+      - raw: 表外业务
+        aliasType: primary
+      - raw: Off-balance-sheet
+        aliasType: en_alias
+  - slug: feng-xian-jia-quan-zi-chan
+    headword: 风险加权资产
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按风险加权的资产规模。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按风险加权的资产规模。
+        example: RWA决定资本充足率。
+        isPrimary: true
+    aliases:
+      - raw: 风险加权资产
+        aliasType: primary
+      - raw: RWA
+        aliasType: en_alias
+  - slug: bo-bei
+    headword: 拨备
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 为坏账计提的准备。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 为坏账计提的准备。
+        example: 拨备覆盖率反映稳健性。
+        isPrimary: true
+    aliases:
+      - raw: 拨备
+        aliasType: primary
+      - raw: Provision
+        aliasType: en_alias
+  - slug: bu-liang-dai-kuan
+    headword: 不良贷款
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 逾期或减值贷款。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 逾期或减值贷款。
+        example: 不良率上升侵蚀利润。
+        isPrimary: true
+    aliases:
+      - raw: 不良贷款
+        aliasType: primary
+      - raw: NPL
+        aliasType: en_alias
+  - slug: shen-ji
+    headword: 审计
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 独立核查财务与内控。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 独立核查财务与内控。
+        example: 审计发现需整改。
+        isPrimary: true
+    aliases:
+      - raw: 审计
+        aliasType: primary
+      - raw: Audit
+        aliasType: en_alias
+  - slug: wai-bu-shen-ji
+    headword: 外部审计
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 外部机构审计。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 外部机构审计。
+        example: 外部审计提升可信度。
+        isPrimary: true
+    aliases:
+      - raw: 外部审计
+        aliasType: primary
+      - raw: External Audit
+        aliasType: en_alias
+  - slug: nei-bu-shen-ji
+    headword: 内部审计
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业内部审计。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业内部审计。
+        example: 内审发现经营问题。
+        isPrimary: true
+    aliases:
+      - raw: 内部审计
+        aliasType: primary
+      - raw: Internal Audit
+        aliasType: en_alias
+  - slug: gu-dong-da-hui-jue-yi
+    headword: 股东大会决议
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股东大会的表决结果。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股东大会的表决结果。
+        example: 重大决议须经股东大会。
+        isPrimary: true
+    aliases:
+      - raw: 股东大会决议
+        aliasType: primary
+      - raw: Shareholder Resolution
+        aliasType: en_alias
+  - slug: biao-jue-quan-zheng-ji
+    headword: 表决权征集
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 征集股东表决权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 征集股东表决权。
+        example: 表决权征集用于治理。
+        isPrimary: true
+    aliases:
+      - raw: 表决权征集
+        aliasType: primary
+      - raw: Proxy Solicitation
+        aliasType: en_alias
+  - slug: gu-dong-ti-an
+    headword: 股东提案
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股东提交的议案。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股东提交的议案。
+        example: 股东提案影响公司治理。
+        isPrimary: true
+    aliases:
+      - raw: 股东提案
+        aliasType: primary
+      - raw: Shareholder Proposal
+        aliasType: en_alias
+  - slug: te-bie-ti-kuan-quan
+    headword: 特别提款权
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: IMF的储备资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: IMF的储备资产。
+        example: SDR篮子含人民币。
+        isPrimary: true
+    aliases:
+      - raw: 特别提款权
+        aliasType: primary
+      - raw: SDR
+        aliasType: en_alias
+  - slug: bi-xian-zi-chan
+    headword: 避险资产
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 风险时期受追捧的资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 风险时期受追捧的资产。
+        example: 黄金美元是传统避险资产。
+        isPrimary: true
+    aliases:
+      - raw: 避险资产
+        aliasType: primary
+      - raw: Safe Haven
+        aliasType: en_alias
+  - slug: feng-xian-zi-chan
+    headword: 风险资产
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 有风险溢价的资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 有风险溢价的资产。
+        example: 股票是典型风险资产。
+        isPrimary: true
+    aliases:
+      - raw: 风险资产
+        aliasType: primary
+      - raw: Risk Asset
+        aliasType: en_alias
+  - slug: r-i-s-k-o-n
+    headword: risk-on
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资金追逐风险资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资金追逐风险资产。
+        example: risk-on环境下股市走强。
+        isPrimary: true
+    aliases:
+      - raw: risk-on
+        aliasType: primary
+      - raw: 风险偏好升温
+        aliasType: cn_alias
+  - slug: r-i-s-k-o-f-f
+    headword: risk-off
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资金撤向安全资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资金撤向安全资产。
+        example: risk-off环境下避险资产受益。
+        isPrimary: true
+    aliases:
+      - raw: risk-off
+        aliasType: primary
+      - raw: 风险规避
+        aliasType: cn_alias
+  - slug: shi-da-liu-tong-gu-dong
+    headword: 十大流通股东
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 流通股东前列机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 流通股东前列机构。
+        example: 十大股东变化受关注。
+        isPrimary: true
+    aliases:
+      - raw: 十大流通股东
+        aliasType: primary
+      - raw: Top 10 Float Holders
+        aliasType: en_alias
+  - slug: bao-ben-zhi-sun
+    headword: 保本止损
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 移至成本价的止损。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 移至成本价的止损。
+        example: 保本止损锁定无风险。
+        isPrimary: true
+    aliases:
+      - raw: 保本止损
+        aliasType: primary
+      - raw: Breakeven Stop
+        aliasType: en_alias
+  - slug: nian-bao-shen-ji
+    headword: 年报审计
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 年度财务审计。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 年度财务审计。
+        example: 年报审计发现重大问题。
+        isPrimary: true
+    aliases:
+      - raw: 年报审计
+        aliasType: primary
+      - raw: Annual Audit
+        aliasType: en_alias
+  - slug: nei-kong-shen-ji
+    headword: 内控审计
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 内部控制审计。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 内部控制审计。
+        example: 内控审计评价治理。
+        isPrimary: true
+    aliases:
+      - raw: 内控审计
+        aliasType: primary
+      - raw: Internal Control Audit
+        aliasType: en_alias
+  - slug: shen-ji-di-gao
+    headword: 审计底稿
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 审计工作记录。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 审计工作记录。
+        example: 审计底稿监管可查。
+        isPrimary: true
+    aliases:
+      - raw: 审计底稿
+        aliasType: primary
+      - raw: Audit Working Papers
+        aliasType: en_alias
+  - slug: shen-ji-du-li-xing
+    headword: 审计独立性
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 审计的独立客观。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 审计的独立客观。
+        example: 独立性是审计生命线。
+        isPrimary: true
+    aliases:
+      - raw: 审计独立性
+        aliasType: primary
+      - raw: Audit Independence
+        aliasType: en_alias
+  - slug: qian-zi-zhu-ce-kuai-ji-shi
+    headword: 签字注册会计师
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 签署审计报告的责任人。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 签署审计报告的责任人。
+        example: 签字注会承担连带责任。
+        isPrimary: true
+    aliases:
+      - raw: 签字注册会计师
+        aliasType: primary
+      - raw: Signing CPA
+        aliasType: en_alias
+  - slug: zhong-da-cuo-bao-feng-xian
+    headword: 重大错报风险
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 财报重大错误的风险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 财报重大错误的风险。
+        example: 错报风险决定审计重点。
+        isPrimary: true
+    aliases:
+      - raw: 重大错报风险
+        aliasType: primary
+      - raw: Material Misstatement Risk
+        aliasType: en_alias
+  - slug: qi-hou-shi-xiang
+    headword: 期后事项
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 报表日后发生的事项。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 报表日后发生的事项。
+        example: 期后事项影响报表。
+        isPrimary: true
+    aliases:
+      - raw: 期后事项
+        aliasType: primary
+      - raw: Subsequent Events
+        aliasType: en_alias
+  - slug: ke-hui-shou-jin-e
+    headword: 可回收金额
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资产可回收的价值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资产可回收的价值。
+        example: 可回收低于账面需减值。
+        isPrimary: true
+    aliases:
+      - raw: 可回收金额
+        aliasType: primary
+      - raw: Recoverable Amount
+        aliasType: en_alias
+  - slug: wai-bi-zhe-suan
+    headword: 外币折算
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 外币报表折算。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 外币报表折算。
+        example: 折算差额计入权益。
+        isPrimary: true
+    aliases:
+      - raw: 外币折算
+        aliasType: primary
+      - raw: Foreign Currency Translation
+        aliasType: en_alias
+  - slug: huo-you-dui-jia
+    headword: 或有对价
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 条件性支付的对价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 条件性支付的对价。
+        example: 或有对价影响并购成本。
+        isPrimary: true
+    aliases:
+      - raw: 或有对价
+        aliasType: primary
+      - raw: Contingent Consideration
+        aliasType: en_alias
+  - slug: zi-chan-shou-gou
+    headword: 资产收购
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 收购公司资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 收购公司资产。
+        example: 资产收购不承继债务。
+        isPrimary: true
+    aliases:
+      - raw: 资产收购
+        aliasType: primary
+      - raw: Asset Acquisition
+        aliasType: en_alias
+  - slug: fa-xing-gu-fen-gou-mai-zi-chan
+    headword: 发行股份购买资产
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 发行股份收购资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 发行股份收购资产。
+        example: 股份支付对价。
+        isPrimary: true
+    aliases:
+      - raw: 发行股份购买资产
+        aliasType: primary
+      - raw: Share-based Acquisition
+        aliasType: en_alias
+  - slug: jian-chi-ji-hua
+    headword: 减持计划
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股东减持安排。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股东减持安排。
+        example: 减持计划公布股价承压。
+        isPrimary: true
+    aliases:
+      - raw: 减持计划
+        aliasType: primary
+      - raw: Reduction Plan
+        aliasType: en_alias
+  - slug: zeng-chi-ji-hua
+    headword: 增持计划
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股东增持安排。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股东增持安排。
+        example: 增持计划提振信心。
+        isPrimary: true
+    aliases:
+      - raw: 增持计划
+        aliasType: primary
+      - raw: Increase Plan
+        aliasType: en_alias
+  - slug: gu-dong-ming-ce
+    headword: 股东名册
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股东名单记录。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股东名单记录。
+        example: 名册确定表决资格。
+        isPrimary: true
+    aliases:
+      - raw: 股东名册
+        aliasType: primary
+      - raw: Shareholder Register
+        aliasType: en_alias
+  - slug: zhong-qi-fen-hong
+    headword: 中期分红
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 年度中分红。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 年度中分红。
+        example: 中期分红频率提升。
+        isPrimary: true
+    aliases:
+      - raw: 中期分红
+        aliasType: primary
+      - raw: Interim Dividend
+        aliasType: en_alias
+  - slug: gu-xi-zhi-fu-ri
+    headword: 股息支付日
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 分红到账日期。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 分红到账日期。
+        example: 支付日股东收息。
+        isPrimary: true
+    aliases:
+      - raw: 股息支付日
+        aliasType: primary
+      - raw: Payment Date
+        aliasType: en_alias
+  - slug: fen-hong-zong-e
+    headword: 分红总额
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 市场分红总规模。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场分红总规模。
+        example: 分红总额持续增长。
+        isPrimary: true
+    aliases:
+      - raw: 分红总额
+        aliasType: primary
+      - raw: Total Dividends
+        aliasType: en_alias
+  - slug: cheng-ben-duan
+    headword: 成本端
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 成本构成状况。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 成本构成状况。
+        example: 成本影响利润。
+        isPrimary: true
+    aliases:
+      - raw: 成本端
+        aliasType: primary
+      - raw: Cost Side
+        aliasType: en_alias
+  - slug: yuan-cai-liao-cheng-ben
+    headword: 原材料成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 原材料价格成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 原材料价格成本。
+        example: 原材料涨价挤压毛利。
+        isPrimary: true
+    aliases:
+      - raw: 原材料成本
+        aliasType: primary
+      - raw: Raw Material Cost
+        aliasType: en_alias
+  - slug: ren-gong-cheng-ben
+    headword: 人工成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 劳动力成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 劳动力成本。
+        example: 人工成本刚性上涨。
+        isPrimary: true
+    aliases:
+      - raw: 人工成本
+        aliasType: primary
+      - raw: Labor Cost
+        aliasType: en_alias
+  - slug: neng-yuan-cheng-ben
+    headword: 能源成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 能源消耗成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 能源消耗成本。
+        example: 能源成本影响制造业。
+        isPrimary: true
+    aliases:
+      - raw: 能源成本
+        aliasType: primary
+      - raw: Energy Cost
+        aliasType: en_alias
+  - slug: yun-shu-cheng-ben
+    headword: 运输成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 物流运输成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 物流运输成本。
+        example: 运输成本影响贸易。
+        isPrimary: true
+    aliases:
+      - raw: 运输成本
+        aliasType: primary
+      - raw: Transport Cost
+        aliasType: en_alias
+  - slug: tui-chu-bi-lei
+    headword: 退出壁垒
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 退出成本障碍。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 退出成本障碍。
+        example: 退出壁垒高产能难清。
+        isPrimary: true
+    aliases:
+      - raw: 退出壁垒
+        aliasType: primary
+      - raw: Exit Barrier
+        aliasType: en_alias
+  - slug: suo-ding-xiao-ying
+    headword: 锁定效应
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 用户切换成本高。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 用户切换成本高。
+        example: 锁定增强粘性。
+        isPrimary: true
+    aliases:
+      - raw: 锁定效应
+        aliasType: primary
+      - raw: Lock-in Effect
+        aliasType: en_alias
+  - slug: jing-yan-qu-xian
+    headword: 经验曲线
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 累积产量降成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 累积产量降成本。
+        example: 经验曲线是成本优势。
+        isPrimary: true
+    aliases:
+      - raw: 经验曲线
+        aliasType: primary
+      - raw: Experience Curve
+        aliasType: en_alias
+  - slug: cheng-ben-you-shi
+    headword: 成本优势
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 成本领先优势。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 成本领先优势。
+        example: 成本低利润厚。
+        isPrimary: true
+    aliases:
+      - raw: 成本优势
+        aliasType: primary
+      - raw: Cost Advantage
+        aliasType: en_alias
+  - slug: shou-ru-jie-gou
+    headword: 收入结构
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 收入来源构成。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 收入来源构成。
+        example: 收入结构影响稳定性。
+        isPrimary: true
+    aliases:
+      - raw: 收入结构
+        aliasType: primary
+      - raw: Revenue Mix
+        aliasType: en_alias
+  - slug: gu-quan-jie-gou
+    headword: 股权结构
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股东持股构成。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股东持股构成。
+        example: 股权结构影响治理。
+        isPrimary: true
+    aliases:
+      - raw: 股权结构
+        aliasType: primary
+      - raw: Ownership Structure
+        aliasType: en_alias
+  - slug: zong-he-cheng-ben-l
+    headword: 综合成本率
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 财险赔付率与费用率之和。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 财险赔付率与费用率之和。
+        example: 综合成本率低于100%承保盈利。
+        isPrimary: true
+    aliases:
+      - raw: 综合成本率
+        aliasType: primary
+      - raw: Combined Ratio
+        aliasType: en_alias
+  - slug: zi-chan-fu-zhai-guan-li
+    headword: 资产负债管理
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资产与负债匹配管理。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资产与负债匹配管理。
+        example: ALM防控利率风险。
+        isPrimary: true
+    aliases:
+      - raw: 资产负债管理
+        aliasType: primary
+      - raw: ALM
+        aliasType: en_alias
+  - slug: zhuan-li-xuan-ya
+    headword: 专利悬崖
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 专利到期收入骤降。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 专利到期收入骤降。
+        example: 专利悬崖冲击原研。
+        isPrimary: true
+    aliases:
+      - raw: 专利悬崖
+        aliasType: primary
+      - raw: Patent Cliff
+        aliasType: en_alias
+  - slug: bao-li
+    headword: 保理
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 应收账款保理业务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 应收账款保理业务。
+        example: 保理降低回款风险。
+        isPrimary: true
+    aliases:
+      - raw: 保理
+        aliasType: primary
+      - raw: Factoring
+        aliasType: en_alias
+  - slug: shen-ji-shi
+    headword: 审计师
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 执行审计的人员。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 执行审计的人员。
+        example: 审计师独立鉴证。
+        isPrimary: true
+    aliases:
+      - raw: 审计师
+        aliasType: primary
+      - raw: Auditor
+        aliasType: en_alias
+  - slug: ping-gu-shi
+    headword: 评估师
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资产评估人员。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资产评估人员。
+        example: 评估师出具评估报告。
+        isPrimary: true
+    aliases:
+      - raw: 评估师
+        aliasType: primary
+      - raw: Appraiser
+        aliasType: en_alias
+  - slug: kuai-ji-shi-shi-wu-suo-shen-ji
+    headword: 会计师事务所审计
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 审计机构服务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 审计机构服务。
+        example: 审计服务独立客观。
+        isPrimary: true
+    aliases:
+      - raw: 会计师事务所审计
+        aliasType: primary
+      - raw: Audit Firm Service
+        aliasType: en_alias
+  - slug: bei-ta-xi-shu
+    headword: 贝塔系数
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资产市场敏感度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资产市场敏感度。
+        example: 贝塔度量系统性风险。
+        isPrimary: true
+    aliases:
+      - raw: 贝塔系数
+        aliasType: primary
+      - raw: Beta Coefficient
+        aliasType: en_alias
+  - slug: bing-fu-xiao-ying
+    headword: 禀赋效应
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 高估已有资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 高估已有资产。
+        example: 禀赋效应阻碍止损。
+        isPrimary: true
+    aliases:
+      - raw: 禀赋效应
+        aliasType: primary
+      - raw: Endowment Effect
+        aliasType: en_alias
+  - slug: chen-mo-cheng-ben
+    headword: 沉没成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 已投入不可回收成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 已投入不可回收成本。
+        example: 沉没成本影响决策。
+        isPrimary: true
+    aliases:
+      - raw: 沉没成本
+        aliasType: primary
+      - raw: Sunk Cost
+        aliasType: en_alias
+  - slug: ji-hui-cheng-ben
+    headword: 机会成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 放弃选择的代价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 放弃选择的代价。
+        example: 机会成本衡量取舍。
+        isPrimary: true
+    aliases:
+      - raw: 机会成本
+        aliasType: primary
+      - raw: Opportunity Cost
+        aliasType: en_alias
+  - slug: gu-ding-cheng-ben
+    headword: 固定成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 不随产量变动的成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 不随产量变动的成本。
+        example: 固定成本高杠杆大。
+        isPrimary: true
+    aliases:
+      - raw: 固定成本
+        aliasType: primary
+      - raw: Fixed Cost
+        aliasType: en_alias
+  - slug: bian-dong-cheng-ben
+    headword: 变动成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 随产量变动的成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 随产量变动的成本。
+        example: 变动成本占比高弹性小。
+        isPrimary: true
+    aliases:
+      - raw: 变动成本
+        aliasType: primary
+      - raw: Variable Cost
+        aliasType: en_alias
+  - slug: ke-hu-huo-qu-cheng-ben
+    headword: 客户获取成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 获取客户成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 获取客户成本。
+        example: CAC影响盈利模型。
+        isPrimary: true
+    aliases:
+      - raw: 客户获取成本
+        aliasType: primary
+      - raw: CAC
+        aliasType: en_alias
+  - slug: ying-shou-zhan-bi
+    headword: 应收占比
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 应收占收入比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 应收占收入比例。
+        example: 应收过高藏风险。
+        isPrimary: true
+    aliases:
+      - raw: 应收占比
+        aliasType: primary
+      - raw: Receivable Ratio
+        aliasType: en_alias
+  - slug: cun-huo-zhan-bi
+    headword: 存货占比
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 存货占总资产比。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 存货占总资产比。
+        example: 存货过高或滞销。
+        isPrimary: true
+    aliases:
+      - raw: 存货占比
+        aliasType: primary
+      - raw: Inventory Ratio
+        aliasType: en_alias
+  - slug: jing-ying-xian-jin-liu-zhan-bi
+    headword: 经营现金流占比
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经营现金流占利润比。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 经营现金流占利润比。
+        example: 占比高盈利实。
+        isPrimary: true
+    aliases:
+      - raw: 经营现金流占比
+        aliasType: primary
+      - raw: OCF Ratio
+        aliasType: en_alias
+  - slug: zi-chan-fu-zhai-qi-xian
+    headword: 资产负债期限
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 债务期限结构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 债务期限结构。
+        example: 长债占比高更稳。
+        isPrimary: true
+    aliases:
+      - raw: 资产负债期限
+        aliasType: primary
+      - raw: Debt Maturity
+        aliasType: en_alias
+  - slug: ying-yun-neng-li
+    headword: 营运能力
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资产使用效率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资产使用效率。
+        example: 营运能力看周转。
+        isPrimary: true
+    aliases:
+      - raw: 营运能力
+        aliasType: primary
+      - raw: Operating Ability
+        aliasType: en_alias
+  - slug: gu-dong-hui-bao-fen-xi
+    headword: 股东回报分析
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 回报水平分析。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 回报水平分析。
+        example: 回报分析看ROE与分红。
+        isPrimary: true
+    aliases:
+      - raw: 股东回报分析
+        aliasType: primary
+      - raw: Shareholder Return Analysis
+        aliasType: en_alias
+  - slug: kong-gu-gu-dong-bian-geng
+    headword: 控股股东变更
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 控股股东变更。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 控股股东变更。
+        example: 变更重大事项。
+        isPrimary: true
+    aliases:
+      - raw: 控股股东变更
+        aliasType: primary
+      - raw: Controlling Shareholder Change
+        aliasType: en_alias
+  - slug: di-yi-da-gu-dong
+    headword: 第一大股东
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 持股最多股东。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 持股最多股东。
+        example: 第一大股东影响力大。
+        isPrimary: true
+    aliases:
+      - raw: 第一大股东
+        aliasType: primary
+      - raw: Largest Shareholder
+        aliasType: en_alias
+  - slug: xian-jin-guan-li
+    headword: 现金管理
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 现金仓位管理。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 现金仓位管理。
+        example: 现金是期权。
+        isPrimary: true
+    aliases:
+      - raw: 现金管理
+        aliasType: primary
+      - raw: Cash Management
+        aliasType: en_alias
+  - slug: pei-zhi-ce-l-e
+    headword: 配置策略
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资产配置策略。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资产配置策略。
+        example: 策略定比例。
+        isPrimary: true
+    aliases:
+      - raw: 配置策略
+        aliasType: primary
+      - raw: Allocation Strategy
+        aliasType: en_alias
+  - slug: cheng-ben-you-hua
+    headword: 成本优化
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 成本控制优化。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 成本控制优化。
+        example: 优化提收益。
+        isPrimary: true
+    aliases:
+      - raw: 成本优化
+        aliasType: primary
+      - raw: Cost Optimization
+        aliasType: en_alias
+  - slug: shen-ji-fang-tan
+    headword: 审计访谈
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 审计沟通访谈。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 审计沟通访谈。
+        example: 访谈验证信息。
+        isPrimary: true
+    aliases:
+      - raw: 审计访谈
+        aliasType: primary
+      - raw: Audit Interview
+        aliasType: en_alias
+  - slug: pan-dian
+    headword: 盘点
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资产盘点核实。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资产盘点核实。
+        example: 盘点验证存货。
+        isPrimary: true
+    aliases:
+      - raw: 盘点
+        aliasType: primary
+      - raw: Inventory Count
+        aliasType: en_alias
+  - slug: gu-dong-da-hui-xian-chang
+    headword: 股东大会现场
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股东大会现场参与。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股东大会现场参与。
+        example: 现场了解公司。
+        isPrimary: true
+    aliases:
+      - raw: 股东大会现场
+        aliasType: primary
+      - raw: AGM On-site
+        aliasType: en_alias
+  - slug: fen-hong-xiao-ying
+    headword: 分红效应
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 分红的市场反应。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 分红的市场反应。
+        example: 高分红受追捧。
+        isPrimary: true
+    aliases:
+      - raw: 分红效应
+        aliasType: primary
+      - raw: Dividend Effect
+        aliasType: en_alias
+  - slug: fen-hong-ri-li
+    headword: 分红日历
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 分红实施安排。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 分红实施安排。
+        example: 日历抓时点。
+        isPrimary: true
+    aliases:
+      - raw: 分红日历
+        aliasType: primary
+      - raw: Dividend Calendar
+        aliasType: en_alias
+  - slug: shen-ji-zhui-zong
+    headword: 审计追踪
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 操作审计追溯。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 操作审计追溯。
+        example: 追踪防违规。
+        isPrimary: true
+    aliases:
+      - raw: 审计追踪
+        aliasType: primary
+      - raw: Audit Trail
+        aliasType: en_alias
+  - slug: he-gui-shen-ji
+    headword: 合规审计
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 合规性审计。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 合规性审计。
+        example: 审计保合规。
+        isPrimary: true
+    aliases:
+      - raw: 合规审计
+        aliasType: primary
+      - raw: Compliance Audit
+        aliasType: en_alias
+  - slug: nei-bu-kong-zhi-shen-ji
+    headword: 内部控制审计
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 内控审计。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 内控审计。
+        example: 审计评内控。
+        isPrimary: true
+    aliases:
+      - raw: 内部控制审计
+        aliasType: primary
+      - raw: Internal Control Audit
+        aliasType: en_alias
+  - slug: zhuan-xiang-shen-ji
+    headword: 专项审计
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 专项事项审计。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 专项事项审计。
+        example: 专项查重点。
+        isPrimary: true
+    aliases:
+      - raw: 专项审计
+        aliasType: primary
+      - raw: Special Audit
+        aliasType: en_alias
+  - slug: li-ren-shen-ji
+    headword: 离任审计
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 高管离任审计。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 高管离任审计。
+        example: 离任审业绩。
+        isPrimary: true
+    aliases:
+      - raw: 离任审计
+        aliasType: primary
+      - raw: Exit Audit
+        aliasType: en_alias
+  - slug: ren-zhong-shen-ji
+    headword: 任中审计
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 任期内审计。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 任期内审计。
+        example: 任中查经营。
+        isPrimary: true
+    aliases:
+      - raw: 任中审计
+        aliasType: primary
+      - raw: In-service Audit
+        aliasType: en_alias
+  - slug: ding-qi-shen-ji
+    headword: 定期审计
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 定期审计安排。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 定期审计安排。
+        example: 定期保监督。
+        isPrimary: true
+    aliases:
+      - raw: 定期审计
+        aliasType: primary
+      - raw: Periodic Audit
+        aliasType: en_alias
+  - slug: tu-ji-shen-ji
+    headword: 突击审计
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 突击检查审计。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 突击检查审计。
+        example: 突击查真实。
+        isPrimary: true
+    aliases:
+      - raw: 突击审计
+        aliasType: primary
+      - raw: Surprise Audit
+        aliasType: en_alias
+  - slug: huo-ke-cheng-ben
+    headword: 获客成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 获取客户成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 获取客户成本。
+        example: 获客成本看效率。
+        isPrimary: true
+    aliases:
+      - raw: 获客成本
+        aliasType: primary
+      - raw: Customer Acquisition Cost
+        aliasType: en_alias
+  - slug: dan-ke-shou-ru
+    headword: 单客收入
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 单客户收入贡献。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 单客户收入贡献。
+        example: 单客收入看价值。
+        isPrimary: true
+    aliases:
+      - raw: 单客收入
+        aliasType: primary
+      - raw: Revenue Per Customer
+        aliasType: en_alias
+  - slug: liu-liang-cheng-ben
+    headword: 流量成本
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 获取流量成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 获取流量成本。
+        example: 成本上升承压。
+        isPrimary: true
+    aliases:
+      - raw: 流量成本
+        aliasType: primary
+      - raw: Traffic Cost
+        aliasType: en_alias
+  - slug: cheng-ben-fen-xi
+    headword: 成本分析
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 成本结构分析。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 成本结构分析。
+        example: 分析促降本。
+        isPrimary: true
+    aliases:
+      - raw: 成本分析
+        aliasType: primary
+      - raw: Cost Analysis
+        aliasType: en_alias
+  - slug: shou-ru-fen-xi
+    headword: 收入分析
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 收入结构分析。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 收入结构分析。
+        example: 分析促增长。
+        isPrimary: true
+    aliases:
+      - raw: 收入分析
+        aliasType: primary
+      - raw: Revenue Analysis
+        aliasType: en_alias
+  - slug: li-run-fen-xi
+    headword: 利润分析
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 利润来源分析。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 利润来源分析。
+        example: 分析促质量。
+        isPrimary: true
+    aliases:
+      - raw: 利润分析
+        aliasType: primary
+      - raw: Profit Analysis
+        aliasType: en_alias
+  - slug: xian-jin-liu-fen-xi
+    headword: 现金流分析
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 现金流分析。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 现金流分析。
+        example: 分析促健康。
+        isPrimary: true
+    aliases:
+      - raw: 现金流分析
+        aliasType: primary
+      - raw: Cash Flow Analysis
+        aliasType: en_alias
+  - slug: fang-fa-ke-shen-ji
+    headword: 方法可审计
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 方法可核查。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 方法可核查。
+        example: 可审计促规范。
+        isPrimary: true
+    aliases:
+      - raw: 方法可审计
+        aliasType: primary
+      - raw: Auditable Method
+        aliasType: en_alias
+  - slug: shu-ju-zi-chan
+    headword: 数据资产
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 数据价值资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 数据价值资产。
+        example: 资产促利用。
+        isPrimary: true
+    aliases:
+      - raw: 数据资产
+        aliasType: primary
+      - raw: Data Asset
+        aliasType: en_alias
+  - slug: shu-ju-zi-chan-hua
+    headword: 数据资产化
+    categoryL1: 财报公司
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 数据价值化。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 数据价值化。
+        example: 资产化促变现。
+        isPrimary: true
+    aliases:
+      - raw: 数据资产化
+        aliasType: primary
+      - raw: Data Assetization
+        aliasType: en_alias

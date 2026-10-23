@@ -1,0 +1,130 @@
+# 自动生成的批量词条源（可由 ingest 重新编译为 lexicon.json）
+category: 市场情绪
+source: bootstrap from lexicon.json (2026-10-22)
+terms:
+  - slug: hang-qing
+    headword: 行情
+    categoryL1: 市场情绪
+    categoryL2: 市场状态
+    difficulty: L1
+    summaryPlain: 指一段时间里股票价格的走势和交易的冷热，常说大盘或某只票的“市况”怎么样。
+    riskNote: 涨的时候叫好不代表能一直涨，冷暖会轮着来。
+    frequency: high
+    popularity: 900
+    senses:
+      - senseKey: default
+        plainExplain: 指一段时间里股票价格的走势和交易的冷热，常说大盘或某只票的“市况”怎么样。
+        example: 比如最近指数连着往上、成交也放大，大家就说市道比较热。
+        notMeaning: 涨的时候叫好不代表能一直涨，冷暖会轮着来。
+        isPrimary: true
+        contextKeywords:
+          - 大盘
+          - 走势
+          - 市场
+          - 成交量
+        frequency: high
+    aliases:
+      - raw: 行情
+        aliasType: primary
+    viz:
+      type: MarketMood
+      config: {}
+    insights:
+      affects:
+        - 你账户的整体盈亏方向
+        - 大家是贪婪还是恐惧
+        - 新股、基金好不好卖
+      good:
+        - 牛市：多数股票涨、赚钱容易
+        - 震荡市：有涨有跌、能挑
+      bad:
+        - 熊市：多数股票跌、容易亏
+        - 成交量低迷、没人气
+      policy:
+        - 货币宽松、利好政策能催生牛市
+        - 收紧、利空会压成熊市
+      example: 行情像天气：晴天（牛市）大家出门赚钱；雨天（熊市）少出门保命；阴天（震荡）带把伞随机应变。
+  - slug: huan-shou-lv
+    headword: 换手率
+    categoryL1: 市场情绪
+    categoryL2: 活跃度
+    difficulty: L3
+    summaryPlain: 一段时间内成交量占流通股本的比例，越高说明筹码倒手越频繁、关注度与分歧越大。
+    riskNote: 高不等于要涨，可能是出货对倒，要结合价格位置看。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 一段时间内成交量占流通股本的比例，越高说明筹码倒手越频繁、关注度与分歧越大。
+        example: 比如一只票一天里流通的那部分被买卖了一大半，说明资金进出很激烈。
+        notMeaning: 高不等于要涨，可能是出货对倒，要结合价格位置看。
+        isPrimary: true
+        contextKeywords:
+          - 筹码
+          - 活跃
+          - 分歧
+          - 流通股
+        frequency: mid
+    aliases:
+      - raw: 换手率
+        aliasType: primary
+    viz:
+      type: TurnoverPie
+      config: {}
+    insights:
+      affects:
+        - 这只股票筹码转手有多频繁
+        - 流动性好坏
+        - 主力进出是否明显
+      good:
+        - 适中换手=交投活跃、好买卖
+        - 说明股票不‘死’
+      bad:
+        - 过高=投机炒作、筹码乱跳
+        - 过低=没人买卖、想卖难卖
+      policy:
+        - 题材热度、限售解禁影响它
+        - T+1 等制度约束换手节奏
+      example: 100 张票今天有 20 张换了主人→换手率 20%。换得越勤，说明大家买卖越积极；几乎不换，说明被‘焊死’不动。
+  - slug: li-hao-li-kong
+    headword: 利好/利空
+    categoryL1: 市场情绪
+    categoryL2: 消息面
+    difficulty: L1
+    summaryPlain: 刺激股价上涨的消息叫利好，打压股价的叫利空：市场的晴雨表。
+    riskNote: 利好出尽是利空，利空出尽是利好，别只看消息本身。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 刺激股价上涨的消息叫利好，打压股价的叫利空：市场的晴雨表。
+        example: 比如降准是利好，加息是利空，但都要看预期打没打满。
+        notMeaning: 利好出尽是利空，利空出尽是利好，别只看消息本身。
+        isPrimary: true
+        contextKeywords:
+          - 消息面
+        frequency: high
+    aliases:
+      - raw: 利好
+        aliasType: primary
+      - raw: 利空
+        aliasType: cn_alias
+      - raw: 利多
+        aliasType: cn_alias
+      - raw: 消息面
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 利好利空：消息的两面
+    insights:
+      affects:
+        - 事件驱动：行情的催化剂
+        - 预期博弈：消息与股价的错位
+      good:
+        - 超预期利好：上涨催化剂
+      bad:
+        - 利好当利空读：见光死
+      policy:
+        - 政策发布节奏
+      example: 天气预报：说明天下雨（利好雨具店、利空洗车店）——同一个消息，不同人生。

@@ -85,6 +85,9 @@ importers:
       '@types/node':
         specifier: ^20.14.0
         version: 20.19.43
+      pinyin-pro:
+        specifier: ^3.29.5
+        version: 3.29.5
       tsx:
         specifier: ^4.19.0
         version: 4.23.15
@@ -1271,6 +1274,9 @@ packages:
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
 
+  pinyin-pro@3.29.5:
+    resolution: {integrity: sha512-Fk5YoRmtdHqJWqAuzYVG/NzvzeCbaG+ZEwbY6Nbps3QAIrvQQEtcm49frcyCM8i2b5najnzPDtYqrHRYTTiuwQ==}
+
   postcss@8.5.23:
     resolution: {integrity: sha512-g50586zr4bZmwFiTlflMu8E0bDTb5I5gertgwAKmsdUlTQIhZtunzUlD1WSzwcVWPoAVpsrA6vlfCD7oXvRwgg==}
     engines: {node: ^10 || ^12 || >=14}
@@ -2138,6 +2144,8 @@ snapshots:
       postgres-range: 1.1.4
 
   picocolors@1.1.1: {}
+
+  pinyin-pro@3.29.5: {}
 
   postcss@8.5.23:
     dependencies:

@@ -1,0 +1,308 @@
+source: gen from full.tsv keyword=货币乘数|超储|利率走廊|政策利率|市场利率|实际利率|名义利率|同业存单|再贷款|再贴现|专项债|地方债|赤字率|宏观杠杆|债务周期|不可能三角|不可能三角|托宾|蒙代尔|资本外流|国际收支|经常账户|资本账户|外汇储备细节|汇率细节 (待精修)
+terms:
+  - slug: tuo-bin-q
+    headword: 托宾Q
+    categoryL1: 宏观经济
+    categoryL2: 货币与信用
+    difficulty: L2
+    summaryPlain: 企业市场价值与重置成本之比，大于1说明市场给予成长性溢价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 企业市场价值与重置成本之比，大于1说明市场给予成长性溢价。
+        example: 托宾Q大于1，市场认为公司未来价值超过重置资产。
+        isPrimary: true
+    aliases:
+      - raw: 托宾Q
+        aliasType: primary
+      - raw: Tobin's Q
+        aliasType: en_alias
+  - slug: shi-ji-li-l-fa
+    headword: 实际利率法
+    categoryL1: 宏观经济
+    categoryL2: 货币与信用
+    difficulty: L2
+    summaryPlain: 按实际利率摊销金融资产负债溢折价的方法。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按实际利率摊销金融资产负债溢折价的方法。
+        example: 实际利率法下，利息收入随摊余成本变动。
+        isPrimary: true
+    aliases:
+      - raw: 实际利率法
+        aliasType: primary
+      - raw: Effective Interest Method
+        aliasType: en_alias
+  - slug: di-fang-zheng-fu-zhuan-xiang-zhai-quan
+    headword: 地方政府专项债券
+    categoryL1: 宏观经济
+    categoryL2: 货币与信用
+    difficulty: L2
+    summaryPlain: 有一定收益的公益性项目对应的地方政府债券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 有一定收益的公益性项目对应的地方政府债券。
+        example: 地方政府专项债券用于基建。
+        isPrimary: true
+    aliases:
+      - raw: 地方政府专项债券
+        aliasType: primary
+      - raw: Local Special Bond
+        aliasType: en_alias
+  - slug: tong-ye-cun-dan-e-t-f
+    headword: 同业存单ETF
+    categoryL1: 宏观经济
+    categoryL2: 货币与信用
+    difficulty: L2
+    summaryPlain: 跟踪同业存单指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪同业存单指数的ETF。
+        example: 同业存单ETF流动性好。
+        isPrimary: true
+    aliases:
+      - raw: 同业存单ETF
+        aliasType: primary
+      - raw: NCD ETF
+        aliasType: en_alias
+  - slug: jing-chang-zhang-hu
+    headword: 经常账户
+    categoryL1: 宏观经济
+    categoryL2: 货币与信用
+    difficulty: L2
+    summaryPlain: 国际收支中货物、服务、收益与转移项目，反映一国对外经济实力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 国际收支中货物、服务、收益与转移项目，反映一国对外经济实力。
+        example: 经常账户顺差保持合理规模。
+        isPrimary: true
+    aliases:
+      - raw: 经常账户
+        aliasType: primary
+      - raw: Current Account
+        aliasType: en_alias
+  - slug: li-l-zou-lang
+    headword: 利率走廊
+    categoryL1: 宏观经济
+    categoryL2: 货币与信用
+    difficulty: L2
+    summaryPlain: 由SLF利率（上限）与超额准备金利率（下限）构成的利率波动区间。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 由SLF利率（上限）与超额准备金利率（下限）构成的利率波动区间。
+        example: 利率走廊收窄，利率波动平缓。
+        isPrimary: true
+    aliases:
+      - raw: 利率走廊
+        aliasType: primary
+      - raw: Interest Rate Corridor
+        aliasType: en_alias
+  - slug: zheng-ce-li-l
+    headword: 政策利率
+    categoryL1: 宏观经济
+    categoryL2: 货币与信用
+    difficulty: L2
+    summaryPlain: 央行直接调控的利率，如7天逆回购利率，引导市场利率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 央行直接调控的利率，如7天逆回购利率，引导市场利率。
+        example: 央行直接调控的那个利率降息后，债券市场往往走出一波行情。
+        isPrimary: true
+    aliases:
+      - raw: 政策利率
+        aliasType: primary
+      - raw: Policy Rate
+        aliasType: en_alias
+  - slug: shi-chang-li-l
+    headword: 市场利率
+    categoryL1: 宏观经济
+    categoryL2: 货币与信用
+    difficulty: L2
+    summaryPlain: 由市场供求决定的利率，如DR007、国债收益率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 由市场供求决定的利率，如DR007、国债收益率。
+        example: 市场利率围绕政策利率波动。
+        isPrimary: true
+    aliases:
+      - raw: 市场利率
+        aliasType: primary
+      - raw: Market Rate
+        aliasType: en_alias
+  - slug: shi-ji-li-l
+    headword: 实际利率
+    categoryL1: 宏观经济
+    categoryL2: 货币与信用
+    difficulty: L2
+    summaryPlain: 名义利率减去通胀率，影响资产定价核心变量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 名义利率减去通胀率，影响资产定价核心变量。
+        example: 实际利率下行利好黄金与成长股。
+        isPrimary: true
+    aliases:
+      - raw: 实际利率
+        aliasType: primary
+      - raw: Real Interest Rate
+        aliasType: en_alias
+  - slug: ming-yi-li-l
+    headword: 名义利率
+    categoryL1: 宏观经济
+    categoryL2: 货币与信用
+    difficulty: L2
+    summaryPlain: 未剔除通胀的利率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 未剔除通胀的利率。
+        example: 名义利率高位，压制估值。
+        isPrimary: true
+    aliases:
+      - raw: 名义利率
+        aliasType: primary
+      - raw: Nominal Interest Rate
+        aliasType: en_alias
+  - slug: hong-guan-gang-gan-l
+    headword: 宏观杠杆率
+    categoryL1: 宏观经济
+    categoryL2: 货币与信用
+    difficulty: L2
+    summaryPlain: 总债务与GDP之比，衡量宏观债务水平。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 总债务与GDP之比，衡量宏观债务水平。
+        example: 宏观杠杆率保持稳定，稳杠杆政策延续。
+        isPrimary: true
+    aliases:
+      - raw: 宏观杠杆率
+        aliasType: primary
+      - raw: Macro Leverage Ratio
+        aliasType: en_alias
+  - slug: chi-zi-l
+    headword: 赤字率
+    categoryL1: 宏观经济
+    categoryL2: 货币与信用
+    difficulty: L2
+    summaryPlain: 财政赤字占GDP的比例，中国政策目标通常定在3%左右，近年实施积极财政时实际水平有所上升。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 财政赤字占GDP的比例，中国政策目标通常定在3%左右，近年实施积极财政时实际水平有所上升。
+        example: 今年赤字按GDP的3%安排，比去年更积极。
+        isPrimary: true
+    aliases:
+      - raw: 赤字率
+        aliasType: primary
+      - raw: Deficit Ratio
+        aliasType: en_alias
+  - slug: zhuan-xiang-zhai
+    headword: 专项债
+    categoryL1: 宏观经济
+    categoryL2: 货币与信用
+    difficulty: L2
+    summaryPlain: 地方政府为特定项目发行的债券，用于基建等投资项目。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 地方政府为特定项目发行的债券，用于基建等投资项目。
+        example: 为特定项目发的地方债，今年额度用得特别快。
+        isPrimary: true
+    aliases:
+      - raw: 专项债
+        aliasType: primary
+      - raw: Special Bonds
+        aliasType: en_alias
+  - slug: di-fang-zhai
+    headword: 地方债
+    categoryL1: 宏观经济
+    categoryL2: 货币与信用
+    difficulty: L2
+    summaryPlain: 地方政府发行的债券，分一般债与专项债。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 地方政府发行的债券，分一般债与专项债。
+        example: 地方债发行节奏影响资金面。
+        isPrimary: true
+    aliases:
+      - raw: 地方债
+        aliasType: primary
+      - raw: Local Government Bonds
+        aliasType: en_alias
+  - slug: zi-ben-wai-liu
+    headword: 资本外流
+    categoryL1: 宏观经济
+    categoryL2: 货币与信用
+    difficulty: L2
+    summaryPlain: 资本大规模流出境外，对本币与资产形成压力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资本大规模流出境外，对本币与资产形成压力。
+        example: 资本外流压力缓解，汇率企稳。
+        isPrimary: true
+    aliases:
+      - raw: 资本外流
+        aliasType: primary
+      - raw: Capital Outflow
+        aliasType: en_alias
+  - slug: zi-ben-zhang-hu
+    headword: 资本账户
+    categoryL1: 宏观经济
+    categoryL2: 货币与信用
+    difficulty: L2
+    summaryPlain: 资本项目收支。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资本项目收支。
+        example: 资本账户开放渐进推进。
+        isPrimary: true
+    aliases:
+      - raw: 资本账户
+        aliasType: primary
+      - raw: Capital Account
+        aliasType: en_alias
+  - slug: guo-ji-shou-zhi
+    headword: 国际收支
+    categoryL1: 宏观经济
+    categoryL2: 货币与信用
+    difficulty: L2
+    summaryPlain: 一国对外收支总表。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 一国对外收支总表。
+        example: 国际收支平衡是政策目标。
+        isPrimary: true
+    aliases:
+      - raw: 国际收支
+        aliasType: primary
+      - raw: Balance of Payments
+        aliasType: en_alias

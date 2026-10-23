@@ -1,0 +1,6662 @@
+source: gen from full.tsv --all 市场×类型×关键词路由 (待精修)
+terms:
+  - slug: yin-hang-ti-xi-zong-jie-yu
+    headword: 银行体系总结余
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 香港银行体系在金管局结算账户的总额，是衡量港元市场流动性的重要指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 香港银行体系在金管局结算账户的总额，是衡量港元市场流动性的重要指标。
+        example: 银行体系总结余持续下降，反映港元资金面不断收紧。
+        isPrimary: true
+    aliases:
+      - raw: 银行体系总结余
+        aliasType: primary
+      - raw: Aggregate Balance
+        aliasType: en_alias
+      - raw: 总结余
+        aliasType: cn_alias
+  - slug: gang-gu-chuang-ye-ban-g-e-m
+    headword: 港股创业板GEM
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港交所设立的第二板市场，主要容纳规模较小、风险较高的成长型公司。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港交所设立的第二板市场，主要容纳规模较小、风险较高的成长型公司。
+        example: 港股创业板GEM的成交清淡，流动性一直是市场担忧。
+        isPrimary: true
+    aliases:
+      - raw: 港股创业板GEM
+        aliasType: primary
+      - raw: GEM
+        aliasType: en_alias
+      - raw: Growth Enterprise Market
+        aliasType: en_alias
+  - slug: heng-sheng-zong-he-zhi-shu
+    headword: 恒生综合指数
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 覆盖港股市场绝大部分上市公司的宽基指数，是港股通选股的基础范围。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 覆盖港股市场绝大部分上市公司的宽基指数，是港股通选股的基础范围。
+        example: 恒生综合指数成份股调整后，部分小票调入调出。
+        isPrimary: true
+    aliases:
+      - raw: 恒生综合指数
+        aliasType: primary
+      - raw: HSCI
+        aliasType: en_alias
+      - raw: Hang Seng Composite Index
+        aliasType: en_alias
+  - slug: p-o-s-c-a-s
+    headword: POS/CAS
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股的开市前时段与收市竞价交易时段，用于集合撮合形成开盘与收盘价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港股的开市前时段与收市竞价交易时段，用于集合撮合形成开盘与收盘价。
+        example: POS/CAS时段的盘前定价，往往预示当天开盘方向。
+        isPrimary: true
+    aliases:
+      - raw: POS/CAS
+        aliasType: primary
+      - raw: POS
+        aliasType: en_alias
+      - raw: CAS
+        aliasType: en_alias
+      - raw: Pre-Opening Session
+        aliasType: en_alias
+      - raw: Closing Auction Session
+        aliasType: en_alias
+  - slug: gang-gu-mai-kong-bi-l
+    headword: 港股卖空比率
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股个股卖空成交额占总成交额的比例，反映该股做空热度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港股个股卖空成交额占总成交额的比例，反映该股做空热度。
+        example: 港股卖空比率持续偏高，说明该股被不少资金看空。
+        isPrimary: true
+    aliases:
+      - raw: 港股卖空比率
+        aliasType: primary
+      - raw: 卖空比率
+        aliasType: cn_alias
+      - raw: Short Selling Turnover Ratio
+        aliasType: en_alias
+  - slug: wei-ying-li-sheng-wu-ke-ji-gong-si-shang-shi
+    headword: 未盈利生物科技公司上市
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港交所主板上市规则第18A章，允许未盈利、无收入的生物科技公司上市。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 港交所主板上市规则第18A章，允许未盈利、无收入的生物科技公司上市。
+        example: 按18A章上市的未盈利生物科技股一度备受追捧。
+        isPrimary: true
+    aliases:
+      - raw: 未盈利生物科技公司上市
+        aliasType: primary
+      - raw: 18A章上市
+        aliasType: en_alias
+  - slug: te-zhuan-ke-ji-gong-si-shang-shi
+    headword: 特专科技公司上市
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港交所18C章为特专科技公司设的新上市渠道，容许未商业化企业上市。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 港交所18C章为特专科技公司设的新上市渠道，容许未商业化企业上市。
+        example: 18C特专科技公司上市门槛较18A更侧重研发与市场化程度。
+        isPrimary: true
+    aliases:
+      - raw: 特专科技公司上市
+        aliasType: primary
+      - raw: 18C章上市
+        aliasType: en_alias
+  - slug: s-p-a-c-shang-shi-ji-zhi
+    headword: SPAC上市机制
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港交所允许的特殊目的收购公司上市制度，先募资再并购标的。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港交所允许的特殊目的收购公司上市制度，先募资再并购标的。
+        example: 港股SPAC上市机制要求发起人具备专业资历与最低出资。
+        isPrimary: true
+    aliases:
+      - raw: SPAC上市机制
+        aliasType: primary
+      - raw: Special Purpose Acquisition Company
+        aliasType: en_alias
+  - slug: xie-yi-an-pai
+    headword: 协议安排
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公司透过法院批准的计划协议方式实现私有化或合并，须股东大会表决通过。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 公司透过法院批准的计划协议方式实现私有化或合并，须股东大会表决通过。
+        example: 这次退市采用协议安排，须获得绝大多数股东同意。
+        isPrimary: true
+    aliases:
+      - raw: 协议安排
+        aliasType: primary
+      - raw: Scheme of Arrangement
+        aliasType: en_alias
+  - slug: mao-ding-tou-zi-zhe
+    headword: 锚定投资者
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: IPO簿记阶段承诺按发行价认购、锁定期较短的机构投资者。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: IPO簿记阶段承诺按发行价认购、锁定期较短的机构投资者。
+        example: 这批锚定投资者在簿记截止前已锁定份额。
+        isPrimary: true
+    aliases:
+      - raw: 锚定投资者
+        aliasType: primary
+      - raw: Anchor Investor
+        aliasType: en_alias
+  - slug: gong-kai-fa-shou
+    headword: 公开发售
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: IPO面向香港公众投资者的部分，按认购倍数抽签分配。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: IPO面向香港公众投资者的部分，按认购倍数抽签分配。
+        example: 公开发售获超购逾百倍，触发回拨机制。
+        isPrimary: true
+    aliases:
+      - raw: 公开发售
+        aliasType: primary
+      - raw: Public Offer
+        aliasType: en_alias
+  - slug: dai-xiao
+    headword: 代销
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 承销商尽力推销但不承诺包销余额的发行方式。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 承销商尽力推销但不承诺包销余额的发行方式。
+        example: 这次代销发行，投行不承担认购不足风险。
+        isPrimary: true
+    aliases:
+      - raw: 代销
+        aliasType: primary
+      - raw: Best Efforts
+        aliasType: en_alias
+  - slug: di-biao
+    headword: 递表
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 向港交所递交上市申请表格A1的动作，申请通常六个月内有效。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 向港交所递交上市申请表格A1的动作，申请通常六个月内有效。
+        example: 这家公司刚递表，预计三个月后挂牌。
+        isPrimary: true
+    aliases:
+      - raw: 递表
+        aliasType: primary
+      - raw: A1申请
+        aliasType: en_alias
+  - slug: shou-ri-gua-pai
+    headword: 首日挂牌
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新股首次在交易所公开买卖的交易日。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 新股首次在交易所公开买卖的交易日。
+        example: 首日挂牌股价较发行价上涨三成。
+        isPrimary: true
+    aliases:
+      - raw: 首日挂牌
+        aliasType: primary
+      - raw: Listing Debut
+        aliasType: en_alias
+  - slug: bao-jian-ren
+    headword: 保荐人
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新上市申请的牵头顾问，负责尽职审查并向交易所承担连带责任。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 新上市申请的牵头顾问，负责尽职审查并向交易所承担连带责任。
+        example: 保荐人须对招股书资料真实性承担责任。
+        isPrimary: true
+    aliases:
+      - raw: 保荐人
+        aliasType: primary
+      - raw: Sponsor
+        aliasType: en_alias
+  - slug: du-li-cai-wu-gu-wen
+    headword: 独立财务顾问
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 就关连交易、私有化等向独立董事或股东出具公允意见的顾问。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 就关连交易、私有化等向独立董事或股东出具公允意见的顾问。
+        example: 独立财务顾问认为该私有化条款合理。
+        isPrimary: true
+    aliases:
+      - raw: 独立财务顾问
+        aliasType: primary
+      - raw: IFA
+        aliasType: en_alias
+      - raw: Independent Financial Advisor
+        aliasType: en_alias
+  - slug: cheng-xiao-tuan
+    headword: 承销团
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 由多家投行组成、共同包销发行的银行团。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 由多家投行组成、共同包销发行的银行团。
+        example: 承销团按份额分销新股。
+        isPrimary: true
+    aliases:
+      - raw: 承销团
+        aliasType: primary
+      - raw: Underwriting Syndicate
+        aliasType: en_alias
+  - slug: zhu-yao-shang-shi
+    headword: 主要上市
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公司将其主要上市地设在港交所，须全面遵守本地上市规则。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 公司将其主要上市地设在港交所，须全面遵守本地上市规则。
+        example: 该公司选择在港双重主要上市而非二次上市。
+        isPrimary: true
+    aliases:
+      - raw: 主要上市
+        aliasType: primary
+      - raw: Primary Listing
+        aliasType: en_alias
+  - slug: fan-shou-gou
+    headword: 反收购
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 向已上市公司注入资产或并购，等同于变相借壳上市。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 向已上市公司注入资产或并购，等同于变相借壳上市。
+        example: 这项反收购将被视为新上市处理。
+        isPrimary: true
+    aliases:
+      - raw: 反收购
+        aliasType: primary
+      - raw: Reverse Takeover
+        aliasType: en_alias
+  - slug: xian-jin-zi-chan-gong-si
+    headword: 现金资产公司
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 停牌后只剩现金、待注入资产的上市公司，港交所规定其复牌时限。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 停牌后只剩现金、待注入资产的上市公司，港交所规定其复牌时限。
+        example: 该现金资产公司须在规定期限内注入合资格资产。
+        isPrimary: true
+    aliases:
+      - raw: 现金资产公司
+        aliasType: primary
+      - raw: Cash Company
+        aliasType: en_alias
+  - slug: shang-shi-wei-yuan-hui
+    headword: 上市委员会
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港交所负责审批上市申请、执行上市规则的决策委员会。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港交所负责审批上市申请、执行上市规则的决策委员会。
+        example: 上市委员会本周审议了多家新上市申请。
+        isPrimary: true
+    aliases:
+      - raw: 上市委员会
+        aliasType: primary
+      - raw: Listing Committee
+        aliasType: en_alias
+  - slug: duan-zan-ting-pai
+    headword: 短暂停牌
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 因待公布股价敏感消息而短暂停止交易，复牌后继续买卖。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 因待公布股价敏感消息而短暂停止交易，复牌后继续买卖。
+        example: 公司待公布重大消息，股票短暂停牌。
+        isPrimary: true
+    aliases:
+      - raw: 短暂停牌
+        aliasType: primary
+      - raw: Trading Halt
+        aliasType: en_alias
+  - slug: gu-jia-min-gan-zi-liao
+    headword: 股价敏感资料
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 可能影响股价的内幕消息，上市公司须及时披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 可能影响股价的内幕消息，上市公司须及时披露。
+        example: 上市公司须在内幕消息形成后尽快披露。
+        isPrimary: true
+    aliases:
+      - raw: 股价敏感资料
+        aliasType: primary
+      - raw: Inside Information
+        aliasType: en_alias
+  - slug: g-e-m-zhuan-zhu-ban
+    headword: GEM转主板
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: GEM公司符合条件后申请转往主板挂牌的程序。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: GEM公司符合条件后申请转往主板挂牌的程序。
+        example: 这家GEM公司成功转主板。
+        isPrimary: true
+    aliases:
+      - raw: GEM转主板
+        aliasType: primary
+      - raw: Transfer to Main Board
+        aliasType: en_alias
+  - slug: shang-shi-gui-ze
+    headword: 上市规则
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港交所对发行人、上市资格、持续披露的成文规则。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 港交所对发行人、上市资格、持续披露的成文规则。
+        example: 配股须符合上市规则关于授权与折让的规定。
+        isPrimary: true
+    aliases:
+      - raw: 上市规则
+        aliasType: primary
+      - raw: Listing Rules
+        aliasType: en_alias
+  - slug: shou-gou-shou-ze
+    headword: 收购守则
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 香港证监会制订的公司收购、合并及股份回购守则。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 香港证监会制订的公司收购、合并及股份回购守则。
+        example: 触发30%要约线受收购守则约束。
+        isPrimary: true
+    aliases:
+      - raw: 收购守则
+        aliasType: primary
+      - raw: Takeovers Code
+        aliasType: en_alias
+  - slug: ying-li-ji-lu-qi
+    headword: 盈利纪录期
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 主板上市通常要求最近三个财政年度的营业与盈利纪录。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 主板上市通常要求最近三个财政年度的营业与盈利纪录。
+        example: 生物科技公司可豁免盈利纪录期要求。
+        isPrimary: true
+    aliases:
+      - raw: 盈利纪录期
+        aliasType: primary
+      - raw: Track Record Period
+        aliasType: en_alias
+  - slug: he-ding-zheng-quan
+    headword: 合订证券
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 把两只或以上证券捆绑在一起买卖的上市结构，常见于REIT。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 把两只或以上证券捆绑在一起买卖的上市结构，常见于REIT。
+        example: 该REIT以合订证券形式上市。
+        isPrimary: true
+    aliases:
+      - raw: 合订证券
+        aliasType: primary
+      - raw: Stapled Securities
+        aliasType: en_alias
+  - slug: xiang-gang-yu-tuo-zheng-quan
+    headword: 香港预托证券
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以预托凭证形式在港上市的境外股票代表，可代外股交易。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以预托凭证形式在港上市的境外股票代表，可代外股交易。
+        example: 香港预托证券让境外公司不必直接来港挂牌。
+        isPrimary: true
+    aliases:
+      - raw: 香港预托证券
+        aliasType: primary
+      - raw: HDR
+        aliasType: en_alias
+      - raw: Hong Kong Depositary Receipt
+        aliasType: en_alias
+  - slug: jin-shou-qi
+    headword: 禁售期
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上市后控股股东、基石等在约定期限内不得出售股份。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上市后控股股东、基石等在约定期限内不得出售股份。
+        example: 控股股东禁售期通常为六个月。
+        isPrimary: true
+    aliases:
+      - raw: 禁售期
+        aliasType: primary
+      - raw: Lock-up Period
+        aliasType: en_alias
+  - slug: wen-ding-jia-ge-qi
+    headword: 稳定价格期
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新股上市后一段时间内，稳定操作人可在市场稳价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 新股上市后一段时间内，稳定操作人可在市场稳价。
+        example: 稳定价格期内投行可回补超额配售。
+        isPrimary: true
+    aliases:
+      - raw: 稳定价格期
+        aliasType: primary
+      - raw: Stabilization Period
+        aliasType: en_alias
+  - slug: ru-chang-fei
+    headword: 入场费
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 打新时按每手股数与招股价计算的最低申购金额。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 打新时按每手股数与招股价计算的最低申购金额。
+        example: 这只新股入场费近一万元。
+        isPrimary: true
+    aliases:
+      - raw: 入场费
+        aliasType: primary
+      - raw: Entry Cost
+        aliasType: en_alias
+  - slug: bai-biao
+    headword: 白表
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以个人名义透过白表申购新股、中签后直接登记在名下。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以个人名义透过白表申购新股、中签后直接登记在名下。
+        example: 白表申购中签可直接拿到股票。
+        isPrimary: true
+    aliases:
+      - raw: 白表
+        aliasType: primary
+      - raw: White Form eIPO
+        aliasType: en_alias
+  - slug: huang-biao
+    headword: 黄表
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 透过券商或银行申购、以中央结算账户代持的新股申购方式。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 透过券商或银行申购、以中央结算账户代持的新股申购方式。
+        example: 用黄表申购的新股由券商代持。
+        isPrimary: true
+    aliases:
+      - raw: 黄表
+        aliasType: primary
+      - raw: Yellow Form
+        aliasType: en_alias
+  - slug: zhuan-shou-zhi
+    headword: 转手纸
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股实物股票转让时填写的过户表格。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 港股实物股票转让时填写的过户表格。
+        example: 老股民卖出实物股票要先填转手纸。
+        isPrimary: true
+    aliases:
+      - raw: 转手纸
+        aliasType: primary
+      - raw: Transfer Deed
+        aliasType: en_alias
+  - slug: qi-ye-guan-zhi
+    headword: 企业管治
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股对公司董事会、问责与股东权利的治理要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 港股对公司董事会、问责与股东权利的治理要求。
+        example: 企业管治水平影响外资持股意愿。
+        isPrimary: true
+    aliases:
+      - raw: 企业管治
+        aliasType: primary
+      - raw: Corporate Governance
+        aliasType: en_alias
+  - slug: he-shu-shi
+    headword: 核数师
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 负责审计上市公司财务报表的会计师事务所。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 负责审计上市公司财务报表的会计师事务所。
+        example: 核数师对全年业绩出具审计意见。
+        isPrimary: true
+    aliases:
+      - raw: 核数师
+        aliasType: primary
+      - raw: Auditor
+        aliasType: en_alias
+  - slug: lian-jiao-suo
+    headword: 联交所
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 香港联合交易所，港股股票现货市场的营运者。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 香港联合交易所，港股股票现货市场的营运者。
+        example: 联交所每季度检讨港股通名单。
+        isPrimary: true
+    aliases:
+      - raw: 联交所
+        aliasType: primary
+      - raw: SEHK
+        aliasType: en_alias
+  - slug: qi-jiao-suo
+    headword: 期交所
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 香港期货交易所，营运恒指期货、期权等衍生品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 香港期货交易所，营运恒指期货、期权等衍生品。
+        example: 期交所夜市延长了恒指期货交易时间。
+        isPrimary: true
+    aliases:
+      - raw: 期交所
+        aliasType: primary
+      - raw: HKFE
+        aliasType: en_alias
+  - slug: cai-jing-shi-wu-ji-ku-wu-ju
+    headword: 财经事务及库务局
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 香港负责财经与金融政策决策的政府部门。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 香港负责财经与金融政策决策的政府部门。
+        example: 财经事务及库务局推动多项上市改革。
+        isPrimary: true
+    aliases:
+      - raw: 财经事务及库务局
+        aliasType: primary
+      - raw: FSTB
+        aliasType: en_alias
+  - slug: shou-gou-wei-yuan-hui
+    headword: 收购委员会
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 香港证监会辖下、执行收购守则的独立委员会。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 香港证监会辖下、执行收购守则的独立委员会。
+        example: 收购委员会对违规要约作出裁决。
+        isPrimary: true
+    aliases:
+      - raw: 收购委员会
+        aliasType: primary
+      - raw: Takeovers Panel
+        aliasType: en_alias
+  - slug: chi-xu-jiao-yi-shi-duan
+    headword: 持续交易时段
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 开市前时段后、收市竞价前的连续撮合交易时段。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 开市前时段后、收市竞价前的连续撮合交易时段。
+        example: 持续交易时段内买卖盘按价格时间优先撮合。
+        isPrimary: true
+    aliases:
+      - raw: 持续交易时段
+        aliasType: primary
+      - raw: Continuous Trading Session
+        aliasType: en_alias
+  - slug: wu-shi-xiu-shi
+    headword: 午市休市
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股中午12时至下午1时休市的安排。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 港股中午12时至下午1时休市的安排。
+        example: 午市休市期间不能更改已挂限价盘。
+        isPrimary: true
+    aliases:
+      - raw: 午市休市
+        aliasType: primary
+      - raw: Lunch Break
+        aliasType: en_alias
+  - slug: feng-qiu-jiao-yi-an-pai
+    headword: 风球交易安排
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 八号或以上风球、黑色暴雨下港股暂停交易的特殊安排。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 八号或以上风球、黑色暴雨下港股暂停交易的特殊安排。
+        example: 八号风球高悬，港股全日休市。
+        isPrimary: true
+    aliases:
+      - raw: 风球交易安排
+        aliasType: primary
+      - raw: Typhoon Trading Arrangement
+        aliasType: en_alias
+  - slug: hei-se-bao-yu-yu-jing
+    headword: 黑色暴雨预警
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 黑色暴雨信号下港股暂停交易直至信号解除。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 黑色暴雨信号下港股暂停交易直至信号解除。
+        example: 黑色暴雨下交易所公布复市安排。
+        isPrimary: true
+    aliases:
+      - raw: 黑色暴雨预警
+        aliasType: primary
+      - raw: Black Rainstorm
+        aliasType: en_alias
+  - slug: jie-huo
+    headword: 借货
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 沽空者向托管商或券商借入股票以交付卖盘的行为。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 沽空者向托管商或券商借入股票以交付卖盘的行为。
+        example: 沽空前须先确认能借到货。
+        isPrimary: true
+    aliases:
+      - raw: 借货
+        aliasType: primary
+      - raw: Stock Borrowing
+        aliasType: en_alias
+  - slug: jie-huo-xi-l
+    headword: 借货息率
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 借入股票所支付的年化费用，热门沽空标的息率高。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 借入股票所支付的年化费用，热门沽空标的息率高。
+        example: 这只股票借货息率高达两位数。
+        isPrimary: true
+    aliases:
+      - raw: 借货息率
+        aliasType: primary
+      - raw: Stock Loan Fee
+        aliasType: en_alias
+  - slug: jiao-yi-fei
+    headword: 交易费
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 联交所按成交金额收取的交易费用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 联交所按成交金额收取的交易费用。
+        example: 交易费与交易征费分开计算。
+        isPrimary: true
+    aliases:
+      - raw: 交易费
+        aliasType: primary
+      - raw: Trading Fee
+        aliasType: en_alias
+  - slug: cong-jia-yin-hua-shui
+    headword: 从价印花税
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股买卖按成交金额缴纳的印花税，由买卖双方各付。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港股买卖按成交金额缴纳的印花税，由买卖双方各付。
+        example: 从价印花税近年由双边征收调整。
+        isPrimary: true
+    aliases:
+      - raw: 从价印花税
+        aliasType: primary
+      - raw: Ad Valorem Stamp Duty
+        aliasType: en_alias
+  - slug: jing-ji-yong-jin
+    headword: 经纪佣金
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 券商代客买卖收取的佣金，现已自由议价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 券商代客买卖收取的佣金，现已自由议价。
+        example: 互联网券商把经纪佣金压到很低。
+        isPrimary: true
+    aliases:
+      - raw: 经纪佣金
+        aliasType: primary
+      - raw: Brokerage Commission
+        aliasType: en_alias
+  - slug: zui-di-yong-jin
+    headword: 最低佣金
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股2003年前实行的统一最低经纪佣金，现已废除。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港股2003年前实行的统一最低经纪佣金，现已废除。
+        example: 废除最低佣金后券商价格战激烈。
+        isPrimary: true
+    aliases:
+      - raw: 最低佣金
+        aliasType: primary
+      - raw: Minimum Commission
+        aliasType: en_alias
+  - slug: zeng-qiang-xian-jia-pan
+    headword: 增强限价盘
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股允许在最佳价位上下数个价位内自动配对的限价盘。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 港股允许在最佳价位上下数个价位内自动配对的限价盘。
+        example: 用增强限价盘可一次扫多个价位。
+        isPrimary: true
+    aliases:
+      - raw: 增强限价盘
+        aliasType: primary
+      - raw: Enhanced Limit Order
+        aliasType: en_alias
+  - slug: te-bie-xian-jia-pan
+    headword: 特别限价盘
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 只在指定或更优价成交、未成交部分自动取消的买卖盘。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 只在指定或更优价成交、未成交部分自动取消的买卖盘。
+        example: 特别限价盘未成交余额不会留在市场。
+        isPrimary: true
+    aliases:
+      - raw: 特别限价盘
+        aliasType: primary
+      - raw: Special Limit Order
+        aliasType: en_alias
+  - slug: jing-jia-xian-jia-pan
+    headword: 竞价限价盘
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 开市前或收市竞价可输入、按平衡价格成交的限价盘。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 开市前或收市竞价可输入、按平衡价格成交的限价盘。
+        example: 竞价限价盘可在开市前时段挂入。
+        isPrimary: true
+    aliases:
+      - raw: 竞价限价盘
+        aliasType: primary
+      - raw: Auction Limit Order
+        aliasType: en_alias
+  - slug: jing-jia-pan
+    headword: 竞价盘
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 不指定价格、以竞价时段最终平衡价成交的买卖盘。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 不指定价格、以竞价时段最终平衡价成交的买卖盘。
+        example: 竞价盘不设限价，按参考平衡价配对。
+        isPrimary: true
+    aliases:
+      - raw: 竞价盘
+        aliasType: primary
+      - raw: At-auction Order
+        aliasType: en_alias
+  - slug: xian-jin-ren-gou
+    headword: 现金认购
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 打新时以自有资金足额认购，不使用融资杠杆。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 打新时以自有资金足额认购，不使用融资杠杆。
+        example: 保守投资者多选择现金认购。
+        isPrimary: true
+    aliases:
+      - raw: 现金认购
+        aliasType: primary
+      - raw: Cash Subscription
+        aliasType: en_alias
+  - slug: ren-gou-bei-shu
+    headword: 认购倍数
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公开发售有效认购金额相对发售股份的倍数，反映热度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 公开发售有效认购金额相对发售股份的倍数，反映热度。
+        example: 该股公开发售认购倍数达三百倍。
+        isPrimary: true
+    aliases:
+      - raw: 认购倍数
+        aliasType: primary
+      - raw: Subscription Multiple
+        aliasType: en_alias
+  - slug: jia-zu
+    headword: 甲组
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股打新中申购金额500万港元以下的散户组别。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 港股打新中申购金额500万港元以下的散户组别。
+        example: 甲组认购人数众多，中签相对分散。
+        isPrimary: true
+    aliases:
+      - raw: 甲组
+        aliasType: primary
+      - raw: IPO Tranche A
+        aliasType: en_alias
+  - slug: yi-zu
+    headword: 乙组
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股打新中申购金额500万港元以上的大户组别。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 港股打新中申购金额500万港元以上的大户组别。
+        example: 乙组顶头槌飞的分配另有规则。
+        isPrimary: true
+    aliases:
+      - raw: 乙组
+        aliasType: primary
+      - raw: IPO Tranche B
+        aliasType: en_alias
+  - slug: liu-tong-liang-ti-gong-zhe
+    headword: 流通量提供者
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 为窝轮牛熊证等衍生工具持续报价、提供买卖盘的发行商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 为窝轮牛熊证等衍生工具持续报价、提供买卖盘的发行商。
+        example: 窝轮流通量提供者须持续维持买卖盘。
+        isPrimary: true
+    aliases:
+      - raw: 流通量提供者
+        aliasType: primary
+      - raw: Liquidity Provider
+        aliasType: en_alias
+  - slug: an-pan-jia
+    headword: 按盘价
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港交所用于计算市价、指数与按金的参考价格。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港交所用于计算市价、指数与按金的参考价格。
+        example: 按盘价取最近成交价、买卖价等中的最优参考。
+        isPrimary: true
+    aliases:
+      - raw: 按盘价
+        aliasType: primary
+      - raw: Nominal Price
+        aliasType: en_alias
+  - slug: jia-wei
+    headword: 价位
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股股票按股价区间划分的最小报价变动单位。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 港股股票按股价区间划分的最小报价变动单位。
+        example: 高价股的价位间隔远大于低价股。
+        isPrimary: true
+    aliases:
+      - raw: 价位
+        aliasType: primary
+      - raw: Price Tick
+        aliasType: en_alias
+  - slug: cheng-jiao-zong-shu
+    headword: 成交宗数
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 当日成交的交易笔数，配合成交金额反映活跃度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 当日成交的交易笔数，配合成交金额反映活跃度。
+        example: 该股成交宗数激增，显示交投活跃。
+        isPrimary: true
+    aliases:
+      - raw: 成交宗数
+        aliasType: primary
+      - raw: Trade Count
+        aliasType: en_alias
+  - slug: zao-shi
+    headword: 早市
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股上午9时30分至12时的交易时段。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 港股上午9时30分至12时的交易时段。
+        example: 早市冲高后午后回落。
+        isPrimary: true
+    aliases:
+      - raw: 早市
+        aliasType: primary
+      - raw: Morning Session
+        aliasType: en_alias
+  - slug: wu-shi
+    headword: 午市
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股下午1时至4时的交易时段。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 港股下午1时至4时的交易时段。
+        example: 午市资金进场推高指数。
+        isPrimary: true
+    aliases:
+      - raw: 午市
+        aliasType: primary
+      - raw: Afternoon Session
+        aliasType: en_alias
+  - slug: di-san-dai-zi-dong-dui-pan-xi-tong
+    headword: 第三代自动对盘系统
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港交所用以撮合买卖盘的第三代电子交易系统。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港交所用以撮合买卖盘的第三代电子交易系统。
+        example: 所有买卖盘经第三代自动对盘系统配对。
+        isPrimary: true
+    aliases:
+      - raw: 第三代自动对盘系统
+        aliasType: primary
+      - raw: AMS/3
+        aliasType: en_alias
+  - slug: huo-yin-dui-fu
+    headword: 货银对付
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股中央结算采用的一手交钱一手交货交收机制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港股中央结算采用的一手交钱一手交货交收机制。
+        example: 货银对付确保交收双方同时履约。
+        isPrimary: true
+    aliases:
+      - raw: 货银对付
+        aliasType: primary
+      - raw: Delivery versus Payment
+        aliasType: en_alias
+  - slug: ye-shi
+    headword: 夜市
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股衍生品收市后另设的电子交易时段。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港股衍生品收市后另设的电子交易时段。
+        example: 夜市恒指期货反映美股盘前波动。
+        isPrimary: true
+    aliases:
+      - raw: 夜市
+        aliasType: primary
+      - raw: After-hours Futures Trading
+        aliasType: en_alias
+  - slug: ji-ri-xian
+    headword: 即日鲜
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称当日开仓当日平仓的即日交易。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称当日开仓当日平仓的即日交易。
+        example: 即日鲜在港股T+0下随时可以做。
+        isPrimary: true
+    aliases:
+      - raw: 即日鲜
+        aliasType: primary
+      - raw: Day Trade
+        aliasType: en_alias
+  - slug: zhan-cang
+    headword: 斩仓
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称孖展账户保证金不足被券商强制平仓。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称孖展账户保证金不足被券商强制平仓。
+        example: 股价暴跌触发斩仓，账户被强平。
+        isPrimary: true
+    aliases:
+      - raw: 斩仓
+        aliasType: primary
+      - raw: Forced Liquidation
+        aliasType: en_alias
+  - slug: zhi-zhuan
+    headword: 止赚
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称获利了结。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称获利了结。
+        example: 涨到目标位就止赚，别贪。
+        isPrimary: true
+    aliases:
+      - raw: 止赚
+        aliasType: primary
+      - raw: Take Profit
+        aliasType: en_alias
+  - slug: chuan-cang
+    headword: 穿仓
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称孖展账户净值跌至负数、倒欠券商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称孖展账户净值跌至负数、倒欠券商。
+        example: 极端暴跌下账户一度穿仓。
+        isPrimary: true
+    aliases:
+      - raw: 穿仓
+        aliasType: primary
+      - raw: Negative Equity
+        aliasType: en_alias
+  - slug: hui-tu
+    headword: 回吐
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称获利盘离场带动回落。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称获利盘离场带动回落。
+        example: 连涨三天后今天获利回吐。
+        isPrimary: true
+    aliases:
+      - raw: 回吐
+        aliasType: primary
+      - raw: Profit Taking
+        aliasType: en_alias
+  - slug: zha
+    headword: 揸
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称持有多头或买入。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称持有多头或买入。
+        example: 我揸住这只蓝筹不动。
+        isPrimary: true
+    aliases:
+      - raw: 揸
+        aliasType: primary
+      - raw: Long Position
+        aliasType: en_alias
+  - slug: chang-zha
+    headword: 长揸
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称长期持有股票不轻易卖出。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称长期持有股票不轻易卖出。
+        example: 收息股适合长揸。
+        isPrimary: true
+    aliases:
+      - raw: 长揸
+        aliasType: primary
+      - raw: Long-term Hold
+        aliasType: en_alias
+  - slug: mo-ding
+    headword: 摸顶
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称在高位追入。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称在高位追入。
+        example: 股价创新高时摸顶，容易被套。
+        isPrimary: true
+    aliases:
+      - raw: 摸顶
+        aliasType: primary
+      - raw: Buy at Top
+        aliasType: en_alias
+  - slug: lao-di
+    headword: 捞底
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称低位买入博反弹。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称低位买入博反弹。
+        example: 暴跌后有人悄悄捞底。
+        isPrimary: true
+    aliases:
+      - raw: 捞底
+        aliasType: primary
+      - raw: Bottom Fishing
+        aliasType: en_alias
+  - slug: po-di
+    headword: 破底
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称股价跌破前期低位或历史低点。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称股价跌破前期低位或历史低点。
+        example: 股价破底后引发止损盘。
+        isPrimary: true
+    aliases:
+      - raw: 破底
+        aliasType: primary
+      - raw: Break Low
+        aliasType: en_alias
+  - slug: xie-huo
+    headword: 蟹货
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称高位买入后长期被套的持仓。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称高位买入后长期被套的持仓。
+        example: 这批蟹货要等几年才解套。
+        isPrimary: true
+    aliases:
+      - raw: 蟹货
+        aliasType: primary
+      - raw: Trapped Position
+        aliasType: en_alias
+  - slug: xie-min
+    headword: 蟹民
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称高位被套的散户群体。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称高位被套的散户群体。
+        example: 蟹民们盼着大反弹解套。
+        isPrimary: true
+    aliases:
+      - raw: 蟹民
+        aliasType: primary
+      - raw: Trapped Retail
+        aliasType: en_alias
+  - slug: chao-gu-wu-chao-shi
+    headword: 炒股唔炒市
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称指数不动但个股行情活跃的市况。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称指数不动但个股行情活跃的市况。
+        example: 现在是炒股唔炒市，选对个股比看指数重要。
+        isPrimary: true
+    aliases:
+      - raw: 炒股唔炒市
+        aliasType: primary
+      - raw: Stock-picking Market
+        aliasType: en_alias
+  - slug: hong-di-gu
+    headword: 红底股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称股价在一百港元以上的高价股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称股价在一百港元以上的高价股。
+        example: 这只红底股一手已经要几万元。
+        isPrimary: true
+    aliases:
+      - raw: 红底股
+        aliasType: primary
+      - raw: HK$100+ Stock
+        aliasType: en_alias
+  - slug: wen-xing-gu
+    headword: 蚊型股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称市值极小的微型股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称市值极小的微型股。
+        example: 蚊型股波动大，容易被操控。
+        isPrimary: true
+    aliases:
+      - raw: 蚊型股
+        aliasType: primary
+      - raw: Micro Cap
+        aliasType: en_alias
+  - slug: chou-shui
+    headword: 抽水
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称公司通过配股、供股等向市场要钱摊薄老股东。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称公司通过配股、供股等向市场要钱摊薄老股东。
+        example: 又来配股抽水，老股东最反感。
+        isPrimary: true
+    aliases:
+      - raw: 抽水
+        aliasType: primary
+      - raw: Dilution via Placement
+        aliasType: en_alias
+  - slug: pi-gu
+    headword: 批股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称公司或大股东折价向特定投资者配售新股套现。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称公司或大股东折价向特定投资者配售新股套现。
+        example: 公司连夜批股抽水。
+        isPrimary: true
+    aliases:
+      - raw: 批股
+        aliasType: primary
+      - raw: Placing Shares
+        aliasType: en_alias
+  - slug: da-zhe-rang
+    headword: 大折让
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称配售价较市价折让幅度很大。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称配售价较市价折让幅度很大。
+        example: 大折让批股往往压垮股价。
+        isPrimary: true
+    aliases:
+      - raw: 大折让
+        aliasType: primary
+      - raw: Deep Discount
+        aliasType: en_alias
+  - slug: yi-xian-gu
+    headword: 一线股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称业绩稳定、流动性好的龙头蓝筹股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称业绩稳定、流动性好的龙头蓝筹股。
+        example: 一线股在熊市最抗跌。
+        isPrimary: true
+    aliases:
+      - raw: 一线股
+        aliasType: primary
+      - raw: First Liner
+        aliasType: en_alias
+  - slug: er-xian-gu
+    headword: 二线股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称规模与流动性次于蓝筹的中型股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称规模与流动性次于蓝筹的中型股票。
+        example: 资金从一线流向二线股补涨。
+        isPrimary: true
+    aliases:
+      - raw: 二线股
+        aliasType: primary
+      - raw: Second Liner
+        aliasType: en_alias
+  - slug: zhong-bang-gu
+    headword: 重磅股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称对指数权重影响大的成分股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称对指数权重影响大的成分股。
+        example: 几大重磅股一动，恒指就跟着动。
+        isPrimary: true
+    aliases:
+      - raw: 重磅股
+        aliasType: primary
+      - raw: Heavyweight Stock
+        aliasType: en_alias
+  - slug: gang-gu-tong-biao-di
+    headword: 港股通标的
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 纳入沪深港通、内地投资者可买卖的合资格港股名单。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 纳入沪深港通、内地投资者可买卖的合资格港股名单。
+        example: 纳入港股通标的后成交明显放大。
+        isPrimary: true
+    aliases:
+      - raw: 港股通标的
+        aliasType: primary
+      - raw: Connect Eligible Stock
+        aliasType: en_alias
+  - slug: heng-sheng-zong-he-da-xing-gu-zhi-shu
+    headword: 恒生综合大型股指数
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 恒生综合指数下市值最大一组成分股的指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 恒生综合指数下市值最大一组成分股的指数。
+        example: 大型股指数成分全部属港股通标的。
+        isPrimary: true
+    aliases:
+      - raw: 恒生综合大型股指数
+        aliasType: primary
+      - raw: HSLI
+        aliasType: en_alias
+  - slug: heng-sheng-zong-he-zhong-xing-gu-zhi-shu
+    headword: 恒生综合中型股指数
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 恒生综合指数下中型市值成分股的指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 恒生综合指数下中型市值成分股的指数。
+        example: 中型股达到市值门槛可入港股通。
+        isPrimary: true
+    aliases:
+      - raw: 恒生综合中型股指数
+        aliasType: primary
+      - raw: HSMI
+        aliasType: en_alias
+  - slug: heng-sheng-zong-he-xiao-xing-gu-zhi-shu
+    headword: 恒生综合小型股指数
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 恒生综合指数下小型市值成分股的指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 恒生综合指数下小型市值成分股的指数。
+        example: 小型股需满足换手率门槛方可纳入。
+        isPrimary: true
+    aliases:
+      - raw: 恒生综合小型股指数
+        aliasType: primary
+      - raw: HSSI
+        aliasType: en_alias
+  - slug: gang-gu-tong-shi-zhi-men-kan
+    headword: 港股通市值门槛
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 纳入港股通对恒生综合指数成分的平均市值要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 纳入港股通对恒生综合指数成分的平均市值要求。
+        example: 低于市值门槛的股票无法入通。
+        isPrimary: true
+    aliases:
+      - raw: 港股通市值门槛
+        aliasType: primary
+      - raw: Market Cap Threshold
+        aliasType: en_alias
+  - slug: huan-shou-l-men-kan
+    headword: 换手率门槛
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 小型股纳入港股通须满足的流动性与换手率要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 小型股纳入港股通须满足的流动性与换手率要求。
+        example: 换手率不达标，小盘股被调出港股通。
+        isPrimary: true
+    aliases:
+      - raw: 换手率门槛
+        aliasType: primary
+      - raw: Turnover Threshold
+        aliasType: en_alias
+  - slug: mei-ri-e-du
+    headword: 每日额度
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股通每日可买卖的总额度上限，盘中余额实时公布。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 港股通每日可买卖的总额度上限，盘中余额实时公布。
+        example: 每日额度用完后当日不再接受买单。
+        isPrimary: true
+    aliases:
+      - raw: 每日额度
+        aliasType: primary
+      - raw: Daily Quota
+        aliasType: en_alias
+  - slug: jiao-yi-ri-li-cha-yi
+    headword: 交易日历差异
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 只有两地均为交易日且结算能对接时港股通才开通。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 只有两地均为交易日且结算能对接时港股通才开通。
+        example: 内地放假但香港开市，港股通暂停。
+        isPrimary: true
+    aliases:
+      - raw: 交易日历差异
+        aliasType: primary
+      - raw: Trading Day Mismatch
+        aliasType: en_alias
+  - slug: huan-hui-an-pai
+    headword: 换汇安排
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股通以人民币申报、按参考汇率换汇交收的机制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 港股通以人民币申报、按参考汇率换汇交收的机制。
+        example: 港股通买卖按参考汇率换汇。
+        isPrimary: true
+    aliases:
+      - raw: 换汇安排
+        aliasType: primary
+      - raw: FX Conversion
+        aliasType: en_alias
+  - slug: mai-mai-jia-cha-xian-zhi
+    headword: 买卖价差限制
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股通投资者落盘时报价相对市价的价差范围限制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 港股通投资者落盘时报价相对市价的价差范围限制。
+        example: 超出买卖价差限制的订单会被拒。
+        isPrimary: true
+    aliases:
+      - raw: 买卖价差限制
+        aliasType: primary
+      - raw: Quote Spread Limit
+        aliasType: en_alias
+  - slug: hong-li-shui
+    headword: 红利税
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 内地个人通过港股通取得股息须缴的所得税。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 内地个人通过港股通取得股息须缴的所得税。
+        example: 港股通股息要扣两成红利税。
+        isPrimary: true
+    aliases:
+      - raw: 红利税
+        aliasType: primary
+      - raw: Dividend Withholding Tax
+        aliasType: en_alias
+  - slug: kuai-su-na-ru-ji-zhi
+    headword: 快速纳入机制
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新股若符合恒生综合指数大市值标准可快速入通。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 新股若符合恒生综合指数大市值标准可快速入通。
+        example: 大市值新股通过快速纳入机制很快入通。
+        isPrimary: true
+    aliases:
+      - raw: 快速纳入机制
+        aliasType: primary
+      - raw: Fast Entry
+        aliasType: en_alias
+  - slug: ding-qi-jian-tao
+    headword: 定期检讨
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 恒生综合指数每季度调整成分，港股通名单随之变动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 恒生综合指数每季度调整成分，港股通名单随之变动。
+        example: 定期检讨后几只股票被调出港股通。
+        isPrimary: true
+    aliases:
+      - raw: 定期检讨
+        aliasType: primary
+      - raw: Quarterly Review
+        aliasType: en_alias
+  - slug: shi-dang-xing-guan-li
+    headword: 适当性管理
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 内地个人参与港股通须满足资产门槛与风险测评要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 内地个人参与港股通须满足资产门槛与风险测评要求。
+        example: 适当性管理要求账户资产不低于五十万。
+        isPrimary: true
+    aliases:
+      - raw: 适当性管理
+        aliasType: primary
+      - raw: Investor Eligibility
+        aliasType: en_alias
+  - slug: jie-nei-zheng
+    headword: 界内证
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股一种在到期时标的价格落在指定区间内才获利的结构性产品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港股一种在到期时标的价格落在指定区间内才获利的结构性产品。
+        example: 界内证适合看震荡市。
+        isPrimary: true
+    aliases:
+      - raw: 界内证
+        aliasType: primary
+      - raw: Inline Warrant
+        aliasType: en_alias
+  - slug: yin-shen-bo-fu
+    headword: 引伸波幅
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股窝轮牛熊证报价中隐含的标的未来波幅。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 港股窝轮牛熊证报价中隐含的标的未来波幅。
+        example: 引伸波幅太高的窝轮不划算。
+        isPrimary: true
+    aliases:
+      - raw: 引伸波幅
+        aliasType: primary
+      - raw: Implied Volatility
+        aliasType: en_alias
+  - slug: shi-ji-gang-gan
+    headword: 实际杠杆
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 窝轮相对标的价格变动的真实放大倍数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 窝轮相对标的价格变动的真实放大倍数。
+        example: 实际杠杆虽高但时间值损耗也快。
+        isPrimary: true
+    aliases:
+      - raw: 实际杠杆
+        aliasType: primary
+      - raw: Effective Gearing
+        aliasType: en_alias
+  - slug: shou-hui-jia
+    headword: 收回价
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 牛熊证被强制收回的标的触发价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 牛熊证被强制收回的标的触发价。
+        example: 标的跌到收回价，牛证即时被收回。
+        isPrimary: true
+    aliases:
+      - raw: 收回价
+        aliasType: primary
+      - raw: Call Price
+        aliasType: en_alias
+  - slug: xing-shi-jia
+    headword: 行使价
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 窝轮到期时可按之兑换标的的约定价格。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 窝轮到期时可按之兑换标的的约定价格。
+        example: 行使价离现价越远越价外。
+        isPrimary: true
+    aliases:
+      - raw: 行使价
+        aliasType: primary
+      - raw: Strike Price
+        aliasType: en_alias
+  - slug: jie-huo-liang
+    headword: 街货量
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 窝轮牛熊证在市场投资者手中流通的数量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 窝轮牛熊证在市场投资者手中流通的数量。
+        example: 街货量大的窝轮流动性较好。
+        isPrimary: true
+    aliases:
+      - raw: 街货量
+        aliasType: primary
+      - raw: Open Interest
+        aliasType: en_alias
+  - slug: jie-huo-bi
+    headword: 街货比
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 街货量占该窝轮总发行量的比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 街货量占该窝轮总发行量的比例。
+        example: 街货比过高容易被发行商操控。
+        isPrimary: true
+    aliases:
+      - raw: 街货比
+        aliasType: primary
+      - raw: Open Interest Ratio
+        aliasType: en_alias
+  - slug: dao-qi-ri
+    headword: 到期日
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 窝轮牛熊证期货期权合约到期的日期。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 窝轮牛熊证期货期权合约到期的日期。
+        example: 临近到期日的价外证价值归零。
+        isPrimary: true
+    aliases:
+      - raw: 到期日
+        aliasType: primary
+      - raw: Expiry Date
+        aliasType: en_alias
+  - slug: sheng-yu-jia-zhi
+    headword: 剩余价值
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 牛熊证被强制收回后可能余留的少量价值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 牛熊证被强制收回后可能余留的少量价值。
+        example: 牛证收回后散户只能拿回剩余价值。
+        isPrimary: true
+    aliases:
+      - raw: 剩余价值
+        aliasType: primary
+      - raw: Residual Value
+        aliasType: en_alias
+  - slug: ren-gou-zheng
+    headword: 认购证
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 窝轮中看好标的上涨的认购权证。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 窝轮中看好标的上涨的认购权证。
+        example: 看好后市可买认购证。
+        isPrimary: true
+    aliases:
+      - raw: 认购证
+        aliasType: primary
+      - raw: Call Warrant
+        aliasType: en_alias
+  - slug: ren-gu-zheng
+    headword: 认沽证
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 窝轮中看淡标的下跌的认沽权证。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 窝轮中看淡标的下跌的认沽权证。
+        example: 对冲组合风险可买认沽证。
+        isPrimary: true
+    aliases:
+      - raw: 认沽证
+        aliasType: primary
+      - raw: Put Warrant
+        aliasType: en_alias
+  - slug: jia-nei-zheng
+    headword: 价内证
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 行使价对持有人已有利、含内在价值的窝轮。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 行使价对持有人已有利、含内在价值的窝轮。
+        example: 价内证时间值较低。
+        isPrimary: true
+    aliases:
+      - raw: 价内证
+        aliasType: primary
+      - raw: ITM Warrant
+        aliasType: en_alias
+  - slug: jia-wai-zheng
+    headword: 价外证
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 行使价对持有人不利、只剩时间值的窝轮。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 行使价对持有人不利、只剩时间值的窝轮。
+        example: 价外证到期常常归零。
+        isPrimary: true
+    aliases:
+      - raw: 价外证
+        aliasType: primary
+      - raw: OTM Warrant
+        aliasType: en_alias
+  - slug: shi-jian-zhi-sun-hao
+    headword: 时间值损耗
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 窝轮随到期日临近而时间值衰减的现象。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 窝轮随到期日临近而时间值衰减的现象。
+        example: 临近到期时间值损耗飞快。
+        isPrimary: true
+    aliases:
+      - raw: 时间值损耗
+        aliasType: primary
+      - raw: Time Decay
+        aliasType: en_alias
+  - slug: nei-zai-jia-zhi
+    headword: 内在价值
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 窝轮立即行使可获得的价值，即现价与行使价差。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 窝轮立即行使可获得的价值，即现价与行使价差。
+        example: 价内证内在价值为正。
+        isPrimary: true
+    aliases:
+      - raw: 内在价值
+        aliasType: primary
+      - raw: Intrinsic Value
+        aliasType: en_alias
+  - slug: he-yue-cheng-shu
+    headword: 合约乘数
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 期货期权每指数点对应的金额倍数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 期货期权每指数点对应的金额倍数。
+        example: 恒指期货每点五十港元。
+        isPrimary: true
+    aliases:
+      - raw: 合约乘数
+        aliasType: primary
+      - raw: Contract Multiplier
+        aliasType: en_alias
+  - slug: zui-hou-jiao-yi-ri
+    headword: 最后交易日
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 期货期权合约到期月份中最后可买卖的日子。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 期货期权合约到期月份中最后可买卖的日子。
+        example: 最后交易日过后进入交收。
+        isPrimary: true
+    aliases:
+      - raw: 最后交易日
+        aliasType: primary
+      - raw: Last Trading Day
+        aliasType: en_alias
+  - slug: ji-ben-an-jin
+    headword: 基本按金
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 开期货期权仓时须缴的保证金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 开期货期权仓时须缴的保证金。
+        example: 基本按金随波幅调整。
+        isPrimary: true
+    aliases:
+      - raw: 基本按金
+        aliasType: primary
+      - raw: Initial Margin
+        aliasType: en_alias
+  - slug: wei-chi-an-jin
+    headword: 维持按金
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 持仓期间须维持的最低保证金水平。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 持仓期间须维持的最低保证金水平。
+        example: 跌破维持按金须补钱。
+        isPrimary: true
+    aliases:
+      - raw: 维持按金
+        aliasType: primary
+      - raw: Maintenance Margin
+        aliasType: en_alias
+  - slug: ji-yue-he-yue
+    headword: 即月合约
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 最接近到期的期货合约月份。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 最接近到期的期货合约月份。
+        example: 即月合约结算前波动加大。
+        isPrimary: true
+    aliases:
+      - raw: 即月合约
+        aliasType: primary
+      - raw: Front Month
+        aliasType: en_alias
+  - slug: zu-he-an-jin
+    headword: 组合按金
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按持仓组合风险而非单张计收的保证金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 按持仓组合风险而非单张计收的保证金。
+        example: 组合按金可降低对冲盘保证金占用。
+        isPrimary: true
+    aliases:
+      - raw: 组合按金
+        aliasType: primary
+      - raw: Portfolio Margin
+        aliasType: en_alias
+  - slug: heng-sheng-bo-fu-zhi-shu
+    headword: 恒生波幅指数
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 反映恒指期权隐含波动率的恐慌性指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 反映恒指期权隐含波动率的恐慌性指标。
+        example: 恒生波幅指数飙升代表避险情绪升温。
+        isPrimary: true
+    aliases:
+      - raw: 恒生波幅指数
+        aliasType: primary
+      - raw: VHSI
+        aliasType: en_alias
+  - slug: zhuan-cang
+    headword: 转仓
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称将临近到期的期货仓移至远月。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称将临近到期的期货仓移至远月。
+        example: 结算日前散户转仓到下月。
+        isPrimary: true
+    aliases:
+      - raw: 转仓
+        aliasType: primary
+      - raw: Roll Over
+        aliasType: en_alias
+  - slug: di-shui
+    headword: 低水
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称期货价低于现货指数的状态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称期货价低于现货指数的状态。
+        example: 期指低水显示避险情绪。
+        isPrimary: true
+    aliases:
+      - raw: 低水
+        aliasType: primary
+      - raw: Discount
+        aliasType: en_alias
+  - slug: ping-shui
+    headword: 平水
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称期货价与现货指数大致持平。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称期货价与现货指数大致持平。
+        example: 期指平水，方向不明。
+        isPrimary: true
+    aliases:
+      - raw: 平水
+        aliasType: primary
+      - raw: Par
+        aliasType: en_alias
+  - slug: da-hao-you
+    headword: 大好友
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称长期唱好港股的名嘴或机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称长期唱好港股的名嘴或机构。
+        example: 这位大好友一直喊恒指三万点。
+        isPrimary: true
+    aliases:
+      - raw: 大好友
+        aliasType: primary
+      - raw: Permabull
+        aliasType: en_alias
+  - slug: da-dan-you
+    headword: 大淡友
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称长期唱淡港股的投资者。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称长期唱淡港股的投资者。
+        example: 大淡友又在喊熊市来临。
+        isPrimary: true
+    aliases:
+      - raw: 大淡友
+        aliasType: primary
+      - raw: Permabear
+        aliasType: en_alias
+  - slug: mo-qi-gu-xi
+    headword: 末期股息
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 财政年度结束后宣派的股息，须股东大会批准。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 财政年度结束后宣派的股息，须股东大会批准。
+        example: 董事会宣派末期息每股五毛。
+        isPrimary: true
+    aliases:
+      - raw: 末期股息
+        aliasType: primary
+      - raw: Final Dividend
+        aliasType: en_alias
+  - slug: zhong-qi-gu-xi
+    headword: 中期股息
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 财政年度中期派发的股息。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 财政年度中期派发的股息。
+        example: 中期息同比增加一成。
+        isPrimary: true
+    aliases:
+      - raw: 中期股息
+        aliasType: primary
+      - raw: Interim Dividend
+        aliasType: en_alias
+  - slug: tian-xi
+    headword: 填息
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 除净后股价回升补回除息缺口的走势。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 除净后股价回升补回除息缺口的走势。
+        example: 高息股除净后常能填息。
+        isPrimary: true
+    aliases:
+      - raw: 填息
+        aliasType: primary
+      - raw: Dividend Capture
+        aliasType: en_alias
+  - slug: gao-xi-gu
+    headword: 高息股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称股息率较高的股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称股息率较高的股票。
+        example: 震荡市资金追捧高息股。
+        isPrimary: true
+    aliases:
+      - raw: 高息股
+        aliasType: primary
+      - raw: High Dividend Stock
+        aliasType: en_alias
+  - slug: shou-xi-gu
+    headword: 收息股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称以收取稳定股息为目的的股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称以收取稳定股息为目的的股票。
+        example: 收息股适合退休资金长揸。
+        isPrimary: true
+    aliases:
+      - raw: 收息股
+        aliasType: primary
+      - raw: Income Stock
+        aliasType: en_alias
+  - slug: lin-shi-gu-piao
+    headword: 临时股票
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 供股或配股后尚未换发正式股票前的临时凭证。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 供股或配股后尚未换发正式股票前的临时凭证。
+        example: 临时股票可在市场买卖。
+        isPrimary: true
+    aliases:
+      - raw: 临时股票
+        aliasType: primary
+      - raw: Provisional Share
+        aliasType: en_alias
+  - slug: gou-gu-quan
+    headword: 购股权
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公司授予员工按约定价购买股份的权利。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 公司授予员工按约定价购买股份的权利。
+        example: 高管购股权按服务期逐步归属。
+        isPrimary: true
+    aliases:
+      - raw: 购股权
+        aliasType: primary
+      - raw: Share Option
+        aliasType: en_alias
+  - slug: zhu-yao-gu-dong
+    headword: 主要股东
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 持股百分之五以上须披露权益的股东。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 持股百分之五以上须披露权益的股东。
+        example: 主要股东增减持须在三个交易日内披露。
+        isPrimary: true
+    aliases:
+      - raw: 主要股东
+        aliasType: primary
+      - raw: Substantial Shareholder
+        aliasType: en_alias
+  - slug: da-gu-dong-zeng-chi
+    headword: 大股东增持
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 主要股东或董事在市场买入自家股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 主要股东或董事在市场买入自家股票。
+        example: 大股东增持释放信心信号。
+        isPrimary: true
+    aliases:
+      - raw: 大股东增持
+        aliasType: primary
+      - raw: Insider Buying
+        aliasType: en_alias
+  - slug: da-gu-dong-jian-chi
+    headword: 大股东减持
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 主要股东或董事在市场卖出自家股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 主要股东或董事在市场卖出自家股票。
+        example: 大股东减持拖累股价。
+        isPrimary: true
+    aliases:
+      - raw: 大股东减持
+        aliasType: primary
+      - raw: Insider Selling
+        aliasType: en_alias
+  - slug: quan-gou
+    headword: 全购
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称全面收购要约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称全面收购要约。
+        example: 大股东提出全购，小股东可按价沽出。
+        isPrimary: true
+    aliases:
+      - raw: 全购
+        aliasType: primary
+      - raw: General Offer
+        aliasType: en_alias
+  - slug: du-li-gu-dong
+    headword: 独立股东
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 就关连交易表决时须独立于交易方的股东。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 就关连交易表决时须独立于交易方的股东。
+        example: 议案须获独立股东通过。
+        isPrimary: true
+    aliases:
+      - raw: 独立股东
+        aliasType: primary
+      - raw: Independent Shareholder
+        aliasType: en_alias
+  - slug: guan-lian-jiao-yi
+    headword: 关连交易
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上市公司与关连人士之间的交易，须披露并经独立股东批准。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 上市公司与关连人士之间的交易，须披露并经独立股东批准。
+        example: 向大股东收购资产构成关连交易。
+        isPrimary: true
+    aliases:
+      - raw: 关连交易
+        aliasType: primary
+      - raw: Connected Transaction
+        aliasType: en_alias
+  - slug: xu-yu-gong-bu-jiao-yi
+    headword: 须予公布交易
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按规模分类、上市公司须披露公告的交易。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按规模分类、上市公司须披露公告的交易。
+        example: 这笔收购构成须予公布交易。
+        isPrimary: true
+    aliases:
+      - raw: 须予公布交易
+        aliasType: primary
+      - raw: Notifiable Transaction
+        aliasType: en_alias
+  - slug: zhu-yao-jiao-yi
+    headword: 主要交易
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上市公司较大规模、须发通函并经股东批准的交易。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上市公司较大规模、须发通函并经股东批准的交易。
+        example: 这笔出售属主要交易。
+        isPrimary: true
+    aliases:
+      - raw: 主要交易
+        aliasType: primary
+      - raw: Major Transaction
+        aliasType: en_alias
+  - slug: fei-chang-zhong-da-shou-gou
+    headword: 非常重大收购
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 规模极大、可能被视作反收购的资产收购。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 规模极大、可能被视作反收购的资产收购。
+        example: 这项非常重大收购触发新上市处理。
+        isPrimary: true
+    aliases:
+      - raw: 非常重大收购
+        aliasType: primary
+      - raw: Very Substantial Acquisition
+        aliasType: en_alias
+  - slug: di-yi-shou-gou
+    headword: 敌意收购
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 未经目标公司董事会同意而直接向股东提出的收购。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 未经目标公司董事会同意而直接向股东提出的收购。
+        example: 敌意收购常伴随收购溢价。
+        isPrimary: true
+    aliases:
+      - raw: 敌意收购
+        aliasType: primary
+      - raw: Hostile Takeover
+        aliasType: en_alias
+  - slug: du-li-gu-wen-gong-yun-yi-jian
+    headword: 独立顾问公允意见
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 独立财务顾问就要约或交易是否公平发表的意见。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 独立财务顾问就要约或交易是否公平发表的意见。
+        example: 独立顾问公允意见建议小股东接纳。
+        isPrimary: true
+    aliases:
+      - raw: 独立顾问公允意见
+        aliasType: primary
+      - raw: Fairness Opinion
+        aliasType: en_alias
+  - slug: gou-hui-shou-quan
+    headword: 购回授权
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股东大会授予董事会回购不超过一成股份的一般授权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 股东大会授予董事会回购不超过一成股份的一般授权。
+        example: 年度股东大会通过购回授权。
+        isPrimary: true
+    aliases:
+      - raw: 购回授权
+        aliasType: primary
+      - raw: Buyback Mandate
+        aliasType: en_alias
+  - slug: yi-ban-shou-quan
+    headword: 一般授权
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股东大会授予董事会发行不超过两成新股的授权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 股东大会授予董事会发行不超过两成新股的授权。
+        example: 公司在一般授权内批股。
+        isPrimary: true
+    aliases:
+      - raw: 一般授权
+        aliasType: primary
+      - raw: General Mandate
+        aliasType: en_alias
+  - slug: gong-si-tong-han
+    headword: 公司通函
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上市公司向股东发出的详细说明文件。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上市公司向股东发出的详细说明文件。
+        example: 私有化通函内载独立顾问意见。
+        isPrimary: true
+    aliases:
+      - raw: 公司通函
+        aliasType: primary
+      - raw: Circular
+        aliasType: en_alias
+  - slug: gu-fen-guo-hu-deng-ji-chu
+    headword: 股份过户登记处
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 为上市公司登记股东名册、处理转名的机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 为上市公司登记股东名册、处理转名的机构。
+        example: 转手纸须交股份过户登记处。
+        isPrimary: true
+    aliases:
+      - raw: 股份过户登记处
+        aliasType: primary
+      - raw: Share Registrar
+        aliasType: en_alias
+  - slug: shi-wu-gu-piao
+    headword: 实物股票
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 纸质股票凭证，港股正逐步转向无纸化。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 纸质股票凭证，港股正逐步转向无纸化。
+        example: 老股民手里还留着实物股票。
+        isPrimary: true
+    aliases:
+      - raw: 实物股票
+        aliasType: primary
+      - raw: Physical Scrip
+        aliasType: en_alias
+  - slug: ye-ji-chuang-kou-qi
+    headword: 业绩窗口期
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 业绩公布前董事不得买卖公司股份的时段。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 业绩公布前董事不得买卖公司股份的时段。
+        example: 业绩窗口期内高管禁止交易。
+        isPrimary: true
+    aliases:
+      - raw: 业绩窗口期
+        aliasType: primary
+      - raw: Blackout Period
+        aliasType: en_alias
+  - slug: pi-lu-quan-yi
+    headword: 披露权益
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 大股东与董事持股变动须按规定表格披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 大股东与董事持股变动须按规定表格披露。
+        example: 持股跨过某个百分点须披露权益。
+        isPrimary: true
+    aliases:
+      - raw: 披露权益
+        aliasType: primary
+      - raw: Disclosure of Interests
+        aliasType: en_alias
+  - slug: du-li-fei-zhi-xing-dong-shi
+    headword: 独立非执行董事
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 不在公司任职、独立于管理层的董事，负责监督。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 不在公司任职、独立于管理层的董事，负责监督。
+        example: 独立非执行董事组成审核委员会。
+        isPrimary: true
+    aliases:
+      - raw: 独立非执行董事
+        aliasType: primary
+      - raw: INED
+        aliasType: en_alias
+  - slug: shen-he-wei-yuan-hui
+    headword: 审核委员会
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 董事会下负责财务报告与内控的专门委员会。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 董事会下负责财务报告与内控的专门委员会。
+        example: 审核委员会审阅全年业绩。
+        isPrimary: true
+    aliases:
+      - raw: 审核委员会
+        aliasType: primary
+      - raw: Audit Committee
+        aliasType: en_alias
+  - slug: ke-gu
+    headword: 壳股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称市值小、主营业务空、主要供借壳的上市公司。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称市值小、主营业务空、主要供借壳的上市公司。
+        example: 壳股价格被炒高待价而沽。
+        isPrimary: true
+    aliases:
+      - raw: 壳股
+        aliasType: primary
+      - raw: Shell Stock
+        aliasType: en_alias
+  - slug: zhuang-jia-gu
+    headword: 庄家股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称由庄家控盘、走势独立于基本面的股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称由庄家控盘、走势独立于基本面的股票。
+        example: 庄家股拉高后随时跳水。
+        isPrimary: true
+    aliases:
+      - raw: 庄家股
+        aliasType: primary
+      - raw: Manipulated Stock
+        aliasType: en_alias
+  - slug: xiang-xia-chao
+    headword: 向下炒
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称大股东或炒家故意打压股价再低位吸货。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称大股东或炒家故意打压股价再低位吸货。
+        example: 老千股擅长向下炒再合股。
+        isPrimary: true
+    aliases:
+      - raw: 向下炒
+        aliasType: primary
+      - raw: Bear Raid
+        aliasType: en_alias
+  - slug: xiang-shang-chao
+    headword: 向上炒
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称借利好拉高股价便于批股套现。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称借利好拉高股价便于批股套现。
+        example: 配合消息向上炒出货。
+        isPrimary: true
+    aliases:
+      - raw: 向上炒
+        aliasType: primary
+      - raw: Pumping Up
+        aliasType: en_alias
+  - slug: fen-shi-chu-chuang
+    headword: 粉饰橱窗
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称季末基金调高重仓股市值美化报表。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称季末基金调高重仓股市值美化报表。
+        example: 季末粉饰橱窗推高蓝筹。
+        isPrimary: true
+    aliases:
+      - raw: 粉饰橱窗
+        aliasType: primary
+      - raw: Window Dressing
+        aliasType: en_alias
+  - slug: jiang-shi-gu
+    headword: 僵尸股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称长期停牌或交投极冷清的上市公司。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称长期停牌或交投极冷清的上市公司。
+        example: 这只僵尸股几年没有成交。
+        isPrimary: true
+    aliases:
+      - raw: 僵尸股
+        aliasType: primary
+      - raw: Zombie Stock
+        aliasType: en_alias
+  - slug: ben-di-gu
+    headword: 本地股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 业务主要在香港本地的上市公司，如地产公用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 业务主要在香港本地的上市公司，如地产公用。
+        example: 本地股受香港经济景气影响大。
+        isPrimary: true
+    aliases:
+      - raw: 本地股
+        aliasType: primary
+      - raw: Local Stock
+        aliasType: en_alias
+  - slug: guo-ji-gu
+    headword: 国际股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 注册在境外、业务遍及全球的港股上市公司。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 注册在境外、业务遍及全球的港股上市公司。
+        example: 国际股走势与全球市场联动。
+        isPrimary: true
+    aliases:
+      - raw: 国际股
+        aliasType: primary
+      - raw: International Stock
+        aliasType: en_alias
+  - slug: gang-gu-a-d-r
+    headword: 港股ADR
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 在美股市场以预托凭证形式买卖的港股股份。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 在美股市场以预托凭证形式买卖的港股股份。
+        example: 港股ADR走势常预示港股开盘。
+        isPrimary: true
+    aliases:
+      - raw: 港股ADR
+        aliasType: primary
+      - raw: HK Stock ADR
+        aliasType: en_alias
+  - slug: heng-sheng-gang-gu-tong-zhi-shu
+    headword: 恒生港股通指数
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 追踪纳入港股通股票表现的指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 追踪纳入港股通股票表现的指数。
+        example: 恒生港股通指数受南向资金影响。
+        isPrimary: true
+    aliases:
+      - raw: 恒生港股通指数
+        aliasType: primary
+      - raw: Hang Seng Stock Connect Index
+        aliasType: en_alias
+  - slug: ren-min-bi-gui-tai
+    headword: 人民币柜台
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 双柜台模式下以人民币报价交易的港股柜台。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 双柜台模式下以人民币报价交易的港股柜台。
+        example: 人民币柜台降低内地投资者换汇成本。
+        isPrimary: true
+    aliases:
+      - raw: 人民币柜台
+        aliasType: primary
+      - raw: RMB Counter
+        aliasType: en_alias
+  - slug: gang-bi-gui-tai
+    headword: 港币柜台
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 传统以港币报价交易的港股柜台。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 传统以港币报价交易的港股柜台。
+        example: 多数股票仍在港币柜台买卖。
+        isPrimary: true
+    aliases:
+      - raw: 港币柜台
+        aliasType: primary
+      - raw: HKD Counter
+        aliasType: en_alias
+  - slug: shuang-gui-tai-mo-shi
+    headword: 双柜台模式
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 同一只股票同时设有港币与人民币两个柜台的交易安排。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 同一只股票同时设有港币与人民币两个柜台的交易安排。
+        example: 双柜台模式让人民币直接买港股。
+        isPrimary: true
+    aliases:
+      - raw: 双柜台模式
+        aliasType: primary
+      - raw: Dual Counter Model
+        aliasType: en_alias
+  - slug: tou-zi-zhe-pei-chang-ji-jin
+    headword: 投资者赔偿基金
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 香港为中介机构违约投资者提供赔偿的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 香港为中介机构违约投资者提供赔偿的基金。
+        example: 投资者赔偿基金设有赔偿上限。
+        isPrimary: true
+    aliases:
+      - raw: 投资者赔偿基金
+        aliasType: primary
+      - raw: Investor Compensation Fund
+        aliasType: en_alias
+  - slug: hui-cai-ju
+    headword: 会财局
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 香港会计及财务汇报局，负责监管核数师。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 香港会计及财务汇报局，负责监管核数师。
+        example: 会财局对上市核数师进行视察。
+        isPrimary: true
+    aliases:
+      - raw: 会财局
+        aliasType: primary
+      - raw: AFRC
+        aliasType: en_alias
+  - slug: quan-qiu-fa-shou
+    headword: 全球发售
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新股发行中香港公开发售与国际配售两部分的合称。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 新股发行中香港公开发售与国际配售两部分的合称。
+        example: 全球发售总数根据超购情况分配。
+        isPrimary: true
+    aliases:
+      - raw: 全球发售
+        aliasType: primary
+      - raw: Global Offering
+        aliasType: en_alias
+  - slug: fa-shou-jia
+    headword: 发售价
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新股最终厘定的每股发行价格。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 新股最终厘定的每股发行价格。
+        example: 发售价定在区间中位数。
+        isPrimary: true
+    aliases:
+      - raw: 发售价
+        aliasType: primary
+      - raw: Offer Price
+        aliasType: en_alias
+  - slug: wen-ding-jia-ge-cao-zuo-ren
+    headword: 稳定价格操作人
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上市后负责在市场回补、稳定股价的投行。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 上市后负责在市场回补、稳定股价的投行。
+        example: 稳定价格操作人在股价破发时托市。
+        isPrimary: true
+    aliases:
+      - raw: 稳定价格操作人
+        aliasType: primary
+      - raw: Stabilization Manager
+        aliasType: en_alias
+  - slug: kai-man-zhu-ce
+    headword: 开曼注册
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股许多公司选择在开曼群岛注册的上市架构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港股许多公司选择在开曼群岛注册的上市架构。
+        example: 开曼注册便于上市与股权运作。
+        isPrimary: true
+    aliases:
+      - raw: 开曼注册
+        aliasType: primary
+      - raw: Cayman Incorporation
+        aliasType: en_alias
+  - slug: li-an-zhu-ce
+    headword: 离岸注册
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公司在开曼、百慕大、BVI等离岸地注册的架构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 公司在开曼、百慕大、BVI等离岸地注册的架构。
+        example: 离岸注册公司治理较灵活。
+        isPrimary: true
+    aliases:
+      - raw: 离岸注册
+        aliasType: primary
+      - raw: Offshore Incorporation
+        aliasType: en_alias
+  - slug: fei-chang-zhong-da-chu-shou
+    headword: 非常重大出售
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 规模极大的资产出售，可能触发上市规则申报。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 规模极大的资产出售，可能触发上市规则申报。
+        example: 这笔非常重大出售须股东批准。
+        isPrimary: true
+    aliases:
+      - raw: 非常重大出售
+        aliasType: primary
+      - raw: Very Substantial Disposal
+        aliasType: en_alias
+  - slug: gu-fen-jiao-yi
+    headword: 股份交易
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上市公司以股份作为代价进行的交易类别。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 上市公司以股份作为代价进行的交易类别。
+        example: 该收购属股份交易，增发新股支付。
+        isPrimary: true
+    aliases:
+      - raw: 股份交易
+        aliasType: primary
+      - raw: Share Transaction
+        aliasType: en_alias
+  - slug: fu-pai-zhi-yin
+    headword: 复牌指引
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港交所对长期停牌公司给出的复牌条件。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港交所对长期停牌公司给出的复牌条件。
+        example: 公司须满足复牌指引才能复牌。
+        isPrimary: true
+    aliases:
+      - raw: 复牌指引
+        aliasType: primary
+      - raw: Resumption Guidance
+        aliasType: en_alias
+  - slug: chang-qi-ting-pai
+    headword: 长期停牌
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股票长时间停止交易，逾时将被除牌。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 股票长时间停止交易，逾时将被除牌。
+        example: 长期停牌超过十八个月可能除牌。
+        isPrimary: true
+    aliases:
+      - raw: 长期停牌
+        aliasType: primary
+      - raw: Prolonged Suspension
+        aliasType: en_alias
+  - slug: chu-pai-cheng-xu
+    headword: 除牌程序
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港交所对不符合条件公司启动的除牌步骤。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港交所对不符合条件公司启动的除牌步骤。
+        example: 股票进入除牌程序第三阶段。
+        isPrimary: true
+    aliases:
+      - raw: 除牌程序
+        aliasType: primary
+      - raw: Delisting Process
+        aliasType: en_alias
+  - slug: shen-qing-ban-ben
+    headword: 申请版本
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 递表后向市场披露的初步招股文件。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 递表后向市场披露的初步招股文件。
+        example: 申请版本仅供参考，不含最终定价。
+        isPrimary: true
+    aliases:
+      - raw: 申请版本
+        aliasType: primary
+      - raw: Application Proof
+        aliasType: en_alias
+  - slug: an-qu-jian-shang-xian-ding-jia
+    headword: 按区间上限定价
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新股按招股价区间最高值定价，反映需求强。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 新股按招股价区间最高值定价，反映需求强。
+        example: 认购火爆，最终按区间上限定价。
+        isPrimary: true
+    aliases:
+      - raw: 按区间上限定价
+        aliasType: primary
+      - raw: Top-of-range Pricing
+        aliasType: en_alias
+  - slug: zhe-rang-fa-xing
+    headword: 折让发行
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新股或配股价较市价折让发行。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 新股或配股价较市价折让发行。
+        example: 折让发行对老股东摊薄明显。
+        isPrimary: true
+    aliases:
+      - raw: 折让发行
+        aliasType: primary
+      - raw: Discounted Issue
+        aliasType: en_alias
+  - slug: ma-zhan-xi-l
+    headword: 孖展息率
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 打新融资或孖展持仓的借款利率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 打新融资或孖展持仓的借款利率。
+        example: 热门股孖展息率被抢高。
+        isPrimary: true
+    aliases:
+      - raw: 孖展息率
+        aliasType: primary
+      - raw: Margin Interest Rate
+        aliasType: en_alias
+  - slug: mai-pan
+    headword: 买盘
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资者挂出的买入报价，即最佳买入价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 投资者挂出的买入报价，即最佳买入价。
+        example: 买盘堆积在支撑位。
+        isPrimary: true
+    aliases:
+      - raw: 买盘
+        aliasType: primary
+      - raw: Bid
+        aliasType: en_alias
+  - slug: mai-pan-2
+    headword: 卖盘
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资者挂出的卖出报价，即最佳卖出价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 投资者挂出的卖出报价，即最佳卖出价。
+        example: 上方卖盘沉重，股价难突破。
+        isPrimary: true
+    aliases:
+      - raw: 卖盘
+        aliasType: primary
+      - raw: Ask
+        aliasType: en_alias
+  - slug: zi-dong-dui-pan
+    headword: 自动对盘
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 买卖盘经系统按价格与时间优先自动撮合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 买卖盘经系统按价格与时间优先自动撮合。
+        example: 自动对盘瞬时完成。
+        isPrimary: true
+    aliases:
+      - raw: 自动对盘
+        aliasType: primary
+      - raw: Automatic Matching
+        aliasType: en_alias
+  - slug: kai-shi-bao-jia
+    headword: 开市报价
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 开市前时段计算出的开盘参考价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 开市前时段计算出的开盘参考价。
+        example: 开市报价较上日收市跳升。
+        isPrimary: true
+    aliases:
+      - raw: 开市报价
+        aliasType: primary
+      - raw: Opening Quote
+        aliasType: en_alias
+  - slug: shou-shi-jia
+    headword: 收市价
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 收市竞价时段厘定的当日收盘价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 收市竞价时段厘定的当日收盘价。
+        example: 收市价被指数与按金采用。
+        isPrimary: true
+    aliases:
+      - raw: 收市价
+        aliasType: primary
+      - raw: Closing Price
+        aliasType: en_alias
+  - slug: gu-fen-dai-hao
+    headword: 股份代号
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港交所分配给每只证券的五位数字代码。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港交所分配给每只证券的五位数字代码。
+        example: 记住股份代号比查名字快。
+        isPrimary: true
+    aliases:
+      - raw: 股份代号
+        aliasType: primary
+      - raw: Stock Code
+        aliasType: en_alias
+  - slug: cun-guan-fei
+    headword: 存管费
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 券商为客户代持股票收取的年度费用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 券商为客户代持股票收取的年度费用。
+        example: 部分券商免存管费。
+        isPrimary: true
+    aliases:
+      - raw: 存管费
+        aliasType: primary
+      - raw: Custody Fee
+        aliasType: en_alias
+  - slug: mian-yong
+    headword: 免佣
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称券商免收交易佣金的优惠。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称券商免收交易佣金的优惠。
+        example: 互联网券商打出免佣抢客。
+        isPrimary: true
+    aliases:
+      - raw: 免佣
+        aliasType: primary
+      - raw: Zero Commission
+        aliasType: en_alias
+  - slug: hui-bu
+    headword: 回补
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称买回之前沽空的股票平仓。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称买回之前沽空的股票平仓。
+        example: 空头回补推动股价急升。
+        isPrimary: true
+    aliases:
+      - raw: 回补
+        aliasType: primary
+      - raw: Short Covering
+        aliasType: en_alias
+  - slug: jiao-yi-suo-can-yu-zhe
+    headword: 交易所参与者
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 获港交所许可直接在市场交易的券商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 获港交所许可直接在市场交易的券商。
+        example: 只有交易所参与者能落盘。
+        isPrimary: true
+    aliases:
+      - raw: 交易所参与者
+        aliasType: primary
+      - raw: Exchange Participant
+        aliasType: en_alias
+  - slug: jing-ji-dai-hao
+    headword: 经纪代号
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 每宗成交背后券商的识别代号。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 每宗成交背后券商的识别代号。
+        example: 从经纪代号可看出哪家券商在买。
+        isPrimary: true
+    aliases:
+      - raw: 经纪代号
+        aliasType: primary
+      - raw: Broker ID
+        aliasType: en_alias
+  - slug: xian-jin-jiao-shou
+    headword: 现金交收
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 衍生品到期以现金差价交收，不交割实物。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 衍生品到期以现金差价交收，不交割实物。
+        example: 恒指期货采用现金交收。
+        isPrimary: true
+    aliases:
+      - raw: 现金交收
+        aliasType: primary
+      - raw: Cash Settlement
+        aliasType: en_alias
+  - slug: hao-dan-zheng-chi
+    headword: 好淡争持
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称多空力量拉锯、股价窄幅震荡。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称多空力量拉锯、股价窄幅震荡。
+        example: 好淡争持一整天，指数几乎没动。
+        isPrimary: true
+    aliases:
+      - raw: 好淡争持
+        aliasType: primary
+      - raw: Bull-bear Tussle
+        aliasType: en_alias
+  - slug: tou-ji-pan
+    headword: 投机盘
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称博方向的期货投机头寸。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称博方向的期货投机头寸。
+        example: 投机盘涌入推高即月合约。
+        isPrimary: true
+    aliases:
+      - raw: 投机盘
+        aliasType: primary
+      - raw: Speculative Book
+        aliasType: en_alias
+  - slug: niu-zheng
+    headword: 牛证
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称看好标的的牛熊证。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称看好标的的牛熊证。
+        example: 牛证在标的上涨时获利。
+        isPrimary: true
+    aliases:
+      - raw: 牛证
+        aliasType: primary
+      - raw: Bull CBBC
+        aliasType: en_alias
+  - slug: xiong-zheng
+    headword: 熊证
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称看淡标的的牛熊证。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称看淡标的的牛熊证。
+        example: 熊证在标的下跌时获利。
+        isPrimary: true
+    aliases:
+      - raw: 熊证
+        aliasType: primary
+      - raw: Bear CBBC
+        aliasType: en_alias
+  - slug: fa-xing-shang
+    headword: 发行商
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 发行窝轮牛熊证等结构性产品的金融机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 发行窝轮牛熊证等结构性产品的金融机构。
+        example: 窝轮发行商多达十余家。
+        isPrimary: true
+    aliases:
+      - raw: 发行商
+        aliasType: primary
+      - raw: Issuer
+        aliasType: en_alias
+  - slug: dao-jia-zheng
+    headword: 到价证
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 行使价接近现价、到价的窝轮。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 行使价接近现价、到价的窝轮。
+        example: 到价证时间值损耗最快。
+        isPrimary: true
+    aliases:
+      - raw: 到价证
+        aliasType: primary
+      - raw: ATM Warrant
+        aliasType: en_alias
+  - slug: gang-gu-tong-jiao-yi-ri
+    headword: 港股通交易日
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 沪深港三地均开市且交收对接、可开展港股通的日子。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 沪深港三地均开市且交收对接、可开展港股通的日子。
+        example: 圣诞前一日不是港股通交易日。
+        isPrimary: true
+    aliases:
+      - raw: 港股通交易日
+        aliasType: primary
+      - raw: Connect Trading Day
+        aliasType: en_alias
+  - slug: e-du-yu-e
+    headword: 额度余额
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 盘中实时公布的港股通剩余可用额度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 盘中实时公布的港股通剩余可用额度。
+        example: 额度余额接近用完要小心。
+        isPrimary: true
+    aliases:
+      - raw: 额度余额
+        aliasType: primary
+      - raw: Quota Balance
+        aliasType: en_alias
+  - slug: can-kao-hui-l
+    headword: 参考汇率
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股通投资者落盘时采用的参考换汇价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 港股通投资者落盘时采用的参考换汇价。
+        example: 买单按卖出参考汇率计算。
+        isPrimary: true
+    aliases:
+      - raw: 参考汇率
+        aliasType: primary
+      - raw: Reference FX Rate
+        aliasType: en_alias
+  - slug: jiao-shou-hui-l
+    headword: 交收汇率
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股通实际换汇交收时采用的汇率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 港股通实际换汇交收时采用的汇率。
+        example: 交收汇率与参考价略有差异。
+        isPrimary: true
+    aliases:
+      - raw: 交收汇率
+        aliasType: primary
+      - raw: Settlement FX Rate
+        aliasType: en_alias
+  - slug: tiao-chu-gang-gu-tong
+    headword: 调出港股通
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 不合资格股票被剔出港股通名单。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 不合资格股票被剔出港股通名单。
+        example: 被调出港股通后内地资金只能卖。
+        isPrimary: true
+    aliases:
+      - raw: 调出港股通
+        aliasType: primary
+      - raw: Removal from Connect
+        aliasType: en_alias
+  - slug: tiao-ru-gang-gu-tong
+    headword: 调入港股通
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 合资格新股票被纳入港股通名单。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 合资格新股票被纳入港股通名单。
+        example: 调入港股通常带来增量买盘。
+        isPrimary: true
+    aliases:
+      - raw: 调入港股通
+        aliasType: primary
+      - raw: Inclusion into Connect
+        aliasType: en_alias
+  - slug: gang-gu-tong-e-t-f
+    headword: 港股通ETF
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 内地发行、直接投资港股通标的的交易所基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 内地发行、直接投资港股通标的的交易所基金。
+        example: 港股通ETF成交活跃。
+        isPrimary: true
+    aliases:
+      - raw: 港股通ETF
+        aliasType: primary
+      - raw: Stock Connect ETF
+        aliasType: en_alias
+  - slug: ban-nian-du-jian-tao
+    headword: 半年度检讨
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 恒生综合指数每年两次的成分股检讨。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 恒生综合指数每年两次的成分股检讨。
+        example: 半年度检讨结果影响港股通名单。
+        isPrimary: true
+    aliases:
+      - raw: 半年度检讨
+        aliasType: primary
+      - raw: Semi-annual Review
+        aliasType: en_alias
+  - slug: quan-nian-ye-ji
+    headword: 全年业绩
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公司一个财政年度结束后公布的整体业绩。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公司一个财政年度结束后公布的整体业绩。
+        example: 全年业绩好于市场预期。
+        isPrimary: true
+    aliases:
+      - raw: 全年业绩
+        aliasType: primary
+      - raw: Annual Results
+        aliasType: en_alias
+  - slug: zhong-qi-ye-ji
+    headword: 中期业绩
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 财政年度上半年公布的业绩。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 财政年度上半年公布的业绩。
+        example: 中期业绩同比扭亏。
+        isPrimary: true
+    aliases:
+      - raw: 中期业绩
+        aliasType: primary
+      - raw: Interim Results
+        aliasType: en_alias
+  - slug: ji-du-ye-ji
+    headword: 季度业绩
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按自然季度披露的经营业绩，港股披露较少。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按自然季度披露的经营业绩，港股披露较少。
+        example: 部分中资股披露季度业绩。
+        isPrimary: true
+    aliases:
+      - raw: 季度业绩
+        aliasType: primary
+      - raw: Quarterly Results
+        aliasType: en_alias
+  - slug: ye-ji-gong-gao
+    headword: 业绩公告
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公司在披露易上刊发的业绩新闻公告。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公司在披露易上刊发的业绩新闻公告。
+        example: 业绩公告盘后刊发。
+        isPrimary: true
+    aliases:
+      - raw: 业绩公告
+        aliasType: primary
+      - raw: Results Announcement
+        aliasType: en_alias
+  - slug: gu-xi-zheng-ce
+    headword: 股息政策
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公司关于派息比例与频率的长期安排。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公司关于派息比例与频率的长期安排。
+        example: 该公司承诺派息率不低于五成。
+        isPrimary: true
+    aliases:
+      - raw: 股息政策
+        aliasType: primary
+      - raw: Dividend Policy
+        aliasType: en_alias
+  - slug: guo-hu-jie-zhi-ri
+    headword: 过户截止日
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 确定可享有股息或供股权利的股东登记截止日。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 确定可享有股息或供股权利的股东登记截止日。
+        example: 在过户截止日前登记才享息。
+        isPrimary: true
+    aliases:
+      - raw: 过户截止日
+        aliasType: primary
+      - raw: Record Date
+        aliasType: en_alias
+  - slug: er-gong-yi
+    headword: 二供一
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称每两股供一股的供股比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称每两股供一股的供股比例。
+        example: 二供一意味着老股东要再掏一半钱。
+        isPrimary: true
+    aliases:
+      - raw: 二供一
+        aliasType: primary
+      - raw: 2-for-1 Rights
+        aliasType: en_alias
+  - slug: shi-he-yi
+    headword: 十合一
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称每十股并为一股的股份合并。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称每十股并为一股的股份合并。
+        example: 十合一后股价名义上抬十倍。
+        isPrimary: true
+    aliases:
+      - raw: 十合一
+        aliasType: primary
+      - raw: 10-for-1 Consolidation
+        aliasType: en_alias
+  - slug: yi-chai-shi
+    headword: 一拆十
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称每股拆为十股的股份拆细。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称每股拆为十股的股份拆细。
+        example: 一拆十后股价按比例下调。
+        isPrimary: true
+    aliases:
+      - raw: 一拆十
+        aliasType: primary
+      - raw: 1-for-10 Split
+        aliasType: en_alias
+  - slug: jiu-gu
+    headword: 旧股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 先旧后新中大股东先拿出的存量股份。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 先旧后新中大股东先拿出的存量股份。
+        example: 旧股先配售再发行新股补足。
+        isPrimary: true
+    aliases:
+      - raw: 旧股
+        aliasType: primary
+      - raw: Old Share
+        aliasType: en_alias
+  - slug: da-gu-dong
+    headword: 大股东
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 持股比例高、能左右公司决策的股东。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 持股比例高、能左右公司决策的股东。
+        example: 大股东主导私有化方案。
+        isPrimary: true
+    aliases:
+      - raw: 大股东
+        aliasType: primary
+      - raw: Controlling Shareholder
+        aliasType: en_alias
+  - slug: dong-shi-jiao-yi
+    headword: 董事交易
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上市公司董事买卖自家股份的行为。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上市公司董事买卖自家股份的行为。
+        example: 董事交易须及时披露。
+        isPrimary: true
+    aliases:
+      - raw: 董事交易
+        aliasType: primary
+      - raw: Director Dealing
+        aliasType: en_alias
+  - slug: chen-mo-qi
+    headword: 沉默期
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 业绩公布前后公司不得发布敏感信息的时段。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 业绩公布前后公司不得发布敏感信息的时段。
+        example: 沉默期内管理层不接受采访。
+        isPrimary: true
+    aliases:
+      - raw: 沉默期
+        aliasType: primary
+      - raw: Quiet Period
+        aliasType: en_alias
+  - slug: nei-mu-jiao-yi
+    headword: 内幕交易
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 掌握内幕消息者买卖证券以牟利的违法行为。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 掌握内幕消息者买卖证券以牟利的违法行为。
+        example: 内幕交易可被刑事检控。
+        isPrimary: true
+    aliases:
+      - raw: 内幕交易
+        aliasType: primary
+      - raw: Inside Dealing
+        aliasType: en_alias
+  - slug: shi-chang-cao-zong
+    headword: 市场操纵
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 通过虚假交易或造势人为影响股价的违法行为。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 通过虚假交易或造势人为影响股价的违法行为。
+        example: 市场操纵属刑事罪行。
+        isPrimary: true
+    aliases:
+      - raw: 市场操纵
+        aliasType: primary
+      - raw: Market Manipulation
+        aliasType: en_alias
+  - slug: xu-jia-jiao-yi
+    headword: 虚假交易
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 同一人自买自卖制造活跃假象的违规交易。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 同一人自买自卖制造活跃假象的违规交易。
+        example: 虚假交易误导投资者。
+        isPrimary: true
+    aliases:
+      - raw: 虚假交易
+        aliasType: primary
+      - raw: Wash Trade
+        aliasType: en_alias
+  - slug: ti-ming-wei-yuan-hui
+    headword: 提名委员会
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 董事会下遴选董事候选人的专门委员会。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 董事会下遴选董事候选人的专门委员会。
+        example: 提名委员会推荐独董人选。
+        isPrimary: true
+    aliases:
+      - raw: 提名委员会
+        aliasType: primary
+      - raw: Nomination Committee
+        aliasType: en_alias
+  - slug: dai-biao-wei-ren-biao-ge
+    headword: 代表委任表格
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股东无法出席股东大会时委托他人投票的表格。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股东无法出席股东大会时委托他人投票的表格。
+        example: 小股东可填代表委任表格投票。
+        isPrimary: true
+    aliases:
+      - raw: 代表委任表格
+        aliasType: primary
+      - raw: Proxy Form
+        aliasType: en_alias
+  - slug: jue-yi-an
+    headword: 决议案
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股东大会上须表决通过的议案。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股东大会上须表决通过的议案。
+        example: 私有化决议案须获七成半通过。
+        isPrimary: true
+    aliases:
+      - raw: 决议案
+        aliasType: primary
+      - raw: Resolution
+        aliasType: en_alias
+  - slug: mei-gu-zuo-jia
+    headword: 每股作价
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 要约或私有化中每股的收购代价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 要约或私有化中每股的收购代价。
+        example: 每股作价较市价溢价四成。
+        isPrimary: true
+    aliases:
+      - raw: 每股作价
+        aliasType: primary
+      - raw: Offer Price per Share
+        aliasType: en_alias
+  - slug: xian-jin-dai-jia
+    headword: 现金代价
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以现金支付的收购对价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以现金支付的收购对价。
+        example: 这项收购全部以现金代价支付。
+        isPrimary: true
+    aliases:
+      - raw: 现金代价
+        aliasType: primary
+      - raw: Cash Consideration
+        aliasType: en_alias
+  - slug: gu-fen-dai-jia
+    headword: 股份代价
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以发行股份作为收购对价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以发行股份作为收购对价。
+        example: 股份代价会摊薄对方股东。
+        isPrimary: true
+    aliases:
+      - raw: 股份代价
+        aliasType: primary
+      - raw: Share Consideration
+        aliasType: en_alias
+  - slug: da-shi-dai
+    headword: 大时代
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称港股一轮极度亢奋的牛市，也指同名电视剧。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称港股一轮极度亢奋的牛市，也指同名电视剧。
+        example: 散户怀念当年大时代的行情。
+        isPrimary: true
+    aliases:
+      - raw: 大时代
+        aliasType: primary
+      - raw: Bull Era
+        aliasType: en_alias
+  - slug: ba-qi-gu-zai
+    headword: 八七股灾
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称1987年全球股灾波及港股的历史事件。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称1987年全球股灾波及港股的历史事件。
+        example: 八七股灾令恒指短期腰斩。
+        isPrimary: true
+    aliases:
+      - raw: 八七股灾
+        aliasType: primary
+      - raw: 1987 Crash
+        aliasType: en_alias
+  - slug: jiu-qi-jin-rong-feng-bao
+    headword: 九七金融风暴
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称1997年亚洲金融风暴重创港股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称1997年亚洲金融风暴重创港股。
+        example: 九七金融风暴中恒指暴跌。
+        isPrimary: true
+    aliases:
+      - raw: 九七金融风暴
+        aliasType: primary
+      - raw: 1997 Asian Crisis
+        aliasType: en_alias
+  - slug: sha-shi-yi-qing
+    headword: 沙士疫情
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称2003年非典疫情冲击港股与经济。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称2003年非典疫情冲击港股与经济。
+        example: 沙士疫情后港股见底回升。
+        isPrimary: true
+    aliases:
+      - raw: 沙士疫情
+        aliasType: primary
+      - raw: SARS
+        aliasType: en_alias
+  - slug: lei-man-mi-ni-zhai-quan
+    headword: 雷曼迷你债券
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称雷曼倒闭后大量零售投资者受损的迷你债券事件。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称雷曼倒闭后大量零售投资者受损的迷你债券事件。
+        example: 雷曼迷你债券事件引发大量投诉。
+        isPrimary: true
+    aliases:
+      - raw: 雷曼迷你债券
+        aliasType: primary
+      - raw: Lehman Minibonds
+        aliasType: en_alias
+  - slug: heng-sheng-jin-rong-ye-zhi-shu
+    headword: 恒生金融业指数
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 恒生指数中金融板块的行业子指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 恒生指数中金融板块的行业子指数。
+        example: 恒生金融业指数跟随汇丰等权重股。
+        isPrimary: true
+    aliases:
+      - raw: 恒生金融业指数
+        aliasType: primary
+      - raw: Hang Seng Financials Index
+        aliasType: en_alias
+  - slug: heng-sheng-di-chan-jian-zhu-ye-zhi-shu
+    headword: 恒生地产建筑业指数
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 恒生指数中地产建筑板块的行业子指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 恒生指数中地产建筑板块的行业子指数。
+        example: 恒生地产建筑业指数对利率敏感。
+        isPrimary: true
+    aliases:
+      - raw: 恒生地产建筑业指数
+        aliasType: primary
+      - raw: Hang Seng Properties Index
+        aliasType: en_alias
+  - slug: heng-sheng-gong-yong-shi-ye-zhi-shu
+    headword: 恒生公用事业指数
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 恒生指数中公用事业板块的行业子指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 恒生指数中公用事业板块的行业子指数。
+        example: 恒生公用事业指数防御性强。
+        isPrimary: true
+    aliases:
+      - raw: 恒生公用事业指数
+        aliasType: primary
+      - raw: Hang Seng Utilities Index
+        aliasType: en_alias
+  - slug: heng-sheng-gong-shang-ye-zhi-shu
+    headword: 恒生工商业指数
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 恒生指数中工商业板块的行业子指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 恒生指数中工商业板块的行业子指数。
+        example: 恒生工商业指数占比最大。
+        isPrimary: true
+    aliases:
+      - raw: 恒生工商业指数
+        aliasType: primary
+      - raw: Hang Seng Commerce & Industry Index
+        aliasType: en_alias
+  - slug: gu-piao-jing-ji
+    headword: 股票经纪
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 代客买卖股票、提供意见的持牌中介人。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 代客买卖股票、提供意见的持牌中介人。
+        example: 股票经纪建议客户吸纳高息股。
+        isPrimary: true
+    aliases:
+      - raw: 股票经纪
+        aliasType: primary
+      - raw: Stock Broker
+        aliasType: en_alias
+  - slug: li-de-shui
+    headword: 利得税
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 香港对公司经营利润征收的税项。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 香港对公司经营利润征收的税项。
+        example: 港股不征资本增值税但征利得税。
+        isPrimary: true
+    aliases:
+      - raw: 利得税
+        aliasType: primary
+      - raw: Profits Tax
+        aliasType: en_alias
+  - slug: zi-ben-zeng-zhi-shui
+    headword: 资本增值税
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 香港对买卖股票差价基本不征收的税种。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 香港对买卖股票差价基本不征收的税种。
+        example: 港股不设资本增值税吸引投资者。
+        isPrimary: true
+    aliases:
+      - raw: 资本增值税
+        aliasType: primary
+      - raw: Capital Gains Tax
+        aliasType: en_alias
+  - slug: lian-xi-hui-l-zhi
+    headword: 联系汇率制
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港元与美元挂钩的固定汇率安排，区间7.75至7.85。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 港元与美元挂钩的固定汇率安排，区间7.75至7.85。
+        example: 联系汇率制下港元利率跟随美元。
+        isPrimary: true
+    aliases:
+      - raw: 联系汇率制
+        aliasType: primary
+      - raw: Linked Exchange Rate
+        aliasType: en_alias
+  - slug: yi-ge-yue-chai-xi
+    headword: 一个月拆息
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 期限一个月的港元银行同业拆息。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 期限一个月的港元银行同业拆息。
+        example: 按揭利率多参照一个月拆息。
+        isPrimary: true
+    aliases:
+      - raw: 一个月拆息
+        aliasType: primary
+      - raw: 1-month HIBOR
+        aliasType: en_alias
+  - slug: san-ge-yue-chai-xi
+    headword: 三个月拆息
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 期限三个月的港元银行同业拆息。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 期限三个月的港元银行同业拆息。
+        example: 三个月拆息常作为定价基准。
+        isPrimary: true
+    aliases:
+      - raw: 三个月拆息
+        aliasType: primary
+      - raw: 3-month HIBOR
+        aliasType: en_alias
+  - slug: ren-min-bi-zhai-quan
+    headword: 人民币债券
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 在香港发行、以离岸人民币计价的债券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 在香港发行、以离岸人民币计价的债券。
+        example: 点心债市场规模持续扩大。
+        isPrimary: true
+    aliases:
+      - raw: 人民币债券
+        aliasType: primary
+      - raw: Dim Sum Bond
+        aliasType: en_alias
+  - slug: wai-hui-ji-jin
+    headword: 外汇基金
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 香港金管局管理、维持港元与金融稳定的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 香港金管局管理、维持港元与金融稳定的基金。
+        example: 外汇基金投资海外资产。
+        isPrimary: true
+    aliases:
+      - raw: 外汇基金
+        aliasType: primary
+      - raw: Exchange Fund
+        aliasType: en_alias
+  - slug: shang-shi-gui-ze-xiu-ding
+    headword: 上市规则修订
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港交所对上市规则作出的修订，如18C、双柜台。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 港交所对上市规则作出的修订，如18C、双柜台。
+        example: 上市规则修订常配合市场发展。
+        isPrimary: true
+    aliases:
+      - raw: 上市规则修订
+        aliasType: primary
+      - raw: Listing Rules Update
+        aliasType: en_alias
+  - slug: jian-yi-shuang-chong-zhu-yao-shang-shi
+    headword: 简易双重主要上市
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 符合条件的外国公司在港双重主要上市的简化通道。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 符合条件的外国公司在港双重主要上市的简化通道。
+        example: 多家外国发行人经简化通道来港。
+        isPrimary: true
+    aliases:
+      - raw: 简易双重主要上市
+        aliasType: primary
+      - raw: Simplified Secondary Listing
+        aliasType: en_alias
+  - slug: tong-gu-bu-tong-quan-jia-gou
+    headword: 同股不同权架构
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 不同股份享不同投票权的架构，港交所有限度接纳。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 不同股份享不同投票权的架构，港交所有限度接纳。
+        example: 同股不同权架构下创始人投票权更高。
+        isPrimary: true
+    aliases:
+      - raw: 同股不同权架构
+        aliasType: primary
+      - raw: WVR Structure
+        aliasType: en_alias
+  - slug: di-er-shang-shi-di-wei
+    headword: 第二上市地位
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公司主要上市在外地、香港为第二上市的身份。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公司主要上市在外地、香港为第二上市的身份。
+        example: 第二上市地位下部分规则可豁免。
+        isPrimary: true
+    aliases:
+      - raw: 第二上市地位
+        aliasType: primary
+      - raw: Secondary Listing Status
+        aliasType: en_alias
+  - slug: gong-zhong-chi-gu-liang
+    headword: 公众持股量
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上市证券由公众持有的最低比例，通常不低于25%。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 上市证券由公众持有的最低比例，通常不低于25%。
+        example: 公众持股量不足须限期补足。
+        isPrimary: true
+    aliases:
+      - raw: 公众持股量
+        aliasType: primary
+      - raw: Public Float
+        aliasType: en_alias
+  - slug: shang-shi-fei
+    headword: 上市费
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 向港交所缴纳的首次上市及年度费用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 向港交所缴纳的首次上市及年度费用。
+        example: 上市费按发行市值分档计收。
+        isPrimary: true
+    aliases:
+      - raw: 上市费
+        aliasType: primary
+      - raw: Listing Fee
+        aliasType: en_alias
+  - slug: shou-ci-shang-shi-fei
+    headword: 首次上市费
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新上市时一次性缴纳的费用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 新上市时一次性缴纳的费用。
+        example: 首次上市费在递表时预缴。
+        isPrimary: true
+    aliases:
+      - raw: 首次上市费
+        aliasType: primary
+      - raw: Initial Listing Fee
+        aliasType: en_alias
+  - slug: shang-shi-nian-fei
+    headword: 上市年费
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上市公司每年缴纳的持续挂牌费用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 上市公司每年缴纳的持续挂牌费用。
+        example: 上市年费按市值分级。
+        isPrimary: true
+    aliases:
+      - raw: 上市年费
+        aliasType: primary
+      - raw: Annual Listing Fee
+        aliasType: en_alias
+  - slug: chi-xu-pi-lu
+    headword: 持续披露
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上市公司上市后须及时披露重大信息的义务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上市公司上市后须及时披露重大信息的义务。
+        example: 持续披露是发行人的基本责任。
+        isPrimary: true
+    aliases:
+      - raw: 持续披露
+        aliasType: primary
+      - raw: Continuous Disclosure
+        aliasType: en_alias
+  - slug: gu-jia-bo-dong-gong-gao
+    headword: 股价波动公告
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价或成交异常时公司须说明是否有未披露消息。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 股价或成交异常时公司须说明是否有未披露消息。
+        example: 股价急升公司发股价波动公告。
+        isPrimary: true
+    aliases:
+      - raw: 股价波动公告
+        aliasType: primary
+      - raw: Price Movement Announcement
+        aliasType: en_alias
+  - slug: bao-xiao-xie-yi
+    headword: 包销协议
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 发行人与承销商签订、约定包销责任的协议。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 发行人与承销商签订、约定包销责任的协议。
+        example: 包销协议签署后发行基本锁定。
+        isPrimary: true
+    aliases:
+      - raw: 包销协议
+        aliasType: primary
+      - raw: Underwriting Agreement
+        aliasType: en_alias
+  - slug: chang-cang
+    headword: 长仓
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 买入资产、博其上涨的持仓。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 买入资产、博其上涨的持仓。
+        example: 长仓在下跌时浮亏。
+        isPrimary: true
+    aliases:
+      - raw: 长仓
+        aliasType: primary
+      - raw: Long Position
+        aliasType: en_alias
+  - slug: duan-cang
+    headword: 短仓
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 沽空借入股票、博其下跌的持仓。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 沽空借入股票、博其下跌的持仓。
+        example: 短仓在上涨时被迫回补。
+        isPrimary: true
+    aliases:
+      - raw: 短仓
+        aliasType: primary
+      - raw: Short Position
+        aliasType: en_alias
+  - slug: chi-cang
+    headword: 持仓
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资者当前持有的股票或衍生品头寸。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资者当前持有的股票或衍生品头寸。
+        example: 持仓过重遇波动易受伤。
+        isPrimary: true
+    aliases:
+      - raw: 持仓
+        aliasType: primary
+      - raw: Position
+        aliasType: en_alias
+  - slug: gai-pan
+    headword: 改盘
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 在未成交前修改已挂买卖盘的价格或数量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 在未成交前修改已挂买卖盘的价格或数量。
+        example: 开市前可随时改盘。
+        isPrimary: true
+    aliases:
+      - raw: 改盘
+        aliasType: primary
+      - raw: Amend Order
+        aliasType: en_alias
+  - slug: qu-xiao-pan
+    headword: 取消盘
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 撤销尚未成交的挂单。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 撤销尚未成交的挂单。
+        example: 股价反转立即取消盘。
+        isPrimary: true
+    aliases:
+      - raw: 取消盘
+        aliasType: primary
+      - raw: Cancel Order
+        aliasType: en_alias
+  - slug: ji-ri-pan
+    headword: 即日盘
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 当日有效、收市未成交自动取消的挂单。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 当日有效、收市未成交自动取消的挂单。
+        example: 即日盘收市后自动作废。
+        isPrimary: true
+    aliases:
+      - raw: 即日盘
+        aliasType: primary
+      - raw: Day Order
+        aliasType: en_alias
+  - slug: lun-hou-dui-wu
+    headword: 轮候队伍
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 同一价位上买卖盘按时间先后排队等待成交。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 同一价位上买卖盘按时间先后排队等待成交。
+        example: 买盘轮候队伍很长。
+        isPrimary: true
+    aliases:
+      - raw: 轮候队伍
+        aliasType: primary
+      - raw: Order Queue
+        aliasType: en_alias
+  - slug: shi-jia-pan-xian-zhi
+    headword: 市价盘限制
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股不接受纯市价盘，须用限价盘落盘。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港股不接受纯市价盘，须用限价盘落盘。
+        example: 想立即成交可用增强限价盘。
+        isPrimary: true
+    aliases:
+      - raw: 市价盘限制
+        aliasType: primary
+      - raw: Market Order Restriction
+        aliasType: en_alias
+  - slug: kua-qi-mai-mai
+    headword: 跨期买卖
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 同时买卖不同到期月份的同种期货。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 同时买卖不同到期月份的同种期货。
+        example: 跨期买卖赚月份价差。
+        isPrimary: true
+    aliases:
+      - raw: 跨期买卖
+        aliasType: primary
+      - raw: Spread Trading
+        aliasType: en_alias
+  - slug: zhi-shu-tao-li
+    headword: 指数套利
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 利用期指定价与现货成分股之间偏差套利。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 利用期指定价与现货成分股之间偏差套利。
+        example: 指数套利让期现价格趋于一致。
+        isPrimary: true
+    aliases:
+      - raw: 指数套利
+        aliasType: primary
+      - raw: Index Arbitrage
+        aliasType: en_alias
+  - slug: xian-huo-yue
+    headword: 现货月
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 当前正在交收的期货月份。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 当前正在交收的期货月份。
+        example: 现货月最后交易日波动加大。
+        isPrimary: true
+    aliases:
+      - raw: 现货月
+        aliasType: primary
+      - raw: Spot Month
+        aliasType: en_alias
+  - slug: yuan-yue-he-yue
+    headword: 远月合约
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 到期时间较远的期货合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 到期时间较远的期货合约。
+        example: 远月合约流动性较差。
+        isPrimary: true
+    aliases:
+      - raw: 远月合约
+        aliasType: primary
+      - raw: Far Month Contract
+        aliasType: en_alias
+  - slug: zhu-ri-ding-shi
+    headword: 逐日盯市
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 每日按结算价重估盈亏并划转保证金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 每日按结算价重估盈亏并划转保证金。
+        example: 逐日盯市下浮亏直接扣保证金。
+        isPrimary: true
+    aliases:
+      - raw: 逐日盯市
+        aliasType: primary
+      - raw: Mark to Market
+        aliasType: en_alias
+  - slug: di-chan-gu
+    headword: 地产股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 业务为地产发展或持有收租物业的港股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 业务为地产发展或持有收租物业的港股。
+        example: 低息环境利好地产股。
+        isPrimary: true
+    aliases:
+      - raw: 地产股
+        aliasType: primary
+      - raw: Property Stock
+        aliasType: en_alias
+  - slug: nei-yin-gu
+    headword: 内银股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称在港上市的内地银行股份。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称在港上市的内地银行股份。
+        example: 内银股周息率普遍较高。
+        isPrimary: true
+    aliases:
+      - raw: 内银股
+        aliasType: primary
+      - raw: Chinese Bank Stock
+        aliasType: en_alias
+  - slug: nei-fang-gu
+    headword: 内房股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称在港上市的内地房地产股份。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称在港上市的内地房地产股份。
+        example: 内房股受政策与销售数据影响大。
+        isPrimary: true
+    aliases:
+      - raw: 内房股
+        aliasType: primary
+      - raw: Chinese Property Stock
+        aliasType: en_alias
+  - slug: nei-xian-gu
+    headword: 内险股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称在港上市的内地保险股份。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称在港上市的内地保险股份。
+        example: 内险股受益于利率与保费增长。
+        isPrimary: true
+    aliases:
+      - raw: 内险股
+        aliasType: primary
+      - raw: Chinese Insurer Stock
+        aliasType: en_alias
+  - slug: hao-du-gu
+    headword: 濠赌股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称澳门博彩业相关港股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称澳门博彩业相关港股。
+        example: 濠赌股跟随澳门赌收数据波动。
+        isPrimary: true
+    aliases:
+      - raw: 濠赌股
+        aliasType: primary
+      - raw: Macau Gaming Stock
+        aliasType: en_alias
+  - slug: dian-xun-gu
+    headword: 电讯股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 业务为电信营运的港股，多为高息防御股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 业务为电信营运的港股，多为高息防御股。
+        example: 电讯股现金流稳定。
+        isPrimary: true
+    aliases:
+      - raw: 电讯股
+        aliasType: primary
+      - raw: Telecom Stock
+        aliasType: en_alias
+  - slug: gong-yong-gu
+    headword: 公用股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 电力、燃气等公用事业股，防御性强。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 电力、燃气等公用事业股，防御性强。
+        example: 公用股在震荡市受追捧。
+        isPrimary: true
+    aliases:
+      - raw: 公用股
+        aliasType: primary
+      - raw: Utility Stock
+        aliasType: en_alias
+  - slug: dian-li-gu
+    headword: 电力股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经营电力生产或分销的港股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 经营电力生产或分销的港股。
+        example: 电力股盈利稳定。
+        isPrimary: true
+    aliases:
+      - raw: 电力股
+        aliasType: primary
+      - raw: Power Stock
+        aliasType: en_alias
+  - slug: gong-lu-gu
+    headword: 公路股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经营收费公路的港股，现金流稳定。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 经营收费公路的港股，现金流稳定。
+        example: 公路股靠车流量增长。
+        isPrimary: true
+    aliases:
+      - raw: 公路股
+        aliasType: primary
+      - raw: Toll Road Stock
+        aliasType: en_alias
+  - slug: hang-kong-gu
+    headword: 航空股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 航空公司股份，受油价与客流影响。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 航空公司股份，受油价与客流影响。
+        example: 航空股对油价敏感。
+        isPrimary: true
+    aliases:
+      - raw: 航空股
+        aliasType: primary
+      - raw: Airline Stock
+        aliasType: en_alias
+  - slug: hang-yun-gu
+    headword: 航运股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 航运公司股份，随运价周期波动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 航运公司股份，随运价周期波动。
+        example: 航运股跟随波罗的海指数。
+        isPrimary: true
+    aliases:
+      - raw: 航运股
+        aliasType: primary
+      - raw: Shipping Stock
+        aliasType: en_alias
+  - slug: sheng-wu-ke-ji-gu
+    headword: 生物科技股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 18A上市的医药研发公司股份。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 18A上市的医药研发公司股份。
+        example: 生物科技股波动大。
+        isPrimary: true
+    aliases:
+      - raw: 生物科技股
+        aliasType: primary
+      - raw: Biotech Stock
+        aliasType: en_alias
+  - slug: xin-jing-ji-gu
+    headword: 新经济股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称互联网、科技等新兴行业股份。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称互联网、科技等新兴行业股份。
+        example: 资金偏好新经济股。
+        isPrimary: true
+    aliases:
+      - raw: 新经济股
+        aliasType: primary
+      - raw: New Economy Stock
+        aliasType: en_alias
+  - slug: jiu-jing-ji-gu
+    headword: 旧经济股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称金融、地产、工业等传统行业股份。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称金融、地产、工业等传统行业股份。
+        example: 轮动时资金从新经济转向旧经济股。
+        isPrimary: true
+    aliases:
+      - raw: 旧经济股
+        aliasType: primary
+      - raw: Old Economy Stock
+        aliasType: en_alias
+  - slug: shou-zu-gu
+    headword: 收租股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称持有大量收租物业的港股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称持有大量收租物业的港股。
+        example: 收租股靠租金增长。
+        isPrimary: true
+    aliases:
+      - raw: 收租股
+        aliasType: primary
+      - raw: Landlord Stock
+        aliasType: en_alias
+  - slug: min-qi-gu
+    headword: 民企股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称内地民营背景的港股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称内地民营背景的港股。
+        example: 民企股治理水平参差。
+        isPrimary: true
+    aliases:
+      - raw: 民企股
+        aliasType: primary
+      - raw: Private Enterprise Stock
+        aliasType: en_alias
+  - slug: xiao-xi-gu
+    headword: 消息股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称靠传闻炒作、缺乏业绩支撑的股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称靠传闻炒作、缺乏业绩支撑的股票。
+        example: 消息股消息一出就散。
+        isPrimary: true
+    aliases:
+      - raw: 消息股
+        aliasType: primary
+      - raw: Rumor-driven Stock
+        aliasType: en_alias
+  - slug: tou-ji-gu
+    headword: 投机股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称波动大、博差价的短线股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称波动大、博差价的短线股票。
+        example: 投机股只适合短线。
+        isPrimary: true
+    aliases:
+      - raw: 投机股
+        aliasType: primary
+      - raw: Speculative Stock
+        aliasType: en_alias
+  - slug: shang-luo-shi
+    headword: 上落市
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称指数在区间内上下波动的市况。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称指数在区间内上下波动的市况。
+        example: 上落市宜高沽低买。
+        isPrimary: true
+    aliases:
+      - raw: 上落市
+        aliasType: primary
+      - raw: Range-bound Market
+        aliasType: en_alias
+  - slug: wang-shi
+    headword: 旺市
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称成交活跃、普遍上涨的市况。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称成交活跃、普遍上涨的市况。
+        example: 旺市成交破纪录。
+        isPrimary: true
+    aliases:
+      - raw: 旺市
+        aliasType: primary
+      - raw: Bullish Market
+        aliasType: en_alias
+  - slug: dan-shi
+    headword: 淡市
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称成交萎缩、普遍下跌的市况。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称成交萎缩、普遍下跌的市况。
+        example: 淡市减仓观望。
+        isPrimary: true
+    aliases:
+      - raw: 淡市
+        aliasType: primary
+      - raw: Bearish Market
+        aliasType: en_alias
+  - slug: da-shi
+    headword: 大市
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称港股整体行情。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称港股整体行情。
+        example: 大市今天升三百点。
+        isPrimary: true
+    aliases:
+      - raw: 大市
+        aliasType: primary
+      - raw: Overall Market
+        aliasType: en_alias
+  - slug: gao-shou
+    headword: 高收
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称当日收市较上日收市上涨。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称当日收市较上日收市上涨。
+        example: 尾市拉升，指数高收。
+        isPrimary: true
+    aliases:
+      - raw: 高收
+        aliasType: primary
+      - raw: Close Higher
+        aliasType: en_alias
+  - slug: di-shou
+    headword: 低收
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称当日收市较上日收市下跌。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称当日收市较上日收市下跌。
+        example: 获利回吐，指数低收。
+        isPrimary: true
+    aliases:
+      - raw: 低收
+        aliasType: primary
+      - raw: Close Lower
+        aliasType: en_alias
+  - slug: chuan-ding
+    headword: 穿顶
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称股价突破前期高位。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称股价突破前期高位。
+        example: 股价穿顶后打开上升空间。
+        isPrimary: true
+    aliases:
+      - raw: 穿顶
+        aliasType: primary
+      - raw: Break Above
+        aliasType: en_alias
+  - slug: bu-wei
+    headword: 补位
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称股价回补之前的跳空缺口。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称股价回补之前的跳空缺口。
+        example: 裂口上升后总要补位。
+        isPrimary: true
+    aliases:
+      - raw: 补位
+        aliasType: primary
+      - raw: Fill Gap
+        aliasType: en_alias
+  - slug: shang-shi
+    headword: 上试
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称股价向上试探阻力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称股价向上试探阻力。
+        example: 股价上试两万点关口。
+        isPrimary: true
+    aliases:
+      - raw: 上试
+        aliasType: primary
+      - raw: Test Up
+        aliasType: en_alias
+  - slug: xia-shi
+    headword: 下试
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称股价向下试探支持。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称股价向下试探支持。
+        example: 指数下试两万点。
+        isPrimary: true
+    aliases:
+      - raw: 下试
+        aliasType: primary
+      - raw: Test Down
+        aliasType: en_alias
+  - slug: heng-xing
+    headword: 横行
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称股价横向震荡。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称股价横向震荡。
+        example: 股价横行整固。
+        isPrimary: true
+    aliases:
+      - raw: 横行
+        aliasType: primary
+      - raw: Sideways
+        aliasType: en_alias
+  - slug: ru-huo
+    headword: 入货
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称买入股票建仓。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称买入股票建仓。
+        example: 趁低入货。
+        isPrimary: true
+    aliases:
+      - raw: 入货
+        aliasType: primary
+      - raw: Buy In
+        aliasType: en_alias
+  - slug: gu-huo
+    headword: 沽货
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称卖出持仓。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称卖出持仓。
+        example: 高位沽货锁定利润。
+        isPrimary: true
+    aliases:
+      - raw: 沽货
+        aliasType: primary
+      - raw: Sell Out
+        aliasType: en_alias
+  - slug: jie-huo-2
+    headword: 接货
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称在下跌中承接别人卖出的股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称在下跌中承接别人卖出的股票。
+        example: 大跌时有人接货。
+        isPrimary: true
+    aliases:
+      - raw: 接货
+        aliasType: primary
+      - raw: Take Position
+        aliasType: en_alias
+  - slug: pai-huo
+    headword: 派货
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称大户在高位把股票派给散户。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称大户在高位把股票派给散户。
+        example: 借利好派货。
+        isPrimary: true
+    aliases:
+      - raw: 派货
+        aliasType: primary
+      - raw: Distribute
+        aliasType: en_alias
+  - slug: xi-huo
+    headword: 吸货
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称大户在低位悄悄买入。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称大户在低位悄悄买入。
+        example: 股价横盘是大户在吸货。
+        isPrimary: true
+    aliases:
+      - raw: 吸货
+        aliasType: primary
+      - raw: Accumulate
+        aliasType: en_alias
+  - slug: zheng-huo
+    headword: 掟货
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称不计价格抛售。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称不计价格抛售。
+        example: 恐慌性掟货。
+        isPrimary: true
+    aliases:
+      - raw: 掟货
+        aliasType: primary
+      - raw: Dump
+        aliasType: en_alias
+  - slug: pi-jia
+    headword: 劈价
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称大幅降价抛售或批股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称大幅降价抛售或批股。
+        example: 大劈价批股吓退市场。
+        isPrimary: true
+    aliases:
+      - raw: 劈价
+        aliasType: primary
+      - raw: Cut Price
+        aliasType: en_alias
+  - slug: san-shui
+    headword: 散水
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称投资者离场套现。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称投资者离场套现。
+        example: 高位散水观望。
+        isPrimary: true
+    aliases:
+      - raw: 散水
+        aliasType: primary
+      - raw: Cash Out
+        aliasType: en_alias
+  - slug: tou-bu
+    headword: 偷步
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称在消息公布前抢先买卖。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称在消息公布前抢先买卖。
+        example: 偷步买卖涉违规。
+        isPrimary: true
+    aliases:
+      - raw: 偷步
+        aliasType: primary
+      - raw: Front-run
+        aliasType: en_alias
+  - slug: zuo-ting
+    headword: 坐艇
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称被套后持股等待解套。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称被套后持股等待解套。
+        example: 高位买入后只能坐艇。
+        isPrimary: true
+    aliases:
+      - raw: 坐艇
+        aliasType: primary
+      - raw: Hold Through
+        aliasType: en_alias
+  - slug: da-shang-da-luo
+    headword: 大上大落
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称股价或指数剧烈波动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称股价或指数剧烈波动。
+        example: 大上大落市最考定力。
+        isPrimary: true
+    aliases:
+      - raw: 大上大落
+        aliasType: primary
+      - raw: Wild Swings
+        aliasType: en_alias
+  - slug: shou-feng
+    headword: 手风
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称近期买卖的运气。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称近期买卖的运气。
+        example: 最近手风顺，连连赚钱。
+        isPrimary: true
+    aliases:
+      - raw: 手风
+        aliasType: primary
+      - raw: Luck
+        aliasType: en_alias
+  - slug: wang-shi-cheng-jiao
+    headword: 旺市成交
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称大市上升伴随成交放大。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称大市上升伴随成交放大。
+        example: 旺市成交配合，升势可信。
+        isPrimary: true
+    aliases:
+      - raw: 旺市成交
+        aliasType: primary
+      - raw: Active Turnover
+        aliasType: en_alias
+  - slug: men-shi
+    headword: 闷市
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称成交清淡、波动很小的市况。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称成交清淡、波动很小的市况。
+        example: 闷市中散户交投意愿低。
+        isPrimary: true
+    aliases:
+      - raw: 闷市
+        aliasType: primary
+      - raw: Dull Market
+        aliasType: en_alias
+  - slug: gan-sheng
+    headword: 干升
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称股价上升但成交不配合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称股价上升但成交不配合。
+        example: 干升的行情难以持续。
+        isPrimary: true
+    aliases:
+      - raw: 干升
+        aliasType: primary
+      - raw: Rising on Thin Volume
+        aliasType: en_alias
+  - slug: shi-di
+    headword: 试底
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称股价向下试探低位支持。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称股价向下试探低位支持。
+        example: 指数反复试底。
+        isPrimary: true
+    aliases:
+      - raw: 试底
+        aliasType: primary
+      - raw: Test Support
+        aliasType: en_alias
+  - slug: shi-ding
+    headword: 试顶
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称股价向上试探高位阻力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称股价向上试探高位阻力。
+        example: 股价试顶多次未破。
+        isPrimary: true
+    aliases:
+      - raw: 试顶
+        aliasType: primary
+      - raw: Test Resistance
+        aliasType: en_alias
+  - slug: xun-di
+    headword: 寻底
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称股价持续下跌寻找底部。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称股价持续下跌寻找底部。
+        example: 市场仍在寻底，不宜抄底。
+        isPrimary: true
+    aliases:
+      - raw: 寻底
+        aliasType: primary
+      - raw: Bottom-finding
+        aliasType: en_alias
+  - slug: dan-jing
+    headword: 淡静
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称成交稀疏、市况冷清。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称成交稀疏、市况冷清。
+        example: 假期前市况淡静。
+        isPrimary: true
+    aliases:
+      - raw: 淡静
+        aliasType: primary
+      - raw: Dull Trading
+        aliasType: en_alias
+  - slug: qi-fen
+    headword: 气氛
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称市场的做多做空情绪。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称市场的做多做空情绪。
+        example: 业绩后气氛转好。
+        isPrimary: true
+    aliases:
+      - raw: 气氛
+        aliasType: primary
+      - raw: Market Sentiment
+        aliasType: en_alias
+  - slug: wu-zhi-hua
+    headword: 无纸化
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股逐步取消实物股票、改为电子记账交收。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港股逐步取消实物股票、改为电子记账交收。
+        example: 无纸化后买卖不再转手纸。
+        isPrimary: true
+    aliases:
+      - raw: 无纸化
+        aliasType: primary
+      - raw: Dematerialization
+        aliasType: en_alias
+  - slug: zhuan-ming
+    headword: 转名
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 把实物股票从一人名下过户到另一人名下。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 把实物股票从一人名下过户到另一人名下。
+        example: 老股主要办转名才卖出。
+        isPrimary: true
+    aliases:
+      - raw: 转名
+        aliasType: primary
+      - raw: Name Transfer
+        aliasType: en_alias
+  - slug: gu-piao-jie-dai
+    headword: 股票借贷
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 机构之间借入借出股票以支持沽空的市场。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 机构之间借入借出股票以支持沽空的市场。
+        example: 股票借贷市场决定借货难度。
+        isPrimary: true
+    aliases:
+      - raw: 股票借贷
+        aliasType: primary
+      - raw: Stock Borrowing and Lending
+        aliasType: en_alias
+  - slug: shang-shi-hou-suo-ding-qi
+    headword: 上市后锁定期
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上市后控股股东与高管在约定期限不得卖股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 上市后控股股东与高管在约定期限不得卖股。
+        example: 上市后锁定期六个月。
+        isPrimary: true
+    aliases:
+      - raw: 上市后锁定期
+        aliasType: primary
+      - raw: Post-IPO Lock-up
+        aliasType: en_alias
+  - slug: ji-shi-jin-shou-qi
+    headword: 基石禁售期
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 基石投资者自认购起须持有的最低期限。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 基石投资者自认购起须持有的最低期限。
+        example: 基石禁售期通常半年。
+        isPrimary: true
+    aliases:
+      - raw: 基石禁售期
+        aliasType: primary
+      - raw: Cornerstone Lock-up
+        aliasType: en_alias
+  - slug: ying-ye-ji-lu
+    headword: 营业纪录
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上市申请要求的历史经营与财务表现期。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 上市申请要求的历史经营与财务表现期。
+        example: 新经济公司可缩短营业纪录要求。
+        isPrimary: true
+    aliases:
+      - raw: 营业纪录
+        aliasType: primary
+      - raw: Track Record
+        aliasType: en_alias
+  - slug: tou-piao-quan
+    headword: 投票权
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股东凭股份享有的在股东大会表决权利。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 股东凭股份享有的在股东大会表决权利。
+        example: 同股不同权下投票权与分红权分离。
+        isPrimary: true
+    aliases:
+      - raw: 投票权
+        aliasType: primary
+      - raw: Voting Right
+        aliasType: en_alias
+  - slug: he-gui-gu-wen
+    headword: 合规顾问
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: GEM公司复牌或上市后须聘请的持续合规顾问。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: GEM公司复牌或上市后须聘请的持续合规顾问。
+        example: 长期停牌公司须聘合规顾问。
+        isPrimary: true
+    aliases:
+      - raw: 合规顾问
+        aliasType: primary
+      - raw: Compliance Advisor
+        aliasType: en_alias
+  - slug: shen-bao-kuai-ji-shi
+    headword: 申报会计师
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对上市财务资料进行鉴证的会计师。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 对上市财务资料进行鉴证的会计师。
+        example: 申报会计师审核营业纪录期账目。
+        isPrimary: true
+    aliases:
+      - raw: 申报会计师
+        aliasType: primary
+      - raw: Reporting Accountant
+        aliasType: en_alias
+  - slug: shi-chang-zhuang-jia
+    headword: 市场庄家
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 联交所指定、为指定证券维持流动性的庄家。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 联交所指定、为指定证券维持流动性的庄家。
+        example: 市场庄家有责任提供买卖价。
+        isPrimary: true
+    aliases:
+      - raw: 市场庄家
+        aliasType: primary
+      - raw: Exchange Market Maker
+        aliasType: en_alias
+  - slug: chi-pai-dai-biao
+    headword: 持牌代表
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 证监会持牌、可代客交易的人员。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 证监会持牌、可代客交易的人员。
+        example: 持牌代表须遵守操守准则。
+        isPrimary: true
+    aliases:
+      - raw: 持牌代表
+        aliasType: primary
+      - raw: Licensed Representative
+        aliasType: en_alias
+  - slug: yi-hao-pai-zhao
+    headword: 一号牌照
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 证监会核发的证券交易受规管活动牌照。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 证监会核发的证券交易受规管活动牌照。
+        example: 券商须持有一号牌照。
+        isPrimary: true
+    aliases:
+      - raw: 一号牌照
+        aliasType: primary
+      - raw: Type 1 License
+        aliasType: en_alias
+  - slug: jiu-hao-pai-zhao
+    headword: 九号牌照
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 证监会核发的资产管理受规管活动牌照。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 证监会核发的资产管理受规管活动牌照。
+        example: 基金公司多持九号牌照。
+        isPrimary: true
+    aliases:
+      - raw: 九号牌照
+        aliasType: primary
+      - raw: Type 9 License
+        aliasType: en_alias
+  - slug: tou-zi-zhe-pei-chang
+    headword: 投资者赔偿
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 因中介人违约而对投资者设的赔偿保障。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 因中介人违约而对投资者设的赔偿保障。
+        example: 投资者赔偿设有单宗上限。
+        isPrimary: true
+    aliases:
+      - raw: 投资者赔偿
+        aliasType: primary
+      - raw: Investor Compensation
+        aliasType: en_alias
+  - slug: jiao-shou-zhou-qi
+    headword: 交收周期
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股买卖后完成股票资金交收的时间。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港股买卖后完成股票资金交收的时间。
+        example: 港股交收周期为T+2。
+        isPrimary: true
+    aliases:
+      - raw: 交收周期
+        aliasType: primary
+      - raw: Settlement Cycle
+        aliasType: en_alias
+  - slug: jing-e-jiao-shou
+    headword: 净额交收
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中央结算对多笔交易轧差后净额交收。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 中央结算对多笔交易轧差后净额交收。
+        example: 净额交收降低结算风险。
+        isPrimary: true
+    aliases:
+      - raw: 净额交收
+        aliasType: primary
+      - raw: Net Settlement
+        aliasType: en_alias
+  - slug: shou-ri-sheng-fu
+    headword: 首日升幅
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粤语俗称新股首日相对发行价的涨幅。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称新股首日相对发行价的涨幅。
+        example: 该股首日升幅两倍。
+        isPrimary: true
+    aliases:
+      - raw: 首日升幅
+        aliasType: primary
+      - raw: First-day Gain
+        aliasType: en_alias
+  - slug: neng-yuan-r-e-i-t-s
+    headword: 能源REITs
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资能源基础设施的不动产投资信托。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资能源基础设施的不动产投资信托。
+        example: 能源REITs现金流稳定。
+        isPrimary: true
+    aliases:
+      - raw: 能源REITs
+        aliasType: primary
+      - raw: Energy REITs
+        aliasType: en_alias
+  - slug: hu-ren-ji-jin
+    headword: 互认基金
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 内地与香港相互认可、跨境销售的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 内地与香港相互认可、跨境销售的基金。
+        example: 互认基金方便两地居民投资。
+        isPrimary: true
+    aliases:
+      - raw: 互认基金
+        aliasType: primary
+      - raw: Mutual Recognition Fund
+        aliasType: en_alias
+  - slug: heng-sheng-ke-ji-ji-jin
+    headword: 恒生科技基金
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪恒生科技指数的港股基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪恒生科技指数的港股基金。
+        example: 恒生科技基金波动大。
+        isPrimary: true
+    aliases:
+      - raw: 恒生科技基金
+        aliasType: primary
+      - raw: Hang Seng Tech Fund
+        aliasType: en_alias
+  - slug: mei-yuan-zhai-ji-jin
+    headword: 美元债基金
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资中资美元债的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 投资中资美元债的基金。
+        example: 美元债基金受美债利率影响。
+        isPrimary: true
+    aliases:
+      - raw: 美元债基金
+        aliasType: primary
+      - raw: USD Bond Fund
+        aliasType: en_alias
+  - slug: heng-sheng-yi-liao-e-t-f
+    headword: 恒生医疗ETF
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪恒生医疗保健指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪恒生医疗保健指数的ETF。
+        example: 恒生医疗ETF波动较大。
+        isPrimary: true
+    aliases:
+      - raw: 恒生医疗ETF
+        aliasType: primary
+      - raw: Hang Seng Healthcare ETF
+        aliasType: en_alias
+  - slug: heng-sheng-ke-ji-e-t-f
+    headword: 恒生科技ETF
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪恒生科技指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪恒生科技指数的ETF。
+        example: 恒生科技ETF科技股集中。
+        isPrimary: true
+    aliases:
+      - raw: 恒生科技ETF
+        aliasType: primary
+      - raw: Hang Seng Tech ETF
+        aliasType: en_alias
+  - slug: shuang-yuan-cun-kuan
+    headword: 双元存款
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 收益挂钩汇率、到期可能以另一币种兑付的存款。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 收益挂钩汇率、到期可能以另一币种兑付的存款。
+        example: 双元存款高息但有汇率风险。
+        isPrimary: true
+    aliases:
+      - raw: 双元存款
+        aliasType: primary
+      - raw: Dual Currency Deposit
+        aliasType: en_alias
+  - slug: gang-gu
+    headword: 港股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 在香港联合交易所上市的股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 在香港联合交易所上市的股票。
+        example: 港股估值处于历史低位。
+        isPrimary: true
+    aliases:
+      - raw: 港股
+        aliasType: primary
+      - raw: HK Stocks
+        aliasType: en_alias
+  - slug: zhao-gu-jia
+    headword: 招股价
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新股发行定价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 新股发行定价。
+        example: 招股价较暗盘折价。
+        isPrimary: true
+    aliases:
+      - raw: 招股价
+        aliasType: primary
+      - raw: Offer Price
+        aliasType: en_alias
+  - slug: shang-shi-shou-ri
+    headword: 上市首日
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新股首个交易日。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 新股首个交易日。
+        example: 上市首日表现受关注。
+        isPrimary: true
+    aliases:
+      - raw: 上市首日
+        aliasType: primary
+      - raw: Listing Day
+        aliasType: en_alias
+  - slug: hong-gu
+    headword: 红股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以股票形式派发的股息。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以股票形式派发的股息。
+        example: 红股派发增加股本。
+        isPrimary: true
+    aliases:
+      - raw: 红股
+        aliasType: primary
+      - raw: Bonus Share
+        aliasType: en_alias
+  - slug: gao-xi-gu-ce-l-e
+    headword: 高息股策略
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资高股息港股的策略。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资高股息港股的策略。
+        example: 高息股策略跑赢大盘。
+        isPrimary: true
+    aliases:
+      - raw: 高息股策略
+        aliasType: primary
+      - raw: High Dividend Strategy
+        aliasType: en_alias
+  - slug: gang-yuan-lian-xi-hui-l
+    headword: 港元联系汇率
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港元与美元挂钩7.75-7.85的汇率制度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 港元与美元挂钩7.75-7.85的汇率制度。
+        example: 联系汇率制度维护香港金融稳定。
+        isPrimary: true
+    aliases:
+      - raw: 港元联系汇率
+        aliasType: primary
+      - raw: Linked Exchange Rate
+        aliasType: en_alias
+  - slug: xiang-gang-zheng-jian-hui
+    headword: 香港证监会
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 香港证券及期货事务监察委员会。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 香港证券及期货事务监察委员会。
+        example: SFC监管市场操纵与内幕交易。
+        isPrimary: true
+    aliases:
+      - raw: 香港证监会
+        aliasType: primary
+      - raw: SFC
+        aliasType: en_alias
+  - slug: gang-gu-tong-ming-dan
+    headword: 港股通名单
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 可经港股通买卖的港股名单，定期调整。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 可经港股通买卖的港股名单，定期调整。
+        example: 新纳入港股通标的迎增量资金。
+        isPrimary: true
+    aliases:
+      - raw: 港股通名单
+        aliasType: primary
+      - raw: Connect List
+        aliasType: en_alias
+  - slug: heng-zhi-jian-tao
+    headword: 恒指检讨
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 恒指公司定期调整成分股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 恒指公司定期调整成分股。
+        example: 恒指检讨结果影响调入调出股。
+        isPrimary: true
+    aliases:
+      - raw: 恒指检讨
+        aliasType: primary
+      - raw: Index Review
+        aliasType: en_alias
+  - slug: li-an-shi-chang
+    headword: 离岸市场
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以香港为代表的境外人民币与港股市场。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以香港为代表的境外人民币与港股市场。
+        example: 离岸市场受全球流动性影响大。
+        isPrimary: true
+    aliases:
+      - raw: 离岸市场
+        aliasType: primary
+      - raw: Offshore Market
+        aliasType: en_alias
+  - slug: gang-gu-tong-e-du
+    headword: 港股通额度
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股通每日额度，当前已取消总额度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 港股通每日额度，当前已取消总额度。
+        example: 南向额度使用率受关注。
+        isPrimary: true
+    aliases:
+      - raw: 港股通额度
+        aliasType: primary
+      - raw: Connect Quota
+        aliasType: en_alias
+  - slug: zhong-guo-nei-di-zi-jin
+    headword: 中国内地资金
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 南下配置港股的内地资金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 南下配置港股的内地资金。
+        example: 内地资金定价权提升。
+        isPrimary: true
+    aliases:
+      - raw: 中国内地资金
+        aliasType: primary
+      - raw: Mainland Capital
+        aliasType: en_alias
+  - slug: gang-bi
+    headword: 港币
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 香港法定货币，与美元挂钩。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 香港法定货币，与美元挂钩。
+        example: 港币走强反映资金流入。
+        isPrimary: true
+    aliases:
+      - raw: 港币
+        aliasType: primary
+      - raw: HKD
+        aliasType: en_alias
+  - slug: ying-fu-ji-jin
+    headword: 盈富基金
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 香港首只ETF，跟踪恒生指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 香港首只ETF，跟踪恒生指数。
+        example: 盈富基金是港人退休配置核心。
+        isPrimary: true
+    aliases:
+      - raw: 盈富基金
+        aliasType: primary
+      - raw: Tracker Fund
+        aliasType: en_alias
+  - slug: shuang-gui-tai
+    headword: 双柜台
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 同一股票设港币与人民币柜台交易。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 同一股票设港币与人民币柜台交易。
+        example: 双柜台机制便利人民币交易。
+        isPrimary: true
+    aliases:
+      - raw: 双柜台
+        aliasType: primary
+      - raw: Dual Counter
+        aliasType: en_alias
+  - slug: ren-min-bi-gang-gu
+    headword: 人民币港股
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以人民币计价的港股柜台。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以人民币计价的港股柜台。
+        example: 人民币柜台提升北水参与。
+        isPrimary: true
+    aliases:
+      - raw: 人民币港股
+        aliasType: primary
+      - raw: RMB Stock
+        aliasType: en_alias
+  - slug: gang-mei-gu-cha-yi
+    headword: 港美股差异
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股与美股在交易规则与结构上的差异。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 港股与美股在交易规则与结构上的差异。
+        example: 港股无涨跌幅限制、T+0交易。
+        isPrimary: true
+    aliases:
+      - raw: 港美股差异
+        aliasType: primary
+      - raw: HK-US Difference
+        aliasType: en_alias
+  - slug: gang-gu-jiao-yi-shi-jian
+    headword: 港股交易时间
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股9:30-12:00、13:00-16:00交易。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 港股9:30-12:00、13:00-16:00交易。
+        example: 港股交易时段与内地有重叠。
+        isPrimary: true
+    aliases:
+      - raw: 港股交易时间
+        aliasType: primary
+      - raw: HK Trading Hours
+        aliasType: en_alias
+  - slug: wu-zhang-die-fu-xian-zhi
+    headword: 无涨跌幅限制
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股个股无单日涨跌幅限制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 港股个股无单日涨跌幅限制。
+        example: 突发利空下港股可单日腰斩。
+        isPrimary: true
+    aliases:
+      - raw: 无涨跌幅限制
+        aliasType: primary
+      - raw: No Price Limit
+        aliasType: en_alias
+  - slug: gang-gu-shi-chang-bo-dong
+    headword: 港股市场波动
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 港股整体波动特征。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 港股整体波动特征。
+        example: 港股对全球风险事件敏感。
+        isPrimary: true
+    aliases:
+      - raw: 港股市场波动
+        aliasType: primary
+      - raw: HK Volatility
+        aliasType: en_alias
+  - slug: xi-jia-gu-chao-zuo
+    headword: 细价股炒作
+    categoryL1: 港股
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 低价股投机炒作现象。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 低价股投机炒作现象。
+        example: 细价股炒作风险极高。
+        isPrimary: true
+    aliases:
+      - raw: 细价股炒作
+        aliasType: primary
+      - raw: Penny Speculation
+        aliasType: en_alias

@@ -1,0 +1,885 @@
+# 自动生成的批量词条源（可由 ingest 重新编译为 lexicon.json）
+category: 走势形态
+source: bootstrap from lexicon.json (2026-10-22)
+terms:
+  - slug: chao-mai-chao-mai
+    headword: 超买/超卖
+    categoryL1: 走势形态
+    categoryL2: 极端状态
+    difficulty: L1
+    summaryPlain: 指标显示涨得太快叫超买、跌得太快叫超卖：市场情绪打满，容易物极必反。
+    riskNote: 强趋势里可以一直超买；超买不是卖出指令，只是减速提醒。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 指标显示涨得太快叫超买、跌得太快叫超卖：市场情绪打满，容易物极必反。
+        example: 比如 RSI 冲到 85 还在涨，老手会等指标拐头，新手早就摸顶猜底亏在半山腰。
+        notMeaning: 强趋势里可以一直超买；超买不是卖出指令，只是减速提醒。
+        isPrimary: true
+        contextKeywords:
+          - 极端状态
+        frequency: high
+    aliases:
+      - raw: 超买
+        aliasType: primary
+      - raw: 超卖
+        aliasType: cn_alias
+      - raw: overbought
+        aliasType: en_alias
+      - raw: oversold
+        aliasType: en_alias
+    viz:
+      type: Oscillator
+      config:
+        needles:
+          - name: 情绪温度
+        initial:
+          - 82
+        max: 100
+        zones:
+          - min: 0
+            max: 30
+            label: 超卖：跌过头
+            color: var(--down)
+          - min: 30
+            max: 70
+            label: 中性
+            color: var(--color-muted)
+          - min: 70
+            max: 100
+            label: 超买：涨过头
+            color: var(--up)
+    insights:
+      affects:
+        - 短线择时：逆势交易的减分项
+        - 多空情绪：拥挤度指标
+        - 与量价配合决定离场
+      good:
+        - 超卖区拐头+地量：博反弹点
+        - 超买缩量滞涨：落袋为安
+      bad:
+        - 趋势里猜顶摸底最致命
+        - 钝化：指标钉在极端区
+      policy:
+        - T+1 制度放大超买后的次日效应
+        - 国家队入场会扭转超卖惯性
+      example: 弹簧压到底（超卖）会反弹、拉到头（超买）会回落——但你可以拿一整箱弹簧，压过头就换一根。
+  - slug: chui-zi-xian
+    headword: 锤子线
+    categoryL1: 走势形态
+    categoryL2: K线形态
+    difficulty: L3
+    summaryPlain: 带长下影、小实体的 K 线：跌下去被强力拉回，像一把锤子砸出了底。
+    riskNote: 位置决定含义：底部是希望，顶部叫吊颈线反而危险。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 带长下影、小实体的 K 线：跌下去被强力拉回，像一把锤子砸出了底。
+        example: 比如连续下跌后出现长下影小阳线，第二天高开确认，短线反弹概率大。
+        notMeaning: 位置决定含义：底部是希望，顶部叫吊颈线反而危险。
+        isPrimary: true
+        contextKeywords:
+          - K线形态
+        frequency: mid
+    aliases:
+      - raw: 锤子线
+        aliasType: primary
+      - raw: 吊颈线
+        aliasType: cn_alias
+      - raw: Hammer
+        aliasType: en_alias
+    viz:
+      type: CandleBuilder
+      config:
+        title: 锤子线：探底拉回
+    insights:
+      affects:
+        - 短线择时：止跌信号之一
+        - 止损参照：下影线低点
+      good:
+        - 底部出现：多头反击
+        - 次日确认：信号增强
+      bad:
+        - 高位吊颈：诱多陷阱
+      policy:
+        - 涨跌停制度改变影线含义
+      example: 电梯下坠时有人死死拉住：长下影是那双手。手在（有人接）就反弹，手滑（破下影）就继续坠。
+  - slug: hong-zhang-lv-die
+    headword: 红涨绿跌
+    categoryL1: 走势形态
+    categoryL2: 配色惯例
+    difficulty: L1
+    summaryPlain: A 股习惯红涨绿跌，美股相反绿涨红跌：看盘先认清屏幕上的颜色语义。
+    riskNote: 港股各平台设置不一；看外盘软件时最容易搞反，闹过不少笑话。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: A 股习惯红涨绿跌，美股相反绿涨红跌：看盘先认清屏幕上的颜色语义。
+        example: 比如初学的美股投资者看到满屏绿以为暴跌，其实是大涨。
+        notMeaning: 港股各平台设置不一；看外盘软件时最容易搞反，闹过不少笑话。
+        isPrimary: true
+        contextKeywords:
+          - 配色惯例
+        frequency: mid
+    aliases:
+      - raw: 红涨绿跌
+        aliasType: primary
+      - raw: 绿涨红跌
+        aliasType: cn_alias
+      - raw: 配色
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 10
+    insights:
+      affects:
+        - 看图门槛：配色反了全乱
+        - 跨市场操作的心理成本
+      good:
+        - 统一认知：软件可切换配色
+      bad:
+        - 看反颜色：多空判断颠倒
+      policy:
+        - 各软件默认配色差异
+      example: 同样是红绿灯：中国红灯停（跌）、美国红灯行（涨）——过马路前先看是哪国的灯。
+  - slug: jia-tu-po
+    headword: 假突破
+    categoryL1: 走势形态
+    categoryL2: 陷阱形态
+    difficulty: L2
+    summaryPlain: 价格冲破关键位后又快速跌回：专门骗止损单和追高单的经典陷阱。
+    riskNote: 突破后站稳三天以上才算数；假突破的确认要靠「快速回归」这个动作。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 价格冲破关键位后又快速跌回：专门骗止损单和追高单的经典陷阱。
+        example: 比如股价尾盘拉过前高 1%，追进去的人第二天低开 4%，一根阴线全部闷杀。
+        notMeaning: 突破后站稳三天以上才算数；假突破的确认要靠「快速回归」这个动作。
+        isPrimary: true
+        contextKeywords:
+          - 陷阱形态
+        frequency: high
+    aliases:
+      - raw: 假突破
+        aliasType: primary
+      - raw: 突破
+        aliasType: cn_alias
+      - raw: fakeout
+        aliasType: en_alias
+      - raw: 诱多
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 12
+    insights:
+      affects:
+        - 止损策略：假突破专门清洗不坚定的仓位
+        - 量化：突破系统要加过滤条件（时间/量能）
+        - 对手盘：大资金利用关键位收割
+      good:
+        - 快速识别假突破反手做空/做多
+        - 多次假突破后真突破的概率在累积
+      bad:
+        - 追突破被反杀是散户最大亏损来源之一
+        - 连续假突破后放弃跟踪会错过真行情
+      policy:
+        - 收盘价规则、盘中异动监控影响突破有效性
+        - 季末资金调仓制造假异动
+      example: 商场门明明推开了，结果是鬼屋的门：探个头进去就被拽走。关键点位就像这扇门，别急着整个人冲。
+  - slug: jin-cha-si-cha
+    headword: 金叉/死叉
+    categoryL1: 走势形态
+    categoryL2: 均线信号
+    difficulty: L1
+    summaryPlain: 短期均线上穿长期均线叫金叉（看涨信号），下穿叫死叉（看跌信号）。
+    riskNote: 都是事后确认：金叉出现时往往已涨一段，震荡市里叉来叉去全是噪音。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 短期均线上穿长期均线叫金叉（看涨信号），下穿叫死叉（看跌信号）。
+        example: 比如 5 日线上穿 20 日线形成金叉，右侧交易者把它当作进场发令枪。
+        notMeaning: 都是事后确认：金叉出现时往往已涨一段，震荡市里叉来叉去全是噪音。
+        isPrimary: true
+        contextKeywords:
+          - 均线信号
+        frequency: high
+    aliases:
+      - raw: 金叉
+        aliasType: primary
+      - raw: 死叉
+        aliasType: cn_alias
+      - raw: golden cross
+        aliasType: en_alias
+      - raw: death cross
+        aliasType: en_alias
+    viz:
+      type: CrossLines
+      config: {}
+    insights:
+      affects:
+        - 择时：最经典的右侧信号之一
+        - 量化：双均线是教科书策略
+        - 情绪：媒体爱在金叉死叉上做标题
+      good:
+        - 低位金叉+放量：胜率相对高
+        - 金叉后回踩不破：加仓点
+      bad:
+        - 震荡市里金叉死叉反复打脸
+        - 滞后性让你追高在山腰
+      policy:
+        - 长周期均线受增量资金影响
+        - 复权处理不当会造成假交叉
+      example: 两艘船：快船从慢船下面钻过去叫死叉（往下走），爬回慢船上面叫金叉（往上走）。两艘船都是看后视镜开船的。
+  - slug: jing-xian
+    headword: 颈线
+    categoryL1: 走势形态
+    categoryL2: 关键价位
+    difficulty: L3
+    summaryPlain: 头肩、双顶双底形态里的那条关键水平线：破位形态才算成立。
+    riskNote: 颈线附近常有假突破，等站稳再信。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 头肩、双顶双底形态里的那条关键水平线：破位形态才算成立。
+        example: 比如双底的那条关键水平线被放量突破，量度涨幅目标达成概率提升。
+        notMeaning: 颈线附近常有假突破，等站稳再信。
+        isPrimary: true
+        contextKeywords:
+          - 关键价位
+        frequency: mid
+    aliases:
+      - raw: 颈线
+        aliasType: primary
+      - raw: Neckline
+        aliasType: en_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 12
+    insights:
+      affects:
+        - 形态确认：破颈线才算数
+        - 目标测量：形态高度=涨幅
+      good:
+        - 放量突破：跟进点
+      bad:
+        - 假破：止损
+      policy:
+        - 形态识别主观性强
+      example: 水坝的闸门线：水位没过线（突破）才开闸放水（行情启动），没过线之前都只是蓄势。
+  - slug: kai-pan-jia
+    headword: 开盘价/收盘价
+    categoryL1: 走势形态
+    categoryL2: 价格基准
+    difficulty: L1
+    summaryPlain: 集合竞价形成的第一笔价和收盘撮合的最后一笔价：日 K 线的两个端点。
+    riskNote: A 股收盘集合竞价 14:57-15:00，和港美股规则不同。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 集合竞价形成的第一笔价和收盘撮合的最后一笔价：日 K 线的两个端点。
+        example: 比如高开指开盘价比昨天收盘价高，低开就是更低。
+        notMeaning: A 股收盘集合竞价 14:57-15:00，和港美股规则不同。
+        isPrimary: true
+        contextKeywords:
+          - 价格基准
+        frequency: high
+    aliases:
+      - raw: 开盘价
+        aliasType: primary
+      - raw: 收盘价
+        aliasType: cn_alias
+      - raw: 高开
+        aliasType: cn_alias
+      - raw: 低开
+        aliasType: cn_alias
+    viz:
+      type: CandleBuilder
+      config:
+        title: 开盘价与收盘价：一天的端点
+    insights:
+      affects:
+        - K 线构成：四价格画一根线
+        - 隔夜情绪：跳空的度量
+      good:
+        - 高开高走：强势
+      bad:
+        - 高开低走：诱多
+      policy:
+        - 收盘竞价制度
+      example: 一天的体温：早上第一口（开盘）和睡前最后一口（收盘），差得大说明这天折腾。
+  - slug: lie-kou
+    headword: 裂口
+    categoryL1: 走势形态
+    categoryL2: K线形态
+    difficulty: L2
+    summaryPlain: 港股对「跳空缺口」的说法：价格跳空留下没有成交的真空带。
+    riskNote: 裂口可以不被回补，尤其强势突破裂口。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 港股对「跳空缺口」的说法：价格跳空留下没有成交的真空带。
+        example: 比如恒指跳空高开 500 点，媒体就说今早留了个上升的缝。
+        notMeaning: 裂口可以不被回补，尤其强势突破裂口。
+        isPrimary: true
+        contextKeywords:
+          - K线形态
+        frequency: mid
+    aliases:
+      - raw: 裂口
+        aliasType: primary
+      - raw: 跳空
+        aliasType: cn_alias
+      - raw: 缺口
+        aliasType: cn_alias
+    viz:
+      type: CandleBuilder
+      config:
+        title: 裂口：跳空的真空
+    insights:
+      affects:
+        - 趋势强度：裂口是多空碾压的证据
+        - 技术位：裂口上下沿
+      good:
+        - 突破裂口不回补：极强
+      bad:
+        - 衰竭裂口：很快回补
+      policy:
+        - 隔夜外围决定裂口方向
+      example: 楼梯断了一级：中间那级不存在（裂口）。下楼梯踩空最疼。
+  - slug: que-kou
+    headword: 缺口
+    categoryL1: 走势形态
+    categoryL2: K线形态
+    difficulty: L2
+    summaryPlain: 两根 K 线之间有一段没有任何成交的价格真空：跳空高开/低开留下的伤疤。
+    riskNote: 缺口常被回补但不是必然；突破缺口不回补最强势，衰竭缺口回补最快。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 两根 K 线之间有一段没有任何成交的价格真空：跳空高开/低开留下的伤疤。
+        example: 比如突发利好开盘直接跳空高开 5%，K 线图上留下一道缝，几天后股价回落到那个价位叫回补。
+        notMeaning: 缺口常被回补但不是必然；突破缺口不回补最强势，衰竭缺口回补最快。
+        isPrimary: true
+        contextKeywords:
+          - K线形态
+        frequency: high
+    aliases:
+      - raw: 缺口
+        aliasType: primary
+      - raw: 跳空
+        aliasType: cn_alias
+      - raw: gap
+        aliasType: en_alias
+      - raw: 补缺口
+        aliasType: cn_alias
+    viz:
+      type: CandleBuilder
+      config: {}
+    insights:
+      affects:
+        - 趋势强度：跳空说明一方碾压
+        - 支撑压力：缺口上下沿常是关键位
+        - 策略：补缺口后企稳是低吸点
+      good:
+        - 突破缺口不回补：趋势强劲
+        - 向上缺口+放量：资金抢筹
+      bad:
+        - 下跌缺口：恐慌盘夺门而出
+        - 逢缺必补的老话害人不浅
+      policy:
+        - 隔夜消息/政策直接造成跳空
+        - 涨跌幅限制缩小单根K线的缺口空间
+      example: 下楼梯一脚踩空两级台阶，中间那级不存在（缺口）。回头把中间那级补上的动作叫「回补」。
+  - slug: shi-zi-xing
+    headword: 十字星
+    categoryL1: 走势形态
+    categoryL2: K线形态
+    difficulty: L2
+    summaryPlain: 开盘价和收盘价几乎一样、留一截上下影线的 K 线：多空打平，变盘警报。
+    riskNote: 形态出现的位置比形态本身重要：顶部十字星危险，底部十字星可能是希望。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 开盘价和收盘价几乎一样、留一截上下影线的 K 线：多空打平，变盘警报。
+        example: 比如连涨三天后收出一根开盘收盘几乎同价的 K 线，第四天低开低走，这根线就是变盘警报。
+        notMeaning: 形态出现的位置比形态本身重要：顶部十字星危险，底部十字星可能是希望。
+        isPrimary: true
+        contextKeywords:
+          - K线形态
+        frequency: high
+    aliases:
+      - raw: 十字星
+        aliasType: primary
+      - raw: Doji
+        aliasType: en_alias
+      - raw: 十字线
+        aliasType: cn_alias
+    viz:
+      type: CandleBuilder
+      config: {}
+    insights:
+      affects:
+        - 情绪：多空僵持，观望信号
+        - 策略：等次日确认再动手
+        - 位置：高位/低位含义完全相反
+      good:
+        - 低位十字星+放量：可能筑底
+        - 上涨初期缩量十字星：洗盘
+      bad:
+        - 高位十字星：接力可能断
+        - 把它当必胜信号胜率不高
+      policy:
+        - 重大事件前的观望常造成十字星
+        - 涨跌停制度让形态含义变形
+      example: 掰手腕双方僵持，裁判吹哨前的静止：下一把谁赢还不知道，但马上要分输赢。在高处的静止比低处危险。
+  - slug: shuang-di-shuang-ding
+    headword: 双底/双顶
+    categoryL1: 走势形态
+    categoryL2: K线形态
+    difficulty: L2
+    summaryPlain: 两次探底不破（W 底）或两次冲高不过（M 头）形成的反转形态，颈线是生命线。
+    riskNote: 第二个底比第一个低却缩量，反而可能向下假突破，形态要配合成交量确认。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 两次探底不破（W 底）或两次冲高不过（M 头）形成的反转形态，颈线是生命线。
+        example: 比如股价两次跌到 8 元都拉回，第二次还明显缩量，突破中间高点后确认 W 底成立。
+        notMeaning: 第二个底比第一个低却缩量，反而可能向下假突破，形态要配合成交量确认。
+        isPrimary: true
+        contextKeywords:
+          - K线形态
+        frequency: high
+    aliases:
+      - raw: 双底
+        aliasType: primary
+      - raw: 双顶
+        aliasType: cn_alias
+      - raw: W底
+        aliasType: cn_alias
+      - raw: M头
+        aliasType: cn_alias
+    viz:
+      type: CandleBuilder
+      config: {}
+    insights:
+      affects:
+        - 反转判断：M 头逃顶、W 底抄底
+        - 颈线：破位/突破的行动线
+        - 与支撑阻力重合时更有效
+      good:
+        - 二次探底缩量：抛压衰竭
+        - W 底突破放量：反转确认
+      bad:
+        - 二次探底放量破位：形态失败
+        - M 头第三顶创新高：陷阱
+      policy:
+        - 指数环境影响形态成功率
+        - 期货交割/解禁日常形成第二个顶/底
+      example: 两次敲门没人应（双顶），屋里多半是真没人；两次敲门都有回音（双底），里面有人。
+  - slug: tou-jian-ding
+    headword: 头肩顶
+    categoryL1: 走势形态
+    categoryL2: K线形态
+    difficulty: L3
+    summaryPlain: 左右两个低点的肩膀中间鼓一个更高的头，跌破脖子趋势反转，是经典见顶形态。
+    riskNote: 没跌破颈线前都是可能形态，图形派经常数出不存在的人头。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 左右两个低点的肩膀中间鼓一个更高的头，跌破脖子趋势反转，是经典见顶形态。
+        example: 比如股价冲三波，第二波最高，第三波冲不过前高，跌破两次低点连线后开始大跌。
+        notMeaning: 没跌破颈线前都是可能形态，图形派经常数出不存在的人头。
+        isPrimary: true
+        contextKeywords:
+          - K线形态
+        frequency: high
+    aliases:
+      - raw: 头肩顶
+        aliasType: primary
+      - raw: 头肩底
+        aliasType: cn_alias
+      - raw: head and shoulders
+        aliasType: en_alias
+    viz:
+      type: CandleBuilder
+      config: {}
+    insights:
+      affects:
+        - 逃顶：头部附近的放量滞涨要警惕
+        - 量度跌幅：头肩顶破位后量出高度
+        - 与基本面共振更可靠
+      good:
+        - 及早识别+减仓：保住利润
+        - 右肩缩量+破位：形态成立
+      bad:
+        - 数出的是自己的恐惧
+        - 假突破（摸不到头就掉）常出现
+      policy:
+        - 利好出尽常对应形态头部
+        - 监管问询会打断形态节奏
+      example: 爬山爬到山顶（头），往左右两边下坡（肩）——你站在山脊上，该下山了。
+  - slug: tun-mo
+    headword: 吞没形态
+    categoryL1: 走势形态
+    categoryL2: K线形态
+    difficulty: L3
+    summaryPlain: 后一根 K 线实体完全包住前一根：阳包阴看涨、阴包阳看跌。
+    riskNote: 要看成交量配合和位置，孤立的吞没意义有限。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 后一根 K 线实体完全包住前一根：阳包阴看涨、阴包阳看跌。
+        example: 比如阴线下跌后一根大阳线全包住前阴，多头反攻信号。
+        notMeaning: 要看成交量配合和位置，孤立的吞没意义有限。
+        isPrimary: true
+        contextKeywords:
+          - K线形态
+        frequency: mid
+    aliases:
+      - raw: 吞没形态
+        aliasType: primary
+      - raw: 阳包阴
+        aliasType: cn_alias
+      - raw: 阴包阳
+        aliasType: cn_alias
+      - raw: Engulfing
+        aliasType: en_alias
+    viz:
+      type: CandleBuilder
+      config:
+        title: 吞没：一口吃掉
+    insights:
+      affects:
+        - 反转信号：经典两根线形态
+        - 短线择时：配合量能使用
+      good:
+        - 底部阳包阴：多头掌控
+      bad:
+        - 顶部阴包阳：空头反击
+      policy:
+        - 趋势位置决定胜率
+      example: 拔河：红队赢了一寸，蓝队下一把直接赢回一尺（吞没）——气势完全倒向一边。
+  - slug: xi-pan
+    headword: 洗盘
+    categoryL1: 走势形态
+    categoryL2: 主力行为
+    difficulty: L2
+    summaryPlain: 主力故意把股价砸一砸，吓得持股不坚定的人交出筹码，洗干净了再拉高。
+    riskNote: 洗盘与真出货的走势很像，事后才能分清；过早抄底可能被反复折磨。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 资金通过快速下跌、震荡等方式制造恐慌，逼散户卖出廉价筹码的行为。
+        example: 一只股票涨了两天后突然大跌，很多持仓的人慌忙卖出，主力却在低位悄悄接货，几天后又拉了上去。
+        notMeaning: 洗盘不是主力好心，其目的就是更低价拿到你的票。
+        isPrimary: true
+        contextKeywords:
+          - 砸盘
+          - 震荡
+          - 筹码
+          - 主力
+        frequency: mid
+    aliases:
+      - raw: 洗盘
+        aliasType: primary
+      - raw: 震仓
+        aliasType: cn_alias
+    viz:
+      type: VolumeRatio
+      config: {}
+    insights:
+      affects:
+        - 散户筹码：被洗出去的拿不回低价票
+        - 股价：短期放量下跌，随后可能放量回升
+        - 情绪：散户越怕，主力越容易拿到货
+      good:
+        - 认清是洗盘：拿住仓位后面跟着吃肉
+        - 缩量回调+主力筹码集中：洗盘尾声就是机会
+      bad:
+        - 把出货当洗盘：越跌越买，亏到怀疑人生
+        - 资金被反复震荡消耗，时间成本高
+      policy:
+        - 涨跌停/异动停牌：限制极端洗盘手法
+        - 程序化交易监管：算法对倒更难以为所欲为
+      example: 水果店老板看苹果 10 元没人问，大喊「明早清仓 5 元」，胆小的人抢着卖；第二天老板悄悄按 6 元全收回去，第三天又挂 10 元。先吓后收——洗的就是「不稳」的货主。
+  - slug: xiang-ti-zhen-dang
+    headword: 箱体震荡
+    categoryL1: 走势形态
+    categoryL2: 整理形态
+    difficulty: L2
+    summaryPlain: 价格在一个上下有限的区间里反复波动：没方向时的无聊时间。
+    riskNote: 箱体终会突破，但方向不定；在箱体里高抛低吸，突破后要认错。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 价格在一个上下有限的区间里反复波动：没方向时的无聊时间。
+        example: 比如股价三个月在 10-12 元之间来回，上沿卖下沿买，破了边就止损。
+        notMeaning: 箱体终会突破，但方向不定；在箱体里高抛低吸，突破后要认错。
+        isPrimary: true
+        contextKeywords:
+          - 整理形态
+        frequency: mid
+    aliases:
+      - raw: 箱体震荡
+        aliasType: primary
+      - raw: 箱体
+        aliasType: cn_alias
+      - raw: 区间震荡
+        aliasType: cn_alias
+      - raw: 盘整
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 11
+    insights:
+      affects:
+        - 区间策略：网格交易的基础
+        - 突破交易：等待变盘
+      good:
+        - 箱体下沿企稳：低吸机会
+      bad:
+        - 向下破箱：止损/做空
+      policy:
+        - 横盘久的方向选择常伴放量
+      example: 电梯在 3 楼和 5 楼之间上下：你猜它停哪层下注。总有一天它冲出这个区间——往上还是往下另说。
+  - slug: yin-xian
+    headword: 阴线
+    categoryL1: 走势形态
+    categoryL2: K线
+    difficulty: L2
+    summaryPlain: K线里收盘价低于开盘价的一根，通常画成绿色（A股习惯），表示这段交易空方占上风。
+    riskNote: 一根绿柱不代表趋势反转，要结合位置和量。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: K线里收盘价低于开盘价的一根，通常画成绿色（A股习惯），表示这段交易空方占上风。
+        example: 比如一天下来收在比开盘低的位置，这根柱子就被标成绿色，说明卖压更重。
+        notMeaning: 一根绿柱不代表趋势反转，要结合位置和量。
+        isPrimary: true
+        contextKeywords:
+          - K线
+          - 收盘
+          - 开盘
+          - 空方
+        frequency: mid
+    aliases:
+      - raw: 阴线
+        aliasType: primary
+    viz:
+      type: CandleBuilder
+      config: {}
+    insights:
+      affects:
+        - 判断一天或多天是多赢还是空赢
+        - 技术派买卖的信号
+        - 趋势强弱
+      good:
+        - 红柱（阳线）=涨，低开高走显强
+        - 下影长=跌了又被拉回，有支撑
+      bad:
+        - 绿柱（阴线）=跌，高开低走显弱
+        - 长上影=冲高回落，抛压重
+      policy:
+        - 大盘与消息决定阴阳
+        - 资金风格影响影线长短
+      example: 一根 K 线蜡烛记下了‘开盘价、收盘价、最高、最低’。收盘价高于开盘=红蜡烛（涨）；低于=绿蜡烛（跌）。上影线是摸到的高点又掉下来。
+  - slug: you-duo-you-kong
+    headword: 诱多/诱空
+    categoryL1: 走势形态
+    categoryL2: 陷阱形态
+    difficulty: L2
+    summaryPlain: 制造看涨假象骗你追高（诱多）或制造看跌假象骗你割肉（诱空）：对手盘战术。
+    riskNote: 都是事后才看得清；对策是等确认、不猜，宁可错过不要做错方向。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 制造看涨假象骗你追高（诱多）或制造看跌假象骗你割肉（诱空）：对手盘战术。
+        example: 比如尾盘五分钟急拉 3% 营造突破氛围，第二天高开低走闷杀追高盘。
+        notMeaning: 都是事后才看得清；对策是等确认、不猜，宁可错过不要做错方向。
+        isPrimary: true
+        contextKeywords:
+          - 陷阱形态
+        frequency: high
+    aliases:
+      - raw: 诱多
+        aliasType: primary
+      - raw: 诱空
+        aliasType: cn_alias
+      - raw: bull trap
+        aliasType: en_alias
+      - raw: bear trap
+        aliasType: en_alias
+    viz:
+      type: CrossLines
+      config: {}
+    insights:
+      affects:
+        - 情绪控制：冲动是这类陷阱的猎物
+        - 止损纪律：被骗后认错成本小
+        - 资金结构：识别对倒盘与点火资金
+      good:
+        - 看穿诱多后吃回调、看穿诱空后捡便宜
+        - 缩量诱空+快速收回：洗盘
+      bad:
+        - 追高/杀跌被两头打
+        - 把陷阱当信号反复受伤
+      policy:
+        - 监管打击虚假申报、对倒
+        - 异动核查函影响短线操盘
+      example: 狼来了：第一次喊狼全村逃（诱空），等真狼来了没人信。市场里「喊狼的人」往往是故意的。
+  - slug: zao-chen-zhi-xing
+    headword: 早晨之星
+    categoryL1: 走势形态
+    categoryL2: K线形态
+    difficulty: L3
+    summaryPlain: 三根 K 线组成的底部反转：大跌→小星→大涨，像黎明前的启明星。
+    riskNote: 需要第三根阳线确认，前两星只是犹豫。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 三根 K 线组成的底部反转：大跌→小星→大涨，像黎明前的启明星。
+        example: 比如连跌后出现十字星，隔日放量长阳，教科书级启明星形态。
+        notMeaning: 需要第三根阳线确认，前两星只是犹豫。
+        isPrimary: true
+        contextKeywords:
+          - K线形态
+        frequency: mid
+    aliases:
+      - raw: 早晨之星
+        aliasType: primary
+      - raw: 黄昏之星
+        aliasType: cn_alias
+      - raw: Morning Star
+        aliasType: en_alias
+    viz:
+      type: CandleBuilder
+      config:
+        title: 早晨之星：三根线的反转
+    insights:
+      affects:
+        - 抄底择时：右侧确认点
+        - 风险控制：星的低点是止损
+      good:
+        - 放量确认：反转成立
+      bad:
+        - 假星：第三根不涨就证伪
+      policy:
+        - 趋势环境决定成功率
+      example: 夜里最黑那会儿（大阴）、天边一亮（小星）、太阳出来（大阳）：三幕剧。
+  - slug: zhang-fu
+    headword: 涨幅
+    categoryL1: 走势形态
+    categoryL2: 涨跌幅
+    difficulty: L2
+    summaryPlain: 当前价格相对前一个交易日收盘价的上涨百分比，正数红、负数绿（A股习惯）。
+    riskNote: 单日涨得多不代表趋势确立，要看持续性。
+    frequency: high
+    popularity: 900
+    senses:
+      - senseKey: default
+        plainExplain: 当前价格相对前一个交易日收盘价的上涨百分比，正数红、负数绿（A股习惯）。
+        example: 比如昨天收在十块，今天跑到十一，变化就是一成，图上标成红色。
+        notMeaning: 单日涨得多不代表趋势确立，要看持续性。
+        isPrimary: true
+        contextKeywords:
+          - 涨跌幅
+          - 红绿
+          - 百分比
+          - 波动
+        frequency: high
+    aliases:
+      - raw: 涨幅
+        aliasType: primary
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 10
+    insights:
+      affects:
+        - 你当天赚 / 亏多少
+        - 板块热度的温度计
+        - 触发涨停的标尺
+      good:
+        - 红、涨=手里的值钱了
+        - 板块集体大涨=热点
+      bad:
+        - 绿、跌=账面缩水
+        - 大跌容易引发恐慌
+      policy:
+        - 利好消息、资金流入推涨
+        - 利空、资金流出砸跌
+      example: 昨天 10 元，今天 10.5 元，涨幅 +5%——红柱子。涨到 +10% 就封顶成涨停。
+  - slug: zhi-cheng-zu-li
+    headword: 支撑位/阻力位
+    categoryL1: 走势形态
+    categoryL2: 关键价位
+    difficulty: L1
+    summaryPlain: 价格下跌时容易被托住的地板叫支撑，上涨时容易被压住的天花板叫阻力。
+    riskNote: 支撑阻力是被相信的人交易出来的，一旦被放量突破/跌破，角色互换。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 价格下跌时容易被托住的地板叫支撑，上涨时容易被压住的天花板叫阻力。
+        example: 比如股价三次跌到 10 元都反弹，10 元就是铁支撑；放量跌破后，10 元变成天花板。
+        notMeaning: 支撑阻力是被相信的人交易出来的，一旦被放量突破/跌破，角色互换。
+        isPrimary: true
+        contextKeywords:
+          - 关键价位
+        frequency: high
+    aliases:
+      - raw: 支撑位
+        aliasType: primary
+      - raw: 阻力位
+        aliasType: cn_alias
+      - raw: support
+        aliasType: en_alias
+      - raw: resistance
+        aliasType: en_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 10
+    insights:
+      affects:
+        - 交易决策：画线找低吸高抛点
+        - 止损：破支撑要认错
+        - 仓位：关键位附近重仓危险
+      good:
+        - 确认有效支撑：盈亏比好的买点
+        - 多次测试不破：地板结实
+      bad:
+        - 假支撑：一破就踩踏
+        - 把支撑当铁底：仓位失控
+      policy:
+        - 国家队护盘常在整数关口
+        - 大宗交易价影响心理位
+      example: 热水器的恒温阀：水温升到某个刻度就被顶住（阻力），降到某个刻度就补火（支撑）。阀门一旦坏了，温度就乱串。

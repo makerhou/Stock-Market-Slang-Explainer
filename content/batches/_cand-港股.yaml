@@ -1,0 +1,310 @@
+source: gen from full.tsv keyword=窝轮|牛熊证|认股证|供股|配股|除净|合股|拆细|暗盘|仙股|老千股|财技|私有化|红筹|沽空|收市竞价|交易征费|碎股|一手|延后|制裁|单位买卖 (待精修)
+terms:
+  - slug: heng-sheng-hong-chou-zhi-shu
+    headword: 恒生红筹指数
+    categoryL1: 港股
+    categoryL2: 交易制度
+    difficulty: L2
+    summaryPlain: 追踪香港红筹股表现的指数，成份为境外注册但由内地控股的公司。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 追踪香港红筹股表现的指数，成份为境外注册但由内地控股的公司。
+        example: 恒生红筹指数随中资股整体反弹而走高。
+        isPrimary: true
+    aliases:
+      - raw: 恒生红筹指数
+        aliasType: primary
+      - raw: 红筹指数
+        aliasType: cn_alias
+      - raw: Hang Seng China-Affiliated Corporations Index
+        aliasType: en_alias
+  - slug: xian-gu-gui-ze
+    headword: 仙股规则
+    categoryL1: 港股
+    categoryL2: 交易制度
+    difficulty: L2
+    summaryPlain: SEC对股价低于5美元、市值较小的场外股票施加的额外披露与适当性要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: SEC对股价低于5美元、市值较小的场外股票施加的额外披露与适当性要求。
+        example: 低价股触发仙股规则，券商需要额外签字。
+        isPrimary: true
+    aliases:
+      - raw: 仙股规则
+        aliasType: primary
+      - raw: Penny Stock Rule
+        aliasType: en_alias
+  - slug: si-you-hua-shou-gou
+    headword: 私有化收购
+    categoryL1: 港股
+    categoryL2: 交易制度
+    difficulty: L2
+    summaryPlain: 由PE或管理层把上市公司全部股份买下、从交易所退市的交易。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 由PE或管理层把上市公司全部股份买下、从交易所退市的交易。
+        example: 这家医药公司被PE以每股30美元私有化收购。
+        isPrimary: true
+    aliases:
+      - raw: 私有化收购
+        aliasType: primary
+      - raw: Take-Private Transaction
+        aliasType: en_alias
+  - slug: gu-fen-chai-xi
+    headword: 股份拆细
+    categoryL1: 港股
+    categoryL2: 交易制度
+    difficulty: L2
+    summaryPlain: 将每股拆为多股以降低股价、增加股数的公司行动，港股俗称拆股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 将每股拆为多股以降低股价、增加股数的公司行动，港股俗称拆股。
+        example: 公司宣布一拆十，股价按比例下调。
+        isPrimary: true
+    aliases:
+      - raw: 股份拆细
+        aliasType: primary
+      - raw: Share Subdivision
+        aliasType: en_alias
+  - slug: jiao-yi-zheng-fei
+    headword: 交易征费
+    categoryL1: 港股
+    categoryL2: 交易制度
+    difficulty: L2
+    summaryPlain: 每笔成交向证监会缴纳的费用，按成交金额比例计收。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 每笔成交向证监会缴纳的费用，按成交金额比例计收。
+        example: 买卖双方均须缴付交易征费。
+        isPrimary: true
+    aliases:
+      - raw: 交易征费
+        aliasType: primary
+      - raw: Trading Levy
+        aliasType: en_alias
+  - slug: gu-kong-jia-gui-ze
+    headword: 沽空价规则
+    categoryL1: 港股
+    categoryL2: 交易制度
+    difficulty: L2
+    summaryPlain: 港股规定沽空盘不得以低于当前最佳卖价的价格沽出。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 港股规定沽空盘不得以低于当前最佳卖价的价格沽出。
+        example: 沽空受沽空价规则约束，只能在上价位或以上沽出。
+        isPrimary: true
+    aliases:
+      - raw: 沽空价规则
+        aliasType: primary
+      - raw: Uptick Rule
+        aliasType: en_alias
+  - slug: zhi-ding-ke-gu-kong-zheng-quan
+    headword: 指定可沽空证券
+    categoryL1: 港股
+    categoryL2: 交易制度
+    difficulty: L2
+    summaryPlain: 港交所公布的允许进行沽空的合资格证券名单。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港交所公布的允许进行沽空的合资格证券名单。
+        example: 不在指定名单内的股票不能沽空。
+        isPrimary: true
+    aliases:
+      - raw: 指定可沽空证券
+        aliasType: primary
+      - raw: Designated Securities
+        aliasType: en_alias
+  - slug: mei-ri-gu-kong-cheng-jiao
+    headword: 每日沽空成交
+    categoryL1: 港股
+    categoryL2: 交易制度
+    difficulty: L2
+    summaryPlain: 港交所每日公布的各股沽空成交金额与占比。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港交所每日公布的各股沽空成交金额与占比。
+        example: 每日沽空成交显示抛压轻重。
+        isPrimary: true
+    aliases:
+      - raw: 每日沽空成交
+        aliasType: primary
+      - raw: Daily Short Turnover
+        aliasType: en_alias
+  - slug: yi-shou-zhong-qian-l
+    headword: 一手中签率
+    categoryL1: 港股
+    categoryL2: 交易制度
+    difficulty: L2
+    summaryPlain: 申购一手股票最终获配发的概率，热门新股常低至百分之几。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 申购一手股票最终获配发的概率，热门新股常低至百分之几。
+        example: 申购一手热门新股，中签概率常常只有几个百分点。
+        isPrimary: true
+    aliases:
+      - raw: 一手中签率
+        aliasType: primary
+      - raw: Allotment Rate
+        aliasType: en_alias
+  - slug: sui-gu-shi-chang
+    headword: 碎股市场
+    categoryL1: 港股
+    categoryL2: 交易制度
+    difficulty: L2
+    summaryPlain: 不足一手的碎股只能在特定时段以较差价卖出。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 不足一手的碎股只能在特定时段以较差价卖出。
+        example: 碎股市场成交价格通常较差。
+        isPrimary: true
+    aliases:
+      - raw: 碎股市场
+        aliasType: primary
+      - raw: Odd Lot Market
+        aliasType: en_alias
+  - slug: hong-chou-jia-gou
+    headword: 红筹架构
+    categoryL1: 港股
+    categoryL2: 交易制度
+    difficulty: L2
+    summaryPlain: 境内权益通过境外控股公司在港上市的结构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 境内权益通过境外控股公司在港上市的结构。
+        example: 红筹架构曾是中资境外上市主流。
+        isPrimary: true
+    aliases:
+      - raw: 红筹架构
+        aliasType: primary
+      - raw: Red-chip Structure
+        aliasType: en_alias
+  - slug: gong-kai-gong-gu
+    headword: 公开供股
+    categoryL1: 港股
+    categoryL2: 交易制度
+    difficulty: L2
+    summaryPlain: 按持股比例向全体股东供股、不行使可折价转出。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按持股比例向全体股东供股、不行使可折价转出。
+        example: 公开供股保障小股东比例权。
+        isPrimary: true
+    aliases:
+      - raw: 公开供股
+        aliasType: primary
+      - raw: Open Offer
+        aliasType: en_alias
+  - slug: gong-gu-jia-ge
+    headword: 供股价格
+    categoryL1: 港股
+    categoryL2: 交易制度
+    difficulty: L2
+    summaryPlain: 供股时股东认购新股的折让价格。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 供股时股东认购新股的折让价格。
+        example: 新股的认购价比市价低三成，不参与股权就被摊薄。
+        isPrimary: true
+    aliases:
+      - raw: 供股价格
+        aliasType: primary
+      - raw: Rights Price
+        aliasType: en_alias
+  - slug: gong-gu-bi-li
+    headword: 供股比例
+    categoryL1: 港股
+    categoryL2: 交易制度
+    difficulty: L2
+    summaryPlain: 每持有若干股可认购一股的供股比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 每持有若干股可认购一股的供股比例。
+        example: 这次供股比例为五供一。
+        isPrimary: true
+    aliases:
+      - raw: 供股比例
+        aliasType: primary
+      - raw: Rights Ratio
+        aliasType: en_alias
+  - slug: jin-rong-zhi-cai
+    headword: 金融制裁
+    categoryL1: 港股
+    categoryL2: 交易制度
+    difficulty: L2
+    summaryPlain: 冻结资产、限制融资等金融制裁手段。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 冻结资产、限制融资等金融制裁手段。
+        example: 金融制裁切断受制裁方美元通道。
+        isPrimary: true
+    aliases:
+      - raw: 金融制裁
+        aliasType: primary
+      - raw: Financial Sanction
+        aliasType: en_alias
+  - slug: zhi-cai
+    headword: 制裁
+    categoryL1: 港股
+    categoryL2: 交易制度
+    difficulty: L2
+    summaryPlain: 一国或多国对他国实施的限制措施，常见于贸易、金融与技术领域，会影响相关企业海外业务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 一国或多国对他国实施的限制措施，常见于贸易、金融与技术领域，会影响相关企业海外业务。
+        example: 被列入国际限制清单后，企业海外融资与采购同时受限。
+        isPrimary: true
+    aliases:
+      - raw: 制裁
+        aliasType: primary
+      - raw: Sanction
+        aliasType: en_alias
+  - slug: yi-shou-xin-xi
+    headword: 一手信息
+    categoryL1: 港股
+    categoryL2: 交易制度
+    difficulty: L2
+    summaryPlain: 原始信息。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 原始信息。
+        example: 一手信息可靠。
+        isPrimary: true
+    aliases:
+      - raw: 一手信息
+        aliasType: primary
+      - raw: First-hand Information
+        aliasType: en_alias

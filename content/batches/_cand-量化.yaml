@@ -1,0 +1,1000 @@
+source: gen from full.tsv keyword=期货|期权|互换|保证金|强行平仓|交割|结算|套保|对冲|基差|升水|贴水|量化|回测|因子|夏普|索提诺|最大回撤|信息比率|卡玛|胜率|盈亏比|滑点|过拟合|未来函数|择时|多因子|跟踪误差|波动率 (待精修)
+terms:
+  - slug: rong-zi-bao-zheng-jin-bi-li
+    headword: 融资保证金比例
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 融资买入时投资者需自付保证金占交易金额的最低比例，上调即收紧杠杆。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 融资买入时投资者需自付保证金占交易金额的最低比例，上调即收紧杠杆。
+        example: 融资保证金比例上调后，两融杠杆水平受到约束。
+        isPrimary: true
+    aliases:
+      - raw: 融资保证金比例
+        aliasType: primary
+      - raw: Initial Margin Ratio
+        aliasType: en_alias
+  - slug: r-e-g-t-bao-zheng-jin
+    headword: Reg T保证金
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 美联储Reg T规定的初始保证金比例，买入股票时客户至少自筹50%资金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 美联储Reg T规定的初始保证金比例，买入股票时客户至少自筹50%资金。
+        example: 按Reg T，买1万美元股票至少要出5000美元。
+        isPrimary: true
+    aliases:
+      - raw: Reg T保证金
+        aliasType: primary
+      - raw: Reg T Margin
+        aliasType: en_alias
+      - raw: Federal Margin
+        aliasType: en_alias
+  - slug: bao-zheng-jin-zhang-hu
+    headword: 保证金账户
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 允许客户向券商借钱买证券或借券卖出的账户，需满足最低保证金要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 允许客户向券商借钱买证券或借券卖出的账户，需满足最低保证金要求。
+        example: 想开保证金账户至少要有2000美元资产。
+        isPrimary: true
+    aliases:
+      - raw: 保证金账户
+        aliasType: primary
+      - raw: Margin Account
+        aliasType: en_alias
+  - slug: ge-ye-bao-zheng-jin
+    headword: 隔夜保证金
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 持仓过夜时必须满足的最低保证金要求，通常低于日内。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 持仓过夜时必须满足的最低保证金要求，通常低于日内。
+        example: 日内可以开3倍杠杆，隔夜就回到2倍。
+        isPrimary: true
+    aliases:
+      - raw: 隔夜保证金
+        aliasType: primary
+      - raw: Overnight Margin
+        aliasType: en_alias
+  - slug: wei-chi-bao-zheng-jin
+    headword: 维持保证金
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 持仓期间账户权益占证券市值的最低比例，通常股票为25%。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 持仓期间账户权益占证券市值的最低比例，通常股票为25%。
+        example: 维持保证金跌破25%就会被强平。
+        isPrimary: true
+    aliases:
+      - raw: 维持保证金
+        aliasType: primary
+      - raw: Maintenance Margin
+        aliasType: en_alias
+  - slug: zu-he-bao-zheng-jin
+    headword: 组合保证金
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 按整个组合风险敞口计算保证金的系统，比Reg T两房法更资金高效。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按整个组合风险敞口计算保证金的系统，比Reg T两房法更资金高效。
+        example: 组合保证金账户可以用更少资金持有更大期权头寸。
+        isPrimary: true
+    aliases:
+      - raw: 组合保证金
+        aliasType: primary
+      - raw: Portfolio Margin
+        aliasType: en_alias
+  - slug: ke-bao-zheng-jin-zheng-quan
+    headword: 可保证金证券
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 可以作为融资抵押品、按Reg T缴纳50%保证金即可买入的证券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 可以作为融资抵押品、按Reg T缴纳50%保证金即可买入的证券。
+        example: 大部分大盘股和ETF都是可保证金证券。
+        isPrimary: true
+    aliases:
+      - raw: 可保证金证券
+        aliasType: primary
+      - raw: Marginable Securities
+        aliasType: en_alias
+  - slug: bu-ke-bao-zheng-jin-zheng-quan
+    headword: 不可保证金证券
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 不能作为融资抵押品、必须全额现金买入的证券，如低价股、IPO初期。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 不能作为融资抵押品、必须全额现金买入的证券，如低价股、IPO初期。
+        example: 刚上市的新股前一年通常不可保证金。
+        isPrimary: true
+    aliases:
+      - raw: 不可保证金证券
+        aliasType: primary
+      - raw: Non-Marginable Securities
+        aliasType: en_alias
+  - slug: ke-hu-bao-zheng-jin-ge-li
+    headword: 客户保证金隔离
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 把客户缴纳的保证金与券商自有资金分开存管的要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 把客户缴纳的保证金与券商自有资金分开存管的要求。
+        example: 客户保证金隔离是券商破产时客户能拿回资产的关键。
+        isPrimary: true
+    aliases:
+      - raw: 客户保证金隔离
+        aliasType: primary
+      - raw: Customer Margin Segregation
+        aliasType: en_alias
+  - slug: h-o-u-s-e-bao-zheng-jin
+    headword: House保证金
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 券商在SEC最低要求之上自定的更严保证金比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 券商在SEC最低要求之上自定的更严保证金比例。
+        example: 券商的House margin对期权组合要求更高。
+        isPrimary: true
+    aliases:
+      - raw: House保证金
+        aliasType: primary
+      - raw: House Margin
+        aliasType: en_alias
+  - slug: qi-quan-lian
+    headword: 期权链
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 某标的所有到期日、所有行权价的看涨看跌报价与 Greeks 列表。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 某标的所有到期日、所有行权价的看涨看跌报价与 Greeks 列表。
+        example: 打开期权链可以看到每个行权价的买卖价和未平仓量。
+        isPrimary: true
+    aliases:
+      - raw: 期权链
+        aliasType: primary
+      - raw: Option Chain
+        aliasType: en_alias
+  - slug: qi-quan-fan-xiang-ping-cang
+    headword: 期权反向平仓
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 把已有期权头寸反向对冲至零的交易。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 把已有期权头寸反向对冲至零的交易。
+        example: 盈利后我直接期权反向平仓了结。
+        isPrimary: true
+    aliases:
+      - raw: 期权反向平仓
+        aliasType: primary
+      - raw: Closing Transaction
+        aliasType: en_alias
+  - slug: bao-zheng-jin-qi-quan
+    headword: 保证金期权
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 卖方必须缴纳现金或股票作为保证金的期权头寸，如裸卖期权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 卖方必须缴纳现金或股票作为保证金的期权头寸，如裸卖期权。
+        example: 裸卖put属于保证金期权，需要现金抵押。
+        isPrimary: true
+    aliases:
+      - raw: 保证金期权
+        aliasType: primary
+      - raw: Margined Options
+        aliasType: en_alias
+  - slug: d-e-l-t-a-dui-chong
+    headword: Delta对冲
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 通过买卖标的股票把期权组合Delta调到中性，以隔离方向风险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 通过买卖标的股票把期权组合Delta调到中性，以隔离方向风险。
+        example: 做市商每天Delta对冲持仓，只赚波动率价差。
+        isPrimary: true
+    aliases:
+      - raw: Delta对冲
+        aliasType: primary
+      - raw: Delta Hedging
+        aliasType: en_alias
+  - slug: bo-dong-l-qu-mian
+    headword: 波动率曲面
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 不同到期日与行权价隐含波动率构成的三维曲面。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 不同到期日与行权价隐含波动率构成的三维曲面。
+        example: 波动率曲面显示远端IV比近端高。
+        isPrimary: true
+    aliases:
+      - raw: 波动率曲面
+        aliasType: primary
+      - raw: Volatility Surface
+        aliasType: en_alias
+  - slug: bo-dong-l-qi-xian-jie-gou
+    headword: 波动率期限结构
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 同一行权价下不同到期日IV的连线，分Contango与Backwardation。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 同一行权价下不同到期日IV的连线，分Contango与Backwardation。
+        example: VIX期限结构倒挂说明市场恐慌。
+        isPrimary: true
+    aliases:
+      - raw: 波动率期限结构
+        aliasType: primary
+      - raw: Volatility Term Structure
+        aliasType: en_alias
+  - slug: v-i-x-qi-huo
+    headword: VIX期货
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 以VIX指数为标的的期货合约，是波动率交易的主要工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 以VIX指数为标的的期货合约，是波动率交易的主要工具。
+        example: 恐慌指数期货升水时，每个月自然衰减几个点。
+        isPrimary: true
+    aliases:
+      - raw: VIX期货
+        aliasType: primary
+      - raw: VIX Futures
+        aliasType: en_alias
+  - slug: xian-jin-jie-suan
+    headword: 现金结算
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 期权到期时按现金差价交割而不交割股票的方式，指数期权多为现金结算。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 期权到期时按现金差价交割而不交割股票的方式，指数期权多为现金结算。
+        example: SPX期权是现金结算，不交割股票。
+        isPrimary: true
+    aliases:
+      - raw: 现金结算
+        aliasType: primary
+      - raw: Cash Settlement
+        aliasType: en_alias
+  - slug: shi-wu-jiao-ge
+    headword: 实物交割
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 个股期权到期时按行权价真实买卖股票的交割方式。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 个股期权到期时按行权价真实买卖股票的交割方式。
+        example: 普通股票期权都是实物交割。
+        isPrimary: true
+    aliases:
+      - raw: 实物交割
+        aliasType: primary
+      - raw: Physical Settlement
+        aliasType: en_alias
+  - slug: ou-shi-qi-quan
+    headword: 欧式期权
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 只能在到期日当天行权的期权，指数期权多为欧式。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 只能在到期日当天行权的期权，指数期权多为欧式。
+        example: SPX是欧式期权，到期前不能提前行权。
+        isPrimary: true
+    aliases:
+      - raw: 欧式期权
+        aliasType: primary
+      - raw: European-Style Option
+        aliasType: en_alias
+  - slug: mei-shi-qi-quan
+    headword: 美式期权
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 存续期内任意交易日都可行权的期权，个股期权多为美式。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 存续期内任意交易日都可行权的期权，个股期权多为美式。
+        example: 普通美股个股期权是美式。
+        isPrimary: true
+    aliases:
+      - raw: 美式期权
+        aliasType: primary
+      - raw: American-Style Option
+        aliasType: en_alias
+  - slug: zhou-qi-quan
+    headword: 周期权
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 每周到期的短期期权，覆盖月度到期日之间的周五。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 每周到期的短期期权，覆盖月度到期日之间的周五。
+        example: Weeklys让交易者可以精准赌事件。
+        isPrimary: true
+    aliases:
+      - raw: 周期权
+        aliasType: primary
+      - raw: Weeklys
+        aliasType: en_alias
+  - slug: ji-du-qi-quan
+    headword: 季度期权
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 三月、六月、九月、十二月第三个周五到期的期权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 三月、六月、九月、十二月第三个周五到期的期权。
+        example: 季度期权通常未仓量最大。
+        isPrimary: true
+    aliases:
+      - raw: 季度期权
+        aliasType: primary
+      - raw: Quarterly Options
+        aliasType: en_alias
+  - slug: s-p-x-qi-quan
+    headword: SPX期权
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 标普500指数期权，欧式现金结算，是机构对冲美股的主力工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 标普500指数期权，欧式现金结算，是机构对冲美股的主力工具。
+        example: 机构喜欢用SPX期权做尾部对冲。
+        isPrimary: true
+    aliases:
+      - raw: SPX期权
+        aliasType: primary
+      - raw: SPX Options
+        aliasType: en_alias
+  - slug: v-i-x-qi-quan
+    headword: VIX期权
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 以VIX期货为标的的期权，是直接交易波动率的工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以VIX期货为标的的期权，是直接交易波动率的工具。
+        example: VIX期权在恐慌飙升时最受欢迎。
+        isPrimary: true
+    aliases:
+      - raw: VIX期权
+        aliasType: primary
+      - raw: VIX Options
+        aliasType: en_alias
+  - slug: qi-quan-xing-quan-zhou-qi
+    headword: 期权行权周期
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 期权最初挂牌时分配的1月/2月/3月到期序列，决定后续新增月份。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 期权最初挂牌时分配的1月/2月/3月到期序列，决定后续新增月份。
+        example: 标准股票期权按1月、2月或3月周期挂牌。
+        isPrimary: true
+    aliases:
+      - raw: 期权行权周期
+        aliasType: primary
+      - raw: Option Exercise Cycle
+        aliasType: en_alias
+  - slug: fan-xiang-chai-gu-yin-zi
+    headword: 反向拆股因子
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 合股时几股并成一股的比例，如1比10意味着10股并1股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 合股时几股并成一股的比例，如1比10意味着10股并1股。
+        example: 1比10反向拆股后股价变成原来10倍。
+        isPrimary: true
+    aliases:
+      - raw: 反向拆股因子
+        aliasType: primary
+      - raw: Reverse Split Ratio
+        aliasType: en_alias
+  - slug: bao-zheng-jin-jie-kuan-yu-e
+    headword: 保证金借款余额
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: FINRA每月公布的客户保证金借款余额，反映市场杠杆情绪。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: FINRA每月公布的客户保证金借款余额，反映市场杠杆情绪。
+        example: 保证金借款余额创历史新高说明杠杆情绪高涨。
+        isPrimary: true
+    aliases:
+      - raw: 保证金借款余额
+        aliasType: primary
+      - raw: Margin Debt
+        aliasType: en_alias
+  - slug: fan-dui-chong-zheng-ce
+    headword: 反对冲政策
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: Dodd-Frank要求公司披露是否禁止内部人对冲本公司股票风险敞口的政策。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: Dodd-Frank要求公司披露是否禁止内部人对冲本公司股票风险敞口的政策。
+        example: 公司的反对冲政策禁止高管买自家股票的put。
+        isPrimary: true
+    aliases:
+      - raw: 反对冲政策
+        aliasType: primary
+      - raw: Anti-Hedging Policy
+        aliasType: en_alias
+  - slug: ji-li-gu-piao-qi-quan
+    headword: 激励股票期权
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 美国税法下符合条件可按长期资本利得税率纳税的员工股票期权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 美国税法下符合条件可按长期资本利得税率纳税的员工股票期权。
+        example: ISO有年度行权上限10万美元。
+        isPrimary: true
+    aliases:
+      - raw: 激励股票期权
+        aliasType: primary
+      - raw: Incentive Stock Option
+        aliasType: en_alias
+      - raw: ISO
+        aliasType: en_alias
+  - slug: fei-he-ge-gu-piao-qi-quan
+    headword: 非合格股票期权
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 行权时按普通收入税率征税的员工股票期权，公司可抵扣费用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 行权时按普通收入税率征税的员工股票期权，公司可抵扣费用。
+        example: NSO比ISO更常见。
+        isPrimary: true
+    aliases:
+      - raw: 非合格股票期权
+        aliasType: primary
+      - raw: Non-Qualified Stock Option
+        aliasType: en_alias
+      - raw: NSO
+        aliasType: en_alias
+  - slug: zheng-quan-ji-qi-huo-tiao-li
+    headword: 证券及期货条例
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 香港监管证券期货市场的主法例，规范披露与市场失当行为。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 香港监管证券期货市场的主法例，规范披露与市场失当行为。
+        example: 内幕交易属证券及期货条例管辖范围。
+        isPrimary: true
+    aliases:
+      - raw: 证券及期货条例
+        aliasType: primary
+      - raw: SFO
+        aliasType: en_alias
+  - slug: jie-suan-fei
+    headword: 结算费
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 中央结算系统按成交金额收取的交收费用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 中央结算系统按成交金额收取的交收费用。
+        example: CCASS结算费按每宗交易收取。
+        isPrimary: true
+    aliases:
+      - raw: 结算费
+        aliasType: primary
+      - raw: Settlement Fee
+        aliasType: en_alias
+  - slug: gu-piao-qi-quan
+    headword: 股票期权
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 以单只股票为标的的期权合约，可认购或认沽。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以单只股票为标的的期权合约，可认购或认沽。
+        example: 股票期权到期按股份实物或现金交收。
+        isPrimary: true
+    aliases:
+      - raw: 股票期权
+        aliasType: primary
+      - raw: Stock Options
+        aliasType: en_alias
+  - slug: heng-sheng-zhi-shu-qi-huo
+    headword: 恒生指数期货
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 以恒生指数为标的的期货合约，每点金额固定。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 以恒生指数为标的的期货合约，每点金额固定。
+        example: 外围市场波动常先在夜盘的恒指期货里显现。
+        isPrimary: true
+    aliases:
+      - raw: 恒生指数期货
+        aliasType: primary
+      - raw: HSI Futures
+        aliasType: en_alias
+  - slug: h-gu-zhi-shu-qi-huo
+    headword: H股指数期货
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 以恒生中国企业指数为标的的期货合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以恒生中国企业指数为标的的期货合约。
+        example: H股指数期货俗称国企期指。
+        isPrimary: true
+    aliases:
+      - raw: H股指数期货
+        aliasType: primary
+      - raw: HSCEI Futures
+        aliasType: en_alias
+  - slug: xiao-xing-guo-qi-zhi-shu-qi-huo
+    headword: 小型国企指数期货
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 合约乘数较小的国企指数期货，单张金额较低。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 合约乘数较小的国企指数期货，单张金额较低。
+        example: 小型国企指数期货适合小资金对冲。
+        isPrimary: true
+    aliases:
+      - raw: 小型国企指数期货
+        aliasType: primary
+      - raw: Mini HSCEI Futures
+        aliasType: en_alias
+  - slug: gang-yuan-li-l-qi-huo
+    headword: 港元利率期货
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 以香港银行同业拆息为标的的利率期货合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以香港银行同业拆息为标的的利率期货合约。
+        example: 港元利率期货用于对冲拆息波动。
+        isPrimary: true
+    aliases:
+      - raw: 港元利率期货
+        aliasType: primary
+      - raw: HIBOR Futures
+        aliasType: en_alias
+  - slug: mei-yuan-dui-ren-min-bi-qi-huo
+    headword: 美元兑人民币期货
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 港交所推出的离岸人民币汇率期货合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 港交所推出的离岸人民币汇率期货合约。
+        example: 外贸企业用美元兑人民币期货锁汇。
+        isPrimary: true
+    aliases:
+      - raw: 美元兑人民币期货
+        aliasType: primary
+      - raw: USD/CNH Futures
+        aliasType: en_alias
+  - slug: jie-suan-jia
+    headword: 结算价
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 衍生品到期交收时用以计算盈亏的官方价格。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 衍生品到期交收时用以计算盈亏的官方价格。
+        example: 到期那天的官方定价，按指定时段均价算出来。
+        isPrimary: true
+    aliases:
+      - raw: 结算价
+        aliasType: primary
+      - raw: Settlement Price
+        aliasType: en_alias
+  - slug: qi-quan-jin
+    headword: 期权金
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 买入期权时支付的权利金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 买入期权时支付的权利金。
+        example: 买入期权金最多亏掉权利金。
+        isPrimary: true
+    aliases:
+      - raw: 期权金
+        aliasType: primary
+      - raw: Option Premium
+        aliasType: en_alias
+  - slug: tao-bao-pan
+    headword: 套保盘
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 粤语俗称机构为对冲现货而建的期货仓。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 粤语俗称机构为对冲现货而建的期货仓。
+        example: 月末套保盘平仓压低期指。
+        isPrimary: true
+    aliases:
+      - raw: 套保盘
+        aliasType: primary
+      - raw: Hedging Book
+        aliasType: en_alias
+  - slug: heng-sheng-zhi-shu-qi-quan
+    headword: 恒生指数期权
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 以恒生指数为标的的期权合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以恒生指数为标的的期权合约。
+        example: 恒生指数期权吸引机构对冲。
+        isPrimary: true
+    aliases:
+      - raw: 恒生指数期权
+        aliasType: primary
+      - raw: HSI Options
+        aliasType: en_alias
+  - slug: h-gu-zhi-shu-qi-quan
+    headword: H股指数期权
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 以恒生中国企业指数为标的的期权合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以恒生中国企业指数为标的的期权合约。
+        example: H股指数期权成交活跃。
+        isPrimary: true
+    aliases:
+      - raw: H股指数期权
+        aliasType: primary
+      - raw: HSCEI Options
+        aliasType: en_alias
+  - slug: gu-piao-qi-huo
+    headword: 股票期货
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 以单只股票为标的的期货合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以单只股票为标的的期货合约。
+        example: 股票期货可杠杆对冲个股。
+        isPrimary: true
+    aliases:
+      - raw: 股票期货
+        aliasType: primary
+      - raw: Stock Futures
+        aliasType: en_alias
+  - slug: jie-suan-suo-dan-bao
+    headword: 结算所担保
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 结算所成为交易对手方、担保履约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 结算所成为交易对手方、担保履约。
+        example: 结算所担保降低对手风险。
+        isPrimary: true
+    aliases:
+      - raw: 结算所担保
+        aliasType: primary
+      - raw: Clearing House Guarantee
+        aliasType: en_alias
+  - slug: f-a-m-a-f-r-e-n-c-h-san-yin-zi-mo-xing
+    headword: Fama-French三因子模型
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 在市场因子基础上加入规模与价值因子解释收益的经典模型。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 在市场因子基础上加入规模与价值因子解释收益的经典模型。
+        example: Fama-French三因子模型是多因子投资的基础。
+        isPrimary: true
+    aliases:
+      - raw: Fama-French三因子模型
+        aliasType: primary
+      - raw: Fama-French
+        aliasType: en_alias
+      - raw: 三因子模型
+        aliasType: cn_alias
+  - slug: liang-hua-ji-jin
+    headword: 量化基金
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 用数学模型和计算机程序做投资决策的基金，从历史数据中找规律并自动执行交易。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 用数学模型和计算机程序做投资决策的基金，从历史数据中找规律并自动执行交易。
+        example: 用因子模型给几千只股票打分、自动构建组合，是这类基金的日常。
+        isPrimary: true
+    aliases:
+      - raw: 量化基金
+        aliasType: primary
+      - raw: Quantitative Fund
+        aliasType: en_alias
+  - slug: qi-quan-e-t-f
+    headword: 期权ETF
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 使用期权策略获取收益的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 使用期权策略获取收益的ETF。
+        example: 期权ETF用备兑策略增强收益。
+        isPrimary: true
+    aliases:
+      - raw: 期权ETF
+        aliasType: primary
+      - raw: Options-based ETF
+        aliasType: en_alias
+  - slug: bo-dong-l-e-t-f
+    headword: 波动率ETF
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 跟踪VIX等波动率指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪VIX等波动率指数的ETF。
+        example: 波动率ETF用于对冲尾部风险。
+        isPrimary: true
+    aliases:
+      - raw: 波动率ETF
+        aliasType: primary
+      - raw: Volatility ETF
+        aliasType: en_alias
+  - slug: shang-pin-qi-huo
+    headword: 商品期货
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 以农产品、金属、能源等商品为标的的期货。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 以农产品、金属、能源等商品为标的的期货。
+        example: 大豆、铜、原油的价格波动，都能通过标准化合约来交易。
+        isPrimary: true
+    aliases:
+      - raw: 商品期货
+        aliasType: primary
+      - raw: Commodity Futures
+        aliasType: en_alias
+  - slug: jin-rong-qi-huo
+    headword: 金融期货
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 以利率、外汇、指数为标的的期货。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 以利率、外汇、指数为标的的期货。
+        example: 金融期货用于对冲系统性风险。
+        isPrimary: true
+    aliases:
+      - raw: 金融期货
+        aliasType: primary
+      - raw: Financial Futures
+        aliasType: en_alias
+  - slug: e-t-f-qi-quan
+    headword: ETF期权
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 以ETF为标的的期权合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 以ETF为标的的期权合约。
+        example: ETF期权是A股场内主要期权。
+        isPrimary: true
+    aliases:
+      - raw: ETF期权
+        aliasType: primary
+      - raw: ETF Options
+        aliasType: en_alias
+  - slug: shang-pin-qi-quan
+    headword: 商品期权
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 以商品期货为标的的期权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 以商品期货为标的的期权。
+        example: 商品期权帮助产业套保。
+        isPrimary: true
+    aliases:
+      - raw: 商品期权
+        aliasType: primary
+      - raw: Commodity Options
+        aliasType: en_alias
+  - slug: li-l-qi-quan
+    headword: 利率期权
+    categoryL1: 量化与风险
+    categoryL2: 回测与风控
+    difficulty: L2
+    summaryPlain: 以利率为标的的期权合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以利率为标的的期权合约。
+        example: 利率期权用于锁定融资成本。
+        isPrimary: true
+    aliases:
+      - raw: 利率期权
+        aliasType: primary
+      - raw: Interest Rate Options
+        aliasType: en_alias

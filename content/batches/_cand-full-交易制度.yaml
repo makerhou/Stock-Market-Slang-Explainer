@@ -1,0 +1,20 @@
+source: gen from full.tsv --all 市场×类型×关键词路由 (待精修)
+terms:
+  - slug: guan-lian-fang-jiao-yi
+    headword: 关联方交易
+    categoryL1: 交易制度
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上市公司与控股股东、子公司等关联方之间发生的交易。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 上市公司与控股股东、子公司等关联方之间发生的交易。
+        example: 关联方交易需公允定价并充分披露。
+        isPrimary: true
+    aliases:
+      - raw: 关联方交易
+        aliasType: primary
+      - raw: Related Party Transaction
+        aliasType: en_alias

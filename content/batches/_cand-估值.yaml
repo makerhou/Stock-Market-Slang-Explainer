@@ -1,0 +1,728 @@
+source: gen from full.tsv keyword=市盈率|市净率|市销率|企业价值|股息率|DCF|现金流折现|重置成本|清算价值|账面价值|溢价|折价|估值|资本成本|WACC|加权平均|PEG (待精修)
+terms:
+  - slug: heng-sheng-a-h-yi-jia-zhi-shu
+    headword: 恒生AH溢价指数
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 衡量同一家公司A股相对H股溢价程度的指数，数值越高代表A股越贵。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 衡量同一家公司A股相对H股溢价程度的指数，数值越高代表A股越贵。
+        example: 恒生AH溢价指数回落，A/H两地价差有所收敛。
+        isPrimary: true
+    aliases:
+      - raw: 恒生AH溢价指数
+        aliasType: primary
+      - raw: AH溢价指数
+        aliasType: en_alias
+      - raw: Hang Seng AH Premium Index
+        aliasType: en_alias
+  - slug: qi-ye-jia-zhi
+    headword: 企业价值
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 在市值基础上加上净债务得出的整体收购价格，相当于买下整家公司。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 在市值基础上加上净债务得出的整体收购价格，相当于买下整家公司。
+        example: 企业价值EV把负债也计入，更适合跨资本结构比较。
+        isPrimary: true
+    aliases:
+      - raw: 企业价值
+        aliasType: primary
+      - raw: EV
+        aliasType: en_alias
+      - raw: Enterprise Value
+        aliasType: en_alias
+  - slug: e-t-f-zhe-yi-jia
+    headword: ETF折溢价
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: ETF二级市场价格相对实时IOPV的偏离程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: ETF二级市场价格相对实时IOPV的偏离程度。
+        example: 这只债券ETF在流动性差时溢价一度2%。
+        isPrimary: true
+    aliases:
+      - raw: ETF折溢价
+        aliasType: primary
+      - raw: ETF Premium/Discount to NAV
+        aliasType: en_alias
+  - slug: yi-jia-l
+    headword: 溢价率
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 牛熊证或窝轮相对内在价值的溢价程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 牛熊证或窝轮相对内在价值的溢价程度。
+        example: 价格高出内在价值太多，时间价值损耗就大。
+        isPrimary: true
+    aliases:
+      - raw: 溢价率
+        aliasType: primary
+      - raw: Premium
+        aliasType: en_alias
+  - slug: heng-sheng-gao-gu-xi-l-zhi-shu
+    headword: 恒生高股息率指数
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 选取股息率较高港股编制的策略指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 选取股息率较高港股编制的策略指数。
+        example: 恒生高股息率指数近年受追捧。
+        isPrimary: true
+    aliases:
+      - raw: 恒生高股息率指数
+        aliasType: primary
+      - raw: Hang Seng High Dividend Yield
+        aliasType: en_alias
+  - slug: yi-jia-fa-xing
+    headword: 溢价发行
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 新股或配股价较市价溢价发行。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 新股或配股价较市价溢价发行。
+        example: 优质公司可溢价发行。
+        isPrimary: true
+    aliases:
+      - raw: 溢价发行
+        aliasType: primary
+      - raw: Premium Issue
+        aliasType: en_alias
+  - slug: zhe-jia-l
+    headword: 折价率
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 牛熊证市场价相对内在价值的折让程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 牛熊证市场价相对内在价值的折让程度。
+        example: 牛熊证折价率异常时宜避开。
+        isPrimary: true
+    aliases:
+      - raw: 折价率
+        aliasType: primary
+      - raw: Discount Rate
+        aliasType: en_alias
+  - slug: shou-gou-yi-jia
+    headword: 收购溢价
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 收购价较被收购方市价的溢价幅度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 收购价较被收购方市价的溢价幅度。
+        example: 收购溢价三成方有吸引力。
+        isPrimary: true
+    aliases:
+      - raw: 收购溢价
+        aliasType: primary
+      - raw: Takeover Premium
+        aliasType: en_alias
+  - slug: gu-zhi-shi
+    headword: 估值师
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 对物业或资产出具估值报告的专业机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 对物业或资产出具估值报告的专业机构。
+        example: 物业估值由独立估值师出具。
+        isPrimary: true
+    aliases:
+      - raw: 估值师
+        aliasType: primary
+      - raw: Valuer
+        aliasType: en_alias
+  - slug: zhao-gu-shi-ying-l
+    headword: 招股市盈率
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 按招股价计算的新股市盈率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按招股价计算的新股市盈率。
+        example: 招股市盈率高于同业。
+        isPrimary: true
+    aliases:
+      - raw: 招股市盈率
+        aliasType: primary
+      - raw: IPO P/E
+        aliasType: en_alias
+  - slug: gu-piao-fa-xing-yi-jia
+    headword: 股票发行溢价
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 投资者出资超过注册资本份额的部分，计入资本公积。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资者出资超过注册资本份额的部分，计入资本公积。
+        example: 股本溢价来自高估值融资，体现市场认可度。
+        isPrimary: true
+    aliases:
+      - raw: 股票发行溢价
+        aliasType: primary
+      - raw: Share Premium
+        aliasType: en_alias
+  - slug: zhong-zhi-cheng-ben
+    headword: 重置成本
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 按当前市场条件重新购建相同资产所需付出的成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 按当前市场条件重新购建相同资产所需付出的成本。
+        example: 用重置成本评估，公司净资产价值被明显低估。
+        isPrimary: true
+    aliases:
+      - raw: 重置成本
+        aliasType: primary
+      - raw: Replacement Cost
+        aliasType: en_alias
+  - slug: qing-suan-jia-zhi
+    headword: 清算价值
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 公司清算变卖全部资产后可分配给债权人与股东的金额。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 公司清算变卖全部资产后可分配给债权人与股东的金额。
+        example: 清算价值是极端情形下估值的最后防线。
+        isPrimary: true
+    aliases:
+      - raw: 清算价值
+        aliasType: primary
+      - raw: Liquidation Value
+        aliasType: en_alias
+  - slug: xiang-dui-gu-zhi
+    headword: 相对估值
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 参照可比公司倍数来判断目标公司贵贱的估值方法。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 参照可比公司倍数来判断目标公司贵贱的估值方法。
+        example: 相对估值显示该股较同行存在折价。
+        isPrimary: true
+    aliases:
+      - raw: 相对估值
+        aliasType: primary
+      - raw: Relative Valuation
+        aliasType: en_alias
+  - slug: gu-zhi-qu-jian
+    headword: 估值区间
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 综合多种方法得到的合理价值上下限，而非精确点估值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 综合多种方法得到的合理价值上下限，而非精确点估值。
+        example: 给出的估值区间为30至40元，当前股价处于下沿。
+        isPrimary: true
+    aliases:
+      - raw: 估值区间
+        aliasType: primary
+      - raw: Valuation Range
+        aliasType: en_alias
+  - slug: gu-zhi-zhong-shu
+    headword: 估值中枢
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 历史估值波动区间的均值水平，常被视作合理回归的中枢。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 历史估值波动区间的均值水平，常被视作合理回归的中枢。
+        example: 当前估值已回到历史估值中枢附近。
+        isPrimary: true
+    aliases:
+      - raw: 估值中枢
+        aliasType: primary
+      - raw: Valuation Midpoint
+        aliasType: en_alias
+  - slug: gu-zhi-fen-wei
+    headword: 估值分位
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 当前估值在历史序列中所处的百分位，越高代表越贵。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 当前估值在历史序列中所处的百分位，越高代表越贵。
+        example: 估值分位仅一成，处于历史极度便宜区域。
+        isPrimary: true
+    aliases:
+      - raw: 估值分位
+        aliasType: primary
+      - raw: Valuation Percentile
+        aliasType: en_alias
+  - slug: gu-zhi-yi-jia
+    headword: 估值溢价
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 标的相对可比对象或历史均值高出的比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 标的相对可比对象或历史均值高出的比例。
+        example: 龙头公司享有估值溢价，反映确定性。
+        isPrimary: true
+    aliases:
+      - raw: 估值溢价
+        aliasType: primary
+      - raw: Valuation Premium
+        aliasType: en_alias
+  - slug: gu-zhi-zhe-jia
+    headword: 估值折价
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 标的相对可比对象或历史均值低出的比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 标的相对可比对象或历史均值低出的比例。
+        example: 小市值标的长期存在估值折价，流动性不足。
+        isPrimary: true
+    aliases:
+      - raw: 估值折价
+        aliasType: primary
+      - raw: Valuation Discount
+        aliasType: en_alias
+  - slug: fen-bu-gu-zhi
+    headword: 分部估值
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 对不同业务分部分别估值再加总的方法，适用于多元化集团。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对不同业务分部分别估值再加总的方法，适用于多元化集团。
+        example: 用分部估值SOTP，母公司整体价值被低估。
+        isPrimary: true
+    aliases:
+      - raw: 分部估值
+        aliasType: primary
+      - raw: SOTP估值
+        aliasType: en_alias
+      - raw: Sum of the Parts
+        aliasType: en_alias
+  - slug: n-a-v-gu-zhi
+    headword: NAV估值
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 以净资产价值为基础的估值方法，常用于资源、地产与控股公司。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以净资产价值为基础的估值方法，常用于资源、地产与控股公司。
+        example: NAV估值显示公司每股净资产高于股价。
+        isPrimary: true
+    aliases:
+      - raw: NAV估值
+        aliasType: primary
+      - raw: NAV Valuation
+        aliasType: en_alias
+  - slug: r-n-a-v-gu-zhi
+    headword: RNAV估值
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 将资产按当前市场价值重估后的净资产价值，常见于地产股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 将资产按当前市场价值重估后的净资产价值，常见于地产股。
+        example: RNAV估值考虑了物业重估增值，更贴近真实价值。
+        isPrimary: true
+    aliases:
+      - raw: RNAV估值
+        aliasType: primary
+      - raw: Revalued NAV
+        aliasType: en_alias
+  - slug: gu-zhi-bei-shu
+    headword: 估值倍数
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 市盈率、市净率、EV/EBITDA等以倍数形式表达的估值指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市盈率、市净率、EV/EBITDA等以倍数形式表达的估值指标。
+        example: 估值倍数处于行业中下水平，相对便宜。
+        isPrimary: true
+    aliases:
+      - raw: 估值倍数
+        aliasType: primary
+      - raw: Valuation Multiple
+        aliasType: en_alias
+  - slug: gu-zhi-jia-she
+    headword: 估值假设
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 估值中所采用的增长率、折现率等关键前提条件。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 估值中所采用的增长率、折现率等关键前提条件。
+        example: 估值假设过于乐观，结果会被高估。
+        isPrimary: true
+    aliases:
+      - raw: 估值假设
+        aliasType: primary
+      - raw: Valuation Assumptions
+        aliasType: en_alias
+  - slug: gu-zhi-bai-fen-wei
+    headword: 估值百分位
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 当前估值在历史区间中所处的百分比位置。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 当前估值在历史区间中所处的百分比位置。
+        example: 估值百分位低于两成，属于历史低估区间。
+        isPrimary: true
+    aliases:
+      - raw: 估值百分位
+        aliasType: primary
+      - raw: Valuation Percentile Rank
+        aliasType: en_alias
+  - slug: gu-zhi-pao-mo
+    headword: 估值泡沫
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 估值大幅脱离基本面支撑、靠情绪推高的状态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 估值大幅脱离基本面支撑、靠情绪推高的状态。
+        example: 估值泡沫破裂时，往往伴随急速下跌。
+        isPrimary: true
+    aliases:
+      - raw: 估值泡沫
+        aliasType: primary
+      - raw: Valuation Bubble
+        aliasType: en_alias
+  - slug: shi-chang-feng-xian-yi-jia
+    headword: 市场风险溢价
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 市场整体预期回报超过无风险利率的部分，是CAPM的关键输入。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 市场整体预期回报超过无风险利率的部分，是CAPM的关键输入。
+        example: 市场风险溢价上升，权益资产估值承压。
+        isPrimary: true
+    aliases:
+      - raw: 市场风险溢价
+        aliasType: primary
+      - raw: Market Risk Premium
+        aliasType: en_alias
+  - slug: qing-suan-jia-zhi-fa
+    headword: 清算价值法
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 按清算变卖资产扣除负债后估计股权价值的估值方法。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按清算变卖资产扣除负债后估计股权价值的估值方法。
+        example: 清算价值法适用于困境与资源类公司。
+        isPrimary: true
+    aliases:
+      - raw: 清算价值法
+        aliasType: primary
+      - raw: Liquidation Value Method
+        aliasType: en_alias
+  - slug: fan-xiang-d-c-f
+    headword: 反向DCF
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 从当前股价反推市场隐含的增长与折现假设，再判断是否合理。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 从当前股价反推市场隐含的增长与折现假设，再判断是否合理。
+        example: 反向DCF显示，当前股价隐含了过度乐观的假设。
+        isPrimary: true
+    aliases:
+      - raw: 反向DCF
+        aliasType: primary
+      - raw: Reverse DCF
+        aliasType: en_alias
+  - slug: gu-zhi-mao
+    headword: 估值锚
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 市场用来判断贵贱的参考估值基准，如同业倍数或历史均值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场用来判断贵贱的参考估值基准，如同业倍数或历史均值。
+        example: 资金把成长股估值锚定在PEG合理区间。
+        isPrimary: true
+    aliases:
+      - raw: 估值锚
+        aliasType: primary
+      - raw: Valuation Anchor
+        aliasType: en_alias
+  - slug: gu-zhi-qie-huan
+    headword: 估值切换
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 市场对同一标的给予估值中枢上移或下移的过程。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场对同一标的给予估值中枢上移或下移的过程。
+        example: 业绩进入新成长阶段后，往往迎来估值切换。
+        isPrimary: true
+    aliases:
+      - raw: 估值切换
+        aliasType: primary
+      - raw: Valuation Re-rating
+        aliasType: en_alias
+  - slug: tui-chu-gu-zhi
+    headword: 退出估值
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 预测期末退出投资时按当时倍数或市值估算的价值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 预测期末退出投资时按当时倍数或市值估算的价值。
+        example: 退出估值假设需参考行业历史区间。
+        isPrimary: true
+    aliases:
+      - raw: 退出估值
+        aliasType: primary
+      - raw: Exit Valuation
+        aliasType: en_alias
+  - slug: di-gu-zhi-gu
+    headword: 低估值股
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 市盈率、市净率处于历史低位的股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市盈率、市净率处于历史低位的股票。
+        example: 低估值股具备安全边际。
+        isPrimary: true
+    aliases:
+      - raw: 低估值股
+        aliasType: primary
+      - raw: Low Valuation Stock
+        aliasType: en_alias
+  - slug: yi-jia-zhai-quan
+    headword: 溢价债券
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 市价高于面值交易的债券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 市价高于面值交易的债券。
+        example: 溢价债券票息高于市场。
+        isPrimary: true
+    aliases:
+      - raw: 溢价债券
+        aliasType: primary
+      - raw: Premium Bond
+        aliasType: en_alias
+  - slug: zhe-jia-zhai-quan
+    headword: 折价债券
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 市价低于面值交易的债券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市价低于面值交易的债券。
+        example: 折价债券到期补回面值。
+        isPrimary: true
+    aliases:
+      - raw: 折价债券
+        aliasType: primary
+      - raw: Discount Bond
+        aliasType: en_alias
+  - slug: feng-xian-yi-jia
+    headword: 风险溢价
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 风险资产收益率高于无风险利率的部分。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 风险资产收益率高于无风险利率的部分。
+        example: 风险溢价走阔，风险资产承压。
+        isPrimary: true
+    aliases:
+      - raw: 风险溢价
+        aliasType: primary
+      - raw: Risk Premium
+        aliasType: en_alias
+  - slug: yuan-qi-shi-ying-l
+    headword: 远期市盈率
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 基于未来12个月预期盈利的市盈率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 基于未来12个月预期盈利的市盈率。
+        example: 远期P/E更能反映成长预期。
+        isPrimary: true
+    aliases:
+      - raw: 远期市盈率
+        aliasType: primary
+      - raw: Forward P/E
+        aliasType: en_alias
+  - slug: gang-gu-gu-zhi
+    headword: 港股估值
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 港股整体估值水平，常用PE与股息率衡量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 港股整体估值水平，常用PE与股息率衡量。
+        example: 同样的公司，港股的定价常常比A股低一截。
+        isPrimary: true
+    aliases:
+      - raw: 港股估值
+        aliasType: primary
+      - raw: HK Valuation
+        aliasType: en_alias
+  - slug: gu-zhi
+    headword: 估值
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 对一家公司或一项资产值多少钱的判断，常用方法有对比同行市盈率、估算未来现金流等。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 对一家公司或一项资产值多少钱的判断，常用方法有对比同行市盈率、估算未来现金流等。
+        example: 两家公司赚钱能力差不多，出价差一倍，差别就在值多少钱。
+        isPrimary: true
+    aliases:
+      - raw: 估值
+        aliasType: primary
+      - raw: Valuation
+        aliasType: en_alias
+  - slug: shi-ying-l-xian-jing
+    headword: 市盈率陷阱
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 低市盈率但基本面恶化。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 低市盈率但基本面恶化。
+        example: 市盈率陷阱需结合盈利趋势。
+        isPrimary: true
+    aliases:
+      - raw: 市盈率陷阱
+        aliasType: primary
+      - raw: PE Trap
+        aliasType: en_alias

@@ -1,0 +1,974 @@
+source: gen from full.tsv keyword=分歧|一致|退潮|修复|补涨|轮动|共振|二八|亏钱效应|赚钱效应|关灯吃面|梭哈|一把|龙头|补跌|超跌|反包|加速|高标|身位|晋级|情绪周期|冰点|高潮|主升|结构市|普涨|普跌|卡位|发酵 (待精修)
+terms:
+  - slug: jia-su-shen-bao-ren
+    headword: 加速申报人
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 流通市值在7500万至7亿美元之间、需按较短周期提交年报季报的公司类别。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 流通市值在7500万至7亿美元之间、需按较短周期提交年报季报的公司类别。
+        example: 达到加速申报人门槛后，年报提交期限缩短为75天。
+        isPrimary: true
+    aliases:
+      - raw: 加速申报人
+        aliasType: primary
+      - raw: Accelerated Filer
+        aliasType: en_alias
+  - slug: da-xing-jia-su-shen-bao-ren
+    headword: 大型加速申报人
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 流通市值超过7亿美元、需在财年结束后60天内提交10-K的大型上市公司。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 流通市值超过7亿美元、需在财年结束后60天内提交10-K的大型上市公司。
+        example: 大型加速申报人通常在11月初就发布年报。
+        isPrimary: true
+    aliases:
+      - raw: 大型加速申报人
+        aliasType: primary
+      - raw: Large Accelerated Filer
+        aliasType: en_alias
+  - slug: fei-jia-su-shen-bao-ren
+    headword: 非加速申报人
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 流通市值不足7500万美元、年报提交期限放宽到90天的公司类别。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 流通市值不足7500万美元、年报提交期限放宽到90天的公司类别。
+        example: 这家小市值公司属于非加速申报人，年报可以晚两个月交。
+        isPrimary: true
+    aliases:
+      - raw: 非加速申报人
+        aliasType: primary
+      - raw: Non-Accelerated Filer
+        aliasType: en_alias
+  - slug: zhi-biao-gong-zhen
+    headword: 指标共振
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 多个不同周期或不同类别的指标同时发出同向信号的现象。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 多个不同周期或不同类别的指标同时发出同向信号的现象。
+        example: 周线和日线同时金叉，指标共振看多。
+        isPrimary: true
+    aliases:
+      - raw: 指标共振
+        aliasType: primary
+      - raw: Indicator Confluence
+        aliasType: en_alias
+  - slug: zhi-biao-xiu-fu
+    headword: 指标修复
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 超买或超卖指标通过时间换空间、横盘整理回到中性区域的过程。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 超买或超卖指标通过时间换空间、横盘整理回到中性区域的过程。
+        example: 指标需要横盘两周修复后才能再涨。
+        isPrimary: true
+    aliases:
+      - raw: 指标修复
+        aliasType: primary
+      - raw: Indicator Repair
+        aliasType: en_alias
+  - slug: zhou-qi-gong-zhen
+    headword: 周期共振
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 短、中、长多个时间周期同时指向同一拐点的现象。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 短、中、长多个时间周期同时指向同一拐点的现象。
+        example: 周期共振时变盘可信度高。
+        isPrimary: true
+    aliases:
+      - raw: 周期共振
+        aliasType: primary
+      - raw: Cycle Confluence
+        aliasType: en_alias
+  - slug: pu-zhang-hang-qing
+    headword: 普涨行情
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 几乎所有板块与个股同步上涨的行情。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 几乎所有板块与个股同步上涨的行情。
+        example: 普涨行情里持股不动最舒服。
+        isPrimary: true
+    aliases:
+      - raw: 普涨行情
+        aliasType: primary
+      - raw: Broad Rally
+        aliasType: en_alias
+  - slug: pu-die-hang-qing
+    headword: 普跌行情
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 几乎所有板块与个股同步下跌的行情。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 几乎所有板块与个股同步下跌的行情。
+        example: 普跌行情里现金为王。
+        isPrimary: true
+    aliases:
+      - raw: 普跌行情
+        aliasType: primary
+      - raw: Broad Sell-off
+        aliasType: en_alias
+  - slug: er-ba-hang-qing
+    headword: 二八行情
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 少数大盘权重股上涨、多数小盘股下跌的行情。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 少数大盘权重股上涨、多数小盘股下跌的行情。
+        example: 二八行情里赚指数不赚钱。
+        isPrimary: true
+    aliases:
+      - raw: 二八行情
+        aliasType: primary
+      - raw: 20/80 Market
+        aliasType: en_alias
+  - slug: xiu-fu-hang-qing
+    headword: 修复行情
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 股价超跌后向合理估值回归的反弹行情。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 股价超跌后向合理估值回归的反弹行情。
+        example: 修复行情里反弹幅度有限。
+        isPrimary: true
+    aliases:
+      - raw: 修复行情
+        aliasType: primary
+      - raw: Recovery Rally
+        aliasType: en_alias
+  - slug: zhu-sheng-hang-qing
+    headword: 主升行情
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 艾略特波浪中第3浪或趋势中最猛的一段上涨。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 艾略特波浪中第3浪或趋势中最猛的一段上涨。
+        example: 趋势最猛的那段，拿住不动往往跑赢频繁进出。
+        isPrimary: true
+    aliases:
+      - raw: 主升行情
+        aliasType: primary
+      - raw: Main Impulse Wave
+        aliasType: en_alias
+  - slug: hang-ye-lun-dong-ji-jin
+    headword: 行业轮动基金
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 在行业间动态切换以获取轮动收益的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 在行业间动态切换以获取轮动收益的基金。
+        example: 行业轮动基金考验择时。
+        isPrimary: true
+    aliases:
+      - raw: 行业轮动基金
+        aliasType: primary
+      - raw: Sector Rotation Fund
+        aliasType: en_alias
+  - slug: xiao-fei-long-tou-e-t-f
+    headword: 消费龙头ETF
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 聚焦消费龙头公司的行业ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 聚焦消费龙头公司的行业ETF。
+        example: 消费龙头ETF集中度高。
+        isPrimary: true
+    aliases:
+      - raw: 消费龙头ETF
+        aliasType: primary
+      - raw: Consumer Leaders ETF
+        aliasType: en_alias
+  - slug: ka-wei
+    headword: 卡位
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 在题材炒作中抢先占据龙头或辨识度位置的行为。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 在题材炒作中抢先占据龙头或辨识度位置的行为。
+        example: 新题材出现后资金快速卡位龙头股。
+        isPrimary: true
+    aliases:
+      - raw: 卡位
+        aliasType: primary
+      - raw: Positioning
+        aliasType: en_alias
+  - slug: qing-xu-bing-dian
+    headword: 情绪冰点
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 市场赚钱效应极差、连板高度压缩、亏钱效应弥漫的阶段。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场赚钱效应极差、连板高度压缩、亏钱效应弥漫的阶段。
+        example: 情绪冰点往往孕育新周期起点。
+        isPrimary: true
+    aliases:
+      - raw: 情绪冰点
+        aliasType: primary
+      - raw: Sentiment Freeze
+        aliasType: en_alias
+  - slug: xiu-fu
+    headword: 修复
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 情绪冰点后亏钱效应收敛、亏钱股反包、赚钱效应回升的过程。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 情绪冰点后亏钱效应收敛、亏钱股反包、赚钱效应回升的过程。
+        example: 恐慌释放后情绪修复，超跌股率先反弹。
+        isPrimary: true
+    aliases:
+      - raw: 修复
+        aliasType: primary
+      - raw: Sentiment Repair
+        aliasType: en_alias
+  - slug: gao-biao
+    headword: 高标
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 连板数最高、代表市场情绪高度的股票，是情绪周期风向标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 连板数最高、代表市场情绪高度的股票，是情绪周期风向标。
+        example: 高标断板往往预示情绪周期进入退潮。
+        isPrimary: true
+    aliases:
+      - raw: 高标
+        aliasType: primary
+      - raw: High-position Leader
+        aliasType: en_alias
+  - slug: jin-ji
+    headword: 晋级
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 股票从低连板成功进入更高连板梯队。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股票从低连板成功进入更高连板梯队。
+        example: 三板晋级四板成功，题材持续性得到验证。
+        isPrimary: true
+    aliases:
+      - raw: 晋级
+        aliasType: primary
+      - raw: Promotion
+        aliasType: en_alias
+  - slug: zhuan-qian-xiao-ying
+    headword: 赚钱效应
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 市场多数参与者能盈利的状态，吸引场外资金入场。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 市场多数参与者能盈利的状态，吸引场外资金入场。
+        example: 赚钱效应显著，两融余额快速回升。
+        isPrimary: true
+    aliases:
+      - raw: 赚钱效应
+        aliasType: primary
+      - raw: Money-making Effect
+        aliasType: en_alias
+  - slug: kui-qian-xiao-ying
+    headword: 亏钱效应
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 市场普遍亏损的状态，导致资金离场、情绪低迷。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场普遍亏损的状态，导致资金离场、情绪低迷。
+        example: 亏钱效应扩散，短线资金离场观望。
+        isPrimary: true
+    aliases:
+      - raw: 亏钱效应
+        aliasType: primary
+      - raw: Loss-making Effect
+        aliasType: en_alias
+  - slug: qing-xu-zhou-qi
+    headword: 情绪周期
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 市场情绪从冰点-修复-发酵-高潮-退潮循环往复的规律。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场情绪从冰点-修复-发酵-高潮-退潮循环往复的规律。
+        example: 情绪周期进入退潮期，控制仓位。
+        isPrimary: true
+    aliases:
+      - raw: 情绪周期
+        aliasType: primary
+      - raw: Sentiment Cycle
+        aliasType: en_alias
+  - slug: zhu-sheng-lang
+    headword: 主升浪
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 上涨行情中最猛烈、涨幅最大的阶段，常为第三浪。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 上涨行情中最猛烈、涨幅最大的阶段，常为第三浪。
+        example: 五浪里最猛的是第三浪，吃到大波段全靠它。
+        isPrimary: true
+    aliases:
+      - raw: 主升浪
+        aliasType: primary
+      - raw: Main Up Wave
+        aliasType: en_alias
+  - slug: pu-zhang
+    headword: 普涨
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 多数股票上涨。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 多数股票上涨。
+        example: 普涨行情赚钱效应好。
+        isPrimary: true
+    aliases:
+      - raw: 普涨
+        aliasType: primary
+      - raw: Broad Rally
+        aliasType: en_alias
+  - slug: pu-die
+    headword: 普跌
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 多数股票下跌。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 多数股票下跌。
+        example: 普跌行情宜观望。
+        isPrimary: true
+    aliases:
+      - raw: 普跌
+        aliasType: primary
+      - raw: Broad Decline
+        aliasType: en_alias
+  - slug: gao-biao-gu
+    headword: 高标股
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 连板数最高的股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 连板数最高的股票。
+        example: 高标股是情绪风向标。
+        isPrimary: true
+    aliases:
+      - raw: 高标股
+        aliasType: primary
+      - raw: High Leader
+        aliasType: en_alias
+  - slug: zhuan-qian-xiao-ying-zhi-shu
+    headword: 赚钱效应指数
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 衡量市场盈利的指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 衡量市场盈利的指数。
+        example: 赚钱效应指数指导仓位。
+        isPrimary: true
+    aliases:
+      - raw: 赚钱效应指数
+        aliasType: primary
+      - raw: Profit Index
+        aliasType: en_alias
+  - slug: bing-dian
+    headword: 冰点
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 情绪最低点。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 情绪最低点。
+        example: 情绪冰点孕育反弹。
+        isPrimary: true
+    aliases:
+      - raw: 冰点
+        aliasType: primary
+      - raw: Freezing Point
+        aliasType: en_alias
+  - slug: gao-chao
+    headword: 高潮
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 情绪最高点。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 情绪最高点。
+        example: 情绪高潮警惕退潮。
+        isPrimary: true
+    aliases:
+      - raw: 高潮
+        aliasType: primary
+      - raw: Climax
+        aliasType: en_alias
+  - slug: tui-chao
+    headword: 退潮
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 情绪回落阶段。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 情绪回落阶段。
+        example: 退潮期谨慎追高。
+        isPrimary: true
+    aliases:
+      - raw: 退潮
+        aliasType: primary
+      - raw: Ebb
+        aliasType: en_alias
+  - slug: fen-qi-zhuan-yi-zhi
+    headword: 分歧转一致
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 多空分歧后趋同。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 多空分歧后趋同。
+        example: 分歧转一致是加速信号。
+        isPrimary: true
+    aliases:
+      - raw: 分歧转一致
+        aliasType: primary
+      - raw: Divergence to Consensus
+        aliasType: en_alias
+  - slug: yi-zhi-zhuan-fen-qi
+    headword: 一致转分歧
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 共识后出现分歧。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 共识后出现分歧。
+        example: 一致转分歧警惕见顶。
+        isPrimary: true
+    aliases:
+      - raw: 一致转分歧
+        aliasType: primary
+      - raw: Consensus to Divergence
+        aliasType: en_alias
+  - slug: bu-zhang-long
+    headword: 补涨龙
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 补涨的龙头股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 补涨的龙头股。
+        example: 补涨龙持续性弱。
+        isPrimary: true
+    aliases:
+      - raw: 补涨龙
+        aliasType: primary
+      - raw: Catch-up Leader
+        aliasType: en_alias
+  - slug: yi-zhi-xing-ping-jia
+    headword: 一致性评价
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 仿制药质量一致性评价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 仿制药质量一致性评价。
+        example: 一致性评价淘汰落后产能。
+        isPrimary: true
+    aliases:
+      - raw: 一致性评价
+        aliasType: primary
+      - raw: Consistency Evaluation
+        aliasType: en_alias
+  - slug: yi-zhi-yu-qi-bao-gao
+    headword: 一致预期报告
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 盈利预测汇总。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 盈利预测汇总。
+        example: 一致预期是基准。
+        isPrimary: true
+    aliases:
+      - raw: 一致预期报告
+        aliasType: primary
+      - raw: Consensus Report
+        aliasType: en_alias
+  - slug: gu-zhi-xiu-fu
+    headword: 估值修复
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 价格跌到明显低于合理估值之后，向合理水平回升的过程。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 价格跌到明显低于合理估值之后，向合理水平回升的过程。
+        example: 业绩没变化但股价回升，往往是价格向合理水平回归在起作用。
+        isPrimary: true
+    aliases:
+      - raw: 估值修复
+        aliasType: primary
+      - raw: Valuation Recovery
+        aliasType: en_alias
+  - slug: yi-zhi-xing-dong-ren
+    headword: 一致行动人
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 行动一致股东。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 行动一致股东。
+        example: 一致行动合并计算。
+        isPrimary: true
+    aliases:
+      - raw: 一致行动人
+        aliasType: primary
+      - raw: Concerted Actor
+        aliasType: en_alias
+  - slug: ye-ji-xiu-fu
+    headword: 业绩修复
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 盈利逐步修复。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 盈利逐步修复。
+        example: 修复确认拐点。
+        isPrimary: true
+    aliases:
+      - raw: 业绩修复
+        aliasType: primary
+      - raw: Earnings Recovery
+        aliasType: en_alias
+  - slug: xin-xin-xiu-fu
+    headword: 信心修复
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 市场信心恢复。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场信心恢复。
+        example: 信心修复促行情。
+        isPrimary: true
+    aliases:
+      - raw: 信心修复
+        aliasType: primary
+      - raw: Confidence Recovery
+        aliasType: en_alias
+  - slug: ji-ben-mian-xiu-fu
+    headword: 基本面修复
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 基本面改善。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 基本面改善。
+        example: 基本面修复是根基。
+        isPrimary: true
+    aliases:
+      - raw: 基本面修复
+        aliasType: primary
+      - raw: Fundamental Recovery
+        aliasType: en_alias
+  - slug: yu-qi-xiu-fu
+    headword: 预期修复
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 预期改善。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 预期改善。
+        example: 预期修复先行。
+        isPrimary: true
+    aliases:
+      - raw: 预期修复
+        aliasType: primary
+      - raw: Expectation Recovery
+        aliasType: en_alias
+  - slug: dai-wei-si-xiu-fu
+    headword: 戴维斯修复
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 盈利与估值同步修复。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 盈利与估值同步修复。
+        example: 戴维斯修复双击。
+        isPrimary: true
+    aliases:
+      - raw: 戴维斯修复
+        aliasType: primary
+      - raw: Davis Recovery
+        aliasType: en_alias
+  - slug: zhou-qi-xiu-fu
+    headword: 周期修复
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 行业周期回升。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 行业周期回升。
+        example: 周期修复利好周期股。
+        isPrimary: true
+    aliases:
+      - raw: 周期修复
+        aliasType: primary
+      - raw: Cyclical Recovery
+        aliasType: en_alias
+  - slug: ku-cun-xiu-fu
+    headword: 库存修复
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 库存周期回升。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 库存周期回升。
+        example: 库存修复带动补库。
+        isPrimary: true
+    aliases:
+      - raw: 库存修复
+        aliasType: primary
+      - raw: Inventory Recovery
+        aliasType: en_alias
+  - slug: xu-qiu-xiu-fu
+    headword: 需求修复
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 需求逐步恢复。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 需求逐步恢复。
+        example: 需求修复拉动收入。
+        isPrimary: true
+    aliases:
+      - raw: 需求修复
+        aliasType: primary
+      - raw: Demand Recovery
+        aliasType: en_alias
+  - slug: gong-ji-xiu-fu
+    headword: 供给修复
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 供给恢复正常。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 供给恢复正常。
+        example: 供给修复平衡供需。
+        isPrimary: true
+    aliases:
+      - raw: 供给修复
+        aliasType: primary
+      - raw: Supply Recovery
+        aliasType: en_alias
+  - slug: ying-li-xiu-fu
+    headword: 盈利修复
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 盈利回归正常。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 盈利回归正常。
+        example: 盈利修复支撑估值。
+        isPrimary: true
+    aliases:
+      - raw: 盈利修复
+        aliasType: primary
+      - raw: Earnings Repair
+        aliasType: en_alias
+  - slug: chan-neng-xiu-fu
+    headword: 产能修复
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 产能利用率回升。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 产能利用率回升。
+        example: 产能修复提升盈利。
+        isPrimary: true
+    aliases:
+      - raw: 产能修复
+        aliasType: primary
+      - raw: Capacity Recovery
+        aliasType: en_alias
+  - slug: ding-dan-xiu-fu
+    headword: 订单修复
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 订单量恢复。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 订单量恢复。
+        example: 订单修复预示需求。
+        isPrimary: true
+    aliases:
+      - raw: 订单修复
+        aliasType: primary
+      - raw: Order Recovery
+        aliasType: en_alias
+  - slug: jia-ge-xiu-fu
+    headword: 价格修复
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 产品价格回升。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 产品价格回升。
+        example: 价格修复提升毛利。
+        isPrimary: true
+    aliases:
+      - raw: 价格修复
+        aliasType: primary
+      - raw: Price Recovery
+        aliasType: en_alias
+  - slug: mao-li-l-xiu-fu
+    headword: 毛利率修复
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 毛利率回升。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 毛利率回升。
+        example: 毛利修复增强盈利。
+        isPrimary: true
+    aliases:
+      - raw: 毛利率修复
+        aliasType: primary
+      - raw: Margin Recovery
+        aliasType: en_alias
+  - slug: xian-jin-liu-xiu-fu
+    headword: 现金流修复
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 现金流改善。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 现金流改善。
+        example: 现金流修复降风险。
+        isPrimary: true
+    aliases:
+      - raw: 现金流修复
+        aliasType: primary
+      - raw: Cash Flow Recovery
+        aliasType: en_alias
+  - slug: zi-chan-fu-zhai-biao-xiu-fu
+    headword: 资产负债表修复
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 资产负债表改善。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资产负债表改善。
+        example: 报表修复提质量。
+        isPrimary: true
+    aliases:
+      - raw: 资产负债表修复
+        aliasType: primary
+      - raw: Balance Sheet Repair
+        aliasType: en_alias
+  - slug: gang-gan-xiu-fu
+    headword: 杠杆修复
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 降杠杆改善。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 降杠杆改善。
+        example: 杠杆修复降风险。
+        isPrimary: true
+    aliases:
+      - raw: 杠杆修复
+        aliasType: primary
+      - raw: Leverage Repair
+        aliasType: en_alias
+  - slug: jian-guan-yi-zhi-xing
+    headword: 监管一致性
+    categoryL1: 行情黑话
+    categoryL2: 市场情绪
+    difficulty: L2
+    summaryPlain: 监管标准统一。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 监管标准统一。
+        example: 一致防套利。
+        isPrimary: true
+    aliases:
+      - raw: 监管一致性
+        aliasType: primary
+      - raw: Regulatory Consistency
+        aliasType: en_alias

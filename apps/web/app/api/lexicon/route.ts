@@ -33,7 +33,14 @@ export function GET(request: Request) {
     });
   }
 
-  return NextResponse.json(manifest, {
+  // 客户端只用匹配/浏览字段（slug/headword/分类/释义/风险/义项/别名），
+  // viz/insights 仅服务端详情页消费；下发前剥离以降低 payload（万级词条时显著）。
+  const slim = {
+    ...manifest,
+    entries: manifest.entries.map(({ viz: _viz, insights: _insights, ...rest }) => rest),
+  };
+
+  return NextResponse.json(slim, {
     status: 200,
     headers: {
       ETag: etag,

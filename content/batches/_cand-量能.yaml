@@ -1,0 +1,416 @@
+source: gen from full.tsv keyword=量价关系|量价齐升|量价背离|天量|地量|堆量|量能|内外盘|委比|委差|大单|中单|小单|主力净流入|筹码分布|获利盘|套牢盘|集中度|浮筹|DDX|DDY|DDZ (待精修)
+terms:
+  - slug: shou-ru-ji-zhong-du
+    headword: 收入集中度
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 前几大客户或产品占总收入的比重，衡量业务分散程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 前几大客户或产品占总收入的比重，衡量业务分散程度。
+        example: 收入集中度高，单一客户变动影响巨大。
+        isPrimary: true
+    aliases:
+      - raw: 收入集中度
+        aliasType: primary
+      - raw: Revenue Concentration
+        aliasType: en_alias
+  - slug: ke-hu-ji-zhong-du
+    headword: 客户集中度
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 前五大客户销售额占总收入的比例，越高依赖越强。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 前五大客户销售额占总收入的比例，越高依赖越强。
+        example: 前五大客户占了六成收入，丢一个大客户业绩就伤。
+        isPrimary: true
+    aliases:
+      - raw: 客户集中度
+        aliasType: primary
+      - raw: Customer Concentration
+        aliasType: en_alias
+  - slug: dui-liang
+    headword: 堆量
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 股价低位连续多日温和放量、像堆土一样逐步抬高成交量的状态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价低位连续多日温和放量、像堆土一样逐步抬高成交量的状态。
+        example: 低位堆量是主力悄悄建仓痕迹。
+        isPrimary: true
+    aliases:
+      - raw: 堆量
+        aliasType: primary
+      - raw: Volume Accumulation
+        aliasType: en_alias
+  - slug: liang-neng-wei-suo
+    headword: 量能萎缩
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 成交量逐日缩小、市场参与度下降的状态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 成交量逐日缩小、市场参与度下降的状态。
+        example: 地量见地价，量能萎缩到极致往往变盘。
+        isPrimary: true
+    aliases:
+      - raw: 量能萎缩
+        aliasType: primary
+      - raw: Volume Drying Up
+        aliasType: en_alias
+  - slug: liang-neng-chao
+    headword: 量能潮
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 一段时间内成交量潮起潮落的整体节奏，反映主力进出。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 一段时间内成交量潮起潮落的整体节奏，反映主力进出。
+        example: 量能潮退去后股价也跟着回落。
+        isPrimary: true
+    aliases:
+      - raw: 量能潮
+        aliasType: primary
+      - raw: Volume Tide
+        aliasType: en_alias
+  - slug: dui-liang-shang-xing
+    headword: 堆量上行
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 股价上涨过程中成交量逐日温和放大、像堆台阶。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价上涨过程中成交量逐日温和放大、像堆台阶。
+        example: 堆量上行是主升浪典型特征。
+        isPrimary: true
+    aliases:
+      - raw: 堆量上行
+        aliasType: primary
+      - raw: Gradual Volume Climb
+        aliasType: en_alias
+  - slug: chao-da-dan
+    headword: 超大单
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 单笔成交金额通常在100万元以上的大单，具体门槛各券商略有差异，常被用来观察机构动向。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 单笔成交金额通常在100万元以上的大单，具体门槛各券商略有差异，常被用来观察机构动向。
+        example: 盘中出现单笔金额惊人的大单持续流入，常被视为机构在行动。
+        isPrimary: true
+    aliases:
+      - raw: 超大单
+        aliasType: primary
+      - raw: Super Large Order
+        aliasType: en_alias
+  - slug: zhong-dan
+    headword: 中单
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 单笔成交金额介于大单与小单之间、通常在20-100万元的订单。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 单笔成交金额介于大单与小单之间、通常在20-100万元的订单。
+        example: 中单流向常被忽略。
+        isPrimary: true
+    aliases:
+      - raw: 中单
+        aliasType: primary
+      - raw: Medium Order
+        aliasType: en_alias
+  - slug: xiao-dan
+    headword: 小单
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 单笔成交金额较小、通常在20万元以下的散户订单。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 单笔成交金额较小、通常在20万元以下的散户订单。
+        example: 小单净流出而大单净流入，典型吸筹。
+        isPrimary: true
+    aliases:
+      - raw: 小单
+        aliasType: primary
+      - raw: Small Order
+        aliasType: en_alias
+  - slug: tao-lao-pan-ya-li
+    headword: 套牢盘压力
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 上方套牢筹码在反弹到成本区时解套抛售形成的压力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上方套牢筹码在反弹到成本区时解套抛售形成的压力。
+        example: 套牢盘压力让每次反弹都失败。
+        isPrimary: true
+    aliases:
+      - raw: 套牢盘压力
+        aliasType: primary
+      - raw: Locked Longs Pressure
+        aliasType: en_alias
+  - slug: huo-li-pan-pao-ya
+    headword: 获利盘抛压
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 低位获利筹码在上涨后兑现利润形成的抛压。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 低位获利筹码在上涨后兑现利润形成的抛压。
+        example: 获利盘抛压导致股价短线回调。
+        isPrimary: true
+    aliases:
+      - raw: 获利盘抛压
+        aliasType: primary
+      - raw: Profit-Taking Pressure
+        aliasType: en_alias
+  - slug: chou-ma-ji-zhong-du
+    headword: 筹码集中度
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 筹码分布的集中程度，数值越小说明筹码越集中。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 筹码分布的集中程度，数值越小说明筹码越集中。
+        example: 筹码集中度持续下降说明主力吸筹。
+        isPrimary: true
+    aliases:
+      - raw: 筹码集中度
+        aliasType: primary
+      - raw: Chip Concentration
+        aliasType: en_alias
+  - slug: wei-bi
+    headword: 委比
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 委托买卖五档中买盘与卖盘手数差额占总委托的比例，正值偏多、负值偏空。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 委托买卖五档中买盘与卖盘手数差额占总委托的比例，正值偏多、负值偏空。
+        example: 委比为+80%说明买盘明显占优。
+        isPrimary: true
+    aliases:
+      - raw: 委比
+        aliasType: primary
+      - raw: Order Imbalance Ratio
+        aliasType: en_alias
+  - slug: wei-cha
+    headword: 委差
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 五档委托中买盘手数减去卖盘手数的差值，衡量买卖力量对比。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 五档委托中买盘手数减去卖盘手数的差值，衡量买卖力量对比。
+        example: 委差持续为正，股价重心上移。
+        isPrimary: true
+    aliases:
+      - raw: 委差
+        aliasType: primary
+      - raw: Order Difference
+        aliasType: en_alias
+  - slug: da-dan
+    headword: 大单
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 单笔金额较大的成交或委托，通常指50万元以上买单或100万元以上卖单（各软件口径不同）。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 单笔金额较大的成交或委托，通常指50万元以上买单或100万元以上卖单（各软件口径不同）。
+        example: 尾盘出现多笔大单扫货，疑似机构建仓。
+        isPrimary: true
+    aliases:
+      - raw: 大单
+        aliasType: primary
+      - raw: Large Order
+        aliasType: en_alias
+  - slug: liang-jia-qi-sheng
+    headword: 量价齐升
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 成交量与股价同步上升，上涨具备资金支撑。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 成交量与股价同步上升，上涨具备资金支撑。
+        example: 量价齐升突破前高，趋势确认。
+        isPrimary: true
+    aliases:
+      - raw: 量价齐升
+        aliasType: primary
+      - raw: Volume-price Rise
+        aliasType: en_alias
+  - slug: liang-jia-guan-xi
+    headword: 量价关系
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 成交量与股价涨跌的配合情况：价涨量增、价跌量减常被视为健康的配合，价涨量缩说明推升力量不足。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 成交量与股价涨跌的配合情况：价涨量增、价跌量减常被视为健康的配合，价涨量缩说明推升力量不足。
+        example: 同样涨两个点，成交量放大数倍的那次更被认可。
+        isPrimary: true
+    aliases:
+      - raw: 量价关系
+        aliasType: primary
+      - raw: Volume-price Relation
+        aliasType: en_alias
+  - slug: huo-li-pan
+    headword: 获利盘
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 持仓盈利的筹码比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 持仓盈利的筹码比例。
+        example: 获利盘高企抛压增大。
+        isPrimary: true
+    aliases:
+      - raw: 获利盘
+        aliasType: primary
+      - raw: Profit-taking Position
+        aliasType: en_alias
+  - slug: tao-lao-pan
+    headword: 套牢盘
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 持仓亏损的筹码比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 持仓亏损的筹码比例。
+        example: 套牢盘密集区压力大。
+        isPrimary: true
+    aliases:
+      - raw: 套牢盘
+        aliasType: primary
+      - raw: Trapped Position
+        aliasType: en_alias
+  - slug: ji-zhong-du
+    headword: 集中度
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 行业集中程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 行业集中程度。
+        example: 集中度提升利好龙头。
+        isPrimary: true
+    aliases:
+      - raw: 集中度
+        aliasType: primary
+      - raw: Concentration
+        aliasType: en_alias
+  - slug: ji-zhong-du-zhi-shu
+    headword: 集中度指数
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 前几家集中度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 前几家集中度。
+        example: CR3高行业集中。
+        isPrimary: true
+    aliases:
+      - raw: 集中度指数
+        aliasType: primary
+      - raw: CR Ratio
+        aliasType: en_alias
+  - slug: ji-zhong-du-ti-sheng
+    headword: 集中度提升
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 行业向龙头集中。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 行业向龙头集中。
+        example: 集中提升利好龙头。
+        isPrimary: true
+    aliases:
+      - raw: 集中度提升
+        aliasType: primary
+      - raw: Concentration Rise
+        aliasType: en_alias
+  - slug: ji-zhong-du-guan-li
+    headword: 集中度管理
+    categoryL1: 技术指标
+    categoryL2: 量能指标
+    difficulty: L2
+    summaryPlain: 持仓集中管理。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 持仓集中管理。
+        example: 集中控波动。
+        isPrimary: true
+    aliases:
+      - raw: 集中度管理
+        aliasType: primary
+      - raw: Concentration Management
+        aliasType: en_alias

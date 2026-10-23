@@ -1,0 +1,626 @@
+# 自动生成的批量词条源（可由 ingest 重新编译为 lexicon.json）
+category: 宏观政策
+source: bootstrap from lexicon.json (2026-10-22)
+terms:
+  - slug: dian-zhen-tu
+    headword: 点阵图
+    categoryL1: 宏观政策
+    categoryL2: 利率预期
+    difficulty: L3
+    summaryPlain: 美联储委员每人画一个未来利率预测点，散成的图：市场最爱的算命工具。
+    riskNote: 是个人预测不是承诺，委员自己都常改主意。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 美联储委员每人画一个未来利率预测点，散成的图：市场最爱的算命工具。
+        example: 比如利率预测散点图显示明年降息两次少于预期，美股尾盘跳水。
+        notMeaning: 是个人预测不是承诺，委员自己都常改主意。
+        isPrimary: true
+        contextKeywords:
+          - 利率预期
+        frequency: mid
+    aliases:
+      - raw: 点阵图
+        aliasType: primary
+      - raw: Dot Plot
+        aliasType: en_alias
+      - raw: 利率预测
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: 点阵图：委员们的押注
+        min: 0
+        max: 6
+        threshold: 3
+        initial: 3
+        valueLabel: 2027 年利率预测
+        unit: "%"
+        step: 0.25
+        zones:
+          - min: 0
+            max: 3
+            label: 预测偏鸽
+            color: var(--up)
+          - min: 3
+            max: 6
+            label: 预测偏鹰
+            color: var(--down)
+    insights:
+      affects:
+        - 预期引导：比声明更直白
+        - 市场：经常拿它和利率期货对赌
+      good:
+        - 点位下移：宽松预期
+      bad:
+        - 点位顽固：higher for longer
+      policy:
+        - 每次会议更新
+      example: 全班投票「期末考难不难」：多数人画「难」=点阵图偏鹰。但真到考试，学霸（美联储）说了算。
+  - slug: fomc
+    headword: FOMC
+    categoryL1: 宏观政策
+    categoryL2: 会议
+    difficulty: L2
+    summaryPlain: 美联储的议息会议，一年 8 次：决定美元利率的全球最重要会议。
+    riskNote: 预期常提前打满，真到开会反而容易「利好出尽」。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 美联储的议息会议，一年 8 次：决定美元利率的全球最重要会议。
+        example: 比如议息会议宣布暂停加息，美股当晚先涨后跌。
+        notMeaning: 预期常提前打满，真到开会反而容易「利好出尽」。
+        isPrimary: true
+        contextKeywords:
+          - 会议
+        frequency: mid
+    aliases:
+      - raw: FOMC
+        aliasType: primary
+      - raw: 议息会议
+        aliasType: cn_alias
+      - raw: 美联储会议
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: FOMC：全球资金的春节晚会
+    insights:
+      affects:
+        - 全球利率：会议声明决定美元潮汐
+        - 资产价格：议息夜波动巨大
+      good:
+        - 转鸽：风险资产狂欢
+      bad:
+        - 鹰派意外：全球跳水
+      policy:
+        - 每年 8 次例会+点阵图
+      example: 全球投资者每年追 8 次的连续剧：预告片（会前预期）比正片（会议本身）更刺激。
+  - slug: jiang-xi
+    headword: 降息
+    categoryL1: 宏观政策
+    categoryL2: 央行工具
+    difficulty: L2
+    summaryPlain: 央行或市场利率往下走，借钱的成本变便宜：贷款利息少了，存款利息也少了。
+    riskNote: 降息周期里债券通常涨、存款搬家；但救不了坏公司的基本面。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 央行或市场利率往下走，借钱的成本变便宜：贷款利息少了，存款利息也少了。
+        example: 比如新闻说政策利率下调了 10 个基点，房贷一族开始算下个月能少还多少，市场则担心银行存款搬家。
+        notMeaning: 降息周期里债券通常涨、存款搬家；但救不了坏公司的基本面。
+        isPrimary: true
+        contextKeywords:
+          - 央行工具
+        frequency: high
+    aliases:
+      - raw: 降息
+        aliasType: primary
+      - raw: 加息反向
+        aliasType: cn_alias
+      - raw: 降低利率
+        aliasType: cn_alias
+    viz:
+      type: PEScale
+      config:
+        ratioName: 资金价格
+        denomLabel: 利息成本
+        denomMax: 10
+        cheap: 3
+        fair: 6
+    insights:
+      affects:
+        - 借贷：房贷/经营贷月供变少
+        - 股市：折现率下降，股票的相对吸引力上升
+        - 储蓄：存款收益缩水，资金倾向搬家
+      good:
+        - 刺激物价和投资：借钱便宜，大家敢花敢投
+        - 降低债务利息负担，给企业和地方减压
+      bad:
+        - 存钱收益越来越薄
+        - 降太多可能催生资产泡沫
+      policy:
+        - 央行根据增长/就业/物价决定节奏
+        - 美联储转向会打开国内政策空间
+      example: 快餐店全场八折：去吃（借钱消费/投资）的人多了，但卖肉的（存款的人）收入少了。
+  - slug: jiang-zhun
+    headword: 降准
+    categoryL1: 宏观政策
+    categoryL2: 央行工具
+    difficulty: L2
+    summaryPlain: 央行降低银行必须存在央行的钱的比例，银行能多贷出去一些，等于给市场放水。
+    riskNote: 放水不一定进股市，也可能流向债市、楼市或躺着；利好常被提前消化。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 央行降低银行必须存在央行的钱的比例，银行能多贷出去一些，等于给市场放水。
+        example: 比如新闻说央行宣布下调金融机构存款准备金率，市场解读为长期流动性增加，第二天银行股常常高开。
+        notMeaning: 放水不一定进股市，也可能流向债市、楼市或躺着；利好常被提前消化。
+        isPrimary: true
+        contextKeywords:
+          - 央行工具
+        frequency: high
+    aliases:
+      - raw: 降准
+        aliasType: primary
+      - raw: 降低存款准备金率
+        aliasType: cn_alias
+      - raw: RRR
+        aliasType: en_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: 降准：水龙头开大一点
+        direction: north
+    insights:
+      affects:
+        - 市场资金：可贷资金变多，利率倾向走低
+        - 股市：流动性宽松是估值抬升的燃料
+        - 楼市/实体：贷款额度边际放松
+      good:
+        - 中小银行、成长股通常更受益
+        - 经济下行期的托底信号
+      bad:
+        - 利好出尽：宣布当天高开低走很常见
+        - 放水推升资产价格，贫富感受分化
+      policy:
+        - 央行每季度根据经济金融形势择机宣布
+        - 配合结构性工具定向灌溉重点领域
+      example: 水库闸门抬高一点（准备金率降低），下游灌溉田里的水就多些。但水往哪流、流多快，还要看沟渠。
+  - slug: jie-jin
+    headword: 解禁
+    categoryL1: 宏观政策
+    categoryL2: 供给压力
+    difficulty: L3
+    summaryPlain: 此前受限不能在市场抛售的股票（如原始股、定增股）到了约定时间可以流通卖出，可能增加卖压。
+    riskNote: 能卖不代表一定卖，实际冲击要看股东意愿和市场承接。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 此前受限不能在市场抛售的股票（如原始股、定增股）到了约定时间可以流通卖出，可能增加卖压。
+        example: 比如一批当初锁着的股份过了承诺期，持有人终于能在二级市场抛了，盘面就担心抛压。
+        notMeaning: 能卖不代表一定卖，实际冲击要看股东意愿和市场承接。
+        isPrimary: true
+        contextKeywords:
+          - 限售股
+          - 流通
+          - 抛压
+          - 锁定期
+        frequency: mid
+    aliases:
+      - raw: 解禁
+        aliasType: primary
+      - raw: 限售股解禁
+        aliasType: colloquial
+    viz:
+      type: UnlockPressure
+      config: {}
+    insights:
+      affects:
+        - 未来可能多出来的卖盘
+        - 股价短期承压
+        - 股东是否减持的预期
+      good:
+        - 几乎（解禁本身中性）
+        - 若股东不卖，利空落空反成利好
+      bad:
+        - 锁着的股票解锁→潜在砸盘
+        - 集中大额解禁易跌
+      policy:
+        - 减持新规限制卖出节奏
+        - 锁定期长短由发行规则定
+      example: 仓库门打开：之前不能卖的股票（锁仓）到期能卖了。如果股东哗啦啦往外卖，就像突然多了一堆货砸向市场，价格易被压低。
+  - slug: jie-ke-xun-huo-er
+    headword: 杰克逊霍尔
+    categoryL1: 宏观政策
+    categoryL2: 会议
+    difficulty: L2
+    summaryPlain: 每年夏天的全球央行年会：美联储主席常在这里放风，市场称为「央行夏令营」。
+    riskNote: 讲话是预期管理，不一定等于政策落地。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 每年夏天的全球央行年会：美联储主席常在这里放风，市场称为「央行夏令营」。
+        example: 比如主席在这场全球央行年会上放鹰，市场连夜重新定价。
+        notMeaning: 讲话是预期管理，不一定等于政策落地。
+        isPrimary: true
+        contextKeywords:
+          - 会议
+        frequency: mid
+    aliases:
+      - raw: 杰克逊霍尔
+        aliasType: primary
+      - raw: Jackson Hole
+        aliasType: en_alias
+      - raw: 央行年会
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 杰克逊霍尔：央行夏令营
+    insights:
+      affects:
+        - 预期引导：年会定调下半年
+        - 市场：讲话当晚波动巨大
+      good:
+        - 释放宽松信号：全球松口气
+      bad:
+        - 意外鹰派：紧缩恐慌
+      policy:
+        - 年会每年主题设定议程
+      example: 暑假前的全校动员大会：校长（美联储主席）一个眼神，全校（全球市场）就知道下半年紧不紧张。
+  - slug: kuo-rong
+    headword: 扩容
+    categoryL1: 宏观政策
+    categoryL2: 供给
+    difficulty: L3
+    summaryPlain: 市场里可交易标的或资金池变大，比如新股加快发行、新板块开闸，会增加供给端压力。
+    riskNote: 供给多了不一定跌，关键看有没有增量资金接得住。
+    frequency: low
+    popularity: 300
+    senses:
+      - senseKey: default
+        plainExplain: 市场里可交易标的或资金池变大，比如新股加快发行、新板块开闸，会增加供给端压力。
+        example: 比如一阵子新股接二连三地上市、板块也开了新口子，大家就说池子被做大了。
+        notMeaning: 供给多了不一定跌，关键看有没有增量资金接得住。
+        isPrimary: true
+        contextKeywords:
+          - IPO
+          - 新股
+          - 供给
+          - 抽血
+        frequency: low
+    aliases:
+      - raw: 扩容
+        aliasType: primary
+    viz:
+      type: PoolDilution
+      config: {}
+    insights:
+      affects:
+        - 市场上股票 / 资金池变不变大
+        - 存量资金被不被‘摊薄’
+        - 新股中签机会
+      good:
+        - 企业能融到钱发展
+        - 长期丰富投资选择
+      bad:
+        - 短期股票变多→资金被稀释、易跌
+        - ‘池子里的鱼变多，每条分到的水少’
+      policy:
+        - IPO 节奏、增发审核由监管控
+        - 注册制加快会加速扩容
+      example: 池塘里原来 100 条鱼（股票），又放进 50 条。水（资金）没变多，每条鱼分到的水就少了——这就是扩容带来的‘稀释感’。
+  - slug: lpr
+    headword: LPR
+    categoryL1: 宏观政策
+    categoryL2: 利率
+    difficulty: L2
+    summaryPlain: 中国贷款定价的「官方参考价」：每月 20 号更新，房贷、企业贷大多参考它加减点。
+    riskNote: 你的实际利率 = LPR ± 固定点数，LPR 降不代表存量房贷马上降（看重定价日）。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 中国贷款定价的「官方参考价」：每月 20 号更新，房贷、企业贷大多参考它加减点。
+        example: 比如这个月公布的 5 年期以上报价比上个月降了 10 个基点，准备买房的人开始比较各家银行的实际利率。
+        notMeaning: 你的实际利率 = LPR ± 固定点数，LPR 降不代表存量房贷马上降（看重定价日）。
+        isPrimary: true
+        contextKeywords:
+          - 利率
+        frequency: high
+    aliases:
+      - raw: LPR
+        aliasType: primary
+      - raw: 贷款市场报价利率
+        aliasType: cn_alias
+    viz:
+      type: PEScale
+      config:
+        ratioName: 贷款参考价
+        denomLabel: 利息负担
+        denomMax: 10
+        cheap: 2
+        fair: 5
+    insights:
+      affects:
+        - 房贷月供：重定价日后按新 LPR 重算
+        - 企业融资成本：LPR 降→贷款便宜
+        - 银行息差：降太狠银行利润受压
+      good:
+        - 降 LPR：买房和借钱成本下降
+        - 5 年期单独下调：托楼市信号
+      bad:
+        - LPR 不降但市场预期落空：股市银行地产回调
+        - 降息太快：汇率承压
+      policy:
+        - 央行每月 20 日公布，由报价行按中期便利利率加点形成
+        - 逆回购利率下调会引导 LPR 下行
+      example: 超市每天早上更新「今日基准油价」（LPR），加油站（银行）在它上面加自己的服务费——基准降了，你加油便宜，但不一定当天就便宜。
+  - slug: mei-lian-chu
+    headword: 美联储
+    categoryL1: 宏观政策
+    categoryL2: 央行
+    difficulty: L2
+    summaryPlain: 美国的中央银行，决定美元的利息和水量，它打个喷嚏，全球股市跟着感冒。
+    riskNote: 它优先管美国通胀和就业，决策不会照顾别国市场。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 美国的中央银行，决定美元的利息和水量，它打个喷嚏，全球股市跟着感冒。
+        example: 比如议息会议宣布维持利率不变但措辞偏软，美股当晚拉升，黄金和新兴市场货币也跟着走强。
+        notMeaning: 它优先管美国通胀和就业，决策不会照顾别国市场。
+        isPrimary: true
+        contextKeywords:
+          - 央行
+        frequency: high
+    aliases:
+      - raw: 美联储
+        aliasType: primary
+      - raw: Fed
+        aliasType: en_alias
+      - raw: FOMC
+        aliasType: en_alias
+      - raw: 美国央行
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config: {}
+    insights:
+      affects:
+        - 全球利率：美元是主要结算货币，美联储=全球资金的水龙头
+        - 美股/港股：议息夜前后波动加大
+        - 人民币汇率和外资流向
+      good:
+        - 转鸽（偏宽松）：全球风险资产通常松一口气
+        - 按兵不动且措辞温和：市场偏好
+      bad:
+        - 超预期鹰派：全球股市 often 跳水
+        - 持续加息：新兴市场资金外流压力
+      policy:
+        - FOMC 一年 8 次议息会议决定利率
+        - 缩表/扩表调节货币水量
+      example: 班里最富的学霸（美国）决定请大家吃几块糖（降息）——全班的情绪都看他脸色；他宣布明天只发半块，大家立刻安静。
+  - slug: qe
+    headword: QE
+    categoryL1: 宏观政策
+    categoryL2: 央行工具
+    difficulty: L2
+    summaryPlain: 量化宽松：央行开动印钞机买债券，把长期利率压下来、把市场的钱变多。
+    riskNote: 水位下货币只是更便宜，不等于人人都能赚到钱；退出（QT）时市场会疼。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 量化宽松：央行开动印钞机买债券，把长期利率压下来、把市场的钱变多。
+        example: 比如央行宣布启动资产购买计划，利率和美元同时走低，风险资产全面反弹。
+        notMeaning: 水位下货币只是更便宜，不等于人人都能赚到钱；退出（QT）时市场会疼。
+        isPrimary: true
+        contextKeywords:
+          - 央行工具
+        frequency: high
+    aliases:
+      - raw: QE
+        aliasType: primary
+      - raw: 量化宽松
+        aliasType: cn_alias
+      - raw: 放水
+        aliasType: cn_alias
+      - raw: QT
+        aliasType: cn_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: QE：央行亲自下场买
+        direction: north
+    insights:
+      affects:
+        - 资产价格：水涨船高，是股债楼的大利好
+        - 汇率：放水太猛本币倾向贬值
+        - 贫富：有资产的人受益更多
+      good:
+        - 危机时的强心针：2008、2020 都靠它救场
+        - 压低房贷和企业债利率
+      bad:
+        - QT（缩表）阶段：市场抽水，波动加大
+        - 高度依赖 QE 的市场像上瘾，戒断反应大
+      policy:
+        - 危机时启动，经济复苏后退出
+        - 央行的买入节奏直接影响利率曲线
+      example: 村里缺水，村长不挨家劝，而是直接买下所有水车往村里灌水（QE）。水位涨了，有水罐的人家先满。
+  - slug: sofr
+    headword: SOFR
+    categoryL1: 宏观政策
+    categoryL2: 利率
+    difficulty: L3
+    summaryPlain: 美国现在最常用的短期美元基准利率，取代了出过操纵丑闻的 LIBOR。
+    riskNote: 它替代的是基准利率体系，影响所有美元贷款定价。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 美国现在最常用的短期美元基准利率，取代了出过操纵丑闻的 LIBOR。
+        example: 比如这个美元短期基准利率上行，美国企业浮动利率贷款的成本跟着抬。
+        notMeaning: 它替代的是基准利率体系，影响所有美元贷款定价。
+        isPrimary: true
+        contextKeywords:
+          - 利率
+        frequency: mid
+    aliases:
+      - raw: SOFR
+        aliasType: primary
+      - raw: 担保隔夜融资利率
+        aliasType: cn_alias
+      - raw: LIBOR
+        aliasType: cn_alias
+    viz:
+      type: PEScale
+      config:
+        ratioName: 美元资金利率
+        denomLabel: 利息成本
+        denomMax: 10
+        cheap: 2
+        fair: 5
+    insights:
+      affects:
+        - 美元定价：贷款、衍生品的锚
+        - 全球：离岸美元的批发价
+      good:
+        - 回落：美元信贷宽松
+      bad:
+        - 飙升：美元荒信号
+      policy:
+        - 美联储利率走廊上下沿
+      example: 银行之间借钱的「菜市场挂牌价」：以前那个牌子被人涂改过（LIBOR 丑闻），换成了实时成交算出来的新牌子。
+  - slug: taper
+    headword: Taper
+    categoryL1: 宏观政策
+    categoryL2: 央行工具
+    difficulty: L3
+    summaryPlain: 缩减购债：QE 后期央行慢慢少买，放水的最后一公里。
+    riskNote: 退出过程本身就是市场的压力测试。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 缩减购债：QE 后期央行慢慢少买，放水的最后一公里。
+        example: 比如 2013 年缩减购债发言引发恐慌，全球债市大跌。
+        notMeaning: 退出过程本身就是市场的压力测试。
+        isPrimary: true
+        contextKeywords:
+          - 央行工具
+        frequency: mid
+    aliases:
+      - raw: Taper
+        aliasType: primary
+      - raw: 缩减购债
+        aliasType: cn_alias
+      - raw: 退出QE
+        aliasType: cn_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: Taper：水龙头慢慢关
+    insights:
+      affects:
+        - 流动性：购债规模=放水量
+        - 债市：对长端利率最敏感
+      good:
+        - 平稳退出：政策自信
+      bad:
+        - 恐慌式 taper：新兴市场遭殃
+      policy:
+        - 就业与通胀达标才会启动
+      example: 派对尾声 DJ 宣布「最后一首」：音乐还在响，但大家都知道要散了。
+  - slug: yang-hang
+    headword: 央行
+    categoryL1: 宏观政策
+    categoryL2: 机构
+    difficulty: L1
+    summaryPlain: 管一国货币和利率的机构：中国的叫人民银行，通过政策利率和流动性调节经济水温。
+    riskNote: 央行不是为股市服务的，目标一般是币值稳定与经济增长。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 管一国货币和利率的机构：中国的叫人民银行，通过政策利率和流动性调节经济水温。
+        example: 比如中国人民银行宣布降准，市场通常解读为流动性利好。
+        notMeaning: 央行不是为股市服务的，目标一般是币值稳定与经济增长。
+        isPrimary: true
+        contextKeywords:
+          - 机构
+        frequency: mid
+    aliases:
+      - raw: 央行
+        aliasType: primary
+      - raw: 中国人民银行
+        aliasType: cn_alias
+      - raw: PBOC
+        aliasType: en_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 央行：水电站的总闸
+    insights:
+      affects:
+        - 利率：全市场资金的批发价
+        - 流动性：松紧决定资产价格
+      good:
+        - 出手宽松：托底信号
+      bad:
+        - 被动收紧：压力测试
+      policy:
+        - 货币政策工具箱：OMO/MLF/降准
+      example: 国家经济的空调遥控器：热了制冷（收紧）防感冒，冷了制热（宽松）防冻僵。
+  - slug: ying-pai-ge-pai
+    headword: 鹰派/鸽派
+    categoryL1: 宏观政策
+    categoryL2: 央行态度
+    difficulty: L2
+    summaryPlain: 央行的两种脾气：鹰派倾向收紧（加息、缩表治通胀），鸽派倾向宽松（降息、放水保增长）。
+    riskNote: 官员今天鹰明天鸽很常见，听其言更要观其行。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 央行的两种脾气：鹰派倾向收紧（加息、缩表治通胀），鸽派倾向宽松（降息、放水保增长）。
+        example: 比如同一场发布会，市场听出偏向收紧的意思，黄金跳水、美元拉升。
+        notMeaning: 官员今天鹰明天鸽很常见，听其言更要观其行。
+        isPrimary: true
+        contextKeywords:
+          - 央行态度
+        frequency: high
+    aliases:
+      - raw: 鹰派
+        aliasType: primary
+      - raw: 鸽派
+        aliasType: cn_alias
+      - raw: Hawkish
+        aliasType: en_alias
+      - raw: Dovish
+        aliasType: en_alias
+    viz:
+      type: MarketMood
+      config: {}
+    insights:
+      affects:
+        - 市场预期：措辞一个字的变化都能引发波动
+        - 利率路径：鹰→利率更高更久；鸽→更早降息
+        - 板块：成长股对鸽派更敏感
+      good:
+        - 鹰派治住通胀：长期利于资产稳定定价
+        - 鸽派托底：市场恐慌时的镇定剂
+      bad:
+        - 鹰过头：流动性收紧杀估值
+        - 鸽过头：通胀失控风险
+      policy:
+        - 每次议息声明和发布会都是态度窗口
+        - 经济数据（CPI/就业）决定官员口径
+      example: 班主任有两种风格：鹰派班主任（作业加倍、小考随机）治懒但压力大；鸽派班主任（少留作业、多给鼓励）舒服但怕期末崩。市场天天猜班主任明天是哪副面孔。

@@ -8,20 +8,23 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "validate": "tsx src/cli.ts",
-    "compile": "tsx src/compile.ts"
+    "compile": "tsx src/compile.ts",
+    "ingest": "tsx src/ingest.ts",
+    "ingest:check": "tsx src/ingest.ts --check"
   },
   "dependencies": {
     "@jargon/contracts": "workspace:*",
     "@jargon/db": "workspace:*",
     "@jargon/matcher": "workspace:*",
     "drizzle-orm": "^0.36.4",
-    "zod": "^3.23.8",
+    "gray-matter": "^4.0.3",
     "yaml": "^2.6.0",
-    "gray-matter": "^4.0.3"
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "typescript": "^5.6.3",
+    "@types/node": "^20.14.0",
+    "pinyin-pro": "^3.29.5",
     "tsx": "^4.19.0",
-    "@types/node": "^20.14.0"
+    "typescript": "^5.6.3"
   }
 }

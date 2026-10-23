@@ -1,0 +1,2468 @@
+source: gen from full.tsv --all 市场×类型×关键词路由 (待精修)
+terms:
+  - slug: e-c-b-b-o-j-b-o-e
+    headword: ECB/BOJ/BOE
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 除美联储外的三家主要发达国家央行，其货币政策是全球流动性的重要变量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 除美联储外的三家主要发达国家央行，其货币政策是全球流动性的重要变量。
+        example: ECB/BOJ/BOE的政策转向，往往会引发全球汇率和债市联动。
+        isPrimary: true
+    aliases:
+      - raw: ECB/BOJ/BOE
+        aliasType: primary
+      - raw: ECB
+        aliasType: en_alias
+      - raw: BOJ
+        aliasType: en_alias
+      - raw: BOE
+        aliasType: en_alias
+      - raw: 欧洲央行
+        aliasType: cn_alias
+      - raw: 日本央行
+        aliasType: cn_alias
+      - raw: 英国央行
+        aliasType: cn_alias
+  - slug: shang-hai-zheng-quan-jiao-yi-suo
+    headword: 上海证券交易所
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 位于上海的证券交易所，设有主板与科创板，是内地资本市场的核心场所之一。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 位于上海的证券交易所，设有主板与科创板，是内地资本市场的核心场所之一。
+        example: 上海证券交易所表示将持续深化科创板制度改革。
+        isPrimary: true
+    aliases:
+      - raw: 上海证券交易所
+        aliasType: primary
+      - raw: SSE
+        aliasType: en_alias
+      - raw: Shanghai Stock Exchange
+        aliasType: en_alias
+      - raw: 上交所
+        aliasType: cn_alias
+  - slug: shen-zhen-zheng-quan-jiao-yi-suo
+    headword: 深圳证券交易所
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 位于深圳的证券交易所，设有主板与创业板，侧重成长型与创新型企业。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 位于深圳的证券交易所，设有主板与创业板，侧重成长型与创新型企业。
+        example: 深圳证券交易所下调交易相关费用，降低市场参与成本。
+        isPrimary: true
+    aliases:
+      - raw: 深圳证券交易所
+        aliasType: primary
+      - raw: SZSE
+        aliasType: en_alias
+      - raw: Shenzhen Stock Exchange
+        aliasType: en_alias
+      - raw: 深交所
+        aliasType: cn_alias
+  - slug: guo-ji-huo-bi-ji-jin-zu-zhi
+    headword: 国际货币基金组织
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 国际金融机构，负责汇率监督、金融稳定与危机救助贷款。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 国际金融机构，负责汇率监督、金融稳定与危机救助贷款。
+        example: IMF上调中国经济增长预期。
+        isPrimary: true
+    aliases:
+      - raw: 国际货币基金组织
+        aliasType: primary
+      - raw: IMF
+        aliasType: en_alias
+  - slug: shi-jie-yin-hang
+    headword: 世界银行
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 国际开发金融机构，为发展中国家提供贷款与政策建议。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 国际开发金融机构，为发展中国家提供贷款与政策建议。
+        example: 世界银行报告关注全球减贫与发展。
+        isPrimary: true
+    aliases:
+      - raw: 世界银行
+        aliasType: primary
+      - raw: World Bank
+        aliasType: en_alias
+  - slug: shi-jie-mao-yi-zu-zhi
+    headword: 世界贸易组织
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 全球贸易规则制定与争端解决机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 全球贸易规则制定与争端解决机构。
+        example: WTO裁定影响贸易争端走向。
+        isPrimary: true
+    aliases:
+      - raw: 世界贸易组织
+        aliasType: primary
+      - raw: WTO
+        aliasType: en_alias
+  - slug: jing-ji-he-zuo-yu-fa-zhan-zu-zhi
+    headword: 经济合作与发展组织
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 发达经济体组成的国际组织，发布经济展望与政策建议。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 发达经济体组成的国际组织，发布经济展望与政策建议。
+        example: OECD上调全球增长预测。
+        isPrimary: true
+    aliases:
+      - raw: 经济合作与发展组织
+        aliasType: primary
+      - raw: OECD
+        aliasType: en_alias
+  - slug: guo-ji-qing-suan-yin-hang
+    headword: 国际清算银行
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 各国央行合作的国际组织，被称为央行的央行。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 各国央行合作的国际组织，被称为央行的央行。
+        example: BIS报告关注全球杠杆与金融稳定。
+        isPrimary: true
+    aliases:
+      - raw: 国际清算银行
+        aliasType: primary
+      - raw: BIS
+        aliasType: en_alias
+  - slug: shi-you-shu-chu-guo-zu-zhi
+    headword: 石油输出国组织
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 主要产油国组成的卡特尔，主导原油供给政策。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 主要产油国组成的卡特尔，主导原油供给政策。
+        example: OPEC+减产决议推升油价。
+        isPrimary: true
+    aliases:
+      - raw: 石油输出国组织
+        aliasType: primary
+      - raw: OPEC
+        aliasType: en_alias
+  - slug: guo-ji-neng-yuan-shu
+    headword: 国际能源署
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 能源政策国际组织，发布能源展望与市场月报。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 能源政策国际组织，发布能源展望与市场月报。
+        example: IEA预测石油需求峰值。
+        isPrimary: true
+    aliases:
+      - raw: 国际能源署
+        aliasType: primary
+      - raw: IEA
+        aliasType: en_alias
+  - slug: mei-guo-cai-zheng-bu
+    headword: 美国财政部
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 美国财政管理部门，发债与制裁政策核心。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 美国财政管理部门，发债与制裁政策核心。
+        example: 美国财政部发债规模影响美债供给。
+        isPrimary: true
+    aliases:
+      - raw: 美国财政部
+        aliasType: primary
+      - raw: US Treasury
+        aliasType: en_alias
+  - slug: ou-zhou-yang-xing
+    headword: 欧洲央行
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 欧元区中央银行，管理欧元区货币政策。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 欧元区中央银行，管理欧元区货币政策。
+        example: 欧央行加息抗通胀。
+        isPrimary: true
+    aliases:
+      - raw: 欧洲央行
+        aliasType: primary
+      - raw: ECB
+        aliasType: en_alias
+  - slug: ri-ben-yang-xing
+    headword: 日本央行
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 日本中央银行，超宽松政策长期主导。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 日本中央银行，超宽松政策长期主导。
+        example: 日央行政策转向扰动全球套息交易。
+        isPrimary: true
+    aliases:
+      - raw: 日本央行
+        aliasType: primary
+      - raw: BOJ
+        aliasType: en_alias
+  - slug: ying-ge-lan-yin-hang
+    headword: 英格兰银行
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 英国中央银行。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 英国中央银行。
+        example: 英央行利率决议影响英镑。
+        isPrimary: true
+    aliases:
+      - raw: 英格兰银行
+        aliasType: primary
+      - raw: BOE
+        aliasType: en_alias
+  - slug: guo-jia-tong-ji-ju
+    headword: 国家统计局
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国官方统计机构，发布GDP、CPI等核心数据。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 中国官方统计机构，发布GDP、CPI等核心数据。
+        example: 统计局月度数据发布受市场高度关注。
+        isPrimary: true
+    aliases:
+      - raw: 国家统计局
+        aliasType: primary
+      - raw: NBS
+        aliasType: en_alias
+  - slug: jiao-yi-suo
+    headword: 交易所
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 提供证券集中交易场所的机构，如上交所、深交所、港交所。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 提供证券集中交易场所的机构，如上交所、深交所、港交所。
+        example: 交易所优化交易制度安排。
+        isPrimary: true
+    aliases:
+      - raw: 交易所
+        aliasType: primary
+      - raw: Exchange
+        aliasType: en_alias
+  - slug: shang-jiao-suo
+    headword: 上交所
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上海证券交易所，主板与科创板所在地。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上海证券交易所，主板与科创板所在地。
+        example: 上交所优化科创板制度。
+        isPrimary: true
+    aliases:
+      - raw: 上交所
+        aliasType: primary
+      - raw: SSE
+        aliasType: en_alias
+  - slug: shen-jiao-suo
+    headword: 深交所
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 深圳证券交易所，主板与创业板所在地。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 深圳证券交易所，主板与创业板所在地。
+        example: 深交所推动并购重组市场化改革。
+        isPrimary: true
+    aliases:
+      - raw: 深交所
+        aliasType: primary
+      - raw: SZSE
+        aliasType: en_alias
+  - slug: zhong-jin-suo
+    headword: 中金所
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国金融期货交易所，股指期货与国债期货交易场所。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国金融期货交易所，股指期货与国债期货交易场所。
+        example: 中金所调整股指期货保证金。
+        isPrimary: true
+    aliases:
+      - raw: 中金所
+        aliasType: primary
+      - raw: CFFEX
+        aliasType: en_alias
+  - slug: guo-jia-fa-zhan-gai-ge-wei
+    headword: 国家发展改革委
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 国家发展和改革委员会，宏观政策与重大项目主管部门。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 国家发展和改革委员会，宏观政策与重大项目主管部门。
+        example: 发改委批复重大项目，稳投资发力。
+        isPrimary: true
+    aliases:
+      - raw: 国家发展改革委
+        aliasType: primary
+      - raw: NDRC
+        aliasType: en_alias
+  - slug: cai-zheng-bu
+    headword: 财政部
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国财政部门，财政政策制定与执行。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国财政部门，财政政策制定与执行。
+        example: 财政部发行特别国债支持重点领域。
+        isPrimary: true
+    aliases:
+      - raw: 财政部
+        aliasType: primary
+      - raw: MOF
+        aliasType: en_alias
+  - slug: biao-pu
+    headword: 标普
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 标准普尔，国际信用评级机构，发布标普500指数与主权评级。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 标准普尔，国际信用评级机构，发布标普500指数与主权评级。
+        example: 标普上调中国主权信用展望。
+        isPrimary: true
+    aliases:
+      - raw: 标普
+        aliasType: primary
+      - raw: S&P
+        aliasType: en_alias
+  - slug: mo-gen-da-tong
+    headword: 摩根大通
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 美国大型投行，全球宏观与市场研究影响力大。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 美国大型投行，全球宏观与市场研究影响力大。
+        example: 摩根大通策略报告看多中国资产。
+        isPrimary: true
+    aliases:
+      - raw: 摩根大通
+        aliasType: primary
+      - raw: JPMorgan
+        aliasType: en_alias
+  - slug: gao-sheng
+    headword: 高盛
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 美国顶级投行，研究观点影响全球市场情绪。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 美国顶级投行，研究观点影响全球市场情绪。
+        example: 高盛上调MSCI中国指数目标。
+        isPrimary: true
+    aliases:
+      - raw: 高盛
+        aliasType: primary
+      - raw: Goldman Sachs
+        aliasType: en_alias
+  - slug: mo-gen-shi-dan-li
+    headword: 摩根士丹利
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 美国大型投行，财富管理与研究并重。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 美国大型投行，财富管理与研究并重。
+        example: 大摩报告关注中国消费复苏。
+        isPrimary: true
+    aliases:
+      - raw: 摩根士丹利
+        aliasType: primary
+      - raw: Morgan Stanley
+        aliasType: en_alias
+  - slug: rui-yin
+    headword: 瑞银
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 瑞士大型银行，全球财富管理与投行业务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 瑞士大型银行，全球财富管理与投行业务。
+        example: 瑞银看好亚太市场配置价值。
+        isPrimary: true
+    aliases:
+      - raw: 瑞银
+        aliasType: primary
+      - raw: UBS
+        aliasType: en_alias
+  - slug: hua-qi
+    headword: 花旗
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 美国大型银行，全球宏观与利率研究。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 美国大型银行，全球宏观与利率研究。
+        example: 花旗研究覆盖中国宏观与行业。
+        isPrimary: true
+    aliases:
+      - raw: 花旗
+        aliasType: primary
+      - raw: Citigroup
+        aliasType: en_alias
+  - slug: mei-yin
+    headword: 美银
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 美国银行，全球策略研究影响力大。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 美国银行，全球策略研究影响力大。
+        example: 美银基金经理调查反映全球情绪。
+        isPrimary: true
+    aliases:
+      - raw: 美银
+        aliasType: primary
+      - raw: BofA
+        aliasType: en_alias
+  - slug: ba-ke-lai
+    headword: 巴克莱
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 英国大型银行，固定收益与宏观研究。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 英国大型银行，固定收益与宏观研究。
+        example: 巴克莱发布全球通胀展望。
+        isPrimary: true
+    aliases:
+      - raw: 巴克莱
+        aliasType: primary
+      - raw: Barclays
+        aliasType: en_alias
+  - slug: ye-cun
+    headword: 野村
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 日本最大券商，亚洲市场研究见长。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 日本最大券商，亚洲市场研究见长。
+        example: 野村关注中国政策刺激节奏。
+        isPrimary: true
+    aliases:
+      - raw: 野村
+        aliasType: primary
+      - raw: Nomura
+        aliasType: en_alias
+  - slug: da-he-zheng-quan
+    headword: 大和证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 日本券商，亚洲研究覆盖广。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 日本券商，亚洲研究覆盖广。
+        example: 大和报告关注日股与亚洲市场。
+        isPrimary: true
+    aliases:
+      - raw: 大和证券
+        aliasType: primary
+      - raw: Daiwa
+        aliasType: en_alias
+  - slug: fu-shi-luo-su
+    headword: 富时罗素
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 国际指数公司，富时中国A50等指数受关注。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 国际指数公司，富时中国A50等指数受关注。
+        example: 富时中国A50期货在新加坡交易。
+        isPrimary: true
+    aliases:
+      - raw: 富时罗素
+        aliasType: primary
+      - raw: FTSE Russell
+        aliasType: en_alias
+  - slug: peng-bo
+    headword: 彭博
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 全球金融数据与终端服务商，其观点与研究受关注。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 全球金融数据与终端服务商，其观点与研究受关注。
+        example: 彭博终端是全球机构标配。
+        isPrimary: true
+    aliases:
+      - raw: 彭博
+        aliasType: primary
+      - raw: Bloomberg
+        aliasType: en_alias
+  - slug: lu-fu-te
+    headword: 路孚特
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 金融数据与基础设施服务商，现属伦敦证交所集团。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 金融数据与基础设施服务商，现属伦敦证交所集团。
+        example: 路孚特提供全球市场数据。
+        isPrimary: true
+    aliases:
+      - raw: 路孚特
+        aliasType: primary
+      - raw: Refinitiv
+        aliasType: en_alias
+  - slug: wan-de
+    headword: 万得
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国金融数据终端龙头，市场数据基准。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 中国金融数据终端龙头，市场数据基准。
+        example: Wind数据是A股研究标准工具。
+        isPrimary: true
+    aliases:
+      - raw: 万得
+        aliasType: primary
+      - raw: Wind
+        aliasType: en_alias
+  - slug: dong-fang-cai-fu
+    headword: 东方财富
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国互联网金融信息服务商，旗下Choice数据与股吧影响大。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国互联网金融信息服务商，旗下Choice数据与股吧影响大。
+        example: 东方财富Choice数据覆盖A股全市场。
+        isPrimary: true
+    aliases:
+      - raw: 东方财富
+        aliasType: primary
+      - raw: Eastmoney
+        aliasType: en_alias
+  - slug: tong-hua-shun
+    headword: 同花顺
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国金融信息服务商，iFinD终端覆盖广。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国金融信息服务商，iFinD终端覆盖广。
+        example: 同花顺iFinD提供行情与研报服务。
+        isPrimary: true
+    aliases:
+      - raw: 同花顺
+        aliasType: primary
+      - raw: iFinD
+        aliasType: en_alias
+  - slug: zhong-jin-gong-si
+    headword: 中金公司
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国大型投行，研究部影响力大。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 中国大型投行，研究部影响力大。
+        example: 中金策略报告受市场关注。
+        isPrimary: true
+    aliases:
+      - raw: 中金公司
+        aliasType: primary
+      - raw: CICC
+        aliasType: en_alias
+  - slug: zhong-xin-zheng-quan
+    headword: 中信证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国头部券商，研究实力强。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 中国头部券商，研究实力强。
+        example: 中信证券年度策略会展望市场方向。
+        isPrimary: true
+    aliases:
+      - raw: 中信证券
+        aliasType: primary
+      - raw: CITIC Securities
+        aliasType: en_alias
+  - slug: hua-tai-zheng-quan
+    headword: 华泰证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国大型券商，科技化转型领先。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国大型券商，科技化转型领先。
+        example: 华泰研究所发布行业深度报告。
+        isPrimary: true
+    aliases:
+      - raw: 华泰证券
+        aliasType: primary
+      - raw: Huatai Securities
+        aliasType: en_alias
+  - slug: zhong-xin-jian-tou
+    headword: 中信建投
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国头部券商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国头部券商。
+        example: 中信建投看好券商板块行情。
+        isPrimary: true
+    aliases:
+      - raw: 中信建投
+        aliasType: primary
+      - raw: China Securities
+        aliasType: en_alias
+  - slug: shen-wan-hong-yuan
+    headword: 申万宏源
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国大型券商，申万行业分类标准影响广泛。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国大型券商，申万行业分类标准影响广泛。
+        example: 申万行业分类是A股研究标准。
+        isPrimary: true
+    aliases:
+      - raw: 申万宏源
+        aliasType: primary
+      - raw: SWHY
+        aliasType: en_alias
+  - slug: guo-tai-jun-an
+    headword: 国泰君安
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国大型券商，与海通证券合并后规模居前。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国大型券商，与海通证券合并后规模居前。
+        example: 国君海通合并打造航母级券商。
+        isPrimary: true
+    aliases:
+      - raw: 国泰君安
+        aliasType: primary
+      - raw: Guotai Junan
+        aliasType: en_alias
+  - slug: hai-tong-zheng-quan
+    headword: 海通证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国大型券商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国大型券商。
+        example: 海通证券与国泰君安吸收合并。
+        isPrimary: true
+    aliases:
+      - raw: 海通证券
+        aliasType: primary
+      - raw: Haitong Securities
+        aliasType: en_alias
+  - slug: guang-fa-zheng-quan
+    headword: 广发证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国大型券商，研究见长。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国大型券商，研究见长。
+        example: 广发研究覆盖宏观与行业。
+        isPrimary: true
+    aliases:
+      - raw: 广发证券
+        aliasType: primary
+      - raw: GF Securities
+        aliasType: en_alias
+  - slug: zhao-shang-zheng-quan
+    headword: 招商证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国大型券商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国大型券商。
+        example: 招商证券发布年度投资策略。
+        isPrimary: true
+    aliases:
+      - raw: 招商证券
+        aliasType: primary
+      - raw: China Merchants Securities
+        aliasType: en_alias
+  - slug: xing-ye-zheng-quan
+    headword: 兴业证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商，区域特色明显。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商，区域特色明显。
+        example: 兴业证券研究覆盖策略与行业。
+        isPrimary: true
+    aliases:
+      - raw: 兴业证券
+        aliasType: primary
+      - raw: Industrial Securities
+        aliasType: en_alias
+  - slug: tian-feng-zheng-quan
+    headword: 天风证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商，研究服务能力强。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商，研究服务能力强。
+        example: 天风研究报告覆盖新兴产业。
+        isPrimary: true
+    aliases:
+      - raw: 天风证券
+        aliasType: primary
+      - raw: Tianfeng Securities
+        aliasType: en_alias
+  - slug: chang-jiang-zheng-quan
+    headword: 长江证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商，研究实力强。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商，研究实力强。
+        example: 长江研究在制造与消费领域见长。
+        isPrimary: true
+    aliases:
+      - raw: 长江证券
+        aliasType: primary
+      - raw: Changjiang Securities
+        aliasType: en_alias
+  - slug: guo-sheng-zheng-quan
+    headword: 国盛证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商，策略研究活跃。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商，策略研究活跃。
+        example: 国盛策略观点受市场关注。
+        isPrimary: true
+    aliases:
+      - raw: 国盛证券
+        aliasType: primary
+      - raw: Guosheng Securities
+        aliasType: en_alias
+  - slug: guang-da-zheng-quan
+    headword: 光大证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商。
+        example: 光大证券研究覆盖宏观与金融。
+        isPrimary: true
+    aliases:
+      - raw: 光大证券
+        aliasType: primary
+      - raw: Everbright Securities
+        aliasType: en_alias
+  - slug: guo-xin-zheng-quan
+    headword: 国信证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商。
+        example: 国信研究覆盖TMT与消费。
+        isPrimary: true
+    aliases:
+      - raw: 国信证券
+        aliasType: primary
+      - raw: Guosen Securities
+        aliasType: en_alias
+  - slug: yin-he-zheng-quan
+    headword: 银河证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国大型券商，央企背景。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国大型券商，央企背景。
+        example: 银河证券研究覆盖策略与行业。
+        isPrimary: true
+    aliases:
+      - raw: 银河证券
+        aliasType: primary
+      - raw: China Galaxy Securities
+        aliasType: en_alias
+  - slug: zhe-shang-zheng-quan
+    headword: 浙商证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商，区域特色明显。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商，区域特色明显。
+        example: 浙商研究在新兴产业覆盖广。
+        isPrimary: true
+    aliases:
+      - raw: 浙商证券
+        aliasType: primary
+      - raw: Zheshang Securities
+        aliasType: en_alias
+  - slug: dong-wu-zheng-quan
+    headword: 东吴证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商。
+        example: 东吴研究覆盖电新与汽车。
+        isPrimary: true
+    aliases:
+      - raw: 东吴证券
+        aliasType: primary
+      - raw: Soochow Securities
+        aliasType: en_alias
+  - slug: dong-fang-zheng-quan
+    headword: 东方证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商。
+        example: 东方研究覆盖金融与周期。
+        isPrimary: true
+    aliases:
+      - raw: 东方证券
+        aliasType: primary
+      - raw: Orient Securities
+        aliasType: en_alias
+  - slug: an-xin-zheng-quan
+    headword: 安信证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商，后并入国投证券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商，后并入国投证券。
+        example: 安信研究在医药与TMT见长。
+        isPrimary: true
+    aliases:
+      - raw: 安信证券
+        aliasType: primary
+      - raw: Essence Securities
+        aliasType: en_alias
+  - slug: min-sheng-zheng-quan
+    headword: 民生证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商。
+        example: 民生研究覆盖军工与电子。
+        isPrimary: true
+    aliases:
+      - raw: 民生证券
+        aliasType: primary
+      - raw: Minsheng Securities
+        aliasType: en_alias
+  - slug: fang-zheng-zheng-quan
+    headword: 方正证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商。
+        example: 方正研究覆盖非银与消费。
+        isPrimary: true
+    aliases:
+      - raw: 方正证券
+        aliasType: primary
+      - raw: Founder Securities
+        aliasType: en_alias
+  - slug: hua-chuang-zheng-quan
+    headword: 华创证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商，研究黑马。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商，研究黑马。
+        example: 华创研究在机械与电子见长。
+        isPrimary: true
+    aliases:
+      - raw: 华创证券
+        aliasType: primary
+      - raw: Huachuang Securities
+        aliasType: en_alias
+  - slug: zhong-tai-zheng-quan
+    headword: 中泰证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商。
+        example: 中泰研究覆盖周期与消费。
+        isPrimary: true
+    aliases:
+      - raw: 中泰证券
+        aliasType: primary
+      - raw: Zhongtai Securities
+        aliasType: en_alias
+  - slug: tai-ping-yang-zheng-quan
+    headword: 太平洋证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商。
+        example: 太平洋研究覆盖中小盘。
+        isPrimary: true
+    aliases:
+      - raw: 太平洋证券
+        aliasType: primary
+      - raw: Pacific Securities
+        aliasType: en_alias
+  - slug: cai-tong-zheng-quan
+    headword: 财通证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商。
+        example: 财通研究在策略与行业均衡覆盖。
+        isPrimary: true
+    aliases:
+      - raw: 财通证券
+        aliasType: primary
+      - raw: Caitong Securities
+        aliasType: en_alias
+  - slug: guo-hai-zheng-quan
+    headword: 国海证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商。
+        example: 国海研究覆盖TMT。
+        isPrimary: true
+    aliases:
+      - raw: 国海证券
+        aliasType: primary
+      - raw: Sealand Securities
+        aliasType: en_alias
+  - slug: de-bang-zheng-quan
+    headword: 德邦证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商。
+        example: 德邦研究在消费与制造见长。
+        isPrimary: true
+    aliases:
+      - raw: 德邦证券
+        aliasType: primary
+      - raw: Debang Securities
+        aliasType: en_alias
+  - slug: xi-bu-zheng-quan
+    headword: 西部证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商。
+        example: 西部研究覆盖宏观与策略。
+        isPrimary: true
+    aliases:
+      - raw: 西部证券
+        aliasType: primary
+      - raw: Western Securities
+        aliasType: en_alias
+  - slug: guo-jin-zheng-quan
+    headword: 国金证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商，研究特色鲜明。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商，研究特色鲜明。
+        example: 国金研究覆盖医药与新能源。
+        isPrimary: true
+    aliases:
+      - raw: 国金证券
+        aliasType: primary
+      - raw: Sinolink Securities
+        aliasType: en_alias
+  - slug: dong-bei-zheng-quan
+    headword: 东北证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商。
+        example: 东北研究覆盖汽车与机械。
+        isPrimary: true
+    aliases:
+      - raw: 东北证券
+        aliasType: primary
+      - raw: Northeast Securities
+        aliasType: en_alias
+  - slug: hua-xi-zheng-quan
+    headword: 华西证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商。
+        example: 华西研究覆盖电子与通信。
+        isPrimary: true
+    aliases:
+      - raw: 华西证券
+        aliasType: primary
+      - raw: Huaxi Securities
+        aliasType: en_alias
+  - slug: zhong-yuan-zheng-quan
+    headword: 中原证券
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国券商。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国券商。
+        example: 中原研究覆盖区域经济。
+        isPrimary: true
+    aliases:
+      - raw: 中原证券
+        aliasType: primary
+      - raw: Central China Securities
+        aliasType: en_alias
+  - slug: cai-tong-kai-yuan-guo-lian
+    headword: 财通/开源/国联
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中小型券商群体，区域与特色研究为主。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中小型券商群体，区域与特色研究为主。
+        example: 中小券商研究聚焦特色赛道。
+        isPrimary: true
+    aliases:
+      - raw: 财通/开源/国联
+        aliasType: primary
+      - raw: Regional Brokers
+        aliasType: en_alias
+  - slug: qiao-shui-ji-jin
+    headword: 桥水基金
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 全球最大对冲基金，全天候策略影响大。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 全球最大对冲基金，全天候策略影响大。
+        example: 桥水看多中国资产的表态受关注。
+        isPrimary: true
+    aliases:
+      - raw: 桥水基金
+        aliasType: primary
+      - raw: Bridgewater
+        aliasType: en_alias
+  - slug: bei-lai-de
+    headword: 贝莱德
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 全球最大资产管理公司，旗下iShares ETF规模庞大。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 全球最大资产管理公司，旗下iShares ETF规模庞大。
+        example: 贝莱德加大中国市场布局。
+        isPrimary: true
+    aliases:
+      - raw: 贝莱德
+        aliasType: primary
+      - raw: BlackRock
+        aliasType: en_alias
+  - slug: xian-feng-ling-hang
+    headword: 先锋领航
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 全球第二大资管公司，指数基金先驱。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 全球第二大资管公司，指数基金先驱。
+        example: 先锋领航聚焦低成本指数投资。
+        isPrimary: true
+    aliases:
+      - raw: 先锋领航
+        aliasType: primary
+      - raw: Vanguard
+        aliasType: en_alias
+  - slug: rui-xin
+    headword: 瑞信
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 瑞士大型银行，已被瑞银收购。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 瑞士大型银行，已被瑞银收购。
+        example: 瑞信危机引发全球金融波动。
+        isPrimary: true
+    aliases:
+      - raw: 瑞信
+        aliasType: primary
+      - raw: Credit Suisse
+        aliasType: en_alias
+  - slug: de-yi-zhi-yin-hang
+    headword: 德意志银行
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 德国最大银行。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 德国最大银行。
+        example: 德银全球宏观研究覆盖广。
+        isPrimary: true
+    aliases:
+      - raw: 德意志银行
+        aliasType: primary
+      - raw: Deutsche Bank
+        aliasType: en_alias
+  - slug: zha-da-yin-hang
+    headword: 渣打银行
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 英资国际银行，亚洲与中东业务强。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 英资国际银行，亚洲与中东业务强。
+        example: 渣打聚焦跨境贸易与财富管理。
+        isPrimary: true
+    aliases:
+      - raw: 渣打银行
+        aliasType: primary
+      - raw: Standard Chartered
+        aliasType: en_alias
+  - slug: hui-feng-yin-hang
+    headword: 汇丰银行
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 英资国际银行，亚洲业务占比高。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 英资国际银行，亚洲业务占比高。
+        example: 汇丰观点影响港股与亚洲市场。
+        isPrimary: true
+    aliases:
+      - raw: 汇丰银行
+        aliasType: primary
+      - raw: HSBC
+        aliasType: en_alias
+  - slug: sha-te-zhu-quan-ji-jin
+    headword: 沙特主权基金
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 沙特公共投资基金，全球投资版图扩张。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 沙特公共投资基金，全球投资版图扩张。
+        example: PIF投资中国企业引发关注。
+        isPrimary: true
+    aliases:
+      - raw: 沙特主权基金
+        aliasType: primary
+      - raw: PIF
+        aliasType: en_alias
+  - slug: nuo-wei-zhu-quan-ji-jin
+    headword: 挪威主权基金
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 全球最大主权财富基金，持仓披露受关注。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 全球最大主权财富基金，持仓披露受关注。
+        example: 挪威主权基金调整中国持仓。
+        isPrimary: true
+    aliases:
+      - raw: 挪威主权基金
+        aliasType: primary
+      - raw: NBIM
+        aliasType: en_alias
+  - slug: xin-jia-po-jin-guan-ju
+    headword: 新加坡金管局
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新加坡金融管理局，货币与金融监管合一。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 新加坡金融管理局，货币与金融监管合一。
+        example: MAS货币政策影响新元汇率。
+        isPrimary: true
+    aliases:
+      - raw: 新加坡金管局
+        aliasType: primary
+      - raw: MAS
+        aliasType: en_alias
+  - slug: yi-hang-yi-ju-yi-hui
+    headword: 一行一局一会
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行、金融监管总局、证监会的合称。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行、金融监管总局、证监会的合称。
+        example: 一行一局一会各司其职。
+        isPrimary: true
+    aliases:
+      - raw: 一行一局一会
+        aliasType: primary
+      - raw: PBOC-NFRA-CSRC
+        aliasType: en_alias
+  - slug: jin-zhuan-guo-jia
+    headword: 金砖国家
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新兴大国合作机制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 新兴大国合作机制。
+        example: 金砖扩员增强影响力。
+        isPrimary: true
+    aliases:
+      - raw: 金砖国家
+        aliasType: primary
+      - raw: BRICS
+        aliasType: en_alias
+  - slug: g-2-0
+    headword: G20
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 全球经济治理平台。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 全球经济治理平台。
+        example: G20协调宏观政策。
+        isPrimary: true
+    aliases:
+      - raw: G20
+        aliasType: primary
+      - raw: 二十国集团
+        aliasType: cn_alias
+  - slug: g-7
+    headword: G7
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 发达经济体协调机制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 发达经济体协调机制。
+        example: G7影响全球议程。
+        isPrimary: true
+    aliases:
+      - raw: G7
+        aliasType: primary
+      - raw: 七国集团
+        aliasType: cn_alias
+  - slug: a-p-e-c
+    headword: APEC
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 亚太经济合作组织。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 亚太经济合作组织。
+        example: APEC促进区域合作。
+        isPrimary: true
+    aliases:
+      - raw: APEC
+        aliasType: primary
+      - raw: 亚太经合组织
+        aliasType: cn_alias
+  - slug: ou-pei-ke
+    headword: 欧佩克+
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: OPEC与盟友的产油联盟。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: OPEC与盟友的产油联盟。
+        example: OPEC+主导原油供给。
+        isPrimary: true
+    aliases:
+      - raw: 欧佩克+
+        aliasType: primary
+      - raw: OPEC+
+        aliasType: en_alias
+  - slug: quan-qiu-yang-xing
+    headword: 全球央行
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 各国中央银行群体。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 各国中央银行群体。
+        example: 全球央行政策同步性增强。
+        isPrimary: true
+    aliases:
+      - raw: 全球央行
+        aliasType: primary
+      - raw: Central Banks
+        aliasType: en_alias
+  - slug: guo-ji-zheng-jian-hui-zu-zhi
+    headword: 国际证监会组织
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 证券监管机构的国际组织。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 证券监管机构的国际组织。
+        example: IOSCO协调跨境监管。
+        isPrimary: true
+    aliases:
+      - raw: 国际证监会组织
+        aliasType: primary
+      - raw: IOSCO
+        aliasType: en_alias
+  - slug: ba-sai-er-wei-yuan-hui
+    headword: 巴塞尔委员会
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 银行监管国际标准制定机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 银行监管国际标准制定机构。
+        example: 巴塞尔协议是银行监管基准。
+        isPrimary: true
+    aliases:
+      - raw: 巴塞尔委员会
+        aliasType: primary
+      - raw: Basel Committee
+        aliasType: en_alias
+  - slug: jin-rong-wen-ding-li-shi-hui
+    headword: 金融稳定理事会
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 全球金融监管协调机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 全球金融监管协调机构。
+        example: FSB监测系统性风险。
+        isPrimary: true
+    aliases:
+      - raw: 金融稳定理事会
+        aliasType: primary
+      - raw: FSB
+        aliasType: en_alias
+  - slug: quan-qiu-jin-rong-ti-xi-wei-yuan-hui
+    headword: 全球金融体系委员会
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: BIS下属委员会。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: BIS下属委员会。
+        example: CGFS研究全球金融。
+        isPrimary: true
+    aliases:
+      - raw: 全球金融体系委员会
+        aliasType: primary
+      - raw: CGFS
+        aliasType: en_alias
+  - slug: ou-zhou-zheng-quan-he-shi-chang-guan-li-ju
+    headword: 欧洲证券和市场管理局
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 欧盟证券监管机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 欧盟证券监管机构。
+        example: ESMA监管欧盟市场。
+        isPrimary: true
+    aliases:
+      - raw: 欧洲证券和市场管理局
+        aliasType: primary
+      - raw: ESMA
+        aliasType: en_alias
+  - slug: ying-guo-jin-rong-xing-wei-jian-guan-ju
+    headword: 英国金融行为监管局
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 英国金融监管机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 英国金融监管机构。
+        example: FCA监管英国金融服务。
+        isPrimary: true
+    aliases:
+      - raw: 英国金融行为监管局
+        aliasType: primary
+      - raw: FCA
+        aliasType: en_alias
+  - slug: ri-ben-jin-rong-ting
+    headword: 日本金融厅
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 日本金融监管机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 日本金融监管机构。
+        example: FSA监管日本金融市场。
+        isPrimary: true
+    aliases:
+      - raw: 日本金融厅
+        aliasType: primary
+      - raw: FSA
+        aliasType: en_alias
+  - slug: ao-da-li-ya-zheng-quan-tou-zi-wei-yuan-hui
+    headword: 澳大利亚证券投资委员会
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 澳大利亚金融监管机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 澳大利亚金融监管机构。
+        example: ASIC监管澳市场。
+        isPrimary: true
+    aliases:
+      - raw: 澳大利亚证券投资委员会
+        aliasType: primary
+      - raw: ASIC
+        aliasType: en_alias
+  - slug: jia-na-da-zheng-quan-guan-li-ju
+    headword: 加拿大证券管理局
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 加拿大证券监管协调机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 加拿大证券监管协调机构。
+        example: CSA协调各省监管。
+        isPrimary: true
+    aliases:
+      - raw: 加拿大证券管理局
+        aliasType: primary
+      - raw: CSA
+        aliasType: en_alias
+  - slug: xin-jia-po-jin-rong-guan-li-ju
+    headword: 新加坡金融管理局
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新加坡央行与监管合一机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 新加坡央行与监管合一机构。
+        example: MAS监管新金融体系。
+        isPrimary: true
+    aliases:
+      - raw: 新加坡金融管理局
+        aliasType: primary
+      - raw: MAS
+        aliasType: en_alias
+  - slug: zhong-guo-yin-hang-bao-xian-jian-du-guan-li-wei-yuan-hui
+    headword: 中国银行保险监督管理委员会
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 原银行保险监管机构，已并入金融监管总局。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 原银行保险监管机构，已并入金融监管总局。
+        example: 原银保监会职责并入金融监管总局。
+        isPrimary: true
+    aliases:
+      - raw: 中国银行保险监督管理委员会
+        aliasType: primary
+      - raw: CBIRC
+        aliasType: en_alias
+  - slug: zheng-quan-jiao-yi-suo
+    headword: 证券交易所
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 提供证券交易的组织。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 提供证券交易的组织。
+        example: 交易所保障交易公平。
+        isPrimary: true
+    aliases:
+      - raw: 证券交易所
+        aliasType: primary
+      - raw: Stock Exchange
+        aliasType: en_alias
+  - slug: qi-huo-jiao-yi-suo
+    headword: 期货交易所
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 期货交易场所。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 期货交易场所。
+        example: 期交所负责合约结算。
+        isPrimary: true
+    aliases:
+      - raw: 期货交易所
+        aliasType: primary
+      - raw: Futures Exchange
+        aliasType: en_alias
+  - slug: qing-suan-suo
+    headword: 清算所
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 交易清算与担保机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 交易清算与担保机构。
+        example: 清算所降低对手风险。
+        isPrimary: true
+    aliases:
+      - raw: 清算所
+        aliasType: primary
+      - raw: Clearing House
+        aliasType: en_alias
+  - slug: zhong-yang-dui-shou-fang
+    headword: 中央对手方
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 清算中的中央对手机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 清算中的中央对手机构。
+        example: CCP集中管理违约风险。
+        isPrimary: true
+    aliases:
+      - raw: 中央对手方
+        aliasType: primary
+      - raw: CCP
+        aliasType: en_alias
+  - slug: tuo-guan-yin-hang
+    headword: 托管银行
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资产托管服务机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资产托管服务机构。
+        example: 托管行保障资产安全。
+        isPrimary: true
+    aliases:
+      - raw: 托管银行
+        aliasType: primary
+      - raw: Custodian Bank
+        aliasType: en_alias
+  - slug: ji-jin-tuo-guan-ren
+    headword: 基金托管人
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 基金资产托管机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 基金资产托管机构。
+        example: 托管人独立监督。
+        isPrimary: true
+    aliases:
+      - raw: 基金托管人
+        aliasType: primary
+      - raw: Fund Custodian
+        aliasType: en_alias
+  - slug: kuai-ji-shi-shi-wu-suo
+    headword: 会计师事务所
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 审计服务机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 审计服务机构。
+        example: 四大与国内所主导。
+        isPrimary: true
+    aliases:
+      - raw: 会计师事务所
+        aliasType: primary
+      - raw: Accounting Firm
+        aliasType: en_alias
+  - slug: l-shi-shi-wu-suo
+    headword: 律师事务所
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 法律服务提供机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 法律服务提供机构。
+        example: 律所参与资本运作。
+        isPrimary: true
+    aliases:
+      - raw: 律师事务所
+        aliasType: primary
+      - raw: Law Firm
+        aliasType: en_alias
+  - slug: zi-chan-ping-gu-ji-gou
+    headword: 资产评估机构
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资产价值评估机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资产价值评估机构。
+        example: 评估影响并购定价。
+        isPrimary: true
+    aliases:
+      - raw: 资产评估机构
+        aliasType: primary
+      - raw: Appraiser
+        aliasType: en_alias
+  - slug: xin-yong-ping-ji-ji-gou
+    headword: 信用评级机构
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 信用风险评级机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 信用风险评级机构。
+        example: 评级影响融资成本。
+        isPrimary: true
+    aliases:
+      - raw: 信用评级机构
+        aliasType: primary
+      - raw: Rating Agency
+        aliasType: en_alias
+  - slug: tou-zi-yin-hang
+    headword: 投资银行
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 从事承销并购的金融机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 从事承销并购的金融机构。
+        example: 投行是资本市场核心。
+        isPrimary: true
+    aliases:
+      - raw: 投资银行
+        aliasType: primary
+      - raw: Investment Bank
+        aliasType: en_alias
+  - slug: zi-ying-shang
+    headword: 自营商
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以自有资金交易的机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以自有资金交易的机构。
+        example: 自营风险自担。
+        isPrimary: true
+    aliases:
+      - raw: 自营商
+        aliasType: primary
+      - raw: Proprietary Trader
+        aliasType: en_alias
+  - slug: zi-chan-guan-li-gong-si
+    headword: 资产管理公司
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 管理资产的金融机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 管理资产的金融机构。
+        example: 资管公司规模庞大。
+        isPrimary: true
+    aliases:
+      - raw: 资产管理公司
+        aliasType: primary
+      - raw: AMC
+        aliasType: en_alias
+  - slug: bao-xian-zi-chan-guan-li-gong-si
+    headword: 保险资产管理公司
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 管理险资的机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 管理险资的机构。
+        example: 保险资管配置稳健。
+        isPrimary: true
+    aliases:
+      - raw: 保险资产管理公司
+        aliasType: primary
+      - raw: Insurance AMC
+        aliasType: en_alias
+  - slug: gong-mu-ji-jin-guan-li-gong-si
+    headword: 公募基金管理公司
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 发行公募基金的机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 发行公募基金的机构。
+        example: 基金公司管理规模分化。
+        isPrimary: true
+    aliases:
+      - raw: 公募基金管理公司
+        aliasType: primary
+      - raw: Fund Company
+        aliasType: en_alias
+  - slug: si-mu-ji-jin-guan-li-ren
+    headword: 私募基金管理人
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 管理私募基金的机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 管理私募基金的机构。
+        example: 私募管理人需备案。
+        isPrimary: true
+    aliases:
+      - raw: 私募基金管理人
+        aliasType: primary
+      - raw: Private Fund Manager
+        aliasType: en_alias
+  - slug: qi-huo-gong-si
+    headword: 期货公司
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 期货经纪服务机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 期货经纪服务机构。
+        example: 期货公司竞争激烈。
+        isPrimary: true
+    aliases:
+      - raw: 期货公司
+        aliasType: primary
+      - raw: Futures Company
+        aliasType: en_alias
+  - slug: xin-tuo-gong-si
+    headword: 信托公司
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经营信托业务的机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 经营信托业务的机构。
+        example: 信托转型标品。
+        isPrimary: true
+    aliases:
+      - raw: 信托公司
+        aliasType: primary
+      - raw: Trust Company
+        aliasType: en_alias
+  - slug: xiao-fei-jin-rong-gong-si
+    headword: 消费金融公司
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 消费贷款服务机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 消费贷款服务机构。
+        example: 消金公司服务长尾客群。
+        isPrimary: true
+    aliases:
+      - raw: 消费金融公司
+        aliasType: primary
+      - raw: Consumer Finance Co
+        aliasType: en_alias
+  - slug: jin-rong-zu-lin-gong-si
+    headword: 金融租赁公司
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 融资租赁机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 融资租赁机构。
+        example: 金租公司重资产运营。
+        isPrimary: true
+    aliases:
+      - raw: 金融租赁公司
+        aliasType: primary
+      - raw: Leasing Company
+        aliasType: en_alias
+  - slug: cai-wu-gong-si
+    headword: 财务公司
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业集团内部金融机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业集团内部金融机构。
+        example: 财务公司服务集团。
+        isPrimary: true
+    aliases:
+      - raw: 财务公司
+        aliasType: primary
+      - raw: Finance Company
+        aliasType: en_alias
+  - slug: di-san-fang-zhi-fu
+    headword: 第三方支付
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 支付服务机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 支付服务机构。
+        example: 支付牌照价值高。
+        isPrimary: true
+    aliases:
+      - raw: 第三方支付
+        aliasType: primary
+      - raw: Third-party Payment
+        aliasType: en_alias
+  - slug: zheng-xin-ji-gou
+    headword: 征信机构
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 信用信息服务机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 信用信息服务机构。
+        example: 征信服务普惠金融。
+        isPrimary: true
+    aliases:
+      - raw: 征信机构
+        aliasType: primary
+      - raw: Credit Bureau
+        aliasType: en_alias
+  - slug: fan-xi-qian-ji-gou
+    headword: 反洗钱机构
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 反洗钱监管与执行机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 反洗钱监管与执行机构。
+        example: 反洗钱监测可疑交易。
+        isPrimary: true
+    aliases:
+      - raw: 反洗钱机构
+        aliasType: primary
+      - raw: AML Agency
+        aliasType: en_alias
+  - slug: zhan-l-e-wei-yuan-hui
+    headword: 战略委员会
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 董事会战略决策机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 董事会战略决策机构。
+        example: 战略委员会定方向。
+        isPrimary: true
+    aliases:
+      - raw: 战略委员会
+        aliasType: primary
+      - raw: Strategy Committee
+        aliasType: en_alias
+  - slug: feng-xian-guan-li-wei-yuan-hui
+    headword: 风险管理委员会
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 风险治理机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 风险治理机构。
+        example: 风控委员会把关风险。
+        isPrimary: true
+    aliases:
+      - raw: 风险管理委员会
+        aliasType: primary
+      - raw: Risk Committee
+        aliasType: en_alias
+  - slug: tou-zi-jue-ce-wei-yuan-hui
+    headword: 投资决策委员会
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资决策机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资决策机构。
+        example: 投委会决定重大投资。
+        isPrimary: true
+    aliases:
+      - raw: 投资决策委员会
+        aliasType: primary
+      - raw: Investment Committee
+        aliasType: en_alias
+  - slug: tou-zi-zhe-bao-hu-ji-jin
+    headword: 投资者保护基金
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 保护投资者权益的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 保护投资者权益的基金。
+        example: 投保基金补偿受损投资者。
+        isPrimary: true
+    aliases:
+      - raw: 投资者保护基金
+        aliasType: primary
+      - raw: Investor Protection Fund
+        aliasType: en_alias
+  - slug: shu-ju-jian-cha-wei-yuan-hui
+    headword: 数据监察委员会
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 临床试验数据监查。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 临床试验数据监查。
+        example: DMC保障试验安全。
+        isPrimary: true
+    aliases:
+      - raw: 数据监察委员会
+        aliasType: primary
+      - raw: DMC
+        aliasType: en_alias
+  - slug: cun-kuan-bao-xian-ji-jin
+    headword: 存款保险基金
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 存款保险保障基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 存款保险保障基金。
+        example: 存款保险兜底。
+        isPrimary: true
+    aliases:
+      - raw: 存款保险基金
+        aliasType: primary
+      - raw: DIF
+        aliasType: en_alias
+  - slug: jin-rong-wen-ding-bao-zhang-ji-jin
+    headword: 金融稳定保障基金
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 金融风险处置基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 金融风险处置基金。
+        example: 稳定基金防范风险。
+        isPrimary: true
+    aliases:
+      - raw: 金融稳定保障基金
+        aliasType: primary
+      - raw: Financial Stability Fund
+        aliasType: en_alias
+  - slug: sun-shi-ji-suan-ji-gou
+    headword: 损失计算机构
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 损失测算机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 损失测算机构。
+        example: 专业测算损失。
+        isPrimary: true
+    aliases:
+      - raw: 损失计算机构
+        aliasType: primary
+      - raw: Loss Computing Agency
+        aliasType: en_alias
+  - slug: zhuan-ye-tiao-jie-zu-zhi
+    headword: 专业调解组织
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 证券纠纷专业调解。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 证券纠纷专业调解。
+        example: 专业调解机构运作。
+        isPrimary: true
+    aliases:
+      - raw: 专业调解组织
+        aliasType: primary
+      - raw: Professional Mediation Org
+        aliasType: en_alias
+  - slug: zheng-quan-zhong-cai-zhong-xin
+    headword: 证券仲裁中心
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 证券仲裁机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 证券仲裁机构。
+        example: 仲裁中心专业高效。
+        isPrimary: true
+    aliases:
+      - raw: 证券仲裁中心
+        aliasType: primary
+      - raw: Securities Arbitration
+        aliasType: en_alias
+  - slug: tou-bao-ji-gou
+    headword: 投保机构
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资者保护机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资者保护机构。
+        example: 投保机构代表诉讼。
+        isPrimary: true
+    aliases:
+      - raw: 投保机构
+        aliasType: primary
+      - raw: Investor Protection Org
+        aliasType: en_alias
+  - slug: zhong-zheng-zhong-xiao-tou-zi-zhe-fu-wu-zhong-xin
+    headword: 中证中小投资者服务中心
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中小投资者服务中心。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中小投资者服务中心。
+        example: 投服中心持股行权。
+        isPrimary: true
+    aliases:
+      - raw: 中证中小投资者服务中心
+        aliasType: primary
+      - raw: ISC
+        aliasType: en_alias
+  - slug: tou-fu-zhong-xin
+    headword: 投服中心
+    categoryL1: 机构与资金
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中证投服中心简称。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中证投服中心简称。
+        example: 投服中心公益维权。
+        isPrimary: true
+    aliases:
+      - raw: 投服中心
+        aliasType: primary
+      - raw: ISC
+        aliasType: en_alias

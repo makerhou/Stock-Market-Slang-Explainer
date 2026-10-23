@@ -1,0 +1,4624 @@
+# 自动生成的批量词条源（可由 ingest 重新编译为 lexicon.json）
+category: 行情黑话
+source: bootstrap from lexicon.json (2026-10-22)
+terms:
+  - slug: apes
+    headword: Apes
+    categoryL1: 行情黑话
+    categoryL2: 网络用语
+    difficulty: L3
+    summaryPlain: Meme 股散户对集体的自称：Apes together strong（猿一起才强）。
+    riskNote: 团结的散户也可能集体归零，抱团从来不是免死金牌。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: Meme 股散户对集体的自称：Apes together strong（猿一起才强）。
+        example: 比如论坛刷「apes together」号召抱团死扛。
+        notMeaning: 团结的散户也可能集体归零，抱团从来不是免死金牌。
+        isPrimary: true
+        contextKeywords:
+          - 网络用语
+        frequency: high
+    aliases:
+      - raw: Apes
+        aliasType: primary
+      - raw: Apes together strong
+        aliasType: cn_alias
+      - raw: 散户联盟
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: Apes：散户联盟
+    insights:
+      affects:
+        - 定价权：散户集结的冲击力
+        - 群体非理性：meme 行情的燃料
+      good:
+        - 逼空行情：散户的高光
+      bad:
+        - 集体被埋：树倒猢狲散
+      policy:
+        - 监管关注抱团炒作
+      example: 班级里学渣联盟：单打独斗都被碾压，抱团抗议居然让老师改了规则——但考试还是各自考。
+  - slug: ath
+    headword: ATH
+    categoryL1: 行情黑话
+    categoryL2: 价格状态
+    difficulty: L2
+    summaryPlain: 历史新高：多头最爱的两个字母，也是风险累积的刻度。
+    riskNote: 创新高没有天花板，也没有支撑，追高的止损最难设。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 历史新高：多头最爱的两个字母，也是风险累积的刻度。
+        example: 比如股价创历史新高，论坛一片狂欢。
+        notMeaning: 创新高没有天花板，也没有支撑，追高的止损最难设。
+        isPrimary: true
+        contextKeywords:
+          - 价格状态
+        frequency: high
+    aliases:
+      - raw: ATH
+        aliasType: primary
+      - raw: 历史新高
+        aliasType: cn_alias
+      - raw: 创新高
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 15
+    insights:
+      affects:
+        - 趋势强度：新高的动能
+        - 情绪极值：一致性预期的风险
+      good:
+        - 放量新高：趋势确认
+      bad:
+        - 无量新高：诱多
+      policy:
+        - 无政策含义
+      example: 班级纪录：破纪录那一刻最风光，破纪录之后每次考试都是压力。
+  - slug: bag-holder
+    headword: 套牢者
+    categoryL1: 行情黑话
+    categoryL2: 网络用语
+    difficulty: L2
+    summaryPlain: 死抱着暴跌资产不放的人：美股论坛的 Bagholder，A 股叫「股东」。
+    riskNote: 从投资者变股东，往往只差一个「再等等」。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 死抱着暴跌资产不放的人：美股论坛的 Bagholder，A 股叫「股东」。
+        example: 比如跌了 80% 还在喊长期主义，就是标准 bagholder。
+        notMeaning: 从投资者变股东，往往只差一个「再等等」。
+        isPrimary: true
+        contextKeywords:
+          - 网络用语
+        frequency: high
+    aliases:
+      - raw: 套牢者
+        aliasType: primary
+      - raw: Bag Holder
+        aliasType: en_alias
+      - raw: 股东
+        aliasType: cn_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: trap
+        shares: 1000
+    insights:
+      affects:
+        - 沉没成本：不舍得止损的心理根源
+        - 身份降级：从股民到股东
+      good:
+        - 极端错杀后的 bagholder：翻身
+      bad:
+        - 归零路上：越抱越少
+      policy:
+        - 无政策含义
+      example: 演唱会门口买到假票还舍不得走：明知不值，总觉得「来都来了」。
+  - slug: bai-ma-gu
+    headword: 白线股
+    categoryL1: 行情黑话
+    categoryL2: 选股
+    difficulty: L1
+    summaryPlain: 常说的白马股：业绩稳、知名度高、财报干净的好学生，适合长期持有。
+    riskNote: 白马也会变脸：增速放缓+估值过高时，杀起来不比题材股温柔。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 常说的白马股：业绩稳、知名度高、财报干净的好学生，适合长期持有。
+        example: 比如某消费白马业绩增速从 30% 降到 5%，估值从 50 倍杀到 20 倍。
+        notMeaning: 白马也会变脸：增速放缓+估值过高时，杀起来不比题材股温柔。
+        isPrimary: true
+        contextKeywords:
+          - 选股
+        frequency: high
+    aliases:
+      - raw: 白线股
+        aliasType: primary
+      - raw: 白马股
+        aliasType: cn_alias
+      - raw: 好学生股
+        aliasType: cn_alias
+    viz:
+      type: PEScale
+      config:
+        ratioName: 白马估值
+        denomLabel: 每年赚的钱(每股收益)
+        denomMax: 10
+        cheap: 15
+        fair: 30
+    insights:
+      affects:
+        - 长线配置：养老资金的压舱石
+        - 情绪：市场差时资金避风港
+        - 估值：好公司也要好价格
+      good:
+        - 业绩持续验证：慢牛典范
+        - 错杀时买入：最舒服的左侧
+      bad:
+        - 增速换挡：杀估值
+        - 把好公司当提款机在高位加仓
+      policy:
+        - 消费刺激政策影响白马业绩
+        - 集采/反垄断改变行业天花板
+      example: 重点班的班长：成绩稳、人缘好、老师放心（机构重仓）。但他每次考试失误（增速降档），全班都紧张。
+  - slug: bao-lei
+    headword: 爆雷
+    categoryL1: 行情黑话
+    categoryL2: 风险
+    difficulty: L1
+    summaryPlain: 公司突然曝出重大风险：财务造假、大股东占款、违规担保，黑天鹅级别的坏消息。
+    riskNote: 爆雷前常有征兆（高质押、高商誉、审计非标），别等公告才后知后觉。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 公司突然曝出重大风险：财务造假、大股东占款、违规担保，黑天鹅级别的坏消息。
+        example: 比如白马股突然被曝虚增收入百亿，股价连续跌停，机构踩踏出逃。
+        notMeaning: 爆雷前常有征兆（高质押、高商誉、审计非标），别等公告才后知后觉。
+        isPrimary: true
+        contextKeywords:
+          - 风险
+        frequency: high
+    aliases:
+      - raw: 爆雷
+        aliasType: primary
+      - raw: 踩雷
+        aliasType: cn_alias
+      - raw: 黑天鹅
+        aliasType: cn_alias
+      - raw: 暴雷
+        aliasType: cn_alias
+    viz:
+      type: RiskLadder
+      config:
+        initialStep: 3
+    insights:
+      affects:
+        - 持仓：防雷是第一生存技能
+        - 市场：集中爆雷引发信任危机
+        - 制度：注册制下爆雷成本更高
+      good:
+        - 提前排雷：躲过就是胜利
+        - 爆雷出清：市场长期更健康
+      bad:
+        - 戴帽 ST：流动性骤降
+        - 退市归零：最惨结局
+      policy:
+        - 财务造假处罚与退市联动
+        - 现场检查与审计趋严多发爆雷
+      example: 看上去结实的房子突然塌了：不是没人预警（裂缝早就有了），是住的人选择性失明。
+  - slug: bao-tuan
+    headword: 抱团
+    categoryL1: 行情黑话
+    categoryL2: 资金行为
+    difficulty: L1
+    summaryPlain: 资金集中买入同一批龙头股，把它们一起推到高位：机构间的默契共谋。
+    riskNote: 抱团瓦解时，龙头的跌幅远超想象；你以为是核心资产，其实是拥挤交易。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 资金集中买入同一批龙头股，把它们一起推到高位：机构间的默契共谋。
+        example: 比如 2021 年初白马股集体崩塌，茅台们腰斩，公募净值一片绿。
+        notMeaning: 抱团瓦解时，龙头的跌幅远超想象；你以为是核心资产，其实是拥挤交易。
+        isPrimary: true
+        contextKeywords:
+          - 资金行为
+        frequency: high
+    aliases:
+      - raw: 抱团
+        aliasType: primary
+      - raw: 瓦解
+        aliasType: cn_alias
+      - raw: 核心资产
+        aliasType: cn_alias
+      - raw: 拥挤交易
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config: {}
+    insights:
+      affects:
+        - 风格：抱团股主导指数走向
+        - 拥挤度：都在里面就是最大风险
+        - 瓦解信号：增量资金停止
+      good:
+        - 抱团初期：业绩+估值双升
+        - 瓦解后：资金扩散到低位板块
+      bad:
+        - 瓦解时杀估值最狠
+        - 高位补仓抱团股：接最后一棒
+      policy:
+        - 机构考核机制逼出抱团
+        - 增量资金决定抱团持续性
+      example: 食堂所有人抢同一个窗口：菜还是那个菜，排的人越多溢价越高，散场时一片狼藉。
+  - slug: beat-and-raise
+    headword: 超预期并上调指引
+    categoryL1: 行情黑话
+    categoryL2: 财报组合
+    difficulty: L2
+    summaryPlain: 财报超预期的同时上调未来指引：最强的财报形态，双击标配。
+    riskNote: Beat and raise 之后还能涨的，才是真成长股。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 财报超预期的同时上调未来指引：最强的财报形态，双击标配。
+        example: 比如公司 Q2 超预期且上调全年指引，股价跳空 15%。
+        notMeaning: Beat and raise 之后还能涨的，才是真成长股。
+        isPrimary: true
+        contextKeywords:
+          - 财报组合
+        frequency: high
+    aliases:
+      - raw: 超预期并上调指引
+        aliasType: primary
+      - raw: Beat and Raise
+        aliasType: en_alias
+      - raw: 双击
+        aliasType: cn_alias
+    viz:
+      type: EarningsSeason
+      config:
+        expectEps: 2.5
+    insights:
+      affects:
+        - 股价驱动：双击的标准剧本
+        - 预期管理：管理层信用的体现
+      good:
+        - 连续 beat and raise：长牛基因
+      bad:
+        - beat 但 lower guidance：见光死
+      policy:
+        - 无政策含义
+      example: 考试超常发挥还主动加报竞赛：老师（市场）对你的期待直接上调一档。
+  - slug: btfd
+    headword: BTFD
+    categoryL1: 行情黑话
+    categoryL2: 网络口号
+    difficulty: L2
+    summaryPlain: 「跌了就买」的激进口号：只适用于永远向上的市场和无限的子弹。
+    riskNote: 下跌趋势里 BTFD 就是无限补仓无限亏。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 「跌了就买」的激进口号：只适用于永远向上的市场和无限的子弹。
+        example: 比如老韭菜的口头禅：别问，问就是跌了就买。
+        notMeaning: 下跌趋势里 BTFD 就是无限补仓无限亏。
+        isPrimary: true
+        contextKeywords:
+          - 网络口号
+        frequency: high
+    aliases:
+      - raw: BTFD
+        aliasType: primary
+      - raw: 跌了就买
+        aliasType: cn_alias
+      - raw: 抄底口号
+        aliasType: cn_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: trap
+        shares: 1000
+    insights:
+      affects:
+        - 抄底文化：美股的信仰口号
+        - 风险：线性思维的代价
+      good:
+        - 牛市回调：BTFD 真香
+      bad:
+        - 熊市 BTFB：跌跌不休
+      policy:
+        - 无政策含义
+      example: 商场大促的口号「闭眼买」：促销季（牛市）是便宜，清仓跑路（熊市）是接盘。
+  - slug: bu-cang
+    headword: 补仓
+    categoryL1: 行情黑话
+    categoryL2: 仓位操作
+    difficulty: L1
+    summaryPlain: 跌了再买以摊低成本：被套者的标准动作，也是深渊的开始。
+    riskNote: 补仓只在逻辑没变时有效；逻辑变了补仓是加码错误。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 跌了再买以摊低成本：被套者的标准动作，也是深渊的开始。
+        example: 比如跌 10% 补一笔，再跌 20% 又补，成本摊到半山腰。
+        notMeaning: 补仓只在逻辑没变时有效；逻辑变了补仓是加码错误。
+        isPrimary: true
+        contextKeywords:
+          - 仓位操作
+        frequency: high
+    aliases:
+      - raw: 补仓
+        aliasType: primary
+      - raw: 摊低成本
+        aliasType: cn_alias
+      - raw: 逢低加仓
+        aliasType: cn_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: trap
+        shares: 1000
+    insights:
+      affects:
+        - 成本幻觉：摊的是成本不是风险
+        - 仓位失控：补到重仓的起点
+      good:
+        - 基本面未变+低估：补仓解套
+      bad:
+        - 基本面恶化：补仓=加速亏
+      policy:
+        - 无政策含义
+      example: 漏水的水桶：洞小（小跌）补一补能用，洞大（暴跌）越补漏得越快。
+  - slug: bu-zhang
+    headword: 补涨
+    categoryL1: 行情黑话
+    categoryL2: 板块轮动
+    difficulty: L1
+    summaryPlain: 板块炒了一圈，还没涨的后来跟上：资金的「扫尾行情」。
+    riskNote: 补涨往往是行情的最后一棒，补完就散场。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 板块炒了一圈，还没涨的后来跟上：资金的「扫尾行情」。
+        example: 比如主线涨完，同题材低位股开始跟风，通常快见顶了。
+        notMeaning: 补涨往往是行情的最后一棒，补完就散场。
+        isPrimary: true
+        contextKeywords:
+          - 板块轮动
+        frequency: high
+    aliases:
+      - raw: 补涨
+        aliasType: primary
+      - raw: 补跌
+        aliasType: cn_alias
+      - raw: 轮动
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 11
+    insights:
+      affects:
+        - 轮动节奏：补涨是尾声信号
+        - 板块判断：涨到边缘=行情后期
+      good:
+        - 低位补涨：安全的补票
+      bad:
+        - 高位补涨：最后的接棒
+      policy:
+        - 题材扩散的监管关注
+      example: 饭局上最后一个到的（补涨）：菜凉了价还高，大家吃完各自回家。
+  - slug: chao-di
+    headword: 抄底
+    categoryL1: 行情黑话
+    categoryL2: 操作
+    difficulty: L1
+    summaryPlain: 在价格大跌时买入，赌跌不动了会反弹：听起来美好，做起来九死一生。
+    riskNote: 下跌趋势里没有底只有更深；左侧交易者要么大赚要么大亏，普通人不适合。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 在价格大跌时买入，赌跌不动了会反弹：听起来美好，做起来九死一生。
+        example: 比如股价从 30 跌到 20 以为见底，接着跌到 10，本金腰斩。
+        notMeaning: 下跌趋势里没有底只有更深；左侧交易者要么大赚要么大亏，普通人不适合。
+        isPrimary: true
+        contextKeywords:
+          - 操作
+        frequency: high
+    aliases:
+      - raw: 抄底
+        aliasType: primary
+      - raw: 逃顶
+        aliasType: cn_alias
+      - raw: 接飞刀
+        aliasType: cn_alias
+      - raw: 底部
+        aliasType: cn_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: trap
+        shares: 1000
+    insights:
+      affects:
+        - 趋势判断：左侧交易 vs 右侧交易
+        - 风险：下跌途中子弹打光
+        - 情绪：恐慌极致时才是好点位
+      good:
+        - 分批+基本面锚：提高容错
+        - 恐慌错杀时的黄金坑
+      bad:
+        - 越跌越买：仓位死在半山腰
+        - 接飞刀：刀刀见血
+      policy:
+        - 政策底后还有市场底
+        - 流动性危机时无差别下跌
+      example: 下落的尖刀：空手接（抄底）要么接到柄要么割破手。等刀落地插稳了再捡，才安全。
+  - slug: chi-rou-chi-mian
+    headword: 吃肉/吃面
+    categoryL1: 行情黑话
+    categoryL2: 盈亏俚语
+    difficulty: L1
+    summaryPlain: 赚钱叫吃肉，亏钱叫吃面，跌停造成的大亏叫大面：股民的黑话体感。
+    riskNote: 俚语归俚语，账户不会因为叫法好听就回血。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 赚钱叫吃肉，亏钱叫吃面，跌停造成的大亏叫大面：股民的黑话体感。
+        example: 比如今天涨停群里喊吃肉，明天跌停集体吃面。
+        notMeaning: 俚语归俚语，账户不会因为叫法好听就回血。
+        isPrimary: true
+        contextKeywords:
+          - 盈亏俚语
+        frequency: high
+    aliases:
+      - raw: 吃肉/吃面
+        aliasType: primary
+      - raw: 吃肉
+        aliasType: cn_alias
+      - raw: 大面
+        aliasType: cn_alias
+    viz:
+      type: ProfitLossScale
+      config: {}
+    insights:
+      affects:
+        - 情绪表达：圈子的身份暗号
+        - 社区文化：晒收益的仪式感
+      good:
+        - 吃到肉：落袋的快乐
+      bad:
+        - 吃大面：20% 的物理伤害
+      policy:
+        - 无政策含义
+      example: 食堂黑话：加鸡腿（吃肉）和清水煮面（吃面），同一天可能都体验到。
+  - slug: chu-huo
+    headword: 出货
+    categoryL1: 行情黑话
+    categoryL2: 主力行为
+    difficulty: L1
+    summaryPlain: 高位把手里的货卖给接盘方：所有炒作的终点。
+    riskNote: 出货期的利好都是诱多，别把毒药当糖吃。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 高位把手里的货卖给接盘方：所有炒作的终点。
+        example: 比如股价高位放巨量滞涨，就是典型的派发迹象。
+        notMeaning: 出货期的利好都是诱多，别把毒药当糖吃。
+        isPrimary: true
+        contextKeywords:
+          - 主力行为
+        frequency: high
+    aliases:
+      - raw: 出货
+        aliasType: primary
+      - raw: 派发
+        aliasType: cn_alias
+      - raw: 倒货
+        aliasType: cn_alias
+    viz:
+      type: VolumeRatio
+      config:
+        title: 出货：高位倒货
+    insights:
+      affects:
+        - 筹码转移：主力→散户
+        - 风险信号：放量滞涨要警惕
+      good:
+        - 及早识别：躲过主跌浪
+      bad:
+        - 高位接货：长期站岗
+      policy:
+        - 减持规则下的隐蔽出货
+      example: 菜贩收摊前大喊「最后一批跳楼价」：他不是做慈善，是再不卖就烂手里（高位必须出）。
+  - slug: da-a
+    headword: 大A
+    categoryL1: 行情黑话
+    categoryL2: 昵称
+    difficulty: L1
+    summaryPlain: A 股市场的爱称：带着自嘲、热爱和恨铁不成钢的复杂感情。
+    riskNote: 昵称归昵称，该做的风控一点不能少。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: A 股市场的爱称：带着自嘲、热爱和恨铁不成钢的复杂感情。
+        example: 比如股民自嘲「大 A 永远年轻，永远热泪盈眶」。
+        notMeaning: 昵称归昵称，该做的风控一点不能少。
+        isPrimary: true
+        contextKeywords:
+          - 昵称
+        frequency: high
+    aliases:
+      - raw: 大A
+        aliasType: primary
+      - raw: A股
+        aliasType: cn_alias
+      - raw: 癌股
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 大 A：爱称与自嘲
+    insights:
+      affects:
+        - 身份认同：散户圈子的接头暗号
+        - 情绪出口：调侃中释放压力
+      good:
+        - 调侃文化：苦中作乐
+      bad:
+        - 情绪化：自嘲代替不了风控
+      policy:
+        - 无政策含义
+      example: 母校情结：自己可以骂一千遍，别人骂一句就急——「大 A」就是股民的母校。
+  - slug: da-ban
+    headword: 打板
+    categoryL1: 行情黑话
+    categoryL2: 短线战法
+    difficulty: L2
+    summaryPlain: 在股票涨停价挂单排队买入：赌明天还有人用更高价接走。
+    riskNote: 成功率极低：封板越紧抢不到，抢到可能是炸板；是A股最危险的短线游戏。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 在股票涨停价挂单排队买入：赌明天还有人用更高价接走。
+        example: 比如某股上午封涨停，游资排队几千万买单，下午两点突然炸板，全天从 +10% 到 -3%。
+        notMeaning: 成功率极低：封板越紧抢不到，抢到可能是炸板；是A股最危险的短线游戏。
+        isPrimary: true
+        contextKeywords:
+          - 短线战法
+        frequency: high
+    aliases:
+      - raw: 打板
+        aliasType: primary
+      - raw: 涨停板
+        aliasType: cn_alias
+      - raw: 排板
+        aliasType: cn_alias
+      - raw: 半路
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: limitUp
+        limitPct: 10
+        basePrice: 10
+    insights:
+      affects:
+        - 情绪温度计：打板成功率反映短线热度
+        - 流动性溢价：封单大小代表资金决心
+        - 风险：T+1 制度放大了隔夜风险
+      good:
+        - 打板环境好：短线情绪高涨
+        - 封死不开：次日惯性高开
+      bad:
+        - 炸板大面：一天亏 15% 不稀奇
+        - 连续打板失败：情绪退潮
+      policy:
+        - 停牌核查/特停制度打压爆炒
+        - 交易所对异常交易的监控
+      example: 抢购限量球鞋：门口排队的人决定黄牛价。你排进去（打板），出价的人（接盘）比你先跑你就砸手里。
+  - slug: da-guo
+    headword: 大镬
+    categoryL1: 行情黑话
+    categoryL2: 粤语俚语
+    difficulty: L2
+    summaryPlain: 粤语「大事不好」：出事、背锅、踩大雷的意思。
+    riskNote: 一句大镬，可能意味着董事会出事、产品出事或你持仓出事。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 粤语「大事不好」：出事、背锅、踩大雷的意思。
+        example: 比如公司突然停牌，论坛一片出事了。
+        notMeaning: 一句大镬，可能意味着董事会出事、产品出事或你持仓出事。
+        isPrimary: true
+        contextKeywords:
+          - 粤语俚语
+        frequency: mid
+    aliases:
+      - raw: 大镬
+        aliasType: primary
+      - raw: 出事了
+        aliasType: cn_alias
+      - raw: 踩雷
+        aliasType: cn_alias
+    viz:
+      type: RiskLadder
+      config:
+        initialStep: 2
+    insights:
+      affects:
+        - 情绪信号：比财报更早的语言
+        - 粤语文化：金融圈的通用感叹词
+      good:
+        - 大镬前跑掉：幸运
+      bad:
+        - 大镬后还拿着：残忍
+      policy:
+        - 无政策含义
+      example: 考试忘带准考证：一句「大镬」顶一千字检讨。
+  - slug: da-ya
+    headword: 打压
+    categoryL1: 行情黑话
+    categoryL2: 主力行为
+    difficulty: L2
+    summaryPlain: 故意把股价压低以便低位收货：和砸盘是一对孪生兄弟。
+    riskNote: 打压洗盘和真出货要分清，看基本面和量能。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 故意把股价压低以便低位收货：和砸盘是一对孪生兄弟。
+        example: 比如利空袭来股价被砸出坑，主力低位吃货。
+        notMeaning: 打压洗盘和真出货要分清，看基本面和量能。
+        isPrimary: true
+        contextKeywords:
+          - 主力行为
+        frequency: high
+    aliases:
+      - raw: 打压
+        aliasType: primary
+      - raw: 压盘
+        aliasType: cn_alias
+      - raw: 震仓
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: limitDown
+        limitPct: 10
+        basePrice: 10
+    insights:
+      affects:
+        - 收货成本：打压的真实目的
+        - 散户情绪：恐慌盘的产生机制
+      good:
+        - 打压结束：地量地价
+      bad:
+        - 打压变出货：一路向西
+      policy:
+        - 监管打击恶意打压
+      example: 菜市场收摊前故意吆喝「烂菜处理」：把价压低好收货，天亮又是一条好汉。
+  - slug: da-zha-xie
+    headword: 大闸蟹
+    categoryL1: 行情黑话
+    categoryL2: 港股俗语
+    difficulty: L2
+    summaryPlain: 港股俗语：股民被深套后动弹不得，像被捆住的大闸蟹。
+    riskNote: 绑住你的不是绳子，是「再等等就回本」的执念。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 港股俗语：股民被深套后动弹不得，像被捆住的大闸蟹。
+        example: 比如暴跌后想卖卖不掉、不卖又继续跌，股民这样自嘲。
+        notMeaning: 绑住你的不是绳子，是「再等等就回本」的执念。
+        isPrimary: true
+        contextKeywords:
+          - 港股俗语
+        frequency: mid
+    aliases:
+      - raw: 大闸蟹
+        aliasType: primary
+      - raw: 绑住
+        aliasType: cn_alias
+      - raw: 动弹不得
+        aliasType: cn_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: trap
+        shares: 1000
+    insights:
+      affects:
+        - 情绪写照：港股散户的自嘲文化
+        - 流动性：跌时想逃逃不掉
+      good:
+        - 认赔松绑：保留本金
+      bad:
+        - 越绑越紧：补仓加绑
+      policy:
+        - 无政策含义
+      example: 蒸笼里的大闸蟹：挣扎（补仓）没用，最后看火候（市场）。唯一的主动是提前跑。
+  - slug: dd
+    headword: DD
+    categoryL1: 行情黑话
+    categoryL2: 研究方法
+    difficulty: L2
+    summaryPlain: 尽职调查：买股票前把公司翻个底朝天的功课。
+    riskNote: 散户做 DD 的信息渠道天然劣于机构，尽力就好。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 尽职调查：买股票前把公司翻个底朝天的功课。
+        example: 比如重仓前先做尽调：读财报、跑渠道、问上下游。
+        notMeaning: 散户做 DD 的信息渠道天然劣于机构，尽力就好。
+        isPrimary: true
+        contextKeywords:
+          - 研究方法
+        frequency: high
+    aliases:
+      - raw: DD
+        aliasType: primary
+      - raw: 尽职调查
+        aliasType: cn_alias
+      - raw: Due Diligence
+        aliasType: en_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: DD：买前功课
+    insights:
+      affects:
+        - 投资纪律：研究创造确定性
+        - 信息差：DD 是缩小它的努力
+      good:
+        - 深度 DD：敢重仓的底气
+      bad:
+        - 没有 DD：纯赌
+      policy:
+        - 信息披露制度是 DD 的基础
+      example: 买房前的尽调：查产权、看房况、问邻居——花一周省十年泪。
+  - slug: di-xi
+    headword: 低吸
+    categoryL1: 行情黑话
+    categoryL2: 操作手法
+    difficulty: L1
+    summaryPlain: 在回调相对低位买入：不追高、等摔杯为号的打法。
+    riskNote: 低吸可能低还有更低，尤其是趋势向下的票。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 在回调相对低位买入：不追高、等摔杯为号的打法。
+        example: 比如股价回到 5 日线附近缩量企稳，抄底资金进场。
+        notMeaning: 低吸可能低还有更低，尤其是趋势向下的票。
+        isPrimary: true
+        contextKeywords:
+          - 操作手法
+        frequency: high
+    aliases:
+      - raw: 低吸
+        aliasType: primary
+      - raw: 半路
+        aliasType: cn_alias
+      - raw: 低吸富三代
+        aliasType: cn_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: trap
+        shares: 1000
+    insights:
+      affects:
+        - 成本控制：比追高安全一档
+        - 买点选择：等回调而不是猜顶
+      good:
+        - 支撑位低吸：盈亏比好
+      bad:
+        - 下跌途中低吸：接飞刀
+      policy:
+        - 无直接政策影响
+      example: 等商场换季打折再买：原价时忍住，三折时出手——但过季款可能明年更便宜。
+  - slug: ding-xie-xiao-ying
+    headword: 丁蟹效应
+    categoryL1: 行情黑话
+    categoryL2: 港股传说
+    difficulty: L2
+    summaryPlain: 港股著名玄学：每逢 TVB 重播《大时代》，股市就莫名其妙下跌。
+    riskNote: 纯属统计巧合+自我实现，但媒体年年玩这个梗。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 港股著名玄学：每逢 TVB 重播《大时代》，股市就莫名其妙下跌。
+        example: 比如重播消息一出，空头都拿来当笑话素材。
+        notMeaning: 纯属统计巧合+自我实现，但媒体年年玩这个梗。
+        isPrimary: true
+        contextKeywords:
+          - 港股传说
+        frequency: mid
+    aliases:
+      - raw: 丁蟹效应
+        aliasType: primary
+      - raw: 丁蟹
+        aliasType: cn_alias
+      - raw: 大时代效应
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 丁蟹效应：最玄的指标
+    insights:
+      affects:
+        - 行为金融：预期的自我实现
+        - 娱乐化：港股文化的梗
+      good:
+        - 娱乐效果：聊天破冰
+      bad:
+        - 当真的：迷信害人
+      policy:
+        - 无政策含义
+      example: 每次体育考试前下雨你就考砸，几次之后全班都信「你=雨神」：巧合重复一千次也还是巧合。
+  - slug: dui-dao
+    headword: 对倒
+    categoryL1: 行情黑话
+    categoryL2: 违规
+    difficulty: L2
+    summaryPlain: 同一主体自己买卖自己制造虚假成交和活跃假象：典型的市场操纵。
+    riskNote: 对倒做出来的量都是假的，跟着假量上车只能等被割。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 同一主体自己买卖自己制造虚假成交和活跃假象：典型的市场操纵。
+        example: 比如尾盘出现天量成交但股价原地不动，查下来就是自买自卖。
+        notMeaning: 对倒做出来的量都是假的，跟着假量上车只能等被割。
+        isPrimary: true
+        contextKeywords:
+          - 违规
+        frequency: high
+    aliases:
+      - raw: 对倒
+        aliasType: primary
+      - raw: 对敲
+        aliasType: cn_alias
+      - raw: 自买自卖
+        aliasType: cn_alias
+      - raw: 操纵
+        aliasType: cn_alias
+    viz:
+      type: VolumeRatio
+      config: {}
+    insights:
+      affects:
+        - 市场秩序：操纵行为破坏公平
+        - 技术识别：量价不匹配是表象
+        - 监管：明令禁止并重点打击
+      good:
+        - 识破对倒=识破陷阱
+        - 留下的痕迹是监管线索
+      bad:
+        - 参与对倒接盘：自投罗网
+        - 相信假量：被诱多诱空
+      policy:
+        - 证监会持续打击操纵市场
+        - 大数据监控让对倒无所遁形
+      example: 托儿在拍卖会自己举牌自己应价：热闹是演的，价格是假的，成交是给围观者看的。
+  - slug: dyor
+    headword: DYOR
+    categoryL1: 行情黑话
+    categoryL2: 网络用语
+    difficulty: L1
+    summaryPlain: 自己做功课：论坛每篇帖子结尾的免责金句，也是唯一正确的投资姿势。
+    riskNote: 别人晒单可能是为了让你接盘，DYOR 是自我保护。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 自己做功课：论坛每篇帖子结尾的免责金句，也是唯一正确的投资姿势。
+        example: 比如看到推荐先自己做功课，翻完财报再决定。
+        notMeaning: 别人晒单可能是为了让你接盘，DYOR 是自我保护。
+        isPrimary: true
+        contextKeywords:
+          - 网络用语
+        frequency: high
+    aliases:
+      - raw: DYOR
+        aliasType: primary
+      - raw: 自己做功课
+        aliasType: cn_alias
+      - raw: NFA
+        aliasType: en_alias
+    viz:
+      type: MarketMood
+      config:
+        title: DYOR：自己的功课
+    insights:
+      affects:
+        - 信息甄别：社交时代的必修课
+        - 责任归属：盈亏自负的底线
+      good:
+        - 独立研究：不被带节奏
+      bad:
+        - 盲目跟单：给别人的结论买单
+      policy:
+        - 无政策含义
+      example: 淘宝看评价：好评可以刷，差评要看图——DYOR 就是自己翻到差评区。
+  - slug: fa
+    headword: 基本面分析
+    categoryL1: 行情黑话
+    categoryL2: 研究方法
+    difficulty: L1
+    summaryPlain: 研究公司业绩、行业、竞争力来估值：价值投资的看家本领。
+    riskNote: 基本面不能解决择时，好公司买贵了照样亏几年。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 研究公司业绩、行业、竞争力来估值：价值投资的看家本领。
+        example: 比如翻财报、算 DCF、比行业，就是基本面派。
+        notMeaning: 基本面不能解决择时，好公司买贵了照样亏几年。
+        isPrimary: true
+        contextKeywords:
+          - 研究方法
+        frequency: high
+    aliases:
+      - raw: 基本面分析
+        aliasType: primary
+      - raw: FA
+        aliasType: en_alias
+      - raw: 价值投资
+        aliasType: cn_alias
+    viz:
+      type: PEScale
+      config:
+        ratioName: 基本面估值
+        denomLabel: 盈利能力
+        denomMax: 10
+        cheap: 15
+        fair: 30
+    insights:
+      affects:
+        - 长期收益的根本来源
+        - 能力圈：看得懂才敢重仓
+      good:
+        - 好公司好价格：长期躺赢
+      bad:
+        - 价值陷阱：便宜有便宜的道理
+      policy:
+        - 信息披露质量决定研究上限
+      example: 相亲看内涵（基本面）：家境、性格、能力都得掂量；颜值（技术面）决定第一印象，内涵决定过多久。
+  - slug: fan-bao
+    headword: 反包
+    categoryL1: 行情黑话
+    categoryL2: 短线形态
+    difficulty: L2
+    summaryPlain: 跌了之后第二天一根阳线把前一天的跌幅全吃回去：强势股的复活卡。
+    riskNote: 反包失败就是二次闷杀，博弈属性极强。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 跌了之后第二天一根阳线把前一天的跌幅全吃回去：强势股的复活卡。
+        example: 比如昨天大阴线，今天低开高走涨停一举收复失地。
+        notMeaning: 反包失败就是二次闷杀，博弈属性极强。
+        isPrimary: true
+        contextKeywords:
+          - 短线形态
+        frequency: high
+    aliases:
+      - raw: 反包
+        aliasType: primary
+      - raw: 断板
+        aliasType: cn_alias
+      - raw: 阳包阴
+        aliasType: cn_alias
+    viz:
+      type: CandleBuilder
+      config:
+        title: 反包：一根线吃回跌幅
+    insights:
+      affects:
+        - 情绪修复：强势股的标志
+        - 接力生态：反包是短线核心战法
+      good:
+        - 缩量反包：主力未走
+      bad:
+        - 放量反包失败：诱多
+      policy:
+        - 监管打压恶意做盘
+      example: 被KO 的拳击手爬起来一击制胜：反包就是这种戏剧性，观众（资金）就吃这套。
+  - slug: fan-che
+    headword: 翻车
+    categoryL1: 行情黑话
+    categoryL2: 结果描述
+    difficulty: L1
+    summaryPlain: 重仓押错方向亏惨了：车毁人亡式投资事故。
+    riskNote: 换车越勤翻车越狠，别把炒股当开碰碰车。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 重仓押错方向亏惨了：车毁人亡式投资事故。
+        example: 比如追热点连吃两个跌停，群里说这次真出事故了。
+        notMeaning: 换车越勤翻车越狠，别把炒股当开碰碰车。
+        isPrimary: true
+        contextKeywords:
+          - 结果描述
+        frequency: high
+    aliases:
+      - raw: 翻车
+        aliasType: primary
+      - raw: 翻车现场
+        aliasType: cn_alias
+      - raw: 亏惨
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 10
+    insights:
+      affects:
+        - 操作频率：翻车率与换手正相关
+        - 风险教育：最直白的劝退词
+      good:
+        - 及时下车：避免翻车
+      bad:
+        - 梭哈式换车：必翻
+      policy:
+        - 无政策含义
+      example: 秋名山飙车：入弯不减速（不设止损），排水渠过弯失败（爆仓）就是翻车。
+  - slug: fan-tan
+    headword: 反弹
+    categoryL1: 行情黑话
+    categoryL2: 走势
+    difficulty: L1
+    summaryPlain: 跌下去之后短暂回升：熊市里的喘息机会。
+    riskNote: 反弹和反转是两回事，把反弹当反转是亏得最快的路径。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 跌下去之后短暂回升：熊市里的喘息机会。
+        example: 比如熊途漫漫中某天大涨 3%，抄底的人以为见底。
+        notMeaning: 反弹和反转是两回事，把反弹当反转是亏得最快的路径。
+        isPrimary: true
+        contextKeywords:
+          - 走势
+        frequency: high
+    aliases:
+      - raw: 反弹
+        aliasType: primary
+      - raw: 反转
+        aliasType: cn_alias
+      - raw: bounce
+        aliasType: en_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 10
+    insights:
+      affects:
+        - 抄底博弈：反弹是减仓窗口
+        - 趋势判断：反弹结束继续跌
+      good:
+        - 强势反弹：可能反转
+        - 反弹到压力位：减仓机会
+      bad:
+        - 反弹追高：二次探底重伤
+      policy:
+        - 政策底常引发反弹
+      example: 球落地后弹起来（反弹）：弹多高看落地速度，但最终停在地上（反转需要新力量）。
+  - slug: fed-put
+    headword: 美联储保护传
+    categoryL1: 行情黑话
+    categoryL2: 市场信仰
+    difficulty: L2
+    summaryPlain: 市场相信美联储会在跌得太惨时出手相救：传说中的看跌期权。
+    riskNote: 信仰越强，暴跌越狠——每次都信，每次都输。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 市场相信美联储会在跌得太惨时出手相救：传说中的看跌期权。
+        example: 比如暴跌时市场喊「Fed put 要来了」，然后美联储按兵不动。
+        notMeaning: 信仰越强，暴跌越狠——每次都信，每次都输。
+        isPrimary: true
+        contextKeywords:
+          - 市场信仰
+        frequency: high
+    aliases:
+      - raw: 美联储保护传
+        aliasType: primary
+      - raw: Fed Put
+        aliasType: en_alias
+      - raw: 央行看跌期权
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: Fed Put：传说的救生圈
+    insights:
+      affects:
+        - 道德风险：信仰催生泡沫
+        - 政策博弈：央妈与市场的默契
+      good:
+        - 兑现时：危机解除
+      bad:
+        - 不兑现：信仰崩塌式下跌
+      policy:
+        - 央行危机应对框架
+      example: 溺水中等救生员：多数时候会来（历史经验），但溺水的痛苦是真的，迟到的救援也救不了肺积水。
+  - slug: fen-hua
+    headword: 分化
+    categoryL1: 行情黑话
+    categoryL2: 走势状态
+    difficulty: L2
+    summaryPlain: 同一个市场里有的涨有的跌，板块不再齐涨齐跌：行情进入hard模式。
+    riskNote: 分化市里选错方向满仓踏空，赚指数不赚钱。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 同一个市场里有的涨有的跌，板块不再齐涨齐跌：行情进入hard模式。
+        example: 比如指数涨 1% 但三千只股票在跌，冰火两重天。
+        notMeaning: 分化市里选错方向满仓踏空，赚指数不赚钱。
+        isPrimary: true
+        contextKeywords:
+          - 走势状态
+        frequency: high
+    aliases:
+      - raw: 分化
+        aliasType: primary
+      - raw: 结构分化
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 分化：各走各路
+    insights:
+      affects:
+        - 选股要求： Beta 失效，Alpha 为王
+        - 操作难度：新手最容易被埋
+      good:
+        - 押中主线：超额收益来源
+      bad:
+        - 结构性亏损：指数涨你照跌
+      policy:
+        - 存量博弈加剧分化
+      example: 班里一半人考第一一半人考倒数：平均分（指数）还行，你家孩子（持仓）在哪儿很重要。
+  - slug: feng-xiang-biao
+    headword: 风向标
+    categoryL1: 行情黑话
+    categoryL2: 观察指标
+    difficulty: L2
+    summaryPlain: 能预示行业或大盘走向的公司或指标：看它就知道天要往哪变。
+    riskNote: 风向标会失灵（龙头爆雷时），但依然是最省事的观察窗。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 能预示行业或大盘走向的公司或指标：看它就知道天要往哪变。
+        example: 比如台积电是半导体行业的方向标，茅台是消费行业的方向标。
+        notMeaning: 风向标会失灵（龙头爆雷时），但依然是最省事的观察窗。
+        isPrimary: true
+        contextKeywords:
+          - 观察指标
+        frequency: high
+    aliases:
+      - raw: 风向标
+        aliasType: primary
+      - raw: Bellwether
+        aliasType: en_alias
+      - raw: 龙头指标
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 风向标公司
+            point: 110
+            base: 100
+            note: 行业领先指标
+          - name: 行业平均
+            point: 103
+            base: 100
+            note: 跟随者
+    insights:
+      affects:
+        - 行业判断：龙头的领先性
+        - 配置策略：买风向标=买行业
+      good:
+        - 风向标强：行业景气
+      bad:
+        - 风向标崩：行业警报
+      policy:
+        - 产业政策影响风向标地位
+      example: 村里最先装空调的人家：看他家装不装（风向标），就知道今年夏天热不热。
+  - slug: fomo
+    headword: FOMO
+    categoryL1: 行情黑话
+    categoryL2: 情绪
+    difficulty: L1
+    summaryPlain: 怕错过机会而追高的焦虑：市场里最贵的三个字母。
+    riskNote: FOMO 驱动的买入都在山顶，治愈它的只有纪律。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 怕错过机会而追高的焦虑：市场里最贵的三个字母。
+        example: 比如看别人赚钱自己冲进去，典型的怕错过。
+        notMeaning: FOMO 驱动的买入都在山顶，治愈它的只有纪律。
+        isPrimary: true
+        contextKeywords:
+          - 情绪
+        frequency: high
+    aliases:
+      - raw: FOMO
+        aliasType: primary
+      - raw: 错失恐惧
+        aliasType: cn_alias
+      - raw: 怕错过
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 12
+    insights:
+      affects:
+        - 追涨杀跌的心理引擎
+        - 顶部特征：FOMO 顶点=行情顶点
+      good:
+        - 牛市初期 FOMO：顺风车
+      bad:
+        - 高位 FOMO：接盘预备役
+      policy:
+        - 无政策含义
+      example: 商场最后一天大促：不抢感觉亏一个亿，抢完发现全是库存——FOMO 让你为「感觉」买单。
+  - slug: fud
+    headword: FUD
+    categoryL1: 行情黑话
+    categoryL2: 情绪
+    difficulty: L2
+    summaryPlain: 恐惧、不确定、怀疑：用来砸盘的情绪武器，也是别人的洗盘工具。
+    riskNote: 学会分辨 FUD 和真利空，是成熟的开始。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 恐惧、不确定、怀疑：用来砸盘的情绪武器，也是别人的洗盘工具。
+        example: 比如谣言四起时庄家散布恐慌情绪，吓得散户割肉。
+        notMeaning: 学会分辨 FUD 和真利空，是成熟的开始。
+        isPrimary: true
+        contextKeywords:
+          - 情绪
+        frequency: high
+    aliases:
+      - raw: FUD
+        aliasType: primary
+      - raw: 恐慌情绪
+        aliasType: cn_alias
+      - raw: 谣言
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: FUD：恐惧三连
+    insights:
+      affects:
+        - 情绪操纵：做空者的舆论战
+        - 洗盘工具：吓出廉价筹码
+      good:
+        - FUD 出尽：利空落地反弹
+      bad:
+        - 真利空：FUD 变成事实
+      policy:
+        - 打击谣言与虚假信息
+      example: 班级里的退学传言：传得有鼻子有眼，转学生（散户）吓跑了，本地生（庄家）低价收了转让的座位。
+  - slug: gain-loss-porn
+    headword: 晒盈亏
+    categoryL1: 行情黑话
+    categoryL2: 社区文化
+    difficulty: L3
+    summaryPlain: 在论坛晒盈亏截图的行为：收益叫 gain porn，亏损叫 loss porn。
+    riskNote: 晒亏是真倾诉，晒赚常是招乘客；别被别人的截图影响判断。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 在论坛晒盈亏截图的行为：收益叫 gain porn，亏损叫 loss porn。
+        example: 比如有人晒 500% 收益，评论区求带。
+        notMeaning: 晒亏是真倾诉，晒赚常是招乘客；别被别人的截图影响判断。
+        isPrimary: true
+        contextKeywords:
+          - 社区文化
+        frequency: high
+    aliases:
+      - raw: 晒盈亏
+        aliasType: primary
+      - raw: gain porn
+        aliasType: cn_alias
+      - raw: 晒单
+        aliasType: cn_alias
+    viz:
+      type: ProfitLossScale
+      config: {}
+    insights:
+      affects:
+        - 信息噪音：截图≠可持续
+        - 从众效应：晒单诱导跟风
+      good:
+        - 晒真亏：同情分和避坑指南
+      bad:
+        - 晒假赚：杀猪盘的前奏
+      policy:
+        - 打击非法荐股与晒单诱导
+      example: 朋友圈的凡尔赛：晒收益的是在找存在感或找接盘，晒亏损的是在求安慰。
+  - slug: gao-kai-di-zou
+    headword: 高开低走
+    categoryL1: 行情黑话
+    categoryL2: 盘口
+    difficulty: L1
+    summaryPlain: 开盘比昨天高、收盘比开盘低：多头一天都没撑住的典型形态。
+    riskNote: 高位高开低走杀伤最大；低开高走正好相反，要区分位置看含义。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 开盘比昨天高、收盘比开盘低：多头一天都没撑住的典型形态。
+        example: 比如利好刺激高开 5%，散户兴冲冲进场，收盘倒跌 2%，日内追高的全套牢。
+        notMeaning: 高位高开低走杀伤最大；低开高走正好相反，要区分位置看含义。
+        isPrimary: true
+        contextKeywords:
+          - 盘口
+        frequency: high
+    aliases:
+      - raw: 高开低走
+        aliasType: primary
+      - raw: 低开高走
+        aliasType: cn_alias
+      - raw: 冲高回落
+        aliasType: cn_alias
+    viz:
+      type: CandleBuilder
+      config: {}
+    insights:
+      affects:
+        - 情绪：高开是情绪，低走是现实
+        - 资金：拉高派发的嫌疑形态
+        - 技术：高位长上影=抛压证据
+      good:
+        - 低开高走：承接强的反转
+        - 低位高开低走缩量：洗盘
+      bad:
+        - 高开低走巨量：派发无疑
+        - 连续高开低走：人气涣散
+      policy:
+        - 隔夜利好常导致高开
+        - 集合竞价制度放大开盘情绪
+      example: 新店开业请托排队（高开），路人一看没啥特色就走（低走）：热闹是装的，客流是真的。
+  - slug: gao-pao
+    headword: 高抛低吸
+    categoryL1: 行情黑话
+    categoryL2: 操作策略
+    difficulty: L1
+    summaryPlain: 涨高了卖、跌低了买：区间震荡里的标准动作，四个字值十年学费。
+    riskNote: 单边行情里高抛低吸=提前下车+追高接回。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 涨高了卖、跌低了买：区间震荡里的标准动作，四个字值十年学费。
+        example: 比如 10 块买 12 块卖，跌回 10 块再买。
+        notMeaning: 单边行情里高抛低吸=提前下车+追高接回。
+        isPrimary: true
+        contextKeywords:
+          - 操作策略
+        frequency: high
+    aliases:
+      - raw: 高抛低吸
+        aliasType: primary
+      - raw: 高抛
+        aliasType: cn_alias
+      - raw: 低吸高抛
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 11
+    insights:
+      affects:
+        - 震荡策略：最朴素的赚钱法
+        - 趋势风险：单边市的陷阱
+      good:
+        - 区间明确：反复收割
+      bad:
+        - 单边上涨：卖飞
+      policy:
+        - 无政策含义
+      example: 超市理货：快过期（高位）打折卖掉，新货上架（低位）再进——但货要是一直在涨（单边市），你就断货了。
+  - slug: gao-qie-di
+    headword: 高切低
+    categoryL1: 行情黑话
+    categoryL2: 资金轮动
+    difficulty: L2
+    summaryPlain: 资金从涨得高的板块切到还没涨的低位板块：恐高症的资金疗法。
+    riskNote: 高切低初期最舒服，切完发现低位也变高位。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 资金从涨得高的板块切到还没涨的低位板块：恐高症的资金疗法。
+        example: 比如 AI 高位滞涨，资金切向消费医药。
+        notMeaning: 高切低初期最舒服，切完发现低位也变高位。
+        isPrimary: true
+        contextKeywords:
+          - 资金轮动
+        frequency: high
+    aliases:
+      - raw: 高切低
+        aliasType: primary
+      - raw: 高低切换
+        aliasType: cn_alias
+      - raw: 切换
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 高切低：恐高的资金搬家
+    insights:
+      affects:
+        - 轮动节奏：赚钱效应的迁移
+        - 风格切换：成长→价值的过渡
+      good:
+        - 切换顺畅：行情延续
+      bad:
+        - 切无可切：全面退潮
+      policy:
+        - 无直接政策
+      example: 商场换楼层：顶楼（高位）人挤人还贵，B1（低位）宽敞便宜——人流（资金）自己会找性价比。
+  - slug: guan-deng-chi-mian
+    headword: 关灯吃面
+    categoryL1: 行情黑话
+    categoryL2: 经典梗
+    difficulty: L1
+    summaryPlain: 亏钱后关灯吃面的自嘲梗：源自 2011 年重啤股民的贴吧名帖，股民亏损文学的鼻祖。
+    riskNote: 梗归梗，真亏了还是要复盘，别只发帖。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 亏钱后关灯吃面的自嘲梗：源自 2011 年重啤股民的贴吧名帖，股民亏损文学的鼻祖。
+        example: 比如暴跌当晚发帖「不开灯吃碗面，泪滴进碗里」，全网股民秒懂。
+        notMeaning: 梗归梗，真亏了还是要复盘，别只发帖。
+        isPrimary: true
+        contextKeywords:
+          - 经典梗
+        frequency: high
+    aliases:
+      - raw: 关灯吃面
+        aliasType: primary
+      - raw: 吃面
+        aliasType: cn_alias
+      - raw: 亏损文学
+        aliasType: cn_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        mode: cut
+        shares: 500
+    insights:
+      affects:
+        - 情绪文化：亏损者的集体仪式
+        - 社区认同：一个词认出同类
+      good:
+        - 苦中作乐：心态没崩
+      bad:
+        - 比惨循环：越吃面越emo
+      policy:
+        - 无政策含义
+      example: 考砸了回家不开灯吃泡面：全世界都看得出你挂了，但没人说破。
+  - slug: he-an-niu
+    headword: 核按钮
+    categoryL1: 行情黑话
+    categoryL2: 极端操作
+    difficulty: L2
+    summaryPlain: 不计价格地抢着卖出，多用于极端行情：一键归零式清仓。
+    riskNote: 核按钮按下去容易，接回来难；跌停价排队卖是常态。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 不计价格地抢着卖出，多用于极端行情：一键归零式清仓。
+        example: 比如突发利空，隔夜挂跌停价排队也要跑。
+        notMeaning: 核按钮按下去容易，接回来难；跌停价排队卖是常态。
+        isPrimary: true
+        contextKeywords:
+          - 极端操作
+        frequency: high
+    aliases:
+      - raw: 核按钮
+        aliasType: primary
+      - raw: 跌停出货
+        aliasType: cn_alias
+      - raw: 夺门而逃
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: limitDown
+        limitPct: 10
+        basePrice: 10
+    insights:
+      affects:
+        - 流动性危机：核按钮的连锁反应
+        - 情绪：恐慌的极端形态
+      good:
+        - 及时核按钮：保住部分本金
+      bad:
+        - 排队核按钮：跌停也卖不掉
+      policy:
+        - 无涨跌幅市场（港美股）更惨
+      example: 火灾时的人潮：门就那么大，先跑出去的活着，按不按开关都一样——这就是核按钮的绝望。
+  - slug: hei-ma
+    headword: 黑马
+    categoryL1: 行情黑话
+    categoryL2: 选股概念
+    difficulty: L1
+    summaryPlain: 原本不起眼、短期内暴涨数倍的股票：赛马场杀出的意外赢家。
+    riskNote: 黑马是事后追认的，事前找黑马等于买彩票。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 原本不起眼、短期内暴涨数倍的股票：赛马场杀出的意外赢家。
+        example: 比如某冷门股突然连续涨停，媒体惊呼意外赢家。
+        notMeaning: 黑马是事后追认的，事前找黑马等于买彩票。
+        isPrimary: true
+        contextKeywords:
+          - 选股概念
+        frequency: mid
+    aliases:
+      - raw: 黑马
+        aliasType: primary
+      - raw: 黑马股
+        aliasType: cn_alias
+      - raw: 潜力股
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        limitPct: 10
+        basePrice: 8
+    insights:
+      affects:
+        - 题材催化：黑马都有导火索
+        - 幸存者偏差：死马更多
+      good:
+        - 骑上黑马：短期暴利
+      bad:
+        - 找黑马：接盘预备
+      policy:
+        - 监管打击恶意炒作
+      example: 综艺里的素人夺冠：赛前没人押注（不起眼），赛后全民热搜（黑马）——但每年素人上万，夺冠的就一个。
+  - slug: hei-tian-e
+    headword: 黑天鹅
+    categoryL1: 行情黑话
+    categoryL2: 极端风险
+    difficulty: L1
+    summaryPlain: 事前想不到、发生后改变一切的极小概率冲击：疫情、战争、巨头暴雷。
+    riskNote: 黑天鹅的定义就是无法预测；能做的是分散和留后手，不是猜它哪天来。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 事前想不到、发生后改变一切的极小概率冲击：疫情、战争、巨头暴雷。
+        example: 比如疫情突降，全球市场熔断，一个月内几乎所有资产同步下跌。
+        notMeaning: 黑天鹅的定义就是无法预测；能做的是分散和留后手，不是猜它哪天来。
+        isPrimary: true
+        contextKeywords:
+          - 极端风险
+        frequency: high
+    aliases:
+      - raw: 黑天鹅
+        aliasType: primary
+      - raw: black swan
+        aliasType: en_alias
+      - raw: 灰犀牛
+        aliasType: cn_alias
+      - raw: 极端风险
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config: {}
+    insights:
+      affects:
+        - 风险管理：为不可预测做准备
+        - 资产配置：分散是唯一免费的午餐
+        - 投资框架：为冲击留安全边际
+      good:
+        - 活下来的人享受之后的复苏
+        - 危机中现金=期权
+      bad:
+        - 重仓单票遇上黑天鹅归零
+        - 加杠杆遇上黑天鹅爆仓
+      policy:
+        - 地缘政治是黑天鹅温床
+        - 监管突变制造制度性黑天鹅
+      example: 小镇五百年没发过洪水，大家把家当都放在河边。洪水真来了，没有预警，只有自救。
+  - slug: hodl
+    headword: HODL
+    categoryL1: 行情黑话
+    categoryL2: 网络用语
+    difficulty: L2
+    summaryPlain: 论坛拼错词演变的文化符号：无论涨跌都拿着不卖。
+    riskNote: HODL 是好公司的专利，烂公司 HOLD 到最后是归零。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 论坛拼错词演变的文化符号：无论涨跌都拿着不卖。
+        example: 比如老哥拿了三年，账户从 5 万变 50 万。
+        notMeaning: HODL 是好公司的专利，烂公司 HOLD 到最后是归零。
+        isPrimary: true
+        contextKeywords:
+          - 网络用语
+        frequency: high
+    aliases:
+      - raw: HODL
+        aliasType: primary
+      - raw: 拿住
+        aliasType: cn_alias
+      - raw: holder
+        aliasType: en_alias
+    viz:
+      type: MarketMood
+      config:
+        title: HODL：拿住不卖
+    insights:
+      affects:
+        - 长期主义：被动策略的文化符号
+        - 行为陷阱：为不卖找理由
+      good:
+        - 优质股 HODL：复利奇迹
+      bad:
+        - 垃圾股 HODL：慢性自杀
+      policy:
+        - 无政策含义
+      example: 老物件的收藏：真古董（好公司）越放越值，破烂（烂公司）放成灰。
+  - slug: hold-the-line
+    headword: Hold the line
+    categoryL1: 行情黑话
+    categoryL2: 网络口号
+    difficulty: L2
+    summaryPlain: 「守住阵线」：Meme 社区互相打气别割肉的口号。
+    riskNote: 口号不能替代判断，该守的是逻辑不是仓位。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 「守住阵线」：Meme 社区互相打气别割肉的口号。
+        example: 比如暴跌时论坛齐刷 hold the line 稳住军心。
+        notMeaning: 口号不能替代判断，该守的是逻辑不是仓位。
+        isPrimary: true
+        contextKeywords:
+          - 网络口号
+        frequency: high
+    aliases:
+      - raw: Hold the line
+        aliasType: primary
+      - raw: 守住阵线
+        aliasType: cn_alias
+      - raw: 别割
+        aliasType: cn_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: trap
+        shares: 500
+    insights:
+      affects:
+        - 群体心理：互相打气的双刃剑
+        - 从众效应：不卖需要理由
+      good:
+        - 逻辑没坏+低估：守得云开
+      bad:
+        - 逻辑坏了：集体站岗
+      policy:
+        - 无政策含义
+      example: 阵地战：粮草还有（基本面好）就守，弹尽粮绝（逻辑坏了）还不撤就是殉国。
+  - slug: hong-bao-hang-qing
+    headword: 红包行情
+    categoryL1: 行情黑话
+    categoryL2: 季节性
+    difficulty: L2
+    summaryPlain: 年底到年初常见的阶段性上涨说法：市场的「年终奖预期」。
+    riskNote: 季节性规律只是统计不是定律，该跌的年份照样跌。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 年底到年初常见的阶段性上涨说法：市场的「年终奖预期」。
+        example: 比如每年 12 月到 1 月市场流传年底发红包的说法，散户期待跨年红。
+        notMeaning: 季节性规律只是统计不是定律，该跌的年份照样跌。
+        isPrimary: true
+        contextKeywords:
+          - 季节性
+        frequency: high
+    aliases:
+      - raw: 红包行情
+        aliasType: primary
+      - raw: 春季躁动
+        aliasType: cn_alias
+      - raw: 跨年行情
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 红包行情：年底的期待
+    insights:
+      affects:
+        - 资金面：年末结算与年初配置
+        - 行为金融：日历效应的自我实现
+      good:
+        - 春季躁动：历史胜率偏高
+      bad:
+        - 期望落空：杀情绪盘
+      policy:
+        - 年末货币政策与财政节奏
+      example: 过年发红包：多数年份有（统计规律），但家里困难时（熊市）照样没有。
+  - slug: hu-pan
+    headword: 护盘
+    categoryL1: 行情黑话
+    categoryL2: 资金行为
+    difficulty: L1
+    summaryPlain: 资金在关键位置托底买入，防止指数或个股失控下跌：市场的消防员。
+    riskNote: 护盘只护指数不护个股，别把护盘当个股利好。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 资金在关键位置托底买入，防止指数或个股失控下跌：市场的消防员。
+        example: 比如尾盘权重股突然放量拉升翻红，就是托市资金。
+        notMeaning: 护盘只护指数不护个股，别把护盘当个股利好。
+        isPrimary: true
+        contextKeywords:
+          - 资金行为
+        frequency: high
+    aliases:
+      - raw: 护盘
+        aliasType: primary
+      - raw: 托底
+        aliasType: cn_alias
+      - raw: 救市
+        aliasType: cn_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: 护盘：关键位置托底
+    insights:
+      affects:
+        - 指数稳定：政策意图的体现
+        - 个股风险：护盘≠普涨
+      good:
+        - 政策底信号：托而不举
+      bad:
+        - 护盘失败：信心崩塌
+      policy:
+        - 国家队与平准机制
+      example: 泳池边的救生员：只保证你不沉底（指数），但不会推着你游（个股照跌）。
+  - slug: hui-diao
+    headword: 回调
+    categoryL1: 行情黑话
+    categoryL2: 走势
+    difficulty: L1
+    summaryPlain: 涨了一段之后往回落：牛市里的正常喘气。
+    riskNote: 回调和反转只差一步之遥，仓位重了才会慌。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 涨了一段之后往回落：牛市里的正常喘气。
+        example: 比如连涨五天后跌两天，多数人管这叫歇脚。
+        notMeaning: 回调和反转只差一步之遥，仓位重了才会慌。
+        isPrimary: true
+        contextKeywords:
+          - 走势
+        frequency: high
+    aliases:
+      - raw: 回调
+        aliasType: primary
+      - raw: 回踩
+        aliasType: cn_alias
+      - raw: 回落
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 12
+    insights:
+      affects:
+        - 持仓体验：涨跌都考验心脏
+        - 加仓时点：回调是机会还是陷阱
+      good:
+        - 浅回调：趋势健康的信号
+      bad:
+        - 深回调：变盘的前奏
+      policy:
+        - 获利了结盘决定深度
+      example: 爬山爬到半山腰停下来喝水（回调）：歇完继续爬是回调，直接下山是反转——当时看不出来。
+  - slug: hui-xi-niu
+    headword: 灰犀牛
+    categoryL1: 行情黑话
+    categoryL2: 极端风险
+    difficulty: L1
+    summaryPlain: 明明看得见却被忽略的大风险：房价、债务、老龄化都是灰犀牛。
+    riskNote: 灰犀牛的可悲在于「早知道」，但都赌它不会冲过来。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 明明看得见却被忽略的大风险：房价、债务、老龄化都是灰犀牛。
+        example: 比如明知道某公司负债累累，却赌它不会倒。
+        notMeaning: 灰犀牛的可悲在于「早知道」，但都赌它不会冲过来。
+        isPrimary: true
+        contextKeywords:
+          - 极端风险
+        frequency: high
+    aliases:
+      - raw: 灰犀牛
+        aliasType: primary
+      - raw: Grey Rhino
+        aliasType: en_alias
+      - raw: 大概率风险
+        aliasType: cn_alias
+    viz:
+      type: RiskLadder
+      config:
+        initialStep: 1
+    insights:
+      affects:
+        - 系统性风险：最常见的危机形态
+        - 认知偏差：侥幸心理的代价
+      good:
+        - 提前防御：认知变现
+      bad:
+        - 视而不见：被碾过去
+      policy:
+        - 风险防控的政策框架
+      example: 楼下大象慢慢走过来：所有人都看得见（可预测），但没人让路（不作为），直到被踩。
+  - slug: jian-cang
+    headword: 建仓/加仓
+    categoryL1: 行情黑话
+    categoryL2: 仓位操作
+    difficulty: L1
+    summaryPlain: 第一次买入叫建仓，买了再买叫加仓：仓位从零到有的过程。
+    riskNote: 一次性建满仓和永远不敢建仓，都是病。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 第一次买入叫建仓，买了再买叫加仓：仓位从零到有的过程。
+        example: 比如先买三成建仓，跌了再补两成。
+        notMeaning: 一次性建满仓和永远不敢建仓，都是病。
+        isPrimary: true
+        contextKeywords:
+          - 仓位操作
+        frequency: high
+    aliases:
+      - raw: 建仓
+        aliasType: primary
+      - raw: 加仓
+        aliasType: cn_alias
+      - raw: 开仓
+        aliasType: cn_alias
+      - raw: 减仓
+        aliasType: cn_alias
+      - raw: 清仓
+        aliasType: cn_alias
+    viz:
+      type: ProfitLossScale
+      config: {}
+    insights:
+      affects:
+        - 仓位管理：分批是风控第一课
+        - 成本控制：加仓点的艺术
+      good:
+        - 金字塔加仓：越涨越少买
+      bad:
+        - 倒金字塔加仓：成本越补越高
+      policy:
+        - 无政策含义
+      example: 往浴缸放水：先放一截试试水温（建仓），合适了再加（加仓），一上来就放满可能烫伤。
+  - slug: jie-pan-xia
+    headword: 接盘侠
+    categoryL1: 行情黑话
+    categoryL2: 高位接货
+    difficulty: L1
+    summaryPlain: 在高位接手别人出货的人：市场里的「活雷锋」，都亏在自己口袋里。
+    riskNote: 谁都想赚最后一个铜板，但接盘的往往就是想赚最后一个铜板的人。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 在高位接手别人出货的人：市场里的「活雷锋」，都亏在自己口袋里。
+        example: 比如主力拉高出货，散户蜂拥接货，成了光荣的活雷锋。
+        notMeaning: 谁都想赚最后一个铜板，但接盘的往往就是想赚最后一个铜板的人。
+        isPrimary: true
+        contextKeywords:
+          - 高位接货
+        frequency: high
+    aliases:
+      - raw: 接盘侠
+        aliasType: primary
+      - raw: 接盘
+        aliasType: cn_alias
+      - raw: 抬轿子
+        aliasType: cn_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: trap
+        shares: 500
+    insights:
+      affects:
+        - 筹码转移：从主力手里到你手里
+        - 风险教育：最贵的一课
+      good:
+        - 认清自己是接盘：至少能止损
+      bad:
+        - 越跌越买：从接盘侠变股东
+      policy:
+        - 异动监控打击拉高出货
+      example: 演唱会黄牛价翻倍你买了，散场发现票还在手里：歌没听着（没赚），钱没了（亏了）。
+  - slug: jin-fa-gu-niang
+    headword: 金发姑娘
+    categoryL1: 行情黑话
+    categoryL2: 宏观情景
+    difficulty: L3
+    summaryPlain: 经济不冷不热、通胀适中的理想状态：股市最爱的童话。
+    riskNote: 金发姑娘是事后命名的，身在其中时冷热难辨。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 经济不冷不热、通胀适中的理想状态：股市最爱的童话。
+        example: 比如增长 2% 通胀 2%，市场说这是刚刚好经济。
+        notMeaning: 金发姑娘是事后命名的，身在其中时冷热难辨。
+        isPrimary: true
+        contextKeywords:
+          - 宏观情景
+        frequency: high
+    aliases:
+      - raw: 金发姑娘
+        aliasType: primary
+      - raw: Goldilocks
+        aliasType: en_alias
+      - raw: 刚刚好经济
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: 金发姑娘：不冷不热
+        min: 0
+        max: 8
+        threshold: 2
+        initial: 2.2
+        valueLabel: 通胀率
+        unit: "%"
+        step: 0.1
+        zones:
+          - min: 0
+            max: 1.5
+            label: 太冷
+            color: var(--down)
+          - min: 1.5
+            max: 3
+            label: 刚刚好
+            color: var(--up)
+          - min: 3
+            max: 8
+            label: 太热
+            color: var(--down)
+    insights:
+      affects:
+        - 股债表现：理想宏观=双牛
+        - 政策空间：央行最舒服的阶段
+      good:
+        - 刚刚好：股债都舒服
+      bad:
+        - 从金发姑娘到滞胀：童话变事故
+      policy:
+        - 货币政策的平衡艺术
+      example: 给婴儿冲奶粉：烫了不行、凉了不行，37 度刚刚好——金发姑娘就是经济的 37 度。
+  - slug: jiu-cai
+    headword: 韭菜
+    categoryL1: 行情黑话
+    categoryL2: 自嘲
+    difficulty: L1
+    summaryPlain: 散户的自嘲：一茬一茬被割，割完又长，长完又割。
+    riskNote: 自称韭菜可以自嘲，但不能真按韭菜的方式交易：追涨杀跌就是被割的姿势。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 散户的自嘲：一茬一茬被割，割完又长，长完又割。
+        example: 比如牛市满仓追高、熊市割肉空仓，循环几轮本金就没了。
+        notMeaning: 自称韭菜可以自嘲，但不能真按韭菜的方式交易：追涨杀跌就是被割的姿势。
+        isPrimary: true
+        contextKeywords:
+          - 自嘲
+        frequency: high
+    aliases:
+      - raw: 韭菜
+        aliasType: primary
+      - raw: 割韭菜
+        aliasType: cn_alias
+      - raw: 散户
+        aliasType: cn_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: trap
+        shares: 500
+    insights:
+      affects:
+        - 市场生态：散户是流动性的提供方也是利润来源
+        - 自我认知：承认信息劣势才能活
+        - 行为：追涨杀跌=收割节奏
+      good:
+        - 脱离韭菜行为：定投+长期
+        - 认知升级：先研究再下手
+      bad:
+        - 杠杆追高：最快的韭菜姿势
+        - 听消息买股：标准的被割剧本
+      policy:
+        - 投资者教育长期推进
+        - 注册制下劣币出清，逼人成长
+      example: 田里的韭菜：风一吹就倒（追涨），割完一茬又一茬。想不当韭菜，先学会不往镰刀下面站。
+  - slug: la-sheng
+    headword: 拉升
+    categoryL1: 行情黑话
+    categoryL2: 主力行为
+    difficulty: L1
+    summaryPlain: 资金主动买高股价：行情的发动机，也是最诱人的时刻。
+    riskNote: 拉升期追进去，成本全在山腰上；享受泡沫也要付得起代价。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 资金主动买高股价：行情的发动机，也是最诱人的时刻。
+        example: 比如尾盘突然放量拉高，第二天高开溢价。
+        notMeaning: 拉升期追进去，成本全在山腰上；享受泡沫也要付得起代价。
+        isPrimary: true
+        contextKeywords:
+          - 主力行为
+        frequency: high
+    aliases:
+      - raw: 拉升
+        aliasType: primary
+      - raw: 抬拉
+        aliasType: cn_alias
+      - raw: 点火
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        limitPct: 10
+        basePrice: 12
+    insights:
+      affects:
+        - 赚钱效应：拉升吸引跟风
+        - 风险收益：最肥美也最危险
+      good:
+        - 放量拉升：真突破
+      bad:
+        - 尾盘偷袭：骗线诱多
+      policy:
+        - 异动监控
+      example: 拍卖会的托儿：最后几手疯狂加价（拉升），把围观群众（散户）的热情点起来。
+  - slug: lao-san
+    headword: 老散
+    categoryL1: 行情黑话
+    categoryL2: 自嘲
+    difficulty: L1
+    summaryPlain: 港股散户的自嘲称呼：和内地「韭菜」一个意思，但语气更沧桑。
+    riskNote: 老散的经验常是亏出来的，别把资历当收益率。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 港股散户的自嘲称呼：和内地「韭菜」一个意思，但语气更沧桑。
+        example: 比如论坛里自称资深散户，意思是我什么坑都踩过。
+        notMeaning: 老散的经验常是亏出来的，别把资历当收益率。
+        isPrimary: true
+        contextKeywords:
+          - 自嘲
+        frequency: mid
+    aliases:
+      - raw: 老散
+        aliasType: primary
+      - raw: 散户
+        aliasType: cn_alias
+      - raw: 韭菜
+        aliasType: cn_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: trap
+        shares: 500
+    insights:
+      affects:
+        - 身份认同：散户圈的接头暗号
+        - 幸存者偏差：老散≠老赚
+      good:
+        - 吃过亏：风控意识强
+      bad:
+        - 倚老卖老：重复踩坑
+      policy:
+        - 无政策含义
+      example: 单位里的老油条：工龄最长，工资未必最高，但避坑技能点满。
+  - slug: long-tou
+    headword: 龙头
+    categoryL1: 行情黑话
+    categoryL2: 板块战法
+    difficulty: L1
+    summaryPlain: 一个板块里最强、最被资金认可的带头股：板块行情看它眼色行事。
+    riskNote: 龙头也会倒，倒的时候板块一起崩；高位龙头的每一次反抽都可能是最后出货。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 一个板块里最强、最被资金认可的带头股：板块行情看它眼色行事。
+        example: 比如新能源行情里最强的那只带队股，它涨停板块才敢跟涨。
+        notMeaning: 龙头也会倒，倒的时候板块一起崩；高位龙头的每一次反抽都可能是最后出货。
+        isPrimary: true
+        contextKeywords:
+          - 板块战法
+        frequency: high
+    aliases:
+      - raw: 龙头
+        aliasType: primary
+      - raw: 龙头股
+        aliasType: cn_alias
+      - raw: 龙二
+        aliasType: cn_alias
+      - raw: 妖王
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        limitPct: 10
+        basePrice: 15
+    insights:
+      affects:
+        - 板块联动：龙头定节奏、定高度
+        - 资金效率：最强资金都在龙头上
+        - 情绪锚：龙头断板=行情退潮
+      good:
+        - 低位首板启动：板块行情起点
+        - 龙二补涨：板块扩散期
+      bad:
+        - 高位加速：最后一棒的诱饵
+        - 龙头跌停：板块集体退潮
+      policy:
+        - 异动核查常盯龙头
+        - 减持公告对龙头是暴击
+      example: 羊群里的头羊：往哪跑羊群往哪跟。头羊累倒了，羊群就作鸟兽散。
+  - slug: mai-yu-qi-mai-shi-shi
+    headword: 买预期卖事实
+    categoryL1: 行情黑话
+    categoryL2: 交易逻辑
+    difficulty: L1
+    summaryPlain: 消息公布前进场、落地后离场：预期博弈的标准动作。
+    riskNote: 抢跑有风险，跑错了就是买在顶部。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 消息公布前进场、落地后离场：预期博弈的标准动作。
+        example: 比如财报前埋伏，发财报当天不管好坏都走。
+        notMeaning: 抢跑有风险，跑错了就是买在顶部。
+        isPrimary: true
+        contextKeywords:
+          - 交易逻辑
+        frequency: high
+    aliases:
+      - raw: 买预期卖事实
+        aliasType: primary
+      - raw: 买预期
+        aliasType: cn_alias
+      - raw: 利好出尽
+        aliasType: cn_alias
+    viz:
+      type: EarningsSeason
+      config:
+        expectEps: 2.2
+    insights:
+      affects:
+        - 事件驱动：行情的核心节奏
+        - 兑现风险：事实常不如预期性感
+      good:
+        - 预期差大：提前布局的回报
+      bad:
+        - 事实不及预期：利好也跌
+      policy:
+        - 信息披露节奏
+      example: 双十一前囤货（买预期），双十一当天清仓（卖事实）——货还是那些货，差价是预期赚的。
+  - slug: man-cang-kong-cang
+    headword: 满仓/空仓
+    categoryL1: 行情黑话
+    categoryL2: 仓位
+    difficulty: L1
+    summaryPlain: 资金全部买入叫满仓，全部卖出持币叫空仓：仓位就是你的攻防姿态。
+    riskNote: 仓位要和风险承受力匹配；永远满仓的人一次极端行情就被淘汰。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 资金全部买入叫满仓，全部卖出持币叫空仓：仓位就是你的攻防姿态。
+        example: 比如熊市里空仓的人躲过大跌，牛市里满仓的人吃满涨幅。
+        notMeaning: 仓位要和风险承受力匹配；永远满仓的人一次极端行情就被淘汰。
+        isPrimary: true
+        contextKeywords:
+          - 仓位
+        frequency: high
+    aliases:
+      - raw: 满仓
+        aliasType: primary
+      - raw: 空仓
+        aliasType: cn_alias
+      - raw: 半仓
+        aliasType: cn_alias
+      - raw: 轻仓
+        aliasType: cn_alias
+      - raw: 重仓
+        aliasType: cn_alias
+    viz:
+      type: ProfitLossScale
+      config: {}
+    insights:
+      affects:
+        - 仓位管理：比选股更核心的能力
+        - 攻防转换：牛熊切换的关键动作
+        - 心态：仓位决定你的焦虑程度
+      good:
+        - 低位逐步建仓：心态稳、成本优
+        - 高位分批止盈：落袋为安
+      bad:
+        - 永远满仓：没有子弹也没有退路
+        - 底部空仓：涨回去追高
+      policy:
+        - 仓位实践受居民风险偏好影响
+        - 重大节假日前降低仓位是惯例
+      example: 水杯的态度：满杯烫手端不稳，空杯错过开水。七分满刚好，进可攻退可守。
+  - slug: meme-gu
+    headword: Meme股
+    categoryL1: 行情黑话
+    categoryL2: 美股现象
+    difficulty: L2
+    summaryPlain: 靠社交媒体热度而不是基本面推动的股票：WSB 散户大军抱团大战华尔街。
+    riskNote: 热度退潮后-90% 是常态；你以为在投资，其实在参加行为艺术。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 靠社交媒体热度而不是基本面推动的股票：WSB 散户大军抱团大战华尔街。
+        example: 比如某游戏散户抱团拉升游戏驿站，从几块炒到上百再跌回几块。
+        notMeaning: 热度退潮后-90% 是常态；你以为在投资，其实在参加行为艺术。
+        isPrimary: true
+        contextKeywords:
+          - 美股现象
+        frequency: high
+    aliases:
+      - raw: Meme股
+        aliasType: primary
+      - raw: WSB
+        aliasType: cn_alias
+      - raw: 迷因股
+        aliasType: cn_alias
+      - raw: 散户抱团
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config: {}
+    insights:
+      affects:
+        - 定价权：散户集结改变短期博弈
+        - 波动：日内 50% 是常态
+        - 教训：远离基本面之外的狂热
+      good:
+        - 早期参与者短期暴富
+        - 揭示了散户集结的力量
+      bad:
+        - 最后接盘的归零
+        - 期权+杠杆玩法加速毁灭
+      policy:
+        - 券商限制交易引发巨大争议
+        - 监管呼吁理性投资
+      example: 网红奶茶店排队三百米：买的人不为茶，为发朋友圈。热度一过，店里空得能踢球。
+  - slug: neng-li-quan
+    headword: 能力圈
+    categoryL1: 行情黑话
+    categoryL2: 投资哲学
+    difficulty: L2
+    summaryPlain: 巴菲特的原则：只投自己真能看懂的公司和行业，圈外再热也不碰。
+    riskNote: 能力圈不是舒适圈：圈小但清晰，比圈大而模糊强。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 巴菲特的原则：只投自己真能看懂的公司和行业，圈外再热也不碰。
+        example: 比如消费研究员只买消费股，IT 再热也看得懂才下手。
+        notMeaning: 能力圈不是舒适圈：圈小但清晰，比圈大而模糊强。
+        isPrimary: true
+        contextKeywords:
+          - 投资哲学
+        frequency: mid
+    aliases:
+      - raw: 能力圈
+        aliasType: primary
+      - raw: 认知边界
+        aliasType: cn_alias
+      - raw: circle of competence
+        aliasType: en_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 能力圈：只打熟悉的仗
+    insights:
+      affects:
+        - 选股纪律：认知边界=收益边界
+        - 研究深度：圈内的信息优势
+      good:
+        - 圈内深耕：超额收益
+      bad:
+        - 圈外追风：交学费
+      policy:
+        - 无政策含义
+      example: 医生只开自己专业的处方：跨科（圈外）下药，治得好是运气，治坏是常态。
+  - slug: niu-duan-xiong-chang
+    headword: 牛短熊长
+    categoryL1: 行情黑话
+    categoryL2: 市场特征
+    difficulty: L1
+    summaryPlain: A 股特色：牛市短促猛烈，熊市漫长磨人——长期困扰投资者的结构。
+    riskNote: 牛短熊长意味着：大部分时间是等待，所以要留子弹要有耐心。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: A 股特色：牛市短促猛烈，熊市漫长磨人——长期困扰投资者的结构。
+        example: 比如涨三个月跌两年，说的就是这种结构。
+        notMeaning: 牛短熊长意味着：大部分时间是等待，所以要留子弹要有耐心。
+        isPrimary: true
+        contextKeywords:
+          - 市场特征
+        frequency: mid
+    aliases:
+      - raw: 牛短熊长
+        aliasType: primary
+      - raw: 牛短
+        aliasType: cn_alias
+      - raw: 熊长
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 牛短熊长：A股的脾气
+    insights:
+      affects:
+        - 持有体验：多数时间在熬
+        - 策略启示：仓位管理比择时重要
+      good:
+        - 识别牛初：重仓的窗口期
+      bad:
+        - 熊市漫无边际：消耗心态
+      policy:
+        - 发行节奏与投资者结构
+      example: 烟花和冬天：牛市是除夕的烟花（短而烈），熊城是腊月到清明的阴冷（长而磨）。
+  - slug: niu-pi-shi
+    headword: 牛皮市
+    categoryL1: 行情黑话
+    categoryL2: 走势状态
+    difficulty: L2
+    summaryPlain: 涨跌幅度都很小的胶着行情：像牛皮一样韧而没方向。
+    riskNote: 牛皮市最磨人，趋势策略在这里反复失血。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 涨跌幅度都很小的胶着行情：像牛皮一样韧而没方向。
+        example: 比如大盘两周涨跌幅不到 1%，这就是典型走势。
+        notMeaning: 牛皮市最磨人，趋势策略在这里反复失血。
+        isPrimary: true
+        contextKeywords:
+          - 走势状态
+        frequency: high
+    aliases:
+      - raw: 牛皮市
+        aliasType: primary
+      - raw: 胶着
+        aliasType: cn_alias
+      - raw: 窄幅震荡
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 牛皮市：韧性但无聊
+    insights:
+      affects:
+        - 策略失效：趋势策略的坟墓
+        - 时间成本：资金效率黑洞
+      good:
+        - 网格/区间策略的主场
+      bad:
+        - 追突破：两头挨打
+      policy:
+        - 无政策含义
+      example: 温水煮青蛙：不烫（没暴跌）但也没法跳出去（没方向），熬着。
+  - slug: priced-in
+    headword: 已price in
+    categoryL1: 行情黑话
+    categoryL2: 市场预期
+    difficulty: L2
+    summaryPlain: 消息已经反映在股价里：利好出尽的学术说法。
+    riskNote: 判断 priced in 是玄学，但它解释了「好消息股价跌」。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 消息已经反映在股价里：利好出尽的学术说法。
+        example: 比如降准利好公布前股价已涨三天，公布当天高开低走。
+        notMeaning: 判断 priced in 是玄学，但它解释了「好消息股价跌」。
+        isPrimary: true
+        contextKeywords:
+          - 市场预期
+        frequency: high
+    aliases:
+      - raw: 已price in
+        aliasType: primary
+      - raw: 已反映
+        aliasType: cn_alias
+      - raw: 利好出尽
+        aliasType: cn_alias
+    viz:
+      type: EarningsSeason
+      config:
+        expectEps: 2
+    insights:
+      affects:
+        - 预期博弈：股价领先消息
+        - 择时：买预期卖事实
+      good:
+        - 未被定价的利好：真机会
+      bad:
+        - " priced in 后的利好：出货工具"
+      policy:
+        - 信息传播速度决定定价效率
+      example: 考试前全班都知道要考砸（price in）：真出成绩那天，没人再惊讶。
+  - slug: pump-and-dump
+    headword: 拉高出货
+    categoryL1: 行情黑话
+    categoryL2: 违规行为
+    difficulty: L2
+    summaryPlain: 先哄抬价格再卖给接盘方：市场操纵的经典剧本，违法。
+    riskNote: 社交媒体时代的 pump and dump 更快更猛，散户是标准燃料。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 先哄抬价格再卖给接盘方：市场操纵的经典剧本，违法。
+        example: 比如群聊喊单拉高，庄家反手出货，股价闪崩。
+        notMeaning: 社交媒体时代的 pump and dump 更快更猛，散户是标准燃料。
+        isPrimary: true
+        contextKeywords:
+          - 违规行为
+        frequency: high
+    aliases:
+      - raw: 拉高出货
+        aliasType: primary
+      - raw: Pump and Dump
+        aliasType: en_alias
+      - raw: 喊单
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 10
+    insights:
+      affects:
+        - 操纵市场：监管重点打击
+        - 风险：跟喊单=接盘预备役
+      good:
+        - 认清剧本：不参与就赢一半
+      bad:
+        - 喊单群：进去就是被收割
+      policy:
+        - SEC 与证监会的严厉处罚
+      example: 双簧戏：台上喊涨价的是托，你真买了，戏散了钱没了。
+  - slug: pumper
+    headword: 吹票手
+    categoryL1: 行情黑话
+    categoryL2: 违规行为
+    difficulty: L3
+    summaryPlain: 疯狂吹捧某只股票好让人接盘的人：喊单族的产业链上游。
+    riskNote: 你看到「必涨」「内部消息」时，先问自己：他图什么？
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 疯狂吹捧某只股票好让人接盘的人：喊单族的产业链上游。
+        example: 比如群里老师天天吹某小盘股，自己早埋伏好了。
+        notMeaning: 你看到「必涨」「内部消息」时，先问自己：他图什么？
+        isPrimary: true
+        contextKeywords:
+          - 违规行为
+        frequency: high
+    aliases:
+      - raw: 吹票手
+        aliasType: primary
+      - raw: Pumper
+        aliasType: en_alias
+      - raw: 喊单
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: board
+        title: 吹票：谁在吆喝
+    insights:
+      affects:
+        - 信息操纵：免费的最贵
+        - 灰色产业：荐股收费的套路
+      good:
+        - 识破话术：不入局就赢
+      bad:
+        - 跟单买入：接盘预备役
+      policy:
+        - 非法荐股的监管打击
+      example: 直播带货的套路主播：镜头前家人们冲，下播后自己退货——吹的人和买的人，利益从来不一致。
+  - slug: qian-fu
+    headword: 潜伏
+    categoryL1: 行情黑话
+    categoryL2: 操作手法
+    difficulty: L2
+    summaryPlain: 提前买入还没启动的板块：埋伏等风来的耐心游戏。
+    riskNote: 埋伏可能变成站岗，时间成本也是成本。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 提前买入还没启动的板块：埋伏等风来的耐心游戏。
+        example: 比如提前一个月布局政策预期板块，等文件落地。
+        notMeaning: 埋伏可能变成站岗，时间成本也是成本。
+        isPrimary: true
+        contextKeywords:
+          - 操作手法
+        frequency: high
+    aliases:
+      - raw: 潜伏
+        aliasType: primary
+      - raw: 埋伏
+        aliasType: cn_alias
+      - raw: 提前布局
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 潜伏：等风来
+    insights:
+      affects:
+        - 时间成本：资金效率的敌人
+        - 事件驱动：潜伏的核心逻辑
+      good:
+        - 预期兑现：先手套利
+      bad:
+        - 风不来：白等还亏
+      policy:
+        - 政策文件的时间不确定性
+      example: 考研占座：提前三小时去（潜伏），座位（行情）可能被抢也可能空着。
+  - slug: qiang-duan-xian
+    headword: 抢短线
+    categoryL1: 行情黑话
+    categoryL2: 操作手法
+    difficulty: L2
+    summaryPlain: 快进快出的超短打法：低买高卖，持股以小时计。
+    riskNote: 抢短线是专业游戏，手续费+滑点+盯盘压力三重成本。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 快进快出的超短打法：低买高卖，持股以小时计。
+        example: 比如开盘抢入尾盘卖出，赚两三个点就跑。
+        notMeaning: 抢短线是专业游戏，手续费+滑点+盯盘压力三重成本。
+        isPrimary: true
+        contextKeywords:
+          - 操作手法
+        frequency: mid
+    aliases:
+      - raw: 抢短线
+        aliasType: primary
+      - raw: 超短
+        aliasType: cn_alias
+      - raw: 打游击
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 10
+    insights:
+      affects:
+        - 交易成本：频率是收益的敌人
+        - 盘感：短线需要大量训练
+      good:
+        - 纪律好：复利可观
+      bad:
+        - 情绪化抢短：给市场送钱
+      policy:
+        - T+1 制度限制 A 股抢短
+      example: 黄牛倒卖门票：赚的是信息差和手速，亏的是压货风险——专业选手的活。
+  - slug: rekt
+    headword: Rekt
+    categoryL1: 行情黑话
+    categoryL2: 网络用语
+    difficulty: L3
+    summaryPlain: 「Wrecked」的网言网语：亏惨了、被打爆了。
+    riskNote: " slang 归 slang，爆仓的痛是真的。"
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 「Wrecked」的网言网语：亏惨了、被打爆了。
+        example: 比如晒亏损截图配一句 rekt。
+        notMeaning: " slang 归 slang，爆仓的痛是真的。"
+        isPrimary: true
+        contextKeywords:
+          - 网络用语
+        frequency: high
+    aliases:
+      - raw: Rekt
+        aliasType: primary
+      - raw: 亏爆
+        aliasType: cn_alias
+      - raw: 被打爆
+        aliasType: cn_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        mode: cut
+        shares: 10000
+    insights:
+      affects:
+        - 社区文化：自嘲式疗愈
+        - 情绪风险：破罐破摔
+      good:
+        - 自嘲：心态没崩
+      bad:
+        - 上头加仓：rekt 加速
+      policy:
+        - 无政策含义
+      example: 游戏里被 Boss 秒杀后公屏打「rekt」：股市也一样，被市场秒杀是常态。
+  - slug: risk-on-off
+    headword: Risk on/Risk off
+    categoryL1: 行情黑话
+    categoryL2: 资金状态
+    difficulty: L2
+    summaryPlain: 风险偏好上升资金涌向股票等风险资产（on），下降时抱团避险资产（off）。
+    riskNote: Risk on/off 切换时，相关性失效，分散化失灵。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 风险偏好上升资金涌向股票等风险资产（on），下降时抱团避险资产（off）。
+        example: 比如地缘紧张时 risk off：股市跌、黄金美债涨。
+        notMeaning: Risk on/off 切换时，相关性失效，分散化失灵。
+        isPrimary: true
+        contextKeywords:
+          - 资金状态
+        frequency: high
+    aliases:
+      - raw: Risk on/Risk off
+        aliasType: primary
+      - raw: 风险偏好
+        aliasType: cn_alias
+      - raw: 避险
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: Risk on/off：资金的开关
+    insights:
+      affects:
+        - 资产联动：切换时的全面重定价
+        - 宏观驱动：消息面总开关
+      good:
+        - Risk on：满仓的蜜月期
+      bad:
+        - Risk off：躲不掉的系统性跌
+      policy:
+        - 宏观事件与流动性周期
+      example: 宿舍熄灯后的两级模式：考试周前通宵开黑（risk on），查分前抱佛脚（risk off）。
+  - slug: rong-zhang
+    headword: 熔涨
+    categoryL1: 行情黑话
+    categoryL2: 极端行情
+    difficulty: L2
+    summaryPlain: 非理性的快速上涨：melt-up，和熔断对应的「向上失控」。
+    riskNote: 熔涨涨得越猛，后面的均值回归越狠。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 非理性的快速上涨：melt-up，和熔断对应的「向上失控」。
+        example: 比如逼空行情里三天非理性上涨 60%，基本面毫无变化。
+        notMeaning: 熔涨涨得越猛，后面的均值回归越狠。
+        isPrimary: true
+        contextKeywords:
+          - 极端行情
+        frequency: high
+    aliases:
+      - raw: 熔涨
+        aliasType: primary
+      - raw: Melt-up
+        aliasType: en_alias
+      - raw: 逼空上涨
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        limitPct: 30
+        basePrice: 10
+    insights:
+      affects:
+        - 情绪极端：FOMO 的总爆发
+        - 风险：高位进场的毁灭
+      good:
+        - 顺势参与：短线暴利
+      bad:
+        - 追在顶上：站在珠峰
+      policy:
+        - 无直接政策
+      example: 吹气球：越吹越大（熔涨），路人欢呼，只有气球知道自己怕针。
+  - slug: rug-pull
+    headword: 卷款跑路
+    categoryL1: 行情黑话
+    categoryL2: 极端风险
+    difficulty: L2
+    summaryPlain: 项目方突然抛售消失：加密圈的黑话，股市里叫实控人跑路。
+    riskNote: 流动性差+不透明的地方，rug pull 随时发生。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 项目方突然抛售消失：加密圈的黑话，股市里叫实控人跑路。
+        example: 比如小盘币项目方撤池子，币价归零。
+        notMeaning: 流动性差+不透明的地方，rug pull 随时发生。
+        isPrimary: true
+        contextKeywords:
+          - 极端风险
+        frequency: high
+    aliases:
+      - raw: 卷款跑路
+        aliasType: primary
+      - raw: Rug Pull
+        aliasType: en_alias
+      - raw: 跑路
+        aliasType: cn_alias
+    viz:
+      type: RiskLadder
+      config:
+        initialStep: 3
+    insights:
+      affects:
+        - 信任崩塌：归零级风险
+        - 监管：跨境追责难
+      good:
+        - 分散与冷门不碰：唯一防御
+      bad:
+        - 归零：本金全无
+      policy:
+        - 打击非法金融活动
+      example: 健身房卷款跑路：卡办了（买入），老板跑了（rug），器械卖了（资产清零）。
+  - slug: sai-dao
+    headword: 赛道
+    categoryL1: 行情黑话
+    categoryL2: 投资概念
+    difficulty: L1
+    summaryPlain: 有长期成长空间的行业方向：新能源、AI、创新药都是好赛道。
+    riskNote: 赛道拥挤时，好赛道也能套死人；赛道是逻辑不是保票。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 有长期成长空间的行业方向：新能源、AI、创新药都是好赛道。
+        example: 比如机构说「买行业不买个股」，就是赌行业 β。
+        notMeaning: 赛道拥挤时，好赛道也能套死人；赛道是逻辑不是保票。
+        isPrimary: true
+        contextKeywords:
+          - 投资概念
+        frequency: high
+    aliases:
+      - raw: 赛道
+        aliasType: primary
+      - raw: 赛道股
+        aliasType: cn_alias
+      - raw: 行业主线
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 好赛道指数
+            point: 130
+            base: 100
+            note: 新能源/AI 长逻辑
+          - name: 传统行业
+            point: 95
+            base: 100
+            note: 稳但慢
+    insights:
+      affects:
+        - 资产配置：行业 β 的选择
+        - 拥挤度：好赛道也有天花板
+      good:
+        - 产业趋势：戴维斯双击
+      bad:
+        - 赛道内卷：产能过剩杀盈利
+      policy:
+        - 产业政策与补贴周期
+      example: 选游泳池：深水区（好赛道）游得爽，但人也多还可能抽筋；儿童池安全但没劲。
+  - slug: san-sha
+    headword: 三杀
+    categoryL1: 行情黑话
+    categoryL2: 多重利空
+    difficulty: L2
+    summaryPlain: 杀估值、杀业绩、杀逻辑同时发生：股价进入戴维斯双杀加强版。
+    riskNote: 三杀阶段不言底；等逻辑修复（政策/基本面出现拐点）才是反转起点。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 杀估值、杀业绩、杀逻辑同时发生：股价进入戴维斯双杀加强版。
+        example: 比如行业政策突变，杀逻辑；接着财报暴雷，杀业绩；最后资金撤离，杀估值。
+        notMeaning: 三杀阶段不言底；等逻辑修复（政策/基本面出现拐点）才是反转起点。
+        isPrimary: true
+        contextKeywords:
+          - 多重利空
+        frequency: high
+    aliases:
+      - raw: 三杀
+        aliasType: primary
+      - raw: 戴维斯双杀
+        aliasType: cn_alias
+      - raw: 杀估值
+        aliasType: cn_alias
+      - raw: 杀业绩
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 20
+    insights:
+      affects:
+        - 行业研判：识别三杀阶段避开左侧
+        - 估值与业绩：两个杀器叠加最狠
+        - 反转信号：逻辑修复优先于业绩
+      good:
+        - 三杀尾声=黎明前最黑
+        - 杀完估值杀业绩：最后杀逻辑
+      bad:
+        - 抄底三杀中的板块：接飞刀2.0
+        - 逻辑坏了的板块越跌越贵
+      policy:
+        - 监管政策是杀逻辑主因
+        - 盈利周期下行触发杀业绩
+      example: 房子同时遇上限购（杀逻辑）、房租下跌（杀业绩）、市场恐慌抛售（杀估值）：三把刀齐下。
+  - slug: shang-che
+    headword: 上车/下车
+    categoryL1: 行情黑话
+    categoryL2: 基金俚语
+    difficulty: L1
+    summaryPlain: 买基金叫上车，卖出叫下车，换一只叫换车：基民圈的交通黑话。
+    riskNote: 车开得快（涨得猛）的时候最容易被忽悠上车，站票（高位）最危险。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 买基金叫上车，卖出叫下车，换一只叫换车：基民圈的交通黑话。
+        example: 比如看到暴涨的基金弹幕刷「快上车」，其实车可能已经到站了。
+        notMeaning: 车开得快（涨得猛）的时候最容易被忽悠上车，站票（高位）最危险。
+        isPrimary: true
+        contextKeywords:
+          - 基金俚语
+        frequency: high
+    aliases:
+      - raw: 上车
+        aliasType: primary
+      - raw: 下车
+        aliasType: cn_alias
+      - raw: 换车
+        aliasType: cn_alias
+      - raw: 发车
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 上车：发车与到站
+    insights:
+      affects:
+        - 择时心理：追着车跑的人最多
+        - 社群传播：晒收益=招乘客
+      good:
+        - 发车初期上车：顺风
+      bad:
+        - 末班车：上去就套
+      policy:
+        - 无政策含义
+      example: 公交车门快关了往上冲：挤上去（上车）很爽，坐过站（高位套牢）很惨。
+  - slug: sheng-dan-hang-qing
+    headword: 圣诞行情
+    categoryL1: 行情黑话
+    categoryL2: 季节性
+    difficulty: L2
+    summaryPlain: 年底到年初常见的上涨说法：和红包行情、春季躁动是一家人。
+    riskNote: 季节性只是历史统计，别拿日历当交易系统。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 年底到年初常见的上涨说法：和红包行情、春季躁动是一家人。
+        example: 比如每年圣诞到新年，美股 historically 偏强。
+        notMeaning: 季节性只是历史统计，别拿日历当交易系统。
+        isPrimary: true
+        contextKeywords:
+          - 季节性
+        frequency: high
+    aliases:
+      - raw: 圣诞行情
+        aliasType: primary
+      - raw: Santa Rally
+        aliasType: en_alias
+      - raw: 年末行情
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 圣诞行情：日历的礼物
+    insights:
+      affects:
+        - 日历效应：资金年末行为
+        - 流动性：假期前的稀薄市场
+      good:
+        - 历史胜率偏高：锦上添花
+      bad:
+        - 应验不了：预期落空
+      policy:
+        - 无政策含义
+      example: 过年必涨的期待：多数年份红火（统计），灾年照样关门。
+  - slug: shi-jian-de-me-gui
+    headword: 时间的玫瑰
+    categoryL1: 行情黑话
+    categoryL2: 投资哲学
+    difficulty: L2
+    summaryPlain: 长期主义者的浪漫说法：相信时间会让优质资产开花。
+    riskNote: 玫瑰只对真资产绽放，对垃圾是凌迟。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 长期主义者的浪漫说法：相信时间会让优质资产开花。
+        example: 比如拿住好公司十年，朋友们说你等来了玫瑰。
+        notMeaning: 玫瑰只对真资产绽放，对垃圾是凌迟。
+        isPrimary: true
+        contextKeywords:
+          - 投资哲学
+        frequency: mid
+    aliases:
+      - raw: 时间的玫瑰
+        aliasType: primary
+      - raw: 长期主义
+        aliasType: cn_alias
+      - raw: 静待花开
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 持有十年
+            point: 400
+            base: 100
+            note: 玫瑰绽放
+          - name: 追涨杀跌
+            point: 90
+            base: 100
+            note: 玫瑰变韭菜
+    insights:
+      affects:
+        - 心态建设：长期持有的精神支柱
+        - 叙事风险：把死扛浪漫化
+      good:
+        - 真玫瑰：复利奇迹
+      bad:
+        - 假玫瑰：自我感动的借口
+      policy:
+        - 无政策含义
+      example: 种月季：天天浇水（持有）未必开花，但从不浇水一定死。时间是必要条件，不是充分条件。
+  - slug: si-mao-fan-tan
+    headword: 死猫反弹
+    categoryL1: 行情黑话
+    categoryL2: 走势
+    difficulty: L2
+    summaryPlain: 暴跌之后的一次短暂反弹，弹完继续跌：像死猫从高处掉下有一下反抽。
+    riskNote: 只能事后确认；反弹进场者大多数扛不过第二波杀跌。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 暴跌之后的一次短暂反弹，弹完继续跌：像死猫从高处掉下有一下反抽。
+        example: 比如股价腰斩后反弹 15%，分析师喊黄金底，结果三周后又新低。
+        notMeaning: 只能事后确认；反弹进场者大多数扛不过第二波杀跌。
+        isPrimary: true
+        contextKeywords:
+          - 走势
+        frequency: high
+    aliases:
+      - raw: 死猫反弹
+        aliasType: primary
+      - raw: dead cat bounce
+        aliasType: en_alias
+      - raw: 技术性反弹
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 20
+    insights:
+      affects:
+        - 趋势判断：别把反弹当反转
+        - 抄底风险：左侧的幻觉
+        - 仓位：反弹是减仓窗口
+      good:
+        - 识别反弹 vs 反转的关键（量+空间）
+        - 反弹里做 T 降低成本
+      bad:
+        - 重仓抄反弹：二次探底重伤
+        - 给反弹找基本面理由：自我欺骗
+      policy:
+        - 超跌后的技术性修复
+        - 救市政策带来短期反弹
+      example: 死猫从 20 楼落下，会在 15 楼「弹」一下——那不是活过来了，是物理现象。
+  - slug: si-wu-ri
+    headword: 四巫日
+    categoryL1: 行情黑话
+    categoryL2: 衍生品到期
+    difficulty: L3
+    summaryPlain: 每年 3/6/9/12 月第三个周五：股指期货、期权、个股期货同时到期的日子。
+    riskNote: 到期日波动放大，做市商对冲盘翻涌，散户最好围观。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 每年 3/6/9/12 月第三个周五：股指期货、期权、个股期货同时到期的日子。
+        example: 比如到期日尾盘成交量暴增，价格上蹿下跳。
+        notMeaning: 到期日波动放大，做市商对冲盘翻涌，散户最好围观。
+        isPrimary: true
+        contextKeywords:
+          - 衍生品到期
+        frequency: high
+    aliases:
+      - raw: 四巫日
+        aliasType: primary
+      - raw: Quad Witching
+        aliasType: en_alias
+      - raw: 三巫日
+        aliasType: cn_alias
+    viz:
+      type: OptionsLadder
+      config:
+        premium: 2
+    insights:
+      affects:
+        - 波动放大：到期机制的副产品
+        - 流动性：成交的虚假繁荣
+      good:
+        - 方向明朗：到期后恢复
+      bad:
+        - 多空双杀：到期绞肉机
+      policy:
+        - 衍生品到期制度
+      example: 期末+答辩+体测同一天：所有压力（到期合约）集中释放，校园（市场）一片狼藉。
+  - slug: stonks
+    headword: Stonks
+    categoryL1: 行情黑话
+    categoryL2: 网络用语
+    difficulty: L3
+    summaryPlain: 故意拼错的「股票」：Meme 文化里对市场的反讽符号。
+    riskNote: 梗是梗，账户是真的；玩梗不影响亏钱。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 故意拼错的「股票」：Meme 文化里对市场的反讽符号。
+        example: 比如论坛发「stonks only go up」反讽无脑看涨。
+        notMeaning: 梗是梗，账户是真的；玩梗不影响亏钱。
+        isPrimary: true
+        contextKeywords:
+          - 网络用语
+        frequency: high
+    aliases:
+      - raw: Stonks
+        aliasType: primary
+      - raw: Stonk
+        aliasType: en_alias
+      - raw: 股票梗
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: Stonks：错字的浪漫
+    insights:
+      affects:
+        - 文化符号：散户对市场的调侃
+        - 情绪出口：解构严肃金融
+      good:
+        - 苦中作乐：情绪价值
+      bad:
+        - 真信「只涨不跌」：韭菜
+      policy:
+        - 无政策含义
+      example: 学渣把「学习」P 成「学宵」自嘲：玩笑背后是认命的清醒。
+  - slug: stop-hunting
+    headword: 扫止损
+    categoryL1: 行情黑话
+    categoryL2: 盘口现象
+    difficulty: L3
+    summaryPlain: 价格专门往止损密集的地方冲，触发一片止损后再回来：散户的都市传说。
+    riskNote: 无需阴谋论也能解释：止损密集区=流动性洼地，大单天然往那走。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 价格专门往止损密集的地方冲，触发一片止损后再回来：散户的都市传说。
+        example: 比如刚好跌到你的止损位 0.5% 就反弹，气得人骂街。
+        notMeaning: 无需阴谋论也能解释：止损密集区=流动性洼地，大单天然往那走。
+        isPrimary: true
+        contextKeywords:
+          - 盘口现象
+        frequency: high
+    aliases:
+      - raw: 扫止损
+        aliasType: primary
+      - raw: Stop Hunting
+        aliasType: en_alias
+      - raw: 打止损
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 10
+    insights:
+      affects:
+        - 市场微观：止损单是公开的牌
+        - 风控设计：别把止损放在显眼处
+      good:
+        - 识别雷区：止损放远一点
+      bad:
+        - 密集止损区：一冲就穿
+      policy:
+        - 无政策含义
+      example: 收费站专挑免费车道堵：车多（止损密集）的地方最堵（一冲就穿），ETC 车道（冷门止损位）反而空。
+  - slug: suo-ha
+    headword: 梭哈
+    categoryL1: 行情黑话
+    categoryL2: 仓位
+    difficulty: L1
+    summaryPlain: 把全部资金一次性押上：源自纸牌的 Show Hand，赌性拉满。
+    riskNote: 满仓单票等于把命交给运气；一次黑天鹅就能让你永久出局。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 把全部资金一次性押上：源自纸牌的 Show Hand，赌性拉满。
+        example: 比如全仓一只股票吃三个跌停，想换股都没子弹。
+        notMeaning: 满仓单票等于把命交给运气；一次黑天鹅就能让你永久出局。
+        isPrimary: true
+        contextKeywords:
+          - 仓位
+        frequency: high
+    aliases:
+      - raw: 梭哈
+        aliasType: primary
+      - raw: 满仓干
+        aliasType: cn_alias
+      - raw: Show Hand
+        aliasType: en_alias
+      - raw: 重仓
+        aliasType: cn_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        mode: cut
+        shares: 10000
+    insights:
+      affects:
+        - 风险极限：单票全仓=无分散
+        - 情绪：梭哈者往往刚被行情冲昏头
+        - 复利：活着才有输出
+      good:
+        - 极小仓位的试错不算梭哈
+        - 牛市初期顺势重仓算策略不是梭哈
+      bad:
+        - 满仓单票：运气差的归零
+        - 加杠杆梭哈：直接出局
+      policy:
+        - 注册制下黑天鹅频发更忌梭哈
+        - 退市新规=梭哈者的坟墓
+      example: 把全家积蓄压上赌桌一把定输赢：赢了会所嫩模，输了下海干活——问题是输的概率远大于赢。
+  - slug: ta
+    headword: 技术分析
+    categoryL1: 行情黑话
+    categoryL2: 研究方法
+    difficulty: L1
+    summaryPlain: 看图表找规律预测涨跌：和基本面分析并列的两大流派。
+    riskNote: 技术分析是概率工具不是预言术，止损是它的安全带。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 看图表找规律预测涨跌：和基本面分析并列的两大流派。
+        example: 比如看 K 线和均线做短线，就是典型的技术派。
+        notMeaning: 技术分析是概率工具不是预言术，止损是它的安全带。
+        isPrimary: true
+        contextKeywords:
+          - 研究方法
+        frequency: high
+    aliases:
+      - raw: 技术分析
+        aliasType: primary
+      - raw: TA
+        aliasType: en_alias
+      - raw: 看图
+        aliasType: cn_alias
+    viz:
+      type: CrossLines
+      config:
+        title: TA：看图说话
+    insights:
+      affects:
+        - 短线主流：A 股生态的底色
+        - 自我实现：信的人多了就准
+      good:
+        - 顺势+止损：长期可活
+      bad:
+        - 迷信形态：刻舟求剑
+      policy:
+        - 无政策含义
+      example: 看云识天气：老农民（技术派）看云图预测下雨，比看卫星云图（基本面）快，但不保证准。
+  - slug: ta-kong
+    headword: 踏空
+    categoryL1: 行情黑话
+    categoryL2: 操作失误
+    difficulty: L1
+    summaryPlain: 行情一路涨自己却没上车：空仓看戏，比套牢更折磨人。
+    riskNote: 踏空后的 FOMO 追高，是亏损的标准开头。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 行情一路涨自己却没上车：空仓看戏，比套牢更折磨人。
+        example: 比如空仓等回调，结果连涨一个月，拍断大腿。
+        notMeaning: 踏空后的 FOMO 追高，是亏损的标准开头。
+        isPrimary: true
+        contextKeywords:
+          - 操作失误
+        frequency: high
+    aliases:
+      - raw: 踏空
+        aliasType: primary
+      - raw: 空仓看涨
+        aliasType: cn_alias
+      - raw: 错过行情
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 12
+    insights:
+      affects:
+        - 心理账户：机会成本的痛
+        - 择时悖论：等回调的常常踏空
+      good:
+        - 空仓等崩：心态无敌
+      bad:
+        - 踏空后追高：接盘
+      policy:
+        - 无政策含义
+      example: 电影院排队买到一半朋友说里面有座了：进去（追高）尴尬，不进去（踏空）心痒。
+  - slug: tendies
+    headword: Tendies
+    categoryL1: 行情黑话
+    categoryL2: 网络用语
+    difficulty: L2
+    summaryPlain: 美股论坛里「鸡柳」代指赚到的利润：WSB 的经典黑话。
+    riskNote: 喊 tendies 的多半还没吃到，吃到的都在闷声数钱。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 美股论坛里「鸡柳」代指赚到的利润：WSB 的经典黑话。
+        example: 比如晒收益截图配文 tendies time。
+        notMeaning: 喊 tendies 的多半还没吃到，吃到的都在闷声数钱。
+        isPrimary: true
+        contextKeywords:
+          - 网络用语
+        frequency: high
+    aliases:
+      - raw: Tendies
+        aliasType: primary
+      - raw: 鸡柳
+        aliasType: cn_alias
+      - raw: 收益俚语
+        aliasType: cn_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        mode: cut
+        shares: 500
+    insights:
+      affects:
+        - 社区文化：Meme 圈的身份暗号
+        - 情绪外显：晒单文化
+      good:
+        - 吃到 tendies：落袋为安
+      bad:
+        - 只有表情包没有收益
+      policy:
+        - 无政策含义
+      example: 食堂阿姨多给的那块鸡排：论坛上说「今天有鸡柳吃」就是赚钱了。
+  - slug: ti-cai-gai-nian
+    headword: 题材/概念
+    categoryL1: 行情黑话
+    categoryL2: 炒作
+    difficulty: L1
+    summaryPlain: 市场热议的主题：AI、机器人、减肥药、固态电池……资金借题发挥的舞台。
+    riskNote: 炒作建立在预期上，兑现日就是见顶时；别把故事当业绩。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 市场热议的主题：AI、机器人、减肥药、固态电池……资金借题发挥的舞台。
+        example: 比如某公司宣布沾上 ChatGPT 概念，连拉五个板，公告一发澄清函就跌回原点。
+        notMeaning: 炒作建立在预期上，兑现日就是见顶时；别把故事当业绩。
+        isPrimary: true
+        contextKeywords:
+          - 炒作
+        frequency: high
+    aliases:
+      - raw: 题材
+        aliasType: primary
+      - raw: 概念
+        aliasType: cn_alias
+      - raw: 热点
+        aliasType: cn_alias
+      - raw: 炒作
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config: {}
+    insights:
+      affects:
+        - 赚钱效应：题材是短线最好的土壤
+        - 板块轮动：资金在题材间搬家
+        - 风险：蹭热点公告后一地鸡毛
+      good:
+        - 产业趋势真实落地：从题材变主线
+        - 新题材启动期：确定性最高
+      bad:
+        - 纯概念炒作：击鼓传花
+        - 澄清公告一出：无量跌停
+      policy:
+        - 监管打击蹭热点炒作
+        - 产业规划文件催化题材
+      example: 电影定档宣传片（题材）：预告片越炫，正片上映时落差越大。聪明人看预告片高潮就离场。
+  - slug: tian-di-ban
+    headword: 天地板
+    categoryL1: 行情黑话
+    categoryL2: 极端形态
+    difficulty: L2
+    summaryPlain: 从涨停到跌停（或反过来）一天走完两个极端：多空一夜变天。
+    riskNote: 天地板当天换手极大，进去的人一天亏 20%。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 从涨停到跌停（或反过来）一天走完两个极端：多空一夜变天。
+        example: 比如早盘还封涨停，尾盘跌停，全天像坐过山车。
+        notMeaning: 天地板当天换手极大，进去的人一天亏 20%。
+        isPrimary: true
+        contextKeywords:
+          - 极端形态
+        frequency: high
+    aliases:
+      - raw: 天地板
+        aliasType: primary
+      - raw: 地天板
+        aliasType: cn_alias
+      - raw: 过山车
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 12
+    insights:
+      affects:
+        - 情绪极端：一致性预期的崩塌
+        - 风险：单日最大亏损样本
+      good:
+        - 地天板：情绪冰点反转
+      bad:
+        - 天地板：多头集体闷杀
+      policy:
+        - 异常交易监控
+      example: 蹦极：早上在最高点（涨停），晚上在最低点（跌停），一天体验两种人生。
+  - slug: to-the-moon
+    headword: To the moon
+    categoryL1: 行情黑话
+    categoryL2: 网络用语
+    difficulty: L2
+    summaryPlain: 目标大涨、涨上月球：泡沫和 Meme 股里的信仰口号。
+    riskNote: 喊月亮的多数在山脚，上月球的是画饼的人。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 目标大涨、涨上月球：泡沫和 Meme 股里的信仰口号。
+        example: 比如论坛齐刷 to the moon，股价三天翻倍。
+        notMeaning: 喊月亮的多数在山脚，上月球的是画饼的人。
+        isPrimary: true
+        contextKeywords:
+          - 网络用语
+        frequency: high
+    aliases:
+      - raw: To the moon
+        aliasType: primary
+      - raw: 涨上月球
+        aliasType: cn_alias
+      - raw: 登月
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: To the moon：目标月球
+    insights:
+      affects:
+        - 情绪极端：口号即指标
+        - Meme 行情：信仰定价
+      good:
+        - 信仰一致：短期暴涨
+      bad:
+        - 没有基本面：终会落地
+      policy:
+        - 监管提示炒作风险
+      example: 传销现场的口号：喊得越齐，醒得越惨。月亮谁都能喊，上天的只有火箭（庄家）。
+  - slug: tou-jiang-shi-pao-shou
+    headword: 投降式抛售
+    categoryL1: 行情黑话
+    categoryL2: 极端行情
+    difficulty: L2
+    summaryPlain: 恐慌的最后阶段：所有人不顾价格抛售， capitulation 时刻。
+    riskNote: 投降式抛售常是阶段性底部，但抄底者常倒在半山腰。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 恐慌的最后阶段：所有人不顾价格抛售， capitulation 时刻。
+        example: 比如放天量长阴后次日探底回升，就是典型的 capitulation。
+        notMeaning: 投降式抛售常是阶段性底部，但抄底者常倒在半山腰。
+        isPrimary: true
+        contextKeywords:
+          - 极端行情
+        frequency: high
+    aliases:
+      - raw: 投降式抛售
+        aliasType: primary
+      - raw: Capitulation
+        aliasType: en_alias
+      - raw: 恐慌见底
+        aliasType: cn_alias
+    viz:
+      type: VolumeRatio
+      config:
+        title: 投降：最后的抛售
+    insights:
+      affects:
+        - 情绪周期：出清完成标志
+        - 底部特征：天量+长下影
+      good:
+        - 抛压出尽：反弹起点
+      bad:
+        - 半路抄底：二次探底
+      policy:
+        - 救市与流动性投放
+      example: 火灾时的跳楼：最绝望时人们放弃理性。跳下去（抛售）的痛是真的，火灭了（见底）的回甘也是真的。
+  - slug: trend-is-friend
+    headword: 趋势是你的朋友
+    categoryL1: 行情黑话
+    categoryL2: 交易哲学
+    difficulty: L2
+    summaryPlain: 华尔街老话的前半句：顺势而为，别和趋势对着干。
+    riskNote: 后半句常被省略：趋势终会结束，所以要有止损。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 华尔街老话的前半句：顺势而为，别和趋势对着干。
+        example: 比如上升趋势里每次回调都是买点，这就是顺趋势。
+        notMeaning: 后半句常被省略：趋势终会结束，所以要有止损。
+        isPrimary: true
+        contextKeywords:
+          - 交易哲学
+        frequency: high
+    aliases:
+      - raw: 趋势是你的朋友
+        aliasType: primary
+      - raw: 顺势而为
+        aliasType: cn_alias
+      - raw: 趋势跟踪
+        aliasType: cn_alias
+    viz:
+      type: CrossLines
+      config:
+        title: 趋势：你的朋友和终点
+    insights:
+      affects:
+        - 趋势跟踪：量化策略的基石
+        - 行为纠偏：不猜顶不摸底
+      good:
+        - 顺趋势：让利润奔跑
+      bad:
+        - 猜顶摸底：逆势者的坟场
+      policy:
+        - 无政策含义
+      example: 冲浪：浪来了跟着浪走（顺势），想站在浪尖上（猜顶）只会被拍死。
+  - slug: value-trap
+    headword: 价值陷阱
+    categoryL1: 行情黑话
+    categoryL2: 估值风险
+    difficulty: L2
+    summaryPlain: 看起来便宜实则继续跌的资产：低估值是价值还是陷阱，时间会给答案。
+    riskNote: 便宜是结果不是原因，先问「为什么便宜」。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 看起来便宜实则继续跌的资产：低估值是价值还是陷阱，时间会给答案。
+        example: 比如某股 PE 3 倍还在跌，因为盈利是假的或行业在消亡。
+        notMeaning: 便宜是结果不是原因，先问「为什么便宜」。
+        isPrimary: true
+        contextKeywords:
+          - 估值风险
+        frequency: high
+    aliases:
+      - raw: 价值陷阱
+        aliasType: primary
+      - raw: Value Trap
+        aliasType: en_alias
+      - raw: 便宜陷阱
+        aliasType: cn_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: trap
+        shares: 1000
+    insights:
+      affects:
+        - 基本面恶化：便宜越捡越便宜
+        - 认知陷阱：把下跌当机会
+      good:
+        - 错杀的价值陷阱：黄金坑
+      bad:
+        - 真陷阱：价值毁灭
+      policy:
+        - 行业政策与周期
+      example: 一折的过季羽绒服：夏天买是抄底，冬天买发现是烂棉花——便宜的原因比便宜本身重要。
+  - slug: weak-hands
+    headword: 弱手
+    categoryL1: 行情黑话
+    categoryL2: 网络用语
+    difficulty: L3
+    summaryPlain: 一有波动就吓得卖出的人：Meme 社区里被鄙视的「纸手」。
+    riskNote: 强弱是事后标签，该关心的是你自己的仓位管理。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 一有波动就吓得卖出的人：Meme 社区里被鄙视的「纸手」。
+        example: 比如小幅回调就割肉，被论坛嘲讽手太软。
+        notMeaning: 强弱是事后标签，该关心的是你自己的仓位管理。
+        isPrimary: true
+        contextKeywords:
+          - 网络用语
+        frequency: high
+    aliases:
+      - raw: 弱手
+        aliasType: primary
+      - raw: 纸手
+        aliasType: cn_alias
+      - raw: Paper Hands
+        aliasType: en_alias
+      - raw: Weak Hands
+        aliasType: en_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: cut
+        shares: 500
+    insights:
+      affects:
+        - 情绪标签：社区的压力机制
+        - 止损争议：止损≠弱手
+      good:
+        - 及时止损：活下来
+      bad:
+        - 死扛到底：从弱手变墓碑
+      policy:
+        - 无政策含义
+      example: 军训站军姿：晕倒的（弱手）被抬走，硬撑的（钻石手）可能真倒下——适合自己才最好。
+  - slug: wo-dao
+    headword: 卧倒/躺平
+    categoryL1: 行情黑话
+    categoryL2: 持仓姿势
+    difficulty: L2
+    summaryPlain: 买了就不管不看，任它风吹雨打：被动持有流的心态写照。
+    riskNote: 躺平在垃圾股上等于慢性失血，躺平在好公司上才是智慧。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 买了就不管不看，任它风吹雨打：被动持有流的心态写照。
+        example: 比如被套后删掉软件不看，自称躺平。
+        notMeaning: 躺平在垃圾股上等于慢性失血，躺平在好公司上才是智慧。
+        isPrimary: true
+        contextKeywords:
+          - 持仓姿势
+        frequency: high
+    aliases:
+      - raw: 卧倒
+        aliasType: primary
+      - raw: 躺平
+        aliasType: cn_alias
+      - raw: 装死
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 卧倒：不动如山
+    insights:
+      affects:
+        - 情绪管理：少看盘少操作
+        - 行为陷阱：躺平≠策略
+      good:
+        - 优质股躺平：跑赢多数人
+      bad:
+        - 垃圾股躺平：越躺越亏
+      policy:
+        - 无政策含义
+      example: 鸵鸟遇险把头埋沙里：危险没消失，只是看不见了。
+  - slug: wu-qiong-liu-jue-qi-fan-shen
+    headword: 五穷六绝七翻身
+    categoryL1: 行情黑话
+    categoryL2: 季节性
+    difficulty: L1
+    summaryPlain: 港股谚语：五六月低迷，七月反弹——股民对年中季节规律的总结。
+    riskNote: 季节性只是历史统计，别按口诀梭哈。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 港股谚语：五六月低迷，七月反弹——股民对年中季节规律的总结。
+        example: 比如每到五月就有人喊五穷，减仓观望。
+        notMeaning: 季节性只是历史统计，别按口诀梭哈。
+        isPrimary: true
+        contextKeywords:
+          - 季节性
+        frequency: mid
+    aliases:
+      - raw: 五穷六绝七翻身
+        aliasType: primary
+      - raw: 五穷六绝
+        aliasType: cn_alias
+      - raw: 七翻身
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: 五穷六绝七翻身
+        min: 0
+        max: 12
+        threshold: 6
+        initial: 5
+        valueLabel: 月份
+        zones:
+          - min: 0
+            max: 6
+            label: 五穷六绝
+            color: var(--down)
+          - min: 6
+            max: 12
+            label: 七翻身
+            color: var(--up)
+    insights:
+      affects:
+        - 择时参考：港股日历效应
+        - 情绪面：口诀影响行为
+      good:
+        - 七月前后：历史胜率偏高
+      bad:
+        - 失灵年份：口诀害人
+      policy:
+        - 无政策含义
+      example: 农谚「清明前后种瓜点豆」：老话有统计基础，但天气（市场）年年不同。
+  - slug: xi-chou
+    headword: 吸筹
+    categoryL1: 行情黑话
+    categoryL2: 主力行为
+    difficulty: L2
+    summaryPlain: 资金在低位悄悄买入积累仓位：拉升前的暗中进货。
+    riskNote: 吸筹和出货在盘面上经常长得一样，事后才分得清。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 资金在低位悄悄买入积累仓位：拉升前的暗中进货。
+        example: 比如股价横盘但筹码逐渐集中，就是暗中吃货的迹象。
+        notMeaning: 吸筹和出货在盘面上经常长得一样，事后才分得清。
+        isPrimary: true
+        contextKeywords:
+          - 主力行为
+        frequency: high
+    aliases:
+      - raw: 吸筹
+        aliasType: primary
+      - raw: 洗盘
+        aliasType: cn_alias
+      - raw: 吃货
+        aliasType: cn_alias
+    viz:
+      type: TurnoverPie
+      config:
+        title: 吸筹：暗中吃货
+    insights:
+      affects:
+        - 筹码结构：吸筹完成度
+        - 主力行为：盘口异动的解读
+      good:
+        - 吸筹充分：后市可期
+      bad:
+        - 吸筹变出货：被埋
+      policy:
+        - 举牌线（5%）约束
+      example: 囤货黄牛：淡季悄咪咪收货（吸筹），旺季抬价（拉升）——你只知道旺季贵。
+  - slug: xian-jin-niu
+    headword: 现金牛
+    categoryL1: 行情黑话
+    categoryL2: 公司类型
+    difficulty: L1
+    summaryPlain: 现金流充沛、稳定赚钱的公司：不性感但会下金蛋的鹅。
+    riskNote: 现金牛也可能增长停滞，估值天花板明显。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 现金流充沛、稳定赚钱的公司：不性感但会下金蛋的鹅。
+        example: 比如高速公路、水电、运营商都是这种会下蛋的鹅。
+        notMeaning: 现金牛也可能增长停滞，估值天花板明显。
+        isPrimary: true
+        contextKeywords:
+          - 公司类型
+        frequency: high
+    aliases:
+      - raw: 现金牛
+        aliasType: primary
+      - raw: Cash Cow
+        aliasType: en_alias
+      - raw: 现金奶牛
+        aliasType: cn_alias
+    viz:
+      type: DividendSplit
+      config:
+        title: 现金牛：会下蛋的鹅
+    insights:
+      affects:
+        - 红利策略：现金牛是核心资产
+        - 复利：稳定现金流的再投资
+      good:
+        - 分红稳定：收息族的挚爱
+      bad:
+        - 成长停滞：估值给不高
+      policy:
+        - 公用事业定价政策
+      example: 家里那只会下金蛋的鹅：不活泼（没故事），但每天都有蛋（现金流）——比会跳舞的鸡实在。
+  - slug: yao-gu
+    headword: 妖股
+    categoryL1: 行情黑话
+    categoryL2: 极端股
+    difficulty: L1
+    summaryPlain: 短期涨幅远超基本面、上蹿下跳的股票：资金硬怼出来的妖怪。
+    riskNote: 涨幅与基本面无关的品种，最终都要还回去；退潮时一字跌停跑不掉。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 短期涨幅远超基本面、上蹿下跳的股票：资金硬怼出来的妖怪。
+        example: 比如某股一个月翻三倍又半个月腰斩，公司业绩毫无变化。
+        notMeaning: 涨幅与基本面无关的品种，最终都要还回去；退潮时一字跌停跑不掉。
+        isPrimary: true
+        contextKeywords:
+          - 极端股
+        frequency: high
+    aliases:
+      - raw: 妖股
+        aliasType: primary
+      - raw: 妖
+        aliasType: cn_alias
+      - raw: 妖股炒作
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 8
+    insights:
+      affects:
+        - 情绪指标：妖股横行=市场投机度高
+        - 资金：纯筹码博弈，无基本面锚
+        - 风险：无量跌停是常态结局
+      good:
+        - 早期上车者短期暴利
+        - 妖股活跃期短线赚钱效应好
+      bad:
+        - 击鼓传花：最后接的归零
+        - 天地板：从涨停到跌停一天
+      policy:
+        - 特停制度与监控是降温手段
+        - 游资炒作是主要推手
+      example: 演唱会门口的黄牛票：100 块的票炒到 500，群众散去时 50 都没人要。妖股炒的就是「有人要」。
+  - slug: yi-ri-you
+    headword: 一日游
+    categoryL1: 行情黑话
+    categoryL2: 行情特征
+    difficulty: L1
+    summaryPlain: 某个题材只火一天就熄火：没有持续性的假行情。
+    riskNote: 一日游是诱多高发区，第二天追进去就是接盘。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 某个题材只火一天就熄火：没有持续性的假行情。
+        example: 比如某概念板块周一集体涨停，周二直接低开。
+        notMeaning: 一日游是诱多高发区，第二天追进去就是接盘。
+        isPrimary: true
+        contextKeywords:
+          - 行情特征
+        frequency: high
+    aliases:
+      - raw: 一日游
+        aliasType: primary
+      - raw: 过山车行情
+        aliasType: cn_alias
+      - raw: 没持续性
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 11
+    insights:
+      affects:
+        - 情绪周期：题材寿命的度量
+        - 风险：追高的坟场
+      good:
+        - 二波启动：一日游变主升
+      bad:
+        - 接力失败：一日游常态
+      policy:
+        - 监管打压纯题材炒作
+      example: 网红店的排队：第一天人山人海，第二天门口罗雀——热度这东西，来得快去得也快。
+  - slug: yi-zi-ban
+    headword: 一字板
+    categoryL1: 行情黑话
+    categoryL2: 涨停状态
+    difficulty: L2
+    summaryPlain: 开盘就涨停且全天不开板：想买买不进、想卖舍不得的极致形态。
+    riskNote: 一字板开板那天往往就是顶部，前面赚的都是纸面富贵。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 开盘就涨停且全天不开板：想买买不进、想卖舍不得的极致形态。
+        example: 比如重组复牌后连续一字体，成交量极小。
+        notMeaning: 一字板开板那天往往就是顶部，前面赚的都是纸面富贵。
+        isPrimary: true
+        contextKeywords:
+          - 涨停状态
+        frequency: high
+    aliases:
+      - raw: 一字板
+        aliasType: primary
+      - raw: T字板
+        aliasType: cn_alias
+      - raw: 连板
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: limitUp
+        limitPct: 10
+        basePrice: 10
+    insights:
+      affects:
+        - 稀缺性：买不到才是常态
+        - 流动性：想跑的时候也跑不掉
+      good:
+        - 连板：持筹者的盛宴
+      bad:
+        - 开板放量：击鼓传花结束
+      policy:
+        - 停复牌制度影响一字板
+      example: 限量球鞋抽签：中签的（一字板持股）笑，没中的（排队）哭。哪天不限量了（开板），价格就崩。
+  - slug: yolo
+    headword: YOLO
+    categoryL1: 行情黑话
+    categoryL2: 网络用语
+    difficulty: L2
+    summaryPlain: You Only Live Once：把大笔钱一次押上的赌博式下注，美股散户圈口头禅。
+    riskNote: YOLO 精神是破产的最短路径，热闹是别人的归零是自己的。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: You Only Live Once：把大笔钱一次押上的赌博式下注，美股散户圈口头禅。
+        example: 比如论坛上晒全仓期权一把梭，一周后归零帖。
+        notMeaning: YOLO 精神是破产的最短路径，热闹是别人的归零是自己的。
+        isPrimary: true
+        contextKeywords:
+          - 网络用语
+        frequency: high
+    aliases:
+      - raw: YOLO
+        aliasType: primary
+      - raw: 梭哈
+        aliasType: cn_alias
+      - raw: 一把梭
+        aliasType: cn_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        mode: cut
+        shares: 10000
+    insights:
+      affects:
+        - 行为金融：过度自信的极端样本
+        - 社区文化：晒单与从众
+      good:
+        - 极小概率暴富：论坛神话
+      bad:
+        - 大概率归零：沉默的大多数
+      policy:
+        - 券商适当性管理
+      example: 「人生只活一次，所以辞职 all in 奶茶店」——豪言壮语常出现在破产复盘第一段。
+  - slug: ytd
+    headword: YTD
+    categoryL1: 行情黑话
+    categoryL2: 时间口径
+    difficulty: L2
+    summaryPlain: 今年至今的涨跌幅：基金排名和业绩归因的常用口径。
+    riskNote: YTD 是滚动窗口，年初的高点会让它显得难看。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 今年至今的涨跌幅：基金排名和业绩归因的常用口径。
+        example: 比如基金今年至今收益 8%，在全市场排前 10%。
+        notMeaning: YTD 是滚动窗口，年初的高点会让它显得难看。
+        isPrimary: true
+        contextKeywords:
+          - 时间口径
+        frequency: high
+    aliases:
+      - raw: YTD
+        aliasType: primary
+      - raw: 年内涨幅
+        aliasType: cn_alias
+      - raw: 今年至今
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 你的 YTD
+            point: 108
+            base: 100
+            note: 今年至今
+          - name: 大盘 YTD
+            point: 103
+            base: 100
+            note: 基准
+    insights:
+      affects:
+        - 业绩考核：公募排名的标尺
+        - 营销话术：YTD 美化空间大
+      good:
+        - YTD 跑赢：经理称职
+      bad:
+        - YTD 深亏：排名垫底
+      policy:
+        - 考核周期的影响
+      example: 学期总评：从开学（年初）算到现在，期中没考好，现在追回来也还来得及。
+  - slug: za-pan
+    headword: 砸盘
+    categoryL1: 行情黑话
+    categoryL2: 主力行为
+    difficulty: L1
+    summaryPlain: 大量卖出压低股价：恐慌的放大器，也是廉价的收割机。
+    riskNote: 砸盘可能是洗盘也可能是真崩，区别在基本面变没变。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 大量卖出压低股价：恐慌的放大器，也是廉价的收割机。
+        example: 比如尾盘万手大单直接砸到跌停。
+        notMeaning: 砸盘可能是洗盘也可能是真崩，区别在基本面变没变。
+        isPrimary: true
+        contextKeywords:
+          - 主力行为
+        frequency: high
+    aliases:
+      - raw: 砸盘
+        aliasType: primary
+      - raw: 打压
+        aliasType: cn_alias
+      - raw: 杀跌
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: limitDown
+        limitPct: 10
+        basePrice: 10
+    insights:
+      affects:
+        - 情绪踩踏：砸盘引发跟风
+        - 机会：错杀后的黄金坑
+      good:
+        - 砸盘洗盘：上车机会
+      bad:
+        - 恐慌砸盘：割肉大赛
+      policy:
+        - 恶意做空的监管边界
+      example: 超市临关门前把货架推倒（砸盘）：顾客（散户）踩踏抢便宜，老板（主力）清库存。
+  - slug: zha-ban
+    headword: 炸板
+    categoryL1: 行情黑话
+    categoryL2: 涨停状态
+    difficulty: L2
+    summaryPlain: 涨停板被大单砸开：封板的资金认怂了，短线情绪拐点。
+    riskNote: 炸板当天进场的，多数在给跑了的人结账。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 涨停板被大单砸开：封板的资金认怂了，短线情绪拐点。
+        example: 比如上午牢牢封死，午后百万手砸开，收盘涨 2%。
+        notMeaning: 炸板当天进场的，多数在给跑了的人结账。
+        isPrimary: true
+        contextKeywords:
+          - 涨停状态
+        frequency: high
+    aliases:
+      - raw: 炸板
+        aliasType: primary
+      - raw: 回封
+        aliasType: cn_alias
+      - raw: 开板
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: limitUp
+        limitPct: 10
+        basePrice: 10
+    insights:
+      affects:
+        - 情绪周期：炸板率是退潮指标
+        - 接力风险：炸板次日常低开
+      good:
+        - 炸板回封：弱转强
+      bad:
+        - 反复炸板：资金撤退
+      policy:
+        - 监管特停打压爆炒
+      example: 满座的电影院突然集体退场：第一排的人（先手）走了，你（后手）抱着爆米花（筹码）发呆。
+  - slug: zhan-gang
+    headword: 站岗
+    categoryL1: 行情黑话
+    categoryL2: 高位被套
+    difficulty: L2
+    summaryPlain: 在高位买入的人长期被套，像站在山顶上放哨：最孤独的岗位。
+    riskNote: 站岗不可怕，可怕的是在岗上不断补仓扩大编制。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 在高位买入的人长期被套，像站在山顶上放哨：最孤独的岗位。
+        example: 比如 2021 年高位买了核心资产，现在还挂着。
+        notMeaning: 站岗不可怕，可怕的是在岗上不断补仓扩大编制。
+        isPrimary: true
+        contextKeywords:
+          - 高位被套
+        frequency: high
+    aliases:
+      - raw: 站岗
+        aliasType: primary
+      - raw: 高位站岗
+        aliasType: cn_alias
+      - raw: 套在山顶
+        aliasType: cn_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: trap
+        shares: 1000
+    insights:
+      affects:
+        - 心理账户：站岗是精神内耗
+        - 机会成本：资金锁死
+      good:
+        - 解套那天：喜极而泣
+      bad:
+        - 山顶风大：加仓=扩大哨岗
+      policy:
+        - 高估值区的监管提示
+      example: 景区缆车排两小时上去，发现山顶只有雾：票贵（高位）景差（阴跌），下不来（套牢）。
+  - slug: zhen-dang
+    headword: 震荡
+    categoryL1: 行情黑话
+    categoryL2: 走势状态
+    difficulty: L1
+    summaryPlain: 价格在一个区间里上下波动、没明显方向：市场的无聊时间。
+    riskNote: 震荡市里趋势策略反复亏，高手赚菜钱新手亏本金。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 价格在一个区间里上下波动、没明显方向：市场的无聊时间。
+        example: 比如大盘一个月在 3200-3300 之间磨，追突破的人两头挨打。
+        notMeaning: 震荡市里趋势策略反复亏，高手赚菜钱新手亏本金。
+        isPrimary: true
+        contextKeywords:
+          - 走势状态
+        frequency: high
+    aliases:
+      - raw: 震荡
+        aliasType: primary
+      - raw: 盘整
+        aliasType: cn_alias
+      - raw: 横盘
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 震荡：原地踏步
+    insights:
+      affects:
+        - 策略选择：区间策略优于趋势策略
+        - 情绪：消磨耐心，放大人性弱点
+      good:
+        - 低买高卖：震荡市的生存法则
+      bad:
+        - 追涨杀跌：震荡市的死法
+      policy:
+        - 成交萎缩延长震荡
+      example: 堵车：踩油门（追）踩刹车（杀）来回折腾，油耗光了（本金）路没走（没收益）。
+  - slug: zhi-ying
+    headword: 止盈/止损
+    categoryL1: 行情黑话
+    categoryL2: 卖出纪律
+    difficulty: L1
+    summaryPlain: 赚够了落袋叫止盈，亏到线了认错叫止损：交易的刹车片。
+    riskNote: 没有止盈止损的交易，就是没有刹车的车。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 赚够了落袋叫止盈，亏到线了认错叫止损：交易的刹车片。
+        example: 比如设好赚 20% 止盈、亏 8% 止损，机械执行。
+        notMeaning: 没有止盈止损的交易，就是没有刹车的车。
+        isPrimary: true
+        contextKeywords:
+          - 卖出纪律
+        frequency: high
+    aliases:
+      - raw: 止盈
+        aliasType: primary
+      - raw: 止损
+        aliasType: cn_alias
+      - raw: 落袋为安
+        aliasType: cn_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        mode: cut
+        shares: 1000
+    insights:
+      affects:
+        - 交易纪律：盈亏损益的开关
+        - 心态管理：克服贪婪与侥幸
+      good:
+        - 纪律执行：长期活下来的基础
+      bad:
+        - 该止盈不止：利润变亏损
+        - 该止损不止：小亏变大亏
+      policy:
+        - 无政策含义
+      example: 自助餐的盘子：好吃就多拿点（止盈），难吃就放下（止损）——别撑着也别浪费。
+  - slug: zhong-te-gu
+    headword: 中特估
+    categoryL1: 行情黑话
+    categoryL2: 估值逻辑
+    difficulty: L2
+    summaryPlain: 「中国特色估值体系」的简称：央企国企的价值重估故事。
+    riskNote: 中特估行情靠政策和情绪推动，业绩弹性有限。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 「中国特色估值体系」的简称：央企国企的价值重估故事。
+        example: 比如 2023 年中字头集体暴涨，就是这波重估行情。
+        notMeaning: 中特估行情靠政策和情绪推动，业绩弹性有限。
+        isPrimary: true
+        contextKeywords:
+          - 估值逻辑
+        frequency: high
+    aliases:
+      - raw: 中特估
+        aliasType: primary
+      - raw: 中字头
+        aliasType: cn_alias
+      - raw: 央企重估
+        aliasType: cn_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: 中特估：给央企重定价
+    insights:
+      affects:
+        - 风格切换：价值风的政策东风
+        - 央国企：破净修复的逻辑
+      good:
+        - 市值管理考核：重估催化剂
+      bad:
+        - 纯情绪炒作：业绩跟不上
+      policy:
+        - 国资委考核与证监会引导
+      example: 老字号重新装修挂牌：地段（资产）没变，招牌（估值）翻新——溢价靠的是新招牌带来的想象。
+  - slug: zhou-si-mo-zhou
+    headword: 周四魔咒
+    categoryL1: 行情黑话
+    categoryL2: 季节性
+    difficulty: L2
+    summaryPlain: 江湖传言：周四下跌概率更高——统计上并不显著，但信的人多了就有影响。
+    riskNote: 魔咒是自我实现的预言，别拿它当减仓依据。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 江湖传言：周四下跌概率更高——统计上并不显著，但信的人多了就有影响。
+        example: 比如每到周四就心慌，成了股民的行为艺术。
+        notMeaning: 魔咒是自我实现的预言，别拿它当减仓依据。
+        isPrimary: true
+        contextKeywords:
+          - 季节性
+        frequency: mid
+    aliases:
+      - raw: 周四魔咒
+        aliasType: primary
+      - raw: 星期四效应
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: 周四魔咒：统计还是心理
+        min: 0
+        max: 100
+        threshold: 50
+        initial: 50
+        valueLabel: 下跌概率
+        unit: "%"
+        zones:
+          - min: 0
+            max: 50
+            label: 无魔咒
+            color: var(--up)
+          - min: 50
+            max: 100
+            label: 心里有鬼
+            color: var(--down)
+    insights:
+      affects:
+        - 行为金融：预言自我实现
+        - 日历效应：统计上的弱信号
+      good:
+        - 当玩笑：无伤大雅
+      bad:
+        - 当真了：无谓操作
+      policy:
+        - 无政策含义
+      example: 「星期一综合症」：周五精神周四累，多数是心理不是物理。
+  - slug: zhui-zhang-sha-die
+    headword: 追涨杀跌
+    categoryL1: 行情黑话
+    categoryL2: 操作
+    difficulty: L1
+    summaryPlain: 涨了才追着买、跌了慌着卖：人类本能，也是最佳的赔钱姿势。
+    riskNote: 所有交易高手的共同敌人就是它；对抗办法是纪律和计划，不是意志力。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 涨了才追着买、跌了慌着卖：人类本能，也是最佳的赔钱姿势。
+        example: 比如某股连涨五天忍不住追进，第二天回调 8% 又割在地板。
+        notMeaning: 所有交易高手的共同敌人就是它；对抗办法是纪律和计划，不是意志力。
+        isPrimary: true
+        contextKeywords:
+          - 操作
+        frequency: high
+    aliases:
+      - raw: 追涨杀跌
+        aliasType: primary
+      - raw: 追高
+        aliasType: cn_alias
+      - raw: 杀跌
+        aliasType: cn_alias
+      - raw: 割肉
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 12
+    insights:
+      affects:
+        - 市场波动：追涨杀跌是波动的燃料
+        - 个人账户：操作越多错越多
+        - 量化：这种行为偏差正是 Alpha 来源
+      good:
+        - 识别自己的冲动=进步
+        - 右侧跟随+止损：纪律版追涨
+      bad:
+        - 两头挨打：追在顶上割在底
+        - 高换手=给市场交学费
+      policy:
+        - T+1 让追高的容错更低
+        - 短线生态鼓励换手加剧该问题
+      example: 公交车快开走了才冲上去（追），一刹车又慌忙跳车（杀）：来回折腾，票钱没少花，人先累残。
+  - slug: zoom-out
+    headword: 拿不住就看长线
+    categoryL1: 行情黑话
+    categoryL2: 心态调节
+    difficulty: L2
+    summaryPlain: 短线焦虑时把 K 线切到月线年线：拉长时间尺度，很多波动就不是事了。
+    riskNote: zoom out 治标不治本，仓位太重看什么线都慌。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 短线焦虑时把 K 线切到月线年线：拉长时间尺度，很多波动就不是事了。
+        example: 比如被日内波动搞崩，切到月线发现还在上升通道。
+        notMeaning: zoom out 治标不治本，仓位太重看什么线都慌。
+        isPrimary: true
+        contextKeywords:
+          - 心态调节
+        frequency: high
+    aliases:
+      - raw: 拿不住就看长线
+        aliasType: primary
+      - raw: Zoom out
+        aliasType: cn_alias
+      - raw: 拉长周期
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 日线波动
+            point: 100
+            base: 100
+            note: 心惊肉跳
+          - name: 年线趋势
+            point: 180
+            base: 100
+            note: 云淡风轻
+    insights:
+      affects:
+        - 心理管理：时间尺度决定心态
+        - 仓位配套：轻仓才能长线
+      good:
+        - 长线视角：过滤噪音
+      bad:
+        - 该止损的：别用长线骗自己
+      policy:
+        - 无政策含义
+      example: 看地图：堵车时放大到全城（日线）想骂人，缩小到全国（年线）发现这条路整体通畅。
+  - slug: zuan-shi-shou
+    headword: 钻石手
+    categoryL1: 行情黑话
+    categoryL2: 网络用语
+    difficulty: L2
+    summaryPlain: 咬牙坚决不卖的人：Meme 文化里对抗波动的精神图腾。
+    riskNote: 钻石手用在垃圾股上就是死扛，坚持和固执只差一个基本面。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 咬牙坚决不卖的人：Meme 文化里对抗波动的精神图腾。
+        example: 比如跌 50% 还不割，自称钻粉。
+        notMeaning: 钻石手用在垃圾股上就是死扛，坚持和固执只差一个基本面。
+        isPrimary: true
+        contextKeywords:
+          - 网络用语
+        frequency: high
+    aliases:
+      - raw: 钻石手
+        aliasType: primary
+      - raw: 纸手
+        aliasType: cn_alias
+      - raw: Diamond Hands
+        aliasType: en_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: trap
+        shares: 1000
+    insights:
+      affects:
+        - 情绪标签：社区的身份认同
+        - 行为风险：把死扛当长期主义
+      good:
+        - 真·价值股：钻石手赚钱
+      bad:
+        - 垃圾股钻石手：归零
+      policy:
+        - 无政策含义
+      example: 死守沉船的船长：船是好船（价值股）叫坚毅，船在漏水（垃圾股）叫愚勇。
+  - slug: zuo-jiao-tai-jiao
+    headword: 坐轿/抬轿
+    categoryL1: 行情黑话
+    categoryL2: 博弈关系
+    difficulty: L2
+    summaryPlain: 提前埋伏等别人拉升叫坐轿，后进场抬价让别人先跑的接抬轿。
+    riskNote: 人人都想坐轿，结果多数人在抬轿。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 提前埋伏等别人拉升叫坐轿，后进场抬价让别人先跑的接抬轿。
+        example: 比如提前埋伏的人吃涨停，追进去的成了抬轿的。
+        notMeaning: 人人都想坐轿，结果多数人在抬轿。
+        isPrimary: true
+        contextKeywords:
+          - 博弈关系
+        frequency: high
+    aliases:
+      - raw: 坐轿
+        aliasType: primary
+      - raw: 抬轿
+        aliasType: cn_alias
+      - raw: 轿子
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 12
+    insights:
+      affects:
+        - 博弈结构：先来后到的零和
+        - 散户定位：多数时候是轿夫
+      good:
+        - 坐轿：埋伏对了
+      bad:
+        - 抬轿：给别人做嫁衣
+      policy:
+        - 无政策含义
+      example: 婚礼抬花轿：新人（先入场的）风光，轿夫（后进场的）流汗，红包（收益）还不多分。
+  - slug: zuo-shi-jian-de-peng-you
+    headword: 做时间的朋友
+    categoryL1: 行情黑话
+    categoryL2: 投资哲学
+    difficulty: L2
+    summaryPlain: 长期持有优质资产、让复利慢慢发酵：价值投资的文艺表达。
+    riskNote: 时间只善待好公司，烂公司的「时间的朋友」最后都成了时间的炮友。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 长期持有优质资产、让复利慢慢发酵：价值投资的文艺表达。
+        example: 比如拿住核心资产十年翻五倍，就是和时间做朋友的典范。
+        notMeaning: 时间只善待好公司，烂公司的「时间的朋友」最后都成了时间的炮友。
+        isPrimary: true
+        contextKeywords:
+          - 投资哲学
+        frequency: high
+    aliases:
+      - raw: 做时间的朋友
+        aliasType: primary
+      - raw: 长期主义
+        aliasType: cn_alias
+      - raw: 复利
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 持有十年
+            point: 500
+            base: 100
+            note: 复利的魔法
+          - name: 频繁交易
+            point: 110
+            base: 100
+            note: 手续费的奴隶
+    insights:
+      affects:
+        - 长期主义：机构最爱的话术
+        - 心理建设：对抗短期焦虑
+      good:
+        - 优质+长期：复利奇迹
+      bad:
+        - 烂股+长期：慢性归零
+      policy:
+        - 无政策含义
+      example: 种果树：前三年只浇水不结果，第十年开始年年硕果——前提是你种的是果树不是杂草。

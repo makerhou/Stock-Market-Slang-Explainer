@@ -1,0 +1,899 @@
+# 自动生成的批量词条源（可由 ingest 重新编译为 lexicon.json）
+category: 美股
+source: bootstrap from lexicon.json (2026-10-22)
+terms:
+  - slug: 10-k
+    headword: 10-K
+    categoryL1: 美股
+    categoryL2: 定期报告
+    difficulty: L3
+    summaryPlain: 美股公司向 SEC 提交的年度大报告：几百页，家底全在里面。
+    riskNote: 太长没人读完，但关键风险章节（Item 1A）必读。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 美股公司向 SEC 提交的年度大报告：几百页，家底全在里面。
+        example: 比如想做多某美股，先翻它的那份几百页年报里「风险因素」章节。
+        notMeaning: 太长没人读完，但关键风险章节（Item 1A）必读。
+        isPrimary: true
+        contextKeywords:
+          - 定期报告
+        frequency: mid
+    aliases:
+      - raw: 10-K
+        aliasType: primary
+      - raw: 年报
+        aliasType: cn_alias
+      - raw: 10-Q
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 10-K：几百页的底牌
+    insights:
+      affects:
+        - 信息金矿：最权威的公开资料
+        - 尽调：机构研究的基本功
+      good:
+        - 披露详尽：减少信息不对称
+      bad:
+        - 专业术语多：阅读门槛高
+      policy:
+        - SEC 的年报提交要求
+      example: 相亲对象的全套档案：户口本、体检报告、情史全在里面，厚得让人想跑，但值得读。
+  - slug: 20-f
+    headword: 20-F
+    categoryL1: 美股
+    categoryL2: 定期报告
+    difficulty: L3
+    summaryPlain: 在美上市外国公司的年报格式：中概股每年交的那份。
+    riskNote: 它按国际准则编制，和美国本土公司的 10-K 格式不同。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 在美上市外国公司的年报格式：中概股每年交的那份。
+        example: 比如看中概股年报要找外国公司专用的那种格式。
+        notMeaning: 它按国际准则编制，和美国本土公司的 10-K 格式不同。
+        isPrimary: true
+        contextKeywords:
+          - 定期报告
+        frequency: mid
+    aliases:
+      - raw: 20-F
+        aliasType: primary
+      - raw: 6-K
+        aliasType: cn_alias
+      - raw: 外国公司年报
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 20-F：外国公司的年报
+    insights:
+      affects:
+        - 中概研究：基本资料入口
+        - 披露差异：跨国比较要注意
+      good:
+        - 格式统一：方便横向比较
+      bad:
+        - 披露颗粒度常低于美国公司
+      policy:
+        - SEC 对外国私营发行人的安排
+      example: 留学生的成绩单：格式和本地生（10-K）不一样，学分换算（准则差异）要另看说明。
+  - slug: 8-k
+    headword: 8-K
+    categoryL1: 美股
+    categoryL2: 临时报告
+    difficulty: L3
+    summaryPlain: 美股公司发生重大事件时的临时报告：换 CEO、被起诉、发债都要 8-K。
+    riskNote: 它是突发消息的第一现场，比新闻稿更正式。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 美股公司发生重大事件时的临时报告：换 CEO、被起诉、发债都要 8-K。
+        example: 比如公司半夜发临时报告宣布 CFO 离职，盘前股价跳水。
+        notMeaning: 它是突发消息的第一现场，比新闻稿更正式。
+        isPrimary: true
+        contextKeywords:
+          - 临时报告
+        frequency: mid
+    aliases:
+      - raw: 8-K
+        aliasType: primary
+      - raw: 重大事项报告
+        aliasType: cn_alias
+    viz:
+      type: HaltClock
+      config:
+        title: 8-K：大事即时通报
+    insights:
+      affects:
+        - 突发事件：股价闪崩的引信
+        - 信息时效：比新闻稿权威
+      good:
+        - 及时披露：治理好的标志
+      bad:
+        - 突发利空：盘前无处可躲
+      policy:
+        - SEC 的四日报送时限
+      example: 班级里的即时通报：转学、住院、换班主任——出了大事当天贴公告，不等周报。
+  - slug: adr
+    headword: ADR
+    categoryL1: 美股
+    categoryL2: 上市工具
+    difficulty: L2
+    summaryPlain: 外国公司到美国上市的「打包凭证」：银行把外国股票收进保险库，按比例发行美国版的股票。
+    riskNote: 持有 ADR 不等于持有原股票，有托管、汇率、退市等多重风险。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 美国存托凭证：由托管银行发行、代表若干外国公司股票的凭证，在美股像普通股票一样交易。
+        example: 在外国本土交易的股票想到美国挂牌，可以打包成一份存托凭证顶 5 股原股票，美国投资者买一份就等于买了 5 股。
+        notMeaning: 它不是原公司直接发行的股票，也不是 ETF。
+        isPrimary: true
+        contextKeywords:
+          - 存托
+          - 银行托管
+          - 美股
+          - 折价
+        frequency: mid
+    aliases:
+      - raw: ADR
+        aliasType: primary
+      - raw: 美国存托凭证
+        aliasType: cn_alias
+      - raw: 存托凭证
+        aliasType: cn_alias
+    viz:
+      type: AdrBridge
+      config:
+        ratio: 2
+    insights:
+      affects:
+        - 外国公司：不改变本地上市即可在美股融资
+        - 美国投资者：省去换汇开外国户的麻烦
+        - 两地价差：ADR 价格常在美东时间里偏离原股
+      good:
+        - 中概/外资公司拿到美元流动性
+        - 套利资金拉近 ADR 与原股价差
+      bad:
+        - 监管/退市风险：ADR 可被摘牌
+        - 汇率成本：美元收益换成本币可能缩水
+      policy:
+        - PCAOB 审计检查：不配合可被列预摘牌名单
+        - VIE 架构合法性争议影响中概 ADR 稳定性
+        - 中概股二次上市（香港）成为常见备胎
+      example: 去公园要门票代币：窗口把现金锁进保险柜，给你两枚代币（ADR），一枚顶一张成人票。拿代币能玩项目，但真钱在柜子里——柜子那边出问题，代币就悬了。
+  - slug: an-chi
+    headword: 暗池
+    categoryL1: 美股
+    categoryL2: 交易场所
+    difficulty: L3
+    summaryPlain: 不公开报价的场外交易系统：机构大单在这里悄悄成交，不影响盘口。
+    riskNote: 暗池保护大机构，散户看不到对手盘，透明度更低。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 不公开报价的场外交易系统：机构大单在这里悄悄成交，不影响盘口。
+        example: 比如机构通过不公开报价的场外系统甩卖 10 亿美元，盘口毫无波澜。
+        notMeaning: 暗池保护大机构，散户看不到对手盘，透明度更低。
+        isPrimary: true
+        contextKeywords:
+          - 交易场所
+        frequency: mid
+    aliases:
+      - raw: 暗池
+        aliasType: primary
+      - raw: Dark Pool
+        aliasType: en_alias
+      - raw: ATS
+        aliasType: en_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: board
+        title: 暗池：看不见的成交
+    insights:
+      affects:
+        - 市场结构：机构规避冲击成本
+        - 透明度：监管争议焦点
+      good:
+        - 大单执行不惊动市场
+      bad:
+        - 散户信息劣势被放大
+      policy:
+        - SEC 对暗池的监管与 ATS 注册
+      example: 水库下的暗管：表面（公开盘口）风平浪静，底下（暗池）洪水滔滔。
+  - slug: biao-pu-500
+    headword: 标普500
+    categoryL1: 美股
+    categoryL2: 指数
+    difficulty: L1
+    summaryPlain: 美国 500 家大公司股票按市值加权算出的平均分，是全球最常被引用的美股大盘温度计。
+    riskNote: 指数涨跌不保证每只成分股都涨；跟踪它的基金也有波动。
+    frequency: high
+    popularity: 860
+    senses:
+      - senseKey: default
+        plainExplain: 由美国 500 家大型上市公司按市值加权编制的股票指数，被视为美股整体表现的代表。
+        example: 新闻说标普 500 今年涨了 15%，意思是全美最大的 500 家公司整体市值涨了一成半，不是某一家涨了这么多。
+        notMeaning: 它不是道琼斯那 30 家老牌公司，也不是只有科技股的纳斯达克。
+        isPrimary: true
+        contextKeywords:
+          - 指数
+          - 美股
+          - 市值加权
+          - 大盘
+        frequency: high
+    aliases:
+      - raw: 标普500
+        aliasType: primary
+      - raw: 标准普尔500指数
+        aliasType: cn_alias
+      - raw: S&P 500
+        aliasType: en_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 标普 500
+            point: 5200
+            base: 10
+            note: 500 家大公司，按市值加权
+          - name: 纳斯达克 100
+            point: 18300
+            base: 125
+            note: 100 家科技巨头为主
+          - name: 道琼斯 30
+            point: 39000
+            base: 40.9
+            note: 30 家传统蓝筹，按股价加权
+        title: 标普 500：500 家公司的平均分
+    insights:
+      affects:
+        - 全球股市：美股是全球最大市场，标普跌常带动各地股市情绪
+        - 理财账户：大量养老金/基金以它为业绩基准
+        - 公司融资：指数强时公司更容易发新股、发债
+      good:
+        - 点位相对基期涨得多：美国大公司整体赚钱能力强
+        - 刷新高：经济与企业盈利预期向好
+      bad:
+        - 一年跌两成以上：历史上往往伴随经济衰退预期
+        - 权重股独跌：几只巨头就能拖垮指数（假摔感）
+      policy:
+        - 美联储降息：流动性宽松利好指数走强
+        - 加息/缩表：抽水时指数通常承压
+        - 关税/监管：对成分公司利润和情绪都有影响
+      example: 把标普 500 想成一所学校的年级平均分：500 个学生按「家底（市值）」加权算总分。学霸（苹果微软）进步大，平均分猛涨；几个学霸集体考砸，全班分数也难看——但普通同学可能还是老样子。
+  - slug: cai-bao-dian-hua-hui
+    headword: 财报电话会
+    categoryL1: 美股
+    categoryL2: 信息披露
+    difficulty: L2
+    summaryPlain: 发财报同时开的分析师电话会：管理层念稿+答问，信息量常比财报本身大。
+    riskNote: 管理层一句「明年需求不确定」，股价就能跌 5%。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 发财报同时开的分析师电话会：管理层念稿+答问，信息量常比财报本身大。
+        example: 比如电话会上 CFO 暗示下季指引偏保守，盘后大跌。
+        notMeaning: 管理层一句「明年需求不确定」，股价就能跌 5%。
+        isPrimary: true
+        contextKeywords:
+          - 信息披露
+        frequency: mid
+    aliases:
+      - raw: 财报电话会
+        aliasType: primary
+      - raw: earnings call
+        aliasType: en_alias
+      - raw: 电话会
+        aliasType: cn_alias
+    viz:
+      type: PrePostMarket
+      config:
+        title: 电话会：念稿之后的真心话
+    insights:
+      affects:
+        - 预期形成：指引的发源地
+        - 管理层能力：问答见真章
+      good:
+        - 指引乐观：股价强心剂
+      bad:
+        - 答问含糊：信心不足
+      policy:
+        - SEC 对公平披露的要求
+      example: 家长会：成绩单（财报）是死的，老师临场说的那句「孩子后劲不足」才致命。
+  - slug: cai-bao-ji
+    headword: 财报季
+    categoryL1: 美股
+    categoryL2: 财报周期
+    difficulty: L1
+    summaryPlain: 上市公司扎堆公布季度成绩单的季节，股价跟着「实际考分 vs 预期考分」的差剧烈跳动。
+    riskNote: 超预期也可能跌（利好出尽），看财报要结合指引和预期差。
+    frequency: high
+    popularity: 820
+    senses:
+      - senseKey: default
+        plainExplain: 上市公司集中发布季度财报（收入、利润、未来指引）的时期，通常一季四次。
+        example: 有家芯片公司赚得比去年多，但市场原本以为更多，业绩公布后盘后反跌一成——发财报的季节里预期差才是主角。
+        notMeaning: 财报季不是每次发财报都涨或都跌，关键是预期差。
+        isPrimary: true
+        contextKeywords:
+          - 季度
+          - 业绩
+          - 预期
+          - 指引
+        frequency: high
+    aliases:
+      - raw: 财报季
+        aliasType: primary
+      - raw: 发财报
+        aliasType: cn_alias
+      - raw: earnings season
+        aliasType: en_alias
+    viz:
+      type: EarningsSeason
+      config:
+        expectEps: 1.5
+    insights:
+      affects:
+        - 个股：财报当天/次日股价常放巨量波动
+        - 指数：权重股财报季决定大盘方向
+        - 板块：同行扎堆发财报会渲染整个行业前景
+      good:
+        - 收入、利润、指引三超预期 → 盘后跳涨
+        - 业绩持续证明自己 → 长期估值抬升
+      bad:
+        - 不及预期 → 单日两位数暴跌很常见
+        - 指引悲观 → 哪怕当期好也照跌
+      policy:
+        - SEC 披露规则：按时发财报否则面临处罚
+        - 回购/派息公告常在财报窗口同步放出影响股价
+        - 审计/会计政策变化影响可比性
+      example: 期末发卷：你考了 85 分，学霸家长以为你能考 95 → 全家失望（miss）；同桌考 60 但家长只求及格 → 加鸡腿（beat）。股价看的不是绝对分数，是和预期的差距。
+  - slug: dao-qiong-si
+    headword: 道琼斯
+    categoryL1: 美股
+    categoryL2: 指数
+    difficulty: L1
+    summaryPlain: 美国最老的 30 家蓝筹公司股票指数的名称，像老牌百货公司：传统、稳、分量重。
+    riskNote: 只有 30 只成分股，覆盖面窄，容易「以偏概全」。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 由 30 家美国传统蓝筹公司股价加权编成的指数，历史最悠久但代表性不如标普。
+        example: 老报纸头条写「道指站上 3 万 9 千点」，说的就是这 30 家老牌公司加起来的分数。
+        notMeaning: 它不是 500 家公司的平均值，也不含苹果微软这类新贵。
+        isPrimary: true
+        contextKeywords:
+          - 道指
+          - 蓝筹
+          - 老牌
+          - 30家
+        frequency: mid
+    aliases:
+      - raw: 道琼斯
+        aliasType: primary
+      - raw: 道指
+        aliasType: cn_alias
+      - raw: Dow Jones
+        aliasType: en_alias
+    viz:
+      type: IndexTower
+      config:
+        title: 三大指数对比
+    insights:
+      affects:
+        - 市场心理：最老牌指数，媒体引用最多
+        - 传统行业定价：30 只成分多为银行、消费、工业巨头
+        - 金融叙事：跨过整数关口会被大肆报道影响情绪
+      good:
+        - 站稳关键点位：老牌企业盈利稳固的信号
+        - 消费/工业成分强：经济基本面扎实
+      bad:
+        - 成分老化：错过科技行情时指数明显跑输纳指
+        - 30 只样本太小：一家爆雷也能砸出大跌
+      policy:
+        - 降息利好银行/地产等成分股
+        - 制造业回流/基建政策利好工业股
+        - 消费疲软直接影响成分里的零售巨头
+      example: 道琼斯像老字号商场里 30 家金铺的营业额合计：名气最响，但隔壁新开的网红科技大楼多热闹，它未必算得进来。
+  - slug: ji-jin-tou-zi-zhe
+    headword: 激进投资者
+    categoryL1: 美股
+    categoryL2: 机构类型
+    difficulty: L3
+    summaryPlain: 买股票后公开逼公司改革的投资者：华尔街的鲶鱼。
+    riskNote: 他们的出现常伴随股价波动，但改革未必都成功。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 买股票后公开逼公司改革的投资者：华尔街的鲶鱼。
+        example: 比如激进基金入股后要求分红回购，股价先涨一波。
+        notMeaning: 他们的出现常伴随股价波动，但改革未必都成功。
+        isPrimary: true
+        contextKeywords:
+          - 机构类型
+        frequency: mid
+    aliases:
+      - raw: 激进投资者
+        aliasType: primary
+      - raw: Activist
+        aliasType: en_alias
+      - raw: 维权投资者
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: board
+        title: 激进投资者：敲门的鲶鱼
+    insights:
+      affects:
+        - 公司治理：外部的纠错力量
+        - 股价：事件性催化剂
+      good:
+        - 倒逼改革：价值释放
+      bad:
+        - 短期主义：为退出而改革
+      policy:
+        - SEC 的股东提案规则
+      example: 转学生公开要求班主任改校规：班里风气可能变好，也可能只是他想当班长。
+  - slug: jie-quan-que-ren
+    headword: 借券确认
+    categoryL1: 美股
+    categoryL2: 做空流程
+    difficulty: L3
+    summaryPlain: 美股做空前必须先确认有券可借：券商系统里 locate 这一步不过，单子就下不了。
+    riskNote: 热门做空标的常常无券可借，挤空行情多源于此。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 美股做空前必须先确认有券可借：券商系统里 locate 这一步不过，单子就下不了。
+        example: 比如做空订单提示无法借券，说明这只票的券源被抢光。
+        notMeaning: 热门做空标的常常无券可借，挤空行情多源于此。
+        isPrimary: true
+        contextKeywords:
+          - 做空流程
+        frequency: mid
+    aliases:
+      - raw: 借券确认
+        aliasType: primary
+      - raw: Locate
+        aliasType: en_alias
+      - raw: 券源
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config: {}
+    insights:
+      affects:
+        - 做空可行性：券源决定能不能空
+        - 挤空风险：借不到=被迫回补
+      good:
+        - 有券可借：做空机制顺畅
+      bad:
+        - 无券可借：空头被闷
+      policy:
+        - 券商与托管机构的券池管理
+      example: 借书要先查图书馆有没有库存：没库存只能等别人还，或者换一本。
+  - slug: luld
+    headword: LULD
+    categoryL1: 美股
+    categoryL2: 风控机制
+    difficulty: L3
+    summaryPlain: 美股的个股限价机制：价格短时间冲出上下限带子，就暂停交易 5 分钟冷静。
+    riskNote: 和全市场的熔断不同，它管的是单只股票；暂停不等于不能成交。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 美股的个股限价机制：价格短时间冲出上下限带子，就暂停交易 5 分钟冷静。
+        example: 比如财报后个股暴涨冲破带子，交易暂停 5 分钟让价格重新发现。
+        notMeaning: 和全市场的熔断不同，它管的是单只股票；暂停不等于不能成交。
+        isPrimary: true
+        contextKeywords:
+          - 风控机制
+        frequency: mid
+    aliases:
+      - raw: LULD
+        aliasType: primary
+      - raw: 限价机制
+        aliasType: cn_alias
+    viz:
+      type: CircuitBreaker
+      config:
+        title: 个股也有限速带
+    insights:
+      affects:
+        - 个股流动性：暂停期买卖双方重定价
+        - 波动率：财报日常触发
+      good:
+        - 抑制闪崩
+        - 给程序化交易踩刹车
+      bad:
+        - 极端行情里反复触发
+      policy:
+        - 交易所按价格区间动态设定带子
+      example: 高速公路的震荡标线：车开太猛压线就警告（暂停），减速后放行。
+  - slug: na-si-da-ke
+    headword: 纳斯达克
+    categoryL1: 美股
+    categoryL2: 指数
+    difficulty: L1
+    summaryPlain: 以科技股为主的美国股票交易所，也是科技类指数的代名词：美股涨不涨，先看纳指动不动。
+    riskNote: 科技股估值高、波动大，纳指的涨跌都比标普更刺激。
+    frequency: high
+    popularity: 840
+    senses:
+      - senseKey: default
+        plainExplain: 美国纳斯达克交易所及其代表性指数（纳斯达克 100），聚集苹果、微软、英伟达等科技巨头。
+        example: 有人睡前打开行情软件，看这个科技指数涨了两个点，第二天亚洲的科技股也容易跟着高开。
+        notMeaning: 它不是一个单一股票，而是交易所+指数的合称。
+        isPrimary: true
+        contextKeywords:
+          - 科技股
+          - 纳指
+          - 指数
+          - 交易所
+        frequency: high
+    aliases:
+      - raw: 纳斯达克
+        aliasType: primary
+      - raw: 纳指
+        aliasType: cn_alias
+      - raw: Nasdaq
+        aliasType: en_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 纳斯达克 100
+            point: 18300
+            base: 125
+            note: 100 家科技巨头为主，弹性大
+          - name: 标普 500
+            point: 5200
+            base: 10
+            note: 行业更全，相对稳一点
+          - name: 道琼斯 30
+            point: 39000
+            base: 40.9
+            note: 传统蓝筹，最保守
+        title: 纳指 vs 标普：谁更科技、谁更稳
+    insights:
+      affects:
+        - 全球科技股情绪：纳指隔夜表现常映射到 A 股/港股科技板块
+        - 中概股/成长股估值：纳指跌，高估值成长股一起跌
+        - 美元与资本流动：强势纳指吸引全球资金买美股科技
+      good:
+        - AI/科技周期上行：纳指涨得比标普猛
+        - 龙头财报超预期：带动整个指数走强
+      bad:
+        - 利率上行杀估值：纳指跌得深、跌得快
+        - 巨头财报暴雷：一两只股票能砸出指数级跌幅
+      policy:
+        - 美联储利率：科技股最怕加息
+        - 反垄断/监管：巨头挨罚或拆分传闻压制指数
+        - 出口管制：限制芯片流向影响成分公司收入
+      example: 纳指像尖子班（科技课代表扎堆），平均分波动大：一次奥数获奖全班涨一片，一次统考滑铁卢全班跟着惨；标普是普通班加尖子班的混合平均，温和一些。
+  - slug: pan-qian-pan-hou
+    headword: 盘前盘后
+    categoryL1: 美股
+    categoryL2: 交易时段
+    difficulty: L2
+    summaryPlain: 美股正式交易时间（9:30–16:00）之外的延长交易：凌晨到开盘前、收盘后到晚上。
+    riskNote: 盘前盘后人少价差大，容易滑点；这个时段的价格不一定能成交。
+    frequency: high
+    popularity: 800
+    senses:
+      - senseKey: default
+        plainExplain: 正常交易时段之外的电子交易时段：盘前 4:00–9:30、盘后 16:00–20:00。
+        example: 苹果公司收盘后发财报，股价在盘后暴涨 8%，第二天 A 股果链概念也跟着躁动——这就是盘后的锅。
+        notMeaning: 盘前盘后的涨跌不是正式收盘价，只代表少量成交。
+        isPrimary: true
+        contextKeywords:
+          - 延长交易
+          - 财报后
+          - 深夜
+          - 北京时间
+        frequency: high
+    aliases:
+      - raw: 盘前盘后
+        aliasType: primary
+      - raw: 盘前交易
+        aliasType: cn_alias
+      - raw: 盘后交易
+        aliasType: cn_alias
+    viz:
+      type: PrePostMarket
+      config: {}
+    insights:
+      affects:
+        - A 股/港股：美股盘后大涨大跌常决定次日亚洲情绪
+        - 个股：财报、突发新闻常在盘后引爆
+        - 投资者作息：中国投资者看美股要靠熬夜
+      good:
+        - 盘后发财报时段：抢跑或避险的窗口
+        - 盘前延续美股夜盘期货方向，开盘更顺
+      bad:
+        - 流动稀薄：一个市价单就能把股价打几个点
+        - 挂单成交价离谱，或根本不成交
+      policy:
+        - 夏令/冬令时：北京时间 21:30 或 22:30 开盘
+        - 盘前盘后只接受限价单（多数券商）
+        - 财报披露窗口集中在盘前/盘后
+      example: 夜市（盘前盘后）也能逛，但摊位少、老板随意开价：你问「这件多少钱」，他报 100，下一步还价 80 也未必卖。白天大商场才是明码实价的成交主场。
+  - slug: pdt
+    headword: PDT
+    categoryL1: 美股
+    categoryL2: 监管规则
+    difficulty: L3
+    summaryPlain: 美国日内交易者规则：保证金账户 5 个交易日内做 4 次以上日内交易，账户至少要保持 2.5 万美元。
+    riskNote: 达不到门槛就做日内会被限制；规则细节以券商和监管最新为准。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 美国日内交易者规则：保证金账户 5 个交易日内做 4 次以上日内交易，账户至少要保持 2.5 万美元。
+        example: 比如小资金账户频繁做 T+0 美股，很快触发限制只能做长线。
+        notMeaning: 达不到门槛就做日内会被限制；规则细节以券商和监管最新为准。
+        isPrimary: true
+        contextKeywords:
+          - 监管规则
+        frequency: mid
+    aliases:
+      - raw: PDT
+        aliasType: primary
+      - raw: 日内交易规则
+        aliasType: cn_alias
+    viz:
+      type: PrePostMarket
+      config:
+        title: 美股日内：有门槛的游戏
+    insights:
+      affects:
+        - 散户策略：小资金被迫做波段
+        - 券商：合规监控的重点
+      good:
+        - 门槛保护：减少小散乱日内
+      bad:
+        - 资金小又想做 T：被制度劝退
+      policy:
+        - SEC/FINRA 规则+券商加码执行
+      example: 游乐场规定：身高不满 1 米 4 不能玩过山车。不是歧视，是保护你不被甩出去。
+  - slug: qi-quan
+    headword: 期权
+    categoryL1: 美股
+    categoryL2: 衍生品
+    difficulty: L3
+    summaryPlain: 花一笔小钱买下「将来按约定价格买卖」的权利：赌对了赚很多，赌错了最多亏掉这笔小钱。
+    riskNote: 卖方风险近乎无限；买方虽限亏但容易全亏，杠杆+时间损耗双吃。
+    frequency: mid
+    popularity: 640
+    senses:
+      - senseKey: default
+        plainExplain: 约定在未来某天以特定价格买入/卖出标的资产的合约，分看涨期权和看跌期权。
+        example: 有人花 2 元权利金买了「三个月后有权按 10 元买这只股票」的合约，股价涨到 15 元，合约价值翻几倍。
+        notMeaning: 期权不是股票本身，也不是保证金交易，权利金是可能归零的。
+        isPrimary: true
+        contextKeywords:
+          - 权利金
+          - 行权价
+          - 看涨
+          - 到期
+        frequency: mid
+    aliases:
+      - raw: 期权
+        aliasType: primary
+      - raw: option
+        aliasType: en_alias
+      - raw: 选择权
+        aliasType: cn_alias
+    viz:
+      type: OptionsLadder
+      config:
+        premium: 2
+    insights:
+      affects:
+        - 股票波动：到期日「最大痛点」附近多空博弈激烈
+        - 对冲者：拿期权给持仓上保险
+        - 投机者：小钱撬大波动，爆仓故事也多
+      good:
+        - 买方限亏、理论收益无限：适合博方向
+        - 对冲组合下跌：买看跌期权像买保险
+      bad:
+        - 赌错方向+时间流逝：价值归零
+        - 卖期权收租：平时赚小钱，一次黑天鹅赔光
+      policy:
+        - 到期结算规则：美式/欧式行权差异
+        - 保证金与适当性：卖期权门槛更高
+        - 收益税制与申报：期权收益税务复杂
+      example: 花 500 元定金锁一套三个月后 300 万的房子：涨到 350 万你按 300 万买（大赚），跌了你最多亏 500 元定金不买了。卖你定金的房东如果反悔不卖，差价得自己扛——卖方就是这么危险。
+  - slug: rong-duan
+    headword: 熔断
+    categoryL1: 美股
+    categoryL2: 风控机制
+    difficulty: L1
+    summaryPlain: 大盘跌得太猛时，交易所会按下暂停键停止交易 15 分钟，像电路的保险丝烧断。
+    riskNote: 熔断只是暂停不是停市救市；复牌后该跌的还会跌。
+    frequency: high
+    popularity: 780
+    senses:
+      - senseKey: default
+        plainExplain: 市场指数下跌达到规定阈值时，交易所临时暂停整个市场交易的机制。
+        example: 2020 年疫情爆发初期，美股一周多次触发保险丝机制，媒体连续头条：开盘即跌 7%，全市场暂停 15 分钟。
+        notMeaning: 它不是跌停板（针对个股），也救不了跌，只是让市场喘口气。
+        isPrimary: true
+        contextKeywords:
+          - 暂停交易
+          - 保险丝
+          - 阈值
+          - 暴跌
+        frequency: high
+    aliases:
+      - raw: 熔断
+        aliasType: primary
+      - raw: 熔断机制
+        aliasType: cn_alias
+      - raw: Circuit Breaker
+        aliasType: en_alias
+    viz:
+      type: CircuitBreaker
+      config: {}
+    insights:
+      affects:
+        - 大盘：暂停期间买卖双方冷静、信息被消化
+        - 基金：赎回和调仓被迫中断，按波动定价
+        - 全球市场：夜间美股熔断，次日亚欧股市常常低开
+      good:
+        - 恐慌蔓延时踩一脚刹车，防止踩踏
+        - 给官方和机构争取表态时间
+      bad:
+        - 熔断密集出现：说明市场处于极端恐慌
+        - 复牌后继续跌：熔断救不了趋势
+      policy:
+        - 触发阈值：标普 500 跌 7% / 13% / 20% 三档
+        - 恢复交易规则：15:25 后达 7% 不再暂停
+        - 股指期货涨跌停板：和现货熔断联动
+      example: 夏天全楼一起开空调跳闸，电工先拉闸 15 分钟让大家关掉几个电器——熔断就是市场的「拉闸冷静」。电闸合上，电器还是一样多，跳不跳取决于负荷，不在闸刀本身。
+  - slug: wash-sale
+    headword: 洗售规则
+    categoryL1: 美股
+    categoryL2: 税务规则
+    difficulty: L3
+    summaryPlain: 美股税务规则：亏本卖出后 30 天内买回同一只股票，这笔亏损不能抵税。
+    riskNote: 是税务规则不是交易禁令，但会影响亏损 harvest 的时点安排。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 美股税务规则：亏本卖出后 30 天内买回同一只股票，这笔亏损不能抵税。
+        example: 比如为了抵税卖掉亏损股，第二天又买回来，亏损被递延。
+        notMeaning: 是税务规则不是交易禁令，但会影响亏损 harvest 的时点安排。
+        isPrimary: true
+        contextKeywords:
+          - 税务规则
+        frequency: mid
+    aliases:
+      - raw: 洗售规则
+        aliasType: primary
+      - raw: Wash Sale
+        aliasType: en_alias
+      - raw: 税损收割
+        aliasType: cn_alias
+    viz:
+      type: PrePostMarket
+      config:
+        title: 30 天的税务冷静期
+    insights:
+      affects:
+        - 报税：亏损抵扣的时点设计
+        - 策略：税损收割要卡 31 天
+      good:
+        - 年末税损收割的标准操作
+      bad:
+        - 误操作：亏损递延甚至失效
+      policy:
+        - IRS 税法规定
+      example: 超市「7 天无理由退货」的漏洞被封：退完马上再买同一件，优惠不算数。
+  - slug: zhi-jie-shang-shi
+    headword: 直接上市
+    categoryL1: 美股
+    categoryL2: 上市方式
+    difficulty: L3
+    summaryPlain: 不发行新股、老股东股份直接挂牌交易：不融资的上市。
+    riskNote: 没有锁定期和基石，上市即抛压，适合不差钱的公司。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 不发行新股、老股东股份直接挂牌交易：不融资的上市。
+        example: 比如某科技公司不增发直接挂牌，首日波动巨大。
+        notMeaning: 没有锁定期和基石，上市即抛压，适合不差钱的公司。
+        isPrimary: true
+        contextKeywords:
+          - 上市方式
+        frequency: mid
+    aliases:
+      - raw: 直接上市
+        aliasType: primary
+      - raw: Direct Listing
+        aliasType: en_alias
+      - raw: DPO
+        aliasType: en_alias
+    viz:
+      type: IpoLottery
+      config:
+        issuePrice: 0
+        rate: 1
+    insights:
+      affects:
+        - 融资需求：不差钱公司的选择
+        - 流动性：老股份直接流通
+      good:
+        - 无新股稀释：股东不变
+      bad:
+        - 无锁定期：首日抛压大
+      policy:
+        - 交易所对直接上市的规则
+      example: 不IPO 直接进二级市场：不增发，老股东的股票明天就能卖——供给瞬间释放。
+  - slug: zhong-gai-gu
+    headword: 中概股
+    categoryL1: 美股
+    categoryL2: 上市结构
+    difficulty: L2
+    summaryPlain: 中国公司跑到美国上市的那批股票，通常以 ADR 形式出现，赚的是中国的钱、受的是两边的规则。
+    riskNote: 政策、审计、汇率三重不确定性叠加，波动远大于同题材本地股。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 在美国上市的中国公司股票（多为 ADR），业务主要在中国。
+        example: 几家电商巨头大多既在美国交易，也在香港二次上市，很多人熬夜盯的就是这批中国概念股。
+        notMeaning: 中概股只是「中国生意+外国上市」，不代表公司搬到国外。
+        isPrimary: true
+        contextKeywords:
+          - 美股
+          - 中国公司
+          - VIE
+          - 二次上市
+        frequency: high
+    aliases:
+      - raw: 中概股
+        aliasType: primary
+      - raw: 中国概念股
+        aliasType: cn_alias
+      - raw: China ADR
+        aliasType: cn_alias
+    viz:
+      type: AdrBridge
+      config:
+        theme: cnconcept
+        ratio: 8
+        title: 中概股：两头受气也两头受益
+    insights:
+      affects:
+        - 港股/A 股：中概股表现常回传亚洲时段情绪
+        - 美元基金：持仓中概等于间接押注中国互联网/消费
+        - 公司自身：融资能力、创始团队身家跟着股价走
+      good:
+        - 行业景气+美元流动性宽松：弹性巨大
+        - 回购/回港上市：市值管理和退路都在增强
+      bad:
+        - 预摘牌/审计风波：整批中概一起杀估值
+        - 行业监管（教培/平台反垄断/数据安全）：黑天鹅高发
+      policy:
+        - PCAOB 检查进展决定能否继续在美股上市
+        - 中国备案制（境外上市）：去美国上市也要先备案
+        - 港交所放宽二次上市：中概回港更便利
+      example: 中概股像在外国读书的中国留学生：用美元交学费（美股定价规则）、作业写中国的题（生意在中国）、两边政策都影响他回家路——一边感冒都得两头请假。

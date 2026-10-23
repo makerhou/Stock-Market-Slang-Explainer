@@ -1,0 +1,746 @@
+source: gen from full.tsv keyword=乖离|BIAS|CCI|WR|威廉|OBV|VOL|量比|轨道|中轨|超买|超卖|排列|粘合细节|量价|顶背离|底背离|金叉|死叉|多头|空头|趋势线|通道|斐波那契|江恩|波浪|道氏|形态 (待精修)
+terms:
+  - slug: c-c-i-w-r-r-o-c-m-t-m
+    headword: CCI/WR/ROC/MTM
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 一组衡量超买超卖与价格动量的摆动类技术指标，配合趋势指标使用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 一组衡量超买超卖与价格动量的摆动类技术指标，配合趋势指标使用。
+        example: CCI/WR/ROC/MTM同时进入超卖，反弹一触即发。
+        isPrimary: true
+    aliases:
+      - raw: CCI/WR/ROC/MTM
+        aliasType: primary
+      - raw: CCI
+        aliasType: en_alias
+      - raw: WR
+        aliasType: en_alias
+      - raw: ROC
+        aliasType: en_alias
+      - raw: MTM
+        aliasType: en_alias
+      - raw: 顺势指标
+        aliasType: cn_alias
+      - raw: 威廉指标
+        aliasType: cn_alias
+      - raw: 变动率
+        aliasType: cn_alias
+      - raw: 动量
+        aliasType: cn_alias
+  - slug: bei-bing-xing-tai
+    headword: 杯柄形态
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 形似杯身加短柄的整理后突破上涨形态，是美股技术派常用的买势模型。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 形似杯身加短柄的整理后突破上涨形态，是美股技术派常用的买势模型。
+        example: 杯柄形态突破时放量，常被视作趋势启动点。
+        isPrimary: true
+    aliases:
+      - raw: 杯柄形态
+        aliasType: primary
+      - raw: 杯柄
+        aliasType: cn_alias
+      - raw: Cup and Handle
+        aliasType: en_alias
+  - slug: dao-shi-li-lun
+    headword: 道氏理论
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 通过趋势高低点和量价配合判断牛熊转折的经典技术分析理论。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 通过趋势高低点和量价配合判断牛熊转折的经典技术分析理论。
+        example: 按道氏理论，高点抬高、低点也抬高才是上升趋势。
+        isPrimary: true
+    aliases:
+      - raw: 道氏理论
+        aliasType: primary
+      - raw: Dow Theory
+        aliasType: en_alias
+  - slug: ai-l-e-te-bo-lang-li-lun
+    headword: 艾略特波浪理论
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 把价格走势划分为五浪推动加三浪调整的循环结构来预测行情。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 把价格走势划分为五浪推动加三浪调整的循环结构来预测行情。
+        example: 艾略特波浪理论数浪主观性强，不同人常常数出不同结果。
+        isPrimary: true
+    aliases:
+      - raw: 艾略特波浪理论
+        aliasType: primary
+      - raw: 波浪理论
+        aliasType: cn_alias
+      - raw: Elliott Wave
+        aliasType: en_alias
+  - slug: he-cheng-duo-tou
+    headword: 合成多头
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 买入call同时卖出同权价同到期put，经济上等同于持有正股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 买入call同时卖出同权价同到期put，经济上等同于持有正股。
+        example: 合成多头占用保证金比直接买股票少。
+        isPrimary: true
+    aliases:
+      - raw: 合成多头
+        aliasType: primary
+      - raw: Synthetic Long Stock
+        aliasType: en_alias
+  - slug: di-bei-li
+    headword: 底背离
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 股价创新低但动量类指标未创新低，预示下跌动能衰竭。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 股价创新低但动量类指标未创新低，预示下跌动能衰竭。
+        example: 股价新低但MACD没新低，底背离预示反弹。
+        isPrimary: true
+    aliases:
+      - raw: 底背离
+        aliasType: primary
+      - raw: Bullish Divergence
+        aliasType: en_alias
+  - slug: v-r-rong-liang-bi-l
+    headword: VR容量比率
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 一定周期内上涨日成交量总和与下跌日成交量总和之比，反映多空量能。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 一定周期内上涨日成交量总和与下跌日成交量总和之比，反映多空量能。
+        example: VR超过350%说明短期过热。
+        isPrimary: true
+    aliases:
+      - raw: VR容量比率
+        aliasType: primary
+      - raw: Volume Ratio
+        aliasType: en_alias
+      - raw: VR
+        aliasType: en_alias
+  - slug: w-v-a-d-wei-lian-bian-yi-li-san
+    headword: WVAD威廉变异离散
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 将当日收盘在当日振幅中位置乘以成交量累计的量价指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 将当日收盘在当日振幅中位置乘以成交量累计的量价指标。
+        example: WVAD由负转正视为买入信号。
+        isPrimary: true
+    aliases:
+      - raw: WVAD威廉变异离散
+        aliasType: primary
+      - raw: Williams Variable Accumulation Distribution
+        aliasType: en_alias
+      - raw: WVAD
+        aliasType: en_alias
+  - slug: v-p-t-liang-jia-qu-shi
+    headword: VPT量价趋势
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 按涨跌比例对成交量累计的量价趋势指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按涨跌比例对成交量累计的量价趋势指标。
+        example: VPT创新高确认上涨趋势。
+        isPrimary: true
+    aliases:
+      - raw: VPT量价趋势
+        aliasType: primary
+      - raw: Volume Price Trend
+        aliasType: en_alias
+      - raw: VPT
+        aliasType: en_alias
+  - slug: chi-xu-xing-tai
+    headword: 持续形态
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 整理后大概率沿原趋势方向继续的形态，如旗形、三角形、矩形。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 整理后大概率沿原趋势方向继续的形态，如旗形、三角形、矩形。
+        example: 旗形是最经典的持续形态。
+        isPrimary: true
+    aliases:
+      - raw: 持续形态
+        aliasType: primary
+      - raw: Continuation Pattern
+        aliasType: en_alias
+  - slug: fan-zhuan-xing-tai
+    headword: 反转形态
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 预示原趋势即将反转的形态，如头肩顶底、双底双顶、圆弧。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 预示原趋势即将反转的形态，如头肩顶底、双底双顶、圆弧。
+        example: 头肩顶是最经典的反转形态。
+        isPrimary: true
+    aliases:
+      - raw: 反转形态
+        aliasType: primary
+      - raw: Reversal Pattern
+        aliasType: en_alias
+  - slug: zheng-li-xing-tai
+    headword: 整理形态
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 股价在一段时间内横盘震荡、消化获利盘或套牢盘的形态总称。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价在一段时间内横盘震荡、消化获利盘或套牢盘的形态总称。
+        example: 三角形整理后方向选择最关键。
+        isPrimary: true
+    aliases:
+      - raw: 整理形态
+        aliasType: primary
+      - raw: Consolidation Pattern
+        aliasType: en_alias
+  - slug: xing-tai-que-ren
+    headword: 形态确认
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 形态完成并伴随成交量放大突破关键位后，形态才被确认有效。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 形态完成并伴随成交量放大突破关键位后，形态才被确认有效。
+        example: 没有放量的突破不算形态确认。
+        isPrimary: true
+    aliases:
+      - raw: 形态确认
+        aliasType: primary
+      - raw: Pattern Confirmation
+        aliasType: en_alias
+  - slug: xing-tai-shi-bai
+    headword: 形态失败
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 形态看似形成但未按预期方向发展、重新走回形态内的情况。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 形态看似形成但未按预期方向发展、重新走回形态内的情况。
+        example: 假突破后形态失败，需立即止损。
+        isPrimary: true
+    aliases:
+      - raw: 形态失败
+        aliasType: primary
+      - raw: Pattern Failure
+        aliasType: en_alias
+  - slug: zuan-shi-xing-tai
+    headword: 钻石形态
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 菱形顶部的另一种说法，由发散与收敛两段组成。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 菱形顶部的另一种说法，由发散与收敛两段组成。
+        example: 钻石形态一旦形成顶部跌幅大。
+        isPrimary: true
+    aliases:
+      - raw: 钻石形态
+        aliasType: primary
+      - raw: Diamond Top
+        aliasType: en_alias
+  - slug: liang-jia-pei-he
+    headword: 量价配合
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 股价上涨伴随成交量放大、下跌伴随成交量萎缩的健康量价关系。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 股价上涨伴随成交量放大、下跌伴随成交量萎缩的健康量价关系。
+        example: 价格创新高那天成交量也跟着放大，突破更被认可。
+        isPrimary: true
+    aliases:
+      - raw: 量价配合
+        aliasType: primary
+      - raw: Volume-Price Confirmation
+        aliasType: en_alias
+  - slug: qu-shi-xian
+    headword: 趋势线
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 连接两个或两个以上显著低点或高点形成的直线，用于判断趋势方向。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 连接两个或两个以上显著低点或高点形成的直线，用于判断趋势方向。
+        example: 上升趋势线被跌破是趋势走弱信号。
+        isPrimary: true
+    aliases:
+      - raw: 趋势线
+        aliasType: primary
+      - raw: Trendline
+        aliasType: en_alias
+  - slug: shang-sheng-qu-shi-xian
+    headword: 上升趋势线
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 连接依次抬高的两个或多个显著低点形成的向上直线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 连接依次抬高的两个或多个显著低点形成的向上直线。
+        example: 每次跌到趋势线附近就止跌回升，趋势还算完好。
+        isPrimary: true
+    aliases:
+      - raw: 上升趋势线
+        aliasType: primary
+      - raw: Uptrend Line
+        aliasType: en_alias
+  - slug: xia-jiang-qu-shi-xian
+    headword: 下降趋势线
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 连接依次降低的两个或多个显著高点形成的向下直线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 连接依次降低的两个或多个显著高点形成的向下直线。
+        example: 价格终于突破那条向下倾斜的线，跌势可能要到头了。
+        isPrimary: true
+    aliases:
+      - raw: 下降趋势线
+        aliasType: primary
+      - raw: Downtrend Line
+        aliasType: en_alias
+  - slug: gui-dao-xian
+    headword: 轨道线
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 与趋势线平行、通过对面显著高点或低点画出的平行线，构成价格通道。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 与趋势线平行、通过对面显著高点或低点画出的平行线，构成价格通道。
+        example: 涨到通道上轨附近，常会遇到阻力。
+        isPrimary: true
+    aliases:
+      - raw: 轨道线
+        aliasType: primary
+      - raw: Channel Line
+        aliasType: en_alias
+  - slug: tong-dao
+    headword: 通道
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 由两条平行趋势线围成的价格运行通道。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 由两条平行趋势线围成的价格运行通道。
+        example: 用两条平行线夹住价格，中间来回摆动的区域就是它。
+        isPrimary: true
+    aliases:
+      - raw: 通道
+        aliasType: primary
+      - raw: Price Channel
+        aliasType: en_alias
+  - slug: ping-xing-tong-dao
+    headword: 平行通道
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 上下两条趋势线严格平行的价格通道。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上下两条趋势线严格平行的价格通道。
+        example: 平行通道内可以高抛低吸。
+        isPrimary: true
+    aliases:
+      - raw: 平行通道
+        aliasType: primary
+      - raw: Parallel Channel
+        aliasType: en_alias
+  - slug: jiang-en-li-lun
+    headword: 江恩理论
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: William Gann提出的结合价格、时间与角度预测市场拐点的技术分析体系。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: William Gann提出的结合价格、时间与角度预测市场拐点的技术分析体系。
+        example: 江恩理论强调时间与价格的平方关系。
+        isPrimary: true
+    aliases:
+      - raw: 江恩理论
+        aliasType: primary
+      - raw: Gann Theory
+        aliasType: en_alias
+  - slug: jiang-en-jiao-du-xian
+    headword: 江恩角度线
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 江恩理论中以价格与时间按特定比例绘制的角度线，1×1线最受重视。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 江恩理论中以价格与时间按特定比例绘制的角度线，1×1线最受重视。
+        example: 股价跌破1×1江恩角度线转弱。
+        isPrimary: true
+    aliases:
+      - raw: 江恩角度线
+        aliasType: primary
+      - raw: Gann Angle Line
+        aliasType: en_alias
+  - slug: fei-bo-na-qi-kuo-zhan
+    headword: 斐波那契扩展
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 在趋势中从摆动点出发按0.618、1.0、1.618等比例向外延伸测算目标位的方法。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 在趋势中从摆动点出发按0.618、1.0、1.618等比例向外延伸测算目标位的方法。
+        example: 按斐波那契扩展位看到2.618目标。
+        isPrimary: true
+    aliases:
+      - raw: 斐波那契扩展
+        aliasType: primary
+      - raw: Fibonacci Extension
+        aliasType: en_alias
+  - slug: ai-l-e-te-bo-lang
+    headword: 艾略特波浪
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: Ralph Elliott提出的市场按五浪推动三浪调整循环运行的理论。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: Ralph Elliott提出的市场按五浪推动三浪调整循环运行的理论。
+        example: 按波浪理论数，大盘正处在五浪推动的第三浪。
+        isPrimary: true
+    aliases:
+      - raw: 艾略特波浪
+        aliasType: primary
+      - raw: Elliott Wave Principle
+        aliasType: en_alias
+  - slug: bo-lang-xing-tai
+    headword: 波浪形态
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 艾略特波浪中推动浪与调整浪的各种子形态分类。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 艾略特波浪中推动浪与调整浪的各种子形态分类。
+        example: 波浪形态包括之字、平台、三角形等。
+        isPrimary: true
+    aliases:
+      - raw: 波浪形态
+        aliasType: primary
+      - raw: Wave Pattern
+        aliasType: en_alias
+  - slug: qu-shi-xian-tu-po
+    headword: 趋势线突破
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 股价向下跌破上升趋势线或向上突破下降趋势线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价向下跌破上升趋势线或向上突破下降趋势线。
+        example: 放量跌破上升趋势线是卖出信号。
+        isPrimary: true
+    aliases:
+      - raw: 趋势线突破
+        aliasType: primary
+      - raw: Trendline Break
+        aliasType: en_alias
+  - slug: qu-shi-xian-hui-cai
+    headword: 趋势线回踩
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 突破趋势线后股价短暂回到趋势线附近确认支撑或阻力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 突破趋势线后股价短暂回到趋势线附近确认支撑或阻力。
+        example: 突破下降趋势线后回踩不破是买点。
+        isPrimary: true
+    aliases:
+      - raw: 趋势线回踩
+        aliasType: primary
+      - raw: Trendline Pullback
+        aliasType: en_alias
+  - slug: tong-dao-shang-gui
+    headword: 通道上轨
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 上升或水平通道的上边线，通常构成短期压力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上升或水平通道的上边线，通常构成短期压力。
+        example: 股价触及通道上轨容易高抛。
+        isPrimary: true
+    aliases:
+      - raw: 通道上轨
+        aliasType: primary
+      - raw: Channel Upper Bound
+        aliasType: en_alias
+  - slug: tong-dao-xia-gui
+    headword: 通道下轨
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 上升或水平通道的下边线，通常构成短期支撑。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 上升或水平通道的下边线，通常构成短期支撑。
+        example: 股价回踩通道下轨是低吸点。
+        isPrimary: true
+    aliases:
+      - raw: 通道下轨
+        aliasType: primary
+      - raw: Channel Lower Bound
+        aliasType: en_alias
+  - slug: tong-dao-tu-po
+    headword: 通道突破
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 股价向下跌破通道下轨或向上突破通道上轨。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 股价向下跌破通道下轨或向上突破通道上轨。
+        example: 向上突破通道上轨后打开新空间。
+        isPrimary: true
+    aliases:
+      - raw: 通道突破
+        aliasType: primary
+      - raw: Channel Breakout
+        aliasType: en_alias
+  - slug: tong-dao-hui-gui
+    headword: 通道回归
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 股价在通道内触及上下轨后回到中轨的现象。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价在通道内触及上下轨后回到中轨的现象。
+        example: 通道回归是高抛低吸依据。
+        isPrimary: true
+    aliases:
+      - raw: 通道回归
+        aliasType: primary
+      - raw: Channel Reversion
+        aliasType: en_alias
+  - slug: shang-sheng-tong-dao
+    headword: 上升通道
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 两条平行趋势线都向上倾斜的通道，是典型的牛市结构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 两条平行趋势线都向上倾斜的通道，是典型的牛市结构。
+        example: 上升通道内每次回踩下轨都是买点。
+        isPrimary: true
+    aliases:
+      - raw: 上升通道
+        aliasType: primary
+      - raw: Ascending Channel
+        aliasType: en_alias
+  - slug: xia-jiang-tong-dao
+    headword: 下降通道
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 两条平行趋势线都向下倾斜的通道，是典型的熊市结构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 两条平行趋势线都向下倾斜的通道，是典型的熊市结构。
+        example: 下降通道内每次反弹到上轨都是卖点。
+        isPrimary: true
+    aliases:
+      - raw: 下降通道
+        aliasType: primary
+      - raw: Descending Channel
+        aliasType: en_alias
+  - slug: jiang-en-si-fang-xing
+    headword: 江恩四方形
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 江恩理论中按螺旋排列数字、用于预测价格与时间共振位的图表工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 江恩理论中按螺旋排列数字、用于预测价格与时间共振位的图表工具。
+        example: 江恩四方形指向的价位常成为拐点。
+        isPrimary: true
+    aliases:
+      - raw: 江恩四方形
+        aliasType: primary
+      - raw: Gann Square of Nine
+        aliasType: en_alias
+  - slug: jiang-en-lun-zhong-lun
+    headword: 江恩轮中轮
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 江恩理论中圆形时间价格轮盘，用于寻找市场转折点。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 江恩理论中圆形时间价格轮盘，用于寻找市场转折点。
+        example: 江恩轮中轮把时间与价格映射到圆周。
+        isPrimary: true
+    aliases:
+      - raw: 江恩轮中轮
+        aliasType: primary
+      - raw: Gann Wheel
+        aliasType: en_alias
+  - slug: dao-shi-que-ren-ri
+    headword: 道氏确认日
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 道氏理论中两个主要指数同时创出新高或新低、确认趋势反转的日子。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 道氏理论中两个主要指数同时创出新高或新低、确认趋势反转的日子。
+        example: 道琼斯与运输指数同创新高确认牛市。
+        isPrimary: true
+    aliases:
+      - raw: 道氏确认日
+        aliasType: primary
+      - raw: Dow Theory Confirmation Day
+        aliasType: en_alias
+  - slug: fei-bo-na-qi-shi-jian-chuang
+    headword: 斐波那契时间窗
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 从显著高低点出发按斐波那契数列日数推算的时间拐点。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 从显著高低点出发按斐波那契数列日数推算的时间拐点。
+        example: 斐波那契时间窗指向第21个交易日变盘。
+        isPrimary: true
+    aliases:
+      - raw: 斐波那契时间窗
+        aliasType: primary
+      - raw: Fibonacci Time Window
+        aliasType: en_alias
+  - slug: jiang-en-shi-jian-chuang
+    headword: 江恩时间窗
+    categoryL1: 技术指标
+    categoryL2: 摆动指标
+    difficulty: L2
+    summaryPlain: 江恩理论中按历法或周年推算的市场容易变盘的日期。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 江恩理论中按历法或周年推算的市场容易变盘的日期。
+        example: 江恩时间窗提示周年日前后变盘。
+        isPrimary: true
+    aliases:
+      - raw: 江恩时间窗
+        aliasType: primary
+      - raw: Gann Time Window
+        aliasType: en_alias

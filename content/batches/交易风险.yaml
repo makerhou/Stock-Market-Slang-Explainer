@@ -1,0 +1,142 @@
+# 自动生成的批量词条源（可由 ingest 重新编译为 lexicon.json）
+category: 交易风险
+source: bootstrap from lexicon.json (2026-10-22)
+terms:
+  - slug: po-fa
+    headword: 破发
+    categoryL1: 交易风险
+    categoryL2: 发行价风险
+    difficulty: L1
+    summaryPlain: 股票上市后的价格跌破了当初的发行价，就像卖出的商品比标价还便宜。
+    riskNote: 破发说明市场不看好，也可能引发抛售，短期常延续弱势。
+    frequency: high
+    popularity: 720
+    senses:
+      - senseKey: default
+        plainExplain: 上市后交易价格低于发行价的情况：公司定价卖股票，市场却觉得不值这个价。
+        example: 有家公司定价 30 元发行，挂牌当天只剩 25 元，比发行价还便宜，中签的人每股亏了 5 元。
+        notMeaning: 它不是退市，也不是公司破产，只说明市场给的价钱低于发行价。
+        isPrimary: true
+        contextKeywords:
+          - 跌破
+          - 发行价
+          - 上市
+          - 首日
+        frequency: high
+    aliases:
+      - raw: 破发
+        aliasType: primary
+      - raw: 跌破发行价
+        aliasType: cn_alias
+    viz:
+      type: BreakIssue
+      config: {}
+    insights:
+      affects:
+        - 打新的人：中了签也可能亏，打新不再稳赚
+        - 公司：融资形象受损，老股东账面缩水
+        - 后续发行：破发多了，市场认购变冷
+      good:
+        - 对没中签的人：可以更低价买到想买的股票
+        - 对市场：给过热发行定价降温，挤水分
+      bad:
+        - 中签的人亏钱，弃购还可能进黑名单
+        - 破发成片出现：说明行情低迷、信心不足
+      policy:
+        - 新股发行定价市场化程度：定价越高越容易破发
+        - 减持/限售规则：解禁节奏影响破发后的抛压
+        - 监管引导券商定价：约束离谱高价发行
+      example: 商店进货价（发行价）30 元一件衣服，挂牌卖 30 元没人要，只好降到 25 元——低于进价卖就是「破发」。对没买到的人是捡漏，对按 30 元拿到货的人就是亏。
+  - slug: st-gu
+    headword: ST股
+    categoryL1: 交易风险
+    categoryL2: 风险警示
+    difficulty: L2
+    summaryPlain: 被交易所贴上「特别处理」标签的问题公司股票，名字前面多了 ST，相当于黄牌警告。
+    riskNote: 连续亏损/存在重大风险，可能进一步 *ST 直至退市；涨跌幅仅 ±5%，风险很高。
+    frequency: high
+    popularity: 800
+    senses:
+      - senseKey: default
+        plainExplain: 财务状况或经营出现异常、被交易所特别处理的股票，日涨跌幅限制通常为 5%。
+        example: 某公司连亏两年被戴帽，股票改名带 ST，涨跌幅也缩到 5%，就是在提醒投资的人这家公司病了。
+        notMeaning: 戴帽不等于马上退市，但它是通往 *ST 和退市路上的黄牌。
+        isPrimary: true
+        contextKeywords:
+          - 黄牌
+          - 风险警示
+          - 连亏
+          - 涨跌幅
+        frequency: high
+    aliases:
+      - raw: ST股
+        aliasType: primary
+      - raw: 特别处理股票
+        aliasType: cn_alias
+      - raw: ST
+        aliasType: cn_alias
+    viz:
+      type: RiskLadder
+      config:
+        initialStep: 1
+    insights:
+      affects:
+        - 公司：借款、接单、信誉都受影响
+        - 股民：±5% 涨跌幅，流动性变差，想跑跑不快
+        - 券商/机构：很多产品直接禁投 ST，卖压集中
+      good:
+        - 黄牌是预警：早看到的人可以早点离开
+        - 少数公司整改成功摘帽：股价阶段性修复
+      bad:
+        - 继续恶化 → *ST → 退市老三板，可能血本无归
+        - 戴帽期间利空共振，连续跌停难以卖出
+      policy:
+        - 交易所退市新规：触发条件更明确、更严格
+        - 注册制下壳价值下降：炒 ST 重组套路越来越不灵
+        - 市场监管打击炒 ST：异常交易账户被监控
+      example: 学校给经常迟到、作业欠交的同学挂「重点关注」牌子：还能上学，但活动受限、大家都在看他表现。改好了摘牌子（摘帽），继续糟就被劝退（退市）。ST 就是股市里的重点关注牌子。
+  - slug: ting-pai
+    headword: 停牌
+    categoryL1: 交易风险
+    categoryL2: 交易中断
+    difficulty: L1
+    summaryPlain: 股票被暂停买卖、按下暂停键：有大事要发生时让市场先冷静，等消息落地再恢复交易。
+    riskNote: 停牌期间钱动不了；复牌往往补涨补跌，停牌前买入的风险被放大。
+    frequency: mid
+    popularity: 660
+    senses:
+      - senseKey: default
+        plainExplain: 交易所或公司主动暂停股票交易，投资者在停牌期间既不能买也不能卖。
+        example: 某公司要宣布重大资产重组，怕消息走漏乱炒，交易所让它暂停交易一个多月，方案公布后才恢复买卖。
+        notMeaning: 停牌不等于退市，多数公司复牌后继续交易。
+        isPrimary: true
+        contextKeywords:
+          - 暂停交易
+          - 复牌
+          - 重组
+          - 冷静
+        frequency: mid
+    aliases:
+      - raw: 停牌
+        aliasType: primary
+      - raw: 暂停交易
+        aliasType: cn_alias
+    viz:
+      type: HaltClock
+      config: {}
+    insights:
+      affects:
+        - 股民：资金被冻结，想买买不了想卖卖不掉
+        - 股价：复牌一次性释放停牌期间积累的涨跌预期
+        - 公司：以此争取时间处理重大事项
+      good:
+        - 重大事项保密期：防止内幕消息乱炒
+        - 暴涨暴跌时临时停牌：给情绪降温
+      bad:
+        - 重组失败复牌：连续跌停，想跑跑不掉
+        - 长期停牌：资金效率归零，错失其他机会
+      policy:
+        - 交易所停复牌规则：重大事项最长停多久有规定
+        - 信息披露：复牌必须同步说明停牌事由
+        - 异常波动停牌：涨太快也会被临时关小黑屋
+      example: 考试时发现有人作弊，老师先喊「所有人停笔」宣布考场规则，这就是停牌。处理完喊「继续答题」是复牌。你正在做的题被中断了半小时，收卷时心跳加速——复牌后市场也这样把情绪一次补回来。

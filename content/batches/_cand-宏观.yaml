@@ -1,0 +1,998 @@
+source: gen from full.tsv keyword=工业增加值|产能利用率|发电量|房地产投资|基建|制造业投资|社零|信贷|脉冲|流动性|超储|基础货币|财政赤字|转移支付|税收|政府采购|中央银行|贴现|再贷款|定向降准|浮动利率|贷款基准|存款利率|同业|Shibor|IBOR (待精修)
+terms:
+  - slug: gong-ye-zeng-jia-zhi-tong-bi
+    headword: 工业增加值同比
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 规模以上工业企业在报告期内产出的实物量增长速度，是月度生产面的核心数据。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 规模以上工业企业在报告期内产出的实物量增长速度，是月度生产面的核心数据。
+        example: 工业增加值同比超预期回升，工业生产保持韧性。
+        isPrimary: true
+    aliases:
+      - raw: 工业增加值同比
+        aliasType: primary
+      - raw: IP
+        aliasType: en_alias
+      - raw: Industrial Production
+        aliasType: en_alias
+  - slug: jie-gou-xing-zai-dai-kuan
+    headword: 结构性再贷款
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 央行定向投放、用于支持科创、普惠、绿色等领域的优惠再贷款工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 央行定向投放、用于支持科创、普惠、绿色等领域的优惠再贷款工具。
+        example: 结构性再贷款额度扩容，引导资金流向重点扶持行业。
+        isPrimary: true
+    aliases:
+      - raw: 结构性再贷款
+        aliasType: primary
+      - raw: 再贷款
+        aliasType: cn_alias
+      - raw: Structural Relending
+        aliasType: en_alias
+  - slug: s-h-i-b-o-r
+    headword: SHIBOR
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 上海银行间市场拆借人民币的基准利率，期限从隔夜到一年不等，反映银行间资金松紧。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上海银行间市场拆借人民币的基准利率，期限从隔夜到一年不等，反映银行间资金松紧。
+        example: SHIBOR隔夜利率下行，银行间流动性较为充裕。
+        isPrimary: true
+    aliases:
+      - raw: SHIBOR
+        aliasType: primary
+      - raw: 上海银行间同业拆放利率
+        aliasType: cn_alias
+  - slug: liu-dong-xing-fan-yong
+    headword: 流动性返佣
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 交易所向提供挂单流动性的做市商或订单支付的每股票面返佣。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 交易所向提供挂单流动性的做市商或订单支付的每股票面返佣。
+        example: 挂单成交能拿到每股0.002美元返佣。
+        isPrimary: true
+    aliases:
+      - raw: 流动性返佣
+        aliasType: primary
+      - raw: Liquidity Rebate
+        aliasType: en_alias
+  - slug: gu-li-tie-xian-mo-xing
+    headword: 股利贴现模型
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 将未来预期股息折现到当前的绝对估值模型，适用于稳定分红公司。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 将未来预期股息折现到当前的绝对估值模型，适用于稳定分红公司。
+        example: 股利贴现模型DDM常用于银行、公用事业股。
+        isPrimary: true
+    aliases:
+      - raw: 股利贴现模型
+        aliasType: primary
+      - raw: DDM
+        aliasType: en_alias
+      - raw: Dividend Discount Model
+        aliasType: en_alias
+  - slug: liu-dong-xing-zhe-kou
+    headword: 流动性折扣
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 因资产缺乏变现能力而在估值上给予的折价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 因资产缺乏变现能力而在估值上给予的折价。
+        example: 非上市股权通常要打流动性折扣。
+        isPrimary: true
+    aliases:
+      - raw: 流动性折扣
+        aliasType: primary
+      - raw: Illiquidity Discount
+        aliasType: en_alias
+  - slug: mai-chong-fang-liang
+    headword: 脉冲放量
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 成交量突然单日放大后又迅速缩回，像脉冲一样。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 成交量突然单日放大后又迅速缩回，像脉冲一样。
+        example: 脉冲放量往往是消息刺激，难持续。
+        isPrimary: true
+    aliases:
+      - raw: 脉冲放量
+        aliasType: primary
+      - raw: Spike Volume Burst
+        aliasType: en_alias
+  - slug: tie-xian-guo-zhai
+    headword: 贴现国债
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 以低于面值贴现发行、到期按面值兑付的短期国债。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以低于面值贴现发行、到期按面值兑付的短期国债。
+        example: 贴现国债收益来自折价。
+        isPrimary: true
+    aliases:
+      - raw: 贴现国债
+        aliasType: primary
+      - raw: Discount Treasury Bond
+        aliasType: en_alias
+  - slug: fu-dong-li-l-zhai-quan
+    headword: 浮动利率债券
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 票面利率随市场基准定期重设的债券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 票面利率随市场基准定期重设的债券。
+        example: 浮动利率债券在加息期受捧。
+        isPrimary: true
+    aliases:
+      - raw: 浮动利率债券
+        aliasType: primary
+      - raw: Floating Rate Bond
+        aliasType: en_alias
+  - slug: ji-jian-zhu-ti-ji-jin
+    headword: 基建主题基金
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 投资基建产业链的主题基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资基建产业链的主题基金。
+        example: 基建主题基金受政策驱动。
+        isPrimary: true
+    aliases:
+      - raw: 基建主题基金
+        aliasType: primary
+      - raw: Infrastructure Fund
+        aliasType: en_alias
+  - slug: piao-ju-tie-xian
+    headword: 票据贴现
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 持票人在到期前贴息向银行兑取现款。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 持票人在到期前贴息向银行兑取现款。
+        example: 手里有三个月后到期的票据，急着用钱可以先贴现。
+        isPrimary: true
+    aliases:
+      - raw: 票据贴现
+        aliasType: primary
+      - raw: Bill Discount
+        aliasType: en_alias
+  - slug: piao-ju-zhuan-tie-xian
+    headword: 票据转贴现
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 银行之间转让已贴现票据的行为。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 银行之间转让已贴现票据的行为。
+        example: 票据转贴现调剂银行流动性。
+        isPrimary: true
+    aliases:
+      - raw: 票据转贴现
+        aliasType: primary
+      - raw: Inter-bank Bill Discount
+        aliasType: en_alias
+  - slug: tong-ye-cun-dan-zhi-shu-ji-jin
+    headword: 同业存单指数基金
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 跟踪同业存单指数的低波动基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪同业存单指数的低波动基金。
+        example: 闲钱打理的新选择，风险收益介于货币基金与短债基金之间。
+        isPrimary: true
+    aliases:
+      - raw: 同业存单指数基金
+        aliasType: primary
+      - raw: NCD Index Fund
+        aliasType: en_alias
+  - slug: xin-dai-a-b-s
+    headword: 信贷ABS
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 银行在银行间发行的信贷资产支持证券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 银行在银行间发行的信贷资产支持证券。
+        example: 信贷ABS以贷款为基础资产。
+        isPrimary: true
+    aliases:
+      - raw: 信贷ABS
+        aliasType: primary
+      - raw: Credit ABS
+        aliasType: en_alias
+  - slug: tong-ye-chai-jie-li-l
+    headword: 同业拆借利率
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 银行间短期拆借资金的利率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 银行间短期拆借资金的利率。
+        example: 同业拆借利率反映银行流动性。
+        isPrimary: true
+    aliases:
+      - raw: 同业拆借利率
+        aliasType: primary
+      - raw: Interbank Rate
+        aliasType: en_alias
+  - slug: tong-ye-cun-dan-e-t-f
+    headword: 同业存单ETF
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 跟踪同业存单指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪同业存单指数的ETF。
+        example: 同业存单ETF流动性好。
+        isPrimary: true
+    aliases:
+      - raw: 同业存单ETF
+        aliasType: primary
+      - raw: NCD ETF
+        aliasType: en_alias
+  - slug: gong-ye-zeng-jia-zhi
+    headword: 工业增加值
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 规模以上工业企业生产活动成果，衡量工业景气核心指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 规模以上工业企业生产活动成果，衡量工业景气核心指标。
+        example: 工厂生产活动折算的金额增速比上月加快，生产端在回暖。
+        isPrimary: true
+    aliases:
+      - raw: 工业增加值
+        aliasType: primary
+      - raw: Industrial Value Added
+        aliasType: en_alias
+  - slug: ji-jian-tou-zi
+    headword: 基建投资
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 交通、水利、能源等基础设施领域投资，政策逆周期调节工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 交通、水利、能源等基础设施领域投资，政策逆周期调节工具。
+        example: 专项债发行提速，修路架桥的钱到位了。
+        isPrimary: true
+    aliases:
+      - raw: 基建投资
+        aliasType: primary
+      - raw: Infrastructure Investment
+        aliasType: en_alias
+  - slug: zhi-zao-ye-tou-zi
+    headword: 制造业投资
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 制造业领域的资本开支，反映企业信心。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 制造业领域的资本开支，反映企业信心。
+        example: 制造业投资高增，设备更新政策见效。
+        isPrimary: true
+    aliases:
+      - raw: 制造业投资
+        aliasType: primary
+      - raw: Manufacturing Investment
+        aliasType: en_alias
+  - slug: fang-di-chan-tou-zi
+    headword: 房地产投资
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 房地产开发企业完成的固定资产投资额，是观察地产链冷暖和上下游行业的先行指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 房地产开发企业完成的固定资产投资额，是观察地产链冷暖和上下游行业的先行指标。
+        example: 地产开发投资连续负增长，水泥钢材需求跟着走弱。
+        isPrimary: true
+    aliases:
+      - raw: 房地产投资
+        aliasType: primary
+      - raw: Real Estate Investment
+        aliasType: en_alias
+  - slug: xin-zeng-xin-dai
+    headword: 新增信贷
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 金融机构当期新增贷款，社融核心组成部分。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 金融机构当期新增贷款，社融核心组成部分。
+        example: 这个月新放的贷款里，企业中长期贷款占比在提高。
+        isPrimary: true
+    aliases:
+      - raw: 新增信贷
+        aliasType: primary
+      - raw: New Loans
+        aliasType: en_alias
+  - slug: zai-dai-kuan
+    headword: 再贷款
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 央行向金融机构提供的专项贷款，定向支持特定领域。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行向金融机构提供的专项贷款，定向支持特定领域。
+        example: 科技创新再贷款额度扩大。
+        isPrimary: true
+    aliases:
+      - raw: 再贷款
+        aliasType: primary
+      - raw: Relending
+        aliasType: en_alias
+  - slug: cai-zheng-chi-zi
+    headword: 财政赤字
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 财政支出大于收入的差额，赤字率是其相对规模。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 财政支出大于收入的差额，赤字率是其相对规模。
+        example: 今年支出比收入多出三万亿，这个差额就是赤字。
+        isPrimary: true
+    aliases:
+      - raw: 财政赤字
+        aliasType: primary
+      - raw: Fiscal Deficit
+        aliasType: en_alias
+  - slug: shui-shou-shou-ru
+    headword: 税收收入
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 政府税收总收入，反映经济活跃度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 政府税收总收入，反映经济活跃度。
+        example: 税收收入增速与名义GDP匹配。
+        isPrimary: true
+    aliases:
+      - raw: 税收收入
+        aliasType: primary
+      - raw: Tax Revenue
+        aliasType: en_alias
+  - slug: zhong-yang-zhuan-yi-zhi-fu
+    headword: 中央转移支付
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 中央财政对地方的转移支付，平衡地区财力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中央财政对地方的转移支付，平衡地区财力。
+        example: 转移支付加大对中西部倾斜。
+        isPrimary: true
+    aliases:
+      - raw: 中央转移支付
+        aliasType: primary
+      - raw: Central Transfer Payment
+        aliasType: en_alias
+  - slug: gang-gu-liu-dong-xing
+    headword: 港股流动性
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 港股市场成交量与流动性状况。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 港股市场成交量与流动性状况。
+        example: 港股流动性改善。
+        isPrimary: true
+    aliases:
+      - raw: 港股流动性
+        aliasType: primary
+      - raw: HK Liquidity
+        aliasType: en_alias
+  - slug: she-rong-mai-chong
+    headword: 社融脉冲
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 社融增速的变化动能。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 社融增速的变化动能。
+        example: 社融脉冲回升预示经济企稳。
+        isPrimary: true
+    aliases:
+      - raw: 社融脉冲
+        aliasType: primary
+      - raw: AFRE Impulse
+        aliasType: en_alias
+  - slug: xin-dai-mai-chong
+    headword: 信贷脉冲
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 新增信贷占GDP比重的变化。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 新增信贷占GDP比重的变化。
+        example: 信贷脉冲领先股市表现。
+        isPrimary: true
+    aliases:
+      - raw: 信贷脉冲
+        aliasType: primary
+      - raw: Credit Impulse
+        aliasType: en_alias
+  - slug: ji-jian-gu
+    headword: 基建股
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 基建行业股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 基建行业股票。
+        example: 基建股受益稳增长。
+        isPrimary: true
+    aliases:
+      - raw: 基建股
+        aliasType: primary
+      - raw: Infrastructure
+        aliasType: en_alias
+  - slug: liu-dong-xing-xian-jing
+    headword: 流动性陷阱
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 宽松货币无法刺激经济的状态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 宽松货币无法刺激经济的状态。
+        example: 流动性陷阱下政策失效。
+        isPrimary: true
+    aliases:
+      - raw: 流动性陷阱
+        aliasType: primary
+      - raw: Liquidity Trap
+        aliasType: en_alias
+  - slug: liu-dong-xing-guai-dian
+    headword: 流动性拐点
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 市场资金松紧程度发生方向性转变的时点，由松转紧时股市往往承压，由紧转松时风险资产多受益。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 市场资金松紧程度发生方向性转变的时点，由松转紧时股市往往承压，由紧转松时风险资产多受益。
+        example: 政策风向或资金供求变化，往往是拐点出现的信号。
+        isPrimary: true
+    aliases:
+      - raw: 流动性拐点
+        aliasType: primary
+      - raw: Liquidity Turning Point
+        aliasType: en_alias
+  - slug: cun-kuan-li-l
+    headword: 存款利率
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 银行支付给存款人的利率，也是贷款利率定价的基础。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 银行支付给存款人的利率，也是贷款利率定价的基础。
+        example: 银行给存款人的利息降了，存钱不如搬去别处找收益。
+        isPrimary: true
+    aliases:
+      - raw: 存款利率
+        aliasType: primary
+      - raw: Deposit Rate
+        aliasType: en_alias
+  - slug: xin-ji-jian
+    headword: 新基建
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 5G、数据中心等新型基础设施。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 5G、数据中心等新型基础设施。
+        example: 5G基站和数据中心，是新型基建的主要方向。
+        isPrimary: true
+    aliases:
+      - raw: 新基建
+        aliasType: primary
+      - raw: New Infrastructure
+        aliasType: en_alias
+  - slug: chuan-tong-ji-jian
+    headword: 传统基建
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 交通水利等传统基础设施。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 交通水利等传统基础设施。
+        example: 传统基建稳投资作用大。
+        isPrimary: true
+    aliases:
+      - raw: 传统基建
+        aliasType: primary
+      - raw: Traditional Infrastructure
+        aliasType: en_alias
+  - slug: liu-dong-xing-feng-xian
+    headword: 流动性风险
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 无法以合理价格成交的风险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 无法以合理价格成交的风险。
+        example: 流动性风险在极端行情放大。
+        isPrimary: true
+    aliases:
+      - raw: 流动性风险
+        aliasType: primary
+      - raw: Liquidity Risk
+        aliasType: en_alias
+  - slug: liu-dong-xing-yin-zi
+    headword: 流动性因子
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 高流动性风格因子。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 高流动性风格因子。
+        example: 流动性因子控制交易成本。
+        isPrimary: true
+    aliases:
+      - raw: 流动性因子
+        aliasType: primary
+      - raw: Liquidity Factor
+        aliasType: en_alias
+  - slug: liu-dong-xing-fu-gai-l
+    headword: 流动性覆盖率
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 优质流动性资产覆盖率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 优质流动性资产覆盖率。
+        example: LCR保障短期偿付。
+        isPrimary: true
+    aliases:
+      - raw: 流动性覆盖率
+        aliasType: primary
+      - raw: LCR
+        aliasType: en_alias
+  - slug: l-se-xin-dai
+    headword: 绿色信贷
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 支持绿色产业的贷款。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 支持绿色产业的贷款。
+        example: 绿色信贷规模领先全球。
+        isPrimary: true
+    aliases:
+      - raw: 绿色信贷
+        aliasType: primary
+      - raw: Green Credit
+        aliasType: en_alias
+  - slug: quan-qiu-liu-dong-xing
+    headword: 全球流动性
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 全球资金供给状况。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 全球资金供给状况。
+        example: 全球流动性宽松利好风险资产。
+        isPrimary: true
+    aliases:
+      - raw: 全球流动性
+        aliasType: primary
+      - raw: Global Liquidity
+        aliasType: en_alias
+  - slug: mei-yuan-liu-dong-xing
+    headword: 美元流动性
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 全球市场上美元资金的松紧程度，受美联储利率政策影响，紧张时新兴市场往往承压。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 全球市场上美元资金的松紧程度，受美联储利率政策影响，紧张时新兴市场往往承压。
+        example: 美元利率抬升让全球美元资金转紧，海外市场波动随之加大。
+        isPrimary: true
+    aliases:
+      - raw: 美元流动性
+        aliasType: primary
+      - raw: Dollar Liquidity
+        aliasType: en_alias
+  - slug: shui-shou-you-hui
+    headword: 税收优惠
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 税收减免政策。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 税收减免政策。
+        example: 优惠支持特定行业。
+        isPrimary: true
+    aliases:
+      - raw: 税收优惠
+        aliasType: primary
+      - raw: Tax Preference
+        aliasType: en_alias
+  - slug: shui-shou-zhong-xing
+    headword: 税收中性
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 税收不扭曲决策。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 税收不扭曲决策。
+        example: 中性税收更优。
+        isPrimary: true
+    aliases:
+      - raw: 税收中性
+        aliasType: primary
+      - raw: Tax Neutrality
+        aliasType: en_alias
+  - slug: cai-zheng-zhuan-yi-zhi-fu
+    headword: 财政转移支付
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 中央对地方转移。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中央对地方转移。
+        example: 转移支付平衡财力。
+        isPrimary: true
+    aliases:
+      - raw: 财政转移支付
+        aliasType: primary
+      - raw: Fiscal Transfer
+        aliasType: en_alias
+  - slug: zheng-fu-cai-gou
+    headword: 政府采购
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 政府购买行为。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 政府购买行为。
+        example: 采购订单利好企业。
+        isPrimary: true
+    aliases:
+      - raw: 政府采购
+        aliasType: primary
+      - raw: Government Procurement
+        aliasType: en_alias
+  - slug: liu-dong-xing-ti-gong
+    headword: 流动性提供
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 提供市场流动性。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 提供市场流动性。
+        example: 流动性是市场生命线。
+        isPrimary: true
+    aliases:
+      - raw: 流动性提供
+        aliasType: primary
+      - raw: Liquidity Provision
+        aliasType: en_alias
+  - slug: yin-hua-shui-shou-ru
+    headword: 印花税收入
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 印花税征收额。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 印花税征收额。
+        example: 印花税收入反映成交。
+        isPrimary: true
+    aliases:
+      - raw: 印花税收入
+        aliasType: primary
+      - raw: Stamp Tax Revenue
+        aliasType: en_alias
+  - slug: chan-neng-li-yong-l
+    headword: 产能利用率
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 产能使用程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 产能使用程度。
+        example: 利用率高盈利改善。
+        isPrimary: true
+    aliases:
+      - raw: 产能利用率
+        aliasType: primary
+      - raw: Capacity Utilization
+        aliasType: en_alias
+  - slug: shui-shou-di-yan
+    headword: 税收递延
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 税收递延优惠。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 税收递延优惠。
+        example: 税延养老试点。
+        isPrimary: true
+    aliases:
+      - raw: 税收递延
+        aliasType: primary
+      - raw: Tax Deferral
+        aliasType: en_alias
+  - slug: tong-ye-chai-jie
+    headword: 同业拆借
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 银行间资金拆借。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 银行间资金拆借。
+        example: 拆借利率反映流动性。
+        isPrimary: true
+    aliases:
+      - raw: 同业拆借
+        aliasType: primary
+      - raw: Interbank Lending
+        aliasType: en_alias
+  - slug: zhuan-tie-xian
+    headword: 转贴现
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 票据再贴现。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 票据再贴现。
+        example: 转贴现流转票据。
+        isPrimary: true
+    aliases:
+      - raw: 转贴现
+        aliasType: primary
+      - raw: Rediscounting
+        aliasType: en_alias
+  - slug: zai-tie-xian
+    headword: 再贴现
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 央行再贴现工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行再贴现工具。
+        example: 再贴现调节流动性。
+        isPrimary: true
+    aliases:
+      - raw: 再贴现
+        aliasType: primary
+      - raw: Discount Window
+        aliasType: en_alias
+  - slug: ke-ji-chuang-xin-zai-dai-kuan
+    headword: 科技创新再贷款
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 支持科创的再贷款。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 支持科创的再贷款。
+        example: 科创再贷款扩额。
+        isPrimary: true
+    aliases:
+      - raw: 科技创新再贷款
+        aliasType: primary
+      - raw: Tech Innovation Relending
+        aliasType: en_alias
+  - slug: cun-kuan-li-l-shi-chang-hua
+    headword: 存款利率市场化
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 存款利率改革。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 存款利率改革。
+        example: 市场化调整存款利率。
+        isPrimary: true
+    aliases:
+      - raw: 存款利率市场化
+        aliasType: primary
+      - raw: Deposit Rate Liberalization
+        aliasType: en_alias
+  - slug: tong-ye-jing-zheng
+    headword: 同业竞争
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 同业竞争问题。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 同业竞争问题。
+        example: 同业竞争受限。
+        isPrimary: true
+    aliases:
+      - raw: 同业竞争
+        aliasType: primary
+      - raw: Horizontal Competition
+        aliasType: en_alias
+  - slug: liu-dong-xing-xiu-fu
+    headword: 流动性修复
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L2
+    summaryPlain: 市场流动性恢复。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场流动性恢复。
+        example: 流动性改善活跃。
+        isPrimary: true
+    aliases:
+      - raw: 流动性修复
+        aliasType: primary
+      - raw: Liquidity Recovery
+        aliasType: en_alias

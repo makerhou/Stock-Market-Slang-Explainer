@@ -336,6 +336,20 @@ async function upsertCompiled(
 
 async function main(): Promise<void> {
   const rootDir = findRepoRoot();
+
+  // 护栏：content/batches → ingest 已是正统生产链路。存在批量源时，
+  // 旧 mdx→compile 会把 lexicon.json 覆盖成极少量词条，故默认拒绝。
+  const batchesDir = path.join(rootDir, "content/batches");
+  const hasBatches =
+    existsSync(batchesDir) &&
+    readdirSync(batchesDir).some((f) => f.endsWith(".yaml") || f.endsWith(".yml"));
+  if (hasBatches && !process.argv.includes("--force")) {
+    console.error("[deprecated] content/terms/*.mdx → compile 已被 content/batches → ingest 取代。");
+    console.error("  直接运行会把 lexicon.json 覆盖成极少量 mdx 词条。请改用：npm run ingest --workspace=@jargon/content");
+    console.error("  如确需强制执行旧管线：追加 --force（不推荐）。");
+    process.exit(2);
+  }
+
   const contentDir = path.join(rootDir, "content/terms");
   const outDir = path.join(rootDir, "content/.compiled");
   const rules = loadRules(rootDir);

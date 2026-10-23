@@ -1,0 +1,1876 @@
+# 自动生成的批量词条源（可由 ingest 重新编译为 lexicon.json）
+category: 港股
+source: bootstrap from lexicon.json (2026-10-22)
+terms:
+  - slug: an-pan
+    headword: 暗盘
+    categoryL1: 港股
+    categoryL2: 一级半市场
+    difficulty: L2
+    summaryPlain: 新股正式上市前一天，部分券商内部就能提前买卖的场外交易：打新者的「提前交卷」。
+    riskNote: 暗盘价≠上市首日价；流动性差，冲动交易容易吃亏。
+    frequency: high
+    popularity: 740
+    senses:
+      - senseKey: default
+        plainExplain: 新股挂牌前一日由部分券商内部撮合的场外交易，为港股特有。
+        example: 港股打新族流行「提前场先跑」：中签的可比正式上市早一天卖出锁定收益，这个场子里的暴涨常让没中签的人拍大腿。
+        notMeaning: 暗盘不是官方市场，成交不受交易所规则约束。
+        isPrimary: true
+        contextKeywords:
+          - 场外
+          - 打新
+          - 辉立
+          - 挂暗盘
+        frequency: high
+    aliases:
+      - raw: 暗盘
+        aliasType: primary
+      - raw: 灰市
+        aliasType: cn_alias
+      - raw: 上市前一天交易
+        aliasType: cn_alias
+    viz:
+      type: GreyMarket
+      config: {}
+    insights:
+      affects:
+        - 打新决策：暗盘价是「上市会不会翻车」的预演
+        - 正股：暗盘情绪传导到首日开盘价
+        - 券商生意：辉立等提供暗盘撮合赚佣金收流量
+      good:
+        - 暗盘大涨 → 已中签者可提前落袋为安
+        - 情绪爆棚的新股：暗盘数据是重要的卖出参考
+      bad:
+        - 暗盘破发：上市首日大概率低开难卖
+        - 用暗盘价做长线判断：样本小、噪音大
+      policy:
+        - 并非所有新股都有暗盘（视券商接入）
+        - 官方上市价不受暗盘价约束
+        - 港股打新无市值门槛，暗盘成散户主要情报源
+      example: 电影点映：还没正式公映，部分影院先放一场。口碑炸裂场（暗盘暴涨），正式上映一票难求；点映被骂惨（暗盘破发），公映日多半凉凉。点映不代表最终票房，但信号很实。
+  - slug: bei-shui
+    headword: 北水
+    categoryL1: 港股
+    categoryL2: 资金用语
+    difficulty: L1
+    summaryPlain: 港股对南向资金的昵称：从内地涌向香港市场的资金。
+    riskNote: 北水是港股定价权转移的代名词，但来也快去也快。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 港股对南向资金的昵称：从内地涌向香港市场的资金。
+        example: 比如内地资金大幅买入腾讯，股价应声上涨。
+        notMeaning: 北水是港股定价权转移的代名词，但来也快去也快。
+        isPrimary: true
+        contextKeywords:
+          - 资金用语
+        frequency: mid
+    aliases:
+      - raw: 北水
+        aliasType: primary
+      - raw: 南向资金
+        aliasType: cn_alias
+      - raw: 南下资金
+        aliasType: cn_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: 北水：南向的资金潮
+        direction: south
+    insights:
+      affects:
+        - 定价权：内地资金重塑港股
+        - 情绪指标：北水的流向
+      good:
+        - 持续流入：港股底部支撑
+      bad:
+        - 抽离：港股失去弹药
+      policy:
+        - 互联互通额度与标的
+      example: 邻省来的旅游团：人头攒动（北水涌入）时本地商家赚翻，人走了街道空一半。
+  - slug: bu-huo
+    headword: 补货
+    categoryL1: 港股
+    categoryL2: 抄底用语
+    difficulty: L2
+    summaryPlain: 港股「抄底/逢低加仓」的市井说法：股价跌了当打折再买。
+    riskNote: 补货和补仓一样，只在逻辑没变时是机会。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 港股「抄底/逢低加仓」的市井说法：股价跌了当打折再买。
+        example: 比如心水股大跌，股民说趁机便宜货。
+        notMeaning: 补货和补仓一样，只在逻辑没变时是机会。
+        isPrimary: true
+        contextKeywords:
+          - 抄底用语
+        frequency: mid
+    aliases:
+      - raw: 补货
+        aliasType: primary
+      - raw: 抄底
+        aliasType: cn_alias
+      - raw: 逢低买入
+        aliasType: cn_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: trap
+        shares: 1000
+    insights:
+      affects:
+        - 打折心理：跌=便宜的错觉
+        - 仓位管理：补货要留子弹
+      good:
+        - 真打折：成本优化
+      bad:
+        - 假打折：半山腰补货
+      policy:
+        - 无政策含义
+      example: 超市卫生纸半价囤十提：用得完是省钱，用不完是占地方还过期。
+  - slug: cai-ji
+    headword: 财技
+    categoryL1: 港股
+    categoryL2: 公司行为
+    difficulty: L3
+    summaryPlain: 公司用配售、合股、供股等手段操作股价和融资的技巧：资本市场里的「武术」。
+    riskNote: 财技常被老千股用来「合法抢劫」，港股的雷区词。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 公司用配售、合股、供股等手段操作股价和融资的技巧：资本市场里的「武术」。
+        example: 比如港股公司合股再配股，散户被反复稀释。
+        notMeaning: 财技常被老千股用来「合法抢劫」，港股的雷区词。
+        isPrimary: true
+        contextKeywords:
+          - 公司行为
+        frequency: high
+    aliases:
+      - raw: 财技
+        aliasType: primary
+      - raw: 资本技巧
+        aliasType: cn_alias
+      - raw: 财技股
+        aliasType: cn_alias
+    viz:
+      type: PoolDilution
+      config:
+        title: 财技：资本运作的武功
+    insights:
+      affects:
+        - 小股东权益：财技的最大受害者
+        - 港股生态：老千股的标配技能
+      good:
+        - 中性财技：正常的资本运作
+      bad:
+        - 财技型供股：合法的割韭
+      policy:
+        - 港交所对供股合股的规则
+      example: 魔术师的手法：看起来是融资，变出来的是你账户的缩水。手法合法，受害者真实。
+  - slug: cai-yan
+    headword: 财演
+    categoryL1: 港股
+    categoryL2: 媒体用语
+    difficulty: L2
+    summaryPlain: 财经演员：靠媒体放料、喊单、造势的「股评人」，带贬义。
+    riskNote: 免费的建议最贵：你听他的，他赚他的流量和仓位。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 财经演员：靠媒体放料、喊单、造势的「股评人」，带贬义。
+        example: 比如电视上天天喊牛市将至的，就是典型代表。
+        notMeaning: 免费的建议最贵：你听他的，他赚他的流量和仓位。
+        isPrimary: true
+        contextKeywords:
+          - 媒体用语
+        frequency: mid
+    aliases:
+      - raw: 财演
+        aliasType: primary
+      - raw: 股评人
+        aliasType: cn_alias
+      - raw: 财经KOL
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: board
+        title: 财演：镜头前的推荐
+    insights:
+      affects:
+        - 信息操纵：喊单产业链的上游
+        - 散户教育：识别屁股决定脑袋
+      good:
+        - 兼听则明：交叉验证
+      bad:
+        - 照单全收：标准韭菜
+      policy:
+        - 持牌评论制度
+      example: 直播间带货主播：喊「家人们冲」的时候，他的佣金早已到账。
+  - slug: ccass
+    headword: CCASS
+    categoryL1: 港股
+    categoryL2: 持仓数据
+    difficulty: L3
+    summaryPlain: 港股中央结算系统：持股分布的数据来源，可以查券商席位上的货。
+    riskNote: 数据是 T+2 滞后，看趋势可以，追单点不行。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 港股中央结算系统：持股分布的数据来源，可以查券商席位上的货。
+        example: 比如某券商席位上某只股票存货暴增，可能有大户在建仓。
+        notMeaning: 数据是 T+2 滞后，看趋势可以，追单点不行。
+        isPrimary: true
+        contextKeywords:
+          - 持仓数据
+        frequency: mid
+    aliases:
+      - raw: CCASS
+        aliasType: primary
+      - raw: 中央结算系统
+        aliasType: cn_alias
+      - raw: 持股纪录
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: board
+        title: CCASS：货都在哪
+    insights:
+      affects:
+        - 筹码追踪：大户动向的窗口
+        - 风险监控：集中度风险
+      good:
+        - 席位存货增：建仓迹象
+      bad:
+        - 存货骤降：派发迹象
+      policy:
+        - 披露规则与隐私平衡
+      example: 快递柜监控：每个柜子（券商）堆了多少件（股票）实时可查，但谁取的滞后两天才知道。
+  - slug: chao-gou
+    headword: 超购
+    categoryL1: 港股
+    categoryL2: 发行机制
+    difficulty: L2
+    summaryPlain: 新股申购金额超过发行规模的倍数：市场热度的直接投票。
+    riskNote: 超购倍数高≠上市必赚，冷门超购也可能高开低走。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 新股申购金额超过发行规模的倍数：市场热度的直接投票。
+        example: 比如申购金额是发行规模的 500 倍，暗盘常被抢高。
+        notMeaning: 超购倍数高≠上市必赚，冷门超购也可能高开低走。
+        isPrimary: true
+        contextKeywords:
+          - 发行机制
+        frequency: mid
+    aliases:
+      - raw: 超购
+        aliasType: primary
+      - raw: 超额认购
+        aliasType: cn_alias
+      - raw: Oversubscription
+        aliasType: en_alias
+    viz:
+      type: IpoLottery
+      config:
+        issuePrice: 10
+        rate: 0.5
+    insights:
+      affects:
+        - 打新决策：热度指标
+        - 定价博弈：超购支撑发行价
+      good:
+        - 超购火爆：暗盘常溢价
+      bad:
+        - 超购也破发：定价太贵
+      policy:
+        - 回拨机制与超额配售
+      example: 网红店预约号被抢到系统崩溃：超购 500 倍。排队久不代表菜一定值。
+  - slug: chu-jing
+    headword: 除净
+    categoryL1: 港股
+    categoryL2: 权益分派
+    difficulty: L2
+    summaryPlain: 港股「除权除息」的统称：分红或送股的那天起，新买家不再享受这些权益，股价相应调整。
+    riskNote: 除净后股价下调是技术性调整，不代表跌了；但填权/贴权走势决定你真实盈亏。
+    frequency: mid
+    popularity: 540
+    senses:
+      - senseKey: default
+        plainExplain: 港股市场「除权除息」的合称：公司派息/送股后，首个交易日新投资者不再享有该权益。
+        example: 某股宣布派息 1 元，除息日开盘参考价会自动扣掉这 1 元，K 线图上看起来「跌了」其实只是把利息划走了。
+        notMeaning: 除净不是股价下跌，账面的市值缩水被现金分红补回。
+        isPrimary: true
+        contextKeywords:
+          - 除息
+          - 除权
+          - 派息
+          - 除净日
+        frequency: mid
+    aliases:
+      - raw: 除净
+        aliasType: primary
+      - raw: 除权除息
+        aliasType: cn_alias
+      - raw: ex-entitlement
+        aliasType: en_alias
+    viz:
+      type: ExRightAdjust
+      config:
+        title: 除净：蛋糕切小块，总数不变
+    insights:
+      affects:
+        - 持仓者：分红/送股到账，账面除净价自动调整
+        - 技术形态：历史 K 线常做除权修正避免假跌
+        - 税负：港股通收取红利税，除净日规则影响收益
+      good:
+        - 高息股「填权」：股价涨回除净前水平=额外白拿息
+        - 送股本身提升流动性、降低门槛
+      bad:
+        - 「贴权」：股价比除净价还低，等于白欢喜
+        - 从众抢权息：除净前买、除净后被闷杀
+      policy:
+        - 港股通扣税规则：H 股 20%/红筹 28%（依据派息结构）
+        - 除净定价规则：参考价=前收-派息/送股调整
+        - T+2 交收影响港股通股东资格判定
+      example: 披萨从 12 寸切 8 块变切 16 块：单块小了（除净价下调），但整张饼没少（总资产不变）。第二天大家发现块变小了就抛售，饼价跌回 12 寸的价÷16 块以下——那就是贴权；反过来被认可就是填权。
+  - slug: chuan-zhao
+    headword: 穿招
+    categoryL1: 港股
+    categoryL2: 破发用语
+    difficulty: L2
+    summaryPlain: 港股「破发」的粤语说法：股价跌破招股价（发行价）。
+    riskNote: 穿招后可能继续下行，打新不是稳赚。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 港股「破发」的粤语说法：股价跌破招股价（发行价）。
+        example: 比如新股上市第二天就跌破招股价，中签的人亏钱。
+        notMeaning: 穿招后可能继续下行，打新不是稳赚。
+        isPrimary: true
+        contextKeywords:
+          - 破发用语
+        frequency: mid
+    aliases:
+      - raw: 穿招
+        aliasType: primary
+      - raw: 破发
+        aliasType: cn_alias
+      - raw: 跌破发行价
+        aliasType: cn_alias
+    viz:
+      type: BreakIssue
+      config: {}
+    insights:
+      affects:
+        - 打新风险：港股破发常见
+        - 定价信号：市场不认这个价
+      good:
+        - 穿招后企稳：错杀机会
+      bad:
+        - 穿招深套：打新变站岗
+      policy:
+        - 新股定价与市场情绪
+      example: 演唱会黄牛价跌破票面：原价 100 的票 80 没人要，穿招了。
+  - slug: da-ba
+    headword: 打靶
+    categoryL1: 港股
+    categoryL2: 牛熊证用语
+    difficulty: L2
+    summaryPlain: 牛熊证价格触及收回价被发行商强制收回：像被一枪打靶归零。
+    riskNote: 打靶是瞬间的，哪怕之后价格回来也救不了你。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 牛熊证价格触及收回价被发行商强制收回：像被一枪打靶归零。
+        example: 比如恒指刚好碰到收回价，牛证瞬间归零。
+        notMeaning: 打靶是瞬间的，哪怕之后价格回来也救不了你。
+        isPrimary: true
+        contextKeywords:
+          - 牛熊证用语
+        frequency: mid
+    aliases:
+      - raw: 打靶
+        aliasType: primary
+      - raw: 收回
+        aliasType: cn_alias
+      - raw: 强制收回
+        aliasType: cn_alias
+    viz:
+      type: LeverageWheel
+      config:
+        mode: cbbc
+        kind: bull
+        strike: 50
+        leverage: 10
+    insights:
+      affects:
+        - 产品机制：收回价就是生死线
+        - 风险教育：港股杠杆产品第一课
+      good:
+        - 远离收回价：安全
+      bad:
+        - 贴线行走：随时打靶
+      policy:
+        - 发行商的强制收回机制
+      example: 走钢丝下的安全网突然撤掉：差一毫米（收回价）就万劫不复。
+  - slug: da-e
+    headword: 大鳄
+    categoryL1: 港股
+    categoryL2: 参与者
+    difficulty: L2
+    summaryPlain: 港股市场资金非常雄厚的大户：水下的掠食者。
+    riskNote: 大鳄的进出就是行情本身，散户跟风常成食物。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 港股市场资金非常雄厚的大户：水下的掠食者。
+        example: 比如某资本巨鳄扫货，港股小盘股直接旱地拔葱。
+        notMeaning: 大鳄的进出就是行情本身，散户跟风常成食物。
+        isPrimary: true
+        contextKeywords:
+          - 参与者
+        frequency: high
+    aliases:
+      - raw: 大鳄
+        aliasType: primary
+      - raw: 大户
+        aliasType: cn_alias
+      - raw: 庄家
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 大鳄：水下掠食者
+    insights:
+      affects:
+        - 定价权：资金即权力
+        - 跟风风险：食物链底层
+      good:
+        - 大鳄进场：短期暴利
+      bad:
+        - 大鳄撤退：一地鳄毛
+      policy:
+        - 监管打击操纵
+      example: 河里的鳄鱼：它浮上来（建仓）你就该知道水位要变，它沉下去（出货）别恋战。
+  - slug: da-hu-zhong-hu
+    headword: 大户/中户
+    categoryL1: 港股
+    categoryL2: 参与者分层
+    difficulty: L2
+    summaryPlain: 按资金量分的投资者层级：大户资金雄厚，中户比上不足比下有余。
+    riskNote: 层级不等于收益，大户被套的比比皆是。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 按资金量分的投资者层级：大户资金雄厚，中户比上不足比下有余。
+        example: 比如券商按资产分服务等级，大户有专属客户经理。
+        notMeaning: 层级不等于收益，大户被套的比比皆是。
+        isPrimary: true
+        contextKeywords:
+          - 参与者分层
+        frequency: mid
+    aliases:
+      - raw: 大户
+        aliasType: primary
+      - raw: 中户
+        aliasType: cn_alias
+      - raw: 小户
+        aliasType: cn_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: 大户中户：资金的分层
+    insights:
+      affects:
+        - 市场结构：资金体量决定打法
+        - 服务分层：券商的差异化
+      good:
+        - 资金厚：抗波动强
+      bad:
+        - 中户尴尬：两头不占
+      policy:
+        - 无政策含义
+      example: 游戏里的平民/小R/大R：充值（资金）不同，体验不同，但都被同一个版本（市场）虐。
+  - slug: da-ma-sha
+    headword: 大孖沙
+    categoryL1: 港股
+    categoryL2: 大户用语
+    difficulty: L2
+    summaryPlain: 港式英语 Big Master：富豪级大投资者，一动笔就影响市场的那种。
+    riskNote: 大孖沙的消息（建仓/减持）有参考价值但别神化。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 港式英语 Big Master：富豪级大投资者，一动笔就影响市场的那种。
+        example: 比如传闻某富豪级投资者入市，港股立时骚动。
+        notMeaning: 大孖沙的消息（建仓/减持）有参考价值但别神化。
+        isPrimary: true
+        contextKeywords:
+          - 大户用语
+        frequency: mid
+    aliases:
+      - raw: 大孖沙
+        aliasType: primary
+      - raw: 大户
+        aliasType: cn_alias
+      - raw: 富豪投资者
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 大孖沙：富豪级玩家
+    insights:
+      affects:
+        - 资金层级：大孖沙>大鳄>大户
+        - 跟风文化：土豪效应
+      good:
+        - 真建仓：中长线利好
+      bad:
+        - 拉高出货：请君入棚
+      policy:
+        - 权益披露制度
+      example: 班里首富之子转学：全校瞩目，但他考前补不补习只有他自己知道。
+  - slug: da-peng
+    headword: 搭棚
+    categoryL1: 港股
+    categoryL2: 盘口俗语
+    difficulty: L3
+    summaryPlain: 盘口上出现人为堆砌的虚假委托队列，像搭起来的棚子：诱多诱空的老千手法。
+    riskNote: 棚子一撤，价格原形毕露。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 盘口上出现人为堆砌的虚假委托队列，像搭起来的棚子：诱多诱空的老千手法。
+        example: 比如买盘挂出整齐的万手大单，就是不成交，像搭了个棚。
+        notMeaning: 棚子一撤，价格原形毕露。
+        isPrimary: true
+        contextKeywords:
+          - 盘口俗语
+        frequency: mid
+    aliases:
+      - raw: 搭棚
+        aliasType: primary
+      - raw: 堆单
+        aliasType: cn_alias
+      - raw: 虚假挂单
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: board
+        title: 搭棚：虚假的队列
+    insights:
+      affects:
+        - 委托造假：大户的经典骗线
+        - 盘口解读：委托≠成交
+      good:
+        - 识破搭棚：不追
+      bad:
+        - 顺着棚子进：被闷
+      policy:
+        - 监管打击虚假申报
+      example: 商场开业雇人排队：队伍（棚）壮观，东西（成交）未必卖得动。
+  - slug: gang-gu-tong
+    headword: 港股通
+    categoryL1: 港股
+    categoryL2: 互联互通
+    difficulty: L2
+    summaryPlain: 内地资金北上买港股的官方通道：内地投资者用沪港通/深港通就能直接买卖指定港股。
+    riskNote: 港股通有标的范围、额度与税务规则；且港股无涨跌幅限制，波动更大。
+    frequency: high
+    popularity: 820
+    senses:
+      - senseKey: default
+        plainExplain: 连接内地与香港股票市场的交易机制：内地投资者可通过上交所/深交所买卖合规港股。
+        example: 想买腾讯又不换汇，用沪深港通的渠道就能用人民币下单，结算时自动换汇——内地散户的钱正是这样源源不断南下。
+        notMeaning: 港股通不是 App 也不是券商，是官方互联互通机制。
+        isPrimary: true
+        contextKeywords:
+          - 南向
+          - 互联互通
+          - 买港股
+          - 换汇
+        frequency: high
+    aliases:
+      - raw: 港股通
+        aliasType: primary
+      - raw: 南向资金
+        aliasType: cn_alias
+      - raw: 沪深港通
+        aliasType: cn_alias
+    viz:
+      type: MoneyFlow
+      config:
+        direction: south
+        title: 南向资金：内地钱流向港股
+    insights:
+      affects:
+        - 港股流动性：南向成交占比越来越高
+        - 定价权：内地资金持续加仓港股科技/高息龙头
+        - 两地市场：港股 A 股化，情绪互相传染
+      good:
+        - 净买入放大：说明内地资金看好
+        - 高息/科技龙头被抢筹：估值获得托底
+      bad:
+        - 净流出加速：港股缺乏本地承接盘
+        - 汇率波动：南向换汇成本被低估
+      policy:
+        - 标的扩容/调整：决定能买什么
+        - 红利税：港股通股息扣税影响收息策略
+        - 额度安排：每日额度限制突发抢筹
+      example: 省和省之间修了条直达高铁：以前去香港要「签证换汇坐飞机」（开户换汇），现在刷身份证上车（港股通人民币下单）。高铁一通，客流（南向资金）直接改变两地票价的贵贱。
+  - slug: gong-gu
+    headword: 供股
+    categoryL1: 港股
+    categoryL2: 集资方式
+    difficulty: L2
+    summaryPlain: 公司按持股比例邀请老股东再掏钱认购新股：不掏，你的股份就被稀释、股价被摊薄。
+    riskNote: 大比例供股配合合股是港股常见的坑，摊薄即亏损。
+    frequency: mid
+    popularity: 580
+    senses:
+      - senseKey: default
+        plainExplain: 上市公司向现有股东按比例发售新股筹集资金，股东可选择认购或放弃。
+        example: 有公司宣布「二供一」：每持两股可按 1 元供一股新，老股东不出钱就眼睁睁看自己股份占比变小。
+        notMeaning: 供股不是白送，是真金白银再掏钱；也不是配售（配给外人）。
+        isPrimary: true
+        contextKeywords:
+          - 二供一
+          - 供股权
+          - 稀释
+          - 折让
+        frequency: mid
+    aliases:
+      - raw: 供股
+        aliasType: primary
+      - raw: rights issue
+        aliasType: en_alias
+      - raw: 配售新股
+        aliasType: cn_alias
+    viz:
+      type: PoolDilution
+      config:
+        title: 供股：池子里的鱼变多了
+    insights:
+      affects:
+        - 老股东：不跟供就被摊薄，跟了继续套
+        - 公司：拿到真金白银续命或扩张
+        - 股价：除权后账面价下调，折让大时抛压重
+      good:
+        - 折价供股+项目好：老股东可低价加仓
+        - 财务改善预期：续命成功后股价修复
+      bad:
+        - 折让太深：供股权证也不值钱，被迫亏本卖权
+        - 反复供股：老千股标配，散户越持越薄
+      policy:
+        - 必须股东大会通过+刊登通函
+        - 供股权通常可卖出回血（有折价）
+        - 港股对合股/再融资的间隔有执行指引
+      example: 老楼加装电梯，全楼按面积分摊：你不出钱，电梯照样装，你的资产还是被摊薄（房价涨幅被分摊）；出钱就保住权益。公司「二供一」就是每两股老股给你一张加装费账单。
+  - slug: h-gu
+    headword: H股
+    categoryL1: 港股
+    categoryL2: 股票类型
+    difficulty: L2
+    summaryPlain: 内地注册的公司到香港上市的那一部分股票：一家公司，内地一份（A 股）、香港一份（H 股）。
+    riskNote: A+H 的长期价差反映两个市场的流动性与投资者结构差异，折价未必收敛。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 在内地注册、获准在香港上市的内地公司股票，常与 A 股形成「A+H」双上市。
+        example: 很多大银行既发 A 股也发 H 股：A 股 6 元、H 股只值 4 元港币，同样的公司香港人给价更低。
+        notMeaning: H 股本身不含红筹的境外注册属性，也不是港股里的本地股。
+        isPrimary: true
+        contextKeywords:
+          - A+H
+          - 内地注册
+          - 香港上市
+          - 价差
+        frequency: high
+    aliases:
+      - raw: H股
+        aliasType: primary
+      - raw: 国企股
+        aliasType: cn_alias
+      - raw: H shares
+        aliasType: en_alias
+    viz:
+      type: HkTypesCompare
+      config:
+        defaultKey: h
+    insights:
+      affects:
+        - 两地价差：AH 溢价指数是观察内地资金情绪的温度计
+        - 南向资金：便宜时内地资金买 H 拉溢价收窄
+        - 公司融资：A+H 双平台，哪里划算去哪里募
+      good:
+        - H 股折价大：收同等分红更划算
+        - A+H 公司治理相对更透明
+      bad:
+        - 折价常年存在：低估也能更低估
+        - 小盘 H 股流动性差，沽空也更容易被针对
+      policy:
+        - 港股通标的资格：H 股被纳入后流动性提升
+        - 全流通改革：H 股全流通改善股份结构
+        - 上市规则：A+H 公司须同时满足两地披露
+      example: 同一锅火锅在两个城市开店：成都人排长队（A 股贵），香港店搞半价都没人（H 股便宜）。味道一模一样，价差是两地吃货结构和钱包决定的，未必会一直差。
+  - slug: hao-you-dan-you
+    headword: 好友/淡友
+    categoryL1: 港股
+    categoryL2: 多空调语
+    difficulty: L2
+    summaryPlain: 港股对多头和空头的昵称：看好股价的好友，看跌的淡友。
+    riskNote: 好友淡友都是对手盘，没有永远的阵营。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 港股对多头和空头的昵称：看好股价的好友，看跌的淡友。
+        example: 比如大市升的时候好友聚会，跌的时候就只剩淡友在说话。
+        notMeaning: 好友淡友都是对手盘，没有永远的阵营。
+        isPrimary: true
+        contextKeywords:
+          - 多空调语
+        frequency: mid
+    aliases:
+      - raw: 好友
+        aliasType: primary
+      - raw: 淡友
+        aliasType: cn_alias
+      - raw: 多方
+        aliasType: cn_alias
+      - raw: 空方
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config: {}
+    insights:
+      affects:
+        - 情绪温度：好友淡友的人数比
+        - 港股文化：拟人化的多空叙事
+      good:
+        - 好友占优：升势延续
+      bad:
+        - 淡友反攻：小心回吐
+      policy:
+        - 无政策含义
+      example: 球赛主客队：好友是主队球迷，淡客是客队——场上（盘面）谁进球（资金）谁说了算。
+  - slug: hao-zi-gu
+    headword: 毫子股
+    categoryL1: 港股
+    categoryL2: 低价股
+    difficulty: L2
+    summaryPlain: 股价在 0.1-1 港元之间的股票：比仙股贵一点，一样冷门。
+    riskNote: 毫子股流动性差、易被操纵，一手可能比高价股还贵。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 股价在 0.1-1 港元之间的股票：比仙股贵一点，一样冷门。
+        example: 比如某低价股一手 20000 股，单价五毫也要一万港币。
+        notMeaning: 毫子股流动性差、易被操纵，一手可能比高价股还贵。
+        isPrimary: true
+        contextKeywords:
+          - 低价股
+        frequency: mid
+    aliases:
+      - raw: 毫子股
+        aliasType: primary
+      - raw: 毫股
+        aliasType: cn_alias
+      - raw: 细价股
+        aliasType: cn_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: 毫子股：一毫两毫的生意
+    insights:
+      affects:
+        - 门槛幻觉：单价低≠便宜
+        - 港股生态：细价股集中营
+      good:
+        - 摘帽/重组传闻：短线爆发
+      bad:
+        - 流动性陷阱：卖不掉
+      policy:
+        - 港股除牌机制
+      example: 超市的散装糖果：单颗便宜，论袋买才知道总价。一手的大小才是真门槛。
+  - slug: heng-sheng-zhi-shu
+    headword: 恒生指数
+    categoryL1: 港股
+    categoryL2: 指数
+    difficulty: L1
+    summaryPlain: 香港股市最有名的「年级平均分」：挑一批蓝筹大公司按权重算出来的指数。
+    riskNote: 成分股权重集中度高，几只巨头波动就能左右指数。
+    frequency: high
+    popularity: 860
+    senses:
+      - senseKey: default
+        plainExplain: 由香港恒生银行旗下公司编制的港股蓝筹指数，涵盖金融、科技、地产等龙头。
+        example: 新闻里「恒指今晨涨 300 点」，指的就是这篮子港股龙头的加权平均分涨了。
+        notMeaning: 恒指不是全部港股的平均，它只代表入选成分股的蓝筹表现。
+        isPrimary: true
+        contextKeywords:
+          - 港股
+          - 成分股
+          - 蓝筹
+          - 点数
+        frequency: high
+    aliases:
+      - raw: 恒生指数
+        aliasType: primary
+      - raw: 恒指
+        aliasType: cn_alias
+      - raw: Hang Seng Index
+        aliasType: en_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 恒生指数
+            point: 19000
+            base: 100
+            note: 港股蓝筹篮子，港交所+金融+科技权重高
+          - name: 国企指数
+            point: 6600
+            base: 1000
+            note: 在港上市内地公司（H 股/红筹）成分为主
+          - name: 恒生科技指数
+            point: 4100
+            base: 3000
+            note: 30 只港股新经济龙头，弹性大
+        title: 恒生指数：港股龙头的平均分
+    insights:
+      affects:
+        - 港股大盘：恒指点数是最常被引用的晴雨表
+        - 基金/衍生品：期货、ETF、牛熊证都以它为标的
+        - 南向资金：买不买港股常先看恒指位置
+      good:
+        - 指数稳步抬升：企业盈利+资金面双改善
+        - 估值处于历史低位+催化剂：修复空间弹性大
+      bad:
+        - 权重股杀跌：汇丰腾讯们出问题全线跟跌
+        - 成交萎缩：本地资金薄，稍有利空就放大波动
+      policy:
+        - 成分股季度检讨：进出名单影响资金流向
+        - 美联储利率：港元挂钩美元，利率左右港股估值
+        - 互联互通政策：南向持续净买是重要托底力量
+      example: 恒指像香港班级的成绩榜：只选班里 80 多个明星学生（成分股）加权平均。几个学霸转学/成绩波动，全班排名就变；普通学生考再努力也不上榜——恒指涨不等于你手里的港股在涨。
+  - slug: heng-zhi-qi-huo
+    headword: 恒指期货
+    categoryL1: 港股
+    categoryL2: 期货
+    difficulty: L3
+    summaryPlain: 恒生指数期货（含小型恒指）：港股大盘的杠杆工具，夜盘也能交易。
+    riskNote: 它跟着美股夜盘走，A 股收盘后才是它的主场。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 恒生指数期货（含小型恒指）：港股大盘的杠杆工具，夜盘也能交易。
+        example: 比如 A 股收盘后恒生指数的期货大涨，次日港股高开概率大。
+        notMeaning: 它跟着美股夜盘走，A 股收盘后才是它的主场。
+        isPrimary: true
+        contextKeywords:
+          - 期货
+        frequency: mid
+    aliases:
+      - raw: 恒指期货
+        aliasType: primary
+      - raw: MHI
+        aliasType: en_alias
+      - raw: 小型恒指
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 恒指期货
+            point: 19200
+            base: 19000
+            note: 带杠杆的预期
+          - name: 恒指现货
+            point: 19000
+            base: 19000
+            note: 真实成交
+    insights:
+      affects:
+        - 定价先行：期货引领现货
+        - 对冲：机构的港股保险
+      good:
+        - 升水：乐观情绪
+      bad:
+        - 贴水：避险情绪
+      policy:
+        - 夜盘交易时段与美股联动
+      example: 球赛赔率：比赛没开始，赔率先动。期货就是股市的赔率先行板。
+  - slug: hibor
+    headword: HIBOR
+    categoryL1: 港股
+    categoryL2: 利率
+    difficulty: L3
+    summaryPlain: 香港银行同业拆息：港元的批发价，影响香港的房贷、港元理财收益。
+    riskNote: 联汇制度下它跟随美元利率，同时受本地资金供求扰动。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 香港银行同业拆息：港元的批发价，影响香港的房贷、港元理财收益。
+        example: 比如香港银行同业拆息走高，香港楼市供楼压力增加。
+        notMeaning: 联汇制度下它跟随美元利率，同时受本地资金供求扰动。
+        isPrimary: true
+        contextKeywords:
+          - 利率
+        frequency: mid
+    aliases:
+      - raw: HIBOR
+        aliasType: primary
+      - raw: 香港银行同业拆息
+        aliasType: cn_alias
+    viz:
+      type: PEScale
+      config:
+        ratioName: 港元资金利率
+        denomLabel: 利息成本
+        denomMax: 10
+        cheap: 2
+        fair: 5
+    insights:
+      affects:
+        - 港股：资金成本影响估值
+        - 港楼：按揭 H+ 的 H
+      good:
+        - 回落：本地流动性宽松
+      bad:
+        - 急升：港元被抽紧
+      policy:
+        - 金管局结余水平影响 HIBOR
+        - 美联储利率联动
+      example: 香港钱庄之间的批发价：菜市场（银行）进货贵了，卖给市民（房贷）也贵。
+  - slug: hong-chou-gu
+    headword: 红筹股
+    categoryL1: 港股
+    categoryL2: 股票类型
+    difficulty: L2
+    summaryPlain: 在境外注册、由内地资本控股、拿到香港上市的那批公司：红字的中国背景，香港的牌桌。
+    riskNote: 红筹的注册地、协议控制结构复杂，法律与税务风险高于普通港股。
+    frequency: mid
+    popularity: 520
+    senses:
+      - senseKey: default
+        plainExplain: 由内地机构或资金控股、在境外（香港）注册并在香港上市的股票，如中国移动（香港）。
+        example: 看恒指成分股名单会发现：很多带「中国」字样、注册地却在开曼或香港的公司就是红筹。
+        notMeaning: 红筹不是 H 股：注册地不同、派息税务处理也不同。
+        isPrimary: true
+        contextKeywords:
+          - 境外注册
+          - 内地资本
+          - 红筹
+          - VIE
+        frequency: mid
+    aliases:
+      - raw: 红筹股
+        aliasType: primary
+      - raw: 红筹
+        aliasType: cn_alias
+      - raw: red chip
+        aliasType: en_alias
+    viz:
+      type: HkTypesCompare
+      config:
+        defaultKey: red
+    insights:
+      affects:
+        - 恒指结构：红筹权重高，指数弹性大
+        - 南向资金：内地投资者买入的主力品种之一
+        - 汇率/资金流动：红筹募资多用港币美元
+      good:
+        - 制度相对市场化：融资灵活度高
+        - 「回 A」「回港」等资本运作有想象空间
+      bad:
+        - 架构复杂：信息披露与治理需细看
+        - 政策/行业监管变化冲击更大
+      policy:
+        - VIE 协议控制架构受跨境监管审视
+        - 境外上市备案制：红筹也需备案
+        - 内地资本持股比例披露要求影响股权结构透明度
+      example: 留学生拿香港身份证、家在内地做外贸：花的是港币美元，生意来源还是老家。他要同时守两边的规矩，也享受两边的便利——这就是红筹的出走与归来。
+  - slug: huo-yuan-gui-bian
+    headword: 货源归边
+    categoryL1: 港股
+    categoryL2: 筹码状态
+    difficulty: L3
+    summaryPlain: 绝大多数流通股集中到少数人手里：股价容易被随意操控的状态。
+    riskNote: 货源归边的股票涨跌都极端，且常常有财技操作。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 绝大多数流通股集中到少数人手里：股价容易被随意操控的状态。
+        example: 比如某港股流通股七成在几个账户，稍微买盘就暴涨。
+        notMeaning: 货源归边的股票涨跌都极端，且常常有财技操作。
+        isPrimary: true
+        contextKeywords:
+          - 筹码状态
+        frequency: mid
+    aliases:
+      - raw: 货源归边
+        aliasType: primary
+      - raw: 筹码归边
+        aliasType: cn_alias
+      - raw: 庄家控盘
+        aliasType: cn_alias
+    viz:
+      type: TurnoverPie
+      config:
+        title: 货源归边：筹码集中
+    insights:
+      affects:
+        - 操纵风险：小盘股的典型危险信号
+        - 流动性假象：有价无市
+      good:
+        - 识破归边：不参与
+      bad:
+        - 归边后砸盘：逃无可逃
+      policy:
+        - CCASS 集中度监控
+      example: 整条村的房子都是房东的：他说租多少就是多少，租客没得选。
+  - slug: ji-shi-tou-zi-zhe
+    headword: 基石投资者
+    categoryL1: 港股
+    categoryL2: 发行机制
+    difficulty: L2
+    summaryPlain: 上市前承诺认购并锁定一段时间的投资者：给新股站台的压舱石。
+    riskNote: 基石名单是宣传卖点，锁定期一过照样卖。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 上市前承诺认购并锁定一段时间的投资者：给新股站台的压舱石。
+        example: 比如某新股引入知名基金做基石，认购气氛热烈。
+        notMeaning: 基石名单是宣传卖点，锁定期一过照样卖。
+        isPrimary: true
+        contextKeywords:
+          - 发行机制
+        frequency: mid
+    aliases:
+      - raw: 基石投资者
+        aliasType: primary
+      - raw: Cornerstone
+        aliasType: en_alias
+      - raw: 基石
+        aliasType: cn_alias
+    viz:
+      type: IpoLottery
+      config:
+        issuePrice: 10
+        rate: 0.2
+    insights:
+      affects:
+        - 发行成败：基石决定下限
+        - 信心信号：名单质量
+      good:
+        - 明星基石：认购火爆
+      bad:
+        - 锁定期满：潜在抛压
+      policy:
+        - 招股书的基石安排披露
+      example: 开业前就充值 100 万的会员：撑场面，但卡里的钱早晚要花完（解禁）。
+  - slug: lan-chou-gu
+    headword: 蓝筹股
+    categoryL1: 港股
+    categoryL2: 股票类型
+    difficulty: L1
+    summaryPlain: 香港市场里那些块头大、赚钱稳、常年派息的老牌公司股票，像赌场里的蓝筹码一样面值大、压舱。
+    riskNote: 蓝筹也会阴跌，只是相对小盘股更抗跌；高息不等于高收益。
+    frequency: high
+    popularity: 800
+    senses:
+      - senseKey: default
+        plainExplain: 在港股市场中市值大、业绩稳定、派息记录良好的大型股，如汇丰、腾讯、友邦。
+        example: 很多港股基金重仓的是几只蓝筹：它们占指数权重高，指数涨跌基本看它们脸色。
+        notMeaning: 蓝筹不是不会跌，而是雷更少、流动性更好。
+        isPrimary: true
+        contextKeywords:
+          - 大盘
+          - 稳健
+          - 汇丰
+          - 指数权重
+        frequency: high
+    aliases:
+      - raw: 蓝筹股
+        aliasType: primary
+      - raw: 蓝筹
+        aliasType: cn_alias
+      - raw: blue chip
+        aliasType: en_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: 蓝筹 = 恒生指数的压舱石
+    insights:
+      affects:
+        - 指数：权重高的蓝筹主导恒指走势
+        - 散户组合：买蓝筹图安稳收息
+        - 市场情绪：蓝筹稳则大盘底盘稳
+      good:
+        - 现金流分红稳定：适合长期收息
+        - 流动性好：进出方便，不容易被闷杀
+      bad:
+        - 成长慢：牛市里跑输中小盘
+        - 高杠杆/高息蓝筹（银行地产）遇周期下行一样杀
+      policy:
+        - 利率环境：港元挂钩美元，美联储利率影响高息股估值
+        - 南向资金偏好：内地资金加仓偏好蓝筹龙头
+        - 回购/派息政策：管理层回报意愿驱动股价
+      example: 蓝筹股就像学校里的资深班主任：教的科目不算新潮，但年年出成绩、家长信得过。遇到学区改革（政策/周期波动），全班也会慌，但扎实的底子仍在。
+  - slug: lao-qian-gu
+    headword: 老千股
+    categoryL1: 港股
+    categoryL2: 高风险股
+    difficulty: L3
+    summaryPlain: 港股里不断用供股、配股、合股等手段「合法抢劫」散户的股票：总股本越滚越大，你的股份被稀释成零头。
+    riskNote: 老千股是港股散户的最大陷阱，最好一开始就不碰。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 通过频繁大比例供股/配股把股价越做越低、不断摊薄小股东权益的港股股票。
+        example: 有只股票年年大比例供股，股价一次比一次低，持股者的比例被洗得几乎为零，媒体直接点名批评这是千术。
+        notMeaning: 老千股不是普通的烂公司，而是有策略地系统性稀释散户。
+        isPrimary: true
+        contextKeywords:
+          - 供股
+          - 配股
+          - 稀释
+          - 耍猴
+        frequency: mid
+    aliases:
+      - raw: 老千股
+        aliasType: primary
+      - raw: 妖股
+        aliasType: cn_alias
+      - raw: 不断供股的股票
+        aliasType: cn_alias
+    viz:
+      type: PoolDilution
+      config:
+        title: 老千股的套路：越供越水
+    insights:
+      affects:
+        - 小股东：股权比例每供一次都被洗一次
+        - 市场信心：老千股拖累整个港股散户生态
+        - 监管：被点名后壳价值大跌
+      good:
+        - 认清套路就是最大的收益：及时离场不参与
+        - 监管对极端个案可勒令停牌调查
+      bad:
+        - 反复供股+合股循环：账面资产被合法稀释归零
+        - 明知是坑还赌「庄家拉股价」= 火中取栗
+      policy:
+        - 供股须经股东大会+港交所程序，但成本很低
+        - 港股无涨跌停：大跌没有缓冲垫
+        - 集体诉讼/小股东维权成本高，执行难
+      example: 室友每次都拉你合资买东西：你出一份他出 0.1 份，却按你的全款记账。表面上次次合法、你也次次签字（不签就被摊得更狠），最后东西都是他的、账都是你的——这就是老千股的千术逻辑。
+  - slug: ma-zhan
+    headword: 孖展
+    categoryL1: 港股
+    categoryL2: 杠杆用语
+    difficulty: L2
+    summaryPlain: 粤语「Margin」音译：保证金杠杆交易，打新和买股都常用。
+    riskNote: 九成孖展=10 倍杠杆，波动 10% 就本金翻倍或归零。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 粤语「Margin」音译：保证金杠杆交易，打新和买股都常用。
+        example: 比如用九成保证金融资打新，赚得快亏得更快。
+        notMeaning: 九成孖展=10 倍杠杆，波动 10% 就本金翻倍或归零。
+        isPrimary: true
+        contextKeywords:
+          - 杠杆用语
+        frequency: mid
+    aliases:
+      - raw: 孖展
+        aliasType: primary
+      - raw: 保证金
+        aliasType: cn_alias
+      - raw: margin
+        aliasType: en_alias
+      - raw: 融资
+        aliasType: cn_alias
+    viz:
+      type: LeverageWheel
+      config:
+        mode: warrant
+        leverage: 10
+    insights:
+      affects:
+        - 杠杆文化：港股散户的加速器
+        - 打新融资：券商的生意
+      good:
+        - 新股大涨：杠杆暴利
+      bad:
+        - 穿招+杠杆：双重爆仓
+      policy:
+        - 券商孖展比例与追缴规则
+      example: 信用卡分期买彩票：中了单车变摩托，不中债台高筑。
+  - slug: niu-xiong-zheng
+    headword: 牛熊证
+    categoryL1: 港股
+    categoryL2: 杠杆产品
+    difficulty: L3
+    summaryPlain: 自带强制收回条款的港股杠杆凭证：牛证看涨、熊证看跌，价格一旦触碰收回价立刻归零。
+    riskNote: 「碰一下收回价即终止」意味着即使方向最终正确也可能被中途打爆。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 牛熊证（CBBC）是跟踪正股、带强制收回机制的杠杆证：牛证看多，熊证看空。
+        example: 有只恒指牛证收回价比现货低 200 点，某日大盘跳水刚好碰到，这份牛证当天就退市归零，收盘后指数涨回来也救不了它。
+        notMeaning: 牛熊证不是窝轮，也无需等到到期——它可能提前一天被强制收回。
+        isPrimary: true
+        contextKeywords:
+          - 收回
+          - 强制收回
+          - CBBC
+          - 归零
+        frequency: mid
+    aliases:
+      - raw: 牛熊证
+        aliasType: primary
+      - raw: CBBC
+        aliasType: en_alias
+      - raw: 认沽权证
+        aliasType: cn_alias
+    viz:
+      type: LeverageWheel
+      config:
+        mode: cbbc
+        kind: bull
+        strike: 50
+        leverage: 10
+    insights:
+      affects:
+        - 正股：收回前后发行商集中对冲，波动被放大
+        - 短线资金：赌隔夜方向以小博大
+        - 基金/老千：牛熊证是工具，中招多是散户
+      good:
+        - 方向对且没碰收回价：杠杆盈利极爽
+        - 比窝轮规则简单：没有时间价值计算那么玄
+      bad:
+        - 假跌破收回价再收回：闷杀最惨
+        - 持有过久的磨损：发行人越对冲它越衰减
+      policy:
+        - 收回机制：价格触及即终止，不可申诉
+        - 结算价规则：收回后按官方机制价结算
+        - 无涨跌幅限制：触碰那一刻就可能暴跌 90%+
+      example: 玩密室逃脱头顶倒计时的警报线：头顶 5 厘米（收回价）就是警戒线，铃一响立刻判你出局，哪怕你 3 秒后就能拿到出口钥匙。牛熊证玩的就是别碰那条线。
+  - slug: pei-gu
+    headword: 配股
+    categoryL1: 港股
+    categoryL2: 集资方式
+    difficulty: L2
+    summaryPlain: 公司把新股票折价卖给特定的机构或个人，钱直接进公司，老股东的持股比例被悄悄摊薄。
+    riskNote: 折价配股常砸盘：开盘低开、情绪受损；大股东配股减持更伤。
+    frequency: mid
+    popularity: 560
+    senses:
+      - senseKey: default
+        plainExplain: 上市公司向特定对象（多为机构）折价发行新股募集资金，散户没有优先认购权。
+        example: 一只热门股宣布「先旧后新」：大股东先卖老股给机构再认购新股套现，散户第二天醒来股价低开一成。
+        notMeaning: 配股不是给全体老股东的供股，散户通常无权参与。
+        isPrimary: true
+        contextKeywords:
+          - 折价
+          - 机构
+          - 摊薄
+          - 先旧后新
+        frequency: mid
+    aliases:
+      - raw: 配股
+        aliasType: primary
+      - raw: placement
+        aliasType: en_alias
+      - raw: 定向配售
+        aliasType: cn_alias
+    viz:
+      type: PoolDilution
+      config:
+        title: 配股：新鱼游进来了
+    insights:
+      affects:
+        - 股价：折价成交价成为新锚，常引发短线抛压
+        - 老股东：比例被摊薄又分不到蛋糕
+        - 机构：低价拿到筹码，赚折价+情绪修复两段
+      good:
+        - 引入重磅机构：战略背书+流动性改善
+        - 募资投向明确且优质：中长期摊薄被增长对冲
+      bad:
+        - 大股东借「先旧后新」变相减持：最招骂
+        - 连环配股：股价越配越低，信心崩塌
+      policy:
+        - 一般授权上限：12 个月内不超过两成股本
+        - 大股东配售须遵守减持规则与窗口期
+        - 闪电配售/定价机制被交易所重点关注
+      example: 小区物业打折把停车位卖给关系户业主：物业收到钱（公司融资），关系户占了便宜（机构折价），原业主却发现车位比以前紧张了（摊薄）——你虽然没被赶走，但你的停车权不值钱了。
+  - slug: quan-yi-pi-lu
+    headword: 权益披露
+    categoryL1: 港股
+    categoryL2: 信披规则
+    difficulty: L2
+    summaryPlain: 港股股东持股达到 5% 等条件必须申报：谁在悄悄吸筹，公告会告诉你。
+    riskNote: 披露有滞后，看到公告时仓位可能已经变了。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 港股股东持股达到 5% 等条件必须申报：谁在悄悄吸筹，公告会告诉你。
+        example: 比如某机构举牌港股，披露易一更新，全市场都看见它的成本。
+        notMeaning: 披露有滞后，看到公告时仓位可能已经变了。
+        isPrimary: true
+        contextKeywords:
+          - 信披规则
+        frequency: mid
+    aliases:
+      - raw: 权益披露
+        aliasType: primary
+      - raw: 举牌
+        aliasType: cn_alias
+      - raw: 披露易
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        variant: board
+        title: 持股 5% 必须报
+    insights:
+      affects:
+        - 筹码透明：追踪大户动向
+        - 股价：举牌常引发跟风
+      good:
+        - 产业资本举牌：长期看好
+      bad:
+        - 举牌后套现：幌子
+      policy:
+        - 港交所权益披露制度
+      example: 班里攒钱最多的同学要公示账户：谁在攒、攒多少一目了然。
+  - slug: ru-fei
+    headword: 入飞
+    categoryL1: 港股
+    categoryL2: 打新用语
+    difficulty: L2
+    summaryPlain: 港股「认购/买入」的粤语说法：飞指飞机票，入场券的意思。
+    riskNote: 入飞前想清楚是打新还是接盘。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 港股「认购/买入」的粤语说法：飞指飞机票，入场券的意思。
+        example: 比如讨论新股时说「我都已经申购」，就是下手了。
+        notMeaning: 入飞前想清楚是打新还是接盘。
+        isPrimary: true
+        contextKeywords:
+          - 打新用语
+        frequency: mid
+    aliases:
+      - raw: 入飞
+        aliasType: primary
+      - raw: 认购
+        aliasType: cn_alias
+      - raw: 买飞
+        aliasType: cn_alias
+    viz:
+      type: IpoLottery
+      config:
+        issuePrice: 10
+        rate: 0.1
+    insights:
+      affects:
+        - 打新文化：港股社群的日常词
+        - 粤语金融圈：语言即身份
+      good:
+        - 早入场：拿票便宜
+      bad:
+        - 高位入飞：变接盘
+      policy:
+        - 无政策含义
+      example: 音乐节抢票：入飞=买票进场。票买贵了（高位买入），照样进场亏。
+  - slug: vcm
+    headword: VCM
+    categoryL1: 港股
+    categoryL2: 风控机制
+    difficulty: L3
+    summaryPlain: 港股的市场波动调节机制：部分股票短时间波动过大时触发 5 分钟冷静期。
+    riskNote: 只在限定股票和时段生效，不是全市场涨跌停。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 港股的市场波动调节机制：部分股票短时间波动过大时触发 5 分钟冷静期。
+        example: 比如某蓝筹两分钟内急涨 10%，触发冷静期，价格区间被锁定。
+        notMeaning: 只在限定股票和时段生效，不是全市场涨跌停。
+        isPrimary: true
+        contextKeywords:
+          - 风控机制
+        frequency: mid
+    aliases:
+      - raw: VCM
+        aliasType: primary
+      - raw: 波动调节机制
+        aliasType: cn_alias
+    viz:
+      type: CircuitBreaker
+      config:
+        title: VCM：5 分钟冷静期
+    insights:
+      affects:
+        - 大盘股波动：冷却极端行情
+        - 程序交易：抑制算法互相踩踏
+      good:
+        - 防止乌龙指式闪崩
+      bad:
+        - 冷静期后继续原方向
+      policy:
+        - 港交所对候选股票动态调整
+      example: 拳击赛被强制暂停：不是判负，是让双方冷静 5 分钟再打。
+  - slug: wei-shui
+    headword: 尾水
+    categoryL1: 港股
+    categoryL2: 行情阶段
+    difficulty: L2
+    summaryPlain: 一轮升势的最后阶段：主力准备收摊，剩下的流动性是尾水。
+    riskNote: 尾水阶段最诱人也最危险，涨的是情绪不是价值。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 一轮升势的最后阶段：主力准备收摊，剩下的流动性是尾水。
+        example: 比如板块涨了一个月最后三天加速，那就是末段行情。
+        notMeaning: 尾水阶段最诱人也最危险，涨的是情绪不是价值。
+        isPrimary: true
+        contextKeywords:
+          - 行情阶段
+        frequency: mid
+    aliases:
+      - raw: 尾水
+        aliasType: primary
+      - raw: 鱼尾
+        aliasType: cn_alias
+      - raw: 最后阶段
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 13
+    insights:
+      affects:
+        - 择时信号：尾水=离场窗口
+        - 情绪周期：最后的狂欢
+      good:
+        - 尾水前段：加速上涨
+      bad:
+        - 尾水末端：断崖
+      policy:
+        - 无政策含义
+      example: 宴席散场前的最后一杯酒：最贵、最烈、最容易喝多（被套）。
+  - slug: wo-lun
+    headword: 窝轮
+    categoryL1: 港股
+    categoryL2: 杠杆产品
+    difficulty: L3
+    summaryPlain: 港股市场的「涡轮」：一种花小钱撬动正股涨跌的认购/认沽权证，杠杆大、损耗快。
+    riskNote: 窝轮是零和的杠杆工具，时间价值每天都在流失，赌错归零。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 由机构发行的认股证：给持有人在到期前按行使价买卖正股的权利，港股按张买卖。
+        example: 腾讯涨 1%，和它挂钩的认购证可能涨 8%——这就是杠杆；腾讯不动，它照样可能跌 2%。
+        notMeaning: 窝轮不是股票，没有股息也没有投票权。
+        isPrimary: true
+        contextKeywords:
+          - 涡轮
+          - 认股证
+          - 杠杆
+          - 发行商
+        frequency: mid
+    aliases:
+      - raw: 窝轮
+        aliasType: primary
+      - raw: 涡轮
+        aliasType: cn_alias
+      - raw: 认股证
+        aliasType: cn_alias
+    viz:
+      type: LeverageWheel
+      config:
+        mode: warrant
+        leverage: 10
+    insights:
+      affects:
+        - 正股：发行商会动态对冲，间接影响成交节奏
+        - 短线资金：窝轮让散户以小博大，波动放大
+        - 发行商：赚定价差和时间价值，散户是交易对手
+      good:
+        - 方向+时间都赌对：几天翻倍不稀奇
+        - 对冲持仓：买认沽窝轮给正股上保险
+      bad:
+        - 时间价值每天都在蒸发：横盘也亏
+        - 杠杆杀：正股小跌，窝轮大跳水
+      policy:
+        - 有到期日：到期归零，不能当股票拿
+        - 发行商报价义务：买卖差价可能被拉大
+        - 无涨跌幅限制：窝轮单日腰斩常见
+      example: 给出租屋装了个弹簧门：门槛低、弹力大——你小推一下（小钱）它能飞很远（大波动）。问题是时间久了弹簧会松（时间价值耗损），用错了方向门就砸你脸上。
+  - slug: xian-gu
+    headword: 仙股
+    categoryL1: 港股
+    categoryL2: 低价股
+    difficulty: L2
+    summaryPlain: 香港市场里价格只有几分钱（不到 1 港元）的股票，买一手很便宜、但公司的规模也常常很小。
+    riskNote: 价格低不等于便宜：仙股波动大、易被操纵，还可能仙股化后无人问津。
+    frequency: mid
+    popularity: 640
+    senses:
+      - senseKey: default
+        plainExplain: 港股中股价低于 1 港元（几分钱居多）的股票，因「便宜如仙」被戏称为仙股。
+        example: 港媒盘点过低价股名单，有只老牌地产股跌到几分钱，公司业务年年缩水，买一手像买废纸。
+        notMeaning: 价格低≠被低估，很多仙股是烂公司跌出来的。
+        isPrimary: true
+        contextKeywords:
+          - 低价股
+          - 香港
+          - 几分钱
+          - 混
+        frequency: mid
+    aliases:
+      - raw: 仙股
+        aliasType: primary
+      - raw: 低价股
+        aliasType: cn_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: 仙股 vs 蓝筹：小盘到底有多小
+    insights:
+      affects:
+        - 投资者一手成本极低，但公司基本面常常更差
+        - 指数：仙股几乎永远进不了恒生指数这类旗舰指数
+        - 壳市场：仙股常被借壳炒壳价
+      good:
+        - 低于 1 港元心理关口少：一部分人觉得跌无可跌
+        - 借壳/注资传闻一旦落实，股价可能翻数倍
+      bad:
+        - 流动性差：想卖时没人接盘
+        - 侵蚀性合股/供股反复上演，越持越缩水
+      policy:
+        - 港股无涨跌幅限制：仙股一天腰斩也常见
+        - 除牌机制：长期仙股可能被取消上市地位
+        - 供股摊薄规则宽松：老千股惯用作案土壤
+      example: 楼下小卖部的汽水 2 毛五一瓶，连锁超市卖 3 元——是超市抢钱吗？不一定：小卖部可能快撤摊、货还积压。股票也一样，几分钱常常是因为没人要、公司烂，而不是捡漏。
+  - slug: yi-gu-dai-xi
+    headword: 以股代息
+    categoryL1: 港股
+    categoryL2: 分红方式
+    difficulty: L3
+    summaryPlain: 用股票代替现金发股息：公司省现金，股东多拿票。
+    riskNote: 股本变多、股价除权，总资产不变，想要现金的得自己卖。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 用股票代替现金发股息：公司省现金，股东多拿票。
+        example: 比如港股公司给选择：要现金还是要股票。
+        notMeaning: 股本变多、股价除权，总资产不变，想要现金的得自己卖。
+        isPrimary: true
+        contextKeywords:
+          - 分红方式
+        frequency: mid
+    aliases:
+      - raw: 以股代息
+        aliasType: primary
+      - raw: Scrip Dividend
+        aliasType: en_alias
+      - raw: 股票股息
+        aliasType: cn_alias
+    viz:
+      type: ExRightAdjust
+      config:
+        title: 以股代息：不发钱发票
+    insights:
+      affects:
+        - 公司现金流：省出现金
+        - 股东结构：持股比例微变
+      good:
+        - 现金紧张时的缓冲
+        - 长期持股者可累积股数
+      bad:
+        - 除权后面临贴权
+        - 想要现金要自己卖票
+      policy:
+        - 派息政策的公司自治
+      example: 老板说这个月工资发公司产品抵：你要么收下产品（股票），要么自己摆摊卖掉换钱。
+  - slug: yi-shou-dang
+    headword: 一手党
+    categoryL1: 港股
+    categoryL2: 打新策略
+    difficulty: L2
+    summaryPlain: 只申购一手新股的参与者：用最小成本博彩票式中签率。
+    riskNote: 一手中签率通常最高，但绝对收益也小；热门股照样难中。
+    frequency: high
+    popularity: 750
+    senses:
+      - senseKey: default
+        plainExplain: 只申购一手新股的参与者：用最小成本博彩票式中签率。
+        example: 比如港股打新只申一手，多账户撒网提高中签概率。
+        notMeaning: 一手中签率通常最高，但绝对收益也小；热门股照样难中。
+        isPrimary: true
+        contextKeywords:
+          - 打新策略
+        frequency: high
+    aliases:
+      - raw: 一手党
+        aliasType: primary
+      - raw: 一手申购
+        aliasType: cn_alias
+      - raw: 顶头槌
+        aliasType: cn_alias
+    viz:
+      type: IpoLottery
+      config:
+        issuePrice: 10
+        rate: 0.5
+    insights:
+      affects:
+        - 中签率：一手党是数学最优解之一
+        - 打新生态：港股的特色群体
+      good:
+        - 低成本博收益：划算
+      bad:
+        - 中签也赚不多
+      policy:
+        - 港股无市值门槛
+      example: 彩票站里最淡定的大爷：每期只买一注，中的是小钱，不中心态不崩。
+  - slug: ying-jing
+    headword: 盈警
+    categoryL1: 港股
+    categoryL2: 公告
+    difficulty: L1
+    summaryPlain: 港股公司的亏钱预告：业绩可能大幅差于预期时主动示警。
+    riskNote: 盈警常是连环跌的开始，别急着抄底。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 港股公司的亏钱预告：业绩可能大幅差于预期时主动示警。
+        example: 比如港股公司发亏损预告说净利可能下滑五成，股价次日跌一成。
+        notMeaning: 盈警常是连环跌的开始，别急着抄底。
+        isPrimary: true
+        contextKeywords:
+          - 公告
+        frequency: mid
+    aliases:
+      - raw: 盈警
+        aliasType: primary
+      - raw: 盈利警告
+        aliasType: cn_alias
+      - raw: Negative Profit Alert
+        aliasType: en_alias
+    viz:
+      type: EarningsSeason
+      config:
+        title: 盈警：先报个忧
+    insights:
+      affects:
+        - 股价：公告日大跌标配
+        - 基本面：衰退的前哨
+      good:
+        - 利空出尽：预期打满后反弹
+      bad:
+        - 盈警连环发：无底洞
+      policy:
+        - 港交所的披露要求
+      example: 考试前跟家长打招呼「这次可能要挨揍」：先降低预期，但揍（跌）照挨。
+  - slug: ying-xi
+    headword: 盈喜
+    categoryL1: 港股
+    categoryL2: 公告
+    difficulty: L1
+    summaryPlain: 港股公司的赚钱预告：业绩大幅好于预期时主动发喜报。
+    riskNote: 盈喜是预期管理，正式财报出来照样可能见光死。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 港股公司的赚钱预告：业绩大幅好于预期时主动发喜报。
+        example: 比如港股公司发布盈利预喜，第二天股价常跳空高开。
+        notMeaning: 盈喜是预期管理，正式财报出来照样可能见光死。
+        isPrimary: true
+        contextKeywords:
+          - 公告
+        frequency: mid
+    aliases:
+      - raw: 盈喜
+        aliasType: primary
+      - raw: 盈警
+        aliasType: cn_alias
+      - raw: 盈利警告
+        aliasType: cn_alias
+    viz:
+      type: EarningsSeason
+      config:
+        title: 盈喜：先报个喜
+    insights:
+      affects:
+        - 股价：公告日常见跳空
+        - 信心：管理层主动释放乐观
+      good:
+        - 大幅盈喜：业绩拐点信号
+      bad:
+        - 盈喜后见顶：利好出尽
+      policy:
+        - 披露规则对盈喜的要求
+      example: 考试前跟家长打招呼「这次考得好」：正式成绩单下来前，先给你吃颗定心丸。
+  - slug: zhi-shi
+    headword: 止蚀
+    categoryL1: 港股
+    categoryL2: 止损用语
+    difficulty: L1
+    summaryPlain: 港股「止损」的粤语说法：跌到设定的位置就卖出，止血不再流。
+    riskNote: 止损是技术更是心理：承认错误比预测正确难。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 港股「止损」的粤语说法：跌到设定的位置就卖出，止血不再流。
+        example: 比如跌穿成本价一成就卖出，不抱幻想。
+        notMeaning: 止损是技术更是心理：承认错误比预测正确难。
+        isPrimary: true
+        contextKeywords:
+          - 止损用语
+        frequency: mid
+    aliases:
+      - raw: 止蚀
+        aliasType: primary
+      - raw: 止盈
+        aliasType: cn_alias
+      - raw: 止损
+        aliasType: cn_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        mode: cut
+        shares: 1000
+    insights:
+      affects:
+        - 风控文化：老港股的第一课
+        - 心理账户：止蚀是认错不是失败
+      good:
+        - 纪律止蚀：活得久
+      bad:
+        - 该蚀不蚀：小伤变内伤
+      policy:
+        - 无政策含义
+      example: 手指割伤先包扎（止蚀），等它自己好（死扛）可能感染（深套）。
+  - slug: zhi-shi-2
+    headword: 执尸
+    categoryL1: 港股
+    categoryL2: 抄底用语
+    difficulty: L3
+    summaryPlain: 港股黑话：买入别人被迫割肉/平仓抛出的低价股票，像收尸。
+    riskNote: 执尸是火中取栗：尸体可能还有气（继续跌），接刀要戴手套（止损）。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 港股黑话：买入别人被迫割肉/平仓抛出的低价股票，像收尸。
+        example: 比如连环爆仓后有人专门接刀，捡带血筹码。
+        notMeaning: 执尸是火中取栗：尸体可能还有气（继续跌），接刀要戴手套（止损）。
+        isPrimary: true
+        contextKeywords:
+          - 抄底用语
+        frequency: mid
+    aliases:
+      - raw: 执尸
+        aliasType: primary
+      - raw: 接飞刀
+        aliasType: cn_alias
+      - raw: 捡便宜
+        aliasType: cn_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: trap
+        shares: 500
+    insights:
+      affects:
+        - 危机机会：错杀的黄金
+        - 风险：刀口舔血
+      good:
+        - 流动性危机后：反弹最猛
+      bad:
+        - 接到飞刀：二次伤害
+      policy:
+        - 无政策含义
+      example: 二手房市里专买急售房的：房东跳楼价（被强平）时出手，抄的是绝望不是价值。
+  - slug: zuo-hao-zuo-dan
+    headword: 做好/做淡
+    categoryL1: 港股
+    categoryL2: 多空调语
+    difficulty: L2
+    summaryPlain: 港股的「做多/做空」说法：看好买入叫做好，看跌做空叫做淡。
+    riskNote: 做淡要借券付息，方向错了亏损没顶。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 港股的「做多/做空」说法：看好买入叫做好，看跌做空叫做淡。
+        example: 比如港股论坛说「淡友反攻」，指的是做空的资金在发力。
+        notMeaning: 做淡要借券付息，方向错了亏损没顶。
+        isPrimary: true
+        contextKeywords:
+          - 多空调语
+        frequency: mid
+    aliases:
+      - raw: 做好
+        aliasType: primary
+      - raw: 做淡
+        aliasType: cn_alias
+      - raw: 睇好
+        aliasType: cn_alias
+      - raw: 睇淡
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config:
+        title: 做好 vs 做淡
+    insights:
+      affects:
+        - 粤语语境：港股社群的接头暗号
+        - 多空结构：好友淡友的博弈
+      good:
+        - 做好：顺着升势
+        - 做淡：对冲或做空
+      bad:
+        - 做淡遇轧空：亏损放大
+      policy:
+        - 港股沽空名单制度
+      example: 内地说「看多」，香港说「做好」：同一个意思，两套皮肤。去港股论坛先学方言。

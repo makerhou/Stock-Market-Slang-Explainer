@@ -1,0 +1,7122 @@
+source: gen from full.tsv --all 市场×类型×关键词路由 (待精修)
+terms:
+  - slug: ji-dian
+    headword: 基点
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 金融市场通用的最小利率计量单位，一个基点等于0.01个百分点。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 金融市场通用的最小利率计量单位，一个基点等于0.01个百分点。
+        example: 本次降息幅度为25个基点，符合市场普遍预期。
+        isPrimary: true
+    aliases:
+      - raw: 基点
+        aliasType: primary
+      - raw: bp
+        aliasType: en_alias
+      - raw: basis point
+        aliasType: en_alias
+  - slug: ren-min-bi-zhong-jian-jia
+    headword: 人民币中间价
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行每个交易日公布的人民币兑美元中间价，作为在岸汇率日内波动的基准。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行每个交易日公布的人民币兑美元中间价，作为在岸汇率日内波动的基准。
+        example: 人民币中间价强于预期，显示官方引导汇率稳定的意图。
+        isPrimary: true
+    aliases:
+      - raw: 人民币中间价
+        aliasType: primary
+      - raw: 中间价
+        aliasType: cn_alias
+      - raw: 汇率中间价
+        aliasType: cn_alias
+  - slug: wai-hui-chu-bei-gui-mo
+    headword: 外汇储备规模
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行持有的可对外支付的外汇资产总额，是抵御外部冲击的重要缓冲。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行持有的可对外支付的外汇资产总额，是抵御外部冲击的重要缓冲。
+        example: 外汇储备规模连续多月回升，跨境资金流动保持平稳。
+        isPrimary: true
+    aliases:
+      - raw: 外汇储备规模
+        aliasType: primary
+      - raw: 外储
+        aliasType: cn_alias
+      - raw: Foreign Exchange Reserves
+        aliasType: en_alias
+  - slug: g-d-p-ping-jian-zhi-shu
+    headword: GDP平减指数
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 名义GDP与实际GDP之比推导的价格指数，是衡量整体物价变动的最广义指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 名义GDP与实际GDP之比推导的价格指数，是衡量整体物价变动的最广义指标。
+        example: GDP平减指数走低，说明全社会价格压力普遍减轻。
+        isPrimary: true
+    aliases:
+      - raw: GDP平减指数
+        aliasType: primary
+      - raw: GDP Deflator
+        aliasType: en_alias
+  - slug: d-r-0-0-7
+    headword: DR007
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 存款类机构之间以利率债质押的7天回购加权利率，被视为观察资金面的核心指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 存款类机构之间以利率债质押的7天回购加权利率，被视为观察资金面的核心指标。
+        example: DR007围绕政策利率窄幅波动，资金面保持平稳。
+        isPrimary: true
+    aliases:
+      - raw: DR007
+        aliasType: primary
+      - raw: 银行间存款类机构7天质押回购利率
+        aliasType: cn_alias
+  - slug: xin-yong-li-cha
+    headword: 信用利差
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 信用债与同期限无风险国债收益率之差，反映市场对信用风险的定价与风险偏好。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 信用债与同期限无风险国债收益率之差，反映市场对信用风险的定价与风险偏好。
+        example: 信用利差走阔，说明市场开始担忧企业违约风险。
+        isPrimary: true
+    aliases:
+      - raw: 信用利差
+        aliasType: primary
+      - raw: Credit Spread
+        aliasType: en_alias
+  - slug: zhai-quan-tong-bei-xiang
+    headword: 债券通北向
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 境外投资者经由香港买入内地银行间债券市场的互联互通机制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 境外投资者经由香港买入内地银行间债券市场的互联互通机制。
+        example: 债券通北向持续扩容，外资增持内地利率债。
+        isPrimary: true
+    aliases:
+      - raw: 债券通北向
+        aliasType: primary
+      - raw: 债券通
+        aliasType: cn_alias
+      - raw: Bond Connect
+        aliasType: en_alias
+  - slug: shui-hou-jing-ying-ye-li-run
+    headword: 税后净营业利润
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 把税后营业利润中与经营无关的部分剔除后得到的指标，常用于经济利润测算。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 把税后营业利润中与经营无关的部分剔除后得到的指标，常用于经济利润测算。
+        example: 税后净营业利润NOPAT为正，说明主业本身能赚钱。
+        isPrimary: true
+    aliases:
+      - raw: 税后净营业利润
+        aliasType: primary
+      - raw: NOPAT
+        aliasType: en_alias
+      - raw: Net Operating Profit After Tax
+        aliasType: en_alias
+  - slug: n-p-v-i-r-r
+    headword: NPV/IRR
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 评估项目投资回报的两个指标，NPV大于零或IRR高于资本成本即可行。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 评估项目投资回报的两个指标，NPV大于零或IRR高于资本成本即可行。
+        example: 用NPV/IRR测算，这个扩产项目值得上马。
+        isPrimary: true
+    aliases:
+      - raw: NPV/IRR
+        aliasType: primary
+      - raw: NPV
+        aliasType: en_alias
+      - raw: IRR
+        aliasType: en_alias
+      - raw: 净现值
+        aliasType: cn_alias
+      - raw: 内部收益率
+        aliasType: cn_alias
+  - slug: p-m-i-xin-ding-dan-fen-xiang
+    headword: PMI新订单分项
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 采购经理指数中反映未来需求的新订单子项，常被视作领先指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 采购经理指数中反映未来需求的新订单子项，常被视作领先指标。
+        example: PMI新订单分项回升，预示后续产出有望改善。
+        isPrimary: true
+    aliases:
+      - raw: PMI新订单分项
+        aliasType: primary
+      - raw: PMI New Orders
+        aliasType: en_alias
+  - slug: hui-dui-sun-yi
+    headword: 汇兑损益
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 外币货币性项目因汇率波动产生的折算差额，计入财务费用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 外币货币性项目因汇率波动产生的折算差额，计入财务费用。
+        example: 汇兑损益大额波动，是出口企业利润的扰动项。
+        isPrimary: true
+    aliases:
+      - raw: 汇兑损益
+        aliasType: primary
+      - raw: Foreign Exchange Gains/Losses
+        aliasType: en_alias
+  - slug: li-xi-shou-ru
+    headword: 利息收入
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 银行存款及债权投资取得的利息收益，冲减财务费用或单列。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 银行存款及债权投资取得的利息收益，冲减财务费用或单列。
+        example: 利息收入丰厚，说明公司账上现金充裕。
+        isPrimary: true
+    aliases:
+      - raw: 利息收入
+        aliasType: primary
+      - raw: Interest Income
+        aliasType: en_alias
+  - slug: zheng-fu-bu-zhu
+    headword: 政府补助
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 政府无偿拨付给企业的财政补贴、扶持资金，多计入其他收益。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 政府无偿拨付给企业的财政补贴、扶持资金，多计入其他收益。
+        example: 政府补助在利润中占比高，盈利可持续性存疑。
+        isPrimary: true
+    aliases:
+      - raw: 政府补助
+        aliasType: primary
+      - raw: Government Grants
+        aliasType: en_alias
+  - slug: liu-dong-zi-chan
+    headword: 流动资产
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 预计在一年内变现或耗用的资产，如货币资金、应收款与存货。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 预计在一年内变现或耗用的资产，如货币资金、应收款与存货。
+        example: 流动资产充足，短期偿债压力较小。
+        isPrimary: true
+    aliases:
+      - raw: 流动资产
+        aliasType: primary
+      - raw: Current Assets
+        aliasType: en_alias
+  - slug: huo-bi-zi-jin
+    headword: 货币资金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业库存现金、银行存款及可随时支取的资金，流动性最强。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 企业库存现金、银行存款及可随时支取的资金，流动性最强。
+        example: 货币资金能否覆盖短债，是判断财务安全性的关键。
+        isPrimary: true
+    aliases:
+      - raw: 货币资金
+        aliasType: primary
+      - raw: Cash and Cash Equivalents
+        aliasType: en_alias
+  - slug: zai-jian-gong-cheng
+    headword: 在建工程
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 尚未完工交付使用的基建与设备投资，转固后开始计提折旧。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 尚未完工交付使用的基建与设备投资，转固后开始计提折旧。
+        example: 在建工程长期不转固，可能是延迟折旧以美化利润。
+        isPrimary: true
+    aliases:
+      - raw: 在建工程
+        aliasType: primary
+      - raw: Construction in Progress
+        aliasType: en_alias
+  - slug: wu-xing-zi-chan
+    headword: 无形资产
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 没有实物形态的可辨认非货币性资产，如专利、商标与土地使用权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 没有实物形态的可辨认非货币性资产，如专利、商标与土地使用权。
+        example: 无形资产中专利占比高，技术壁垒突出。
+        isPrimary: true
+    aliases:
+      - raw: 无形资产
+        aliasType: primary
+      - raw: Intangible Assets
+        aliasType: en_alias
+  - slug: chang-qi-gu-quan-tou-zi
+    headword: 长期股权投资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对合营、联营企业等长期持有的股权，按权益法或成本法核算。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 对合营、联营企业等长期持有的股权，按权益法或成本法核算。
+        example: 长期股权投资占比高，投资收益是利润的重要来源。
+        isPrimary: true
+    aliases:
+      - raw: 长期股权投资
+        aliasType: primary
+      - raw: Long-term Equity Investment
+        aliasType: en_alias
+  - slug: qi-ta-quan-yi-gong-ju-tou-zi
+    headword: 其他权益工具投资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 指定以公允价值计量且变动计入其他综合收益的股权类投资。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 指定以公允价值计量且变动计入其他综合收益的股权类投资。
+        example: 其他权益工具投资的浮盈浮亏不经过利润表。
+        isPrimary: true
+    aliases:
+      - raw: 其他权益工具投资
+        aliasType: primary
+      - raw: Other Equity Instrument Investment
+        aliasType: en_alias
+  - slug: zhai-quan-tou-zi
+    headword: 债权投资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以摊余成本计量、持有至到期收取本息的债权类投资。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以摊余成本计量、持有至到期收取本息的债权类投资。
+        example: 债权投资到期收回本金，现金流较为稳定。
+        isPrimary: true
+    aliases:
+      - raw: 债权投资
+        aliasType: primary
+      - raw: Debt Investment
+        aliasType: en_alias
+  - slug: chang-qi-jie-kuan
+    headword: 长期借款
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 期限在一年以上的银行借款，多用于长期项目投资。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 期限在一年以上的银行借款，多用于长期项目投资。
+        example: 长期借款匹配长期资产，期限结构较为稳健。
+        isPrimary: true
+    aliases:
+      - raw: 长期借款
+        aliasType: primary
+      - raw: Long-term Borrowings
+        aliasType: en_alias
+  - slug: jing-you-xi-fu-zhai
+    headword: 净有息负债
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 有息负债减去货币资金等现金类资产后的净额，常作企业价值计算项。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 有息负债减去货币资金等现金类资产后的净额，常作企业价值计算项。
+        example: 净有息负债为负，说明公司实际处于净现金状态。
+        isPrimary: true
+    aliases:
+      - raw: 净有息负债
+        aliasType: primary
+      - raw: Net Debt
+        aliasType: en_alias
+  - slug: shi-shou-zi-ben
+    headword: 实收资本
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资者实际投入企业的资本金，即报表上的股本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 投资者实际投入企业的资本金，即报表上的股本。
+        example: 实收资本等于公司总股本对应的账面出资。
+        isPrimary: true
+    aliases:
+      - raw: 实收资本
+        aliasType: primary
+      - raw: Paid-in Capital
+        aliasType: en_alias
+  - slug: shou-xian-zi-jin
+    headword: 受限资金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 因保证金、冻结等原因不能自由动用的货币资金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 因保证金、冻结等原因不能自由动用的货币资金。
+        example: 货币资金中受限资金占比高，实际可动用现金要打折。
+        isPrimary: true
+    aliases:
+      - raw: 受限资金
+        aliasType: primary
+      - raw: Restricted Cash
+        aliasType: en_alias
+  - slug: wei-hu-xing-zi-ben-kai-zhi
+    headword: 维护性资本开支
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 仅为维持现有产能正常运转所需的最低资本开支。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 仅为维持现有产能正常运转所需的最低资本开支。
+        example: 扣除维护性资本开支后，自由现金流才更真实。
+        isPrimary: true
+    aliases:
+      - raw: 维护性资本开支
+        aliasType: primary
+      - raw: Maintenance Capex
+        aliasType: en_alias
+  - slug: kuo-zhang-xing-zi-ben-kai-zhi
+    headword: 扩张性资本开支
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 为新增产能、并购或进入新业务而进行的资本开支。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 为新增产能、并购或进入新业务而进行的资本开支。
+        example: 扩张性资本开支大增，公司为下一周期成长蓄力。
+        isPrimary: true
+    aliases:
+      - raw: 扩张性资本开支
+        aliasType: primary
+      - raw: Growth Capex
+        aliasType: en_alias
+  - slug: c-a-p-e
+    headword: CAPE
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 用过去十年平均通胀调整后盈利计算的市盈率，用于平滑周期波动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 用过去十年平均通胀调整后盈利计算的市盈率，用于平滑周期波动。
+        example: CAPE处于历史高位，提示长期估值偏贵。
+        isPrimary: true
+    aliases:
+      - raw: CAPE
+        aliasType: primary
+      - raw: Shiller PE
+        aliasType: en_alias
+      - raw: 周期调整市盈率
+        aliasType: cn_alias
+  - slug: gu-piao-nei-zai-jia-zhi
+    headword: 股票内在价值
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 基于公司未来现金流折现估算的真实价值，是价值投资的锚。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 基于公司未来现金流折现估算的真实价值，是价值投资的锚。
+        example: 市场价格低于内在价值，才构成安全边际。
+        isPrimary: true
+    aliases:
+      - raw: 股票内在价值
+        aliasType: primary
+      - raw: Intrinsic Value
+        aliasType: en_alias
+  - slug: zhai-wu-cheng-ben
+    headword: 债务成本
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业举债实际承担的税后利率，是WACC的另一组成部分。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 企业举债实际承担的税后利率，是WACC的另一组成部分。
+        example: 债务成本下降，公司整体融资环境转松。
+        isPrimary: true
+    aliases:
+      - raw: 债务成本
+        aliasType: primary
+      - raw: Cost of Debt
+        aliasType: en_alias
+  - slug: jing-ji-zeng-jia-zhi
+    headword: 经济增加值
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 税后净营业利润扣除全部资本成本后的剩余收益，衡量真正创造的价值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 税后净营业利润扣除全部资本成本后的剩余收益，衡量真正创造的价值。
+        example: EVA持续为正，说明公司真正在为股东创造超额价值。
+        isPrimary: true
+    aliases:
+      - raw: 经济增加值
+        aliasType: primary
+      - raw: EVA
+        aliasType: en_alias
+      - raw: Economic Value Added
+        aliasType: en_alias
+  - slug: g-a-r-p-ce-l-e
+    headword: GARP策略
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以合理价格买入适度成长公司的投资策略，兼顾成长与估值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以合理价格买入适度成长公司的投资策略，兼顾成长与估值。
+        example: GARP策略追求成长与估值的平衡。
+        isPrimary: true
+    aliases:
+      - raw: GARP策略
+        aliasType: primary
+      - raw: GARP
+        aliasType: en_alias
+      - raw: Growth at a Reasonable Price
+        aliasType: en_alias
+  - slug: ke-dan-jia
+    headword: 客单价
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 每笔订单或每个客户平均贡献的消费金额。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 每笔订单或每个客户平均贡献的消费金额。
+        example: 客单价提升，是消费股增长的重要来源。
+        isPrimary: true
+    aliases:
+      - raw: 客单价
+        aliasType: primary
+      - raw: Average Order Value
+        aliasType: en_alias
+  - slug: huo-bi-hua-l
+    headword: 货币化率
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 平台将用户流量或交易转化为收入的比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 平台将用户流量或交易转化为收入的比例。
+        example: 货币化率提升，是广告与电商平台的关键看点。
+        isPrimary: true
+    aliases:
+      - raw: 货币化率
+        aliasType: primary
+      - raw: Monetization Rate
+        aliasType: en_alias
+  - slug: gui-mo-xiao-ying
+    headword: 规模效应
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 随着产量扩大单位成本反而下降的经济规律。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 随着产量扩大单位成本反而下降的经济规律。
+        example: 规模效应下，龙头公司成本优势不断扩大。
+        isPrimary: true
+    aliases:
+      - raw: 规模效应
+        aliasType: primary
+      - raw: Economies of Scale
+        aliasType: en_alias
+  - slug: dan-wei-jing-ji-mo-xing
+    headword: 单位经济模型
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以单个客户或单笔订单为单位测算收入与成本是否划算的模型。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 以单个客户或单笔订单为单位测算收入与成本是否划算的模型。
+        example: 单位经济模型跑正，商业模式才真正成立。
+        isPrimary: true
+    aliases:
+      - raw: 单位经济模型
+        aliasType: primary
+      - raw: Unit Economics
+        aliasType: en_alias
+  - slug: chan-pin-jie-gou
+    headword: 产品结构
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公司各类产品收入与利润的构成比例，决定综合毛利率水平。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 公司各类产品收入与利润的构成比例，决定综合毛利率水平。
+        example: 高毛利产品占比提升，产品结构持续优化。
+        isPrimary: true
+    aliases:
+      - raw: 产品结构
+        aliasType: primary
+      - raw: Product Mix
+        aliasType: en_alias
+  - slug: mao-li-l-qu-shi
+    headword: 毛利率趋势
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 毛利率在多个期间上的变动方向，反映产品竞争力变化。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 毛利率在多个期间上的变动方向，反映产品竞争力变化。
+        example: 毛利率趋势连续改善，定价权在增强。
+        isPrimary: true
+    aliases:
+      - raw: 毛利率趋势
+        aliasType: primary
+      - raw: Gross Margin Trend
+        aliasType: en_alias
+  - slug: chan-neng-pa-po
+    headword: 产能爬坡
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新产能从投产到达产的逐步提升过程。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 新产能从投产到达产的逐步提升过程。
+        example: 产能爬坡顺利，业绩释放节奏快于预期。
+        isPrimary: true
+    aliases:
+      - raw: 产能爬坡
+        aliasType: primary
+      - raw: Capacity Ramp-up
+        aliasType: en_alias
+  - slug: quan-yi-fa
+    headword: 权益法
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对联营合营企业投资按持股比例确认被投资单位净资产与损益的方法。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 对联营合营企业投资按持股比例确认被投资单位净资产与损益的方法。
+        example: 权益法下，投资收益随被投资方利润同步变动。
+        isPrimary: true
+    aliases:
+      - raw: 权益法
+        aliasType: primary
+      - raw: Equity Method
+        aliasType: en_alias
+  - slug: cheng-ben-fa
+    headword: 成本法
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对子公司投资按初始成本入账、仅在宣告分红时确认收益的方法。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 对子公司投资按初始成本入账、仅在宣告分红时确认收益的方法。
+        example: 成本法下，母公司报表投资收益主要来自分红。
+        isPrimary: true
+    aliases:
+      - raw: 成本法
+        aliasType: primary
+      - raw: Cost Method
+        aliasType: en_alias
+  - slug: tan-yu-cheng-ben
+    headword: 摊余成本
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 金融资产扣除减值、按实际利率摊销后的账面成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 金融资产扣除减值、按实际利率摊销后的账面成本。
+        example: 债权投资按摊余成本后续计量，不随市价波动。
+        isPrimary: true
+    aliases:
+      - raw: 摊余成本
+        aliasType: primary
+      - raw: Amortized Cost
+        aliasType: en_alias
+  - slug: xian-jin-liu-zao-jia
+    headword: 现金流造假
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 将筹资或投资现金包装成经营现金流以美化造血能力的造假。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 将筹资或投资现金包装成经营现金流以美化造血能力的造假。
+        example: 现金流造假靠资金循环在报表间腾挪。
+        isPrimary: true
+    aliases:
+      - raw: 现金流造假
+        aliasType: primary
+      - raw: Cash Flow Fraud
+        aliasType: en_alias
+  - slug: shi-zhi-zhong-yu-xing-shi
+    headword: 实质重于形式
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按交易经济实质而非法律形式进行会计处理的原则。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按交易经济实质而非法律形式进行会计处理的原则。
+        example: 实质重于形式下，明股实债应作为负债处理。
+        isPrimary: true
+    aliases:
+      - raw: 实质重于形式
+        aliasType: primary
+      - raw: Substance over Form
+        aliasType: en_alias
+  - slug: cun-dai-shuang-gao
+    headword: 存贷双高
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 账上货币资金与有息负债同时高企的异常财务特征。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 账上货币资金与有息负债同时高企的异常财务特征。
+        example: 存贷双高往往是货币资金造假的预警信号。
+        isPrimary: true
+    aliases:
+      - raw: 存贷双高
+        aliasType: primary
+      - raw: High Cash and High Debt
+        aliasType: en_alias
+  - slug: xu-zeng-shou-ru
+    headword: 虚增收入
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 通过虚构交易、空转贸易等手段虚增营业收入的造假行为。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 通过虚构交易、空转贸易等手段虚增营业收入的造假行为。
+        example: 虚增收入必然伴随应收账款异常膨胀。
+        isPrimary: true
+    aliases:
+      - raw: 虚增收入
+        aliasType: primary
+      - raw: Fictitious Revenue
+        aliasType: en_alias
+  - slug: fei-liu-dong-zi-chan
+    headword: 非流动资产
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 预计在一年以上变现或耗用的资产，如固定资产、无形资产与长期投资。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 预计在一年以上变现或耗用的资产，如固定资产、无形资产与长期投资。
+        example: 非流动资产占比高，公司资产偏重。
+        isPrimary: true
+    aliases:
+      - raw: 非流动资产
+        aliasType: primary
+      - raw: Non-current Assets
+        aliasType: en_alias
+  - slug: qi-ta-fei-liu-dong-zi-chan
+    headword: 其他非流动资产
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 除长期投资、固定资产、无形资产外的长期资产项目。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 除长期投资、固定资产、无形资产外的长期资产项目。
+        example: 其他非流动资产需结合附注判断性质。
+        isPrimary: true
+    aliases:
+      - raw: 其他非流动资产
+        aliasType: primary
+      - raw: Other Non-current Assets
+        aliasType: en_alias
+  - slug: xian-jin-liu-jie-gou
+    headword: 现金流结构
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经营、投资、筹资三类现金流的正负搭配，反映公司所处阶段。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 经营、投资、筹资三类现金流的正负搭配，反映公司所处阶段。
+        example: 现金流结构显示公司处于扩张投入期。
+        isPrimary: true
+    aliases:
+      - raw: 现金流结构
+        aliasType: primary
+      - raw: Cash Flow Mix
+        aliasType: en_alias
+  - slug: shen-du-jia-zhi
+    headword: 深度价值
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以极低估值、高安全边际为特征的价值投资风格。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以极低估值、高安全边际为特征的价值投资风格。
+        example: 深度价值策略在市场恐慌时最有效。
+        isPrimary: true
+    aliases:
+      - raw: 深度价值
+        aliasType: primary
+      - raw: Deep Value
+        aliasType: en_alias
+  - slug: ba-fei-te-zhi-biao
+    headword: 巴菲特指标
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股市总市值与GDP之比，被巴菲特用作判断整体市场贵贱的指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股市总市值与GDP之比，被巴菲特用作判断整体市场贵贱的指标。
+        example: 巴菲特指标处于历史高位，提示整体市场偏贵。
+        isPrimary: true
+    aliases:
+      - raw: 巴菲特指标
+        aliasType: primary
+      - raw: Buffett Indicator
+        aliasType: en_alias
+  - slug: mao-li-l-kuo-zhang
+    headword: 毛利率扩张
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 毛利率在多个期间上持续提升的趋势，常由产品升级带来。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 毛利率在多个期间上持续提升的趋势，常由产品升级带来。
+        example: 毛利率扩张叠加规模效应，利润弹性显现。
+        isPrimary: true
+    aliases:
+      - raw: 毛利率扩张
+        aliasType: primary
+      - raw: Gross Margin Expansion
+        aliasType: en_alias
+  - slug: mao-li-l-shou-suo
+    headword: 毛利率收缩
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 毛利率在多个期间上持续下降的趋势，常由成本上升引发。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 毛利率在多个期间上持续下降的趋势，常由成本上升引发。
+        example: 毛利率收缩警示，公司定价权可能减弱。
+        isPrimary: true
+    aliases:
+      - raw: 毛利率收缩
+        aliasType: primary
+      - raw: Gross Margin Contraction
+        aliasType: en_alias
+  - slug: gui-mo-bu-jing-ji
+    headword: 规模不经济
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 规模超过临界点后单位成本反而上升的反向现象。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 规模超过临界点后单位成本反而上升的反向现象。
+        example: 规模不经济出现，说明组织过于臃肿。
+        isPrimary: true
+    aliases:
+      - raw: 规模不经济
+        aliasType: primary
+      - raw: Diseconomies of Scale
+        aliasType: en_alias
+  - slug: kuai-ji-zhu-ti
+    headword: 会计主体
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 会计为之服务的特定独立经济单位，是会计核算的空间范围前提。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 会计为之服务的特定独立经济单位，是会计核算的空间范围前提。
+        example: 会计主体假设把企业与所有者个人区分开。
+        isPrimary: true
+    aliases:
+      - raw: 会计主体
+        aliasType: primary
+      - raw: Accounting Entity
+        aliasType: en_alias
+  - slug: huo-bi-ji-liang
+    headword: 货币计量
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 会计以货币作为统一计量尺度记录交易的前提。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 会计以货币作为统一计量尺度记录交易的前提。
+        example: 货币计量假设下，难以量化的价值不入账。
+        isPrimary: true
+    aliases:
+      - raw: 货币计量
+        aliasType: primary
+      - raw: Monetary Measurement
+        aliasType: en_alias
+  - slug: he-ying-qi-ye
+    headword: 合营企业
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资方与其他方共同控制的被投资企业，按权益法核算。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资方与其他方共同控制的被投资企业，按权益法核算。
+        example: 合营企业投资按权益法确认损益。
+        isPrimary: true
+    aliases:
+      - raw: 合营企业
+        aliasType: primary
+      - raw: Joint Venture
+        aliasType: en_alias
+  - slug: lian-ying-qi-ye
+    headword: 联营企业
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资方对其有重大影响但无法控制的被投资企业，按权益法核算。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资方对其有重大影响但无法控制的被投资企业，按权益法核算。
+        example: 联营企业盈利同步增厚投资方投资收益。
+        isPrimary: true
+    aliases:
+      - raw: 联营企业
+        aliasType: primary
+      - raw: Associate
+        aliasType: en_alias
+  - slug: mao-li-e
+    headword: 毛利额
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 营业收入减去营业成本后的绝对金额，与毛利率一起看盈利规模。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 营业收入减去营业成本后的绝对金额，与毛利率一起看盈利规模。
+        example: 毛利额随收入扩张同步增长，产品盈利空间稳固。
+        isPrimary: true
+    aliases:
+      - raw: 毛利额
+        aliasType: primary
+      - raw: Gross Profit Amount
+        aliasType: en_alias
+  - slug: xiao-shou-jing-li-l
+    headword: 销售净利率
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 净利润占营业收入的比例，是最终赚钱效率的综合体现。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 净利润占营业收入的比例，是最终赚钱效率的综合体现。
+        example: 销售净利率长期稳定在高位，公司质地优秀。
+        isPrimary: true
+    aliases:
+      - raw: 销售净利率
+        aliasType: primary
+      - raw: Net Sales Margin
+        aliasType: en_alias
+  - slug: chang-qi-zi-chan
+    headword: 长期资产
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 回收期或使用期限超过一年的资产，如固定资产与长期投资。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 回收期或使用期限超过一年的资产，如固定资产与长期投资。
+        example: 长期资产占比高，公司资产偏重。
+        isPrimary: true
+    aliases:
+      - raw: 长期资产
+        aliasType: primary
+      - raw: Long-term Assets
+        aliasType: en_alias
+  - slug: san-hu-zi-jin
+    headword: 散户资金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 市场中散户投资者贡献的成交量与资金，通常被认为是反向指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 市场中散户投资者贡献的成交量与资金，通常被认为是反向指标。
+        example: 散户资金疯狂涌入时往往是顶部。
+        isPrimary: true
+    aliases:
+      - raw: 散户资金
+        aliasType: primary
+      - raw: Retail Flow
+        aliasType: en_alias
+  - slug: ji-qin-zhou-qi
+    headword: 基钦周期
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 约3-4年的短经济周期，由库存波动驱动，股市中常对应小牛市小熊市。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 约3-4年的短经济周期，由库存波动驱动，股市中常对应小牛市小熊市。
+        example: 基钦周期上行阶段股市表现较好。
+        isPrimary: true
+    aliases:
+      - raw: 基钦周期
+        aliasType: primary
+      - raw: Kitchin Cycle
+        aliasType: en_alias
+  - slug: zhu-ge-la-zhou-qi
+    headword: 朱格拉周期
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 约7-11年的中经济周期，由设备投资驱动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 约7-11年的中经济周期，由设备投资驱动。
+        example: 朱格拉周期决定中长期股市牛熊。
+        isPrimary: true
+    aliases:
+      - raw: 朱格拉周期
+        aliasType: primary
+      - raw: Juglar Cycle
+        aliasType: en_alias
+  - slug: kang-bo-zhou-qi
+    headword: 康波周期
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 约50-60年的长经济周期，由重大技术创新驱动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 约50-60年的长经济周期，由重大技术创新驱动。
+        example: 康波周期萧条阶段资产表现普遍低迷。
+        isPrimary: true
+    aliases:
+      - raw: 康波周期
+        aliasType: primary
+      - raw: Kondratiev Wave
+        aliasType: en_alias
+  - slug: fang-yu-hang-qing
+    headword: 防御行情
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公用事业、必选消费等防御板块领涨的行情，通常出现在经济下行期。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 公用事业、必选消费等防御板块领涨的行情，通常出现在经济下行期。
+        example: 防御行情里资金避险情绪浓。
+        isPrimary: true
+    aliases:
+      - raw: 防御行情
+        aliasType: primary
+      - raw: Defensive Rally
+        aliasType: en_alias
+  - slug: dao-shi-gong-ye-zhi-shu
+    headword: 道氏工业指数
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 道氏理论中代表经济整体的工业股平均指数，是道氏趋势判断的核心。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 道氏理论中代表经济整体的工业股平均指数，是道氏趋势判断的核心。
+        example: 道氏工业指数创新高确认牛市。
+        isPrimary: true
+    aliases:
+      - raw: 道氏工业指数
+        aliasType: primary
+      - raw: Dow Jones Industrial Average
+        aliasType: en_alias
+  - slug: dao-shi-gong-yong-zhi-shu
+    headword: 道氏公用指数
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 道氏理论中公用事业股平均指数，常作为利率与防御情绪参考。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 道氏理论中公用事业股平均指数，常作为利率与防御情绪参考。
+        example: 道氏公用指数走强说明市场避险。
+        isPrimary: true
+    aliases:
+      - raw: 道氏公用指数
+        aliasType: primary
+      - raw: Dow Jones Utility Average
+        aliasType: en_alias
+  - slug: fang-yu-gu
+    headword: 防御股
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 业绩稳定、受经济周期影响小的公用事业与必选消费类股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 业绩稳定、受经济周期影响小的公用事业与必选消费类股票。
+        example: 震荡市资金追捧防御股。
+        isPrimary: true
+    aliases:
+      - raw: 防御股
+        aliasType: primary
+      - raw: Defensive Stock
+        aliasType: en_alias
+  - slug: xiao-fei-gu
+    headword: 消费股
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 从事食品饮料、家电、零售等消费品业务的股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 从事食品饮料、家电、零售等消费品业务的股票。
+        example: 消费股跟随居民消费数据。
+        isPrimary: true
+    aliases:
+      - raw: 消费股
+        aliasType: primary
+      - raw: Consumer Stock
+        aliasType: en_alias
+  - slug: dian-zi-gu
+    headword: 电子股
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 消费电子、半导体、元器件类股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 消费电子、半导体、元器件类股票。
+        example: 电子股跟随消费电子周期。
+        isPrimary: true
+    aliases:
+      - raw: 电子股
+        aliasType: primary
+      - raw: Electronics Stock
+        aliasType: en_alias
+  - slug: xiang-cun-zhen-xing-gai-nian-gu
+    headword: 乡村振兴概念股
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 涉农与县域经济相关题材股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 涉农与县域经济相关题材股。
+        example: 乡村振兴概念受政策驱动。
+        isPrimary: true
+    aliases:
+      - raw: 乡村振兴概念股
+        aliasType: primary
+      - raw: Rural Revitalization Concept
+        aliasType: en_alias
+  - slug: chong-wu-jing-ji-gai-nian-gu
+    headword: 宠物经济概念股
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 宠物食品、医疗、用品题材股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 宠物食品、医疗、用品题材股。
+        example: 宠物经济概念增速快。
+        isPrimary: true
+    aliases:
+      - raw: 宠物经济概念股
+        aliasType: primary
+      - raw: Pet Economy Concept
+        aliasType: en_alias
+  - slug: yin-fa-jing-ji-gai-nian-gu
+    headword: 银发经济概念股
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 养老与老年消费题材股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 养老与老年消费题材股。
+        example: 银发经济概念受老龄化政策催化。
+        isPrimary: true
+    aliases:
+      - raw: 银发经济概念股
+        aliasType: primary
+      - raw: Silver Economy Concept
+        aliasType: en_alias
+  - slug: guo-jia-gu
+    headword: 国家股
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 国有资产授权投资机构持有的股份。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 国有资产授权投资机构持有的股份。
+        example: 国家股代表国有权益。
+        isPrimary: true
+    aliases:
+      - raw: 国家股
+        aliasType: primary
+      - raw: State Share
+        aliasType: en_alias
+  - slug: ding-xiang-gong-ju
+    headword: 定向工具
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 向特定机构投资者非公开发行的债务融资工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 向特定机构投资者非公开发行的债务融资工具。
+        example: 定向工具信息披露要求较低。
+        isPrimary: true
+    aliases:
+      - raw: 定向工具
+        aliasType: primary
+      - raw: Private Placement Note
+        aliasType: en_alias
+      - raw: PPN
+        aliasType: en_alias
+  - slug: kang-yi-te-bie-guo-zhai
+    headword: 抗疫特别国债
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 2020年为应对疫情特别发行的国债。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 2020年为应对疫情特别发行的国债。
+        example: 抗疫特别国债不计入常态赤字。
+        isPrimary: true
+    aliases:
+      - raw: 抗疫特别国债
+        aliasType: primary
+      - raw: Anti-epidemic Special Treasury
+        aliasType: en_alias
+  - slug: ping-zheng-shi-guo-zhai
+    headword: 凭证式国债
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以纸质凭证发行、面向个人的储蓄国债。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以纸质凭证发行、面向个人的储蓄国债。
+        example: 凭证式国债可提前兑取。
+        isPrimary: true
+    aliases:
+      - raw: 凭证式国债
+        aliasType: primary
+      - raw: Certificate Treasury Bond
+        aliasType: en_alias
+  - slug: fu-xi-guo-zhai
+    headword: 附息国债
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 定期支付票息、到期还本的中长期国债。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 定期支付票息、到期还本的中长期国债。
+        example: 附息国债是国债期货标的。
+        isPrimary: true
+    aliases:
+      - raw: 附息国债
+        aliasType: primary
+      - raw: Coupon Treasury Bond
+        aliasType: en_alias
+  - slug: gu-ding-li-l-zhai-quan
+    headword: 固定利率债券
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 票面利率在存续期内固定不变的债券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 票面利率在存续期内固定不变的债券。
+        example: 固定利率债券价格随利率反向变动。
+        isPrimary: true
+    aliases:
+      - raw: 固定利率债券
+        aliasType: primary
+      - raw: Fixed Rate Bond
+        aliasType: en_alias
+  - slug: lei-jin-li-l-zhai-quan
+    headword: 累进利率债券
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 利率随持有期限递增的债券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 利率随持有期限递增的债券。
+        example: 累进利率债券鼓励长期持有。
+        isPrimary: true
+    aliases:
+      - raw: 累进利率债券
+        aliasType: primary
+      - raw: Progressive Rate Bond
+        aliasType: en_alias
+  - slug: tong-zhang-gua-gou-zhai-quan
+    headword: 通胀挂钩债券
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 本金与利息随通胀指数调整的债券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 本金与利息随通胀指数调整的债券。
+        example: 通胀挂钩债券抗通胀。
+        isPrimary: true
+    aliases:
+      - raw: 通胀挂钩债券
+        aliasType: primary
+      - raw: Inflation-linked Bond
+        aliasType: en_alias
+  - slug: zheng-fu-zhi-chi-ji-gou-zhai
+    headword: 政府支持机构债
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行、铁道等政府支持机构发行的债券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行、铁道等政府支持机构发行的债券。
+        example: 政府支持机构债信用接近国债。
+        isPrimary: true
+    aliases:
+      - raw: 政府支持机构债
+        aliasType: primary
+      - raw: Government Agency Bond
+        aliasType: en_alias
+  - slug: hu-gang-shen-ji-jin
+    headword: 沪港深基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 可同时投资沪市、深市与港股的公募基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 可同时投资沪市、深市与港股的公募基金。
+        example: 沪港深基金灵活配置三地市场。
+        isPrimary: true
+    aliases:
+      - raw: 沪港深基金
+        aliasType: primary
+      - raw: HK Stock Connect Fund
+        aliasType: en_alias
+  - slug: xiao-fei-ji-chu-she-shi-r-e-i-t-s
+    headword: 消费基础设施REITs
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以购物中心等消费基础设施为底层的公募REITs。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以购物中心等消费基础设施为底层的公募REITs。
+        example: 消费基础设施REITs受益于客流。
+        isPrimary: true
+    aliases:
+      - raw: 消费基础设施REITs
+        aliasType: primary
+      - raw: Consumer REITs
+        aliasType: en_alias
+  - slug: gang-gu-tong-ji-jin
+    headword: 港股通基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 通过港股通投资港股的公募基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 通过港股通投资港股的公募基金。
+        example: 港股通基金受南向资金偏好影响。
+        isPrimary: true
+    aliases:
+      - raw: 港股通基金
+        aliasType: primary
+      - raw: Stock Connect Fund
+        aliasType: en_alias
+  - slug: duan-zhai-ji-jin
+    headword: 短债基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资短期债券、久期短、波动小的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 投资短期债券、久期短、波动小的基金。
+        example: 短债基金是现金管理替代。
+        isPrimary: true
+    aliases:
+      - raw: 短债基金
+        aliasType: primary
+      - raw: Short-duration Bond Fund
+        aliasType: en_alias
+  - slug: zhong-chang-zhai-ji-jin
+    headword: 中长债基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资中长期利率债与信用债的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 投资中长期利率债与信用债的基金。
+        example: 中长债基金对利率敏感。
+        isPrimary: true
+    aliases:
+      - raw: 中长债基金
+        aliasType: primary
+      - raw: Mid-long Bond Fund
+        aliasType: en_alias
+  - slug: chun-zhai-ji-jin
+    headword: 纯债基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 只投资债券、不投股票的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 只投资债券、不投股票的基金。
+        example: 纯债基金追求稳健票息。
+        isPrimary: true
+    aliases:
+      - raw: 纯债基金
+        aliasType: primary
+      - raw: Pure Bond Fund
+        aliasType: en_alias
+  - slug: er-ji-zhai-ji
+    headword: 二级债基
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 可少量直接投资股票的债券基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 可少量直接投资股票的债券基金。
+        example: 二级债基用小仓位增厚收益。
+        isPrimary: true
+    aliases:
+      - raw: 二级债基
+        aliasType: primary
+      - raw: Secondary Bond Fund
+        aliasType: en_alias
+  - slug: shang-pin-ji-jin
+    headword: 商品基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资商品期货或商品ETF的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 投资商品期货或商品ETF的基金。
+        example: 商品基金分散股债风险。
+        isPrimary: true
+    aliases:
+      - raw: 商品基金
+        aliasType: primary
+      - raw: Commodity Fund
+        aliasType: en_alias
+  - slug: kua-jing-e-t-f
+    headword: 跨境ETF
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资境外市场指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 投资境外市场指数的ETF。
+        example: 跨境ETF可投资美股港股。
+        isPrimary: true
+    aliases:
+      - raw: 跨境ETF
+        aliasType: primary
+      - raw: Cross-border ETF
+        aliasType: en_alias
+  - slug: sheng-ming-zhou-qi-ji-jin
+    headword: 生命周期基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按投资者年龄调整资产配置的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 按投资者年龄调整资产配置的基金。
+        example: 生命周期基金一站式配置。
+        isPrimary: true
+    aliases:
+      - raw: 生命周期基金
+        aliasType: primary
+      - raw: Life-cycle Fund
+        aliasType: en_alias
+  - slug: ban-dao-ti-ji-jin
+    headword: 半导体基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资半导体产业链的主题基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资半导体产业链的主题基金。
+        example: 半导体基金波动大。
+        isPrimary: true
+    aliases:
+      - raw: 半导体基金
+        aliasType: primary
+      - raw: Semiconductor Fund
+        aliasType: en_alias
+  - slug: yi-yao-zhu-ti-ji-jin
+    headword: 医药主题基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资医药行业的主题基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 投资医药行业的主题基金。
+        example: 医药主题基金长期空间大。
+        isPrimary: true
+    aliases:
+      - raw: 医药主题基金
+        aliasType: primary
+      - raw: Pharma Theme Fund
+        aliasType: en_alias
+  - slug: xiao-fei-zhu-ti-ji-jin
+    headword: 消费主题基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资消费行业的主题基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资消费行业的主题基金。
+        example: 消费主题基金聚焦龙头。
+        isPrimary: true
+    aliases:
+      - raw: 消费主题基金
+        aliasType: primary
+      - raw: Consumer Theme Fund
+        aliasType: en_alias
+  - slug: xin-neng-yuan-ji-jin
+    headword: 新能源基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资光伏、锂电等新能源的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 投资光伏、锂电等新能源的基金。
+        example: 新能源基金近年回撤大。
+        isPrimary: true
+    aliases:
+      - raw: 新能源基金
+        aliasType: primary
+      - raw: New Energy Fund
+        aliasType: en_alias
+  - slug: jun-gong-zhu-ti-ji-jin
+    headword: 军工主题基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资军工行业的主题基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资军工行业的主题基金。
+        example: 军工主题基金周期性强。
+        isPrimary: true
+    aliases:
+      - raw: 军工主题基金
+        aliasType: primary
+      - raw: Defense Theme Fund
+        aliasType: en_alias
+  - slug: nong-ye-zhu-ti-ji-jin
+    headword: 农业主题基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资农业产业链的主题基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 投资农业产业链的主题基金。
+        example: 农业主题基金规模较小。
+        isPrimary: true
+    aliases:
+      - raw: 农业主题基金
+        aliasType: primary
+      - raw: Agriculture Theme Fund
+        aliasType: en_alias
+  - slug: yin-hang-zhu-ti-ji-jin
+    headword: 银行主题基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资银行业的主题基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资银行业的主题基金。
+        example: 银行主题基金高股息。
+        isPrimary: true
+    aliases:
+      - raw: 银行主题基金
+        aliasType: primary
+      - raw: Bank Theme Fund
+        aliasType: en_alias
+  - slug: di-chan-zhu-ti-ji-jin
+    headword: 地产主题基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资房地产产业链的主题基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 投资房地产产业链的主题基金。
+        example: 地产主题基金近年表现弱。
+        isPrimary: true
+    aliases:
+      - raw: 地产主题基金
+        aliasType: primary
+      - raw: Property Theme Fund
+        aliasType: en_alias
+  - slug: t-m-t-ji-jin
+    headword: TMT基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资科技、媒体、通信行业的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资科技、媒体、通信行业的基金。
+        example: TMT基金成长风格。
+        isPrimary: true
+    aliases:
+      - raw: TMT基金
+        aliasType: primary
+      - raw: TMT Fund
+        aliasType: en_alias
+  - slug: wai-hui-yuan-qi
+    headword: 外汇远期
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 约定未来按约定汇率交割外汇的合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 约定未来按约定汇率交割外汇的合约。
+        example: 外汇远期锁定汇率风险。
+        isPrimary: true
+    aliases:
+      - raw: 外汇远期
+        aliasType: primary
+      - raw: FX Forward
+        aliasType: en_alias
+  - slug: yuan-qi-li-l-xie-yi
+    headword: 远期利率协议
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 锁定未来某时段利率的场外合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 锁定未来某时段利率的场外合约。
+        example: 远期利率协议对冲远期利率。
+        isPrimary: true
+    aliases:
+      - raw: 远期利率协议
+        aliasType: primary
+      - raw: Forward Rate Agreement
+        aliasType: en_alias
+      - raw: FRA
+        aliasType: en_alias
+  - slug: li-l-hu-huan
+    headword: 利率互换
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 交换固定与浮动利息现金流的合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 交换固定与浮动利息现金流的合约。
+        example: 利率互换是利率套保主工具。
+        isPrimary: true
+    aliases:
+      - raw: 利率互换
+        aliasType: primary
+      - raw: Interest Rate Swap
+        aliasType: en_alias
+      - raw: IRS
+        aliasType: en_alias
+  - slug: huo-bi-hu-huan
+    headword: 货币互换
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 交换不同币种本金与利息的合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 交换不同币种本金与利息的合约。
+        example: 货币互换对冲汇率与利率。
+        isPrimary: true
+    aliases:
+      - raw: 货币互换
+        aliasType: primary
+      - raw: Currency Swap
+        aliasType: en_alias
+  - slug: jia-ceng-ji-jin
+    headword: 夹层基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资于介于股权与债权之间的夹层工具的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资于介于股权与债权之间的夹层工具的基金。
+        example: 夹层基金债股结合。
+        isPrimary: true
+    aliases:
+      - raw: 夹层基金
+        aliasType: primary
+      - raw: Mezzanine Fund
+        aliasType: en_alias
+  - slug: kun-jing-zi-chan-ji-jin
+    headword: 困境资产基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资困境企业债权或股权的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 投资困境企业债权或股权的基金。
+        example: 困境资产基金逆向布局。
+        isPrimary: true
+    aliases:
+      - raw: 困境资产基金
+        aliasType: primary
+      - raw: Distressed Fund
+        aliasType: en_alias
+  - slug: fang-di-chan-ji-jin
+    headword: 房地产基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 直接或间接投资房地产的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 直接或间接投资房地产的基金。
+        example: 房地产基金获取租金与增值。
+        isPrimary: true
+    aliases:
+      - raw: 房地产基金
+        aliasType: primary
+      - raw: Real Estate Fund
+        aliasType: en_alias
+  - slug: chan-ye-ji-jin
+    headword: 产业基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 围绕特定产业设立的股权投资基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 围绕特定产业设立的股权投资基金。
+        example: 产业基金服务产业链招商。
+        isPrimary: true
+    aliases:
+      - raw: 产业基金
+        aliasType: primary
+      - raw: Industrial Fund
+        aliasType: en_alias
+  - slug: tian-shi-tou-zi
+    headword: 天使投资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对种子期初创企业的早期股权投资。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对种子期初创企业的早期股权投资。
+        example: 天使投资风险高、回报弹性大。
+        isPrimary: true
+    aliases:
+      - raw: 天使投资
+        aliasType: primary
+      - raw: Angel Investment
+        aliasType: en_alias
+  - slug: wan-neng-xian
+    headword: 万能险
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 设有保底利率、结算利率浮动的寿险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 设有保底利率、结算利率浮动的寿险。
+        example: 万能险结算利率下行。
+        isPrimary: true
+    aliases:
+      - raw: 万能险
+        aliasType: primary
+      - raw: Universal Insurance
+        aliasType: en_alias
+  - slug: tou-lian-xian
+    headword: 投连险
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资收益完全由投保人承担、不保本的寿险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资收益完全由投保人承担、不保本的寿险。
+        example: 投连险风险由客户承担。
+        isPrimary: true
+    aliases:
+      - raw: 投连险
+        aliasType: primary
+      - raw: Unit-linked Insurance
+        aliasType: en_alias
+  - slug: zeng-e-zhong-shen-shou-xian
+    headword: 增额终身寿险
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 保额按约定利率递增的终身寿险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 保额按约定利率递增的终身寿险。
+        example: 增额终身寿险曾被当储蓄替代。
+        isPrimary: true
+    aliases:
+      - raw: 增额终身寿险
+        aliasType: primary
+      - raw: Whole Life with Increasing Sum
+        aliasType: en_alias
+  - slug: xian-jin-guan-li-lei-li-cai
+    headword: 现金管理类理财
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资货币市场、流动性接近存款的理财。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 投资货币市场、流动性接近存款的理财。
+        example: 现金管理类理财赎回快。
+        isPrimary: true
+    aliases:
+      - raw: 现金管理类理财
+        aliasType: primary
+      - raw: Cash Management WMP
+        aliasType: en_alias
+  - slug: gu-shou-lei-li-cai
+    headword: 固收类理财
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 主要投资债券的理财。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 主要投资债券的理财。
+        example: 固收类理财是理财主力。
+        isPrimary: true
+    aliases:
+      - raw: 固收类理财
+        aliasType: primary
+      - raw: Fixed Income WMP
+        aliasType: en_alias
+  - slug: quan-yi-lei-li-cai
+    headword: 权益类理财
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 主要投资股票的理财。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 主要投资股票的理财。
+        example: 权益类理财波动较大。
+        isPrimary: true
+    aliases:
+      - raw: 权益类理财
+        aliasType: primary
+      - raw: Equity WMP
+        aliasType: en_alias
+  - slug: hun-he-lei-li-cai
+    headword: 混合类理财
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股债混合投资的理财。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股债混合投资的理财。
+        example: 混合类理财攻守平衡。
+        isPrimary: true
+    aliases:
+      - raw: 混合类理财
+        aliasType: primary
+      - raw: Mixed WMP
+        aliasType: en_alias
+  - slug: shang-pin-ji-jin-rong-yan-sheng-pin-lei-li-cai
+    headword: 商品及金融衍生品类理财
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资商品或衍生品的理财。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资商品或衍生品的理财。
+        example: 商品类理财对冲通胀。
+        isPrimary: true
+    aliases:
+      - raw: 商品及金融衍生品类理财
+        aliasType: primary
+      - raw: Commodity WMP
+        aliasType: en_alias
+  - slug: zuan-shi-tou-zi
+    headword: 钻石投资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以投资保值为目的的钻石购买。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以投资保值为目的的钻石购买。
+        example: 钻石投资流动性差。
+        isPrimary: true
+    aliases:
+      - raw: 钻石投资
+        aliasType: primary
+      - raw: Diamond Investment
+        aliasType: en_alias
+  - slug: yi-shu-pin-tou-zi
+    headword: 艺术品投资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资书画、古董等艺术品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资书画、古董等艺术品。
+        example: 艺术品投资门槛高。
+        isPrimary: true
+    aliases:
+      - raw: 艺术品投资
+        aliasType: primary
+      - raw: Art Investment
+        aliasType: en_alias
+  - slug: hong-jiu-tou-zi
+    headword: 红酒投资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资名庄红酒。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 投资名庄红酒。
+        example: 红酒投资需专业储存。
+        isPrimary: true
+    aliases:
+      - raw: 红酒投资
+        aliasType: primary
+      - raw: Wine Investment
+        aliasType: en_alias
+  - slug: li-l-zhai
+    headword: 利率债
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 国债、政策性金融债等利率风险低、无信用风险的债券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 国债、政策性金融债等利率风险低、无信用风险的债券。
+        example: 利率债交易流动性好。
+        isPrimary: true
+    aliases:
+      - raw: 利率债
+        aliasType: primary
+      - raw: Rate Bond
+        aliasType: en_alias
+  - slug: ge-ren-xiao-fei-dai-kuan-zheng-quan-hua
+    headword: 个人消费贷款证券化
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以个人消费贷款为基础资产的ABS。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以个人消费贷款为基础资产的ABS。
+        example: 消费贷证券化规模增长快。
+        isPrimary: true
+    aliases:
+      - raw: 个人消费贷款证券化
+        aliasType: primary
+      - raw: Consumer Loan ABS
+        aliasType: en_alias
+  - slug: li-l-zhai-ji-jin
+    headword: 利率债基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 主要投资国债、政金债的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 主要投资国债、政金债的基金。
+        example: 利率债基金受货币政策驱动。
+        isPrimary: true
+    aliases:
+      - raw: 利率债基金
+        aliasType: primary
+      - raw: Rate Bond Fund
+        aliasType: en_alias
+  - slug: xin-yong-zhai-ji-jin
+    headword: 信用债基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 主要投资企业信用债的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 主要投资企业信用债的基金。
+        example: 信用债基金需防范信用风险。
+        isPrimary: true
+    aliases:
+      - raw: 信用债基金
+        aliasType: primary
+      - raw: Credit Bond Fund
+        aliasType: en_alias
+  - slug: cheng-tou-zhai-ji-jin
+    headword: 城投债基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 主要投资城投债的债券基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 主要投资城投债的债券基金。
+        example: 城投债基金关注区域化债。
+        isPrimary: true
+    aliases:
+      - raw: 城投债基金
+        aliasType: primary
+      - raw: LGFV Bond Fund
+        aliasType: en_alias
+  - slug: guo-zhai-e-t-f
+    headword: 国债ETF
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪国债指数的交易所ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪国债指数的交易所ETF。
+        example: 国债ETF交易便捷。
+        isPrimary: true
+    aliases:
+      - raw: 国债ETF
+        aliasType: primary
+      - raw: Treasury ETF
+        aliasType: en_alias
+  - slug: r-e-i-t-s-ji-jin
+    headword: REITs基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资公募REITs的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 投资公募REITs的基金。
+        example: REITs基金获取分红与增值。
+        isPrimary: true
+    aliases:
+      - raw: REITs基金
+        aliasType: primary
+      - raw: REITs Fund
+        aliasType: en_alias
+  - slug: yuan-you-ji-jin
+    headword: 原油基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资原油期货或油价的QDII基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 投资原油期货或油价的QDII基金。
+        example: 原油基金跟随国际油价。
+        isPrimary: true
+    aliases:
+      - raw: 原油基金
+        aliasType: primary
+      - raw: Crude Oil Fund
+        aliasType: en_alias
+  - slug: xiao-fei-e-t-f
+    headword: 消费ETF
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪消费行业指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪消费行业指数的ETF。
+        example: 消费ETF聚焦白马龙头。
+        isPrimary: true
+    aliases:
+      - raw: 消费ETF
+        aliasType: primary
+      - raw: Consumer ETF
+        aliasType: en_alias
+  - slug: gang-gu-tong-hong-li-e-t-f
+    headword: 港股通红利ETF
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资港股通高股息股票的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资港股通高股息股票的ETF。
+        example: 港股通红利ETF股息率更高。
+        isPrimary: true
+    aliases:
+      - raw: 港股通红利ETF
+        aliasType: primary
+      - raw: HK Connect Dividend ETF
+        aliasType: en_alias
+  - slug: gu-quan-tou-zi-ji-jin
+    headword: 股权投资基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以非上市公司股权为投资对象的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以非上市公司股权为投资对象的基金。
+        example: 股权投资基金期限长。
+        isPrimary: true
+    aliases:
+      - raw: 股权投资基金
+        aliasType: primary
+      - raw: Equity Investment Fund
+        aliasType: en_alias
+  - slug: chuang-ye-tou-zi-ji-jin
+    headword: 创业投资基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资初创企业的股权投资基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 投资初创企业的股权投资基金。
+        example: 创业投资基金高风险高回报。
+        isPrimary: true
+    aliases:
+      - raw: 创业投资基金
+        aliasType: primary
+      - raw: Venture Capital Fund
+        aliasType: en_alias
+  - slug: mu-ji-jin
+    headword: 母基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资其他基金的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资其他基金的基金。
+        example: 母基金分散管理人风险。
+        isPrimary: true
+    aliases:
+      - raw: 母基金
+        aliasType: primary
+      - raw: Fund of Funds
+        aliasType: en_alias
+  - slug: jie-gou-xing-li-cai-chan-pin
+    headword: 结构性理财产品
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 收益挂钩汇率、利率或商品的理财。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 收益挂钩汇率、利率或商品的理财。
+        example: 结构性理财收益浮动。
+        isPrimary: true
+    aliases:
+      - raw: 结构性理财产品
+        aliasType: primary
+      - raw: Structured WMP
+        aliasType: en_alias
+  - slug: tou-zi-ji-zhai-quan
+    headword: 投资级债券
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 信用评级达到投资级、违约风险较低的债券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 信用评级达到投资级、违约风险较低的债券。
+        example: 投资级债券票息较低。
+        isPrimary: true
+    aliases:
+      - raw: 投资级债券
+        aliasType: primary
+      - raw: Investment Grade Bond
+        aliasType: en_alias
+  - slug: la-ji-zhai
+    headword: 垃圾债
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 评级低于投资级、违约风险高的高收益债券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 评级低于投资级、违约风险高的高收益债券。
+        example: 垃圾债票息高但违约风险大。
+        isPrimary: true
+    aliases:
+      - raw: 垃圾债
+        aliasType: primary
+      - raw: Junk Bond
+        aliasType: en_alias
+  - slug: ju-zai-zhai-quan
+    headword: 巨灾债券
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 触发约定巨灾时投资者损失本金的债券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 触发约定巨灾时投资者损失本金的债券。
+        example: 巨灾债券帮助保险市场分散风险。
+        isPrimary: true
+    aliases:
+      - raw: 巨灾债券
+        aliasType: primary
+      - raw: Catastrophe Bond
+        aliasType: en_alias
+  - slug: q-f-i-i-ji-jin
+    headword: QFII基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 合格境外机构投资者在境内发行的产品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 合格境外机构投资者在境内发行的产品。
+        example: QFII基金投资A股资产。
+        isPrimary: true
+    aliases:
+      - raw: QFII基金
+        aliasType: primary
+      - raw: QFII Fund
+        aliasType: en_alias
+  - slug: ji-jin-ding-tou
+    headword: 基金定投
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 定期定额买入基金的投资方式。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 定期定额买入基金的投资方式。
+        example: 基金定投摊薄成本。
+        isPrimary: true
+    aliases:
+      - raw: 基金定投
+        aliasType: primary
+      - raw: Regular Fund Investment
+        aliasType: en_alias
+  - slug: gang-gu-tong-yi-yao-e-t-f
+    headword: 港股通医药ETF
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资港股通医药股的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 投资港股通医药股的ETF。
+        example: 港股通医药ETF布局创新药。
+        isPrimary: true
+    aliases:
+      - raw: 港股通医药ETF
+        aliasType: primary
+      - raw: HK Connect Pharma ETF
+        aliasType: en_alias
+  - slug: yang-qi-hong-li-e-t-f
+    headword: 央企红利ETF
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资央企高股息股票的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 投资央企高股息股票的ETF。
+        example: 央企红利ETF享中特估行情。
+        isPrimary: true
+    aliases:
+      - raw: 央企红利ETF
+        aliasType: primary
+      - raw: SOE Dividend ETF
+        aliasType: en_alias
+  - slug: ren-gong-zhi-neng-e-t-f
+    headword: 人工智能ETF
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资人工智能产业链的主题ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 投资人工智能产业链的主题ETF。
+        example: 人工智能ETF弹性大。
+        isPrimary: true
+    aliases:
+      - raw: 人工智能ETF
+        aliasType: primary
+      - raw: AI ETF
+        aliasType: en_alias
+  - slug: xin-neng-yuan-qi-che-e-t-f
+    headword: 新能源汽车ETF
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资新能源汽车产业链的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 投资新能源汽车产业链的ETF。
+        example: 新能源汽车ETF跟随销量。
+        isPrimary: true
+    aliases:
+      - raw: 新能源汽车ETF
+        aliasType: primary
+      - raw: NEV ETF
+        aliasType: en_alias
+  - slug: guang-fu-e-t-f
+    headword: 光伏ETF
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资光伏产业链的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 投资光伏产业链的ETF。
+        example: 光伏ETF受组件价格影响。
+        isPrimary: true
+    aliases:
+      - raw: 光伏ETF
+        aliasType: primary
+      - raw: PV ETF
+        aliasType: en_alias
+  - slug: ban-dao-ti-she-bei-e-t-f
+    headword: 半导体设备ETF
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资半导体设备材料的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 投资半导体设备材料的ETF。
+        example: 半导体设备ETF受益国产替代。
+        isPrimary: true
+    aliases:
+      - raw: 半导体设备ETF
+        aliasType: primary
+      - raw: Semiconductor Equipment ETF
+        aliasType: en_alias
+  - slug: ji-qi-ren-e-t-f
+    headword: 机器人ETF
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资机器人产业链的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 投资机器人产业链的ETF。
+        example: 机器人ETF随产业政策活跃。
+        isPrimary: true
+    aliases:
+      - raw: 机器人ETF
+        aliasType: primary
+      - raw: Robot ETF
+        aliasType: en_alias
+  - slug: si-mu-zheng-quan-tou-zi-ji-jin
+    headword: 私募证券投资基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 非公开募集、投资二级市场的私募基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 非公开募集、投资二级市场的私募基金。
+        example: 私募证券投资基金面向合格投资者。
+        isPrimary: true
+    aliases:
+      - raw: 私募证券投资基金
+        aliasType: primary
+      - raw: Private Securities Fund
+        aliasType: en_alias
+  - slug: r-e-i-t-s-ji-chu-she-shi-ji-jin
+    headword: REITs基础设施基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资收费公路、产业园等的公募REITs。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资收费公路、产业园等的公募REITs。
+        example: REITs基础设施基金分红稳定。
+        isPrimary: true
+    aliases:
+      - raw: REITs基础设施基金
+        aliasType: primary
+      - raw: Infrastructure REIT Fund
+        aliasType: en_alias
+  - slug: gang-gu-tong-hu-lian-wang-e-t-f
+    headword: 港股通互联网ETF
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资港股通互联网龙头的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资港股通互联网龙头的ETF。
+        example: 港股通互联网ETF跟随平台经济。
+        isPrimary: true
+    aliases:
+      - raw: 港股通互联网ETF
+        aliasType: primary
+      - raw: HK Connect Internet ETF
+        aliasType: en_alias
+  - slug: zhai-quan-tou-zi-ji-hua
+    headword: 债权投资计划
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 保险资管发行的基础设施债权投资产品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 保险资管发行的基础设施债权投资产品。
+        example: 债权投资计划期限长、收益稳。
+        isPrimary: true
+    aliases:
+      - raw: 债权投资计划
+        aliasType: primary
+      - raw: Debt Investment Plan
+        aliasType: en_alias
+  - slug: huo-qi-cun-kuan
+    headword: 活期存款
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 可随时存取、利率低的存款。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 可随时存取、利率低的存款。
+        example: 活期存款流动性强。
+        isPrimary: true
+    aliases:
+      - raw: 活期存款
+        aliasType: primary
+      - raw: Demand Deposit
+        aliasType: en_alias
+  - slug: ding-qi-cun-kuan
+    headword: 定期存款
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 约定期限、利率较高的存款。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 约定期限、利率较高的存款。
+        example: 定期存款收益高于活期。
+        isPrimary: true
+    aliases:
+      - raw: 定期存款
+        aliasType: primary
+      - raw: Time Deposit
+        aliasType: en_alias
+  - slug: zhong-duan-zhai-ji-jin
+    headword: 中短债基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资中短期债券、波动较小的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资中短期债券、波动较小的基金。
+        example: 中短债基金是闲钱管理选择。
+        isPrimary: true
+    aliases:
+      - raw: 中短债基金
+        aliasType: primary
+      - raw: Mid-short Bond Fund
+        aliasType: en_alias
+  - slug: yuan-qi-hui-l
+    headword: 远期汇率
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 约定未来交割的外汇汇率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 约定未来交割的外汇汇率。
+        example: 远期汇率由利差决定。
+        isPrimary: true
+    aliases:
+      - raw: 远期汇率
+        aliasType: primary
+      - raw: Forward Rate
+        aliasType: en_alias
+  - slug: diao-qi-dian
+    headword: 掉期点
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 远期与即期汇率的价差。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 远期与即期汇率的价差。
+        example: 掉期点反映两地利差。
+        isPrimary: true
+    aliases:
+      - raw: 掉期点
+        aliasType: primary
+      - raw: Swap Point
+        aliasType: en_alias
+  - slug: huo-bi-shi-chang-gong-ju
+    headword: 货币市场工具
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 期限一年内的短期债务工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 期限一年内的短期债务工具。
+        example: 货币市场工具流动性强。
+        isPrimary: true
+    aliases:
+      - raw: 货币市场工具
+        aliasType: primary
+      - raw: Money Market Instrument
+        aliasType: en_alias
+  - slug: duan-qi-guo-zhai
+    headword: 短期国债
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 期限在一年以内的贴现国债。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 期限在一年以内的贴现国债。
+        example: 短期国债是现金管理工具。
+        isPrimary: true
+    aliases:
+      - raw: 短期国债
+        aliasType: primary
+      - raw: Treasury Bill
+        aliasType: en_alias
+  - slug: chang-qi-guo-zhai
+    headword: 长期国债
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 期限在十年以上的国债。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 期限在十年以上的国债。
+        example: 长期国债对利率敏感。
+        isPrimary: true
+    aliases:
+      - raw: 长期国债
+        aliasType: primary
+      - raw: Long Treasury Bond
+        aliasType: en_alias
+  - slug: fu-xi-zhai-quan
+    headword: 浮息债券
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 票面利率随基准定期调整的债券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 票面利率随基准定期调整的债券。
+        example: 浮息债券在加息期受捧。
+        isPrimary: true
+    aliases:
+      - raw: 浮息债券
+        aliasType: primary
+      - raw: Floating Rate Note
+        aliasType: en_alias
+  - slug: wu-dang-hang-qing
+    headword: 五档行情
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 显示买卖各五档挂单量的行情信息，是普通投资者可看到的标准行情。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 显示买卖各五档挂单量的行情信息，是普通投资者可看到的标准行情。
+        example: 五档行情中卖一压单巨大，上方抛压明显。
+        isPrimary: true
+    aliases:
+      - raw: 五档行情
+        aliasType: primary
+      - raw: Five-level Quote
+        aliasType: en_alias
+  - slug: gai-nian-gu
+    headword: 概念股
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 与特定概念（如人工智能、机器人、低空经济）相关联的股票群体。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 与特定概念（如人工智能、机器人、低空经济）相关联的股票群体。
+        example: 低空经济概念股受政策利好集体走强。
+        isPrimary: true
+    aliases:
+      - raw: 概念股
+        aliasType: primary
+      - raw: Concept Stock
+        aliasType: en_alias
+  - slug: rong-quan-yu-e
+    headword: 融券余额
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资者融券卖出后尚未买回的券量余额，反映做空力量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资者融券卖出后尚未买回的券量余额，反映做空力量。
+        example: 融券余额高企，个股面临沽空压力。
+        isPrimary: true
+    aliases:
+      - raw: 融券余额
+        aliasType: primary
+      - raw: Short Balance
+        aliasType: en_alias
+  - slug: bi-xian-qing-xu
+    headword: 避险情绪
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资者偏好低风险资产、抛售风险资产的情绪状态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资者偏好低风险资产、抛售风险资产的情绪状态。
+        example: 地缘冲突升级引发避险情绪升温。
+        isPrimary: true
+    aliases:
+      - raw: 避险情绪
+        aliasType: primary
+      - raw: Risk-off Sentiment
+        aliasType: en_alias
+  - slug: zhou-qi-gu
+    headword: 周期股
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 业绩随经济周期波动的股票，如有色、钢铁、煤炭、化工。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 业绩随经济周期波动的股票，如有色、钢铁、煤炭、化工。
+        example: 经济复苏预期下周期股集体走强。
+        isPrimary: true
+    aliases:
+      - raw: 周期股
+        aliasType: primary
+      - raw: Cyclical Stock
+        aliasType: en_alias
+  - slug: fang-yu-ban-kuai
+    headword: 防御板块
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 受经济周期影响小的板块，如公用事业、医药、消费。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 受经济周期影响小的板块，如公用事业、医药、消费。
+        example: 市场调整期资金涌入防御板块。
+        isPrimary: true
+    aliases:
+      - raw: 防御板块
+        aliasType: primary
+      - raw: Defensive Sector
+        aliasType: en_alias
+  - slug: shun-zhou-qi
+    headword: 顺周期
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 与经济增长方向一致的行业与资产，经济好则表现好。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 与经济增长方向一致的行业与资产，经济好则表现好。
+        example: 顺周期板块受益于经济复苏预期。
+        isPrimary: true
+    aliases:
+      - raw: 顺周期
+        aliasType: primary
+      - raw: Pro-cyclical
+        aliasType: en_alias
+  - slug: ni-zhou-qi
+    headword: 逆周期
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 与经济增长方向相反的行业，如部分公用事业与必需消费。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 与经济增长方向相反的行业，如部分公用事业与必需消费。
+        example: 逆周期板块在市场下行期具备韧性。
+        isPrimary: true
+    aliases:
+      - raw: 逆周期
+        aliasType: primary
+      - raw: Counter-cyclical
+        aliasType: en_alias
+  - slug: hong-li-ce-l-e
+    headword: 红利策略
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以高分红股票为核心的投资策略，追求稳定现金流回报。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以高分红股票为核心的投资策略，追求稳定现金流回报。
+        example: 红利策略基金规模快速增长。
+        isPrimary: true
+    aliases:
+      - raw: 红利策略
+        aliasType: primary
+      - raw: Dividend Strategy
+        aliasType: en_alias
+  - slug: e-r-p
+    headword: ERP
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股票预期回报率高于无风险利率的部分，越高股票越有吸引力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股票预期回报率高于无风险利率的部分，越高股票越有吸引力。
+        example: ERP走阔至历史极值，市场底部特征明显。
+        isPrimary: true
+    aliases:
+      - raw: ERP
+        aliasType: primary
+      - raw: Equity Risk Premium
+        aliasType: en_alias
+  - slug: chang-xian-tou-zi
+    headword: 长线投资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以年为单位持有优质公司的投资方式。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以年为单位持有优质公司的投资方式。
+        example: 长线投资赚取企业成长的钱。
+        isPrimary: true
+    aliases:
+      - raw: 长线投资
+        aliasType: primary
+      - raw: Long-term Investment
+        aliasType: en_alias
+  - slug: cheng-zhang-tou-zi
+    headword: 成长投资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 偏好高成长行业与公司的投资风格，容忍高估值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 偏好高成长行业与公司的投资风格，容忍高估值。
+        example: 成长投资聚焦景气赛道龙头。
+        isPrimary: true
+    aliases:
+      - raw: 成长投资
+        aliasType: primary
+      - raw: Growth Investing
+        aliasType: en_alias
+  - slug: ni-xiang-tou-zi
+    headword: 逆向投资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 在市场恐慌时买入、狂热时卖出的反向投资策略。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 在市场恐慌时买入、狂热时卖出的反向投资策略。
+        example: 逆向投资需承受左侧煎熬。
+        isPrimary: true
+    aliases:
+      - raw: 逆向投资
+        aliasType: primary
+      - raw: Contrarian Investing
+        aliasType: en_alias
+  - slug: lei-ji-jing-zhi
+    headword: 累计净值
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 考虑分红再投资的基金净值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 考虑分红再投资的基金净值。
+        example: 累计净值反映成立以来总回报。
+        isPrimary: true
+    aliases:
+      - raw: 累计净值
+        aliasType: primary
+      - raw: Cumulative NAV
+        aliasType: en_alias
+  - slug: shu-hui-chao
+    headword: 赎回潮
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 基金投资者集中赎回导致基金被迫卖出股票的现象。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 基金投资者集中赎回导致基金被迫卖出股票的现象。
+        example: 净值下跌引发赎回潮，形成负反馈。
+        isPrimary: true
+    aliases:
+      - raw: 赎回潮
+        aliasType: primary
+      - raw: Redemption Wave
+        aliasType: en_alias
+  - slug: jing-qi-tou-zi
+    headword: 景气投资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 基于行业景气度趋势进行配置的投资方法。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 基于行业景气度趋势进行配置的投资方法。
+        example: 景气投资需跟踪高频数据验证。
+        isPrimary: true
+    aliases:
+      - raw: 景气投资
+        aliasType: primary
+      - raw: Momentum Investing on Fundamentals
+        aliasType: en_alias
+  - slug: ku-cun-zhou-qi
+    headword: 库存周期
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经济中库存的主动补/去库循环，约3-4年一轮，影响周期行业。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 经济中库存的主动补/去库循环，约3-4年一轮，影响周期行业。
+        example: 库存周期见底回升，周期股提前反应。
+        isPrimary: true
+    aliases:
+      - raw: 库存周期
+        aliasType: primary
+      - raw: Inventory Cycle
+        aliasType: en_alias
+  - slug: yi-dai-yi-lu
+    headword: 一带一路
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 国家层面国际合作倡议，相关基建、出海企业受关注。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 国家层面国际合作倡议，相关基建、出海企业受关注。
+        example: 一带一路概念股受外交事件催化。
+        isPrimary: true
+    aliases:
+      - raw: 一带一路
+        aliasType: primary
+      - raw: Belt and Road
+        aliasType: en_alias
+  - slug: shu-zi-jing-ji
+    headword: 数字经济
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以数据为关键要素的经济形态，政策重点支持方向。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以数据为关键要素的经济形态，政策重点支持方向。
+        example: 数字经济政策密集出台，数据要素概念活跃。
+        isPrimary: true
+    aliases:
+      - raw: 数字经济
+        aliasType: primary
+      - raw: Digital Economy
+        aliasType: en_alias
+  - slug: di-kong-jing-ji
+    headword: 低空经济
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以无人机、eVTOL等低空飞行器为核心的经济形态，新兴产业。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以无人机、eVTOL等低空飞行器为核心的经济形态，新兴产业。
+        example: 低空经济政策催化，eVTOL概念大涨。
+        isPrimary: true
+    aliases:
+      - raw: 低空经济
+        aliasType: primary
+      - raw: Low-altitude Economy
+        aliasType: en_alias
+  - slug: bai-jiu
+    headword: 白酒
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 白酒行业，A股消费核心资产，分高端、次高端与区域酒。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 白酒行业，A股消费核心资产，分高端、次高端与区域酒。
+        example: 白酒动销回暖，估值修复。
+        isPrimary: true
+    aliases:
+      - raw: 白酒
+        aliasType: primary
+      - raw: Baijiu
+        aliasType: en_alias
+  - slug: huang-jin-zhu-bao
+    headword: 黄金珠宝
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 黄金饰品行业，金价与消费需求双驱动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 黄金饰品行业，金价与消费需求双驱动。
+        example: 金价上涨带动黄金珠宝景气。
+        isPrimary: true
+    aliases:
+      - raw: 黄金珠宝
+        aliasType: primary
+      - raw: Gold Jewelry
+        aliasType: en_alias
+  - slug: chong-wu-jing-ji
+    headword: 宠物经济
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 宠物食品、用品与医疗服务产业。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 宠物食品、用品与医疗服务产业。
+        example: 宠物赛道逆周期增长。
+        isPrimary: true
+    aliases:
+      - raw: 宠物经济
+        aliasType: primary
+      - raw: Pet Economy
+        aliasType: en_alias
+  - slug: kua-jing-dian-shang
+    headword: 跨境电商
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 通过电商平台开展跨境贸易，出海核心赛道。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 通过电商平台开展跨境贸易，出海核心赛道。
+        example: 跨境电商受益于海外需求与平台扩张。
+        isPrimary: true
+    aliases:
+      - raw: 跨境电商
+        aliasType: primary
+      - raw: Cross-border E-commerce
+        aliasType: en_alias
+  - slug: chu-hai
+    headword: 出海
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国企业拓展海外市场的大趋势，制造、消费、互联网全面出海。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 中国企业拓展海外市场的大趋势，制造、消费、互联网全面出海。
+        example: 出海逻辑成为企业第二增长曲线。
+        isPrimary: true
+    aliases:
+      - raw: 出海
+        aliasType: primary
+      - raw: Going Global
+        aliasType: en_alias
+  - slug: wai-mao
+    headword: 外贸
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 进出口贸易，汇率与关税是核心变量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 进出口贸易，汇率与关税是核心变量。
+        example: 外贸订单回暖，出口链受益。
+        isPrimary: true
+    aliases:
+      - raw: 外贸
+        aliasType: primary
+      - raw: Foreign Trade
+        aliasType: en_alias
+  - slug: xiao-fei-dian-zi
+    headword: 消费电子
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 手机、PC、可穿戴等消费电子产业。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 手机、PC、可穿戴等消费电子产业。
+        example: AI手机与折叠屏带动换机潮。
+        isPrimary: true
+    aliases:
+      - raw: 消费电子
+        aliasType: primary
+      - raw: Consumer Electronics
+        aliasType: en_alias
+  - slug: dian-wang
+    headword: 电网
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 电力输送与分配网络，投资周期确定性高。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 电力输送与分配网络，投资周期确定性高。
+        example: 电网智能化改造需求提升。
+        isPrimary: true
+    aliases:
+      - raw: 电网
+        aliasType: primary
+      - raw: Power Grid
+        aliasType: en_alias
+  - slug: huang-jin
+    headword: 黄金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 避险与抗通胀资产，金价受实际利率与央行购金驱动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 避险与抗通胀资产，金价受实际利率与央行购金驱动。
+        example: 央行持续购金，金价长期支撑。
+        isPrimary: true
+    aliases:
+      - raw: 黄金
+        aliasType: primary
+      - raw: Gold
+        aliasType: en_alias
+  - slug: shui-ni
+    headword: 水泥
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 水泥行业，基建地产需求主导。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 水泥行业，基建地产需求主导。
+        example: 错峰生产供给约束，价格企稳。
+        isPrimary: true
+    aliases:
+      - raw: 水泥
+        aliasType: primary
+      - raw: Cement
+        aliasType: en_alias
+  - slug: gong-cheng-ji-xie
+    headword: 工程机械
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 挖掘机、起重机等设备行业，与基建地产投资相关。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 挖掘机、起重机等设备行业，与基建地产投资相关。
+        example: 工程机械出口高增长。
+        isPrimary: true
+    aliases:
+      - raw: 工程机械
+        aliasType: primary
+      - raw: Construction Machinery
+        aliasType: en_alias
+  - slug: zhong-ka
+    headword: 重卡
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 载重卡车行业，与物流与基建相关。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 载重卡车行业，与物流与基建相关。
+        example: 重卡销量周期回暖。
+        isPrimary: true
+    aliases:
+      - raw: 重卡
+        aliasType: primary
+      - raw: Heavy Truck
+        aliasType: en_alias
+  - slug: ji-zhuang-xiang
+    headword: 集装箱
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 集装箱制造与运输，全球贸易风向标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 集装箱制造与运输，全球贸易风向标。
+        example: 集装箱需求受贸易景气影响。
+        isPrimary: true
+    aliases:
+      - raw: 集装箱
+        aliasType: primary
+      - raw: Container
+        aliasType: en_alias
+  - slug: ben-di-sheng-huo
+    headword: 本地生活
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 餐饮、到店、到家等本地服务消费平台。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 餐饮、到店、到家等本地服务消费平台。
+        example: 本地生活竞争加剧。
+        isPrimary: true
+    aliases:
+      - raw: 本地生活
+        aliasType: primary
+      - raw: Local Life Services
+        aliasType: en_alias
+  - slug: hu-lian-wang
+    headword: 互联网
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 互联网平台经济，监管常态化后估值修复。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 互联网平台经济，监管常态化后估值修复。
+        example: 互联网板块盈利改善，回购加码。
+        isPrimary: true
+    aliases:
+      - raw: 互联网
+        aliasType: primary
+      - raw: Internet
+        aliasType: en_alias
+  - slug: guang-gao
+    headword: 广告
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 广告行业，与经济与消费景气相关。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 广告行业，与经济与消费景气相关。
+        example: 广告市场回暖，梯媒龙头受益。
+        isPrimary: true
+    aliases:
+      - raw: 广告
+        aliasType: primary
+      - raw: Advertising
+        aliasType: en_alias
+  - slug: liang-shi
+    headword: 粮食
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 粮食种植与贸易，粮价与政策相关。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 粮食种植与贸易，粮价与政策相关。
+        example: 粮食安全政策强化。
+        isPrimary: true
+    aliases:
+      - raw: 粮食
+        aliasType: primary
+      - raw: Grain
+        aliasType: en_alias
+  - slug: bao-xian
+    headword: 保险
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 保险行业，负债端保费与资产端投资收益双击。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 保险行业，负债端保费与资产端投资收益双击。
+        example: 保险资产端受益于权益市场回暖。
+        isPrimary: true
+    aliases:
+      - raw: 保险
+        aliasType: primary
+      - raw: Insurance
+        aliasType: en_alias
+  - slug: shi-ji-g-d-p
+    headword: 实际GDP
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 剔除价格变动后的GDP，反映真实产出增长。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 剔除价格变动后的GDP，反映真实产出增长。
+        example: 实际GDP增速更能反映经济真实动能。
+        isPrimary: true
+    aliases:
+      - raw: 实际GDP
+        aliasType: primary
+      - raw: Real GDP
+        aliasType: en_alias
+  - slug: ming-yi-g-d-p
+    headword: 名义GDP
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按当期价格计算的GDP，含价格变动影响。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按当期价格计算的GDP，含价格变动影响。
+        example: 名义GDP增速高于实际值，反映价格因素。
+        isPrimary: true
+    aliases:
+      - raw: 名义GDP
+        aliasType: primary
+      - raw: Nominal GDP
+        aliasType: en_alias
+  - slug: g-d-p-zeng-su
+    headword: GDP增速
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: GDP同比或环比增长率，中国季度同比增速是核心宏观数据。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: GDP同比或环比增长率，中国季度同比增速是核心宏观数据。
+        example: GDP增速超预期，风险偏好回升。
+        isPrimary: true
+    aliases:
+      - raw: GDP增速
+        aliasType: primary
+      - raw: GDP Growth
+        aliasType: en_alias
+  - slug: p-p-i-c-p-i-jian-dao-cha
+    headword: PPI-CPI剪刀差
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: PPI与CPI同比增速之差，反映上游向下游价格传导。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: PPI与CPI同比增速之差，反映上游向下游价格传导。
+        example: 剪刀差收敛，中下游盈利改善。
+        isPrimary: true
+    aliases:
+      - raw: PPI-CPI剪刀差
+        aliasType: primary
+      - raw: PPI-CPI Gap
+        aliasType: en_alias
+  - slug: zhi-zao-ye-p-m-i
+    headword: 制造业PMI
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 反映制造业景气度的PMI，新订单、生产、库存等分项构成。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 反映制造业景气度的PMI，新订单、生产、库存等分项构成。
+        example: 制造业PMI连续三个月回升。
+        isPrimary: true
+    aliases:
+      - raw: 制造业PMI
+        aliasType: primary
+      - raw: Manufacturing PMI
+        aliasType: en_alias
+  - slug: fei-zhi-zao-ye-p-m-i
+    headword: 非制造业PMI
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 反映服务业与建筑业景气的PMI。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 反映服务业与建筑业景气的PMI。
+        example: 非制造业PMI高位运行，服务消费活跃。
+        isPrimary: true
+    aliases:
+      - raw: 非制造业PMI
+        aliasType: primary
+      - raw: Non-manufacturing PMI
+        aliasType: en_alias
+  - slug: jin-chu-kou-zong-e
+    headword: 进出口总额
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 货物进出口总值，贸易顺差与结构受关注。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 货物进出口总值，贸易顺差与结构受关注。
+        example: 进出口总额创新高，外需韧性足。
+        isPrimary: true
+    aliases:
+      - raw: 进出口总额
+        aliasType: primary
+      - raw: Total Foreign Trade
+        aliasType: en_alias
+  - slug: mao-yi-shun-cha
+    headword: 贸易顺差
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 出口大于进口的差额，中国长期保持顺差。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 出口大于进口的差额，中国长期保持顺差。
+        example: 贸易顺差收窄，净出口贡献下降。
+        isPrimary: true
+    aliases:
+      - raw: 贸易顺差
+        aliasType: primary
+      - raw: Trade Surplus
+        aliasType: en_alias
+  - slug: mao-yi-ni-cha
+    headword: 贸易逆差
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 进口大于出口的差额。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 进口大于出口的差额。
+        example: 贸易逆差扩大，本币承压。
+        isPrimary: true
+    aliases:
+      - raw: 贸易逆差
+        aliasType: primary
+      - raw: Trade Deficit
+        aliasType: en_alias
+  - slug: wai-hui-chu-bei
+    headword: 外汇储备
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行持有的外汇资产，稳定汇率与应对风险的弹药库。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 央行持有的外汇资产，稳定汇率与应对风险的弹药库。
+        example: 外汇储备规模稳定在3万亿美元上方。
+        isPrimary: true
+    aliases:
+      - raw: 外汇储备
+        aliasType: primary
+      - raw: Foreign Exchange Reserves
+        aliasType: en_alias
+  - slug: diao-cha-shi-ye-l
+    headword: 调查失业率
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 国家统计局抽样调查的失业率，月度发布。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 国家统计局抽样调查的失业率，月度发布。
+        example: 调查失业率回落，就业压力缓解。
+        isPrimary: true
+    aliases:
+      - raw: 调查失业率
+        aliasType: primary
+      - raw: Surveyed Unemployment Rate
+        aliasType: en_alias
+  - slug: ju-min-ke-zhi-pei-shou-ru
+    headword: 居民可支配收入
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 居民实际可支配的货币收入，消费能力基础。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 居民实际可支配的货币收入，消费能力基础。
+        example: 居民可支配收入增速与GDP同步。
+        isPrimary: true
+    aliases:
+      - raw: 居民可支配收入
+        aliasType: primary
+      - raw: Disposable Income
+        aliasType: en_alias
+  - slug: en-ge-er-xi-shu
+    headword: 恩格尔系数
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 食品支出占消费总支出的比例，越低生活水平越高。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 食品支出占消费总支出的比例，越低生活水平越高。
+        example: 恩格尔系数下降，消费升级延续。
+        isPrimary: true
+    aliases:
+      - raw: 恩格尔系数
+        aliasType: primary
+      - raw: Engel Coefficient
+        aliasType: en_alias
+  - slug: ke-qiang-zhi-shu
+    headword: 克强指数
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 由耗电量、铁路货运量与银行贷款发放量合成的经济景气指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 由耗电量、铁路货运量与银行贷款发放量合成的经济景气指数。
+        example: 克强指数回升，工业景气改善。
+        isPrimary: true
+    aliases:
+      - raw: 克强指数
+        aliasType: primary
+      - raw: Keqiang Index
+        aliasType: en_alias
+  - slug: xian-xing-zhi-biao
+    headword: 先行指标
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 领先经济周期变化的指标，如PMI新订单、社融、M1。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 领先经济周期变化的指标，如PMI新订单、社融、M1。
+        example: 先行指标回暖，经济企稳可期。
+        isPrimary: true
+    aliases:
+      - raw: 先行指标
+        aliasType: primary
+      - raw: Leading Indicator
+        aliasType: en_alias
+  - slug: tong-bu-zhi-biao
+    headword: 同步指标
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 与经济周期同步变化的指标，如工业增加值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 与经济周期同步变化的指标，如工业增加值。
+        example: 同步指标确认经济走势。
+        isPrimary: true
+    aliases:
+      - raw: 同步指标
+        aliasType: primary
+      - raw: Coincident Indicator
+        aliasType: en_alias
+  - slug: zhi-hou-zhi-biao
+    headword: 滞后指标
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 滞后于经济周期的指标，如CPI、利率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 滞后于经济周期的指标，如CPI、利率。
+        example: 滞后指标验证周期拐点。
+        isPrimary: true
+    aliases:
+      - raw: 滞后指标
+        aliasType: primary
+      - raw: Lagging Indicator
+        aliasType: en_alias
+  - slug: huo-bi-gong-ying-liang
+    headword: 货币供应量
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 一国流通中的货币总量，分M0、M1、M2。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 一国流通中的货币总量，分M0、M1、M2。
+        example: 货币供应量增速回升，流动性宽松。
+        isPrimary: true
+    aliases:
+      - raw: 货币供应量
+        aliasType: primary
+      - raw: Money Supply
+        aliasType: en_alias
+  - slug: m-0
+    headword: M0
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 流通中的现金，最窄口径货币。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 流通中的现金，最窄口径货币。
+        example: M0增速与现金需求相关。
+        isPrimary: true
+    aliases:
+      - raw: M0
+        aliasType: primary
+      - raw: Currency in Circulation
+        aliasType: en_alias
+  - slug: m-1
+    headword: M1
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: M0加活期存款，反映现实购买力与企业资金活化。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: M0加活期存款，反映现实购买力与企业资金活化。
+        example: M1增速回升，企业活力增强。
+        isPrimary: true
+    aliases:
+      - raw: M1
+        aliasType: primary
+      - raw: Narrow Money
+        aliasType: en_alias
+  - slug: m-2
+    headword: M2
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: M1加准货币（定期存款、储蓄存款等），反映总货币供应。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: M1加准货币（定期存款、储蓄存款等），反映总货币供应。
+        example: M2增速维持高位，流动性合理充裕。
+        isPrimary: true
+    aliases:
+      - raw: M2
+        aliasType: primary
+      - raw: Broad Money
+        aliasType: en_alias
+  - slug: she-rong-gui-mo
+    headword: 社融规模
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 实体经济从金融体系获得的资金总量，含信贷、债券、股票等。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 实体经济从金融体系获得的资金总量，含信贷、债券、股票等。
+        example: 社融增量超预期，宽信用见效。
+        isPrimary: true
+    aliases:
+      - raw: 社融规模
+        aliasType: primary
+      - raw: Aggregate Financing
+        aliasType: en_alias
+  - slug: chao-e-zhun-bei-jin-l
+    headword: 超额准备金率
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 银行自愿存放在央行的超额资金比例，反映银行放贷意愿。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 银行自愿存放在央行的超额资金比例，反映银行放贷意愿。
+        example: 超额准备金率偏高，宽货币向宽信用传导待疏通。
+        isPrimary: true
+    aliases:
+      - raw: 超额准备金率
+        aliasType: primary
+      - raw: Excess Reserve Ratio
+        aliasType: en_alias
+  - slug: r-0-0-7
+    headword: R007
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 银行间市场7天质押式回购加权利率，覆盖面更广。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 银行间市场7天质押式回购加权利率，覆盖面更广。
+        example: R007与DR007利差反映非银流动性。
+        isPrimary: true
+    aliases:
+      - raw: R007
+        aliasType: primary
+      - raw: Repo 7-day
+        aliasType: en_alias
+  - slug: shou-yi-l-dao-gua
+    headword: 收益率倒挂
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 短端利率高于长端利率，常被视为衰退前兆。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 短端利率高于长端利率，常被视为衰退前兆。
+        example: 美债收益率曲线倒挂持续，衰退担忧升温。
+        isPrimary: true
+    aliases:
+      - raw: 收益率倒挂
+        aliasType: primary
+      - raw: Yield Curve Inversion
+        aliasType: en_alias
+  - slug: qi-xian-li-cha
+    headword: 期限利差
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 长短期国债收益率之差，衡量经济与通胀预期。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 长短期国债收益率之差，衡量经济与通胀预期。
+        example: 期限利差走阔，经济预期改善。
+        isPrimary: true
+    aliases:
+      - raw: 期限利差
+        aliasType: primary
+      - raw: Term Spread
+        aliasType: en_alias
+  - slug: yin-xing-zhai-wu
+    headword: 隐性债务
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 政府预算外、需财政兜底的债务，主要来自城投平台。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 政府预算外、需财政兜底的债务，主要来自城投平台。
+        example: 一揽子化债方案推进隐性债务化解。
+        isPrimary: true
+    aliases:
+      - raw: 隐性债务
+        aliasType: primary
+      - raw: Hidden Debt
+        aliasType: en_alias
+  - slug: hui-l
+    headword: 汇率
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 一国货币与另一国货币的兑换比率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 一国货币与另一国货币的兑换比率。
+        example: 人民币汇率双向波动弹性增强。
+        isPrimary: true
+    aliases:
+      - raw: 汇率
+        aliasType: primary
+      - raw: Exchange Rate
+        aliasType: en_alias
+  - slug: ren-min-bi-hui-l
+    headword: 人民币汇率
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 人民币兑美元等外币的汇率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 人民币兑美元等外币的汇率。
+        example: 人民币汇率企稳，外资回流。
+        isPrimary: true
+    aliases:
+      - raw: 人民币汇率
+        aliasType: primary
+      - raw: CNY Exchange Rate
+        aliasType: en_alias
+  - slug: yi-lan-zi-huo-bi
+    headword: 一篮子货币
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按贸易权重构成的货币组合，CFETS人民币汇率指数基于此。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按贸易权重构成的货币组合，CFETS人民币汇率指数基于此。
+        example: 人民币对一篮子货币保持稳定。
+        isPrimary: true
+    aliases:
+      - raw: 一篮子货币
+        aliasType: primary
+      - raw: Currency Basket
+        aliasType: en_alias
+  - slug: c-f-e-t-s-zhi-shu
+    headword: CFETS指数
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国外汇交易中心编制的人民币汇率指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国外汇交易中心编制的人民币汇率指数。
+        example: CFETS指数反映人民币综合强弱。
+        isPrimary: true
+    aliases:
+      - raw: CFETS指数
+        aliasType: primary
+      - raw: CFETS Index
+        aliasType: en_alias
+  - slug: wai-hui-zhan-kuan
+    headword: 外汇占款
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行因购汇投放的人民币资金，反映外汇流入压力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行因购汇投放的人民币资金，反映外汇流入压力。
+        example: 外汇占款变动影响基础货币投放。
+        isPrimary: true
+    aliases:
+      - raw: 外汇占款
+        aliasType: primary
+      - raw: FX Position
+        aliasType: en_alias
+  - slug: mei-yuan-zhi-shu-zou-qiang
+    headword: 美元指数走强
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 美元相对其他货币升值，通常利空新兴市场资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 美元相对其他货币升值，通常利空新兴市场资产。
+        example: 美元走强引发人民币与A股承压。
+        isPrimary: true
+    aliases:
+      - raw: 美元指数走强
+        aliasType: primary
+      - raw: DXY Strength
+        aliasType: en_alias
+  - slug: bi-xian-huo-bi
+    headword: 避险货币
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 市场动荡时受追捧的货币，如美元、日元、瑞郎。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场动荡时受追捧的货币，如美元、日元、瑞郎。
+        example: 避险货币走强反映市场风险偏好下降。
+        isPrimary: true
+    aliases:
+      - raw: 避险货币
+        aliasType: primary
+      - raw: Safe-haven Currency
+        aliasType: en_alias
+  - slug: tao-xi-jiao-yi
+    headword: 套息交易
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 借入低息货币投资高息资产的交易，日元套息规模庞大。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 借入低息货币投资高息资产的交易，日元套息规模庞大。
+        example: 套息交易平仓引发全球波动。
+        isPrimary: true
+    aliases:
+      - raw: 套息交易
+        aliasType: primary
+      - raw: Carry Trade
+        aliasType: en_alias
+  - slug: hui-l-cao-zong
+    headword: 汇率操纵
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 一国人为压低本币汇率以获取贸易优势，美国财政部评估依据。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 一国人为压低本币汇率以获取贸易优势，美国财政部评估依据。
+        example: 被列入汇率操纵观察名单影响市场情绪。
+        isPrimary: true
+    aliases:
+      - raw: 汇率操纵
+        aliasType: primary
+      - raw: Currency Manipulation
+        aliasType: en_alias
+  - slug: shu-zi-huo-bi
+    headword: 数字货币
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 数字化法定货币，e-CNY为央行数字货币。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 数字化法定货币，e-CNY为央行数字货币。
+        example: 数字人民币试点扩围。
+        isPrimary: true
+    aliases:
+      - raw: 数字货币
+        aliasType: primary
+      - raw: Digital Currency
+        aliasType: en_alias
+  - slug: xiao-fei-yi-liao
+    headword: 消费医疗
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 医美、口腔、眼科、体检等消费属性医疗。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 医美、口腔、眼科、体检等消费属性医疗。
+        example: 消费医疗需求复苏。
+        isPrimary: true
+    aliases:
+      - raw: 消费医疗
+        aliasType: primary
+      - raw: Consumer Healthcare
+        aliasType: en_alias
+  - slug: di-kong
+    headword: 低空
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 低空经济相关产业。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 低空经济相关产业。
+        example: 低空政策密集落地。
+        isPrimary: true
+    aliases:
+      - raw: 低空
+        aliasType: primary
+      - raw: Low Altitude
+        aliasType: en_alias
+  - slug: xian-zi
+    headword: 险资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 保险公司的投资资金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 保险公司的投资资金。
+        example: 险资入市比例提升。
+        isPrimary: true
+    aliases:
+      - raw: 险资
+        aliasType: primary
+      - raw: Insurance Capital
+        aliasType: en_alias
+  - slug: hong-guan-jing-ji
+    headword: 宏观经济
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 国民经济整体运行状况。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 国民经济整体运行状况。
+        example: 宏观经济决定市场大环境。
+        isPrimary: true
+    aliases:
+      - raw: 宏观经济
+        aliasType: primary
+      - raw: Macro
+        aliasType: en_alias
+  - slug: wei-guan-jing-ji
+    headword: 微观经济
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业与行业层面经济状况。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业与行业层面经济状况。
+        example: 微观验证宏观判断。
+        isPrimary: true
+    aliases:
+      - raw: 微观经济
+        aliasType: primary
+      - raw: Micro
+        aliasType: en_alias
+  - slug: kuan-huo-bi
+    headword: 宽货币
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 货币供应宽松。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 货币供应宽松。
+        example: 宽货币环境下利率下行。
+        isPrimary: true
+    aliases:
+      - raw: 宽货币
+        aliasType: primary
+      - raw: Loose Money
+        aliasType: en_alias
+  - slug: kuan-xin-yong
+    headword: 宽信用
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 信贷投放宽松。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 信贷投放宽松。
+        example: 宽信用利好实体与股市。
+        isPrimary: true
+    aliases:
+      - raw: 宽信用
+        aliasType: primary
+      - raw: Loose Credit
+        aliasType: en_alias
+  - slug: jin-xin-yong
+    headword: 紧信用
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 信贷投放收紧。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 信贷投放收紧。
+        example: 紧信用压制企业盈利。
+        isPrimary: true
+    aliases:
+      - raw: 紧信用
+        aliasType: primary
+      - raw: Tight Credit
+        aliasType: en_alias
+  - slug: xin-yong-zhou-qi
+    headword: 信用周期
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 信贷扩张收缩的周期。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 信贷扩张收缩的周期。
+        example: 信用周期领先经济周期。
+        isPrimary: true
+    aliases:
+      - raw: 信用周期
+        aliasType: primary
+      - raw: Credit Cycle
+        aliasType: en_alias
+  - slug: fen-san-tou-zi
+    headword: 分散投资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 多资产多行业配置。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 多资产多行业配置。
+        example: 分散投资是免费午餐。
+        isPrimary: true
+    aliases:
+      - raw: 分散投资
+        aliasType: primary
+      - raw: Diversification
+        aliasType: en_alias
+  - slug: ji-zhong-tou-zi
+    headword: 集中投资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 重仓少数优质标的。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 重仓少数优质标的。
+        example: 集中投资需深度认知。
+        isPrimary: true
+    aliases:
+      - raw: 集中投资
+        aliasType: primary
+      - raw: Concentration
+        aliasType: en_alias
+  - slug: jia-xi-zhou-qi
+    headword: 加息周期
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 利率持续上调的时期。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 利率持续上调的时期。
+        example: 加息周期压制估值。
+        isPrimary: true
+    aliases:
+      - raw: 加息周期
+        aliasType: primary
+      - raw: Hiking Cycle
+        aliasType: en_alias
+  - slug: jiang-xi-zhou-qi
+    headword: 降息周期
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 利率持续下调的时期。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 利率持续下调的时期。
+        example: 降息周期利好资产价格。
+        isPrimary: true
+    aliases:
+      - raw: 降息周期
+        aliasType: primary
+      - raw: Cutting Cycle
+        aliasType: en_alias
+  - slug: li-l-jue-yi
+    headword: 利率决议
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行利率决策会议结果。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行利率决策会议结果。
+        example: 利率决议是市场焦点。
+        isPrimary: true
+    aliases:
+      - raw: 利率决议
+        aliasType: primary
+      - raw: Rate Decision
+        aliasType: en_alias
+  - slug: qian-zhan-zhi-yin
+    headword: 前瞻指引
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行对未来政策的引导。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行对未来政策的引导。
+        example: 前瞻指引管理市场预期。
+        isPrimary: true
+    aliases:
+      - raw: 前瞻指引
+        aliasType: primary
+      - raw: Forward Guidance
+        aliasType: en_alias
+  - slug: tong-zhang-yu-qi
+    headword: 通胀预期
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 市场对未来通胀的预期。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场对未来通胀的预期。
+        example: 通胀预期影响实际利率。
+        isPrimary: true
+    aliases:
+      - raw: 通胀预期
+        aliasType: primary
+      - raw: Inflation Expectation
+        aliasType: en_alias
+  - slug: zai-tong-zhang
+    headword: 再通胀
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 物价与经济同步回升。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 物价与经济同步回升。
+        example: 再通胀利好周期股。
+        isPrimary: true
+    aliases:
+      - raw: 再通胀
+        aliasType: primary
+      - raw: Reflation
+        aliasType: en_alias
+  - slug: fu-su
+    headword: 复苏
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经济从低谷回升。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 经济从低谷回升。
+        example: 复苏初期股市上行。
+        isPrimary: true
+    aliases:
+      - raw: 复苏
+        aliasType: primary
+      - raw: Recovery
+        aliasType: en_alias
+  - slug: shuai-tui
+    headword: 衰退
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经济持续收缩。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 经济持续收缩。
+        example: 衰退期防御为王。
+        isPrimary: true
+    aliases:
+      - raw: 衰退
+        aliasType: primary
+      - raw: Recession
+        aliasType: en_alias
+  - slug: fan-rong
+    headword: 繁荣
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经济高速扩张。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 经济高速扩张。
+        example: 繁荣后期警惕泡沫。
+        isPrimary: true
+    aliases:
+      - raw: 繁荣
+        aliasType: primary
+      - raw: Boom
+        aliasType: en_alias
+  - slug: jing-ji-zhou-qi
+    headword: 经济周期
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经济扩张收缩的循环。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 经济扩张收缩的循环。
+        example: 经济周期决定资产配置。
+        isPrimary: true
+    aliases:
+      - raw: 经济周期
+        aliasType: primary
+      - raw: Business Cycle
+        aliasType: en_alias
+  - slug: ji-zhang-shi-guo-zhai
+    headword: 记账式国债
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以记账方式发行的国债。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以记账方式发行的国债。
+        example: 记账式国债可上市交易。
+        isPrimary: true
+    aliases:
+      - raw: 记账式国债
+        aliasType: primary
+      - raw: Book-entry Treasury
+        aliasType: en_alias
+  - slug: chu-xu-guo-zhai
+    headword: 储蓄国债
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 面向个人发行的国债。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 面向个人发行的国债。
+        example: 储蓄国债适合稳健投资者。
+        isPrimary: true
+    aliases:
+      - raw: 储蓄国债
+        aliasType: primary
+      - raw: Savings Bond
+        aliasType: en_alias
+  - slug: zhai-quan-shou-yi-l
+    headword: 债券收益率
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 债券投资的年化回报率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 债券投资的年化回报率。
+        example: 债券收益率与价格反向。
+        isPrimary: true
+    aliases:
+      - raw: 债券收益率
+        aliasType: primary
+      - raw: Bond Yield
+        aliasType: en_alias
+  - slug: tu-xing
+    headword: 凸性
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 久期随利率变化的二阶效应。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 久期随利率变化的二阶效应。
+        example: 正凸性债券利率下行受益更大。
+        isPrimary: true
+    aliases:
+      - raw: 凸性
+        aliasType: primary
+      - raw: Convexity
+        aliasType: en_alias
+  - slug: piao-mian-li-l
+    headword: 票面利率
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 债券发行约定的利息率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 债券发行约定的利息率。
+        example: 票面利率固定支付利息。
+        isPrimary: true
+    aliases:
+      - raw: 票面利率
+        aliasType: primary
+      - raw: Coupon Rate
+        aliasType: en_alias
+  - slug: tou-zi-ji
+    headword: 投资级
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: BBB-及以上评级的债券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: BBB-及以上评级的债券。
+        example: 投资级债信用风险低。
+        isPrimary: true
+    aliases:
+      - raw: 投资级
+        aliasType: primary
+      - raw: Investment Grade
+        aliasType: en_alias
+  - slug: li-l-qu-xian
+    headword: 利率曲线
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 不同期限利率的连线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 不同期限利率的连线。
+        example: 曲线形态反映经济预期。
+        isPrimary: true
+    aliases:
+      - raw: 利率曲线
+        aliasType: primary
+      - raw: Yield Curve
+        aliasType: en_alias
+  - slug: qi-xian-jie-gou
+    headword: 期限结构
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 利率与期限的关系结构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 利率与期限的关系结构。
+        example: 期限结构陡峭化预示复苏。
+        isPrimary: true
+    aliases:
+      - raw: 期限结构
+        aliasType: primary
+      - raw: Term Structure
+        aliasType: en_alias
+  - slug: nan-xiang-tong
+    headword: 南向通
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 内地资金投资香港债市的通道。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 内地资金投资香港债市的通道。
+        example: 南向通丰富配置渠道。
+        isPrimary: true
+    aliases:
+      - raw: 南向通
+        aliasType: primary
+      - raw: Southbound Bond Connect
+        aliasType: en_alias
+  - slug: bei-xiang-tong
+    headword: 北向通
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 外资投资内地债市的通道。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 外资投资内地债市的通道。
+        example: 北向通规模持续扩大。
+        isPrimary: true
+    aliases:
+      - raw: 北向通
+        aliasType: primary
+      - raw: Northbound Bond Connect
+        aliasType: en_alias
+  - slug: dai-kuan-li-l
+    headword: 贷款利率
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 银行贷款利率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 银行贷款利率。
+        example: 贷款利率下行降低融资成本。
+        isPrimary: true
+    aliases:
+      - raw: 贷款利率
+        aliasType: primary
+      - raw: Lending Rate
+        aliasType: en_alias
+  - slug: ji-zhun-li-l
+    headword: 基准利率
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 金融定价的参考利率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 金融定价的参考利率。
+        example: 基准利率变动影响全市场。
+        isPrimary: true
+    aliases:
+      - raw: 基准利率
+        aliasType: primary
+      - raw: Benchmark Rate
+        aliasType: en_alias
+  - slug: gong-kai-shi-chang
+    headword: 公开市场
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行公开市场操作。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行公开市场操作。
+        example: 公开市场调节短期流动性。
+        isPrimary: true
+    aliases:
+      - raw: 公开市场
+        aliasType: primary
+      - raw: Open Market
+        aliasType: en_alias
+  - slug: ji-jin
+    headword: 基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 集合资金专业管理的投资产品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 集合资金专业管理的投资产品。
+        example: 公募基金规模持续增长。
+        isPrimary: true
+    aliases:
+      - raw: 基金
+        aliasType: primary
+      - raw: Fund
+        aliasType: en_alias
+  - slug: f-o-f
+    headword: FOF
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资基金的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资基金的基金。
+        example: FOF分散单一基金风险。
+        isPrimary: true
+    aliases:
+      - raw: FOF
+        aliasType: primary
+      - raw: Fund of Funds
+        aliasType: en_alias
+  - slug: ji-jin-jing-li
+    headword: 基金经理
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 管理基金投资组合的人。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 管理基金投资组合的人。
+        example: 基金经理风格决定基金表现。
+        isPrimary: true
+    aliases:
+      - raw: 基金经理
+        aliasType: primary
+      - raw: Fund Manager
+        aliasType: en_alias
+  - slug: chang-qi-tou-zi
+    headword: 长期投资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 长期持有的投资理念。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 长期持有的投资理念。
+        example: 长期投资享受复利。
+        isPrimary: true
+    aliases:
+      - raw: 长期投资
+        aliasType: primary
+      - raw: Long-term Investing
+        aliasType: en_alias
+  - slug: qu-shi-tou-zi
+    headword: 趋势投资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟随趋势交易的理念。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 跟随趋势交易的理念。
+        example: 趋势投资重择时。
+        isPrimary: true
+    aliases:
+      - raw: 趋势投资
+        aliasType: primary
+      - raw: Trend Investing
+        aliasType: en_alias
+  - slug: liang-hua-tou-zi
+    headword: 量化投资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 模型驱动的投资方法。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 模型驱动的投资方法。
+        example: 量化投资纪律性强。
+        isPrimary: true
+    aliases:
+      - raw: 量化投资
+        aliasType: primary
+      - raw: Quant Investing
+        aliasType: en_alias
+  - slug: hong-guan-zheng-ce
+    headword: 宏观政策
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 货币政策与财政政策总称。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 货币政策与财政政策总称。
+        example: 宏观政策决定市场大环境。
+        isPrimary: true
+    aliases:
+      - raw: 宏观政策
+        aliasType: primary
+      - raw: Macro Policy
+        aliasType: en_alias
+  - slug: xiao-fei-sheng-ji
+    headword: 消费升级
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 消费结构向高端化演进。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 消费结构向高端化演进。
+        example: 消费升级利好品质品牌。
+        isPrimary: true
+    aliases:
+      - raw: 消费升级
+        aliasType: primary
+      - raw: Consumption Upgrade
+        aliasType: en_alias
+  - slug: xiao-fei-jiang-ji
+    headword: 消费降级
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 消费转向性价比商品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 消费转向性价比商品。
+        example: 消费降级下平价品牌受益。
+        isPrimary: true
+    aliases:
+      - raw: 消费降级
+        aliasType: primary
+      - raw: Trading Down
+        aliasType: en_alias
+  - slug: ri-ben-hua
+    headword: 日本化
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 低增长低通胀长期化现象。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 低增长低通胀长期化现象。
+        example: 日本化担忧压制长期利率。
+        isPrimary: true
+    aliases:
+      - raw: 日本化
+        aliasType: primary
+      - raw: Japanification
+        aliasType: en_alias
+  - slug: fei-li-pu-si-qu-xian
+    headword: 菲利普斯曲线
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 失业与通胀此消彼长的关系。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 失业与通胀此消彼长的关系。
+        example: 菲利普斯曲线平坦化引发讨论。
+        isPrimary: true
+    aliases:
+      - raw: 菲利普斯曲线
+        aliasType: primary
+      - raw: Phillips Curve
+        aliasType: en_alias
+  - slug: zi-ran-shi-ye-l
+    headword: 自然失业率
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 不引发通胀加速的失业率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 不引发通胀加速的失业率。
+        example: 自然失业率是政策参考。
+        isPrimary: true
+    aliases:
+      - raw: 自然失业率
+        aliasType: primary
+      - raw: Natural Rate
+        aliasType: en_alias
+  - slug: qian-zai-zeng-zhang-l
+    headword: 潜在增长率
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经济体长期可持续的增速。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 经济体长期可持续的增速。
+        example: 潜在增速决定资产长期回报。
+        isPrimary: true
+    aliases:
+      - raw: 潜在增长率
+        aliasType: primary
+      - raw: Potential Growth
+        aliasType: en_alias
+  - slug: zi-mao-qu
+    headword: 自贸区
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 自由贸易试验区。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 自由贸易试验区。
+        example: 自贸区制度创新先行先试。
+        isPrimary: true
+    aliases:
+      - raw: 自贸区
+        aliasType: primary
+      - raw: FTZ
+        aliasType: en_alias
+  - slug: chan-neng-guo-sheng
+    headword: 产能过剩
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 供给超过需求的状态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 供给超过需求的状态。
+        example: 产能过剩压制行业盈利。
+        isPrimary: true
+    aliases:
+      - raw: 产能过剩
+        aliasType: primary
+      - raw: Overcapacity
+        aliasType: en_alias
+  - slug: gong-ji-ce-chu-qing
+    headword: 供给侧出清
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 落后产能退出市场。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 落后产能退出市场。
+        example: 供给侧出清后龙头受益。
+        isPrimary: true
+    aliases:
+      - raw: 供给侧出清
+        aliasType: primary
+      - raw: Supply Clearance
+        aliasType: en_alias
+  - slug: ping-tai-jing-ji
+    headword: 平台经济
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 互联网平台驱动的经济形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 互联网平台驱动的经济形态。
+        example: 平台经济监管常态化。
+        isPrimary: true
+    aliases:
+      - raw: 平台经济
+        aliasType: primary
+      - raw: Platform Economy
+        aliasType: en_alias
+  - slug: quan-qiu-hua
+    headword: 全球化
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经济全球一体化进程。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 经济全球一体化进程。
+        example: 全球化遭遇逆流。
+        isPrimary: true
+    aliases:
+      - raw: 全球化
+        aliasType: primary
+      - raw: Globalization
+        aliasType: en_alias
+  - slug: ni-quan-qiu-hua
+    headword: 逆全球化
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 全球贸易与投资收缩趋势。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 全球贸易与投资收缩趋势。
+        example: 逆全球化推升供应链成本。
+        isPrimary: true
+    aliases:
+      - raw: 逆全球化
+        aliasType: primary
+      - raw: Deglobalization
+        aliasType: en_alias
+  - slug: mao-yi-bao-hu-zhu-yi
+    headword: 贸易保护主义
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以关税壁垒保护本国产业。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以关税壁垒保护本国产业。
+        example: 贸易保护主义损害全球效率。
+        isPrimary: true
+    aliases:
+      - raw: 贸易保护主义
+        aliasType: primary
+      - raw: Protectionism
+        aliasType: en_alias
+  - slug: hui-l-zhan
+    headword: 汇率战
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 各国竞相贬值货币。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 各国竞相贬值货币。
+        example: 汇率战加剧贸易紧张。
+        isPrimary: true
+    aliases:
+      - raw: 汇率战
+        aliasType: primary
+      - raw: Currency War
+        aliasType: en_alias
+  - slug: chu-bei-huo-bi
+    headword: 储备货币
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 各国央行持有的国际储备货币。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 各国央行持有的国际储备货币。
+        example: 美元是全球主要储备货币。
+        isPrimary: true
+    aliases:
+      - raw: 储备货币
+        aliasType: primary
+      - raw: Reserve Currency
+        aliasType: en_alias
+  - slug: shu-zi-ren-min-bi
+    headword: 数字人民币
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国央行数字货币。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国央行数字货币。
+        example: 数字人民币试点扩大。
+        isPrimary: true
+    aliases:
+      - raw: 数字人民币
+        aliasType: primary
+      - raw: e-CNY
+        aliasType: en_alias
+  - slug: jia-mi-huo-bi
+    headword: 加密货币
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 基于区块链的数字货币。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 基于区块链的数字货币。
+        example: 加密货币波动剧烈。
+        isPrimary: true
+    aliases:
+      - raw: 加密货币
+        aliasType: primary
+      - raw: Cryptocurrency
+        aliasType: en_alias
+  - slug: bi-te-bi
+    headword: 比特币
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 最知名的加密货币。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 最知名的加密货币。
+        example: 比特币被称数字黄金。
+        isPrimary: true
+    aliases:
+      - raw: 比特币
+        aliasType: primary
+      - raw: Bitcoin
+        aliasType: en_alias
+  - slug: wen-ding-bi
+    headword: 稳定币
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 锚定法定货币的加密货币。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 锚定法定货币的加密货币。
+        example: 稳定币监管趋严。
+        isPrimary: true
+    aliases:
+      - raw: 稳定币
+        aliasType: primary
+      - raw: Stablecoin
+        aliasType: en_alias
+  - slug: yang-xing-shu-zi-huo-bi
+    headword: 央行数字货币
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行发行的法定数字货币。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行发行的法定数字货币。
+        example: 多国央行研发CBDC。
+        isPrimary: true
+    aliases:
+      - raw: 央行数字货币
+        aliasType: primary
+      - raw: CBDC
+        aliasType: en_alias
+  - slug: tou-zi-zhe-guan-xi
+    headword: 投资者关系
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公司与投资者的沟通管理。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公司与投资者的沟通管理。
+        example: IR质量影响估值。
+        isPrimary: true
+    aliases:
+      - raw: 投资者关系
+        aliasType: primary
+      - raw: IR
+        aliasType: en_alias
+  - slug: kun-jing-fan-zhuan
+    headword: 困境反转
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资困境公司反转的策略。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资困境公司反转的策略。
+        example: 困境反转需深度尽调。
+        isPrimary: true
+    aliases:
+      - raw: 困境反转
+        aliasType: primary
+      - raw: Distressed
+        aliasType: en_alias
+  - slug: yin-zi-tou-zi
+    headword: 因子投资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按风格因子配置的策略。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按风格因子配置的策略。
+        example: 价值、动量、质量是核心因子。
+        isPrimary: true
+    aliases:
+      - raw: 因子投资
+        aliasType: primary
+      - raw: Factor Investing
+        aliasType: en_alias
+  - slug: xin-xing-shi-chang
+    headword: 新兴市场
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 发展中经济体的市场。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 发展中经济体的市场。
+        example: 新兴市场波动大于发达。
+        isPrimary: true
+    aliases:
+      - raw: 新兴市场
+        aliasType: primary
+      - raw: Emerging Market
+        aliasType: en_alias
+  - slug: fa-da-shi-chang
+    headword: 发达市场
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 成熟经济体的市场。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 成熟经济体的市场。
+        example: 发达市场制度成熟。
+        isPrimary: true
+    aliases:
+      - raw: 发达市场
+        aliasType: primary
+      - raw: Developed Market
+        aliasType: en_alias
+  - slug: guo-ji-zi-ben
+    headword: 国际资本
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跨国投资的资本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 跨国投资的资本。
+        example: 国际资本配置中国资产。
+        isPrimary: true
+    aliases:
+      - raw: 国际资本
+        aliasType: primary
+      - raw: International Capital
+        aliasType: en_alias
+  - slug: ou-yuan
+    headword: 欧元
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 欧元区共同货币。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 欧元区共同货币。
+        example: 欧元走势反映欧洲经济。
+        isPrimary: true
+    aliases:
+      - raw: 欧元
+        aliasType: primary
+      - raw: Euro
+        aliasType: en_alias
+  - slug: ri-yuan
+    headword: 日元
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 日本货币，避险属性。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 日本货币，避险属性。
+        example: 日元套息交易影响全球。
+        isPrimary: true
+    aliases:
+      - raw: 日元
+        aliasType: primary
+      - raw: Yen
+        aliasType: en_alias
+  - slug: ying-bang
+    headword: 英镑
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 英国货币。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 英国货币。
+        example: 英镑受英央行政策影响。
+        isPrimary: true
+    aliases:
+      - raw: 英镑
+        aliasType: primary
+      - raw: Pound
+        aliasType: en_alias
+  - slug: ao-yuan
+    headword: 澳元
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 澳大利亚货币，商品属性。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 澳大利亚货币，商品属性。
+        example: 澳元与大宗商品相关。
+        isPrimary: true
+    aliases:
+      - raw: 澳元
+        aliasType: primary
+      - raw: AUD
+        aliasType: en_alias
+  - slug: jia-yuan
+    headword: 加元
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 加拿大货币，石油属性。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 加拿大货币，石油属性。
+        example: 加元与油价相关。
+        isPrimary: true
+    aliases:
+      - raw: 加元
+        aliasType: primary
+      - raw: CAD
+        aliasType: en_alias
+  - slug: rui-lang
+    headword: 瑞郎
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 瑞士货币，避险属性。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 瑞士货币，避险属性。
+        example: 瑞郎是传统避险货币。
+        isPrimary: true
+    aliases:
+      - raw: 瑞郎
+        aliasType: primary
+      - raw: CHF
+        aliasType: en_alias
+  - slug: xin-jia-po-yuan
+    headword: 新加坡元
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新加坡货币。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 新加坡货币。
+        example: 新元政策与贸易相关。
+        isPrimary: true
+    aliases:
+      - raw: 新加坡元
+        aliasType: primary
+      - raw: SGD
+        aliasType: en_alias
+  - slug: wai-hui-shi-chang
+    headword: 外汇市场
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 货币兑换交易市场。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 货币兑换交易市场。
+        example: 外汇市场是全球最大市场。
+        isPrimary: true
+    aliases:
+      - raw: 外汇市场
+        aliasType: primary
+      - raw: FX Market
+        aliasType: en_alias
+  - slug: ji-qi-hui-l
+    headword: 即期汇率
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 即时交割的汇率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 即时交割的汇率。
+        example: 即期汇率反映即时供需。
+        isPrimary: true
+    aliases:
+      - raw: 即期汇率
+        aliasType: primary
+      - raw: Spot Rate
+        aliasType: en_alias
+  - slug: hui-l-feng-xian
+    headword: 汇率风险
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 汇率波动的风险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 汇率波动的风险。
+        example: 汇率风险影响跨国企业。
+        isPrimary: true
+    aliases:
+      - raw: 汇率风险
+        aliasType: primary
+      - raw: FX Risk
+        aliasType: en_alias
+  - slug: guan-shui-bi-lei
+    headword: 关税壁垒
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 关税造成的贸易障碍。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 关税造成的贸易障碍。
+        example: 关税壁垒推升成本。
+        isPrimary: true
+    aliases:
+      - raw: 关税壁垒
+        aliasType: primary
+      - raw: Tariff Barrier
+        aliasType: en_alias
+  - slug: fei-guan-shui-bi-lei
+    headword: 非关税壁垒
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 关税外的贸易限制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 关税外的贸易限制。
+        example: 非关税壁垒多样复杂。
+        isPrimary: true
+    aliases:
+      - raw: 非关税壁垒
+        aliasType: primary
+      - raw: Non-tariff Barrier
+        aliasType: en_alias
+  - slug: mao-yi-xie-ding
+    headword: 贸易协定
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 国家间贸易安排。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 国家间贸易安排。
+        example: 自贸协定降低关税。
+        isPrimary: true
+    aliases:
+      - raw: 贸易协定
+        aliasType: primary
+      - raw: Trade Agreement
+        aliasType: en_alias
+  - slug: guo-ji-huo-bi-ji-jin-zu-zhi-dai-kuan
+    headword: 国际货币基金组织贷款
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: IMF提供的救助贷款。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: IMF提供的救助贷款。
+        example: IMF贷款有条件约束。
+        isPrimary: true
+    aliases:
+      - raw: 国际货币基金组织贷款
+        aliasType: primary
+      - raw: IMF Loan
+        aliasType: en_alias
+  - slug: bu-lei-dun-sen-lin-ti-xi
+    headword: 布雷顿森林体系
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 二战后国际货币体系。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 二战后国际货币体系。
+        example: 布雷顿森林体系确立美元地位。
+        isPrimary: true
+    aliases:
+      - raw: 布雷顿森林体系
+        aliasType: primary
+      - raw: Bretton Woods
+        aliasType: en_alias
+  - slug: ya-mai-jia-ti-xi
+    headword: 牙买加体系
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 现行浮动汇率体系。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 现行浮动汇率体系。
+        example: 牙买加体系允许汇率浮动。
+        isPrimary: true
+    aliases:
+      - raw: 牙买加体系
+        aliasType: primary
+      - raw: Jamaica System
+        aliasType: en_alias
+  - slug: jin-ben-wei
+    headword: 金本位
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 货币与黄金挂钩的制度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 货币与黄金挂钩的制度。
+        example: 金本位已退出历史。
+        isPrimary: true
+    aliases:
+      - raw: 金本位
+        aliasType: primary
+      - raw: Gold Standard
+        aliasType: en_alias
+  - slug: shi-you-mei-yuan
+    headword: 石油美元
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 石油贸易以美元结算的体系。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 石油贸易以美元结算的体系。
+        example: 石油美元支撑美元地位。
+        isPrimary: true
+    aliases:
+      - raw: 石油美元
+        aliasType: primary
+      - raw: Petrodollar
+        aliasType: en_alias
+  - slug: mei-yuan-ba-quan
+    headword: 美元霸权
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 美元主导国际货币体系。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 美元主导国际货币体系。
+        example: 美元霸权受到挑战。
+        isPrimary: true
+    aliases:
+      - raw: 美元霸权
+        aliasType: primary
+      - raw: Dollar Hegemony
+        aliasType: en_alias
+  - slug: yang-xing-gou-jin
+    headword: 央行购金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行增持黄金储备。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 央行增持黄金储备。
+        example: 央行购金支撑金价。
+        isPrimary: true
+    aliases:
+      - raw: 央行购金
+        aliasType: primary
+      - raw: Central Bank Gold Buying
+        aliasType: en_alias
+  - slug: huang-jin-chu-bei
+    headword: 黄金储备
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行持有的黄金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行持有的黄金。
+        example: 黄金储备是安全资产。
+        isPrimary: true
+    aliases:
+      - raw: 黄金储备
+        aliasType: primary
+      - raw: Gold Reserve
+        aliasType: en_alias
+  - slug: hui-l-cao-zong-guo
+    headword: 汇率操纵国
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 被认定操纵汇率的国家。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 被认定操纵汇率的国家。
+        example: 汇率操纵国标签影响贸易。
+        isPrimary: true
+    aliases:
+      - raw: 汇率操纵国
+        aliasType: primary
+      - raw: Currency Manipulator
+        aliasType: en_alias
+  - slug: quan-qiu-feng-xian-pian-hao
+    headword: 全球风险偏好
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 全球投资者风险态度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 全球投资者风险态度。
+        example: 风险偏好回升利好新兴市场。
+        isPrimary: true
+    aliases:
+      - raw: 全球风险偏好
+        aliasType: primary
+      - raw: Global Risk Appetite
+        aliasType: en_alias
+  - slug: hong-guan-jing-ji-shu-ju
+    headword: 宏观经济数据
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 宏观经济统计指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 宏观经济统计指标。
+        example: 宏观数据影响政策预期。
+        isPrimary: true
+    aliases:
+      - raw: 宏观经济数据
+        aliasType: primary
+      - raw: Macro Data
+        aliasType: en_alias
+  - slug: jing-ji-shu-ju
+    headword: 经济数据
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经济统计指标总称。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 经济统计指标总称。
+        example: 数据发布引发市场波动。
+        isPrimary: true
+    aliases:
+      - raw: 经济数据
+        aliasType: primary
+      - raw: Economic Data
+        aliasType: en_alias
+  - slug: qian-zhan-zhi-biao
+    headword: 前瞻指标
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 领先经济的数据。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 领先经济的数据。
+        example: PMI是典型前瞻指标。
+        isPrimary: true
+    aliases:
+      - raw: 前瞻指标
+        aliasType: primary
+      - raw: Leading Indicator
+        aliasType: en_alias
+  - slug: jing-ji-yi-wai-zhi-shu
+    headword: 经济意外指数
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经济数据超预期程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 经济数据超预期程度。
+        example: 意外指数反映数据强弱。
+        isPrimary: true
+    aliases:
+      - raw: 经济意外指数
+        aliasType: primary
+      - raw: Economic Surprise Index
+        aliasType: en_alias
+  - slug: hua-qi-jing-ji-yi-wai-zhi-shu
+    headword: 花旗经济意外指数
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 花旗编制的经济意外指数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 花旗编制的经济意外指数。
+        example: 意外指数指引资产方向。
+        isPrimary: true
+    aliases:
+      - raw: 花旗经济意外指数
+        aliasType: primary
+      - raw: Citi Surprise Index
+        aliasType: en_alias
+  - slug: jing-ji-yu-qi
+    headword: 经济预期
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 市场对经济的预测。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场对经济的预测。
+        example: 预期变化驱动交易。
+        isPrimary: true
+    aliases:
+      - raw: 经济预期
+        aliasType: primary
+      - raw: Economic Expectation
+        aliasType: en_alias
+  - slug: jie-gou-xing-ji-hui
+    headword: 结构性机会
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 局部板块的投资机会。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 局部板块的投资机会。
+        example: 结构性机会在震荡市显著。
+        isPrimary: true
+    aliases:
+      - raw: 结构性机会
+        aliasType: primary
+      - raw: Structural Opportunity
+        aliasType: en_alias
+  - slug: luo-ji
+    headword: 逻辑
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资决策的依据。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资决策的依据。
+        example: 逻辑清晰才能坚持。
+        isPrimary: true
+    aliases:
+      - raw: 逻辑
+        aliasType: primary
+      - raw: Logic
+        aliasType: en_alias
+  - slug: luo-ji-zheng-wei
+    headword: 逻辑证伪
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资逻辑被否定。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资逻辑被否定。
+        example: 逻辑证伪及时离场。
+        isPrimary: true
+    aliases:
+      - raw: 逻辑证伪
+        aliasType: primary
+      - raw: Logic Falsified
+        aliasType: en_alias
+  - slug: chang-qi-gu-quan-tou-zi-he-suan
+    headword: 长期股权投资核算
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 权益法核算联营投资。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 权益法核算联营投资。
+        example: 权益法按份额确认损益。
+        isPrimary: true
+    aliases:
+      - raw: 长期股权投资核算
+        aliasType: primary
+      - raw: Equity Method
+        aliasType: en_alias
+  - slug: hui-l-zhe-suan-feng-xian
+    headword: 汇率折算风险
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 报表折算的汇率风险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 报表折算的汇率风险。
+        example: 折算风险影响报表数字。
+        isPrimary: true
+    aliases:
+      - raw: 汇率折算风险
+        aliasType: primary
+      - raw: Translation Risk
+        aliasType: en_alias
+  - slug: hong-guan-shui-fu
+    headword: 宏观税负
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 税收占GDP比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 税收占GDP比例。
+        example: 宏观税负反映财政汲取。
+        isPrimary: true
+    aliases:
+      - raw: 宏观税负
+        aliasType: primary
+      - raw: Macro Tax Burden
+        aliasType: en_alias
+  - slug: cai-zheng-zhi-chu
+    headword: 财政支出
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 政府支出规模。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 政府支出规模。
+        example: 支出结构影响经济。
+        isPrimary: true
+    aliases:
+      - raw: 财政支出
+        aliasType: primary
+      - raw: Fiscal Spending
+        aliasType: en_alias
+  - slug: zheng-fu-ji-jin
+    headword: 政府基金
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 政府投资基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 政府投资基金。
+        example: 政府基金引导产业。
+        isPrimary: true
+    aliases:
+      - raw: 政府基金
+        aliasType: primary
+      - raw: Government Fund
+        aliasType: en_alias
+  - slug: zhan-l-e-tou-zi
+    headword: 战略投资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 战略协同的投资。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 战略协同的投资。
+        example: 战略投资带来资源。
+        isPrimary: true
+    aliases:
+      - raw: 战略投资
+        aliasType: primary
+      - raw: Strategic Investment
+        aliasType: en_alias
+  - slug: cai-wu-tou-zi
+    headword: 财务投资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以财务回报为目的投资。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以财务回报为目的投资。
+        example: 财务投资退出导向。
+        isPrimary: true
+    aliases:
+      - raw: 财务投资
+        aliasType: primary
+      - raw: Financial Investment
+        aliasType: en_alias
+  - slug: nai-xin-zi-ben
+    headword: 耐心资本
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 长期耐心投资资金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 长期耐心投资资金。
+        example: 耐心资本支持硬科技。
+        isPrimary: true
+    aliases:
+      - raw: 耐心资本
+        aliasType: primary
+      - raw: Patient Capital
+        aliasType: en_alias
+  - slug: huo-bi-shi-chang
+    headword: 货币市场
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 短期资金融通市场。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 短期资金融通市场。
+        example: 货币市场工具期限短。
+        isPrimary: true
+    aliases:
+      - raw: 货币市场
+        aliasType: primary
+      - raw: Money Market
+        aliasType: en_alias
+  - slug: tou-zi-zhe-jie-gou
+    headword: 投资者结构
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资者类型构成。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资者类型构成。
+        example: 机构占比提升利好稳定。
+        isPrimary: true
+    aliases:
+      - raw: 投资者结构
+        aliasType: primary
+      - raw: Investor Structure
+        aliasType: en_alias
+  - slug: ji-gou-hua
+    headword: 机构化
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 机构投资者占比提升。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 机构投资者占比提升。
+        example: 机构化降低波动。
+        isPrimary: true
+    aliases:
+      - raw: 机构化
+        aliasType: primary
+      - raw: Institutionalization
+        aliasType: en_alias
+  - slug: zhu-ce-tou-zi-zhe
+    headword: 注册投资者
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 开户投资者数量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 开户投资者数量。
+        example: 投资者数量庞大。
+        isPrimary: true
+    aliases:
+      - raw: 注册投资者
+        aliasType: primary
+      - raw: Registered Investors
+        aliasType: en_alias
+  - slug: tou-zi-zhe-xin-xin
+    headword: 投资者信心
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资者对市场信心。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资者对市场信心。
+        example: 信心决定参与度。
+        isPrimary: true
+    aliases:
+      - raw: 投资者信心
+        aliasType: primary
+      - raw: Investor Confidence
+        aliasType: en_alias
+  - slug: zheng-quan-hua-l
+    headword: 证券化率
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股市市值占GDP比。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股市市值占GDP比。
+        example: 证券化率衡量市场深度。
+        isPrimary: true
+    aliases:
+      - raw: 证券化率
+        aliasType: primary
+      - raw: Securitization Ratio
+        aliasType: en_alias
+  - slug: mao-li-l-shui-ping
+    headword: 毛利率水平
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上市公司整体毛利率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上市公司整体毛利率。
+        example: 毛利率反映盈利质量。
+        isPrimary: true
+    aliases:
+      - raw: 毛利率水平
+        aliasType: primary
+      - raw: Margin Level
+        aliasType: en_alias
+  - slug: zi-ben-kai-zhi-zhou-qi
+    headword: 资本开支周期
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业投资周期。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业投资周期。
+        example: 资本开支周期影响供给。
+        isPrimary: true
+    aliases:
+      - raw: 资本开支周期
+        aliasType: primary
+      - raw: Capex Cycle
+        aliasType: en_alias
+  - slug: hui-l-ying-xiang
+    headword: 汇率影响
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 汇率对企业影响。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 汇率对企业影响。
+        example: 升值利好进口利空出口。
+        isPrimary: true
+    aliases:
+      - raw: 汇率影响
+        aliasType: primary
+      - raw: FX Impact
+        aliasType: en_alias
+  - slug: li-l-ying-xiang
+    headword: 利率影响
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 利率对企业影响。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 利率对企业影响。
+        example: 高利率压制估值。
+        isPrimary: true
+    aliases:
+      - raw: 利率影响
+        aliasType: primary
+      - raw: Rate Impact
+        aliasType: en_alias
+  - slug: tong-zhang-ying-xiang
+    headword: 通胀影响
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 通胀对企业影响。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 通胀对企业影响。
+        example: 通胀抬升成本。
+        isPrimary: true
+    aliases:
+      - raw: 通胀影响
+        aliasType: primary
+      - raw: Inflation Impact
+        aliasType: en_alias
+  - slug: xiao-fei-qu-shi
+    headword: 消费趋势
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 消费变化方向。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 消费变化方向。
+        example: 消费趋势孕育品牌。
+        isPrimary: true
+    aliases:
+      - raw: 消费趋势
+        aliasType: primary
+      - raw: Consumption Trend
+        aliasType: en_alias
+  - slug: fu-wu-hua-qu-shi
+    headword: 服务化趋势
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经济服务化进程。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 经济服务化进程。
+        example: 服务化提升附加值。
+        isPrimary: true
+    aliases:
+      - raw: 服务化趋势
+        aliasType: primary
+      - raw: Servitization
+        aliasType: en_alias
+  - slug: fan-wei-jing-ji
+    headword: 范围经济
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 多产品协同降低成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 多产品协同降低成本。
+        example: 范围经济多元扩张。
+        isPrimary: true
+    aliases:
+      - raw: 范围经济
+        aliasType: primary
+      - raw: Economies of Scope
+        aliasType: en_alias
+  - slug: chu-qing
+    headword: 出清
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 过剩产能淘汰。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 过剩产能淘汰。
+        example: 出清后格局优化。
+        isPrimary: true
+    aliases:
+      - raw: 出清
+        aliasType: primary
+      - raw: Clearance
+        aliasType: en_alias
+  - slug: bao-xian-zi-jin-yun-yong
+    headword: 保险资金运用
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 险资的投资配置。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 险资的投资配置。
+        example: 险资配置权益比例提升。
+        isPrimary: true
+    aliases:
+      - raw: 保险资金运用
+        aliasType: primary
+      - raw: Insurance Fund Use
+        aliasType: en_alias
+  - slug: li-cha-sun
+    headword: 利差损
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资收益率低于负债成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 投资收益率低于负债成本。
+        example: 利差损风险威胁寿险。
+        isPrimary: true
+    aliases:
+      - raw: 利差损
+        aliasType: primary
+      - raw: Negative Spread
+        aliasType: en_alias
+  - slug: yu-ding-li-l
+    headword: 预定利率
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 产品定价预定收益率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 产品定价预定收益率。
+        example: 预定利率下调降负债成本。
+        isPrimary: true
+    aliases:
+      - raw: 预定利率
+        aliasType: primary
+      - raw: Assumed Rate
+        aliasType: en_alias
+  - slug: bao-xian-zi-jin-yun-yong-yu-e
+    headword: 保险资金运用余额
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 险资可投资规模。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 险资可投资规模。
+        example: 险资余额超30万亿。
+        isPrimary: true
+    aliases:
+      - raw: 保险资金运用余额
+        aliasType: primary
+      - raw: Insurance Fund Balance
+        aliasType: en_alias
+  - slug: xiao-fei-dai
+    headword: 消费贷
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 消费信贷产品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 消费信贷产品。
+        example: 消费贷利率下行。
+        isPrimary: true
+    aliases:
+      - raw: 消费贷
+        aliasType: primary
+      - raw: Consumer Loan
+        aliasType: en_alias
+  - slug: che-dai
+    headword: 车贷
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 汽车消费贷款。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 汽车消费贷款。
+        example: 车贷渗透率提升。
+        isPrimary: true
+    aliases:
+      - raw: 车贷
+        aliasType: primary
+      - raw: Auto Loan
+        aliasType: en_alias
+  - slug: li-xing-tou-zi
+    headword: 理性投资
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 理性投资理念。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 理性投资理念。
+        example: 理性投资长期制胜。
+        isPrimary: true
+    aliases:
+      - raw: 理性投资
+        aliasType: primary
+      - raw: Rational Investing
+        aliasType: en_alias
+  - slug: tou-zi-zhe-hua-xiang
+    headword: 投资者画像
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资者特征画像。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资者特征画像。
+        example: 画像用于适当性。
+        isPrimary: true
+    aliases:
+      - raw: 投资者画像
+        aliasType: primary
+      - raw: Investor Profile
+        aliasType: en_alias
+  - slug: wei-quan
+    headword: 维权
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资者维权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资者维权。
+        example: 维权走合法途径。
+        isPrimary: true
+    aliases:
+      - raw: 维权
+        aliasType: primary
+      - raw: Rights Protection
+        aliasType: en_alias
+  - slug: suo-pei
+    headword: 索赔
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资者索赔。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资者索赔。
+        example: 索赔需法律依据。
+        isPrimary: true
+    aliases:
+      - raw: 索赔
+        aliasType: primary
+      - raw: Claim
+        aliasType: en_alias
+  - slug: mai-chu-ri
+    headword: 卖出日
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资者卖出日。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资者卖出日。
+        example: 卖出日界定损失。
+        isPrimary: true
+    aliases:
+      - raw: 卖出日
+        aliasType: primary
+      - raw: Sell Date
+        aliasType: en_alias
+  - slug: tou-zi-cha-e-sun-shi
+    headword: 投资差额损失
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资损失差额。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资损失差额。
+        example: 差额损失计算公式化。
+        isPrimary: true
+    aliases:
+      - raw: 投资差额损失
+        aliasType: primary
+      - raw: Investment Loss
+        aliasType: en_alias
+  - slug: hong-guan-bao-gao
+    headword: 宏观报告
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 宏观经济报告。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 宏观经济报告。
+        example: 宏观报告研判周期。
+        isPrimary: true
+    aliases:
+      - raw: 宏观报告
+        aliasType: primary
+      - raw: Macro Report
+        aliasType: en_alias
+  - slug: shou-xi-jing-ji-xue-jia
+    headword: 首席经济学家
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 机构首席经济学家。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 机构首席经济学家。
+        example: 首席观点受关注。
+        isPrimary: true
+    aliases:
+      - raw: 首席经济学家
+        aliasType: primary
+      - raw: Chief Economist
+        aliasType: en_alias
+  - slug: tou-zi-jian-yi
+    headword: 投资建议
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资建议意见。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资建议意见。
+        example: 建议仅供参考。
+        isPrimary: true
+    aliases:
+      - raw: 投资建议
+        aliasType: primary
+      - raw: Investment Advice
+        aliasType: en_alias
+  - slug: jing-li-l-qu-dong
+    headword: 净利率驱动
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 利润率驱动因素。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 利润率驱动因素。
+        example: 利润率提升是核心。
+        isPrimary: true
+    aliases:
+      - raw: 净利率驱动
+        aliasType: primary
+      - raw: Margin Driver
+        aliasType: en_alias
+  - slug: mu-tou-xiang-mu
+    headword: 募投项目
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 募资投资项目。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 募资投资项目。
+        example: 项目效益受关注。
+        isPrimary: true
+    aliases:
+      - raw: 募投项目
+        aliasType: primary
+      - raw: Funded Projects
+        aliasType: en_alias
+  - slug: tou-zi-zhe-fen-lei
+    headword: 投资者分类
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资者风险分类。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资者风险分类。
+        example: 分类匹配产品。
+        isPrimary: true
+    aliases:
+      - raw: 投资者分类
+        aliasType: primary
+      - raw: Investor Classification
+        aliasType: en_alias
+  - slug: pu-tong-tou-zi-zhe
+    headword: 普通投资者
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 一般投资者。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 一般投资者。
+        example: 普通投资者受保护。
+        isPrimary: true
+    aliases:
+      - raw: 普通投资者
+        aliasType: primary
+      - raw: Retail Investor
+        aliasType: en_alias
+  - slug: zhuan-ye-tou-zi-zhe
+    headword: 专业投资者
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 合格专业投资者。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 合格专业投资者。
+        example: 专业投资者门槛高。
+        isPrimary: true
+    aliases:
+      - raw: 专业投资者
+        aliasType: primary
+      - raw: Professional Investor
+        aliasType: en_alias
+  - slug: he-ge-tou-zi-zhe
+    headword: 合格投资者
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 符合资质投资者。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 符合资质投资者。
+        example: 合格投资者准入。
+        isPrimary: true
+    aliases:
+      - raw: 合格投资者
+        aliasType: primary
+      - raw: Qualified Investor
+        aliasType: en_alias
+  - slug: si-mu-he-ge-tou-zi-zhe
+    headword: 私募合格投资者
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 私募投资门槛。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 私募投资门槛。
+        example: 门槛金融资产百万。
+        isPrimary: true
+    aliases:
+      - raw: 私募合格投资者
+        aliasType: primary
+      - raw: Private Qualified Investor
+        aliasType: en_alias
+  - slug: tou-zi-zhe-men-kan
+    headword: 投资者门槛
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资准入条件。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资准入条件。
+        example: 门槛保护投资者。
+        isPrimary: true
+    aliases:
+      - raw: 投资者门槛
+        aliasType: primary
+      - raw: Investor Threshold
+        aliasType: en_alias
+  - slug: tou-zi-mu-biao
+    headword: 投资目标
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资目标设定。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资目标设定。
+        example: 目标决定策略。
+        isPrimary: true
+    aliases:
+      - raw: 投资目标
+        aliasType: primary
+      - raw: Investment Objective
+        aliasType: en_alias
+  - slug: tou-zi-qi-xian
+    headword: 投资期限
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资时间范围。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资时间范围。
+        example: 期限匹配资产。
+        isPrimary: true
+    aliases:
+      - raw: 投资期限
+        aliasType: primary
+      - raw: Investment Horizon
+        aliasType: en_alias
+  - slug: neng-li-ping-jia
+    headword: 能力评价
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资能力评估。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资能力评估。
+        example: 评价看长期。
+        isPrimary: true
+    aliases:
+      - raw: 能力评价
+        aliasType: primary
+      - raw: Skill Evaluation
+        aliasType: en_alias
+  - slug: ye-ji-kao-he
+    headword: 业绩考核
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资业绩考核。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资业绩考核。
+        example: 考核促改进。
+        isPrimary: true
+    aliases:
+      - raw: 业绩考核
+        aliasType: primary
+      - raw: Performance Review
+        aliasType: en_alias
+  - slug: tou-zi-ji-yao
+    headword: 投资纪要
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资决策记录。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资决策记录。
+        example: 纪要留痕。
+        isPrimary: true
+    aliases:
+      - raw: 投资纪要
+        aliasType: primary
+      - raw: Investment Memo
+        aliasType: en_alias
+  - slug: neng-li-jian-she
+    headword: 能力建设
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资能力提升。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资能力提升。
+        example: 建设持久战。
+        isPrimary: true
+    aliases:
+      - raw: 能力建设
+        aliasType: primary
+      - raw: Capability Building
+        aliasType: en_alias
+  - slug: tui-chu-guan-li
+    headword: 退出管理
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资退出安排。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资退出安排。
+        example: 退出定回报。
+        isPrimary: true
+    aliases:
+      - raw: 退出管理
+        aliasType: primary
+      - raw: Exit Management
+        aliasType: en_alias
+  - slug: bao-hu-tiao-kuan
+    headword: 保护条款
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资者保护条款。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资者保护条款。
+        example: 条款控风险。
+        isPrimary: true
+    aliases:
+      - raw: 保护条款
+        aliasType: primary
+      - raw: Protective Covenant
+        aliasType: en_alias
+  - slug: tou-zi-tiao-kuan-qing-dan
+    headword: 投资条款清单
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资条款文件。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资条款文件。
+        example: 条款清单定框架。
+        isPrimary: true
+    aliases:
+      - raw: 投资条款清单
+        aliasType: primary
+      - raw: Term Sheet
+        aliasType: en_alias
+  - slug: tou-zi-zhe-ri
+    headword: 投资者日
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资者开放日。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资者开放日。
+        example: 投资者日展示战略。
+        isPrimary: true
+    aliases:
+      - raw: 投资者日
+        aliasType: primary
+      - raw: Investor Day
+        aliasType: en_alias
+  - slug: shi-jian-qu-dong-ce-l-e
+    headword: 事件驱动策略
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 事件驱动投资。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 事件驱动投资。
+        example: 策略抓事件。
+        isPrimary: true
+    aliases:
+      - raw: 事件驱动策略
+        aliasType: primary
+      - raw: Event Strategy
+        aliasType: en_alias
+  - slug: yi-xi-ri-li
+    headword: 议息日历
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行会议安排。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行会议安排。
+        example: 日历抓政策时点。
+        isPrimary: true
+    aliases:
+      - raw: 议息日历
+        aliasType: primary
+      - raw: Rate Meeting Calendar
+        aliasType: en_alias
+  - slug: hong-guan-fen-xi
+    headword: 宏观分析
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 宏观经济分析。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 宏观经济分析。
+        example: 分析促方向。
+        isPrimary: true
+    aliases:
+      - raw: 宏观分析
+        aliasType: primary
+      - raw: Macro Analysis
+        aliasType: en_alias
+  - slug: p-e-s-t-fen-xi
+    headword: PEST分析
+    categoryL1: 宏观经济
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 政治经济社会技术分析。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 政治经济社会技术分析。
+        example: PEST促宏观。
+        isPrimary: true
+    aliases:
+      - raw: PEST分析
+        aliasType: primary
+      - raw: PEST
+        aliasType: en_alias

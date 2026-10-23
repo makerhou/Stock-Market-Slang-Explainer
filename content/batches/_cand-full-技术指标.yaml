@@ -1,0 +1,6058 @@
+source: gen from full.tsv --all 市场×类型×关键词路由 (待精修)
+terms:
+  - slug: e-b-i-t-e-b-i-t-d-a
+    headword: EBIT/EBITDA
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 近似剔除资本结构与税率影响后的主业盈利指标，便于跨公司比较。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 近似剔除资本结构与税率影响后的主业盈利指标，便于跨公司比较。
+        example: 看主业赚钱能力，更应关注EBIT/EBITDA而非净利润。
+        isPrimary: true
+    aliases:
+      - raw: EBIT/EBITDA
+        aliasType: primary
+      - raw: EBIT
+        aliasType: en_alias
+      - raw: EBITDA
+        aliasType: en_alias
+      - raw: 息税前利润
+        aliasType: cn_alias
+      - raw: 息税折旧摊销前利润
+        aliasType: cn_alias
+  - slug: y-o-y-q-o-q-m-o-m
+    headword: YoY/QoQ/MoM
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 分别与去年同期、上一季度、上一个月比较的增速口径，用于剔除季节性。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 分别与去年同期、上一季度、上一个月比较的增速口径，用于剔除季节性。
+        example: YoY/QoQ/MoM一起看，才能判断数据是真趋势还是季节性。
+        isPrimary: true
+    aliases:
+      - raw: YoY/QoQ/MoM
+        aliasType: primary
+      - raw: YoY
+        aliasType: en_alias
+      - raw: QoQ
+        aliasType: en_alias
+      - raw: MoM
+        aliasType: en_alias
+      - raw: 同比
+        aliasType: cn_alias
+      - raw: 环比
+        aliasType: cn_alias
+      - raw: 月环比
+        aliasType: cn_alias
+  - slug: m-a-u-d-a-u
+    headword: MAU/DAU
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 月度与日度活跃用户数，衡量互联网产品的用户活跃度与粘性。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 月度与日度活跃用户数，衡量互联网产品的用户活跃度与粘性。
+        example: MAU/DAU比值高，说明产品用户留存较好。
+        isPrimary: true
+    aliases:
+      - raw: MAU/DAU
+        aliasType: primary
+      - raw: MAU
+        aliasType: en_alias
+      - raw: DAU
+        aliasType: en_alias
+      - raw: 月活
+        aliasType: cn_alias
+      - raw: 日活
+        aliasType: cn_alias
+  - slug: yi-mu-jun-heng-biao-zhi-biao
+    headword: 一目均衡表指标
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 源自日本、由多条线组成的综合趋势指标，同时呈现支撑阻力与动能。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 源自日本、由多条线组成的综合趋势指标，同时呈现支撑阻力与动能。
+        example: 一目均衡表指标云层上方运行，中期趋势偏多。
+        isPrimary: true
+    aliases:
+      - raw: 一目均衡表指标
+        aliasType: primary
+      - raw: 一目均衡表
+        aliasType: cn_alias
+      - raw: Ichimoku
+        aliasType: en_alias
+  - slug: qi-xing-san-jiao-xing-xie-xing
+    headword: 旗形/三角形/楔形
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 三类常见的中继整理形态，价格在收敛区间内蓄势，突破后延续原趋势。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 三类常见的中继整理形态，价格在收敛区间内蓄势，突破后延续原趋势。
+        example: 旗形/三角形/楔形突破方向，决定行情的下一程。
+        isPrimary: true
+    aliases:
+      - raw: 旗形/三角形/楔形
+        aliasType: primary
+      - raw: 旗形
+        aliasType: cn_alias
+      - raw: 三角形
+        aliasType: cn_alias
+      - raw: 楔形
+        aliasType: cn_alias
+      - raw: Flag
+        aliasType: en_alias
+      - raw: Triangle
+        aliasType: en_alias
+      - raw: Wedge
+        aliasType: en_alias
+  - slug: xian-jin-han-liang
+    headword: 现金含量
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经营活动现金流相对净利润的比例，衡量利润的现金支撑程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 经营活动现金流相对净利润的比例，衡量利润的现金支撑程度。
+        example: 现金含量持续大于1，利润质量较高。
+        isPrimary: true
+    aliases:
+      - raw: 现金含量
+        aliasType: primary
+      - raw: Cash Earnings Quality
+        aliasType: en_alias
+  - slug: liang-l
+    headword: 良率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 生产合格产品占全部产出的比例，制造业核心效率指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 生产合格产品占全部产出的比例，制造业核心效率指标。
+        example: 良率提升直接摊薄单位成本。
+        isPrimary: true
+    aliases:
+      - raw: 良率
+        aliasType: primary
+      - raw: Yield Rate
+        aliasType: en_alias
+  - slug: fu-gou-l
+    headword: 复购率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 老客户再次购买的比例，衡量产品粘性与用户留存。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 老客户再次购买的比例，衡量产品粘性与用户留存。
+        example: 复购率高，公司获客投入可以摊薄。
+        isPrimary: true
+    aliases:
+      - raw: 复购率
+        aliasType: primary
+      - raw: Repurchase Rate
+        aliasType: en_alias
+  - slug: liu-cun-l
+    headword: 留存率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 在一定期间内继续使用或付费的客户占比。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 在一定期间内继续使用或付费的客户占比。
+        example: 留存率高的互联网公司，收入增长更可持续。
+        isPrimary: true
+    aliases:
+      - raw: 留存率
+        aliasType: primary
+      - raw: Retention Rate
+        aliasType: en_alias
+  - slug: ke-hu-liu-shi-l
+    headword: 客户流失率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 一定期间内流失客户占期初客户的比例，与留存率互补。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 一定期间内流失客户占期初客户的比例，与留存率互补。
+        example: 客户流失率下降，说明产品竞争力在增强。
+        isPrimary: true
+    aliases:
+      - raw: 客户流失率
+        aliasType: primary
+      - raw: Customer Churn Rate
+        aliasType: en_alias
+  - slug: ping-xiao
+    headword: 坪效
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 门店单位面积产生的销售额，零售与餐饮核心效率指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 门店单位面积产生的销售额，零售与餐饮核心效率指标。
+        example: 坪效提升，说明门店选址与运营效率出色。
+        isPrimary: true
+    aliases:
+      - raw: 坪效
+        aliasType: primary
+      - raw: Sales per Square Meter
+        aliasType: en_alias
+  - slug: tong-dian-zeng-zhang
+    headword: 同店增长
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 已开业足够时间门店的同口径销售增速，剔除新店扩张影响。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 已开业足够时间门店的同口径销售增速，剔除新店扩张影响。
+        example: 同店增长转正，说明成熟门店需求在复苏。
+        isPrimary: true
+    aliases:
+      - raw: 同店增长
+        aliasType: primary
+      - raw: Same-store Sales Growth
+        aliasType: en_alias
+  - slug: fan-tai-l
+    headword: 翻台率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 餐饮门店每张餐桌每日接待顾客的次数，核心运营指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 餐饮门店每张餐桌每日接待顾客的次数，核心运营指标。
+        example: 翻台率提升，单店收入随之增长。
+        isPrimary: true
+    aliases:
+      - raw: 翻台率
+        aliasType: primary
+      - raw: Table Turnover Rate
+        aliasType: en_alias
+  - slug: fu-fei-zhuan-hua-l
+    headword: 付费转化率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 免费用户转化为付费用户的比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 免费用户转化为付费用户的比例。
+        example: 付费转化率提升，货币化进程加快。
+        isPrimary: true
+    aliases:
+      - raw: 付费转化率
+        aliasType: primary
+      - raw: Paid Conversion Rate
+        aliasType: en_alias
+  - slug: zi-ben-hui-bao-l
+    headword: 资本回报率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投出资本获得的回报水平，是衡量资本使用效率的综合指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 投出资本获得的回报水平，是衡量资本使用效率的综合指标。
+        example: 资本回报率高于资本成本，公司就在创造价值。
+        isPrimary: true
+    aliases:
+      - raw: 资本回报率
+        aliasType: primary
+      - raw: Return on Invested Capital
+        aliasType: en_alias
+  - slug: li-run-han-jin-liang
+    headword: 利润含金量
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经营现金流净额与净利润的比值，衡量账面利润的现金支撑程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 经营现金流净额与净利润的比值，衡量账面利润的现金支撑程度。
+        example: 利润含金量长期大于1，盈利质量过硬。
+        isPrimary: true
+    aliases:
+      - raw: 利润含金量
+        aliasType: primary
+      - raw: Earnings Cash Content
+        aliasType: en_alias
+  - slug: zhai-wu-dao-qi-jie-gou
+    headword: 债务到期结构
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公司各项债务按到期年份分布的情况，影响再融资压力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 公司各项债务按到期年份分布的情况，影响再融资压力。
+        example: 债务到期结构集中在近期，再融资压力较大。
+        isPrimary: true
+    aliases:
+      - raw: 债务到期结构
+        aliasType: primary
+      - raw: Debt Maturity Profile
+        aliasType: en_alias
+  - slug: chang-zhai-neng-li
+    headword: 偿债能力
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业偿还到期债务的能力，分短期与长期两个维度考察。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 企业偿还到期债务的能力，分短期与长期两个维度考察。
+        example: 偿债能力指标稳健，债权人风险可控。
+        isPrimary: true
+    aliases:
+      - raw: 偿债能力
+        aliasType: primary
+      - raw: Solvency
+        aliasType: en_alias
+  - slug: zi-you-xian-jin-liu-que-kou
+    headword: 自由现金流缺口
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资本开支超过经营现金流导致的自由现金流为负的缺口。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资本开支超过经营现金流导致的自由现金流为负的缺口。
+        example: 自由现金流缺口需靠外部融资弥补。
+        isPrimary: true
+    aliases:
+      - raw: 自由现金流缺口
+        aliasType: primary
+      - raw: FCF Gap
+        aliasType: en_alias
+  - slug: nei-sheng-zeng-zhang
+    headword: 内生增长
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 不靠并购、仅靠自身经营积累实现的增长。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 不靠并购、仅靠自身经营积累实现的增长。
+        example: 内生增长稳健，说明发展质量较高。
+        isPrimary: true
+    aliases:
+      - raw: 内生增长
+        aliasType: primary
+      - raw: Internal Growth
+        aliasType: en_alias
+  - slug: shang-xing-kong-jian
+    headword: 上行空间
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 当前股价相对目标价的潜在上涨幅度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 当前股价相对目标价的潜在上涨幅度。
+        example: 上行空间充足，是推荐买入的核心理由。
+        isPrimary: true
+    aliases:
+      - raw: 上行空间
+        aliasType: primary
+      - raw: Upside
+        aliasType: en_alias
+  - slug: xia-xing-kong-jian
+    headword: 下行空间
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 当前股价相对悲观情形的潜在下跌幅度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 当前股价相对悲观情形的潜在下跌幅度。
+        example: 下行空间有限，风险收益比具吸引力。
+        isPrimary: true
+    aliases:
+      - raw: 下行空间
+        aliasType: primary
+      - raw: Downside
+        aliasType: en_alias
+  - slug: yin-han-zeng-zhang-l
+    headword: 隐含增长率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 由当前股价反推、市场已经定价进去的未来增长率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 由当前股价反推、市场已经定价进去的未来增长率。
+        example: 隐含增长率过高，意味着预期打得太满。
+        isPrimary: true
+    aliases:
+      - raw: 隐含增长率
+        aliasType: primary
+      - raw: Implied Growth
+        aliasType: en_alias
+  - slug: ke-hu-sheng-ming-zhou-qi
+    headword: 客户生命周期
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 客户从首次购买到流失的平均存续时长。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 客户从首次购买到流失的平均存续时长。
+        example: 客户生命周期长，LTV才足够高。
+        isPrimary: true
+    aliases:
+      - raw: 客户生命周期
+        aliasType: primary
+      - raw: Customer Lifetime
+        aliasType: en_alias
+  - slug: liu-cun-qu-xian
+    headword: 留存曲线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 随时间推移留存客户比例衰减的曲线，反映粘性强弱。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 随时间推移留存客户比例衰减的曲线，反映粘性强弱。
+        example: 留存曲线越平坦，产品粘性越强。
+        isPrimary: true
+    aliases:
+      - raw: 留存曲线
+        aliasType: primary
+      - raw: Retention Curve
+        aliasType: en_alias
+  - slug: liang-pin-l
+    headword: 良品率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 合格品占全部产出的比例，制造业质量管理核心指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 合格品占全部产出的比例，制造业质量管理核心指标。
+        example: 良品率提升直接降低单位成本。
+        isPrimary: true
+    aliases:
+      - raw: 良品率
+        aliasType: primary
+      - raw: Good Product Rate
+        aliasType: en_alias
+  - slug: shang-zuo-l
+    headword: 上座率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 影厅、餐厅等营业场所实际接待容量的利用比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 影厅、餐厅等营业场所实际接待容量的利用比例。
+        example: 上座率提升，固定成本被更多摊薄。
+        isPrimary: true
+    aliases:
+      - raw: 上座率
+        aliasType: primary
+      - raw: Occupancy Rate
+        aliasType: en_alias
+  - slug: lian-dai-l
+    headword: 连带率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 顾客每次购买连带商品件数或客单附加购买比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 顾客每次购买连带商品件数或客单附加购买比例。
+        example: 连带率提升，有效提高客单价。
+        isPrimary: true
+    aliases:
+      - raw: 连带率
+        aliasType: primary
+      - raw: Attach Rate
+        aliasType: en_alias
+  - slug: zhuan-hua-l
+    headword: 转化率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 访客中最终完成购买或注册行为的比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 访客中最终完成购买或注册行为的比例。
+        example: 转化率提升，流量变现效率改善。
+        isPrimary: true
+    aliases:
+      - raw: 转化率
+        aliasType: primary
+      - raw: Conversion Rate
+        aliasType: en_alias
+  - slug: fu-fei-yong-hu-shu
+    headword: 付费用户数
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 实际付费购买产品或服务的用户数量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 实际付费购买产品或服务的用户数量。
+        example: 付费用户数持续增长，订阅基本盘稳固。
+        isPrimary: true
+    aliases:
+      - raw: 付费用户数
+        aliasType: primary
+      - raw: Paying Users
+        aliasType: en_alias
+  - slug: guang-gao-jia-zai-l
+    headword: 广告加载率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 媒体或应用中广告内容占整体内容的比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 媒体或应用中广告内容占整体内容的比例。
+        example: 广告加载率提升短期增收，但会伤害体验。
+        isPrimary: true
+    aliases:
+      - raw: 广告加载率
+        aliasType: primary
+      - raw: Ad Load
+        aliasType: en_alias
+  - slug: jing-tui-jian-zhi
+    headword: 净推荐值
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 衡量用户向他人推荐产品意愿的忠诚度指标，从负100到正100。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 衡量用户向他人推荐产品意愿的忠诚度指标，从负100到正100。
+        example: 净推荐值高，说明用户口碑与粘性俱佳。
+        isPrimary: true
+    aliases:
+      - raw: 净推荐值
+        aliasType: primary
+      - raw: NPS
+        aliasType: en_alias
+      - raw: Net Promoter Score
+        aliasType: en_alias
+  - slug: wu-bi-san-jiao
+    headword: 舞弊三角
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 压力、机会、借口三者结合导致财务舞弊的分析框架。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 压力、机会、借口三者结合导致财务舞弊的分析框架。
+        example: 舞弊三角齐备时，财务造假概率上升。
+        isPrimary: true
+    aliases:
+      - raw: 舞弊三角
+        aliasType: primary
+      - raw: Fraud Triangle
+        aliasType: en_alias
+  - slug: duan-qi-fu-zhai
+    headword: 短期负债
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 一年内需要偿还的各项债务合计，反映短期偿付压力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 一年内需要偿还的各项债务合计，反映短期偿付压力。
+        example: 短期负债占比过高，滚动续作压力大。
+        isPrimary: true
+    aliases:
+      - raw: 短期负债
+        aliasType: primary
+      - raw: Short-term Liabilities
+        aliasType: en_alias
+  - slug: zhou-xian-ji-bie
+    headword: 周线级别
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以周K线为观察周期的技术分析视角，用于判断中线趋势。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 以周K线为观察周期的技术分析视角，用于判断中线趋势。
+        example: 周线级别出现底背离，中线机会显现。
+        isPrimary: true
+    aliases:
+      - raw: 周线级别
+        aliasType: primary
+      - raw: Weekly Timeframe
+        aliasType: en_alias
+  - slug: yue-xian-ji-bie
+    headword: 月线级别
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以月K线为观察周期的技术分析视角，用于判断长期趋势。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以月K线为观察周期的技术分析视角，用于判断长期趋势。
+        example: 月线级别仍在多头排列，长线不必恐慌。
+        isPrimary: true
+    aliases:
+      - raw: 月线级别
+        aliasType: primary
+      - raw: Monthly Timeframe
+        aliasType: en_alias
+  - slug: jun-xian-bei-li
+    headword: 均线背离
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价创新高或新低但均线并未同向跟随的现象，预示趋势可能减弱。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价创新高或新低但均线并未同向跟随的现象，预示趋势可能减弱。
+        example: 股价新高但20日均线走平，出现均线背离。
+        isPrimary: true
+    aliases:
+      - raw: 均线背离
+        aliasType: primary
+      - raw: Price-MA Divergence
+        aliasType: en_alias
+  - slug: chan-lun-jun-xian
+    headword: 缠论均线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 缠中说禅理论中以5日、10日、20日等均线构成的吻、吻与中枢判断买卖点的体系。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 缠中说禅理论中以5日、10日、20日等均线构成的吻、吻与中枢判断买卖点的体系。
+        example: 缠论里的女上位、飞吻都是均线形态描述。
+        isPrimary: true
+    aliases:
+      - raw: 缠论均线
+        aliasType: primary
+      - raw: Chan Theory MA System
+        aliasType: en_alias
+  - slug: d-i-f
+    headword: DIF
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: MACD中的快线，由12日EMA减去26日EMA得到。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: MACD中的快线，由12日EMA减去26日EMA得到。
+        example: DIF从零轴下方向上穿越DEA形成金叉。
+        isPrimary: true
+    aliases:
+      - raw: DIF
+        aliasType: primary
+      - raw: Difference Line
+        aliasType: en_alias
+  - slug: m-a-c-d-ling-zhou
+    headword: MACD零轴
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: DIF与DEA的分界线，零轴上方代表多头市场，下方代表空头市场。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: DIF与DEA的分界线，零轴上方代表多头市场，下方代表空头市场。
+        example: DIF重新站上零轴，趋势转多确认。
+        isPrimary: true
+    aliases:
+      - raw: MACD零轴
+        aliasType: primary
+      - raw: MACD Zero Line
+        aliasType: en_alias
+  - slug: m-a-c-d-hong-zhu
+    headword: MACD红柱
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: DIF大于DEA时绘出的MACD柱，代表多头动能。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: DIF大于DEA时绘出的MACD柱，代表多头动能。
+        example: 红柱连续缩短说明上攻动能衰减。
+        isPrimary: true
+    aliases:
+      - raw: MACD红柱
+        aliasType: primary
+      - raw: MACD Red Bar
+        aliasType: en_alias
+  - slug: m-a-c-d-l-zhu
+    headword: MACD绿柱
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: DIF小于DEA时绘出的MACD柱，代表空头动能。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: DIF小于DEA时绘出的MACD柱，代表空头动能。
+        example: 绿柱开始缩短，下跌动能减弱。
+        isPrimary: true
+    aliases:
+      - raw: MACD绿柱
+        aliasType: primary
+      - raw: MACD Green Bar
+        aliasType: en_alias
+  - slug: m-a-c-d-bei-li
+    headword: MACD背离
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价创新高或新低但MACD柱或DIF并未同向跟随的现象，是常见反转预警。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 股价创新高或新低但MACD柱或DIF并未同向跟随的现象，是常见反转预警。
+        example: 股价新高但MACD红柱缩短，形成顶背离。
+        isPrimary: true
+    aliases:
+      - raw: MACD背离
+        aliasType: primary
+      - raw: MACD Divergence
+        aliasType: en_alias
+  - slug: m-a-c-d-dun-hua
+    headword: MACD钝化
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 强趋势行情中DIF长期在极值区域停留、金叉死叉信号频繁失效的现象。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 强趋势行情中DIF长期在极值区域停留、金叉死叉信号频繁失效的现象。
+        example: 连续涨停后MACD钝化，金叉信号不再可靠。
+        isPrimary: true
+    aliases:
+      - raw: MACD钝化
+        aliasType: primary
+      - raw: MACD Sluggishness
+        aliasType: en_alias
+  - slug: shuang-xian-he-yi
+    headword: 双线合一
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 短期均线与长期均线从发散重新收敛到几乎重合的状态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 短期均线与长期均线从发散重新收敛到几乎重合的状态。
+        example: 双线合一后往往即将选择方向。
+        isPrimary: true
+    aliases:
+      - raw: 双线合一
+        aliasType: primary
+      - raw: Golden/Dead Cross Convergence
+        aliasType: en_alias
+  - slug: b-zhi-biao
+    headword: "%B指标"
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价在布林带中所处位置，0为下轨、1为上轨，超出1或0为极端。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价在布林带中所处位置，0为下轨、1为上轨，超出1或0为极端。
+        example: "%B回到0.9以上说明短线偏热。"
+        isPrimary: true
+    aliases:
+      - raw: "%B指标"
+        aliasType: primary
+      - raw: Percent Bandwidth
+        aliasType: en_alias
+      - raw: "%B"
+        aliasType: en_alias
+  - slug: zhen-shi-bo-fu
+    headword: 真实波幅
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 当日最高价与最低价、与昨收之间最大差值构成的单日波幅，是ATR的计算基础。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 当日最高价与最低价、与昨收之间最大差值构成的单日波幅，是ATR的计算基础。
+        example: 真实波幅放大说明当日波动剧烈。
+        isPrimary: true
+    aliases:
+      - raw: 真实波幅
+        aliasType: primary
+      - raw: True Range
+        aliasType: en_alias
+      - raw: TR
+        aliasType: en_alias
+  - slug: n-v-i
+    headword: NVI
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 负量指标，只在成交量小于前一日时累计价格变动，被称为聪明钱指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 负量指标，只在成交量小于前一日时累计价格变动，被称为聪明钱指标。
+        example: NVI持续上行说明聪明钱在悄悄吸筹。
+        isPrimary: true
+    aliases:
+      - raw: NVI
+        aliasType: primary
+      - raw: Negative Volume Index
+        aliasType: en_alias
+  - slug: p-v-i
+    headword: PVI
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 正量指标，只在成交量大于前一日时累计价格变动，反映散户情绪。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 正量指标，只在成交量大于前一日时累计价格变动，反映散户情绪。
+        example: PVI上行被视为散户追涨信号。
+        isPrimary: true
+    aliases:
+      - raw: PVI
+        aliasType: primary
+      - raw: Positive Volume Index
+        aliasType: en_alias
+  - slug: d-i
+    headword: +DI
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: DMI中衡量上行动能强度的指标，数值越高多头越强。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: DMI中衡量上行动能强度的指标，数值越高多头越强。
+        example: +DI上穿-DI说明多头开始占优。
+        isPrimary: true
+    aliases:
+      - raw: +DI
+        aliasType: primary
+      - raw: Plus Directional Indicator
+        aliasType: en_alias
+  - slug: d-i-2
+    headword: -DI
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: DMI中衡量下行动能强度的指标，数值越高空头越强。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: DMI中衡量下行动能强度的指标，数值越高空头越强。
+        example: -DI持续上行说明空头主导。
+        isPrimary: true
+    aliases:
+      - raw: -DI
+        aliasType: primary
+      - raw: Minus Directional Indicator
+        aliasType: en_alias
+  - slug: a-d-x-r
+    headword: ADXR
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: ADX的平滑值，用于判断趋势是在加强还是在减弱。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: ADX的平滑值，用于判断趋势是在加强还是在减弱。
+        example: ADXR走平说明趋势进入整理。
+        isPrimary: true
+    aliases:
+      - raw: ADXR
+        aliasType: primary
+  - slug: sui-ji-r-s-i
+    headword: 随机RSI
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对RSI再做随机指标平滑得到的二阶动量指标，比RSI更敏感。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 对RSI再做随机指标平滑得到的二阶动量指标，比RSI更敏感。
+        example: StochRSI进入0.2以下超卖区。
+        isPrimary: true
+    aliases:
+      - raw: 随机RSI
+        aliasType: primary
+      - raw: Stochastic RSI
+        aliasType: en_alias
+      - raw: StochRSI
+        aliasType: en_alias
+  - slug: p-s-y-xin-li-xian
+    headword: PSY心理线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 一定周期内上涨天数占比的百分比指标，反映市场情绪。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 一定周期内上涨天数占比的百分比指标，反映市场情绪。
+        example: PSY跌到25以下进入极度悲观区。
+        isPrimary: true
+    aliases:
+      - raw: PSY心理线
+        aliasType: primary
+      - raw: Psychological Line
+        aliasType: en_alias
+      - raw: PSY
+        aliasType: en_alias
+  - slug: c-r-neng-liang-zhi-biao
+    headword: CR能量指标
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以中间价为基准、衡量一段时间内多空能量对比的技术指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以中间价为基准、衡量一段时间内多空能量对比的技术指标。
+        example: CR指标跌破低位后拐头是抄底信号。
+        isPrimary: true
+    aliases:
+      - raw: CR能量指标
+        aliasType: primary
+      - raw: CR Indicator
+        aliasType: en_alias
+  - slug: a-d-lei-ji-pai-fa-xian
+    headword: A/D累积派发线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 结合收盘价在当日区间位置与成交量累计的量价指标，判断资金累积派发。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 结合收盘价在当日区间位置与成交量累计的量价指标，判断资金累积派发。
+        example: A/D线与股价顶背离提示派发。
+        isPrimary: true
+    aliases:
+      - raw: A/D累积派发线
+        aliasType: primary
+      - raw: Accumulation/Distribution Line
+        aliasType: en_alias
+      - raw: A/D
+        aliasType: en_alias
+  - slug: b-b-i-duo-kong-zhi-biao
+    headword: BBI多空指标
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 将3、6、12、24日均线再做一次平均得到的综合多空指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 将3、6、12、24日均线再做一次平均得到的综合多空指标。
+        example: 股价站上BBI视为多头掌控。
+        isPrimary: true
+    aliases:
+      - raw: BBI多空指标
+        aliasType: primary
+      - raw: Bull and Bear Index
+        aliasType: en_alias
+      - raw: BBI
+        aliasType: en_alias
+  - slug: k-a-m-a-kao-fu-man-jun-xian
+    headword: KAMA考夫曼均线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 根据市场效率系数自动调整平滑系数的自适应均线，震荡时贴近价格、趋势时滞后小。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 根据市场效率系数自动调整平滑系数的自适应均线，震荡时贴近价格、趋势时滞后小。
+        example: KAMA在趋势行情中反应比普通均线快。
+        isPrimary: true
+    aliases:
+      - raw: KAMA考夫曼均线
+        aliasType: primary
+      - raw: Kaufman Adaptive Moving Average
+        aliasType: en_alias
+      - raw: KAMA
+        aliasType: en_alias
+  - slug: d-e-m-a-shuang-zhi-jun-xian
+    headword: DEMA双指均线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对EMA再做一次EMA以减少滞后的均线变种。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对EMA再做一次EMA以减少滞后的均线变种。
+        example: DEMA比普通EMA对拐点反应更快。
+        isPrimary: true
+    aliases:
+      - raw: DEMA双指均线
+        aliasType: primary
+      - raw: Double Exponential Moving Average
+        aliasType: en_alias
+      - raw: DEMA
+        aliasType: en_alias
+  - slug: t-e-m-a-san-zhi-jun-xian
+    headword: TEMA三指均线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对EMA做三次平滑进一步减少滞后的均线变种。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 对EMA做三次平滑进一步减少滞后的均线变种。
+        example: TEMA在震荡市里假信号更多。
+        isPrimary: true
+    aliases:
+      - raw: TEMA三指均线
+        aliasType: primary
+      - raw: Triangular Exponential Moving Average
+        aliasType: en_alias
+      - raw: TEMA
+        aliasType: en_alias
+  - slug: h-u-l-l-jun-xian
+    headword: HULL均线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: Alan Hull设计的加权后再平滑的低滞后均线，趋势跟随反应极快。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: Alan Hull设计的加权后再平滑的低滞后均线，趋势跟随反应极快。
+        example: HULL均线在快速行情中几乎不滞后。
+        isPrimary: true
+    aliases:
+      - raw: HULL均线
+        aliasType: primary
+      - raw: Hull Moving Average
+        aliasType: en_alias
+  - slug: m-a-c-d-zhu-ti-suo-duan
+    headword: MACD柱体缩短
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: MACD柱由长变短、上攻或下行动能衰减的状态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: MACD柱由长变短、上攻或下行动能衰减的状态。
+        example: 红柱连续三天缩短，警惕回调。
+        isPrimary: true
+    aliases:
+      - raw: MACD柱体缩短
+        aliasType: primary
+      - raw: MACD Histogram Declining
+        aliasType: en_alias
+  - slug: m-a-c-d-zhu-ti-fang-da
+    headword: MACD柱体放大
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: MACD柱由短变长、动能增强的状态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: MACD柱由短变长、动能增强的状态。
+        example: 绿柱开始放大，下跌加速。
+        isPrimary: true
+    aliases:
+      - raw: MACD柱体放大
+        aliasType: primary
+      - raw: MACD Histogram Expanding
+        aliasType: en_alias
+  - slug: da-yang-xian
+    headword: 大阳线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 实体涨幅通常超过3%、几乎吞没前几根K线的长红K线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 实体涨幅通常超过3%、几乎吞没前几根K线的长红K线。
+        example: 低位放量大阳线是启动信号。
+        isPrimary: true
+    aliases:
+      - raw: 大阳线
+        aliasType: primary
+      - raw: Large Bullish Candle
+        aliasType: en_alias
+  - slug: da-yin-xian
+    headword: 大阴线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 实体跌幅通常超过3%、几乎吞没前几根K线的长绿K线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 实体跌幅通常超过3%、几乎吞没前几根K线的长绿K线。
+        example: 高位放量大阴线要警惕见顶。
+        isPrimary: true
+    aliases:
+      - raw: 大阴线
+        aliasType: primary
+      - raw: Large Bearish Candle
+        aliasType: en_alias
+  - slug: xiao-yang-xian
+    headword: 小阳线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 实体涨幅很小、约在0.5%以内的小红色K线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 实体涨幅很小、约在0.5%以内的小红色K线。
+        example: 小阳线十字星形态出现在底部是企稳信号。
+        isPrimary: true
+    aliases:
+      - raw: 小阳线
+        aliasType: primary
+      - raw: Small Bullish Candle
+        aliasType: en_alias
+  - slug: xiao-yin-xian
+    headword: 小阴线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 实体跌幅很小、约在0.5%以内的小绿色K线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 实体跌幅很小、约在0.5%以内的小绿色K线。
+        example: 高位小阴线连续出现要小心变盘。
+        isPrimary: true
+    aliases:
+      - raw: 小阴线
+        aliasType: primary
+      - raw: Small Bearish Candle
+        aliasType: en_alias
+  - slug: t-zi-xian
+    headword: T字线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 开盘收盘几乎同价、有长下影线而无实体无上影线的T字形K线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 开盘收盘几乎同价、有长下影线而无实体无上影线的T字形K线。
+        example: 低位T字线常是见底信号。
+        isPrimary: true
+    aliases:
+      - raw: T字线
+        aliasType: primary
+      - raw: Doji Dragon Fly
+        aliasType: en_alias
+      - raw: T-Star
+        aliasType: en_alias
+  - slug: dao-t-zi-xian
+    headword: 倒T字线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 开盘收盘同价、有长上影线而无实体无下影线的倒T字形K线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 开盘收盘同价、有长上影线而无实体无下影线的倒T字形K线。
+        example: 高位倒T字线常是见顶信号。
+        isPrimary: true
+    aliases:
+      - raw: 倒T字线
+        aliasType: primary
+      - raw: Inverted T-Star
+        aliasType: en_alias
+  - slug: dao-chui-tou
+    headword: 倒锤头
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 出现在下跌末端、实体很小在下端、长上影无下影的看涨反转K线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 出现在下跌末端、实体很小在下端、长上影无下影的看涨反转K线。
+        example: 倒锤头第二天放量上涨确认反转。
+        isPrimary: true
+    aliases:
+      - raw: 倒锤头
+        aliasType: primary
+      - raw: Inverted Hammer
+        aliasType: en_alias
+  - slug: she-ji-zhi-xing
+    headword: 射击之星
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 出现在上涨末端、实体很小在下端、长上影无下影的看跌反转K线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 出现在上涨末端、实体很小在下端、长上影无下影的看跌反转K线。
+        example: 高位射击之星发出见顶信号。
+        isPrimary: true
+    aliases:
+      - raw: 射击之星
+        aliasType: primary
+      - raw: Shooting Star
+        aliasType: en_alias
+  - slug: yun-yu-xian
+    headword: 孕育线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 母子线中后一根为十字星的特殊形态，反转意味更强。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 母子线中后一根为十字星的特殊形态，反转意味更强。
+        example: 顶部孕育线十字星是强烈见顶信号。
+        isPrimary: true
+    aliases:
+      - raw: 孕育线
+        aliasType: primary
+      - raw: Harami Cross
+        aliasType: en_alias
+  - slug: nie-zi-xian
+    headword: 镊子线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 相邻两根K线最高价几乎相同为镊子顶、最低价几乎相同为镊子底。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 相邻两根K线最高价几乎相同为镊子顶、最低价几乎相同为镊子底。
+        example: 镊子底出现在下跌末端，支撑有效。
+        isPrimary: true
+    aliases:
+      - raw: 镊子线
+        aliasType: primary
+      - raw: Tweezer Top/Bottom
+        aliasType: en_alias
+  - slug: ping-tou-ding
+    headword: 平头顶
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 连续多根K线最高价几乎在同一水平形成的顶部压力形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 连续多根K线最高价几乎在同一水平形成的顶部压力形态。
+        example: 平头顶三次冲高不过要警惕。
+        isPrimary: true
+    aliases:
+      - raw: 平头顶
+        aliasType: primary
+      - raw: Flat Top
+        aliasType: en_alias
+  - slug: ping-tou-di
+    headword: 平头底
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 连续多根K线最低价几乎在同一水平形成的底部支撑形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 连续多根K线最低价几乎在同一水平形成的底部支撑形态。
+        example: 平头底三次探底不破是双底信号。
+        isPrimary: true
+    aliases:
+      - raw: 平头底
+        aliasType: primary
+      - raw: Flat Bottom
+        aliasType: en_alias
+  - slug: ta-xing-ding
+    headword: 塔形顶
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价急涨后在高位收长阴、形态像塔尖的顶部反转形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价急涨后在高位收长阴、形态像塔尖的顶部反转形态。
+        example: 塔形顶形成后跌幅通常较大。
+        isPrimary: true
+    aliases:
+      - raw: 塔形顶
+        aliasType: primary
+      - raw: Tower Top
+        aliasType: en_alias
+  - slug: ta-xing-di
+    headword: 塔形底
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价急跌后在低位收长阳、形态像塔基的底部反转形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 股价急跌后在低位收长阳、形态像塔基的底部反转形态。
+        example: 塔形底放量确认后反弹空间大。
+        isPrimary: true
+    aliases:
+      - raw: 塔形底
+        aliasType: primary
+      - raw: Tower Bottom
+        aliasType: en_alias
+  - slug: dan-zhen-tan-di
+    headword: 单针探底
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 一根带极长下影线的K线瞬间砸出低点后快速收回的底部形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 一根带极长下影线的K线瞬间砸出低点后快速收回的底部形态。
+        example: 单针探底配合放量是短线见底信号。
+        isPrimary: true
+    aliases:
+      - raw: 单针探底
+        aliasType: primary
+      - raw: Single Needle Bottom
+        aliasType: en_alias
+  - slug: san-chong-ding
+    headword: 三重顶
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价三次冲击同一阻力位不过形成的顶部反转形态，类似M头多一次。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价三次冲击同一阻力位不过形成的顶部反转形态，类似M头多一次。
+        example: 三重顶跌破颈线后量度跌幅巨大。
+        isPrimary: true
+    aliases:
+      - raw: 三重顶
+        aliasType: primary
+      - raw: Triple Top
+        aliasType: en_alias
+  - slug: san-chong-di
+    headword: 三重底
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价三次探同一支撑位不破形成的底部反转形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 股价三次探同一支撑位不破形成的底部反转形态。
+        example: 三重底突破颈线是中线买点。
+        isPrimary: true
+    aliases:
+      - raw: 三重底
+        aliasType: primary
+      - raw: Triple Bottom
+        aliasType: en_alias
+  - slug: san-jiao-qi-xing
+    headword: 三角旗形
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 急涨急跌后出现小幅收敛的小型三角形整理，通常是中继形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 急涨急跌后出现小幅收敛的小型三角形整理，通常是中继形态。
+        example: 三角旗整理后往往沿原方向继续。
+        isPrimary: true
+    aliases:
+      - raw: 三角旗形
+        aliasType: primary
+      - raw: Pennant
+        aliasType: en_alias
+  - slug: la-ba-xing
+    headword: 喇叭形
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 高点越来越高、低点越来越低、形态像喇叭的发散形态，通常出现在顶部。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 高点越来越高、低点越来越低、形态像喇叭的发散形态，通常出现在顶部。
+        example: 喇叭形出现后市场情绪极不稳定。
+        isPrimary: true
+    aliases:
+      - raw: 喇叭形
+        aliasType: primary
+      - raw: Broadening Formation
+        aliasType: en_alias
+      - raw: Megaphone
+        aliasType: en_alias
+  - slug: ling-xing
+    headword: 菱形
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 由左右两个三角形拼接、形态像钻石的顶部反转形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 由左右两个三角形拼接、形态像钻石的顶部反转形态。
+        example: 菱形顶部跌破右下边是强烈卖出信号。
+        isPrimary: true
+    aliases:
+      - raw: 菱形
+        aliasType: primary
+      - raw: Diamond Pattern
+        aliasType: en_alias
+  - slug: ju-xing
+    headword: 矩形
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价在两条水平上下轨之间来回震荡的整理形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价在两条水平上下轨之间来回震荡的整理形态。
+        example: 矩形整理突破上轨是买点。
+        isPrimary: true
+    aliases:
+      - raw: 矩形
+        aliasType: primary
+      - raw: Rectangle Pattern
+        aliasType: en_alias
+  - slug: po-wei
+    headword: 破位
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价向下跌破关键支撑位或形态下沿的走势。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 股价向下跌破关键支撑位或形态下沿的走势。
+        example: 跌破20日均线支撑就是破位。
+        isPrimary: true
+    aliases:
+      - raw: 破位
+        aliasType: primary
+      - raw: Breakdown
+        aliasType: en_alias
+  - slug: hui-chou
+    headword: 回抽
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 突破关键位后股价短暂回到突破位附近确认支撑有效的过程。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 突破关键位后股价短暂回到突破位附近确认支撑有效的过程。
+        example: 突破颈线后回抽不破是加仓点。
+        isPrimary: true
+    aliases:
+      - raw: 回抽
+        aliasType: primary
+      - raw: Pullback to Breakout Level
+        aliasType: en_alias
+  - slug: liang-du-zhang-fu
+    headword: 量度涨幅
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 技术形态中按形态垂直高度从突破位算起预测的最小目标位。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 技术形态中按形态垂直高度从突破位算起预测的最小目标位。
+        example: 头肩顶量度跌幅是头顶到颈线的距离。
+        isPrimary: true
+    aliases:
+      - raw: 量度涨幅
+        aliasType: primary
+      - raw: Measured Move
+        aliasType: en_alias
+      - raw: Measured Objective
+        aliasType: en_alias
+  - slug: qian-fu-di
+    headword: 潜伏底
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价长期在极窄区间横盘、几乎无人关注后突然放量启动的底部形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价长期在极窄区间横盘、几乎无人关注后突然放量启动的底部形态。
+        example: 潜伏底一旦突破涨幅巨大。
+        isPrimary: true
+    aliases:
+      - raw: 潜伏底
+        aliasType: primary
+      - raw: Flat Bottom
+        aliasType: en_alias
+      - raw: Sleeping Bottom
+        aliasType: en_alias
+  - slug: qian-die-xing
+    headword: 浅碟形
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 比圆弧底更浅、形成时间更长的缓慢底部形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 比圆弧底更浅、形成时间更长的缓慢底部形态。
+        example: 浅碟形右侧放量突破才确认。
+        isPrimary: true
+    aliases:
+      - raw: 浅碟形
+        aliasType: primary
+      - raw: Saucer
+        aliasType: en_alias
+  - slug: wen-he-fang-liang
+    headword: 温和放量
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 成交量从萎缩状态逐日小幅放大、不突兀的量能变化。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 成交量从萎缩状态逐日小幅放大、不突兀的量能变化。
+        example: 温和放量上涨是健康走势。
+        isPrimary: true
+    aliases:
+      - raw: 温和放量
+        aliasType: primary
+      - raw: Gradual Volume Expansion
+        aliasType: en_alias
+  - slug: tu-fang-ju-liang
+    headword: 突放巨量
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 成交量突然放大到平时数倍的极端量能变化。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 成交量突然放大到平时数倍的极端量能变化。
+        example: 高位突放巨量往往是出货信号。
+        isPrimary: true
+    aliases:
+      - raw: 突放巨量
+        aliasType: primary
+      - raw: Spike Volume
+        aliasType: en_alias
+  - slug: neng-liang-zhu
+    headword: 能量柱
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 成交量图上每根柱子对应一个周期的成交总量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 成交量图上每根柱子对应一个周期的成交总量。
+        example: 底部能量柱红肥绿瘦说明买盘积极。
+        isPrimary: true
+    aliases:
+      - raw: 能量柱
+        aliasType: primary
+      - raw: Volume Bar
+        aliasType: en_alias
+  - slug: liang-zai-jia-xian
+    headword: 量在价先
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经典技术分析格言，成交量变化往往领先于价格变化。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 经典技术分析格言，成交量变化往往领先于价格变化。
+        example: 量在价先，先看到堆量再等启动。
+        isPrimary: true
+    aliases:
+      - raw: 量在价先
+        aliasType: primary
+      - raw: Volume Precedes Price
+        aliasType: en_alias
+  - slug: ju-liang
+    headword: 巨量
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 成交量远超过近期平均水平、通常是平时3倍以上的极端成交。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 成交量远超过近期平均水平、通常是平时3倍以上的极端成交。
+        example: 高位巨量涨停要警惕出货。
+        isPrimary: true
+    aliases:
+      - raw: 巨量
+        aliasType: primary
+      - raw: Extreme Volume
+        aliasType: en_alias
+  - slug: liang-zeng-jia-die
+    headword: 量增价跌
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 成交量放大但股价下跌，可能是出货或恐慌抛售。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 成交量放大但股价下跌，可能是出货或恐慌抛售。
+        example: 高位量增价跌要警惕主力出货。
+        isPrimary: true
+    aliases:
+      - raw: 量增价跌
+        aliasType: primary
+      - raw: Volume Up Price Down
+        aliasType: en_alias
+  - slug: liang-suo-jia-sheng
+    headword: 量缩价升
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价上涨但成交量萎缩，说明跟风盘不足、上涨可能难持续。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价上涨但成交量萎缩，说明跟风盘不足、上涨可能难持续。
+        example: 量缩价升涨到高位容易回调。
+        isPrimary: true
+    aliases:
+      - raw: 量缩价升
+        aliasType: primary
+      - raw: Volume Down Price Up
+        aliasType: en_alias
+  - slug: liang-suo-jia-die
+    headword: 量缩价跌
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价下跌但成交量萎缩，说明抛压衰竭、可能接近底部。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价下跌但成交量萎缩，说明抛压衰竭、可能接近底部。
+        example: 量缩价跌在底部是惜售表现。
+        isPrimary: true
+    aliases:
+      - raw: 量缩价跌
+        aliasType: primary
+      - raw: Volume Down Price Down
+        aliasType: en_alias
+  - slug: fang-liang-zhi-zhang
+    headword: 放量滞涨
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 成交量放大但股价却涨不动的现象，是典型的出货信号。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 成交量放大但股价却涨不动的现象，是典型的出货信号。
+        example: 连续三天放量滞涨，主力在出货。
+        isPrimary: true
+    aliases:
+      - raw: 放量滞涨
+        aliasType: primary
+      - raw: High Volume No Gain
+        aliasType: en_alias
+  - slug: suo-liang-chuang-xin-gao
+    headword: 缩量创新高
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价创新高但成交量明显萎缩，说明追高意愿不足。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 股价创新高但成交量明显萎缩，说明追高意愿不足。
+        example: 缩量创新高要小心假突破。
+        isPrimary: true
+    aliases:
+      - raw: 缩量创新高
+        aliasType: primary
+      - raw: Low Volume New High
+        aliasType: en_alias
+  - slug: suo-liang-hui-tiao
+    headword: 缩量回调
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上涨趋势中回调时成交量萎缩，说明主力未出货、是健康回调。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 上涨趋势中回调时成交量萎缩，说明主力未出货、是健康回调。
+        example: 缩量回调到20日均线是买点。
+        isPrimary: true
+    aliases:
+      - raw: 缩量回调
+        aliasType: primary
+      - raw: Low Volume Pullback
+        aliasType: en_alias
+  - slug: fang-liang-tu-po
+    headword: 放量突破
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价突破关键位时成交量明显放大，确认突破有效。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 股价突破关键位时成交量明显放大，确认突破有效。
+        example: 放量突破前期高点是加仓信号。
+        isPrimary: true
+    aliases:
+      - raw: 放量突破
+        aliasType: primary
+      - raw: High Volume Breakout
+        aliasType: en_alias
+  - slug: suo-liang-zheng-li
+    headword: 缩量整理
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价横盘整理时成交量萎缩，浮筹被清洗。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价横盘整理时成交量萎缩，浮筹被清洗。
+        example: 缩量整理两周后容易变盘。
+        isPrimary: true
+    aliases:
+      - raw: 缩量整理
+        aliasType: primary
+      - raw: Low Volume Consolidation
+        aliasType: en_alias
+  - slug: huo-li-bi-li
+    headword: 获利比例
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 筹码分布中当前股价以上处于盈利状态的筹码占比。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 筹码分布中当前股价以上处于盈利状态的筹码占比。
+        example: 获利比例90%以上说明多数人赚钱。
+        isPrimary: true
+    aliases:
+      - raw: 获利比例
+        aliasType: primary
+      - raw: Profit Ratio
+        aliasType: en_alias
+  - slug: shang-feng-bu-yi
+    headword: 上峰不移
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上方套牢筹码峰不减少、股价上涨到那里就会遇阻的形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上方套牢筹码峰不减少、股价上涨到那里就会遇阻的形态。
+        example: 上峰不移，反弹空间有限。
+        isPrimary: true
+    aliases:
+      - raw: 上峰不移
+        aliasType: primary
+      - raw: Upper Peak Persists
+        aliasType: en_alias
+  - slug: gan-shi-xian
+    headword: 甘氏线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: William Gann提出的从一个显著高低点出发、按不同角度发散的一组趋势线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: William Gann提出的从一个显著高低点出发、按不同角度发散的一组趋势线。
+        example: 甘氏线45度角是最重要的多空分界线。
+        isPrimary: true
+    aliases:
+      - raw: 甘氏线
+        aliasType: primary
+      - raw: Gann Fan
+        aliasType: en_alias
+  - slug: tui-dong-lang
+    headword: 推动浪
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 艾略特波浪中沿主趋势方向运行的五浪结构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 艾略特波浪中沿主趋势方向运行的五浪结构。
+        example: 推动浪第3浪通常最长最猛。
+        isPrimary: true
+    aliases:
+      - raw: 推动浪
+        aliasType: primary
+      - raw: Impulse Wave
+        aliasType: en_alias
+  - slug: tiao-zheng-lang
+    headword: 调整浪
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 艾略特波浪中对推动浪进行修正的ABC三浪结构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 艾略特波浪中对推动浪进行修正的ABC三浪结构。
+        example: 调整浪比推动浪难数。
+        isPrimary: true
+    aliases:
+      - raw: 调整浪
+        aliasType: primary
+      - raw: Corrective Wave
+        aliasType: en_alias
+  - slug: lang-xing
+    headword: 浪型
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 艾略特波浪中当前所处的具体浪的位置与形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 艾略特波浪中当前所处的具体浪的位置与形态。
+        example: 浪型判断错了，整个交易计划都错。
+        isPrimary: true
+    aliases:
+      - raw: 浪型
+        aliasType: primary
+      - raw: Wave Structure
+        aliasType: en_alias
+  - slug: qian-gao-qian-di
+    headword: 前高前低
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 此前行情中形成的显著高点或低点，常作为支撑压力参考。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 此前行情中形成的显著高点或低点，常作为支撑压力参考。
+        example: 股价突破前高打开上涨空间。
+        isPrimary: true
+    aliases:
+      - raw: 前高前低
+        aliasType: primary
+      - raw: Prior High/Low
+        aliasType: en_alias
+  - slug: que-kou-zhi-cheng
+    headword: 缺口支撑
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 向上跳空缺口的下沿在后续回调中起到支撑作用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 向上跳空缺口的下沿在后续回调中起到支撑作用。
+        example: 缺口下沿没被回补就是强支撑。
+        isPrimary: true
+    aliases:
+      - raw: 缺口支撑
+        aliasType: primary
+      - raw: Gap Support
+        aliasType: en_alias
+  - slug: qu-shi-que-ren
+    headword: 趋势确认
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 通过价格、成交量或指标确认新趋势已经形成的过程。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 通过价格、成交量或指标确认新趋势已经形成的过程。
+        example: 放量突破后回踩不破才算趋势确认。
+        isPrimary: true
+    aliases:
+      - raw: 趋势确认
+        aliasType: primary
+      - raw: Trend Confirmation
+        aliasType: en_alias
+  - slug: shan-xing-xian
+    headword: 扇形线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 从一个显著高点或低点出发画出的多条依次变平缓的趋势线，用于判断趋势反转。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 从一个显著高点或低点出发画出的多条依次变平缓的趋势线，用于判断趋势反转。
+        example: 扇形原理第三条线被突破往往反转。
+        isPrimary: true
+    aliases:
+      - raw: 扇形线
+        aliasType: primary
+      - raw: Fan Lines
+        aliasType: en_alias
+  - slug: 0-3-8-2-hui-tiao-wei
+    headword: 0.382回调位
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 黄金分割中较弱的回调比例，强势趋势通常在此止跌。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 黄金分割中较弱的回调比例，强势趋势通常在此止跌。
+        example: 强势股回调到0.382就拉起。
+        isPrimary: true
+    aliases:
+      - raw: 0.382回调位
+        aliasType: primary
+      - raw: 38.2% Retracement
+        aliasType: en_alias
+  - slug: 0-6-1-8-hui-tiao-wei
+    headword: 0.618回调位
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 黄金分割中较深的回调比例，弱势趋势可能跌到此位。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 黄金分割中较深的回调比例，弱势趋势可能跌到此位。
+        example: 中期调整通常在0.618位获得支撑。
+        isPrimary: true
+    aliases:
+      - raw: 0.618回调位
+        aliasType: primary
+      - raw: 61.8% Retracement
+        aliasType: en_alias
+  - slug: 1-6-1-8-kuo-zhan-wei
+    headword: 1.618扩展位
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 波浪或趋势测量中常用的扩展目标位比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 波浪或趋势测量中常用的扩展目标位比例。
+        example: 按1.618扩展位看到下一个目标。
+        isPrimary: true
+    aliases:
+      - raw: 1.618扩展位
+        aliasType: primary
+      - raw: 161.8% Extension
+        aliasType: en_alias
+  - slug: wu-lang-jie-gou
+    headword: 五浪结构
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 艾略特波浪中沿主趋势方向的五浪推动结构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 艾略特波浪中沿主趋势方向的五浪推动结构。
+        example: 完整牛市走五浪结构后进入ABC调整。
+        isPrimary: true
+    aliases:
+      - raw: 五浪结构
+        aliasType: primary
+      - raw: Five-Wave Structure
+        aliasType: en_alias
+  - slug: a-b-c-tiao-zheng
+    headword: ABC调整
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 艾略特波浪中对五浪推动的三浪调整结构，分A、B、C三浪。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 艾略特波浪中对五浪推动的三浪调整结构，分A、B、C三浪。
+        example: ABC调整中B浪反弹最容易套人。
+        isPrimary: true
+    aliases:
+      - raw: ABC调整
+        aliasType: primary
+      - raw: ABC Correction
+        aliasType: en_alias
+  - slug: xie-san-jiao-xing
+    headword: 斜三角形
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 艾略特波浪中出现在推动浪1浪或5浪、倾斜楔形形态的特殊结构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 艾略特波浪中出现在推动浪1浪或5浪、倾斜楔形形态的特殊结构。
+        example: 斜三角形出现后往往剧烈反转。
+        isPrimary: true
+    aliases:
+      - raw: 斜三角形
+        aliasType: primary
+      - raw: Diagonal Triangle
+        aliasType: en_alias
+  - slug: shi-bai-lang
+    headword: 失败浪
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 艾略特波浪中第5浪未能超越第3浪高点的衰竭形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 艾略特波浪中第5浪未能超越第3浪高点的衰竭形态。
+        example: 失败五浪出现后趋势即将反转。
+        isPrimary: true
+    aliases:
+      - raw: 失败浪
+        aliasType: primary
+      - raw: Failure Wave
+        aliasType: en_alias
+      - raw: Truncated Fifth
+        aliasType: en_alias
+  - slug: san-dian-ding-qu-shi
+    headword: 三点定趋势
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 技术分析中连接三个以上同方向高低点画出的趋势线才被视为有效。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 技术分析中连接三个以上同方向高低点画出的趋势线才被视为有效。
+        example: 三点定趋势，两点只能算猜测。
+        isPrimary: true
+    aliases:
+      - raw: 三点定趋势
+        aliasType: primary
+      - raw: Three-Point Trendline
+        aliasType: en_alias
+  - slug: zu-li-bian-zhi-cheng
+    headword: 阻力变支撑
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 前期阻力位被放量突破后，在后续回调中转化为支撑位的现象。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 前期阻力位被放量突破后，在后续回调中转化为支撑位的现象。
+        example: 前期高点突破后变成强支撑。
+        isPrimary: true
+    aliases:
+      - raw: 阻力变支撑
+        aliasType: primary
+      - raw: Resistance Turns Support
+        aliasType: en_alias
+  - slug: zhi-cheng-bian-zu-li
+    headword: 支撑变阻力
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 前期支撑位被向下跌破后，在后续反弹中转化为阻力位的现象。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 前期支撑位被向下跌破后，在后续反弹中转化为阻力位的现象。
+        example: 前期低点跌破后反弹到那里就遇阻。
+        isPrimary: true
+    aliases:
+      - raw: 支撑变阻力
+        aliasType: primary
+      - raw: Support Turns Resistance
+        aliasType: en_alias
+  - slug: qian-gao
+    headword: 前高
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 此前行情中形成的显著高点，常作为压力位。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 此前行情中形成的显著高点，常作为压力位。
+        example: 股价接近前高时要观察是否放量突破。
+        isPrimary: true
+    aliases:
+      - raw: 前高
+        aliasType: primary
+      - raw: Prior High
+        aliasType: en_alias
+  - slug: qian-di
+    headword: 前低
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 此前行情中形成的显著低点，常作为支撑位。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 此前行情中形成的显著低点，常作为支撑位。
+        example: 股价回踩前低不破是买点。
+        isPrimary: true
+    aliases:
+      - raw: 前低
+        aliasType: primary
+      - raw: Prior Low
+        aliasType: en_alias
+  - slug: mi-ji-cheng-jiao-dai
+    headword: 密集成交带
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 过去股价长时间横盘、大量成交堆积的价格区间，是强支撑压力区。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 过去股价长时间横盘、大量成交堆积的价格区间，是强支撑压力区。
+        example: 上方密集成交带是强阻力。
+        isPrimary: true
+    aliases:
+      - raw: 密集成交带
+        aliasType: primary
+      - raw: Consolidation Zone
+        aliasType: en_alias
+  - slug: jing-xian-ya-li
+    headword: 颈线压力
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 头肩顶等形态中颈线被跌破后转为后续反弹的压力位。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 头肩顶等形态中颈线被跌破后转为后续反弹的压力位。
+        example: 反弹到颈线压力位附近再次下跌。
+        isPrimary: true
+    aliases:
+      - raw: 颈线压力
+        aliasType: primary
+      - raw: Neckline Resistance
+        aliasType: en_alias
+  - slug: jing-xian-zhi-cheng
+    headword: 颈线支撑
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 头肩底等形态中颈线被突破后转为后续回踩的支撑位。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 头肩底等形态中颈线被突破后转为后续回踩的支撑位。
+        example: 回踩颈线支撑不破是加仓点。
+        isPrimary: true
+    aliases:
+      - raw: 颈线支撑
+        aliasType: primary
+      - raw: Neckline Support
+        aliasType: en_alias
+  - slug: shuang-fei-wu-ya
+    headword: 双飞乌鸦
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 高位出现两根向上跳空但收盘走低的K线，预示上攻乏力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 高位出现两根向上跳空但收盘走低的K线，预示上攻乏力。
+        example: 双飞乌鸦是见顶预警信号。
+        isPrimary: true
+    aliases:
+      - raw: 双飞乌鸦
+        aliasType: primary
+      - raw: Two Crows
+        aliasType: en_alias
+  - slug: zao-chen-shi-zi-xing
+    headword: 早晨十字星
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 早晨之星中间一根为十字星的特殊形态，反转意味更强。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 早晨之星中间一根为十字星的特殊形态，反转意味更强。
+        example: 早晨十字星出现在大幅下跌后见底概率高。
+        isPrimary: true
+    aliases:
+      - raw: 早晨十字星
+        aliasType: primary
+      - raw: Morning Doji Star
+        aliasType: en_alias
+  - slug: shang-zhang-liang-ke-xing
+    headword: 上涨两颗星
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上涨途中连续两根小K线在大阳线上方整理，是持续向上信号。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上涨途中连续两根小K线在大阳线上方整理，是持续向上信号。
+        example: 上涨两颗星后继续看涨。
+        isPrimary: true
+    aliases:
+      - raw: 上涨两颗星
+        aliasType: primary
+      - raw: Two Rising Stars
+        aliasType: en_alias
+  - slug: xia-die-liang-ke-xing
+    headword: 下跌两颗星
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 下跌途中连续两根小K线在大阴线下方整理，是持续向下信号。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 下跌途中连续两根小K线在大阴线下方整理，是持续向下信号。
+        example: 下跌两颗星后继续看空。
+        isPrimary: true
+    aliases:
+      - raw: 下跌两颗星
+        aliasType: primary
+      - raw: Two Falling Stars
+        aliasType: en_alias
+  - slug: luo-xuan-jiang-k-xian
+    headword: 螺旋桨K线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 实体很小、上下影线都很长的K线，像飞机螺旋桨，预示行情可能反转。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 实体很小、上下影线都很长的K线，像飞机螺旋桨，预示行情可能反转。
+        example: 高位螺旋桨K线出现后通常变盘。
+        isPrimary: true
+    aliases:
+      - raw: 螺旋桨K线
+        aliasType: primary
+      - raw: Spiral Candle
+        aliasType: en_alias
+  - slug: feng-gao-lang-da-xian
+    headword: 风高浪大线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 实体与上下影线都很长的K线，反映多空分歧巨大。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 实体与上下影线都很长的K线，反映多空分歧巨大。
+        example: 风高浪大线出现在顶部要小心。
+        isPrimary: true
+    aliases:
+      - raw: 风高浪大线
+        aliasType: primary
+      - raw: Windy Candle
+        aliasType: en_alias
+  - slug: shi-zi-tai
+    headword: 十字胎
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 母子线中后一根为十字星的特殊形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 母子线中后一根为十字星的特殊形态。
+        example: 顶部十字胎是强烈反转信号。
+        isPrimary: true
+    aliases:
+      - raw: 十字胎
+        aliasType: primary
+      - raw: Harami Doji
+        aliasType: en_alias
+  - slug: zui-hou-huai-bao-xian
+    headword: 最后怀抱线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 高位或低位最后一根K线包住前一根K线、随后反向运行的形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 高位或低位最后一根K线包住前一根K线、随后反向运行的形态。
+        example: 最后怀抱线是变盘信号。
+        isPrimary: true
+    aliases:
+      - raw: 最后怀抱线
+        aliasType: primary
+      - raw: Last Embrace
+        aliasType: en_alias
+  - slug: yue-hui-xian
+    headword: 约会线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 反击线的另一种说法，两根K线在同一价位收盘。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 反击线的另一种说法，两根K线在同一价位收盘。
+        example: 约会线出现在趋势末端是反转信号。
+        isPrimary: true
+    aliases:
+      - raw: 约会线
+        aliasType: primary
+      - raw: Meeting Line
+        aliasType: en_alias
+  - slug: jin-tou-xian
+    headword: 尽头线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 趋势末端一根小K线完全在前一根大K线影线内，预示原趋势结束。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 趋势末端一根小K线完全在前一根大K线影线内，预示原趋势结束。
+        example: 尽头线出现在高位说明上攻结束。
+        isPrimary: true
+    aliases:
+      - raw: 尽头线
+        aliasType: primary
+      - raw: End Line
+        aliasType: en_alias
+  - slug: shang-sheng-di-kang-xing
+    headword: 上升抵抗形
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上涨途中连续阳线夹小阴线整理、继续向上的持续形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上涨途中连续阳线夹小阴线整理、继续向上的持续形态。
+        example: 上升抵抗形是健康上涨结构。
+        isPrimary: true
+    aliases:
+      - raw: 上升抵抗形
+        aliasType: primary
+      - raw: Rising Resistance
+        aliasType: en_alias
+  - slug: xia-jiang-di-kang-xing
+    headword: 下降抵抗形
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 下跌途中连续阴线夹小阳线反弹、继续向下的持续形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 下跌途中连续阴线夹小阳线反弹、继续向下的持续形态。
+        example: 下降抵抗形是下跌中继。
+        isPrimary: true
+    aliases:
+      - raw: 下降抵抗形
+        aliasType: primary
+      - raw: Falling Resistance
+        aliasType: en_alias
+  - slug: bing-pai-yang-xian
+    headword: 并排阳线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 向上跳空后两根同价小阳线并排整理，是持续向上信号。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 向上跳空后两根同价小阳线并排整理，是持续向上信号。
+        example: 并排阳线出现在上涨途中继续看涨。
+        isPrimary: true
+    aliases:
+      - raw: 并排阳线
+        aliasType: primary
+      - raw: Side-by-Side White Lines
+        aliasType: en_alias
+  - slug: di-dang-pan-xuan-xing
+    headword: 低档盘旋形
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 下跌后在低位横盘数日整理、随后放量向上的底部形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 下跌后在低位横盘数日整理、随后放量向上的底部形态。
+        example: 低档盘旋形末端是买点。
+        isPrimary: true
+    aliases:
+      - raw: 低档盘旋形
+        aliasType: primary
+      - raw: Low Consolidation
+        aliasType: en_alias
+  - slug: gao-dang-pan-xuan-xing
+    headword: 高档盘旋形
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上涨后在高位横盘数日整理、随后放量向下的顶部形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上涨后在高位横盘数日整理、随后放量向下的顶部形态。
+        example: 高档盘旋形末端是卖点。
+        isPrimary: true
+    aliases:
+      - raw: 高档盘旋形
+        aliasType: primary
+      - raw: High Consolidation
+        aliasType: en_alias
+  - slug: xu-huan-shang-sheng-xing
+    headword: 徐缓上升形
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 低位连续小阳线缓慢推高、随后一根大阳线加速的形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 低位连续小阳线缓慢推高、随后一根大阳线加速的形态。
+        example: 徐缓上升形是主力建仓痕迹。
+        isPrimary: true
+    aliases:
+      - raw: 徐缓上升形
+        aliasType: primary
+      - raw: Slow Rising
+        aliasType: en_alias
+  - slug: xu-huan-xia-die-xing
+    headword: 徐缓下跌形
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 高位连续小阴线缓慢下移、随后一根大阴线加速的形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 高位连续小阴线缓慢下移、随后一根大阴线加速的形态。
+        example: 徐缓下跌形是主力出货痕迹。
+        isPrimary: true
+    aliases:
+      - raw: 徐缓下跌形
+        aliasType: primary
+      - raw: Slow Falling
+        aliasType: en_alias
+  - slug: pu-tong-que-kou
+    headword: 普通缺口
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 在横盘整理中出现、无明显趋势意义、很快被回补的缺口。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 在横盘整理中出现、无明显趋势意义、很快被回补的缺口。
+        example: 普通缺口通常几天内回补。
+        isPrimary: true
+    aliases:
+      - raw: 普通缺口
+        aliasType: primary
+      - raw: Common Gap
+        aliasType: en_alias
+  - slug: zhong-ji-que-kou
+    headword: 中继缺口
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 趋势中途出现的持续性缺口，对应测量缺口。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 趋势中途出现的持续性缺口，对应测量缺口。
+        example: 中继缺口说明趋势走在一半。
+        isPrimary: true
+    aliases:
+      - raw: 中继缺口
+        aliasType: primary
+      - raw: Midpoint Gap
+        aliasType: en_alias
+  - slug: dao-xing-ding
+    headword: 岛形顶
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 向上跳空后再向下跳空、顶部K线像孤岛一样被两边缺口孤立的顶部反转。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 向上跳空后再向下跳空、顶部K线像孤岛一样被两边缺口孤立的顶部反转。
+        example: 岛形顶是强烈见顶信号。
+        isPrimary: true
+    aliases:
+      - raw: 岛形顶
+        aliasType: primary
+      - raw: Island Top
+        aliasType: en_alias
+  - slug: dao-xing-di
+    headword: 岛形底
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 向下跳空后再向上跳空、底部K线像孤岛一样被两边缺口孤立的底部反转。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 向下跳空后再向上跳空、底部K线像孤岛一样被两边缺口孤立的底部反转。
+        example: 岛形底是强烈见底信号。
+        isPrimary: true
+    aliases:
+      - raw: 岛形底
+        aliasType: primary
+      - raw: Island Bottom
+        aliasType: en_alias
+  - slug: v-xing-ding
+    headword: V形顶
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价急涨后单日或数日内急速反转下跌、形态像倒V的剧烈顶部。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价急涨后单日或数日内急速反转下跌、形态像倒V的剧烈顶部。
+        example: V形顶通常由利好出尽触发。
+        isPrimary: true
+    aliases:
+      - raw: V形顶
+        aliasType: primary
+      - raw: V-Top
+        aliasType: en_alias
+  - slug: v-xing-di
+    headword: V形底
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价急跌后单日或数日内急速反转上涨、形态像V的剧烈底部。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价急跌后单日或数日内急速反转上涨、形态像V的剧烈底部。
+        example: V形底通常由重大利好触发。
+        isPrimary: true
+    aliases:
+      - raw: V形底
+        aliasType: primary
+      - raw: V-Bottom
+        aliasType: en_alias
+  - slug: wan-xing-di
+    headword: 碗形底
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 比U形底更圆、像碗一样的底部形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 比U形底更圆、像碗一样的底部形态。
+        example: 碗形底形成时间越长涨幅越大。
+        isPrimary: true
+    aliases:
+      - raw: 碗形底
+        aliasType: primary
+      - raw: Bowl Bottom
+        aliasType: en_alias
+  - slug: chang-he-xing
+    headword: 长盒形
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 时间跨度很长的矩形整理形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 时间跨度很长的矩形整理形态。
+        example: 长盒形突破后量度幅度大。
+        isPrimary: true
+    aliases:
+      - raw: 长盒形
+        aliasType: primary
+      - raw: Long Box
+        aliasType: en_alias
+  - slug: xiang-ti-shang-yan
+    headword: 箱体上沿
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 箱体震荡区间的上边线，是短期压力位。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 箱体震荡区间的上边线，是短期压力位。
+        example: 股价反弹到箱体上沿遇阻。
+        isPrimary: true
+    aliases:
+      - raw: 箱体上沿
+        aliasType: primary
+      - raw: Box Upper Bound
+        aliasType: en_alias
+  - slug: xiang-ti-xia-yan
+    headword: 箱体下沿
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 箱体震荡区间的下边线，是短期支撑位。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 箱体震荡区间的下边线，是短期支撑位。
+        example: 股价跌到箱体下沿获得支撑。
+        isPrimary: true
+    aliases:
+      - raw: 箱体下沿
+        aliasType: primary
+      - raw: Box Lower Bound
+        aliasType: en_alias
+  - slug: la-ba-ding
+    headword: 喇叭顶
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 喇叭形出现在顶部的特殊形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 喇叭形出现在顶部的特殊形态。
+        example: 喇叭顶通常出现在牛市末端。
+        isPrimary: true
+    aliases:
+      - raw: 喇叭顶
+        aliasType: primary
+      - raw: Megaphone Top
+        aliasType: en_alias
+  - slug: zhou-xian-ding
+    headword: 周线顶
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 周K线上形成的顶部反转，级别较大。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 周K线上形成的顶部反转，级别较大。
+        example: 周线顶一旦形成调整时间长。
+        isPrimary: true
+    aliases:
+      - raw: 周线顶
+        aliasType: primary
+      - raw: Weekly Top
+        aliasType: en_alias
+  - slug: zhou-xian-di
+    headword: 周线底
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 周K线上形成的底部反转，级别较大。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 周K线上形成的底部反转，级别较大。
+        example: 周线底是中长线买点。
+        isPrimary: true
+    aliases:
+      - raw: 周线底
+        aliasType: primary
+      - raw: Weekly Bottom
+        aliasType: en_alias
+  - slug: liang-du-die-fu
+    headword: 量度跌幅
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 技术形态中按形态垂直高度从跌破位算起预测的最小下跌目标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 技术形态中按形态垂直高度从跌破位算起预测的最小下跌目标。
+        example: 头肩顶量度跌幅是头顶到颈线的距离。
+        isPrimary: true
+    aliases:
+      - raw: 量度跌幅
+        aliasType: primary
+      - raw: Measured Downside
+        aliasType: en_alias
+  - slug: xia-fang-kong-jian
+    headword: 下方空间
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 从当前价到下一个支撑位之间的下跌距离。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 从当前价到下一个支撑位之间的下跌距离。
+        example: 下方空间大就要设好止损。
+        isPrimary: true
+    aliases:
+      - raw: 下方空间
+        aliasType: primary
+      - raw: Downside Risk
+        aliasType: en_alias
+  - slug: shang-xing-ya-li
+    headword: 上行压力
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价向上遇到的卖压区域。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价向上遇到的卖压区域。
+        example: 上行压力重重，反弹难持续。
+        isPrimary: true
+    aliases:
+      - raw: 上行压力
+        aliasType: primary
+      - raw: Upward Resistance
+        aliasType: en_alias
+  - slug: xia-xing-zhi-cheng
+    headword: 下行支撑
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价向下遇到的买盘支撑区域。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价向下遇到的买盘支撑区域。
+        example: 下行支撑坚实，跌破概率小。
+        isPrimary: true
+    aliases:
+      - raw: 下行支撑
+        aliasType: primary
+      - raw: Downward Support
+        aliasType: en_alias
+  - slug: ya-li-chong-chong
+    headword: 压力重重
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上方套牢盘密集、反弹屡屡遇阻的状态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 上方套牢盘密集、反弹屡屡遇阻的状态。
+        example: 压力重重之下不要轻易抄底。
+        isPrimary: true
+    aliases:
+      - raw: 压力重重
+        aliasType: primary
+      - raw: Heavy Resistance
+        aliasType: en_alias
+  - slug: zhi-cheng-jian-shi
+    headword: 支撑坚实
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 下方买盘密集、回调屡屡获得支撑的状态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 下方买盘密集、回调屡屡获得支撑的状态。
+        example: 支撑坚实的股票可以逢低布局。
+        isPrimary: true
+    aliases:
+      - raw: 支撑坚实
+        aliasType: primary
+      - raw: Firm Support
+        aliasType: en_alias
+  - slug: ya-li-xian
+    headword: 压力线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 连接两个或两个以上显著高点形成的压力趋势线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 连接两个或两个以上显著高点形成的压力趋势线。
+        example: 反弹到压力线附近要减仓。
+        isPrimary: true
+    aliases:
+      - raw: 压力线
+        aliasType: primary
+      - raw: Resistance Line
+        aliasType: en_alias
+  - slug: zhi-cheng-xian
+    headword: 支撑线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 连接两个或两个以上显著低点形成的支撑趋势线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 连接两个或两个以上显著低点形成的支撑趋势线。
+        example: 回调到支撑线附近可低吸。
+        isPrimary: true
+    aliases:
+      - raw: 支撑线
+        aliasType: primary
+      - raw: Support Line
+        aliasType: en_alias
+  - slug: ya-li-qu
+    headword: 压力区
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上方一个价格区间的整体压力带。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上方一个价格区间的整体压力带。
+        example: 压力区在50-55元。
+        isPrimary: true
+    aliases:
+      - raw: 压力区
+        aliasType: primary
+      - raw: Resistance Zone
+        aliasType: en_alias
+  - slug: zhi-cheng-qu
+    headword: 支撑区
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 下方一个价格区间的整体支撑带。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 下方一个价格区间的整体支撑带。
+        example: 支撑区在40-42元。
+        isPrimary: true
+    aliases:
+      - raw: 支撑区
+        aliasType: primary
+      - raw: Support Zone
+        aliasType: en_alias
+  - slug: ya-li-ping-tai
+    headword: 压力平台
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价前期长时间横盘形成的上方压力平台。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价前期长时间横盘形成的上方压力平台。
+        example: 突破压力平台后打开上涨空间。
+        isPrimary: true
+    aliases:
+      - raw: 压力平台
+        aliasType: primary
+      - raw: Resistance Plateau
+        aliasType: en_alias
+  - slug: zhi-cheng-ping-tai
+    headword: 支撑平台
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价前期长时间横盘形成的下方支撑平台。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 股价前期长时间横盘形成的下方支撑平台。
+        example: 回踩支撑平台不破是买点。
+        isPrimary: true
+    aliases:
+      - raw: 支撑平台
+        aliasType: primary
+      - raw: Support Plateau
+        aliasType: en_alias
+  - slug: jie-tao-pan-ya-li
+    headword: 解套盘压力
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上方长期套牢筹码在反弹到成本区时集中卖出的压力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上方长期套牢筹码在反弹到成本区时集中卖出的压力。
+        example: 解套盘压力让突破变得困难。
+        isPrimary: true
+    aliases:
+      - raw: 解套盘压力
+        aliasType: primary
+      - raw: Unwinding Pressure
+        aliasType: en_alias
+  - slug: chao-di-pan-zhi-cheng
+    headword: 抄底盘支撑
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 下方抄底资金在股价跌到低位时买入形成的支撑。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 下方抄底资金在股价跌到低位时买入形成的支撑。
+        example: 抄底盘支撑让股价不再创新低。
+        isPrimary: true
+    aliases:
+      - raw: 抄底盘支撑
+        aliasType: primary
+      - raw: Bottom-Fishing Support
+        aliasType: en_alias
+  - slug: di-5-lang-te-zheng
+    headword: 第5浪特征
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 艾略特第5浪通常伴随情绪亢奋、但动量开始背离的特征。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 艾略特第5浪通常伴随情绪亢奋、但动量开始背离的特征。
+        example: 第5浪顶往往出现量价背离。
+        isPrimary: true
+    aliases:
+      - raw: 第5浪特征
+        aliasType: primary
+      - raw: Wave 5 Characteristics
+        aliasType: en_alias
+  - slug: 1-2-7-2-kuo-zhan-wei
+    headword: 1.272扩展位
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 波浪测量中常用的扩展目标位比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 波浪测量中常用的扩展目标位比例。
+        example: 按1.272扩展位看到下一目标。
+        isPrimary: true
+    aliases:
+      - raw: 1.272扩展位
+        aliasType: primary
+      - raw: 127.2% Extension
+        aliasType: en_alias
+  - slug: heng-pan-mo-duan
+    headword: 横盘末端
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 横盘整理时间较长、均线粘合、即将选择方向的阶段。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 横盘整理时间较长、均线粘合、即将选择方向的阶段。
+        example: 横盘末端要盯紧放量方向。
+        isPrimary: true
+    aliases:
+      - raw: 横盘末端
+        aliasType: primary
+      - raw: End of Consolidation
+        aliasType: en_alias
+  - slug: yin-shan-gu
+    headword: 银山谷
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 短期均线上穿中期均线、中期均线上穿长期均线形成的第一个金山谷之前的买入信号。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 短期均线上穿中期均线、中期均线上穿长期均线形成的第一个金山谷之前的买入信号。
+        example: 银山谷是均线第一次金叉组合。
+        isPrimary: true
+    aliases:
+      - raw: 银山谷
+        aliasType: primary
+      - raw: Silver Valley
+        aliasType: en_alias
+  - slug: si-wang-gu
+    headword: 死亡谷
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 短期均线下穿中期均线、中期均线下穿长期均线形成的卖出信号。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 短期均线下穿中期均线、中期均线下穿长期均线形成的卖出信号。
+        example: 死亡谷出现后要果断离场。
+        isPrimary: true
+    aliases:
+      - raw: 死亡谷
+        aliasType: primary
+      - raw: Death Valley
+        aliasType: en_alias
+  - slug: lao-ya-tou
+    headword: 老鸭头
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 均线走势像鸭头、鸭嘴的经典上涨形态，是主力洗盘后再拉升的信号。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 均线走势像鸭头、鸭嘴的经典上涨形态，是主力洗盘后再拉升的信号。
+        example: 老鸭头形态出现后往往再有一波。
+        isPrimary: true
+    aliases:
+      - raw: 老鸭头
+        aliasType: primary
+      - raw: Old Duck Head
+        aliasType: en_alias
+  - slug: kong-zhong-jia-you
+    headword: 空中加油
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上涨途中短暂横盘整理后继续拉升的形态，像飞机加油。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上涨途中短暂横盘整理后继续拉升的形态，像飞机加油。
+        example: 空中加油后股价再上一个台阶。
+        isPrimary: true
+    aliases:
+      - raw: 空中加油
+        aliasType: primary
+      - raw: Aerial Refueling
+        aliasType: en_alias
+  - slug: hui-dang
+    headword: 回档
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上升趋势中股价短暂回调但不破趋势线的现象。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 上升趋势中股价短暂回调但不破趋势线的现象。
+        example: 上升趋势中的回档是买点。
+        isPrimary: true
+    aliases:
+      - raw: 回档
+        aliasType: primary
+      - raw: Pullback in Uptrend
+        aliasType: en_alias
+  - slug: jia-die-po
+    headword: 假跌破
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价短暂跌破支撑位后迅速收回、诱空陷阱。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股价短暂跌破支撑位后迅速收回、诱空陷阱。
+        example: 假跌破后往往快速拉升。
+        isPrimary: true
+    aliases:
+      - raw: 假跌破
+        aliasType: primary
+      - raw: False Breakdown
+        aliasType: en_alias
+  - slug: hong-fei-l-shou
+    headword: 红肥绿瘦
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 成交量图上红色阳线量柱长、绿色阴线量柱短的多头量价形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 成交量图上红色阳线量柱长、绿色阴线量柱短的多头量价形态。
+        example: 红肥绿瘦说明买盘积极。
+        isPrimary: true
+    aliases:
+      - raw: 红肥绿瘦
+        aliasType: primary
+      - raw: Red Fat Green Thin
+        aliasType: en_alias
+  - slug: l-fei-hong-shou
+    headword: 绿肥红瘦
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 成交量图上绿色阴线量柱长、红色阳线量柱短的空头量价形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 成交量图上绿色阴线量柱长、红色阳线量柱短的空头量价形态。
+        example: 绿肥红瘦说明抛压沉重。
+        isPrimary: true
+    aliases:
+      - raw: 绿肥红瘦
+        aliasType: primary
+      - raw: Green Fat Red Thin
+        aliasType: en_alias
+  - slug: shou-yi-l-qu-xian
+    headword: 收益率曲线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 不同期限债券收益率连成的曲线形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 不同期限债券收益率连成的曲线形态。
+        example: 收益率曲线倒挂常预示衰退。
+        isPrimary: true
+    aliases:
+      - raw: 收益率曲线
+        aliasType: primary
+      - raw: Yield Curve
+        aliasType: en_alias
+  - slug: zhu-li-zi-jin
+    headword: 主力资金
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按大单/特大单统计的主动买卖资金净额，反映主力动向。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 按大单/特大单统计的主动买卖资金净额，反映主力动向。
+        example: 主力资金净流出20亿，短线承压。
+        isPrimary: true
+    aliases:
+      - raw: 主力资金
+        aliasType: primary
+      - raw: Main Capital Flow
+        aliasType: en_alias
+  - slug: liang-shi-cheng-jiao-e
+    headword: 两市成交额
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 沪深两市每日成交总金额，是市场活跃度核心指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 沪深两市每日成交总金额，是市场活跃度核心指标。
+        example: 两市成交额破2万亿，市场亢奋。
+        isPrimary: true
+    aliases:
+      - raw: 两市成交额
+        aliasType: primary
+      - raw: Turnover of Two Markets
+        aliasType: en_alias
+  - slug: zhang-ting-jia-shu
+    headword: 涨停家数
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 当日涨停股票数量，是短线情绪核心指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 当日涨停股票数量，是短线情绪核心指标。
+        example: 涨停家数破百，情绪高潮。
+        isPrimary: true
+    aliases:
+      - raw: 涨停家数
+        aliasType: primary
+      - raw: Limit-up Count
+        aliasType: en_alias
+  - slug: die-ting-jia-shu
+    headword: 跌停家数
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 当日跌停股票数量，跌停潮预示恐慌。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 当日跌停股票数量，跌停潮预示恐慌。
+        example: 跌停家数超50家，市场恐慌加剧。
+        isPrimary: true
+    aliases:
+      - raw: 跌停家数
+        aliasType: primary
+      - raw: Limit-down Count
+        aliasType: en_alias
+  - slug: lian-ban-gao-du
+    headword: 连板高度
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 市场最高连板数，衡量短线情绪温度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场最高连板数，衡量短线情绪温度。
+        example: 连板高度压缩至2板，情绪冰点特征。
+        isPrimary: true
+    aliases:
+      - raw: 连板高度
+        aliasType: primary
+      - raw: Board Height
+        aliasType: en_alias
+  - slug: zha-ban-l
+    headword: 炸板率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 当日打开涨停的股票占触及涨停股票的比例，衡量接力意愿。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 当日打开涨停的股票占触及涨停股票的比例，衡量接力意愿。
+        example: 炸板率超50%，接力情绪极差。
+        isPrimary: true
+    aliases:
+      - raw: 炸板率
+        aliasType: primary
+      - raw: Failed Limit-up Rate
+        aliasType: en_alias
+  - slug: feng-ban-l
+    headword: 封板率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 成功封住涨停的股票占涨停触及数的比例，封板率越高情绪越强。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 成功封住涨停的股票占涨停触及数的比例，封板率越高情绪越强。
+        example: 封板率八成，短线氛围火热。
+        isPrimary: true
+    aliases:
+      - raw: 封板率
+        aliasType: primary
+      - raw: Seal Rate
+        aliasType: en_alias
+  - slug: zuo-ri-zhang-ting-biao-xian
+    headword: 昨日涨停表现
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 前日涨停股今日整体表现，衡量打板资金盈亏。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 前日涨停股今日整体表现，衡量打板资金盈亏。
+        example: 昨日涨停股今日平均高开2%，接力有肉。
+        isPrimary: true
+    aliases:
+      - raw: 昨日涨停表现
+        aliasType: primary
+      - raw: Yesterday Limit-up Performance
+        aliasType: en_alias
+  - slug: lu-gu-tong
+    headword: 陆股通
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 外资买卖A股的通道合称，即沪股通与深股通。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 外资买卖A股的通道合称，即沪股通与深股通。
+        example: 陆股通成交占比提升，外资影响力增强。
+        isPrimary: true
+    aliases:
+      - raw: 陆股通
+        aliasType: primary
+      - raw: Stock Connect Northbound
+        aliasType: en_alias
+  - slug: zui-gao-jia-zui-di-jia
+    headword: 最高价/最低价
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 当日成交的最高与最低价格，构成K线上下影线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 当日成交的最高与最低价格，构成K线上下影线。
+        example: 最高价创阶段新高后回落，上影线长。
+        isPrimary: true
+    aliases:
+      - raw: 最高价/最低价
+        aliasType: primary
+      - raw: High/Low
+        aliasType: en_alias
+  - slug: k-xian
+    headword: K线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 记录开盘、收盘、最高、最低价的图形，分阳线与阴线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 记录开盘、收盘、最高、最低价的图形，分阳线与阴线。
+        example: 放量长阳突破，K线形态转强。
+        isPrimary: true
+    aliases:
+      - raw: K线
+        aliasType: primary
+      - raw: Candlestick
+        aliasType: en_alias
+  - slug: zhang-shang-ying-xian
+    headword: 长上影线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上影线明显长于实体的K线，上方抛压沉重。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上影线明显长于实体的K线，上方抛压沉重。
+        example: 长上影线说明冲高遇阻，短线转弱。
+        isPrimary: true
+    aliases:
+      - raw: 长上影线
+        aliasType: primary
+      - raw: Long Upper Shadow
+        aliasType: en_alias
+  - slug: chang-xia-ying-xian
+    headword: 长下影线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 下影线明显长于实体的K线，下方支撑较强。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 下影线明显长于实体的K线，下方支撑较强。
+        example: 长下影线探底回升，短线止跌信号。
+        isPrimary: true
+    aliases:
+      - raw: 长下影线
+        aliasType: primary
+      - raw: Long Lower Shadow
+        aliasType: en_alias
+  - slug: 2-0-ri-xian
+    headword: 20日线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 20日收盘均价线，常被视为波段生命线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 20日收盘均价线，常被视为波段生命线。
+        example: 回踩20日线获得支撑，波段买点出现。
+        isPrimary: true
+    aliases:
+      - raw: 20日线
+        aliasType: primary
+      - raw: 20-day MA
+        aliasType: en_alias
+  - slug: 6-0-ri-xian
+    headword: 60日线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 60日收盘均价线，中期趋势分水岭。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 60日收盘均价线，中期趋势分水岭。
+        example: 股价跌破60日线，中期趋势转弱。
+        isPrimary: true
+    aliases:
+      - raw: 60日线
+        aliasType: primary
+      - raw: 60-day MA
+        aliasType: en_alias
+  - slug: jun-xian-duo-tou-pai-lie
+    headword: 均线多头排列
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 短中长期均线自上而下依次排列，趋势向上。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 短中长期均线自上而下依次排列，趋势向上。
+        example: 均线多头排列，持股待涨。
+        isPrimary: true
+    aliases:
+      - raw: 均线多头排列
+        aliasType: primary
+      - raw: Bullish MA Alignment
+        aliasType: en_alias
+  - slug: jun-xian-kong-tou-pai-lie
+    headword: 均线空头排列
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 短中长期均线自下而上依次排列，趋势向下。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 短中长期均线自下而上依次排列，趋势向下。
+        example: 均线空头排列，反弹逢高减仓。
+        isPrimary: true
+    aliases:
+      - raw: 均线空头排列
+        aliasType: primary
+      - raw: Bearish MA Alignment
+        aliasType: en_alias
+  - slug: suo-liang-yin-die
+    headword: 缩量阴跌
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 成交量萎缩但股价持续下跌，缺乏承接盘。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 成交量萎缩但股价持续下跌，缺乏承接盘。
+        example: 缩量阴跌最磨人，勿轻易抄底。
+        isPrimary: true
+    aliases:
+      - raw: 缩量阴跌
+        aliasType: primary
+      - raw: Low-volume Drift
+        aliasType: en_alias
+  - slug: ya-li-wei
+    headword: 压力位
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价上涨过程中遭遇卖压的价格区域。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 股价上涨过程中遭遇卖压的价格区域。
+        example: 突破压力位需放量确认。
+        isPrimary: true
+    aliases:
+      - raw: 压力位
+        aliasType: primary
+      - raw: Resistance Level
+        aliasType: en_alias
+  - slug: die-po
+    headword: 跌破
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股价有效击穿关键支撑位，趋势转弱。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 股价有效击穿关键支撑位，趋势转弱。
+        example: 跌破前低后形成下降趋势。
+        isPrimary: true
+    aliases:
+      - raw: 跌破
+        aliasType: primary
+      - raw: Breakdown
+        aliasType: en_alias
+  - slug: tiao-kong-gao-kai
+    headword: 跳空高开
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 开盘价高于前日最高价，形成向上缺口。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 开盘价高于前日最高价，形成向上缺口。
+        example: 利好刺激跳空高开，注意追高风险。
+        isPrimary: true
+    aliases:
+      - raw: 跳空高开
+        aliasType: primary
+      - raw: Gap Up
+        aliasType: en_alias
+  - slug: tiao-kong-di-kai
+    headword: 跳空低开
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 开盘价低于前日最低价，形成向下缺口。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 开盘价低于前日最低价，形成向下缺口。
+        example: 跳空低开跌破平台，短线转弱。
+        isPrimary: true
+    aliases:
+      - raw: 跳空低开
+        aliasType: primary
+      - raw: Gap Down
+        aliasType: en_alias
+  - slug: shuang-chong-ding
+    headword: 双重顶
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 两个相近高点构成的顶部形态，跌破颈线确认下跌。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 两个相近高点构成的顶部形态，跌破颈线确认下跌。
+        example: 双重顶跌破颈线后跌幅可测量。
+        isPrimary: true
+    aliases:
+      - raw: 双重顶
+        aliasType: primary
+      - raw: Double Top
+        aliasType: en_alias
+  - slug: shuang-chong-di
+    headword: 双重底
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 两个相近低点构成的底部形态，突破颈线确认上涨。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 两个相近低点构成的底部形态，突破颈线确认上涨。
+        example: 双重底突破颈线，W底成立。
+        isPrimary: true
+    aliases:
+      - raw: 双重底
+        aliasType: primary
+      - raw: Double Bottom
+        aliasType: en_alias
+  - slug: qi-xing-zheng-li
+    headword: 旗形整理
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 急涨或急跌后的小幅倾斜整理形态，通常沿原方向突破。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 急涨或急跌后的小幅倾斜整理形态，通常沿原方向突破。
+        example: 上升旗形整理结束后继续上攻。
+        isPrimary: true
+    aliases:
+      - raw: 旗形整理
+        aliasType: primary
+      - raw: Flag Pattern
+        aliasType: en_alias
+  - slug: san-jiao-xing-zheng-li
+    headword: 三角形整理
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 收敛三角形整理形态，突破方向决定后续走势。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 收敛三角形整理形态，突破方向决定后续走势。
+        example: 三角形整理末端选择方向。
+        isPrimary: true
+    aliases:
+      - raw: 三角形整理
+        aliasType: primary
+      - raw: Triangle Pattern
+        aliasType: en_alias
+  - slug: duo-tou-pai-lie
+    headword: 多头排列
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 各周期均线依次向上发散排列，多头占优。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 各周期均线依次向上发散排列，多头占优。
+        example: 周线级别多头排列，中期看涨。
+        isPrimary: true
+    aliases:
+      - raw: 多头排列
+        aliasType: primary
+      - raw: Bullish Setup
+        aliasType: en_alias
+  - slug: kong-tou-pai-lie
+    headword: 空头排列
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 各周期均线依次向下发散排列，空头占优。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 各周期均线依次向下发散排列，空头占优。
+        example: 日线空头排列，反弹高度有限。
+        isPrimary: true
+    aliases:
+      - raw: 空头排列
+        aliasType: primary
+      - raw: Bearish Setup
+        aliasType: en_alias
+  - slug: xin-zhi-sheng-chan-li
+    headword: 新质生产力
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以科技创新为核心驱动的先进生产力形态，政策重点方向。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以科技创新为核心驱动的先进生产力形态，政策重点方向。
+        example: 新质生产力方向聚焦硬科技与高端制造。
+        isPrimary: true
+    aliases:
+      - raw: 新质生产力
+        aliasType: primary
+      - raw: New Quality Productive Forces
+        aliasType: en_alias
+  - slug: ren-xing-ji-qi-ren
+    headword: 人形机器人
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 仿人形态的智能机器人，被视为下一代万亿级赛道。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 仿人形态的智能机器人，被视为下一代万亿级赛道。
+        example: 人形机器人供应链公司受资金追捧。
+        isPrimary: true
+    aliases:
+      - raw: 人形机器人
+        aliasType: primary
+      - raw: Humanoid Robot
+        aliasType: en_alias
+  - slug: bo-bei-fu-gai-l
+    headword: 拨备覆盖率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 贷款损失准备与不良贷款之比，越高抗风险能力越强。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 贷款损失准备与不良贷款之比，越高抗风险能力越强。
+        example: 拨备覆盖率超300%，利润释放空间充足。
+        isPrimary: true
+    aliases:
+      - raw: 拨备覆盖率
+        aliasType: primary
+      - raw: Provision Coverage Ratio
+        aliasType: en_alias
+  - slug: chu-kou
+    headword: 出口
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 货物与服务出口额，外需风向标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 货物与服务出口额，外需风向标。
+        example: 出口同比转正，出口链受益。
+        isPrimary: true
+    aliases:
+      - raw: 出口
+        aliasType: primary
+      - raw: Exports
+        aliasType: en_alias
+  - slug: jin-kou
+    headword: 进口
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 货物与服务进口额，反映内需强弱。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 货物与服务进口额，反映内需强弱。
+        example: 进口增长加快，内需改善信号。
+        isPrimary: true
+    aliases:
+      - raw: 进口
+        aliasType: primary
+      - raw: Imports
+        aliasType: en_alias
+  - slug: kua-jing-zi-ben-liu-dong
+    headword: 跨境资本流动
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资本在境内外的流动规模与方向。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资本在境内外的流动规模与方向。
+        example: 跨境资本流动总体均衡。
+        isPrimary: true
+    aliases:
+      - raw: 跨境资本流动
+        aliasType: primary
+      - raw: Cross-border Capital Flows
+        aliasType: en_alias
+  - slug: ta-tong
+    headword: 塔筒
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 风电机组支撑结构件。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 风电机组支撑结构件。
+        example: 塔筒环节受益海风放量。
+        isPrimary: true
+    aliases:
+      - raw: 塔筒
+        aliasType: primary
+      - raw: Tower
+        aliasType: en_alias
+  - slug: 2-5-0-ri-jun-xian
+    headword: 250日均线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 年线，长期趋势牛熊分界。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 年线，长期趋势牛熊分界。
+        example: 年线之上为技术性牛市。
+        isPrimary: true
+    aliases:
+      - raw: 250日均线
+        aliasType: primary
+      - raw: 250-day MA
+        aliasType: en_alias
+  - slug: m-a-c-d-zhu
+    headword: MACD柱
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: DIF与DEA之差，红绿柱反映动能。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: DIF与DEA之差，红绿柱反映动能。
+        example: 绿柱缩短下跌动能衰减。
+        isPrimary: true
+    aliases:
+      - raw: MACD柱
+        aliasType: primary
+      - raw: MACD Histogram
+        aliasType: en_alias
+  - slug: m-a-c-d-jin-cha
+    headword: MACD金叉
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: DIF上穿DEA，买入信号。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: DIF上穿DEA，买入信号。
+        example: 零轴上方MACD金叉更强。
+        isPrimary: true
+    aliases:
+      - raw: MACD金叉
+        aliasType: primary
+      - raw: MACD Golden Cross
+        aliasType: en_alias
+  - slug: m-a-c-d-si-cha
+    headword: MACD死叉
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: DIF下穿DEA，卖出信号。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: DIF下穿DEA，卖出信号。
+        example: 顶背离后MACD死叉确认调整。
+        isPrimary: true
+    aliases:
+      - raw: MACD死叉
+        aliasType: primary
+      - raw: MACD Death Cross
+        aliasType: en_alias
+  - slug: b-o-l-l-shou-kou
+    headword: BOLL收口
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 布林带上下轨收窄，变盘前兆。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 布林带上下轨收窄，变盘前兆。
+        example: 收口后关注方向选择。
+        isPrimary: true
+    aliases:
+      - raw: BOLL收口
+        aliasType: primary
+      - raw: Bollinger Contraction
+        aliasType: en_alias
+  - slug: wei-lian-zhi-biao
+    headword: 威廉指标
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 衡量收盘价在高低区间位置的指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 衡量收盘价在高低区间位置的指标。
+        example: WR超卖区钝化需结合趋势。
+        isPrimary: true
+    aliases:
+      - raw: 威廉指标
+        aliasType: primary
+      - raw: Williams %R
+        aliasType: en_alias
+  - slug: c-c-i
+    headword: CCI
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 顺势指标，衡量价格偏离均值的程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 顺势指标，衡量价格偏离均值的程度。
+        example: CCI上穿+100为强势。
+        isPrimary: true
+    aliases:
+      - raw: CCI
+        aliasType: primary
+      - raw: Commodity Channel Index
+        aliasType: en_alias
+  - slug: tu-po-que-kou
+    headword: 突破缺口
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 突破关键位产生的缺口，方向性强。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 突破关键位产生的缺口，方向性强。
+        example: 突破缺口放量确认有效。
+        isPrimary: true
+    aliases:
+      - raw: 突破缺口
+        aliasType: primary
+      - raw: Breakaway Gap
+        aliasType: en_alias
+  - slug: chi-xu-que-kou
+    headword: 持续缺口
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 趋势中段出现的缺口。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 趋势中段出现的缺口。
+        example: 持续缺口后趋势延续。
+        isPrimary: true
+    aliases:
+      - raw: 持续缺口
+        aliasType: primary
+      - raw: Continuation Gap
+        aliasType: en_alias
+  - slug: shuai-jie-que-kou
+    headword: 衰竭缺口
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 趋势末段的缺口，反转前兆。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 趋势末段的缺口，反转前兆。
+        example: 衰竭缺口出现宜减仓。
+        isPrimary: true
+    aliases:
+      - raw: 衰竭缺口
+        aliasType: primary
+      - raw: Exhaustion Gap
+        aliasType: en_alias
+  - slug: qi-xing
+    headword: 旗形
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 急涨急跌后的整理形态，延续原方向。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 急涨急跌后的整理形态，延续原方向。
+        example: 上升旗形突破看多。
+        isPrimary: true
+    aliases:
+      - raw: 旗形
+        aliasType: primary
+      - raw: Flag
+        aliasType: en_alias
+  - slug: xie-xing
+    headword: 楔形
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 收敛的倾斜整理形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 收敛的倾斜整理形态。
+        example: 楔形末端选择方向。
+        isPrimary: true
+    aliases:
+      - raw: 楔形
+        aliasType: primary
+      - raw: Wedge
+        aliasType: en_alias
+  - slug: ju-xing-zheng-li
+    headword: 矩形整理
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 水平区间整理形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 水平区间整理形态。
+        example: 矩形突破后量度涨幅。
+        isPrimary: true
+    aliases:
+      - raw: 矩形整理
+        aliasType: primary
+      - raw: Rectangle
+        aliasType: en_alias
+  - slug: cheng-ben-jun-xian
+    headword: 成本均线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按成交成本计算的均线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按成交成本计算的均线。
+        example: 成本均线附近多空争夺。
+        isPrimary: true
+    aliases:
+      - raw: 成本均线
+        aliasType: primary
+      - raw: Cost MA
+        aliasType: en_alias
+  - slug: qi-jian-fei-yong
+    headword: 期间费用
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 销售、管理、财务费用之和。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 销售、管理、财务费用之和。
+        example: 期间费用率反映费用管控。
+        isPrimary: true
+    aliases:
+      - raw: 期间费用
+        aliasType: primary
+      - raw: Period Expenses
+        aliasType: en_alias
+  - slug: yan-fa-tou-ru
+    headword: 研发投入
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 研发总投入，含资本化部分。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 研发总投入，含资本化部分。
+        example: 研发投入强度衡量科技属性。
+        isPrimary: true
+    aliases:
+      - raw: 研发投入
+        aliasType: primary
+      - raw: R&D Investment
+        aliasType: en_alias
+  - slug: zhai-quan-ping-ji
+    headword: 债券评级
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 评级机构对债券信用等级的评估。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 评级机构对债券信用等级的评估。
+        example: 评级下调推高融资成本。
+        isPrimary: true
+    aliases:
+      - raw: 债券评级
+        aliasType: primary
+      - raw: Bond Rating
+        aliasType: en_alias
+  - slug: quan-yao-su-sheng-chan-l
+    headword: 全要素生产率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 要素投入之外的效率提升。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 要素投入之外的效率提升。
+        example: TFP是长期增长动力。
+        isPrimary: true
+    aliases:
+      - raw: 全要素生产率
+        aliasType: primary
+      - raw: TFP
+        aliasType: en_alias
+  - slug: guo-chan-hua-l
+    headword: 国产化率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 国产产品市场份额。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 国产产品市场份额。
+        example: 国产化率提升带来投资机会。
+        isPrimary: true
+    aliases:
+      - raw: 国产化率
+        aliasType: primary
+      - raw: Localization Rate
+        aliasType: en_alias
+  - slug: bu-lun-te-yuan-you
+    headword: 布伦特原油
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 欧洲基准原油价格。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 欧洲基准原油价格。
+        example: 布伦特油价是全球风向标。
+        isPrimary: true
+    aliases:
+      - raw: 布伦特原油
+        aliasType: primary
+      - raw: Brent
+        aliasType: en_alias
+  - slug: w-t-i-yuan-you
+    headword: WTI原油
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 美国基准原油价格。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 美国基准原油价格。
+        example: WTI与布伦特存在价差。
+        isPrimary: true
+    aliases:
+      - raw: WTI原油
+        aliasType: primary
+      - raw: WTI
+        aliasType: en_alias
+  - slug: dian-cha
+    headword: 点差
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 买卖报价之差。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 买卖报价之差。
+        example: 点差是交易成本。
+        isPrimary: true
+    aliases:
+      - raw: 点差
+        aliasType: primary
+      - raw: Spread
+        aliasType: en_alias
+  - slug: guo-hu-fei
+    headword: 过户费
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股票过户登记费用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股票过户登记费用。
+        example: 过户费成本较低。
+        isPrimary: true
+    aliases:
+      - raw: 过户费
+        aliasType: primary
+      - raw: Transfer Fee
+        aliasType: en_alias
+  - slug: jing-jie-xian
+    headword: 警戒线
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 触发预警的担保比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 触发预警的担保比例。
+        example: 触及警戒线需补担保。
+        isPrimary: true
+    aliases:
+      - raw: 警戒线
+        aliasType: primary
+      - raw: Warning Line
+        aliasType: en_alias
+  - slug: he-xin-yi-ji-zi-ben
+    headword: 核心一级资本
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 最优质的银行资本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 最优质的银行资本。
+        example: CET1充足率是监管核心。
+        isPrimary: true
+    aliases:
+      - raw: 核心一级资本
+        aliasType: primary
+      - raw: CET1
+        aliasType: en_alias
+  - slug: yi-ji-zi-ben
+    headword: 一级资本
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 银行核心资本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 银行核心资本。
+        example: 一级资本吸收损失能力强。
+        isPrimary: true
+    aliases:
+      - raw: 一级资本
+        aliasType: primary
+      - raw: Tier 1 Capital
+        aliasType: en_alias
+  - slug: guan-zhu-lei-dai-kuan
+    headword: 关注类贷款
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 有潜在风险的贷款。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 有潜在风险的贷款。
+        example: 关注类迁徙率预警不良。
+        isPrimary: true
+    aliases:
+      - raw: 关注类贷款
+        aliasType: primary
+      - raw: Special Mention
+        aliasType: en_alias
+  - slug: yu-qi-dai-kuan
+    headword: 逾期贷款
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 到期未还的贷款。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 到期未还的贷款。
+        example: 逾期率上升资产质量承压。
+        isPrimary: true
+    aliases:
+      - raw: 逾期贷款
+        aliasType: primary
+      - raw: Overdue Loan
+        aliasType: en_alias
+  - slug: dai-kuan-bo-bei-l
+    headword: 贷款拨备率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 拨备占贷款比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 拨备占贷款比例。
+        example: 贷款拨备率监管要求。
+        isPrimary: true
+    aliases:
+      - raw: 贷款拨备率
+        aliasType: primary
+      - raw: Loan Provision Ratio
+        aliasType: en_alias
+  - slug: cun-dai-bi
+    headword: 存贷比
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 贷款与存款之比。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 贷款与存款之比。
+        example: 存贷比反映资金运用。
+        isPrimary: true
+    aliases:
+      - raw: 存贷比
+        aliasType: primary
+      - raw: Loan-deposit Ratio
+        aliasType: en_alias
+  - slug: jing-wen-ding-zi-jin-bi-l
+    headword: 净稳定资金比率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 长期资金匹配指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 长期资金匹配指标。
+        example: NSFR控制期限错配。
+        isPrimary: true
+    aliases:
+      - raw: 净稳定资金比率
+        aliasType: primary
+      - raw: NSFR
+        aliasType: en_alias
+  - slug: zi-ben-huan-chong
+    headword: 资本缓冲
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 超额资本储备。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 超额资本储备。
+        example: 资本缓冲抵御周期风险。
+        isPrimary: true
+    aliases:
+      - raw: 资本缓冲
+        aliasType: primary
+      - raw: Capital Buffer
+        aliasType: en_alias
+  - slug: jian-chi-bi-li
+    headword: 减持比例
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 减持股份的限额比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 减持股份的限额比例。
+        example: 减持比例受规则限制。
+        isPrimary: true
+    aliases:
+      - raw: 减持比例
+        aliasType: primary
+      - raw: Reduction Ratio
+        aliasType: en_alias
+  - slug: e-s-g-ping-ji
+    headword: ESG评级
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 可持续发展评级。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 可持续发展评级。
+        example: ESG评级影响机构配置。
+        isPrimary: true
+    aliases:
+      - raw: ESG评级
+        aliasType: primary
+      - raw: ESG Rating
+        aliasType: en_alias
+  - slug: tan-pei-e
+    headword: 碳配额
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 碳排放许可额度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 碳排放许可额度。
+        example: 碳配额价格市场化。
+        isPrimary: true
+    aliases:
+      - raw: 碳配额
+        aliasType: primary
+      - raw: Carbon Allowance
+        aliasType: en_alias
+  - slug: hu-jun-chi-gu
+    headword: 户均持股
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 平均每户持股数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 平均每户持股数。
+        example: 户均持股上升或筹码集中。
+        isPrimary: true
+    aliases:
+      - raw: 户均持股
+        aliasType: primary
+      - raw: Average Holding
+        aliasType: en_alias
+  - slug: rong-zi-yu-e-bian-dong
+    headword: 融资余额变动
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 融资余额增减。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 融资余额增减。
+        example: 融资增加风险偏好回升。
+        isPrimary: true
+    aliases:
+      - raw: 融资余额变动
+        aliasType: primary
+      - raw: Margin Change
+        aliasType: en_alias
+  - slug: bei-xiang-cheng-jiao
+    headword: 北向成交
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 外资成交规模。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 外资成交规模。
+        example: 北向成交占比提升。
+        isPrimary: true
+    aliases:
+      - raw: 北向成交
+        aliasType: primary
+      - raw: Northbound Turnover
+        aliasType: en_alias
+  - slug: liang-shi-cheng-jiao-liang
+    headword: 两市成交量
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 沪深总成交量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 沪深总成交量。
+        example: 成交量反映活跃度。
+        isPrimary: true
+    aliases:
+      - raw: 两市成交量
+        aliasType: primary
+      - raw: Market Volume
+        aliasType: en_alias
+  - slug: shang-zhang-jia-shu
+    headword: 上涨家数
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上涨股票数量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上涨股票数量。
+        example: 上涨家数反映市场广度。
+        isPrimary: true
+    aliases:
+      - raw: 上涨家数
+        aliasType: primary
+      - raw: Advancers
+        aliasType: en_alias
+  - slug: xia-die-jia-shu
+    headword: 下跌家数
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 下跌股票数量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 下跌股票数量。
+        example: 下跌家数反映普跌程度。
+        isPrimary: true
+    aliases:
+      - raw: 下跌家数
+        aliasType: primary
+      - raw: Decliners
+        aliasType: en_alias
+  - slug: ying-kui-bi
+    headword: 盈亏比
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 平均盈利与亏损之比。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 平均盈利与亏损之比。
+        example: 盈亏比高可低胜率。
+        isPrimary: true
+    aliases:
+      - raw: 盈亏比
+        aliasType: primary
+      - raw: Profit-loss Ratio
+        aliasType: en_alias
+  - slug: feng-xian-shou-yi-bi
+    headword: 风险收益比
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 风险与收益的比值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 风险与收益的比值。
+        example: 风险收益比大于1:3为佳。
+        isPrimary: true
+    aliases:
+      - raw: 风险收益比
+        aliasType: primary
+      - raw: Risk-reward Ratio
+        aliasType: en_alias
+  - slug: ya-li-ce-shi
+    headword: 压力测试
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 极端情景风险测试。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 极端情景风险测试。
+        example: 压力测试检验稳健性。
+        isPrimary: true
+    aliases:
+      - raw: 压力测试
+        aliasType: primary
+      - raw: Stress Test
+        aliasType: en_alias
+  - slug: feng-xian-chang-kou
+    headword: 风险敞口
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 暴露于风险的头寸。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 暴露于风险的头寸。
+        example: 敞口管理控制损失。
+        isPrimary: true
+    aliases:
+      - raw: 风险敞口
+        aliasType: primary
+      - raw: Risk Exposure
+        aliasType: en_alias
+  - slug: shi-chang-shen-du
+    headword: 市场深度
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 市场承接大单能力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场承接大单能力。
+        example: 深度好冲击成本低。
+        isPrimary: true
+    aliases:
+      - raw: 市场深度
+        aliasType: primary
+      - raw: Market Depth
+        aliasType: en_alias
+  - slug: shi-chang-guang-du
+    headword: 市场广度
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 市场参与广泛度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场参与广泛度。
+        example: 广度好行情健康。
+        isPrimary: true
+    aliases:
+      - raw: 市场广度
+        aliasType: primary
+      - raw: Market Breadth
+        aliasType: en_alias
+  - slug: shi-chang-xiao-l
+    headword: 市场效率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 价格反映信息效率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 价格反映信息效率。
+        example: 效率高套利空间小。
+        isPrimary: true
+    aliases:
+      - raw: 市场效率
+        aliasType: primary
+      - raw: Market Efficiency
+        aliasType: en_alias
+  - slug: xin-zeng-kai-hu
+    headword: 新增开户
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新开账户数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 新开账户数。
+        example: 开户数反映情绪。
+        isPrimary: true
+    aliases:
+      - raw: 新增开户
+        aliasType: primary
+      - raw: New Accounts
+        aliasType: en_alias
+  - slug: shi-chang-qing-xu-zhi-biao
+    headword: 市场情绪指标
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 衡量情绪的指标群。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 衡量情绪的指标群。
+        example: 情绪指标辅助择时。
+        isPrimary: true
+    aliases:
+      - raw: 市场情绪指标
+        aliasType: primary
+      - raw: Sentiment Indicators
+        aliasType: en_alias
+  - slug: rong-zi-mai-ru-zhan-bi
+    headword: 融资买入占比
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 融资买入占总成交比。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 融资买入占总成交比。
+        example: 占比高杠杆活跃。
+        isPrimary: true
+    aliases:
+      - raw: 融资买入占比
+        aliasType: primary
+      - raw: Margin Buy Ratio
+        aliasType: en_alias
+  - slug: huan-shou-l-shui-ping
+    headword: 换手率水平
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 市场整体换手率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场整体换手率。
+        example: 换手率高交投活跃。
+        isPrimary: true
+    aliases:
+      - raw: 换手率水平
+        aliasType: primary
+      - raw: Turnover Level
+        aliasType: en_alias
+  - slug: gu-zhai-xing-jia-bi
+    headword: 股债性价比
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股票与债券的相对价值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 股票与债券的相对价值。
+        example: 股债性价比指导配置。
+        isPrimary: true
+    aliases:
+      - raw: 股债性价比
+        aliasType: primary
+      - raw: Equity-bond Attractiveness
+        aliasType: en_alias
+  - slug: feng-xian-yi-jia-shui-ping
+    headword: 风险溢价水平
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股权风险溢价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股权风险溢价。
+        example: 溢价高股票有吸引力。
+        isPrimary: true
+    aliases:
+      - raw: 风险溢价水平
+        aliasType: primary
+      - raw: Risk Premium Level
+        aliasType: en_alias
+  - slug: po-jing-l
+    headword: 破净率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 破净股票占比。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 破净股票占比。
+        example: 破净率高或近底部。
+        isPrimary: true
+    aliases:
+      - raw: 破净率
+        aliasType: primary
+      - raw: Below-book Ratio
+        aliasType: en_alias
+  - slug: po-fa-l
+    headword: 破发率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新股破发占比。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 新股破发占比。
+        example: 破发率高打新降温。
+        isPrimary: true
+    aliases:
+      - raw: 破发率
+        aliasType: primary
+      - raw: Below-offer Ratio
+        aliasType: en_alias
+  - slug: mu-zi-gui-mo
+    headword: 募资规模
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 市场融资总额。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场融资总额。
+        example: 募资规模反映融资功能。
+        isPrimary: true
+    aliases:
+      - raw: 募资规模
+        aliasType: primary
+      - raw: Fundraising Scale
+        aliasType: en_alias
+  - slug: ku-cun-shui-ping
+    headword: 库存水平
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业库存状态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业库存状态。
+        example: 库存周期影响盈利。
+        isPrimary: true
+    aliases:
+      - raw: 库存水平
+        aliasType: primary
+      - raw: Inventory Level
+        aliasType: en_alias
+  - slug: jia-ge-shui-ping
+    headword: 价格水平
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 产品价格水平。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 产品价格水平。
+        example: 价格影响毛利率。
+        isPrimary: true
+    aliases:
+      - raw: 价格水平
+        aliasType: primary
+      - raw: Price Level
+        aliasType: en_alias
+  - slug: gong-ying-shang-jie-gou
+    headword: 供应商结构
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 供应商构成。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 供应商构成。
+        example: 供应商分散保供应。
+        isPrimary: true
+    aliases:
+      - raw: 供应商结构
+        aliasType: primary
+      - raw: Supplier Mix
+        aliasType: en_alias
+  - slug: qu-yu-jie-gou
+    headword: 区域结构
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 业务区域分布。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 业务区域分布。
+        example: 区域多元化分散风险。
+        isPrimary: true
+    aliases:
+      - raw: 区域结构
+        aliasType: primary
+      - raw: Geographic Mix
+        aliasType: en_alias
+  - slug: fei-yong-jie-gou
+    headword: 费用结构
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 费用构成比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 费用构成比例。
+        example: 费用结构反映投入。
+        isPrimary: true
+    aliases:
+      - raw: 费用结构
+        aliasType: primary
+      - raw: Expense Structure
+        aliasType: en_alias
+  - slug: zhi-li-jie-gou
+    headword: 治理结构
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公司治理架构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公司治理架构。
+        example: 治理结构决定效率。
+        isPrimary: true
+    aliases:
+      - raw: 治理结构
+        aliasType: primary
+      - raw: Governance Structure
+        aliasType: en_alias
+  - slug: zu-zhi-xiao-l
+    headword: 组织效率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 组织运行效率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 组织运行效率。
+        example: 效率高成本低。
+        isPrimary: true
+    aliases:
+      - raw: 组织效率
+        aliasType: primary
+      - raw: Organizational Efficiency
+        aliasType: en_alias
+  - slug: ren-jun-chan-chu
+    headword: 人均产出
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 人均创造价值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 人均创造价值。
+        example: 人均产出反映效率。
+        isPrimary: true
+    aliases:
+      - raw: 人均产出
+        aliasType: primary
+      - raw: Output per Capita
+        aliasType: en_alias
+  - slug: dian-xiao
+    headword: 店效
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 单店产出效率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 单店产出效率。
+        example: 店效是零售核心。
+        isPrimary: true
+    aliases:
+      - raw: 店效
+        aliasType: primary
+      - raw: Store Efficiency
+        aliasType: en_alias
+  - slug: dan-ke-jia-zhi
+    headword: 单客价值
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 单客户贡献价值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 单客户贡献价值。
+        example: 单客价值提升增长质量。
+        isPrimary: true
+    aliases:
+      - raw: 单客价值
+        aliasType: primary
+      - raw: Per-customer Value
+        aliasType: en_alias
+  - slug: yong-hu-nian-xing
+    headword: 用户粘性
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 用户留存使用程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 用户留存使用程度。
+        example: 粘性强增长稳。
+        isPrimary: true
+    aliases:
+      - raw: 用户粘性
+        aliasType: primary
+      - raw: User Stickiness
+        aliasType: en_alias
+  - slug: yue-huo
+    headword: 月活
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 月度活跃用户。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 月度活跃用户。
+        example: MAU是互联网核心。
+        isPrimary: true
+    aliases:
+      - raw: 月活
+        aliasType: primary
+      - raw: MAU
+        aliasType: en_alias
+  - slug: ri-huo
+    headword: 日活
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 日活跃用户。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 日活跃用户。
+        example: DAU反映产品热度。
+        isPrimary: true
+    aliases:
+      - raw: 日活
+        aliasType: primary
+      - raw: DAU
+        aliasType: en_alias
+  - slug: fu-fei-l
+    headword: 付费率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 付费用户占比。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 付费用户占比。
+        example: 付费率提升变现。
+        isPrimary: true
+    aliases:
+      - raw: 付费率
+        aliasType: primary
+      - raw: Pay Rate
+        aliasType: en_alias
+  - slug: shen-tou-l
+    headword: 渗透率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 产品普及程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 产品普及程度。
+        example: 渗透率提升空间大。
+        isPrimary: true
+    aliases:
+      - raw: 渗透率
+        aliasType: primary
+      - raw: Penetration Rate
+        aliasType: en_alias
+  - slug: shi-zhan-l
+    headword: 市占率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 市场份额占比。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 市场份额占比。
+        example: 市占率提升竞争力。
+        isPrimary: true
+    aliases:
+      - raw: 市占率
+        aliasType: primary
+      - raw: Market Share
+        aliasType: en_alias
+  - slug: pei-fu-l
+    headword: 赔付率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 赔款占保费比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 赔款占保费比例。
+        example: 赔付率上升侵蚀利润。
+        isPrimary: true
+    aliases:
+      - raw: 赔付率
+        aliasType: primary
+      - raw: Loss Ratio
+        aliasType: en_alias
+  - slug: xin-ye-wu-jia-zhi
+    headword: 新业务价值
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 寿险新单的现值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 寿险新单的现值。
+        example: NBV增长是寿险核心。
+        isPrimary: true
+    aliases:
+      - raw: 新业务价值
+        aliasType: primary
+      - raw: NBV
+        aliasType: en_alias
+  - slug: nei-han-jia-zhi
+    headword: 内含价值
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 寿险公司长期价值评估。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 寿险公司长期价值评估。
+        example: 内含价值是估值基础。
+        isPrimary: true
+    aliases:
+      - raw: 内含价值
+        aliasType: primary
+      - raw: EV
+        aliasType: en_alias
+  - slug: xu-qi-bao-fei
+    headword: 续期保费
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 续保缴纳的保费。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 续保缴纳的保费。
+        example: 续期率反映保单质量。
+        isPrimary: true
+    aliases:
+      - raw: 续期保费
+        aliasType: primary
+      - raw: Renewal Premium
+        aliasType: en_alias
+  - slug: xin-dan-bao-fei
+    headword: 新单保费
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 新签保单保费。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 新签保单保费。
+        example: 新单增速反映增长。
+        isPrimary: true
+    aliases:
+      - raw: 新单保费
+        aliasType: primary
+      - raw: New Business Premium
+        aliasType: en_alias
+  - slug: tui-bao-l
+    headword: 退保率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 保单退保比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 保单退保比例。
+        example: 退保率上升不利价值。
+        isPrimary: true
+    aliases:
+      - raw: 退保率
+        aliasType: primary
+      - raw: Surrender Rate
+        aliasType: en_alias
+  - slug: wu-jin-zhan-sheng-cun-qi
+    headword: 无进展生存期
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 肿瘤治疗无进展生存。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 肿瘤治疗无进展生存。
+        example: PFS延长验证疗效。
+        isPrimary: true
+    aliases:
+      - raw: 无进展生存期
+        aliasType: primary
+      - raw: PFS
+        aliasType: en_alias
+  - slug: zong-sheng-cun-qi
+    headword: 总生存期
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 患者总生存时间。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 患者总生存时间。
+        example: OS是生存金标准。
+        isPrimary: true
+    aliases:
+      - raw: 总生存期
+        aliasType: primary
+      - raw: OS
+        aliasType: en_alias
+  - slug: ke-guan-huan-jie-l
+    headword: 客观缓解率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 肿瘤客观缓解比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 肿瘤客观缓解比例。
+        example: ORR反映近期疗效。
+        isPrimary: true
+    aliases:
+      - raw: 客观缓解率
+        aliasType: primary
+      - raw: ORR
+        aliasType: en_alias
+  - slug: wan-quan-huan-jie
+    headword: 完全缓解
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 肿瘤完全消失。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 肿瘤完全消失。
+        example: CR是理想疗效。
+        isPrimary: true
+    aliases:
+      - raw: 完全缓解
+        aliasType: primary
+      - raw: CR
+        aliasType: en_alias
+  - slug: bu-fen-huan-jie
+    headword: 部分缓解
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 肿瘤部分缩小。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 肿瘤部分缩小。
+        example: PR反映治疗有效。
+        isPrimary: true
+    aliases:
+      - raw: 部分缓解
+        aliasType: primary
+      - raw: PR
+        aliasType: en_alias
+  - slug: ji-bing-kong-zhi-l
+    headword: 疾病控制率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 疾病控制比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 疾病控制比例。
+        example: DCR含稳定病例。
+        isPrimary: true
+    aliases:
+      - raw: 疾病控制率
+        aliasType: primary
+      - raw: DCR
+        aliasType: en_alias
+  - slug: zhong-wei-sheng-cun-qi
+    headword: 中位生存期
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 生存时间中位数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 生存时间中位数。
+        example: 中位生存延长有意义。
+        isPrimary: true
+    aliases:
+      - raw: 中位生存期
+        aliasType: primary
+      - raw: Median Survival
+        aliasType: en_alias
+  - slug: wu-nian-sheng-cun-l
+    headword: 五年生存率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 五年存活比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 五年存活比例。
+        example: 五年生存率衡量预后。
+        isPrimary: true
+    aliases:
+      - raw: 五年生存率
+        aliasType: primary
+      - raw: 5-year Survival
+        aliasType: en_alias
+  - slug: shou-quan-fei
+    headword: 授权费
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 授权使用费用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 授权使用费用。
+        example: 授权费是稳定收入。
+        isPrimary: true
+    aliases:
+      - raw: 授权费
+        aliasType: primary
+      - raw: Licensing Fee
+        aliasType: en_alias
+  - slug: biao-zhun-cha
+    headword: 标准差
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 数据离散程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 数据离散程度。
+        example: 标准差度量波动。
+        isPrimary: true
+    aliases:
+      - raw: 标准差
+        aliasType: primary
+      - raw: Standard Deviation
+        aliasType: en_alias
+  - slug: xiang-guan-xi-shu
+    headword: 相关系数
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 变量关联强度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 变量关联强度。
+        example: 相关系数取值-1到1。
+        isPrimary: true
+    aliases:
+      - raw: 相关系数
+        aliasType: primary
+      - raw: Correlation Coefficient
+        aliasType: en_alias
+  - slug: zhan-sen-a-er-fa
+    headword: 詹森阿尔法
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 回归截距超额收益。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 回归截距超额收益。
+        example: 詹森阿尔法衡量选股。
+        isPrimary: true
+    aliases:
+      - raw: 詹森阿尔法
+        aliasType: primary
+      - raw: Jensen's Alpha
+        aliasType: en_alias
+  - slug: te-lei-nuo-bi-l
+    headword: 特雷诺比率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 贝塔调整收益。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 贝塔调整收益。
+        example: 特雷诺衡量系统性回报。
+        isPrimary: true
+    aliases:
+      - raw: 特雷诺比率
+        aliasType: primary
+      - raw: Treynor Ratio
+        aliasType: en_alias
+  - slug: qi-wang-shou-yi
+    headword: 期望收益
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 收益的期望值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 收益的期望值。
+        example: 期望收益指导决策。
+        isPrimary: true
+    aliases:
+      - raw: 期望收益
+        aliasType: primary
+      - raw: Expected Return
+        aliasType: en_alias
+  - slug: ya-li-qing-jing
+    headword: 压力情景
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 极端情景测试。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 极端情景测试。
+        example: 压力情景评估抗风险。
+        isPrimary: true
+    aliases:
+      - raw: 压力情景
+        aliasType: primary
+      - raw: Stress Scenario
+        aliasType: en_alias
+  - slug: hui-tiao-shen-du
+    headword: 回调深度
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 回调幅度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 回调幅度。
+        example: 深度影响结构。
+        isPrimary: true
+    aliases:
+      - raw: 回调深度
+        aliasType: primary
+      - raw: Correction Depth
+        aliasType: en_alias
+  - slug: fan-tan-li-du
+    headword: 反弹力度
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 反弹幅度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 反弹幅度。
+        example: 力度决定趋势。
+        isPrimary: true
+    aliases:
+      - raw: 反弹力度
+        aliasType: primary
+      - raw: Rebound Strength
+        aliasType: en_alias
+  - slug: ke-hu-sheng-ming-zhou-qi-jia-zhi
+    headword: 客户生命周期价值
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 客户终身价值。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 客户终身价值。
+        example: LTV大于CAC可持续。
+        isPrimary: true
+    aliases:
+      - raw: 客户生命周期价值
+        aliasType: primary
+      - raw: LTV
+        aliasType: en_alias
+  - slug: kui-sun-l
+    headword: 亏损率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 亏损占比。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 亏损占比。
+        example: 亏损率收窄改善。
+        isPrimary: true
+    aliases:
+      - raw: 亏损率
+        aliasType: primary
+      - raw: Loss Rate
+        aliasType: en_alias
+  - slug: yan-fa-zi-ben-hua-l
+    headword: 研发资本化率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 研发资本化比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 研发资本化比例。
+        example: 资本化过高需审视。
+        isPrimary: true
+    aliases:
+      - raw: 研发资本化率
+        aliasType: primary
+      - raw: R&D Capitalization Rate
+        aliasType: en_alias
+  - slug: ying-li-neng-li
+    headword: 盈利能力
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 盈利创造能力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 盈利创造能力。
+        example: 盈利能力是核心。
+        isPrimary: true
+    aliases:
+      - raw: 盈利能力
+        aliasType: primary
+      - raw: Profitability
+        aliasType: en_alias
+  - slug: cheng-zhang-neng-li
+    headword: 成长能力
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 规模扩张能力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 规模扩张能力。
+        example: 成长能力看增速。
+        isPrimary: true
+    aliases:
+      - raw: 成长能力
+        aliasType: primary
+      - raw: Growth Ability
+        aliasType: en_alias
+  - slug: cai-wu-jian-kang
+    headword: 财务健康
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 财务稳健程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 财务稳健程度。
+        example: 健康度综合评价。
+        isPrimary: true
+    aliases:
+      - raw: 财务健康
+        aliasType: primary
+      - raw: Financial Health
+        aliasType: en_alias
+  - slug: fa-hang-gui-mo
+    headword: 发行规模
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 发行募资规模。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 发行募资规模。
+        example: 规模影响市场承接。
+        isPrimary: true
+    aliases:
+      - raw: 发行规模
+        aliasType: primary
+      - raw: Issue Size
+        aliasType: en_alias
+  - slug: xiao-liang-gen-zong
+    headword: 销量跟踪
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 销售数据跟踪。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 销售数据跟踪。
+        example: 销量跟踪看趋势。
+        isPrimary: true
+    aliases:
+      - raw: 销量跟踪
+        aliasType: primary
+      - raw: Sales Tracking
+        aliasType: en_alias
+  - slug: jia-ge-gen-zong
+    headword: 价格跟踪
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 价格数据跟踪。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 价格数据跟踪。
+        example: 价格跟踪看景气。
+        isPrimary: true
+    aliases:
+      - raw: 价格跟踪
+        aliasType: primary
+      - raw: Price Tracking
+        aliasType: en_alias
+  - slug: ku-cun-gen-zong
+    headword: 库存跟踪
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 库存数据跟踪。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 库存数据跟踪。
+        example: 库存跟踪看周期。
+        isPrimary: true
+    aliases:
+      - raw: 库存跟踪
+        aliasType: primary
+      - raw: Inventory Tracking
+        aliasType: en_alias
+  - slug: pai-chan-gen-zong
+    headword: 排产跟踪
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 生产计划跟踪。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 生产计划跟踪。
+        example: 排产跟踪看供给。
+        isPrimary: true
+    aliases:
+      - raw: 排产跟踪
+        aliasType: primary
+      - raw: Production Tracking
+        aliasType: en_alias
+  - slug: ding-dan-gen-zong
+    headword: 订单跟踪
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 订单数据跟踪。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 订单数据跟踪。
+        example: 订单跟踪看需求。
+        isPrimary: true
+    aliases:
+      - raw: 订单跟踪
+        aliasType: primary
+      - raw: Order Tracking
+        aliasType: en_alias
+  - slug: zhao-biao-gen-zong
+    headword: 招标跟踪
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 招投标跟踪。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 招投标跟踪。
+        example: 招标跟踪看订单。
+        isPrimary: true
+    aliases:
+      - raw: 招标跟踪
+        aliasType: primary
+      - raw: Bidding Tracking
+        aliasType: en_alias
+  - slug: yi-chang-shou-yi
+    headword: 异常收益
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 事件带来的超额收益。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 事件带来的超额收益。
+        example: 异常收益测影响。
+        isPrimary: true
+    aliases:
+      - raw: 异常收益
+        aliasType: primary
+      - raw: Abnormal Return
+        aliasType: en_alias
+  - slug: lei-ji-yi-chang-shou-yi
+    headword: 累计异常收益
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 累计超额收益。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 累计超额收益。
+        example: CAR衡量事件效应。
+        isPrimary: true
+    aliases:
+      - raw: 累计异常收益
+        aliasType: primary
+      - raw: CAR
+        aliasType: en_alias
+  - slug: shu-ju-jie-kou
+    headword: 数据接口
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 数据对接通道。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 数据对接通道。
+        example: 接口促流通。
+        isPrimary: true
+    aliases:
+      - raw: 数据接口
+        aliasType: primary
+      - raw: Data Interface
+        aliasType: en_alias
+  - slug: he-zuo-xing-jin-rong
+    headword: 合作性金融
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 合作金融形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 合作金融形态。
+        example: 合作金融服务基层。
+        isPrimary: true
+    aliases:
+      - raw: 合作性金融
+        aliasType: primary
+      - raw: Cooperative Finance
+        aliasType: en_alias
+  - slug: liu-shi-l
+    headword: 流失率
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 用户流失比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 用户流失比例。
+        example: 流失率看健康。
+        isPrimary: true
+    aliases:
+      - raw: 流失率
+        aliasType: primary
+      - raw: Churn Rate
+        aliasType: en_alias
+  - slug: lun-ju-zhi-cheng
+    headword: 论据支撑
+    categoryL1: 技术指标
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 论据支持结论。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 论据支持结论。
+        example: 支撑促可信。
+        isPrimary: true
+    aliases:
+      - raw: 论据支撑
+        aliasType: primary
+      - raw: Evidence Support
+        aliasType: en_alias

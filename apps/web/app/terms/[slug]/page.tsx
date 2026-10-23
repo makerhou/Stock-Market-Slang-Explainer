@@ -8,7 +8,12 @@ import { DisclaimerBanner } from "@/components/DisclaimerBanner";
 import { VizPlayer } from "@/components/viz/VizPlayer";
 import { InsightCard } from "@/components/InsightCard";
 
-export const dynamic = "force-static";
+// 万级词条可扩展：仅预热热度最高的 Top-N 为静态页，其余按需渲染 + ISR 缓存，
+// 避免 9000 条全量 SSG 导致每次构建渲染 9000 页。
+export const dynamicParams = true;
+export const revalidate = 86400; // 1 天
+
+const PRERENDER_TOP_N = 500;
 
 const DIFF_LABEL: Record<string, string> = {
   L1: "入门",
@@ -23,7 +28,11 @@ const DIFF_STYLE: Record<string, string> = {
 };
 
 export function generateStaticParams() {
-  return getLexiconManifest().entries.map((e) => ({ slug: e.slug }));
+  return getLexiconManifest()
+    .entries.slice()
+    .sort((a, b) => b.popularity - a.popularity || a.slug.localeCompare(b.slug))
+    .slice(0, PRERENDER_TOP_N)
+    .map((e) => ({ slug: e.slug }));
 }
 
 export async function generateMetadata({

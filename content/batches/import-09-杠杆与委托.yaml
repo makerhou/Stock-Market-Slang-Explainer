@@ -1,0 +1,119 @@
+category: 通用
+source: import wave 9 from 金融黑话词典_全量5000+.tsv (2026-10-22) — 杠杆与委托基础，长尾层；示例已改写成无黑话/无建议词
+terms:
+  - slug: gang-gan-zi-jin
+    headword: 杠杆资金
+    categoryL1: 交易风险
+    categoryL2: 交易机制
+    difficulty: L2
+    summaryPlain: 用借来的钱放大本金、同时放大收益与亏损的操作方式。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 用借来的钱放大本金、同时放大收益与亏损的操作方式。
+        example: 杠杆资金集中的板块，行情反转时波动会被放大。
+        isPrimary: true
+    aliases:
+      - raw: 杠杆资金
+        aliasType: primary
+      - raw: 杠杆盘
+        aliasType: cn_alias
+  - slug: jing-ying-gang-gan
+    headword: 经营杠杆
+    categoryL1: 估值财务
+    categoryL2: 杠杆水平
+    difficulty: L2
+    summaryPlain: 固定成本占比较高时，收入变动被放大为利润更大变动的效应。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 固定成本占比较高时，收入变动被放大为利润更大变动的效应。
+        example: 经营杠杆高的公司，收入上行时利润弹性更大。
+        isPrimary: true
+    aliases:
+      - raw: 经营杠杆
+        aliasType: primary
+      - raw: Operating Leverage
+        aliasType: en_alias
+      - raw: 营业杠杆
+        aliasType: cn_alias
+  - slug: cai-wu-gang-gan
+    headword: 财务杠杆
+    categoryL1: 估值财务
+    categoryL2: 杠杆水平
+    difficulty: L2
+    summaryPlain: 通过债务融资放大股东收益与风险的程度，常用权益乘数衡量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 通过债务融资放大股东收益与风险的程度，常用权益乘数衡量。
+        example: 财务杠杆过高时，利润容易被利息支出侵蚀。
+        isPrimary: true
+    aliases:
+      - raw: 财务杠杆
+        aliasType: primary
+      - raw: Financial Leverage
+        aliasType: en_alias
+  - slug: zong-gang-gan
+    headword: 总杠杆
+    categoryL1: 估值财务
+    categoryL2: 杠杆水平
+    difficulty: L3
+    summaryPlain: 经营杠杆与财务杠杆的乘积，反映两者共同放大利润波动的程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 经营杠杆与财务杠杆的乘积，反映两者共同放大利润波动的程度。
+        example: 总杠杆高的公司，利润对收入波动非常敏感。
+        isPrimary: true
+    aliases:
+      - raw: 总杠杆
+        aliasType: primary
+      - raw: Total Leverage
+        aliasType: en_alias
+      - raw: 综合杠杆
+        aliasType: cn_alias
+  - slug: xian-jia-wei-tuo
+    headword: 限价委托
+    categoryL1: 交易制度
+    categoryL2: 交易机制
+    difficulty: L2
+    summaryPlain: 投资者指定价格挂单，只有优于或等于该价格时才成交的委托方式。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资者指定价格挂单，只有优于或等于该价格时才成交的委托方式。
+        example: 限价委托能把成交价控制在预期之内，但也可能不成交。
+        isPrimary: true
+    aliases:
+      - raw: 限价委托
+        aliasType: primary
+      - raw: Limit Order
+        aliasType: en_alias
+      - raw: 限价单
+        aliasType: cn_alias
+  - slug: shi-jia-wei-tuo
+    headword: 市价委托
+    categoryL1: 交易制度
+    categoryL2: 交易机制
+    difficulty: L1
+    summaryPlain: 按当前市场最优价立即成交、不指定具体价格的委托方式。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 按当前市场最优价立即成交、不指定具体价格的委托方式。
+        example: 市价委托成交快，但成本可能是当时的最差价。
+        isPrimary: true
+    aliases:
+      - raw: 市价委托
+        aliasType: primary
+      - raw: Market Order
+        aliasType: en_alias
+      - raw: 市价单
+        aliasType: cn_alias

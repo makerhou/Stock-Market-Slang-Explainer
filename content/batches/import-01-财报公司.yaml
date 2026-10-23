@@ -1,0 +1,293 @@
+category: 财报公司
+source: import wave 1 from 09_财务估值.tsv (2026-10-22) — 利润表基础科目，长尾层（无 viz/insights）
+terms:
+  - slug: ying-ye-shou-ru
+    headword: 营业收入
+    categoryL1: 财报公司
+    categoryL2: 收入与利润
+    difficulty: L1
+    summaryPlain: 企业在日常经营中销售商品或提供服务取得的总收入，是利润表的第一行。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 企业在日常经营中销售商品或提供服务取得的总收入，是利润表的第一行。
+        example: 营业收入同比增长两成，公司成长属性延续。
+        isPrimary: true
+    aliases:
+      - raw: 营业收入
+        aliasType: primary
+      - raw: Revenue
+        aliasType: en_alias
+      - raw: 营业总收入
+        aliasType: cn_alias
+  - slug: ying-ye-cheng-ben
+    headword: 营业成本
+    categoryL1: 财报公司
+    categoryL2: 收入与利润
+    difficulty: L1
+    summaryPlain: 企业为生产和销售商品或提供服务直接发生的成本，与营业收入配比。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 企业为生产和销售商品或提供服务直接发生的成本，与营业收入配比。
+        example: 营业成本增速快于收入，毛利率被动承压。
+        isPrimary: true
+    aliases:
+      - raw: 营业成本
+        aliasType: primary
+      - raw: Cost of Revenue
+        aliasType: en_alias
+  - slug: mao-li-run
+    headword: 毛利润
+    categoryL1: 财报公司
+    categoryL2: 收入与利润
+    difficulty: L1
+    summaryPlain: 营业收入减去营业成本后的余额，反映产品本身的盈利水平。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 营业收入减去营业成本后的余额，反映产品本身的盈利水平。
+        example: 毛利润扩张主要靠产品结构升级带动。
+        isPrimary: true
+    aliases:
+      - raw: 毛利润
+        aliasType: primary
+      - raw: Gross Profit
+        aliasType: en_alias
+  - slug: xiao-shou-fei-yong
+    headword: 销售费用
+    categoryL1: 财报公司
+    categoryL2: 收入与利润
+    difficulty: L2
+    summaryPlain: 企业为销售商品发生的广告、运输、销售人员薪酬等费用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业为销售商品发生的广告、运输、销售人员薪酬等费用。
+        example: 销售费用大幅增加，公司在加大渠道投放。
+        isPrimary: true
+    aliases:
+      - raw: 销售费用
+        aliasType: primary
+      - raw: Selling Expenses
+        aliasType: en_alias
+  - slug: guan-li-fei-yong
+    headword: 管理费用
+    categoryL1: 财报公司
+    categoryL2: 收入与利润
+    difficulty: L2
+    summaryPlain: 企业为组织和管理生产经营发生的行政、办公、管理人员薪酬等费用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业为组织和管理生产经营发生的行政、办公、管理人员薪酬等费用。
+        example: 管理费用率下降，说明公司费用管控见效。
+        isPrimary: true
+    aliases:
+      - raw: 管理费用
+        aliasType: primary
+      - raw: Administrative Expenses
+        aliasType: en_alias
+  - slug: yan-fa-fei-yong
+    headword: 研发费用
+    categoryL1: 财报公司
+    categoryL2: 收入与利润
+    difficulty: L2
+    summaryPlain: 企业为研究开发新技术、新产品发生的费用，符合条件的可资本化。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 企业为研究开发新技术、新产品发生的费用，符合条件的可资本化。
+        example: 研发费用持续高投入，构筑公司技术壁垒。
+        isPrimary: true
+    aliases:
+      - raw: 研发费用
+        aliasType: primary
+      - raw: R&D Expenses
+        aliasType: en_alias
+  - slug: cai-wu-fei-yong
+    headword: 财务费用
+    categoryL1: 财报公司
+    categoryL2: 收入与利润
+    difficulty: L2
+    summaryPlain: 企业筹资过程中发生的利息收支、汇兑损益及手续费等的净额。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业筹资过程中发生的利息收支、汇兑损益及手续费等的净额。
+        example: 财务费用为负，说明利息收入大于利息支出。
+        isPrimary: true
+    aliases:
+      - raw: 财务费用
+        aliasType: primary
+      - raw: Financial Expenses
+        aliasType: en_alias
+  - slug: shui-jin-ji-fu-jia
+    headword: 税金及附加
+    categoryL1: 财报公司
+    categoryL2: 收入与利润
+    difficulty: L2
+    summaryPlain: 企业经营活动应负担的消费税、城建税等相关税费，不计入所得税。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业经营活动应负担的消费税、城建税等相关税费，不计入所得税。
+        example: 税金及附加随收入同步增长，属正常经营波动。
+        isPrimary: true
+    aliases:
+      - raw: 税金及附加
+        aliasType: primary
+      - raw: Taxes and Surcharges
+        aliasType: en_alias
+  - slug: ying-ye-li-run
+    headword: 营业利润
+    categoryL1: 财报公司
+    categoryL2: 收入与利润
+    difficulty: L1
+    summaryPlain: 营业收入减去营业成本、期间费用和税金后的经营成果，反映主业盈利。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 营业收入减去营业成本、期间费用和税金后的经营成果，反映主业盈利。
+        example: 营业利润增速快于收入，经营杠杆开始释放。
+        isPrimary: true
+    aliases:
+      - raw: 营业利润
+        aliasType: primary
+      - raw: Operating Profit
+        aliasType: en_alias
+  - slug: li-run-zong-e
+    headword: 利润总额
+    categoryL1: 财报公司
+    categoryL2: 收入与利润
+    difficulty: L2
+    summaryPlain: 营业利润加上营业外收支后的税前利润，是计算所得税的基础。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 营业利润加上营业外收支后的税前利润，是计算所得税的基础。
+        example: 利润总额被一笔营业外损失拖累而下滑。
+        isPrimary: true
+    aliases:
+      - raw: 利润总额
+        aliasType: primary
+      - raw: Total Profit
+        aliasType: en_alias
+  - slug: jing-li-run
+    headword: 净利润
+    categoryL1: 财报公司
+    categoryL2: 收入与利润
+    difficulty: L1
+    summaryPlain: 利润总额扣除所得税费用后，归属全体股东的最终利润。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 利润总额扣除所得税费用后，归属全体股东的最终利润。
+        example: 净利润逆势增长，超市场一致预期。
+        isPrimary: true
+    aliases:
+      - raw: 净利润
+        aliasType: primary
+      - raw: Net Profit
+        aliasType: en_alias
+  - slug: jing-chang-xing-sun-yi
+    headword: 经常性损益
+    categoryL1: 财报公司
+    categoryL2: 收入与利润
+    difficulty: L2
+    summaryPlain: 企业日常经营中反复发生、可持续的损益部分，反映真实盈利能力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业日常经营中反复发生、可持续的损益部分，反映真实盈利能力。
+        example: 剔除非经常性项目后，经常性损益才是观察重点。
+        isPrimary: true
+    aliases:
+      - raw: 经常性损益
+        aliasType: primary
+      - raw: Recurring Profit/Loss
+        aliasType: en_alias
+  - slug: fei-jing-chang-xing-sun-yi
+    headword: 非经常性损益
+    categoryL1: 财报公司
+    categoryL2: 收入与利润
+    difficulty: L2
+    summaryPlain: 与日常经营无直接关系、一次性偶发的收支，如处置资产、政府补助。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 与日常经营无直接关系、一次性偶发的收支，如处置资产、政府补助。
+        example: 非经常性损益占比过高，说明利润质量存疑。
+        isPrimary: true
+    aliases:
+      - raw: 非经常性损益
+        aliasType: primary
+      - raw: Non-recurring Profit/Loss
+        aliasType: en_alias
+  - slug: qi-ta-shou-yi
+    headword: 其他收益
+    categoryL1: 财报公司
+    categoryL2: 收入与利润
+    difficulty: L2
+    summaryPlain: 与日常经营相关但不构成收入的政府补助等，单独列报于营业利润之上。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 与日常经营相关但不构成收入的政府补助等，单独列报于营业利润之上。
+        example: 其他收益主要来自增值税加计抵减。
+        isPrimary: true
+    aliases:
+      - raw: 其他收益
+        aliasType: primary
+      - raw: Other Income
+        aliasType: en_alias
+  - slug: tou-zi-shou-yi
+    headword: 投资收益
+    categoryL1: 财报公司
+    categoryL2: 收入与利润
+    difficulty: L2
+    summaryPlain: 企业对外投资取得的分红、处置收益及权益法核算的损益。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 企业对外投资取得的分红、处置收益及权益法核算的损益。
+        example: 投资收益占利润比重过大，盈利含金量需打折扣。
+        isPrimary: true
+    aliases:
+      - raw: 投资收益
+        aliasType: primary
+      - raw: Investment Income
+        aliasType: en_alias
+  - slug: gong-yun-jia-zhi-bian-dong-sun-yi
+    headword: 公允价值变动损益
+    categoryL1: 财报公司
+    categoryL2: 收入与利润
+    difficulty: L3
+    summaryPlain: 交易性金融资产等按公允价值计量产生的未实现浮动盈亏。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 交易性金融资产等按公允价值计量产生的未实现浮动盈亏。
+        example: 公允价值变动损益波动大，并不代表真实现金盈利。
+        isPrimary: true
+    aliases:
+      - raw: 公允价值变动损益
+        aliasType: primary
+      - raw: Fair Value Changes
+        aliasType: en_alias

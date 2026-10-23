@@ -1,0 +1,4850 @@
+source: gen from full.tsv --all 市场×类型×关键词路由 (待精修)
+terms:
+  - slug: z-i-r-p-n-i-r-p
+    headword: ZIRP/NIRP
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行将政策利率降至零附近或推入负值区间的极端宽松政策。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 央行将政策利率降至零附近或推入负值区间的极端宽松政策。
+        example: 在ZIRP/NIRP环境下，投资者被迫追逐更高风险的资产。
+        isPrimary: true
+    aliases:
+      - raw: ZIRP/NIRP
+        aliasType: primary
+      - raw: ZIRP
+        aliasType: en_alias
+      - raw: NIRP
+        aliasType: en_alias
+      - raw: 零利率政策
+        aliasType: cn_alias
+      - raw: 负利率政策
+        aliasType: cn_alias
+  - slug: yang-piao
+    headword: 央票
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行发行的短期债券，用于回收或调节银行体系多余流动性，是公开市场工具的补充。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行发行的短期债券，用于回收或调节银行体系多余流动性，是公开市场工具的补充。
+        example: 央票发行利率保持平稳，货币政策基调未变。
+        isPrimary: true
+    aliases:
+      - raw: 央票
+        aliasType: primary
+      - raw: 央行票据
+        aliasType: cn_alias
+  - slug: jian-chi-xin-gui
+    headword: 减持新规
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 证监会规范大股东与董监高减持行为的规定，限制减持节奏与规模。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 证监会规范大股东与董监高减持行为的规定，限制减持节奏与规模。
+        example: 减持新规下大股东减持难度加大。
+        isPrimary: true
+    aliases:
+      - raw: 减持新规
+        aliasType: primary
+      - raw: Reduction Rules
+        aliasType: en_alias
+  - slug: ji-he-jing-jia-gui-ze
+    headword: 集合竞价规则
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 9:15-9:20可撤单、9:20-9:25不可撤单、9:25产生开盘价，收盘集合竞价14:57-15:00。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 9:15-9:20可撤单、9:20-9:25不可撤单、9:25产生开盘价，收盘集合竞价14:57-15:00。
+        example: 9:20后集合竞价不可撤单，需谨慎报价。
+        isPrimary: true
+    aliases:
+      - raw: 集合竞价规则
+        aliasType: primary
+      - raw: Call Auction Rules
+        aliasType: en_alias
+  - slug: gong-kai-shi-chang-cao-zuo
+    headword: 公开市场操作
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行在公开市场买卖证券调节流动性的操作。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 央行在公开市场买卖证券调节流动性的操作。
+        example: 公开市场操作精准调节流动性。
+        isPrimary: true
+    aliases:
+      - raw: 公开市场操作
+        aliasType: primary
+      - raw: Open Market Operations
+        aliasType: en_alias
+  - slug: jie-gou-xing-huo-bi-zheng-ce-gong-ju
+    headword: 结构性货币政策工具
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行定向支持小微企业、绿色、科创等领域的货币政策工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行定向支持小微企业、绿色、科创等领域的货币政策工具。
+        example: 结构性工具精准滴灌重点领域。
+        isPrimary: true
+    aliases:
+      - raw: 结构性货币政策工具
+        aliasType: primary
+      - raw: Structural Monetary Tools
+        aliasType: en_alias
+  - slug: li-l-bing-gui
+    headword: 利率并轨
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 取消贷款基准利率、以LPR为锚的利率市场化改革。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 取消贷款基准利率、以LPR为锚的利率市场化改革。
+        example: 利率并轨后LPR成为贷款定价基准。
+        isPrimary: true
+    aliases:
+      - raw: 利率并轨
+        aliasType: primary
+      - raw: Interest Rate Unification
+        aliasType: en_alias
+  - slug: hong-guan-shen-shen
+    headword: 宏观审慎
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 防范系统性金融风险的监管框架，MPA考核是核心工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 防范系统性金融风险的监管框架，MPA考核是核心工具。
+        example: 宏观审慎框架下房地产与影子银行受约束。
+        isPrimary: true
+    aliases:
+      - raw: 宏观审慎
+        aliasType: primary
+      - raw: Macro-prudential
+        aliasType: en_alias
+  - slug: m-p-a-kao-he
+    headword: MPA考核
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行对金融机构的宏观审慎评估体系，影响银行信贷行为。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行对金融机构的宏观审慎评估体系，影响银行信贷行为。
+        example: MPA考核约束信贷投放节奏。
+        isPrimary: true
+    aliases:
+      - raw: MPA考核
+        aliasType: primary
+      - raw: Macro Prudential Assessment
+        aliasType: en_alias
+  - slug: qu-gang-gan
+    headword: 去杠杆
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 降低债务与杠杆水平的过程。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 降低债务与杠杆水平的过程。
+        example: 结构性去杠杆重点约束地方政府与国企。
+        isPrimary: true
+    aliases:
+      - raw: 去杠杆
+        aliasType: primary
+      - raw: Deleveraging
+        aliasType: en_alias
+  - slug: wen-zeng-zhang
+    headword: 稳增长
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以稳定经济增长为核心目标的政策取向。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 以稳定经济增长为核心目标的政策取向。
+        example: 稳增长政策加码，逆周期调节发力。
+        isPrimary: true
+    aliases:
+      - raw: 稳增长
+        aliasType: primary
+      - raw: Stable Growth
+        aliasType: en_alias
+  - slug: ni-zhou-qi-tiao-jie
+    headword: 逆周期调节
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 经济下行时扩张、过热时收紧的政策调节。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 经济下行时扩张、过热时收紧的政策调节。
+        example: 逆周期调节下财政货币政策双宽松。
+        isPrimary: true
+    aliases:
+      - raw: 逆周期调节
+        aliasType: primary
+      - raw: Counter-cyclical Adjustment
+        aliasType: en_alias
+  - slug: kua-zhou-qi-tiao-jie
+    headword: 跨周期调节
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 兼顾短期与中长期平衡的政策调节框架。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 兼顾短期与中长期平衡的政策调节框架。
+        example: 跨周期调节预留政策空间。
+        isPrimary: true
+    aliases:
+      - raw: 跨周期调节
+        aliasType: primary
+      - raw: Cross-cyclical Adjustment
+        aliasType: en_alias
+  - slug: cai-zheng-zheng-ce
+    headword: 财政政策
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 政府通过支出与税收调节经济的政策。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 政府通过支出与税收调节经济的政策。
+        example: 积极财政政策加力提效。
+        isPrimary: true
+    aliases:
+      - raw: 财政政策
+        aliasType: primary
+      - raw: Fiscal Policy
+        aliasType: en_alias
+  - slug: huo-bi-zheng-ce
+    headword: 货币政策
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行通过利率与流动性调节经济的政策。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 央行通过利率与流动性调节经济的政策。
+        example: 稳健货币政策精准有力。
+        isPrimary: true
+    aliases:
+      - raw: 货币政策
+        aliasType: primary
+      - raw: Monetary Policy
+        aliasType: en_alias
+  - slug: te-bie-guo-zhai
+    headword: 特别国债
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 为特定目的发行的国债，不计入一般赤字，如抗疫特别国债。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 为特定目的发行的国债，不计入一般赤字，如抗疫特别国债。
+        example: 超长期特别国债支持两重两新。
+        isPrimary: true
+    aliases:
+      - raw: 特别国债
+        aliasType: primary
+      - raw: Special Treasury Bonds
+        aliasType: en_alias
+  - slug: chao-chang-qi-te-bie-guo-zhai
+    headword: 超长期特别国债
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 期限20年以上的特别国债，用于国家重大战略。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 期限20年以上的特别国债，用于国家重大战略。
+        example: 超长期特别国债发行支持重大项目建设。
+        isPrimary: true
+    aliases:
+      - raw: 超长期特别国债
+        aliasType: primary
+      - raw: Ultra-long Special Bonds
+        aliasType: en_alias
+  - slug: jian-shui-jiang-fei
+    headword: 减税降费
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 政府降低企业与个人税费负担的政策。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 政府降低企业与个人税费负担的政策。
+        example: 减税降费政策延续，企业负担减轻。
+        isPrimary: true
+    aliases:
+      - raw: 减税降费
+        aliasType: primary
+      - raw: Tax and Fee Cuts
+        aliasType: en_alias
+  - slug: zeng-zhi-shui
+    headword: 增值税
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对商品与服务增值额征收的流转税，中国第一大税种。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对商品与服务增值额征收的流转税，中国第一大税种。
+        example: 增值税改革优化留抵退税。
+        isPrimary: true
+    aliases:
+      - raw: 增值税
+        aliasType: primary
+      - raw: VAT
+        aliasType: en_alias
+  - slug: qi-ye-suo-de-shui
+    headword: 企业所得税
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对企业利润征收的税种，基本税率25%。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对企业利润征收的税种，基本税率25%。
+        example: 高新技术企业享15%优惠税率。
+        isPrimary: true
+    aliases:
+      - raw: 企业所得税
+        aliasType: primary
+      - raw: Corporate Income Tax
+        aliasType: en_alias
+  - slug: ge-ren-suo-de-shui
+    headword: 个人所得税
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对个人收入征收的税种，综合与分类相结合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对个人收入征收的税种，综合与分类相结合。
+        example: 个税专项附加扣除标准提高。
+        isPrimary: true
+    aliases:
+      - raw: 个人所得税
+        aliasType: primary
+      - raw: Individual Income Tax
+        aliasType: en_alias
+  - slug: guan-shui
+    headword: 关税
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对进出口商品征收的税种，贸易政策工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对进出口商品征收的税种，贸易政策工具。
+        example: 关税调整影响进出口企业盈利。
+        isPrimary: true
+    aliases:
+      - raw: 关税
+        aliasType: primary
+      - raw: Tariff
+        aliasType: en_alias
+  - slug: chu-kou-tui-shui
+    headword: 出口退税
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 退还出口商品已缴税款的制度，增强出口竞争力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 退还出口商品已缴税款的制度，增强出口竞争力。
+        example: 出口退税政策稳定外贸企业预期。
+        isPrimary: true
+    aliases:
+      - raw: 出口退税
+        aliasType: primary
+      - raw: Export Tax Rebate
+        aliasType: en_alias
+  - slug: hua-zhai
+    headword: 化债
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 化解地方政府隐性债务风险的举措，如债务置换。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 化解地方政府隐性债务风险的举措，如债务置换。
+        example: 特殊再融资债支持化债。
+        isPrimary: true
+    aliases:
+      - raw: 化债
+        aliasType: primary
+      - raw: Debt Resolution
+        aliasType: en_alias
+  - slug: zhai-wu-zhi-huan
+    headword: 债务置换
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以低成本、长期限债券置换高成本、短期限债务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以低成本、长期限债券置换高成本、短期限债务。
+        example: 债务置换降低付息压力。
+        isPrimary: true
+    aliases:
+      - raw: 债务置换
+        aliasType: primary
+      - raw: Debt Swap
+        aliasType: en_alias
+  - slug: cai-zheng-zhi-da-ji-zhi
+    headword: 财政直达机制
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 财政资金直达基层与民生领域的机制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 财政资金直达基层与民生领域的机制。
+        example: 直达机制提高资金使用效率。
+        isPrimary: true
+    aliases:
+      - raw: 财政直达机制
+        aliasType: primary
+      - raw: Direct Fiscal Transfer
+        aliasType: en_alias
+  - slug: liang-xin
+    headword: 两新
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 大规模设备更新与消费品以旧换新政策的简称。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 大规模设备更新与消费品以旧换新政策的简称。
+        example: 两新政策拉动内需效果显著。
+        isPrimary: true
+    aliases:
+      - raw: 两新
+        aliasType: primary
+      - raw: New Consumer Goods and Equipment Renewal
+        aliasType: en_alias
+  - slug: liang-chong
+    headword: 两重
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 国家重大战略与重点领域安全能力建设的简称。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 国家重大战略与重点领域安全能力建设的简称。
+        example: 两重项目获超长期特别国债支持。
+        isPrimary: true
+    aliases:
+      - raw: 两重
+        aliasType: primary
+      - raw: Major Strategies and Security
+        aliasType: en_alias
+  - slug: hui-l-xing-cheng-ji-zhi
+    headword: 汇率形成机制
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 人民币汇率市场化定价的制度安排，参考一篮子货币。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 人民币汇率市场化定价的制度安排，参考一篮子货币。
+        example: 汇率形成机制增强双向浮动弹性。
+        isPrimary: true
+    aliases:
+      - raw: 汇率形成机制
+        aliasType: primary
+      - raw: Exchange Rate Mechanism
+        aliasType: en_alias
+  - slug: zi-ben-guan-zhi
+    headword: 资本管制
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对跨境资本流动的行政限制措施。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对跨境资本流动的行政限制措施。
+        example: 资本管制维持汇率与金融稳定。
+        isPrimary: true
+    aliases:
+      - raw: 资本管制
+        aliasType: primary
+      - raw: Capital Controls
+        aliasType: en_alias
+  - slug: ren-min-bi-guo-ji-hua
+    headword: 人民币国际化
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 推动人民币在国际贸易与储备中使用的进程。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 推动人民币在国际贸易与储备中使用的进程。
+        example: 人民币跨境结算占比提升。
+        isPrimary: true
+    aliases:
+      - raw: 人民币国际化
+        aliasType: primary
+      - raw: RMB Internationalization
+        aliasType: en_alias
+  - slug: chao-e-cun-kuan-zhun-bei-jin-li-l
+    headword: 超额存款准备金利率
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行对超额准备金支付的利率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行对超额准备金支付的利率。
+        example: IOER构成利率走廊下限。
+        isPrimary: true
+    aliases:
+      - raw: 超额存款准备金利率
+        aliasType: primary
+      - raw: IOER
+        aliasType: en_alias
+  - slug: m-l-f-li-l
+    headword: MLF利率
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中期借贷便利操作利率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中期借贷便利操作利率。
+        example: MLF利率引导LPR。
+        isPrimary: true
+    aliases:
+      - raw: MLF利率
+        aliasType: primary
+      - raw: MLF Rate
+        aliasType: en_alias
+  - slug: cun-kuan-zhun-bei-jin
+    headword: 存款准备金
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 银行缴存央行的准备金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 银行缴存央行的准备金。
+        example: 降准释放长期资金。
+        isPrimary: true
+    aliases:
+      - raw: 存款准备金
+        aliasType: primary
+      - raw: Reserve Requirement
+        aliasType: en_alias
+  - slug: zi-guan-xin-gui
+    headword: 资管新规
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 规范资管行业的重要监管规定。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 规范资管行业的重要监管规定。
+        example: 资管新规重塑理财格局。
+        isPrimary: true
+    aliases:
+      - raw: 资管新规
+        aliasType: primary
+      - raw: New Asset Management Rules
+        aliasType: en_alias
+  - slug: jin-suo
+    headword: 紧缩
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行收紧货币的政策。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 央行收紧货币的政策。
+        example: 紧缩周期压制估值。
+        isPrimary: true
+    aliases:
+      - raw: 紧缩
+        aliasType: primary
+      - raw: Tightening
+        aliasType: en_alias
+  - slug: gong-ji-ce-gai-ge
+    headword: 供给侧改革
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国优化供给结构的改革。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国优化供给结构的改革。
+        example: 供给侧改革改善传统行业盈利。
+        isPrimary: true
+    aliases:
+      - raw: 供给侧改革
+        aliasType: primary
+      - raw: Supply-side Reform
+        aliasType: en_alias
+  - slug: xu-qiu-ce-guan-li
+    headword: 需求侧管理
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 扩大内需的政策管理。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 扩大内需的政策管理。
+        example: 需求侧政策刺激消费。
+        isPrimary: true
+    aliases:
+      - raw: 需求侧管理
+        aliasType: primary
+      - raw: Demand Management
+        aliasType: en_alias
+  - slug: kuo-da-nei-xu
+    headword: 扩大内需
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 刺激国内消费与投资的政策。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 刺激国内消费与投资的政策。
+        example: 扩大内需是稳增长抓手。
+        isPrimary: true
+    aliases:
+      - raw: 扩大内需
+        aliasType: primary
+      - raw: Domestic Demand Expansion
+        aliasType: en_alias
+  - slug: shuang-xun-huan
+    headword: 双循环
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 内需为主内外循环互促的战略。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 内需为主内外循环互促的战略。
+        example: 双循环战略统筹发展与安全。
+        isPrimary: true
+    aliases:
+      - raw: 双循环
+        aliasType: primary
+      - raw: Dual Circulation
+        aliasType: en_alias
+  - slug: yi-nei-xun-huan-wei-zhu
+    headword: 以内循环为主
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以国内大循环为主体的政策取向。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以国内大循环为主体的政策取向。
+        example: 内循环聚焦自主可控。
+        isPrimary: true
+    aliases:
+      - raw: 以内循环为主
+        aliasType: primary
+      - raw: Domestic Circulation
+        aliasType: en_alias
+  - slug: gao-shui-ping-dui-wai-kai-fang
+    headword: 高水平对外开放
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 制度型开放的政策方向。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 制度型开放的政策方向。
+        example: 高水平开放吸引外资。
+        isPrimary: true
+    aliases:
+      - raw: 高水平对外开放
+        aliasType: primary
+      - raw: High-level Opening
+        aliasType: en_alias
+  - slug: qu-chan-neng
+    headword: 去产能
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 压减过剩产能的政策。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 压减过剩产能的政策。
+        example: 去产能改善行业供需。
+        isPrimary: true
+    aliases:
+      - raw: 去产能
+        aliasType: primary
+      - raw: Capacity Reduction
+        aliasType: en_alias
+  - slug: zi-zhu-ke-kong
+    headword: 自主可控
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 关键技术与产业链自主可控。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 关键技术与产业链自主可控。
+        example: 自主可控是安全底线。
+        isPrimary: true
+    aliases:
+      - raw: 自主可控
+        aliasType: primary
+      - raw: Self-reliance
+        aliasType: en_alias
+  - slug: 3-0-1-diao-cha
+    headword: 301调查
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 美国依据301条款发起的贸易调查。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 美国依据301条款发起的贸易调查。
+        example: 301调查引发贸易摩擦。
+        isPrimary: true
+    aliases:
+      - raw: 301调查
+        aliasType: primary
+      - raw: Section 301
+        aliasType: en_alias
+  - slug: pu-hui-jin-rong
+    headword: 普惠金融
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 服务小微与弱势群体的金融。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 服务小微与弱势群体的金融。
+        example: 普惠金融政策支持力度大。
+        isPrimary: true
+    aliases:
+      - raw: 普惠金融
+        aliasType: primary
+      - raw: Inclusive Finance
+        aliasType: en_alias
+  - slug: tan-da-feng
+    headword: 碳达峰
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 碳排放达到峰值的目标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 碳排放达到峰值的目标。
+        example: 2030年前碳达峰是承诺。
+        isPrimary: true
+    aliases:
+      - raw: 碳达峰
+        aliasType: primary
+      - raw: Carbon Peak
+        aliasType: en_alias
+  - slug: tan-zhong-he
+    headword: 碳中和
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 净零碳排放的目标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 净零碳排放的目标。
+        example: 2060年前碳中和是目标。
+        isPrimary: true
+    aliases:
+      - raw: 碳中和
+        aliasType: primary
+      - raw: Carbon Neutrality
+        aliasType: en_alias
+  - slug: shuang-tan-mu-biao
+    headword: 双碳目标
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 碳达峰与碳中和目标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 碳达峰与碳中和目标。
+        example: 双碳重塑能源结构。
+        isPrimary: true
+    aliases:
+      - raw: 双碳目标
+        aliasType: primary
+      - raw: Dual Carbon Goals
+        aliasType: en_alias
+  - slug: dian-li-shi-chang-hua
+    headword: 电力市场化
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 电力价格市场化改革。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 电力价格市场化改革。
+        example: 电力市场化提升运营效率。
+        isPrimary: true
+    aliases:
+      - raw: 电力市场化
+        aliasType: primary
+      - raw: Power Market Reform
+        aliasType: en_alias
+  - slug: dian-jia-gai-ge
+    headword: 电价改革
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 电价形成机制改革。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 电价形成机制改革。
+        example: 电价改革影响电力企业盈利。
+        isPrimary: true
+    aliases:
+      - raw: 电价改革
+        aliasType: primary
+      - raw: Electricity Price Reform
+        aliasType: en_alias
+  - slug: rong-liang-dian-jia
+    headword: 容量电价
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对火电容量补偿的电价机制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对火电容量补偿的电价机制。
+        example: 容量电价保障火电收益。
+        isPrimary: true
+    aliases:
+      - raw: 容量电价
+        aliasType: primary
+      - raw: Capacity Price
+        aliasType: en_alias
+  - slug: bao-zheng-jin-zhi-du
+    headword: 保证金制度
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 交易缴纳保证金的规定。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 交易缴纳保证金的规定。
+        example: 保证金制度控制杠杆风险。
+        isPrimary: true
+    aliases:
+      - raw: 保证金制度
+        aliasType: primary
+      - raw: Margin System
+        aliasType: en_alias
+  - slug: fen-hong-xin-gui
+    headword: 分红新规
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 鼓励分红的规定。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 鼓励分红的规定。
+        example: 分红新规提升股东回报。
+        isPrimary: true
+    aliases:
+      - raw: 分红新规
+        aliasType: primary
+      - raw: New Dividend Rules
+        aliasType: en_alias
+  - slug: jiao-yi-xin-gui
+    headword: 交易新规
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 优化交易制度的规定。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 优化交易制度的规定。
+        example: 交易新规提升市场效率。
+        isPrimary: true
+    aliases:
+      - raw: 交易新规
+        aliasType: primary
+      - raw: New Trading Rules
+        aliasType: en_alias
+  - slug: t-0-zhi-du
+    headword: T+0制度
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 当日回转交易制度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 当日回转交易制度。
+        example: A股部分品种实行T+0。
+        isPrimary: true
+    aliases:
+      - raw: T+0制度
+        aliasType: primary
+      - raw: T+0 System
+        aliasType: en_alias
+  - slug: t-1-zhi-du
+    headword: T+1制度
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 次日交割交易制度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 次日交割交易制度。
+        example: A股股票实行T+1。
+        isPrimary: true
+    aliases:
+      - raw: T+1制度
+        aliasType: primary
+      - raw: T+1 System
+        aliasType: en_alias
+  - slug: hong-guan-shen-shen-ping-gu
+    headword: 宏观审慎评估
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 宏观审慎监管评估。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 宏观审慎监管评估。
+        example: MPA约束信贷与杠杆。
+        isPrimary: true
+    aliases:
+      - raw: 宏观审慎评估
+        aliasType: primary
+      - raw: MPA
+        aliasType: en_alias
+  - slug: cun-kuan-bao-xian
+    headword: 存款保险
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 存款保障制度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 存款保障制度。
+        example: 存款保险稳定储户信心。
+        isPrimary: true
+    aliases:
+      - raw: 存款保险
+        aliasType: primary
+      - raw: Deposit Insurance
+        aliasType: en_alias
+  - slug: feng-xian-fang-kong
+    headword: 风险防控
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 防范金融风险的政策。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 防范金融风险的政策。
+        example: 守住不发生系统性风险底线。
+        isPrimary: true
+    aliases:
+      - raw: 风险防控
+        aliasType: primary
+      - raw: Risk Prevention
+        aliasType: en_alias
+  - slug: hong-guan-shen-shen-zheng-ce
+    headword: 宏观审慎政策
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 防范系统性风险的政策。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 防范系统性风险的政策。
+        example: 宏观审慎与货币政策互补。
+        isPrimary: true
+    aliases:
+      - raw: 宏观审慎政策
+        aliasType: primary
+      - raw: Macro-prudential Policy
+        aliasType: en_alias
+  - slug: wei-guan-shen-shen
+    headword: 微观审慎
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 单体机构的风险监管。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 单体机构的风险监管。
+        example: 微观审慎关注个体稳健。
+        isPrimary: true
+    aliases:
+      - raw: 微观审慎
+        aliasType: primary
+      - raw: Micro-prudential
+        aliasType: en_alias
+  - slug: jin-rong-ke-ji-jian-guan
+    headword: 金融科技监管
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对金融科技的监管。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对金融科技的监管。
+        example: 金融科技监管平衡创新与风险。
+        isPrimary: true
+    aliases:
+      - raw: 金融科技监管
+        aliasType: primary
+      - raw: Fintech Regulation
+        aliasType: en_alias
+  - slug: shu-ju-an-quan
+    headword: 数据安全
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 数据保护的安全要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 数据保护的安全要求。
+        example: 数据安全法是合规底线。
+        isPrimary: true
+    aliases:
+      - raw: 数据安全
+        aliasType: primary
+      - raw: Data Security
+        aliasType: en_alias
+  - slug: ge-ren-xin-xi-bao-hu
+    headword: 个人信息保护
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 个人信息保护的法律要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 个人信息保护的法律要求。
+        example: 个保法规范数据处理。
+        isPrimary: true
+    aliases:
+      - raw: 个人信息保护
+        aliasType: primary
+      - raw: Personal Information Protection
+        aliasType: en_alias
+  - slug: fan-xi-qian
+    headword: 反洗钱
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 打击洗钱活动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 打击洗钱活动。
+        example: 反洗钱是金融机构义务。
+        isPrimary: true
+    aliases:
+      - raw: 反洗钱
+        aliasType: primary
+      - raw: AML
+        aliasType: en_alias
+  - slug: fan-kong-rong-zi
+    headword: 反恐融资
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 打击恐怖融资。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 打击恐怖融资。
+        example: 反洗钱与反恐融资并重。
+        isPrimary: true
+    aliases:
+      - raw: 反恐融资
+        aliasType: primary
+      - raw: CFT
+        aliasType: en_alias
+  - slug: tan-zhong-he-mu-biao
+    headword: 碳中和目标
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 净零排放目标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 净零排放目标。
+        example: 碳中和目标驱动转型。
+        isPrimary: true
+    aliases:
+      - raw: 碳中和目标
+        aliasType: primary
+      - raw: Carbon Neutral Target
+        aliasType: en_alias
+  - slug: l-se-bao-xian
+    headword: 绿色保险
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 环境风险保险产品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 环境风险保险产品。
+        example: 绿色保险服务双碳。
+        isPrimary: true
+    aliases:
+      - raw: 绿色保险
+        aliasType: primary
+      - raw: Green Insurance
+        aliasType: en_alias
+  - slug: tan-jian-pai
+    headword: 碳减排
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 减少碳排放的行动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 减少碳排放的行动。
+        example: 碳减排是双碳核心。
+        isPrimary: true
+    aliases:
+      - raw: 碳减排
+        aliasType: primary
+      - raw: Carbon Reduction
+        aliasType: en_alias
+  - slug: wai-hui-guan-zhi
+    headword: 外汇管制
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对汇兑的限制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对汇兑的限制。
+        example: 外汇管制影响资本流动。
+        isPrimary: true
+    aliases:
+      - raw: 外汇管制
+        aliasType: primary
+      - raw: FX Control
+        aliasType: en_alias
+  - slug: r-c-e-p
+    headword: RCEP
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 亚太区域自贸协定。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 亚太区域自贸协定。
+        example: RCEP促进区域贸易。
+        isPrimary: true
+    aliases:
+      - raw: RCEP
+        aliasType: primary
+      - raw: 区域全面经济伙伴关系
+        aliasType: cn_alias
+  - slug: c-p-t-p-p
+    headword: CPTPP
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 亚太高标准自贸协定。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 亚太高标准自贸协定。
+        example: 中国申请加入CPTPP。
+        isPrimary: true
+    aliases:
+      - raw: CPTPP
+        aliasType: primary
+      - raw: 全面与进步跨太平洋伙伴关系协定
+        aliasType: cn_alias
+  - slug: yi-dai-yi-lu-chang-yi
+    headword: 一带一路倡议
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国国际合作倡议。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 中国国际合作倡议。
+        example: 一带一路推动互联互通。
+        isPrimary: true
+    aliases:
+      - raw: 一带一路倡议
+        aliasType: primary
+      - raw: BRI
+        aliasType: en_alias
+  - slug: wai-hui-gan-yu
+    headword: 外汇干预
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 央行干预汇率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行干预汇率。
+        example: 外汇干预稳定汇率。
+        isPrimary: true
+    aliases:
+      - raw: 外汇干预
+        aliasType: primary
+      - raw: FX Intervention
+        aliasType: en_alias
+  - slug: yu-qi-guan-li
+    headword: 预期管理
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 引导市场预期。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 引导市场预期。
+        example: 央行重视预期管理。
+        isPrimary: true
+    aliases:
+      - raw: 预期管理
+        aliasType: primary
+      - raw: Expectation Management
+        aliasType: en_alias
+  - slug: shu-ju-yi-lai
+    headword: 数据依赖
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 依数据决策的政策模式。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 依数据决策的政策模式。
+        example: 美联储强调数据依赖。
+        isPrimary: true
+    aliases:
+      - raw: 数据依赖
+        aliasType: primary
+      - raw: Data Dependence
+        aliasType: en_alias
+  - slug: jian-guan-sha-he
+    headword: 监管沙盒
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 创新业务试点机制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 创新业务试点机制。
+        example: 监管沙盒平衡创新与风险。
+        isPrimary: true
+    aliases:
+      - raw: 监管沙盒
+        aliasType: primary
+      - raw: Regulatory Sandbox
+        aliasType: en_alias
+  - slug: jin-rong-xiao-fei-zhe-bao-hu
+    headword: 金融消费者保护
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 保护金融消费者的制度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 保护金融消费者的制度。
+        example: 消保监管趋严。
+        isPrimary: true
+    aliases:
+      - raw: 金融消费者保护
+        aliasType: primary
+      - raw: Consumer Protection
+        aliasType: en_alias
+  - slug: tou-zi-zhe-shi-dang-xing
+    headword: 投资者适当性
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 匹配投资者风险承受能力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 匹配投资者风险承受能力。
+        example: 适当性管理防范误导。
+        isPrimary: true
+    aliases:
+      - raw: 投资者适当性
+        aliasType: primary
+      - raw: Investor Suitability
+        aliasType: en_alias
+  - slug: tou-zi-zhe-jiao-yu
+    headword: 投资者教育
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 普及投资知识的活动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 普及投资知识的活动。
+        example: 投教保护中小投资者。
+        isPrimary: true
+    aliases:
+      - raw: 投资者教育
+        aliasType: primary
+      - raw: Investor Education
+        aliasType: en_alias
+  - slug: zheng-quan-jiu-fen-tiao-jie
+    headword: 证券纠纷调解
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 证券纠纷的调解机制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 证券纠纷的调解机制。
+        example: 调解高效化解纠纷。
+        isPrimary: true
+    aliases:
+      - raw: 证券纠纷调解
+        aliasType: primary
+      - raw: Dispute Mediation
+        aliasType: en_alias
+  - slug: dai-biao-ren-su-song
+    headword: 代表人诉讼
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 群体性诉讼制度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 群体性诉讼制度。
+        example: 代表人诉讼保护散户。
+        isPrimary: true
+    aliases:
+      - raw: 代表人诉讼
+        aliasType: primary
+      - raw: Representative Action
+        aliasType: en_alias
+  - slug: xian-xing-pei-fu
+    headword: 先行赔付
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 违法主体先行赔偿。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 违法主体先行赔偿。
+        example: 先行赔付保障受损投资者。
+        isPrimary: true
+    aliases:
+      - raw: 先行赔付
+        aliasType: primary
+      - raw: Advance Compensation
+        aliasType: en_alias
+  - slug: te-bie-dai-biao-ren-su-song
+    headword: 特别代表人诉讼
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投保机构代表诉讼。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投保机构代表诉讼。
+        example: 康美案是首例特别代表人诉讼。
+        isPrimary: true
+    aliases:
+      - raw: 特别代表人诉讼
+        aliasType: primary
+      - raw: Special Representative Action
+        aliasType: en_alias
+  - slug: ji-ti-su-song
+    headword: 集体诉讼
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 群体共同诉讼。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 群体共同诉讼。
+        example: 集体诉讼在美股常见。
+        isPrimary: true
+    aliases:
+      - raw: 集体诉讼
+        aliasType: primary
+      - raw: Class Action
+        aliasType: en_alias
+  - slug: shi-chang-jin-ru
+    headword: 市场禁入
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 禁止进入市场的处罚。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 禁止进入市场的处罚。
+        example: 市场禁入震慑违法。
+        isPrimary: true
+    aliases:
+      - raw: 市场禁入
+        aliasType: primary
+      - raw: Market Ban
+        aliasType: en_alias
+  - slug: fa-kuan
+    headword: 罚款
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 行政处罚罚款。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 行政处罚罚款。
+        example: 巨额罚款提高违法成本。
+        isPrimary: true
+    aliases:
+      - raw: 罚款
+        aliasType: primary
+      - raw: Fine
+        aliasType: en_alias
+  - slug: xing-shi-zhui-ze
+    headword: 刑事追责
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 违法行为刑事责任。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 违法行为刑事责任。
+        example: 重大违法追究刑责。
+        isPrimary: true
+    aliases:
+      - raw: 刑事追责
+        aliasType: primary
+      - raw: Criminal Liability
+        aliasType: en_alias
+  - slug: shen-ji-lun-huan
+    headword: 审计轮换
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 会计师事务所定期轮换。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 会计师事务所定期轮换。
+        example: 审计轮换保独立性。
+        isPrimary: true
+    aliases:
+      - raw: 审计轮换
+        aliasType: primary
+      - raw: Audit Rotation
+        aliasType: en_alias
+  - slug: gu-xi-shui
+    headword: 股息税
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 分红收益征税。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 分红收益征税。
+        example: 股息税影响实际收益。
+        isPrimary: true
+    aliases:
+      - raw: 股息税
+        aliasType: primary
+      - raw: Dividend Tax
+        aliasType: en_alias
+  - slug: hong-li-shui-cha-bie-hua
+    headword: 红利税差别化
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按持股期限差别征税。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按持股期限差别征税。
+        example: 长持税率更低。
+        isPrimary: true
+    aliases:
+      - raw: 红利税差别化
+        aliasType: primary
+      - raw: Differential Dividend Tax
+        aliasType: en_alias
+  - slug: zi-ben-li-de-shui
+    headword: 资本利得税
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对价差收益征税。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对价差收益征税。
+        example: A股暂免资本利得税。
+        isPrimary: true
+    aliases:
+      - raw: 资本利得税
+        aliasType: primary
+      - raw: Capital Gains Tax
+        aliasType: en_alias
+  - slug: jiao-yi-shui
+    headword: 交易税
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 交易环节征税。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 交易环节征税。
+        example: 交易税影响活跃度。
+        isPrimary: true
+    aliases:
+      - raw: 交易税
+        aliasType: primary
+      - raw: Transaction Tax
+        aliasType: en_alias
+  - slug: suo-de-shui
+    headword: 所得税
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 利润与收入税。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 利润与收入税。
+        example: 企业所得税率25%。
+        isPrimary: true
+    aliases:
+      - raw: 所得税
+        aliasType: primary
+      - raw: Income Tax
+        aliasType: en_alias
+  - slug: cai-zheng-bu-tie
+    headword: 财政补贴
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 政府补贴。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 政府补贴。
+        example: 补贴影响企业盈利。
+        isPrimary: true
+    aliases:
+      - raw: 财政补贴
+        aliasType: primary
+      - raw: Fiscal Subsidy
+        aliasType: en_alias
+  - slug: jin-rong-shi-chang-kai-fang
+    headword: 金融市场开放
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 金融市场对外开放。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 金融市场对外开放。
+        example: 开放吸引外资。
+        isPrimary: true
+    aliases:
+      - raw: 金融市场开放
+        aliasType: primary
+      - raw: Market Opening
+        aliasType: en_alias
+  - slug: zi-ben-shi-chang-gai-ge
+    headword: 资本市场改革
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资本市场制度变革。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资本市场制度变革。
+        example: 改革提升市场质量。
+        isPrimary: true
+    aliases:
+      - raw: 资本市场改革
+        aliasType: primary
+      - raw: Capital Market Reform
+        aliasType: en_alias
+  - slug: duo-ceng-ci-zi-ben-shi-chang
+    headword: 多层次资本市场
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 多板块资本市场体系。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 多板块资本市场体系。
+        example: 多层次服务多元企业。
+        isPrimary: true
+    aliases:
+      - raw: 多层次资本市场
+        aliasType: primary
+      - raw: Multi-tier Market
+        aliasType: en_alias
+  - slug: chang-er-dai
+    headword: 偿二代
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 中国偿二代监管体系。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 中国偿二代监管体系。
+        example: 偿二代量化风险资本。
+        isPrimary: true
+    aliases:
+      - raw: 偿二代
+        aliasType: primary
+      - raw: C-ROSS
+        aliasType: en_alias
+  - slug: bao-xing-he-yi
+    headword: 报行合一
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 费用报备与实际一致。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 费用报备与实际一致。
+        example: 报行合一压缩费用空间。
+        isPrimary: true
+    aliases:
+      - raw: 报行合一
+        aliasType: primary
+      - raw: Filing-compliance
+        aliasType: en_alias
+  - slug: chang-xian-zi-jin-ru-shi
+    headword: 长线资金入市
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 引导长期资金入市。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 引导长期资金入市。
+        example: 长线资金稳定市场。
+        isPrimary: true
+    aliases:
+      - raw: 长线资金入市
+        aliasType: primary
+      - raw: Long-term Capital Entry
+        aliasType: en_alias
+  - slug: shang-ye-yang-lao-jin
+    headword: 商业养老金
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 个人养老金制度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 个人养老金制度。
+        example: 个人养老金账户开立。
+        isPrimary: true
+    aliases:
+      - raw: 商业养老金
+        aliasType: primary
+      - raw: Commercial Pension
+        aliasType: en_alias
+  - slug: di-san-zhi-zhu
+    headword: 第三支柱
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 个人养老保障体系。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 个人养老保障体系。
+        example: 第三支柱加快发展。
+        isPrimary: true
+    aliases:
+      - raw: 第三支柱
+        aliasType: primary
+      - raw: Third Pillar
+        aliasType: en_alias
+  - slug: jian-kang-zhong-guo
+    headword: 健康中国
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 国家健康战略。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 国家健康战略。
+        example: 健康中国利好医疗。
+        isPrimary: true
+    aliases:
+      - raw: 健康中国
+        aliasType: primary
+      - raw: Healthy China
+        aliasType: en_alias
+  - slug: yi-bao-zhi-fu-fang-shi-gai-ge
+    headword: 医保支付方式改革
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 医保支付制度改革。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 医保支付制度改革。
+        example: DRG/DIP推进。
+        isPrimary: true
+    aliases:
+      - raw: 医保支付方式改革
+        aliasType: primary
+      - raw: Payment Reform
+        aliasType: en_alias
+  - slug: yi-liao-fu-wu-jia-ge
+    headword: 医疗服务价格
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 医疗服务定价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 医疗服务定价。
+        example: 价格调整体现劳务价值。
+        isPrimary: true
+    aliases:
+      - raw: 医疗服务价格
+        aliasType: primary
+      - raw: Medical Service Price
+        aliasType: en_alias
+  - slug: fen-ji-zhen-liao
+    headword: 分级诊疗
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 分级诊疗制度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 分级诊疗制度。
+        example: 分级诊疗分流需求。
+        isPrimary: true
+    aliases:
+      - raw: 分级诊疗
+        aliasType: primary
+      - raw: Tiered Diagnosis
+        aliasType: en_alias
+  - slug: gong-li-yi-yuan-gai-ge
+    headword: 公立医院改革
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公立医院综合改革。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公立医院综合改革。
+        example: 改革提升服务效率。
+        isPrimary: true
+    aliases:
+      - raw: 公立医院改革
+        aliasType: primary
+      - raw: Public Hospital Reform
+        aliasType: en_alias
+  - slug: she-hui-ban-yi
+    headword: 社会办医
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 民营医疗机构发展。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 民营医疗机构发展。
+        example: 社会办医补充供给。
+        isPrimary: true
+    aliases:
+      - raw: 社会办医
+        aliasType: primary
+      - raw: Private Healthcare
+        aliasType: en_alias
+  - slug: yi-yao-fen-kai
+    headword: 医药分开
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 医药分开改革。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 医药分开改革。
+        example: 医药分开重塑利益链。
+        isPrimary: true
+    aliases:
+      - raw: 医药分开
+        aliasType: primary
+      - raw: Separation of Prescription and Drug
+        aliasType: en_alias
+  - slug: liang-piao-zhi
+    headword: 两票制
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 药品流通两票制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 药品流通两票制。
+        example: 两票制压缩流通环节。
+        isPrimary: true
+    aliases:
+      - raw: 两票制
+        aliasType: primary
+      - raw: Two-invoice System
+        aliasType: en_alias
+  - slug: dai-liang-cai-gou
+    headword: 带量采购
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 药品集中带量采购。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 药品集中带量采购。
+        example: 带量采购以量换价。
+        isPrimary: true
+    aliases:
+      - raw: 带量采购
+        aliasType: primary
+      - raw: Volume-based Procurement
+        aliasType: en_alias
+  - slug: yao-pin-shen-ping-shen-pi
+    headword: 药品审评审批
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 药品注册审批制度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 药品注册审批制度。
+        example: 审评提速利好创新。
+        isPrimary: true
+    aliases:
+      - raw: 药品审评审批
+        aliasType: primary
+      - raw: Drug Review
+        aliasType: en_alias
+  - slug: you-xian-shen-ping
+    headword: 优先审评
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 创新药优先审批。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 创新药优先审批。
+        example: 优先审评加速上市。
+        isPrimary: true
+    aliases:
+      - raw: 优先审评
+        aliasType: primary
+      - raw: Priority Review
+        aliasType: en_alias
+  - slug: shuang-tong-dao
+    headword: 双通道
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 医保谈判药品双通道供应。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 医保谈判药品双通道供应。
+        example: 双通道便利购药。
+        isPrimary: true
+    aliases:
+      - raw: 双通道
+        aliasType: primary
+      - raw: Dual Channel
+        aliasType: en_alias
+  - slug: men-zhen-tong-chou
+    headword: 门诊统筹
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 门诊费用统筹报销。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 门诊费用统筹报销。
+        example: 门诊统筹影响药店。
+        isPrimary: true
+    aliases:
+      - raw: 门诊统筹
+        aliasType: primary
+      - raw: Outpatient Pooling
+        aliasType: en_alias
+  - slug: ge-ren-zhang-hu
+    headword: 个人账户
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 医保个人账户。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 医保个人账户。
+        example: 个人账户改革共济。
+        isPrimary: true
+    aliases:
+      - raw: 个人账户
+        aliasType: primary
+      - raw: Individual Account
+        aliasType: en_alias
+  - slug: d-r-g-fu-fei
+    headword: DRG付费
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按疾病诊断相关分组付费。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按疾病诊断相关分组付费。
+        example: DRG控制医疗费用。
+        isPrimary: true
+    aliases:
+      - raw: DRG付费
+        aliasType: primary
+      - raw: DRG Payment
+        aliasType: en_alias
+  - slug: d-i-p-fu-fei
+    headword: DIP付费
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按病种分值付费。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按病种分值付费。
+        example: DIP精细化管理。
+        isPrimary: true
+    aliases:
+      - raw: DIP付费
+        aliasType: primary
+      - raw: DIP Payment
+        aliasType: en_alias
+  - slug: yao-pin-shang-shi-xu-ke-chi-you-ren
+    headword: 药品上市许可持有人
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 药品上市许可持有人制度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 药品上市许可持有人制度。
+        example: MAH激发研发活力。
+        isPrimary: true
+    aliases:
+      - raw: 药品上市许可持有人
+        aliasType: primary
+      - raw: MAH
+        aliasType: en_alias
+  - slug: yi-miao-guan-li-fa
+    headword: 疫苗管理法
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 疫苗管理法规。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 疫苗管理法规。
+        example: 疫苗监管最严格。
+        isPrimary: true
+    aliases:
+      - raw: 疫苗管理法
+        aliasType: primary
+      - raw: Vaccine Law
+        aliasType: en_alias
+  - slug: ji-kong-ti-xi
+    headword: 疾控体系
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 疾病预防控制体系。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 疾病预防控制体系。
+        example: 疾控体系改革。
+        isPrimary: true
+    aliases:
+      - raw: 疾控体系
+        aliasType: primary
+      - raw: CDC System
+        aliasType: en_alias
+  - slug: gong-gong-wei-sheng
+    headword: 公共卫生
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公共卫生体系。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公共卫生体系。
+        example: 公共卫生投入加大。
+        isPrimary: true
+    aliases:
+      - raw: 公共卫生
+        aliasType: primary
+      - raw: Public Health
+        aliasType: en_alias
+  - slug: lun-li-shen-cha
+    headword: 伦理审查
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 临床试验伦理审查。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 临床试验伦理审查。
+        example: 伦理审查保护受试者。
+        isPrimary: true
+    aliases:
+      - raw: 伦理审查
+        aliasType: primary
+      - raw: Ethics Review
+        aliasType: en_alias
+  - slug: zhi-qing-tong-yi
+    headword: 知情同意
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 受试者知情同意。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 受试者知情同意。
+        example: 知情同意是伦理基石。
+        isPrimary: true
+    aliases:
+      - raw: 知情同意
+        aliasType: primary
+      - raw: Informed Consent
+        aliasType: en_alias
+  - slug: yao-pin-zhui-su
+    headword: 药品追溯
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 药品全程追溯。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 药品全程追溯。
+        example: 追溯码保障安全。
+        isPrimary: true
+    aliases:
+      - raw: 药品追溯
+        aliasType: primary
+      - raw: Drug Traceability
+        aliasType: en_alias
+  - slug: yao-pin-jian-guan
+    headword: 药品监管
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 药品监督管理。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 药品监督管理。
+        example: 监管科学严格。
+        isPrimary: true
+    aliases:
+      - raw: 药品监管
+        aliasType: primary
+      - raw: Drug Regulation
+        aliasType: en_alias
+  - slug: fei-xing-jian-cha
+    headword: 飞行检查
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 突击检查。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 突击检查。
+        example: 飞检保障质量。
+        isPrimary: true
+    aliases:
+      - raw: 飞行检查
+        aliasType: primary
+      - raw: Unannounced Inspection
+        aliasType: en_alias
+  - slug: g-m-p
+    headword: GMP
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 药品生产规范。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 药品生产规范。
+        example: GMP是生产门槛。
+        isPrimary: true
+    aliases:
+      - raw: GMP
+        aliasType: primary
+      - raw: 药品生产质量管理规范
+        aliasType: cn_alias
+  - slug: g-s-p
+    headword: GSP
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 药品经营规范。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 药品经营规范。
+        example: GSP规范流通。
+        isPrimary: true
+    aliases:
+      - raw: GSP
+        aliasType: primary
+      - raw: 药品经营质量管理规范
+        aliasType: cn_alias
+  - slug: g-l-p
+    headword: GLP
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 非临床研究规范。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 非临床研究规范。
+        example: GLP规范临床前。
+        isPrimary: true
+    aliases:
+      - raw: GLP
+        aliasType: primary
+      - raw: 药物非临床研究质量管理规范
+        aliasType: cn_alias
+  - slug: g-c-p
+    headword: GCP
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 临床试验规范。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 临床试验规范。
+        example: GCP保障试验质量。
+        isPrimary: true
+    aliases:
+      - raw: GCP
+        aliasType: primary
+      - raw: 药物临床试验质量管理规范
+        aliasType: cn_alias
+  - slug: ji-cai-chang-tai-hua
+    headword: 集采常态化
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 带量采购常态化。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 带量采购常态化。
+        example: 集采常态化重塑行业。
+        isPrimary: true
+    aliases:
+      - raw: 集采常态化
+        aliasType: primary
+      - raw: Procurement Normalization
+        aliasType: en_alias
+  - slug: qi-xie-ji-cai
+    headword: 器械集采
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 医疗器械带量采购。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 医疗器械带量采购。
+        example: 器械集采降价。
+        isPrimary: true
+    aliases:
+      - raw: 器械集采
+        aliasType: primary
+      - raw: Device Procurement
+        aliasType: en_alias
+  - slug: ke-ji-cheng-guo-zhuan-hua
+    headword: 科技成果转化
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 科技成果商业化。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 科技成果商业化。
+        example: 成果转化释放价值。
+        isPrimary: true
+    aliases:
+      - raw: 科技成果转化
+        aliasType: primary
+      - raw: Technology Transfer
+        aliasType: en_alias
+  - slug: an-quan-sheng-chan
+    headword: 安全生产
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 生产安全要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 生产安全要求。
+        example: 安全是生产底线。
+        isPrimary: true
+    aliases:
+      - raw: 安全生产
+        aliasType: primary
+      - raw: Workplace Safety
+        aliasType: en_alias
+  - slug: huan-bao-he-gui
+    headword: 环保合规
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 环保法规要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 环保法规要求。
+        example: 环保合规是准入门槛。
+        isPrimary: true
+    aliases:
+      - raw: 环保合规
+        aliasType: primary
+      - raw: Environmental Compliance
+        aliasType: en_alias
+  - slug: fan-fu-bai
+    headword: 反腐败
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 反腐败合规要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 反腐败合规要求。
+        example: 反腐合规全球化。
+        isPrimary: true
+    aliases:
+      - raw: 反腐败
+        aliasType: primary
+      - raw: Anti-corruption
+        aliasType: en_alias
+  - slug: fan-shang-ye-hui-lu
+    headword: 反商业贿赂
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 反商业贿赂合规。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 反商业贿赂合规。
+        example: 反贿赂合规严格。
+        isPrimary: true
+    aliases:
+      - raw: 反商业贿赂
+        aliasType: primary
+      - raw: Anti-bribery
+        aliasType: en_alias
+  - slug: chu-kou-guan-zhi-he-gui
+    headword: 出口管制合规
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 出口管制合规要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 出口管制合规要求。
+        example: 管制合规影响贸易。
+        isPrimary: true
+    aliases:
+      - raw: 出口管制合规
+        aliasType: primary
+      - raw: Export Compliance
+        aliasType: en_alias
+  - slug: shu-ju-chu-jing
+    headword: 数据出境
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 数据跨境流动管理。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 数据跨境流动管理。
+        example: 数据出境需评估。
+        isPrimary: true
+    aliases:
+      - raw: 数据出境
+        aliasType: primary
+      - raw: Data Cross-border
+        aliasType: en_alias
+  - slug: wang-luo-an-quan-shen-cha
+    headword: 网络安全审查
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 网络安全审查制度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 网络安全审查制度。
+        example: 网安审查影响上市。
+        isPrimary: true
+    aliases:
+      - raw: 网络安全审查
+        aliasType: primary
+      - raw: Cybersecurity Review
+        aliasType: en_alias
+  - slug: guan-jian-xin-xi-ji-chu-she-shi
+    headword: 关键信息基础设施
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 关键基础设施保护。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 关键基础设施保护。
+        example: CII安全受重视。
+        isPrimary: true
+    aliases:
+      - raw: 关键信息基础设施
+        aliasType: primary
+      - raw: CII
+        aliasType: en_alias
+  - slug: tan-jian-pai-zhi-chi-gong-ju
+    headword: 碳减排支持工具
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 绿色定向货币政策工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 绿色定向货币政策工具。
+        example: 碳减排工具支持绿色。
+        isPrimary: true
+    aliases:
+      - raw: 碳减排支持工具
+        aliasType: primary
+      - raw: Carbon Reduction Tool
+        aliasType: en_alias
+  - slug: pu-hui-xiao-wei-dai-kuan-zhi-chi-gong-ju
+    headword: 普惠小微贷款支持工具
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 支持普惠的货币政策工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 支持普惠的货币政策工具。
+        example: 普惠工具激励投放。
+        isPrimary: true
+    aliases:
+      - raw: 普惠小微贷款支持工具
+        aliasType: primary
+      - raw: Inclusive Tool
+        aliasType: en_alias
+  - slug: dai-kuan-shi-chang-bao-jia-li-l-gai-ge
+    headword: 贷款市场报价利率改革
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: LPR形成机制改革。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: LPR形成机制改革。
+        example: LPR改革疏通传导。
+        isPrimary: true
+    aliases:
+      - raw: 贷款市场报价利率改革
+        aliasType: primary
+      - raw: LPR Reform
+        aliasType: en_alias
+  - slug: li-l-zi-l-ji-zhi
+    headword: 利率自律机制
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 利率定价自律机制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 利率定价自律机制。
+        example: 自律稳定利率秩序。
+        isPrimary: true
+    aliases:
+      - raw: 利率自律机制
+        aliasType: primary
+      - raw: Interest Rate Self-discipline
+        aliasType: en_alias
+  - slug: feng-xian-chu-zhi
+    headword: 风险处置
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 金融风险化解处置。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 金融风险化解处置。
+        example: 处置化解存量风险。
+        isPrimary: true
+    aliases:
+      - raw: 风险处置
+        aliasType: primary
+      - raw: Risk Resolution
+        aliasType: en_alias
+  - slug: jie-guan
+    headword: 接管
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 问题机构接管。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 问题机构接管。
+        example: 接管保障有序处置。
+        isPrimary: true
+    aliases:
+      - raw: 接管
+        aliasType: primary
+      - raw: Receivership
+        aliasType: en_alias
+  - slug: zhong-zu
+    headword: 重组
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 问题机构重组。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 问题机构重组。
+        example: 重组恢复经营。
+        isPrimary: true
+    aliases:
+      - raw: 重组
+        aliasType: primary
+      - raw: Restructuring
+        aliasType: en_alias
+  - slug: po-chan-qing-suan
+    headword: 破产清算
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 机构破产清算。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 机构破产清算。
+        example: 清算有序退出。
+        isPrimary: true
+    aliases:
+      - raw: 破产清算
+        aliasType: primary
+      - raw: Bankruptcy Liquidation
+        aliasType: en_alias
+  - slug: shi-chang-hua-chu-zhi
+    headword: 市场化处置
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 市场化风险处置。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场化风险处置。
+        example: 市场化处置效率高。
+        isPrimary: true
+    aliases:
+      - raw: 市场化处置
+        aliasType: primary
+      - raw: Market-based Resolution
+        aliasType: en_alias
+  - slug: gu-dong-ze-ren
+    headword: 股东责任
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 问题机构股东责任。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 问题机构股东责任。
+        example: 股东承担损失。
+        isPrimary: true
+    aliases:
+      - raw: 股东责任
+        aliasType: primary
+      - raw: Shareholder Responsibility
+        aliasType: en_alias
+  - slug: gao-guan-wen-ze
+    headword: 高管问责
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 问题机构高管问责。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 问题机构高管问责。
+        example: 问责压实责任。
+        isPrimary: true
+    aliases:
+      - raw: 高管问责
+        aliasType: primary
+      - raw: Executive Accountability
+        aliasType: en_alias
+  - slug: jin-rong-xiao-fei-zhe-quan-yi
+    headword: 金融消费者权益
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 金融消费者权益保护。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 金融消费者权益保护。
+        example: 权益保护监管强化。
+        isPrimary: true
+    aliases:
+      - raw: 金融消费者权益
+        aliasType: primary
+      - raw: Consumer Rights
+        aliasType: en_alias
+  - slug: tou-su-chu-li
+    headword: 投诉处理
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 金融消费投诉处理。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 金融消费投诉处理。
+        example: 投诉处理及时高效。
+        isPrimary: true
+    aliases:
+      - raw: 投诉处理
+        aliasType: primary
+      - raw: Complaint Handling
+        aliasType: en_alias
+  - slug: jiu-fen-duo-yuan-hua-jie
+    headword: 纠纷多元化解
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 纠纷多元化解机制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 纠纷多元化解机制。
+        example: 多元化解高效便民。
+        isPrimary: true
+    aliases:
+      - raw: 纠纷多元化解
+        aliasType: primary
+      - raw: Dispute Resolution
+        aliasType: en_alias
+  - slug: jin-rong-jiao-yu
+    headword: 金融教育
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 金融知识普及。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 金融知识普及。
+        example: 金融教育提升素养。
+        isPrimary: true
+    aliases:
+      - raw: 金融教育
+        aliasType: primary
+      - raw: Financial Education
+        aliasType: en_alias
+  - slug: shi-dang-xing-pi-pei
+    headword: 适当性匹配
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 产品与投资者匹配。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 产品与投资者匹配。
+        example: 匹配防误导销售。
+        isPrimary: true
+    aliases:
+      - raw: 适当性匹配
+        aliasType: primary
+      - raw: Suitability Matching
+        aliasType: en_alias
+  - slug: leng-jing-qi
+    headword: 冷静期
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 购买犹豫期。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 购买犹豫期。
+        example: 冷静期保障消费者。
+        isPrimary: true
+    aliases:
+      - raw: 冷静期
+        aliasType: primary
+      - raw: Cooling-off Period
+        aliasType: en_alias
+  - slug: shuang-lu
+    headword: 双录
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 销售过程录音录像。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 销售过程录音录像。
+        example: 双录规范销售。
+        isPrimary: true
+    aliases:
+      - raw: 双录
+        aliasType: primary
+      - raw: Dual Recording
+        aliasType: en_alias
+  - slug: xiao-shou-shi-dang-xing
+    headword: 销售适当性
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 销售适当性要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 销售适当性要求。
+        example: 适当性保护投资者。
+        isPrimary: true
+    aliases:
+      - raw: 销售适当性
+        aliasType: primary
+      - raw: Sales Suitability
+        aliasType: en_alias
+  - slug: xin-xi-pi-lu-wei-gui-chu-fa
+    headword: 信息披露违规处罚
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 信披违规处罚。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 信披违规处罚。
+        example: 处罚提高违法成本。
+        isPrimary: true
+    aliases:
+      - raw: 信息披露违规处罚
+        aliasType: primary
+      - raw: Disclosure Penalty
+        aliasType: en_alias
+  - slug: shi-chang-jin-ru-chu-fa
+    headword: 市场禁入处罚
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 禁入市场处罚。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 禁入市场处罚。
+        example: 禁入震慑违法。
+        isPrimary: true
+    aliases:
+      - raw: 市场禁入处罚
+        aliasType: primary
+      - raw: Market Ban Penalty
+        aliasType: en_alias
+  - slug: fa-kuan-chu-fa
+    headword: 罚款处罚
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 行政罚款。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 行政罚款。
+        example: 罚款没收违法所得。
+        isPrimary: true
+    aliases:
+      - raw: 罚款处罚
+        aliasType: primary
+      - raw: Fine Penalty
+        aliasType: en_alias
+  - slug: xing-shi-chu-fa
+    headword: 刑事处罚
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 追究刑事责任。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 追究刑事责任。
+        example: 重大违法追刑责。
+        isPrimary: true
+    aliases:
+      - raw: 刑事处罚
+        aliasType: primary
+      - raw: Criminal Penalty
+        aliasType: en_alias
+  - slug: min-shi-ze-ren
+    headword: 民事责任
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 民事赔偿责任。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 民事赔偿责任。
+        example: 民事赔偿保护投资者。
+        isPrimary: true
+    aliases:
+      - raw: 民事责任
+        aliasType: primary
+      - raw: Civil Liability
+        aliasType: en_alias
+  - slug: xing-zheng-ze-ren
+    headword: 行政责任
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 行政法律责任。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 行政法律责任。
+        example: 行政责任多形式。
+        isPrimary: true
+    aliases:
+      - raw: 行政责任
+        aliasType: primary
+      - raw: Administrative Liability
+        aliasType: en_alias
+  - slug: shi-fan-pan-jue
+    headword: 示范判决
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 典型案件示范判决。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 典型案件示范判决。
+        example: 示范判决统一尺度。
+        isPrimary: true
+    aliases:
+      - raw: 示范判决
+        aliasType: primary
+      - raw: Model Judgment
+        aliasType: en_alias
+  - slug: xiao-e-su-tiao
+    headword: 小额速调
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 小额纠纷快速调解。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 小额纠纷快速调解。
+        example: 速调高效便民。
+        isPrimary: true
+    aliases:
+      - raw: 小额速调
+        aliasType: primary
+      - raw: Fast Mediation
+        aliasType: en_alias
+  - slug: zai-xian-tiao-jie
+    headword: 在线调解
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 线上纠纷调解。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 线上纠纷调解。
+        example: 在线调解便捷。
+        isPrimary: true
+    aliases:
+      - raw: 在线调解
+        aliasType: primary
+      - raw: Online Mediation
+        aliasType: en_alias
+  - slug: duo-yuan-jie-fen
+    headword: 多元解纷
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 多元纠纷解决机制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 多元纠纷解决机制。
+        example: 多元化解纠纷。
+        isPrimary: true
+    aliases:
+      - raw: 多元解纷
+        aliasType: primary
+      - raw: Diversified Resolution
+        aliasType: en_alias
+  - slug: su-tiao-dui-jie
+    headword: 诉调对接
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 诉讼与调解衔接。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 诉讼与调解衔接。
+        example: 诉调对接提效率。
+        isPrimary: true
+    aliases:
+      - raw: 诉调对接
+        aliasType: primary
+      - raw: Litigation-mediation Linkage
+        aliasType: en_alias
+  - slug: gu-dong-dai-biao-su-song
+    headword: 股东代表诉讼
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股东代位诉讼。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股东代位诉讼。
+        example: 代表诉讼维护公司利益。
+        isPrimary: true
+    aliases:
+      - raw: 股东代表诉讼
+        aliasType: primary
+      - raw: Derivative Action
+        aliasType: en_alias
+  - slug: gu-dong-zhi-qing-quan
+    headword: 股东知情权
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股东查阅权利。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股东查阅权利。
+        example: 知情权保障监督。
+        isPrimary: true
+    aliases:
+      - raw: 股东知情权
+        aliasType: primary
+      - raw: Information Right
+        aliasType: en_alias
+  - slug: gu-dong-zhi-xun-quan
+    headword: 股东质询权
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股东质询权利。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股东质询权利。
+        example: 质询权监督经营。
+        isPrimary: true
+    aliases:
+      - raw: 股东质询权
+        aliasType: primary
+      - raw: Inquiry Right
+        aliasType: en_alias
+  - slug: gu-dong-su-quan
+    headword: 股东诉权
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股东诉讼权利。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股东诉讼权利。
+        example: 诉权保障救济。
+        isPrimary: true
+    aliases:
+      - raw: 股东诉权
+        aliasType: primary
+      - raw: Litigation Right
+        aliasType: en_alias
+  - slug: lei-ji-tou-piao-zhi
+    headword: 累积投票制
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 累积投票制度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 累积投票制度。
+        example: 累积投票保护中小股东。
+        isPrimary: true
+    aliases:
+      - raw: 累积投票制
+        aliasType: primary
+      - raw: Cumulative Voting System
+        aliasType: en_alias
+  - slug: wang-luo-tou-piao
+    headword: 网络投票
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股东大会网络投票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股东大会网络投票。
+        example: 网络投票便利参与。
+        isPrimary: true
+    aliases:
+      - raw: 网络投票
+        aliasType: primary
+      - raw: Online Voting
+        aliasType: en_alias
+  - slug: zheng-ji-tou-piao-quan
+    headword: 征集投票权
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 征集股东投票权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 征集股东投票权。
+        example: 征集投票影响表决。
+        isPrimary: true
+    aliases:
+      - raw: 征集投票权
+        aliasType: primary
+      - raw: Vote Solicitation
+        aliasType: en_alias
+  - slug: fen-lei-biao-jue
+    headword: 分类表决
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 分类事项表决。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 分类事项表决。
+        example: 分类表决保护类别股东。
+        isPrimary: true
+    aliases:
+      - raw: 分类表决
+        aliasType: primary
+      - raw: Classified Voting
+        aliasType: en_alias
+  - slug: du-li-dong-shi-zhi-du
+    headword: 独立董事制度
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 独立董事制度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 独立董事制度。
+        example: 独董制度强化监督。
+        isPrimary: true
+    aliases:
+      - raw: 独立董事制度
+        aliasType: primary
+      - raw: Independent Director System
+        aliasType: en_alias
+  - slug: du-dong-xin-gui
+    headword: 独董新规
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 独立董事改革规定。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 独立董事改革规定。
+        example: 独董新规压实责任。
+        isPrimary: true
+    aliases:
+      - raw: 独董新规
+        aliasType: primary
+      - raw: New ID Rules
+        aliasType: en_alias
+  - slug: xian-chang-jian-cha
+    headword: 现场检查
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 监管现场检查。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 监管现场检查。
+        example: 检查发现问题整改。
+        isPrimary: true
+    aliases:
+      - raw: 现场检查
+        aliasType: primary
+      - raw: On-site Inspection
+        aliasType: en_alias
+  - slug: nian-bao-wen-xun
+    headword: 年报问询
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 年报问询函。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 年报问询函。
+        example: 问询关注异常。
+        isPrimary: true
+    aliases:
+      - raw: 年报问询
+        aliasType: primary
+      - raw: Annual Inquiry
+        aliasType: en_alias
+  - slug: ban-nian-bao-wen-xun
+    headword: 半年报问询
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 半年报问询。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 半年报问询。
+        example: 问询常态化。
+        isPrimary: true
+    aliases:
+      - raw: 半年报问询
+        aliasType: primary
+      - raw: Interim Inquiry
+        aliasType: en_alias
+  - slug: jian-guan-guan-zhu-han
+    headword: 监管关注函
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 监管关注函件。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 监管关注函件。
+        example: 关注函提示风险。
+        isPrimary: true
+    aliases:
+      - raw: 监管关注函
+        aliasType: primary
+      - raw: Attention Letter
+        aliasType: en_alias
+  - slug: jian-guan-cuo-shi
+    headword: 监管措施
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 行政监管措施。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 行政监管措施。
+        example: 措施多样。
+        isPrimary: true
+    aliases:
+      - raw: 监管措施
+        aliasType: primary
+      - raw: Regulatory Measures
+        aliasType: en_alias
+  - slug: ji-l-chu-fen
+    headword: 纪律处分
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 违规纪律处分。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 违规纪律处分。
+        example: 处分记录在案。
+        isPrimary: true
+    aliases:
+      - raw: 纪律处分
+        aliasType: primary
+      - raw: Disciplinary Action
+        aliasType: en_alias
+  - slug: zi-l-jian-guan
+    headword: 自律监管
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 交易所自律监管。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 交易所自律监管。
+        example: 自律监管一线。
+        isPrimary: true
+    aliases:
+      - raw: 自律监管
+        aliasType: primary
+      - raw: Self-regulation
+        aliasType: en_alias
+  - slug: hui-yuan-guan-li
+    headword: 会员管理
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 交易所会员管理。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 交易所会员管理。
+        example: 会员违规受罚。
+        isPrimary: true
+    aliases:
+      - raw: 会员管理
+        aliasType: primary
+      - raw: Member Management
+        aliasType: en_alias
+  - slug: tou-zi-zhe-shi-dang-xing-guan-li
+    headword: 投资者适当性管理
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资者匹配管理。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资者匹配管理。
+        example: 适当性防风险。
+        isPrimary: true
+    aliases:
+      - raw: 投资者适当性管理
+        aliasType: primary
+      - raw: Suitability Management
+        aliasType: en_alias
+  - slug: zhi-shi-ce-shi
+    headword: 知识测试
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投资者知识测评。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 投资者知识测评。
+        example: 测试准入高风险产品。
+        isPrimary: true
+    aliases:
+      - raw: 知识测试
+        aliasType: primary
+      - raw: Knowledge Test
+        aliasType: en_alias
+  - slug: feng-xian-jie-shi
+    headword: 风险揭示
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 风险告知义务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 风险告知义务。
+        example: 揭示充分防误导。
+        isPrimary: true
+    aliases:
+      - raw: 风险揭示
+        aliasType: primary
+      - raw: Risk Disclosure
+        aliasType: en_alias
+  - slug: shuang-lu-yao-qiu
+    headword: 双录要求
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 销售双录要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 销售双录要求。
+        example: 双录留痕。
+        isPrimary: true
+    aliases:
+      - raw: 双录要求
+        aliasType: primary
+      - raw: Dual Recording Requirement
+        aliasType: en_alias
+  - slug: xiao-shou-gui-fan
+    headword: 销售规范
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 产品销售规范。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 产品销售规范。
+        example: 规范保护投资者。
+        isPrimary: true
+    aliases:
+      - raw: 销售规范
+        aliasType: primary
+      - raw: Sales Rules
+        aliasType: en_alias
+  - slug: xuan-chuan-gui-fan
+    headword: 宣传规范
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 产品宣传规范。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 产品宣传规范。
+        example: 宣传禁夸大。
+        isPrimary: true
+    aliases:
+      - raw: 宣传规范
+        aliasType: primary
+      - raw: Marketing Rules
+        aliasType: en_alias
+  - slug: guang-gao-he-gui
+    headword: 广告合规
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 营销广告合规。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 营销广告合规。
+        example: 广告禁承诺收益。
+        isPrimary: true
+    aliases:
+      - raw: 广告合规
+        aliasType: primary
+      - raw: Advertising Compliance
+        aliasType: en_alias
+  - slug: jing-zhi-pi-lu
+    headword: 净值披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 产品净值披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 产品净值披露。
+        example: 披露及时透明。
+        isPrimary: true
+    aliases:
+      - raw: 净值披露
+        aliasType: primary
+      - raw: NAV Disclosure
+        aliasType: en_alias
+  - slug: feng-xian-cheng-shou-ce-ping
+    headword: 风险承受测评
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 风险测评问卷。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 风险测评问卷。
+        example: 测评结果分级。
+        isPrimary: true
+    aliases:
+      - raw: 风险承受测评
+        aliasType: primary
+      - raw: Risk Profile Test
+        aliasType: en_alias
+  - slug: ding-qi-xin-xi-pi-lu
+    headword: 定期信息披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 定期报告披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 定期报告披露。
+        example: 定期披露常态化。
+        isPrimary: true
+    aliases:
+      - raw: 定期信息披露
+        aliasType: primary
+      - raw: Periodic Disclosure
+        aliasType: en_alias
+  - slug: lin-shi-xin-xi-pi-lu
+    headword: 临时信息披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 临时事件披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 临时事件披露。
+        example: 临时披露及时性。
+        isPrimary: true
+    aliases:
+      - raw: 临时信息披露
+        aliasType: primary
+      - raw: Ad-hoc Disclosure
+        aliasType: en_alias
+  - slug: zi-yuan-xing-xin-xi-pi-lu
+    headword: 自愿性信息披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 自愿披露信息。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 自愿披露信息。
+        example: 自愿披露增透明。
+        isPrimary: true
+    aliases:
+      - raw: 自愿性信息披露
+        aliasType: primary
+      - raw: Voluntary Disclosure
+        aliasType: en_alias
+  - slug: yu-ce-xing-xin-xi-pi-lu
+    headword: 预测性信息披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 前瞻信息披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 前瞻信息披露。
+        example: 前瞻披露需谨慎。
+        isPrimary: true
+    aliases:
+      - raw: 预测性信息披露
+        aliasType: primary
+      - raw: Forward-looking Disclosure
+        aliasType: en_alias
+  - slug: ye-ji-yu-gao-pi-lu
+    headword: 业绩预告披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 业绩预告要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 业绩预告要求。
+        example: 预告披露有条件。
+        isPrimary: true
+    aliases:
+      - raw: 业绩预告披露
+        aliasType: primary
+      - raw: Earnings Forecast Disclosure
+        aliasType: en_alias
+  - slug: ye-ji-kuai-bao-pi-lu
+    headword: 业绩快报披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 业绩快报要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 业绩快报要求。
+        example: 快报及时准确。
+        isPrimary: true
+    aliases:
+      - raw: 业绩快报披露
+        aliasType: primary
+      - raw: Flash Disclosure
+        aliasType: en_alias
+  - slug: fen-hong-xin-xi-pi-lu
+    headword: 分红信息披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 分红方案披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 分红方案披露。
+        example: 分红披露明确。
+        isPrimary: true
+    aliases:
+      - raw: 分红信息披露
+        aliasType: primary
+      - raw: Dividend Disclosure
+        aliasType: en_alias
+  - slug: jian-chi-xin-xi-pi-lu
+    headword: 减持信息披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 减持计划披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 减持计划披露。
+        example: 披露约束减持。
+        isPrimary: true
+    aliases:
+      - raw: 减持信息披露
+        aliasType: primary
+      - raw: Reduction Disclosure
+        aliasType: en_alias
+  - slug: zeng-chi-xin-xi-pi-lu
+    headword: 增持信息披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 增持计划披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 增持计划披露。
+        example: 增持披露及时。
+        isPrimary: true
+    aliases:
+      - raw: 增持信息披露
+        aliasType: primary
+      - raw: Increase Disclosure
+        aliasType: en_alias
+  - slug: zhong-da-he-tong-pi-lu
+    headword: 重大合同披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 重大合同披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 重大合同披露。
+        example: 合同披露涉股价。
+        isPrimary: true
+    aliases:
+      - raw: 重大合同披露
+        aliasType: primary
+      - raw: Contract Disclosure
+        aliasType: en_alias
+  - slug: zhong-da-su-song-pi-lu
+    headword: 重大诉讼披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 重大诉讼披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 重大诉讼披露。
+        example: 诉讼披露提示风险。
+        isPrimary: true
+    aliases:
+      - raw: 重大诉讼披露
+        aliasType: primary
+      - raw: Litigation Disclosure
+        aliasType: en_alias
+  - slug: dan-bao-pi-lu
+    headword: 担保披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对外担保披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对外担保披露。
+        example: 担保披露防风险。
+        isPrimary: true
+    aliases:
+      - raw: 担保披露
+        aliasType: primary
+      - raw: Guarantee Disclosure
+        aliasType: en_alias
+  - slug: shou-gou-pi-lu
+    headword: 收购披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 收购事项披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 收购事项披露。
+        example: 收购披露完整。
+        isPrimary: true
+    aliases:
+      - raw: 收购披露
+        aliasType: primary
+      - raw: Acquisition Disclosure
+        aliasType: en_alias
+  - slug: zhong-zu-pi-lu
+    headword: 重组披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 重组进展披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 重组进展披露。
+        example: 重组披露分阶段。
+        isPrimary: true
+    aliases:
+      - raw: 重组披露
+        aliasType: primary
+      - raw: Restructuring Disclosure
+        aliasType: en_alias
+  - slug: ting-pai-pi-lu
+    headword: 停牌披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 停牌事项披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 停牌事项披露。
+        example: 停牌披露原因。
+        isPrimary: true
+    aliases:
+      - raw: 停牌披露
+        aliasType: primary
+      - raw: Halt Disclosure
+        aliasType: en_alias
+  - slug: fu-pai-pi-lu
+    headword: 复牌披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 复牌事项披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 复牌事项披露。
+        example: 复牌披露进展。
+        isPrimary: true
+    aliases:
+      - raw: 复牌披露
+        aliasType: primary
+      - raw: Resume Disclosure
+        aliasType: en_alias
+  - slug: cheng-qing-pi-lu
+    headword: 澄清披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 澄清事项披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 澄清事项披露。
+        example: 澄清及时止谣。
+        isPrimary: true
+    aliases:
+      - raw: 澄清披露
+        aliasType: primary
+      - raw: Clarification Disclosure
+        aliasType: en_alias
+  - slug: geng-zheng-pi-lu
+    headword: 更正披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 信息更正披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 信息更正披露。
+        example: 更正减少误导。
+        isPrimary: true
+    aliases:
+      - raw: 更正披露
+        aliasType: primary
+      - raw: Correction Disclosure
+        aliasType: en_alias
+  - slug: bu-chong-pi-lu
+    headword: 补充披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 补充信息披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 补充信息披露。
+        example: 补充完善信息。
+        isPrimary: true
+    aliases:
+      - raw: 补充披露
+        aliasType: primary
+      - raw: Supplemental Disclosure
+        aliasType: en_alias
+  - slug: huo-mian-pi-lu
+    headword: 豁免披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 披露豁免情形。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 披露豁免情形。
+        example: 豁免需申请。
+        isPrimary: true
+    aliases:
+      - raw: 豁免披露
+        aliasType: primary
+      - raw: Disclosure Exemption
+        aliasType: en_alias
+  - slug: zan-huan-pi-lu
+    headword: 暂缓披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 暂缓披露安排。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 暂缓披露安排。
+        example: 暂缓防泄露。
+        isPrimary: true
+    aliases:
+      - raw: 暂缓披露
+        aliasType: primary
+      - raw: Deferred Disclosure
+        aliasType: en_alias
+  - slug: bao-mi-yi-wu
+    headword: 保密义务
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 信息保密义务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 信息保密义务。
+        example: 保密防内幕。
+        isPrimary: true
+    aliases:
+      - raw: 保密义务
+        aliasType: primary
+      - raw: Confidentiality Obligation
+        aliasType: en_alias
+  - slug: nei-mu-xin-xi-zhi-qing-ren-deng-ji
+    headword: 内幕信息知情人登记
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 知情人登记制度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 知情人登记制度。
+        example: 登记追溯责任。
+        isPrimary: true
+    aliases:
+      - raw: 内幕信息知情人登记
+        aliasType: primary
+      - raw: Insider Registration
+        aliasType: en_alias
+  - slug: nei-mu-xin-xi-bao-mi
+    headword: 内幕信息保密
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 内幕信息保密。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 内幕信息保密。
+        example: 泄密追责。
+        isPrimary: true
+    aliases:
+      - raw: 内幕信息保密
+        aliasType: primary
+      - raw: Insider Secrecy
+        aliasType: en_alias
+  - slug: chuang-kou-qi-jiao-yi-xian-zhi
+    headword: 窗口期交易限制
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 敏感期交易限制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 敏感期交易限制。
+        example: 窗口期禁交易。
+        isPrimary: true
+    aliases:
+      - raw: 窗口期交易限制
+        aliasType: primary
+      - raw: Window Trading Restriction
+        aliasType: en_alias
+  - slug: duan-xian-jiao-yi-xian-zhi
+    headword: 短线交易限制
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 短线交易限制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 短线交易限制。
+        example: 短线收益归公司。
+        isPrimary: true
+    aliases:
+      - raw: 短线交易限制
+        aliasType: primary
+      - raw: Short-swing Restriction
+        aliasType: en_alias
+  - slug: dong-jian-gao-chi-gu-bian-dong
+    headword: 董监高持股变动
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 高管持股变动披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 高管持股变动披露。
+        example: 变动需公告。
+        isPrimary: true
+    aliases:
+      - raw: 董监高持股变动
+        aliasType: primary
+      - raw: Executives' Share Changes
+        aliasType: en_alias
+  - slug: gu-fen-bian-dong-gong-gao
+    headword: 股份变动公告
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股份变动披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股份变动披露。
+        example: 公告说明变动。
+        isPrimary: true
+    aliases:
+      - raw: 股份变动公告
+        aliasType: primary
+      - raw: Share Change Announcement
+        aliasType: en_alias
+  - slug: tong-bu-pi-lu
+    headword: 同步披露
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 信息同步发布。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 信息同步发布。
+        example: 同步披露保公平。
+        isPrimary: true
+    aliases:
+      - raw: 同步披露
+        aliasType: primary
+      - raw: Simultaneous Disclosure
+        aliasType: en_alias
+  - slug: shu-ju-an-quan-he-gui
+    headword: 数据安全合规
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 数据合规要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 数据合规要求。
+        example: 合规保安全。
+        isPrimary: true
+    aliases:
+      - raw: 数据安全合规
+        aliasType: primary
+      - raw: Data Compliance
+        aliasType: en_alias
+  - slug: fen-lei-jian-guan
+    headword: 分类监管
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 分类分级监管。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 分类分级监管。
+        example: 分类提效率。
+        isPrimary: true
+    aliases:
+      - raw: 分类监管
+        aliasType: primary
+      - raw: Classified Supervision
+        aliasType: en_alias
+  - slug: chuan-tou-shi-jian-guan
+    headword: 穿透式监管
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 穿透核查监管。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 穿透核查监管。
+        example: 穿透防规避。
+        isPrimary: true
+    aliases:
+      - raw: 穿透式监管
+        aliasType: primary
+      - raw: Look-through Supervision
+        aliasType: en_alias
+  - slug: quan-lian-tiao-jian-guan
+    headword: 全链条监管
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 全流程监管。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 全流程监管。
+        example: 链条防漏洞。
+        isPrimary: true
+    aliases:
+      - raw: 全链条监管
+        aliasType: primary
+      - raw: Full-chain Supervision
+        aliasType: en_alias
+  - slug: gong-neng-jian-guan
+    headword: 功能监管
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按功能监管。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按功能监管。
+        example: 功能防套利。
+        isPrimary: true
+    aliases:
+      - raw: 功能监管
+        aliasType: primary
+      - raw: Functional Regulation
+        aliasType: en_alias
+  - slug: xing-wei-jian-guan
+    headword: 行为监管
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按行为监管。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按行为监管。
+        example: 行为保消费者。
+        isPrimary: true
+    aliases:
+      - raw: 行为监管
+        aliasType: primary
+      - raw: Conduct Regulation
+        aliasType: en_alias
+  - slug: ji-gou-jian-guan
+    headword: 机构监管
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按机构监管。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按机构监管。
+        example: 机构管牌照。
+        isPrimary: true
+    aliases:
+      - raw: 机构监管
+        aliasType: primary
+      - raw: Institutional Regulation
+        aliasType: en_alias
+  - slug: hong-guan-shen-shen-jian-guan
+    headword: 宏观审慎监管
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 系统性风险监管。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 系统性风险监管。
+        example: 宏观审慎防系统。
+        isPrimary: true
+    aliases:
+      - raw: 宏观审慎监管
+        aliasType: primary
+      - raw: Macro Prudential Regulation
+        aliasType: en_alias
+  - slug: wei-guan-shen-shen-jian-guan
+    headword: 微观审慎监管
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 单体机构监管。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 单体机构监管。
+        example: 微观审慎保个体。
+        isPrimary: true
+    aliases:
+      - raw: 微观审慎监管
+        aliasType: primary
+      - raw: Micro Prudential Regulation
+        aliasType: en_alias
+  - slug: jian-guan-xie-tiao
+    headword: 监管协调
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跨部门监管协同。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 跨部门监管协同。
+        example: 协调防真空。
+        isPrimary: true
+    aliases:
+      - raw: 监管协调
+        aliasType: primary
+      - raw: Regulatory Coordination
+        aliasType: en_alias
+  - slug: jian-guan-sha-he-shi-dian
+    headword: 监管沙盒试点
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 创新试点机制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 创新试点机制。
+        example: 试点控风险。
+        isPrimary: true
+    aliases:
+      - raw: 监管沙盒试点
+        aliasType: primary
+      - raw: Sandbox Pilot
+        aliasType: en_alias
+  - slug: jin-rong-pu-hui
+    headword: 金融普惠
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 金融普及惠及。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 金融普及惠及。
+        example: 普惠促公平。
+        isPrimary: true
+    aliases:
+      - raw: 金融普惠
+        aliasType: primary
+      - raw: Financial Inclusion
+        aliasType: en_alias
+  - slug: jin-rong-fu-wu-shi-ti-jing-ji
+    headword: 金融服务实体经济
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 金融服务实体导向。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 金融服务实体导向。
+        example: 服务实体是根本。
+        isPrimary: true
+    aliases:
+      - raw: 金融服务实体经济
+        aliasType: primary
+      - raw: Serving Real Economy
+        aliasType: en_alias
+  - slug: jin-rong-zhi-chi-ke-ji
+    headword: 金融支持科技
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 金融支持科技创新。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 金融支持科技创新。
+        example: 支持促研发。
+        isPrimary: true
+    aliases:
+      - raw: 金融支持科技
+        aliasType: primary
+      - raw: Tech Finance Support
+        aliasType: en_alias
+  - slug: jin-rong-zhi-chi-l-se
+    headword: 金融支持绿色
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 金融支持绿色发展。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 金融支持绿色发展。
+        example: 支持促转型。
+        isPrimary: true
+    aliases:
+      - raw: 金融支持绿色
+        aliasType: primary
+      - raw: Green Finance Support
+        aliasType: en_alias
+  - slug: jin-rong-zhi-chi-xiao-wei
+    headword: 金融支持小微
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 金融支持小微企业。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 金融支持小微企业。
+        example: 支持保就业。
+        isPrimary: true
+    aliases:
+      - raw: 金融支持小微
+        aliasType: primary
+      - raw: SME Finance Support
+        aliasType: en_alias
+  - slug: jin-rong-zhi-chi-san-nong
+    headword: 金融支持三农
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 金融支持三农。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 金融支持三农。
+        example: 支持促乡村。
+        isPrimary: true
+    aliases:
+      - raw: 金融支持三农
+        aliasType: primary
+      - raw: Rural Finance Support
+        aliasType: en_alias
+  - slug: jin-rong-zhi-chi-yang-lao
+    headword: 金融支持养老
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 金融支持养老产业。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 金融支持养老产业。
+        example: 支持促养老。
+        isPrimary: true
+    aliases:
+      - raw: 金融支持养老
+        aliasType: primary
+      - raw: Pension Finance Support
+        aliasType: en_alias
+  - slug: shu-ju-ru-biao
+    headword: 数据入表
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 数据资产入表。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 数据资产入表。
+        example: 入表促规范。
+        isPrimary: true
+    aliases:
+      - raw: 数据入表
+        aliasType: primary
+      - raw: Data on Balance Sheet
+        aliasType: en_alias
+  - slug: shu-ju-que-quan-deng-ji
+    headword: 数据确权登记
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 数据产权登记。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 数据产权登记。
+        example: 登记促保障。
+        isPrimary: true
+    aliases:
+      - raw: 数据确权登记
+        aliasType: primary
+      - raw: Data Registration
+        aliasType: en_alias
+  - slug: shu-ju-kai-fang
+    headword: 数据开放
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公共数据开放。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公共数据开放。
+        example: 开放促利用。
+        isPrimary: true
+    aliases:
+      - raw: 数据开放
+        aliasType: primary
+      - raw: Data Opening
+        aliasType: en_alias
+  - slug: shu-ju-fen-lei-fen-ji
+    headword: 数据分类分级
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 数据分级保护。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 数据分级保护。
+        example: 分级促安全。
+        isPrimary: true
+    aliases:
+      - raw: 数据分类分级
+        aliasType: primary
+      - raw: Data Classification
+        aliasType: en_alias
+  - slug: zhong-yao-shu-ju
+    headword: 重要数据
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 重要数据保护。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 重要数据保护。
+        example: 保护促安全。
+        isPrimary: true
+    aliases:
+      - raw: 重要数据
+        aliasType: primary
+      - raw: Important Data
+        aliasType: en_alias
+  - slug: he-xin-shu-ju
+    headword: 核心数据
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 核心数据保护。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 核心数据保护。
+        example: 保护最严格。
+        isPrimary: true
+    aliases:
+      - raw: 核心数据
+        aliasType: primary
+      - raw: Core Data
+        aliasType: en_alias
+  - slug: yi-ban-shu-ju
+    headword: 一般数据
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 一般数据管理。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 一般数据管理。
+        example: 管理常规化。
+        isPrimary: true
+    aliases:
+      - raw: 一般数据
+        aliasType: primary
+      - raw: General Data
+        aliasType: en_alias
+  - slug: ge-ren-xin-xi
+    headword: 个人信息
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 个人数据保护。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 个人数据保护。
+        example: 保护促合规。
+        isPrimary: true
+    aliases:
+      - raw: 个人信息
+        aliasType: primary
+      - raw: Personal Information
+        aliasType: en_alias
+  - slug: min-gan-ge-ren-xin-xi
+    headword: 敏感个人信息
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 敏感信息保护。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 敏感信息保护。
+        example: 保护更严格。
+        isPrimary: true
+    aliases:
+      - raw: 敏感个人信息
+        aliasType: primary
+      - raw: Sensitive Personal Information
+        aliasType: en_alias
+  - slug: sheng-wu-shi-bie-xin-xi
+    headword: 生物识别信息
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 生物信息保护。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 生物信息保护。
+        example: 保护最严格。
+        isPrimary: true
+    aliases:
+      - raw: 生物识别信息
+        aliasType: primary
+      - raw: Biometric Data
+        aliasType: en_alias
+  - slug: shu-ju-kua-jing-an-quan-ping-gu
+    headword: 数据跨境安全评估
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 数据出境评估。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 数据出境评估。
+        example: 评估促合规。
+        isPrimary: true
+    aliases:
+      - raw: 数据跨境安全评估
+        aliasType: primary
+      - raw: Cross-border Assessment
+        aliasType: en_alias
+  - slug: ge-ren-xin-xi-bao-hu-ying-xiang-ping-gu
+    headword: 个人信息保护影响评估
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 个保影响评估。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 个保影响评估。
+        example: 评估促合规。
+        isPrimary: true
+    aliases:
+      - raw: 个人信息保护影响评估
+        aliasType: primary
+      - raw: PIPIA
+        aliasType: en_alias
+  - slug: suan-fa-bei-an
+    headword: 算法备案
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 算法备案制度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 算法备案制度。
+        example: 备案促规范。
+        isPrimary: true
+    aliases:
+      - raw: 算法备案
+        aliasType: primary
+      - raw: Algorithm Filing
+        aliasType: en_alias
+  - slug: suan-fa-zhi-li
+    headword: 算法治理
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 算法治理规范。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 算法治理规范。
+        example: 治理促公平。
+        isPrimary: true
+    aliases:
+      - raw: 算法治理
+        aliasType: primary
+      - raw: Algorithm Governance
+        aliasType: en_alias
+  - slug: suan-fa-tou-ming-du
+    headword: 算法透明度
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 算法公开透明。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 算法公开透明。
+        example: 透明促信任。
+        isPrimary: true
+    aliases:
+      - raw: 算法透明度
+        aliasType: primary
+      - raw: Algorithm Transparency
+        aliasType: en_alias
+  - slug: suan-fa-an-quan
+    headword: 算法安全
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 算法安全要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 算法安全要求。
+        example: 安全促可靠。
+        isPrimary: true
+    aliases:
+      - raw: 算法安全
+        aliasType: primary
+      - raw: Algorithm Safety
+        aliasType: en_alias
+  - slug: ren-gong-zhi-neng-zhi-li
+    headword: 人工智能治理
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: AI治理规范。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: AI治理规范。
+        example: 治理促发展。
+        isPrimary: true
+    aliases:
+      - raw: 人工智能治理
+        aliasType: primary
+      - raw: AI Governance
+        aliasType: en_alias
+  - slug: ren-gong-zhi-neng-lun-li
+    headword: 人工智能伦理
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: AI伦理要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: AI伦理要求。
+        example: 伦理促向善。
+        isPrimary: true
+    aliases:
+      - raw: 人工智能伦理
+        aliasType: primary
+      - raw: AI Ethics
+        aliasType: en_alias
+  - slug: ke-xin-ren-gong-zhi-neng
+    headword: 可信人工智能
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 可信AI要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 可信AI要求。
+        example: 可信促应用。
+        isPrimary: true
+    aliases:
+      - raw: 可信人工智能
+        aliasType: primary
+      - raw: Trustworthy AI
+        aliasType: en_alias
+  - slug: fu-ze-ren-chuang-xin
+    headword: 负责任创新
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 负责任技术创新。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 负责任技术创新。
+        example: 责任促可持续。
+        isPrimary: true
+    aliases:
+      - raw: 负责任创新
+        aliasType: primary
+      - raw: Responsible Innovation
+        aliasType: en_alias
+  - slug: ke-ji-xiang-shan
+    headword: 科技向善
+    categoryL1: 宏观政策
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 技术向善理念。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 技术向善理念。
+        example: 向善促价值。
+        isPrimary: true
+    aliases:
+      - raw: 科技向善
+        aliasType: primary
+      - raw: Tech for Good
+        aliasType: en_alias

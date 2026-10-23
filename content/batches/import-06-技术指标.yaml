@@ -1,0 +1,121 @@
+category: 技术指标
+source: import wave 6 from 10_技术分析.tsv (2026-10-22) — 布林带组件，长尾层；示例已改写成无黑话/无建议词
+terms:
+  - slug: bu-lin-zhong-gui
+    headword: 布林中轨
+    categoryL1: 技术指标
+    categoryL2: 波动率指标
+    difficulty: L2
+    summaryPlain: 布林带中间的那条线，通常为20日均线，是多空强弱的分界。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 布林带中间的那条线，通常为20日均线，是多空强弱的分界。
+        example: 股价运行在布林中轨上方，通常视为偏强。
+        isPrimary: true
+    aliases:
+      - raw: 布林中轨
+        aliasType: primary
+      - raw: Bollinger Middle Band
+        aliasType: en_alias
+      - raw: 中轨
+        aliasType: cn_alias
+  - slug: bu-lin-shang-gui
+    headword: 布林上轨
+    categoryL1: 技术指标
+    categoryL2: 波动率指标
+    difficulty: L2
+    summaryPlain: 布林带上方轨道，通常为中轨加两倍标准差，是短期压力位置。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 布林带上方轨道，通常为中轨加两倍标准差，是短期压力位置。
+        example: 股价运行到布林上轨附近，短线常会遇到阻力。
+        isPrimary: true
+    aliases:
+      - raw: 布林上轨
+        aliasType: primary
+      - raw: Bollinger Upper Band
+        aliasType: en_alias
+      - raw: 上轨
+        aliasType: cn_alias
+  - slug: bu-lin-xia-gui
+    headword: 布林下轨
+    categoryL1: 技术指标
+    categoryL2: 波动率指标
+    difficulty: L2
+    summaryPlain: 布林带下方轨道，通常为中轨减两倍标准差，是短期支撑位置。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 布林带下方轨道，通常为中轨减两倍标准差，是短期支撑位置。
+        example: 股价运行到布林下轨附近，常被视为短期偏低的区域。
+        isPrimary: true
+    aliases:
+      - raw: 布林下轨
+        aliasType: primary
+      - raw: Bollinger Lower Band
+        aliasType: en_alias
+      - raw: 下轨
+        aliasType: cn_alias
+  - slug: bu-lin-dai-shou-kou
+    headword: 布林带收口
+    categoryL1: 技术指标
+    categoryL2: 波动率指标
+    difficulty: L2
+    summaryPlain: 布林带上下轨间距由宽收窄、波动率下降的状态，常预示大行情即将到来。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 布林带上下轨间距由宽收窄、波动率下降的状态，常预示大行情即将到来。
+        example: 布林带收口一段时间后，往往会选择新的运行方向。
+        isPrimary: true
+    aliases:
+      - raw: 布林带收口
+        aliasType: primary
+      - raw: Bollinger Squeeze
+        aliasType: en_alias
+      - raw: 布林收口
+        aliasType: cn_alias
+  - slug: bu-lin-dai-kai-kou
+    headword: 布林带开口
+    categoryL1: 技术指标
+    categoryL2: 波动率指标
+    difficulty: L2
+    summaryPlain: 布林带上下轨由收窄重新张开、波动率放大的状态，常伴随趋势启动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 布林带上下轨由收窄重新张开、波动率放大的状态，常伴随趋势启动。
+        example: 布林带开口向上，往往意味着趋势正在展开。
+        isPrimary: true
+    aliases:
+      - raw: 布林带开口
+        aliasType: primary
+      - raw: Bollinger Expansion
+        aliasType: en_alias
+      - raw: 布林开口
+        aliasType: cn_alias
+  - slug: bu-lin-dai-kuan
+    headword: 布林带宽
+    categoryL1: 技术指标
+    categoryL2: 波动率指标
+    difficulty: L3
+    summaryPlain: 布林带上轨与下轨之差除以中轨得到的相对宽度，用来衡量波动率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 布林带上轨与下轨之差除以中轨得到的相对宽度，用来衡量波动率。
+        example: 布林带宽处于历史低位，说明近期波动率很窄。
+        isPrimary: true
+    aliases:
+      - raw: 布林带宽
+        aliasType: primary
+      - raw: Bollinger Bandwidth
+        aliasType: en_alias

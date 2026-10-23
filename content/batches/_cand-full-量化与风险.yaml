@@ -1,0 +1,2420 @@
+source: gen from full.tsv --all 市场×类型×关键词路由 (待精修)
+terms:
+  - slug: nian-fu-he-zeng-zhang-l
+    headword: 年复合增长率
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 把多年增长折算成每年平均增速的指标，平滑了年度间的波动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 把多年增长折算成每年平均增速的指标，平滑了年度间的波动。
+        example: 近五年收入年复合增长率CAGR达到30%，成长属性突出。
+        isPrimary: true
+    aliases:
+      - raw: 年复合增长率
+        aliasType: primary
+      - raw: CAGR
+        aliasType: en_alias
+      - raw: Compound Annual Growth Rate
+        aliasType: en_alias
+  - slug: quan-yi-cheng-shu
+    headword: 权益乘数
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 总资产与股东权益之比，是杜邦分析中衡量财务杠杆的一环。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 总资产与股东权益之比，是杜邦分析中衡量财务杠杆的一环。
+        example: 权益乘数升高，说明公司ROE提升更多靠加杠杆。
+        isPrimary: true
+    aliases:
+      - raw: 权益乘数
+        aliasType: primary
+      - raw: Equity Multiplier
+        aliasType: en_alias
+  - slug: gu-quan-cheng-ben
+    headword: 股权成本
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股东要求的最低回报率，常用CAPM模型估计，是WACC的组成部分。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 股东要求的最低回报率，常用CAPM模型估计，是WACC的组成部分。
+        example: 股权成本随风险上升而提高，拉低估值。
+        isPrimary: true
+    aliases:
+      - raw: 股权成本
+        aliasType: primary
+      - raw: Cost of Equity
+        aliasType: en_alias
+  - slug: jing-ying-gang-gan-xi-shu
+    headword: 经营杠杆系数
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 利润变动率相对收入变动率的倍数，衡量经营杠杆大小。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 利润变动率相对收入变动率的倍数，衡量经营杠杆大小。
+        example: 经营杠杆系数大于1，利润弹性大于收入弹性。
+        isPrimary: true
+    aliases:
+      - raw: 经营杠杆系数
+        aliasType: primary
+      - raw: Degree of Operating Leverage
+        aliasType: en_alias
+  - slug: cai-wu-gang-gan-xi-shu
+    headword: 财务杠杆系数
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 每股收益变动率相对息税前利润变动率的倍数。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 每股收益变动率相对息税前利润变动率的倍数。
+        example: 财务杠杆系数高，债务对股东收益的放大作用强。
+        isPrimary: true
+    aliases:
+      - raw: 财务杠杆系数
+        aliasType: primary
+      - raw: Degree of Financial Leverage
+        aliasType: en_alias
+  - slug: li-run-ping-hua
+    headword: 利润平滑
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 通过会计调节使各期利润波动趋于平缓的盈余管理方式。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 通过会计调节使各期利润波动趋于平缓的盈余管理方式。
+        example: 利润平滑虽然平滑了报表，却掩盖了真实波动。
+        isPrimary: true
+    aliases:
+      - raw: 利润平滑
+        aliasType: primary
+      - raw: Earnings Smoothing
+        aliasType: en_alias
+  - slug: yuan-cai-liao
+    headword: 原材料
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 生产过程中未经加工的存货部分，价格波动直接影响成本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 生产过程中未经加工的存货部分，价格波动直接影响成本。
+        example: 原材料涨价挤压下游制造企业毛利。
+        isPrimary: true
+    aliases:
+      - raw: 原材料
+        aliasType: primary
+      - raw: Raw Materials
+        aliasType: en_alias
+  - slug: zi-ben-zi-chan-ding-jia-mo-xing
+    headword: 资本资产定价模型
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 描述资产预期收益与系统风险贝塔之间关系的定价模型。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 描述资产预期收益与系统风险贝塔之间关系的定价模型。
+        example: 用资本资产定价模型算出股权成本。
+        isPrimary: true
+    aliases:
+      - raw: 资本资产定价模型
+        aliasType: primary
+      - raw: CAPM
+        aliasType: en_alias
+      - raw: Capital Asset Pricing Model
+        aliasType: en_alias
+  - slug: sheng-yu-shou-yi-mo-xing
+    headword: 剩余收益模型
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以未来剩余收益折现来估计股权内在价值的估值模型。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以未来剩余收益折现来估计股权内在价值的估值模型。
+        example: 剩余收益模型对高ROE公司更适用。
+        isPrimary: true
+    aliases:
+      - raw: 剩余收益模型
+        aliasType: primary
+      - raw: Residual Income Model
+        aliasType: en_alias
+  - slug: dan-dian-mo-xing
+    headword: 单店模型
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以单个门店为单位测算收入、成本与回报的经营模型。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以单个门店为单位测算收入、成本与回报的经营模型。
+        example: 单店模型跑通后，连锁扩张才有意义。
+        isPrimary: true
+    aliases:
+      - raw: 单店模型
+        aliasType: primary
+      - raw: Single-store Model
+        aliasType: en_alias
+  - slug: tao-qi-gong-ju
+    headword: 套期工具
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 为对冲风险而指定、其公允价值或现金流预期抵销被套期项目变动的衍生工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 为对冲风险而指定、其公允价值或现金流预期抵销被套期项目变动的衍生工具。
+        example: 套期工具与被套期项目损益配比计入。
+        isPrimary: true
+    aliases:
+      - raw: 套期工具
+        aliasType: primary
+      - raw: Hedging Instrument
+        aliasType: en_alias
+  - slug: cheng-ben-jie-gou
+    headword: 成本结构
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 固定成本与变动成本、各项成本之间的构成比例，决定经营杠杆大小。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 固定成本与变动成本、各项成本之间的构成比例，决定经营杠杆大小。
+        example: 成本结构中固定成本占比高，经营杠杆大。
+        isPrimary: true
+    aliases:
+      - raw: 成本结构
+        aliasType: primary
+      - raw: Cost Structure
+        aliasType: en_alias
+  - slug: p-e-b-a-n-d
+    headword: PE Band
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 市盈率在历史区间中随时间波动形成的带状轨迹，用于看贵贱。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市盈率在历史区间中随时间波动形成的带状轨迹，用于看贵贱。
+        example: 股价沿PE Band上轨运行，估值已偏贵。
+        isPrimary: true
+    aliases:
+      - raw: PE Band
+        aliasType: primary
+      - raw: 估值带
+        aliasType: cn_alias
+  - slug: bai-dong-zhi-biao
+    headword: 摆动指标
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 在固定区间内上下波动、用于判断超买超卖和背离的一类技术指标总称。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 在固定区间内上下波动、用于判断超买超卖和背离的一类技术指标总称。
+        example: RSI、KDJ、WR都属于摆动指标。
+        isPrimary: true
+    aliases:
+      - raw: 摆动指标
+        aliasType: primary
+      - raw: Oscillator
+        aliasType: en_alias
+  - slug: e-m-v-jian-yi-bo-dong
+    headword: EMV简易波动
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 结合价格变动与成交量、反映价格轻松运动程度的指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 结合价格变动与成交量、反映价格轻松运动程度的指标。
+        example: EMV持续上行说明上涨毫不费力。
+        isPrimary: true
+    aliases:
+      - raw: EMV简易波动
+        aliasType: primary
+      - raw: Ease of Movement
+        aliasType: en_alias
+      - raw: EMV
+        aliasType: en_alias
+  - slug: kuo-san-san-jiao-xing
+    headword: 扩散三角形
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 高点不断上移、低点不断下移的喇叭形三角形，波动越来越大。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 高点不断上移、低点不断下移的喇叭形三角形，波动越来越大。
+        example: 扩散三角形通常出现在情绪极端处。
+        isPrimary: true
+    aliases:
+      - raw: 扩散三角形
+        aliasType: primary
+      - raw: Broadening Triangle
+        aliasType: en_alias
+  - slug: duan-zan-qu-shi
+    headword: 短暂趋势
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 道氏理论中持续不到三周的日内或日间波动，噪音较大。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 道氏理论中持续不到三周的日内或日间波动，噪音较大。
+        example: 短暂趋势不影响主要趋势判断。
+        isPrimary: true
+    aliases:
+      - raw: 短暂趋势
+        aliasType: primary
+      - raw: Near-Term Trend
+        aliasType: en_alias
+  - slug: kuo-da-xing-tai
+    headword: 扩大形态
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 波动幅度越来越大、高点更高低点更低的发散形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 波动幅度越来越大、高点更高低点更低的发散形态。
+        example: 扩大形态出现在顶部情绪极端处。
+        isPrimary: true
+    aliases:
+      - raw: 扩大形态
+        aliasType: primary
+      - raw: Expanding Pattern
+        aliasType: en_alias
+  - slug: shou-lian-xing-tai
+    headword: 收敛形态
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 波动幅度越来越小、高点降低低点抬高的收敛形态。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 波动幅度越来越小、高点降低低点抬高的收敛形态。
+        example: 收敛形态末端即将选择方向。
+        isPrimary: true
+    aliases:
+      - raw: 收敛形态
+        aliasType: primary
+      - raw: Contracting Pattern
+        aliasType: en_alias
+  - slug: 0-7-8-6-hui-che-wei
+    headword: 0.786回撤位
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 黄金分割中最深的回调比例，跌破则趋势可能反转。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 黄金分割中最深的回调比例，跌破则趋势可能反转。
+        example: 回调到0.786位还不止跌就要小心。
+        isPrimary: true
+    aliases:
+      - raw: 0.786回撤位
+        aliasType: primary
+      - raw: 78.6% Retracement
+        aliasType: en_alias
+  - slug: ren-gong-zhi-neng-gai-nian-gu
+    headword: 人工智能概念股
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 大模型、算力、应用等AI产业链题材股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 大模型、算力、应用等AI产业链题材股。
+        example: 人工智能概念反复活跃。
+        isPrimary: true
+    aliases:
+      - raw: 人工智能概念股
+        aliasType: primary
+      - raw: AI Concept
+        aliasType: en_alias
+  - slug: bai-mu-da-qi-quan
+    headword: 百慕大期权
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 在约定多个日期可行使的期权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 在约定多个日期可行使的期权。
+        example: 百慕大期权介于美式与欧式之间。
+        isPrimary: true
+    aliases:
+      - raw: 百慕大期权
+        aliasType: primary
+      - raw: Bermudan Option
+        aliasType: en_alias
+  - slug: ya-shi-qi-quan
+    headword: 亚式期权
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按存续期内标的平均价结算的期权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 按存续期内标的平均价结算的期权。
+        example: 亚式期权避免尾盘操纵。
+        isPrimary: true
+    aliases:
+      - raw: 亚式期权
+        aliasType: primary
+      - raw: Asian Option
+        aliasType: en_alias
+  - slug: zhang-ai-qi-quan
+    headword: 障碍期权
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 触及约定障碍价才生效或失效的期权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 触及约定障碍价才生效或失效的期权。
+        example: 障碍期权较普通期权便宜。
+        isPrimary: true
+    aliases:
+      - raw: 障碍期权
+        aliasType: primary
+      - raw: Barrier Option
+        aliasType: en_alias
+  - slug: er-yuan-qi-quan
+    headword: 二元期权
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 到期只有固定金额或零两种结果的期权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 到期只有固定金额或零两种结果的期权。
+        example: 二元期权风险极高。
+        isPrimary: true
+    aliases:
+      - raw: 二元期权
+        aliasType: primary
+      - raw: Binary Option
+        aliasType: en_alias
+  - slug: jin-shu-qi-huo
+    headword: 金属期货
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 铜铝锌等基本金属与贵金属期货。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 铜铝锌等基本金属与贵金属期货。
+        example: 金属期货跟随全球宏观与库存。
+        isPrimary: true
+    aliases:
+      - raw: 金属期货
+        aliasType: primary
+      - raw: Metal Futures
+        aliasType: en_alias
+  - slug: hei-se-xi-qi-huo
+    headword: 黑色系期货
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 铁矿石、螺纹钢、焦煤等黑色金属期货。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 铁矿石、螺纹钢、焦煤等黑色金属期货。
+        example: 黑色系期货波动剧烈。
+        isPrimary: true
+    aliases:
+      - raw: 黑色系期货
+        aliasType: primary
+      - raw: Ferrous Futures
+        aliasType: en_alias
+  - slug: hua-gong-qi-huo
+    headword: 化工期货
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: PTA、甲醇、橡胶等化工品期货。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: PTA、甲醇、橡胶等化工品期货。
+        example: 化工期货跟随原油与供需。
+        isPrimary: true
+    aliases:
+      - raw: 化工期货
+        aliasType: primary
+      - raw: Chemical Futures
+        aliasType: en_alias
+  - slug: ruan-shang-pin-qi-huo
+    headword: 软商品期货
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 糖、棉花、咖啡等软商品期货。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 糖、棉花、咖啡等软商品期货。
+        example: 软商品期货受天气影响大。
+        isPrimary: true
+    aliases:
+      - raw: 软商品期货
+        aliasType: primary
+      - raw: Soft Commodity Futures
+        aliasType: en_alias
+  - slug: tan-qi-huo
+    headword: 碳期货
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以碳排放配额为标的的期货。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以碳排放配额为标的的期货。
+        example: 碳期货价格反映减碳成本。
+        isPrimary: true
+    aliases:
+      - raw: 碳期货
+        aliasType: primary
+      - raw: Carbon Futures
+        aliasType: en_alias
+  - slug: tan-qi-quan
+    headword: 碳期权
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以碳排放配额为标的的期权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以碳排放配额为标的的期权。
+        example: 碳期权用于碳价套保。
+        isPrimary: true
+    aliases:
+      - raw: 碳期权
+        aliasType: primary
+      - raw: Carbon Options
+        aliasType: en_alias
+  - slug: dian-li-yan-sheng-pin
+    headword: 电力衍生品
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以电力为标的的远期、期货合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以电力为标的的远期、期货合约。
+        example: 电力衍生品随峰谷电价波动。
+        isPrimary: true
+    aliases:
+      - raw: 电力衍生品
+        aliasType: primary
+      - raw: Power Derivative
+        aliasType: en_alias
+  - slug: da-zong-shang-pin-yan-sheng-pin
+    headword: 大宗商品衍生品
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 挂钩商品价格的远期、期权等工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 挂钩商品价格的远期、期权等工具。
+        example: 大宗商品衍生品用于套保。
+        isPrimary: true
+    aliases:
+      - raw: 大宗商品衍生品
+        aliasType: primary
+      - raw: Commodity Derivatives
+        aliasType: en_alias
+  - slug: gui-jin-shu-yan-sheng-pin
+    headword: 贵金属衍生品
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 黄金白银等贵金属的期货期权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 黄金白银等贵金属的期货期权。
+        example: 贵金属衍生品避险属性强。
+        isPrimary: true
+    aliases:
+      - raw: 贵金属衍生品
+        aliasType: primary
+      - raw: Precious Metal Derivatives
+        aliasType: en_alias
+  - slug: zhi-huang-jin
+    headword: 纸黄金
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 银行账户黄金、不交割实物的账面黄金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 银行账户黄金、不交割实物的账面黄金。
+        example: 纸黄金无杠杆但无实物。
+        isPrimary: true
+    aliases:
+      - raw: 纸黄金
+        aliasType: primary
+      - raw: Paper Gold
+        aliasType: en_alias
+  - slug: xian-huo-huang-jin
+    headword: 现货黄金
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 即期交割的黄金现货。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 即期交割的黄金现货。
+        example: 现货黄金跟随伦敦金。
+        isPrimary: true
+    aliases:
+      - raw: 现货黄金
+        aliasType: primary
+      - raw: Spot Gold
+        aliasType: en_alias
+  - slug: qi-huo-huang-jin
+    headword: 期货黄金
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上期所的黄金期货合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 上期所的黄金期货合约。
+        example: 期货黄金用于套保。
+        isPrimary: true
+    aliases:
+      - raw: 期货黄金
+        aliasType: primary
+      - raw: Gold Futures
+        aliasType: en_alias
+  - slug: gu-zhi-qi-quan
+    headword: 股指期权
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以股票指数为标的的期权合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以股票指数为标的的期权合约。
+        example: 股指期权用于对冲大盘风险。
+        isPrimary: true
+    aliases:
+      - raw: 股指期权
+        aliasType: primary
+      - raw: Index Options
+        aliasType: en_alias
+  - slug: ge-gu-qi-huo
+    headword: 个股期货
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以单只股票为标的的期货合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以单只股票为标的的期货合约。
+        example: 个股期货杠杆对冲个股。
+        isPrimary: true
+    aliases:
+      - raw: 个股期货
+        aliasType: primary
+      - raw: Single Stock Futures
+        aliasType: en_alias
+  - slug: tao-qi-bao-zhi
+    headword: 套期保值
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 用衍生品对冲现货价格风险的交易。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 用衍生品对冲现货价格风险的交易。
+        example: 产业客户用期货套期保值。
+        isPrimary: true
+    aliases:
+      - raw: 套期保值
+        aliasType: primary
+      - raw: Hedging
+        aliasType: en_alias
+  - slug: kua-shi-tao-li
+    headword: 跨市套利
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 利用同一品种在不同市场价差套利。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 利用同一品种在不同市场价差套利。
+        example: 跨市套利需考虑汇率与交割。
+        isPrimary: true
+    aliases:
+      - raw: 跨市套利
+        aliasType: primary
+      - raw: Inter-market Arbitrage
+        aliasType: en_alias
+  - slug: ji-cha-jiao-yi
+    headword: 基差交易
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以现货与期货价差为标的的交易。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以现货与期货价差为标的的交易。
+        example: 基差交易锁定价差风险。
+        isPrimary: true
+    aliases:
+      - raw: 基差交易
+        aliasType: primary
+      - raw: Basis Trading
+        aliasType: en_alias
+  - slug: bai-yin-qi-huo
+    headword: 白银期货
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以白银为标的的期货合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以白银为标的的期货合约。
+        example: 白银期货波动大于黄金。
+        isPrimary: true
+    aliases:
+      - raw: 白银期货
+        aliasType: primary
+      - raw: Silver Futures
+        aliasType: en_alias
+  - slug: tong-qi-huo
+    headword: 铜期货
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以阴极铜为标的的期货合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以阴极铜为标的的期货合约。
+        example: 铜期货被称为经济晴雨表。
+        isPrimary: true
+    aliases:
+      - raw: 铜期货
+        aliasType: primary
+      - raw: Copper Futures
+        aliasType: en_alias
+  - slug: yuan-you-qi-huo
+    headword: 原油期货
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以原油为标的的期货合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以原油为标的的期货合约。
+        example: 原油期货受OPEC与地缘影响。
+        isPrimary: true
+    aliases:
+      - raw: 原油期货
+        aliasType: primary
+      - raw: Crude Oil Futures
+        aliasType: en_alias
+  - slug: dou-po-qi-huo
+    headword: 豆粕期货
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以豆粕为标的的农产品期货。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以豆粕为标的的农产品期货。
+        example: 豆粕期货受生猪需求影响。
+        isPrimary: true
+    aliases:
+      - raw: 豆粕期货
+        aliasType: primary
+      - raw: Soybean Meal Futures
+        aliasType: en_alias
+  - slug: tie-kuang-shi-qi-huo
+    headword: 铁矿石期货
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以铁矿石为标的的黑色系期货。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以铁矿石为标的的黑色系期货。
+        example: 铁矿石期货跟随钢厂利润。
+        isPrimary: true
+    aliases:
+      - raw: 铁矿石期货
+        aliasType: primary
+      - raw: Iron Ore Futures
+        aliasType: en_alias
+  - slug: luo-wen-gang-qi-huo
+    headword: 螺纹钢期货
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以螺纹钢为标的的黑色系期货。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以螺纹钢为标的的黑色系期货。
+        example: 螺纹钢期货跟随地产需求。
+        isPrimary: true
+    aliases:
+      - raw: 螺纹钢期货
+        aliasType: primary
+      - raw: Rebar Futures
+        aliasType: en_alias
+  - slug: zong-l-you-qi-huo
+    headword: 棕榈油期货
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以棕榈油为标的的软商品期货。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以棕榈油为标的的软商品期货。
+        example: 棕榈油期货受产地天气影响。
+        isPrimary: true
+    aliases:
+      - raw: 棕榈油期货
+        aliasType: primary
+      - raw: Palm Oil Futures
+        aliasType: en_alias
+  - slug: p-t-a-qi-huo
+    headword: PTA期货
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以精对苯二甲酸为标的的化工期货。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以精对苯二甲酸为标的的化工期货。
+        example: PTA期货跟随原油与供需。
+        isPrimary: true
+    aliases:
+      - raw: PTA期货
+        aliasType: primary
+      - raw: PTA Futures
+        aliasType: en_alias
+  - slug: huang-jin-qi-quan
+    headword: 黄金期权
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以上金所黄金期货为标的的期权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以上金所黄金期货为标的的期权。
+        example: 黄金期权用于贵金属套保。
+        isPrimary: true
+    aliases:
+      - raw: 黄金期权
+        aliasType: primary
+      - raw: Gold Options
+        aliasType: en_alias
+  - slug: bao-hu-xing-ren-gu
+    headword: 保护性认沽
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 持有现货同时买入认沽期权对冲下跌。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 持有现货同时买入认沽期权对冲下跌。
+        example: 保护性认沽锁定下行风险。
+        isPrimary: true
+    aliases:
+      - raw: 保护性认沽
+        aliasType: primary
+      - raw: Protective Put
+        aliasType: en_alias
+  - slug: hu-jin-qi-huo
+    headword: 沪金期货
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上期所的黄金期货合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上期所的黄金期货合约。
+        example: 沪金期货跟随国际金价。
+        isPrimary: true
+    aliases:
+      - raw: 沪金期货
+        aliasType: primary
+      - raw: SHFE Gold Futures
+        aliasType: en_alias
+  - slug: hu-yin-qi-huo
+    headword: 沪银期货
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上期所的白银期货合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 上期所的白银期货合约。
+        example: 沪银期货波动大于黄金。
+        isPrimary: true
+    aliases:
+      - raw: 沪银期货
+        aliasType: primary
+      - raw: SHFE Silver Futures
+        aliasType: en_alias
+  - slug: zhai-quan-tao-xi
+    headword: 债券套息
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 借入低成本资金买高息债券套利。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 借入低成本资金买高息债券套利。
+        example: 债券套息在利差稳定时赚钱。
+        isPrimary: true
+    aliases:
+      - raw: 债券套息
+        aliasType: primary
+      - raw: Bond Carry Trade
+        aliasType: en_alias
+  - slug: ji-qi-wai-hui
+    headword: 即期外汇
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 成交后两个交易日内交割的外汇。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 成交后两个交易日内交割的外汇。
+        example: 即期外汇是结售汇基础。
+        isPrimary: true
+    aliases:
+      - raw: 即期外汇
+        aliasType: primary
+      - raw: Spot FX
+        aliasType: en_alias
+  - slug: qi-huo-sheng-shui
+    headword: 期货升水
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 期货价高于现货价的市场结构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 期货价高于现货价的市场结构。
+        example: 期货升水时展期有损失。
+        isPrimary: true
+    aliases:
+      - raw: 期货升水
+        aliasType: primary
+      - raw: Contango
+        aliasType: en_alias
+  - slug: qi-huo-tie-shui
+    headword: 期货贴水
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 期货价低于现货价的市场结构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 期货价低于现货价的市场结构。
+        example: 期货贴水时展期有收益。
+        isPrimary: true
+    aliases:
+      - raw: 期货贴水
+        aliasType: primary
+      - raw: Backwardation
+        aliasType: en_alias
+  - slug: zhan-qi-shou-yi
+    headword: 展期收益
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 滚动移仓期货获得的价差收益。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 滚动移仓期货获得的价差收益。
+        example: 商品ETF收益含展期收益。
+        isPrimary: true
+    aliases:
+      - raw: 展期收益
+        aliasType: primary
+      - raw: Roll Yield
+        aliasType: en_alias
+  - slug: zhang-die-ting-ban
+    headword: 涨跌停板
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 交易所对股票单日价格波动幅度的限制，主板±10%、创业板/科创板±20%、ST股±5%。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 交易所对股票单日价格波动幅度的限制，主板±10%、创业板/科创板±20%、ST股±5%。
+        example: 一字涨停封板后，次日溢价概率较高。
+        isPrimary: true
+    aliases:
+      - raw: 涨跌停板
+        aliasType: primary
+      - raw: Price Limit
+        aliasType: en_alias
+  - slug: zhen-fu
+    headword: 振幅
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 当日最高价与最低价之差占昨收价的百分比，衡量日内波动剧烈程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 当日最高价与最低价之差占昨收价的百分比，衡量日内波动剧烈程度。
+        example: 振幅超15%说明多空分歧巨大。
+        isPrimary: true
+    aliases:
+      - raw: 振幅
+        aliasType: primary
+      - raw: Amplitude
+        aliasType: en_alias
+  - slug: ting-pai-he-cha
+    headword: 停牌核查
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 连续异常波动后交易所要求上市公司自查并停牌，通常针对短期暴涨股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 连续异常波动后交易所要求上市公司自查并停牌，通常针对短期暴涨股。
+        example: 连续涨停触发停牌核查，复牌后波动加大。
+        isPrimary: true
+    aliases:
+      - raw: 停牌核查
+        aliasType: primary
+      - raw: Trading Halt Review
+        aliasType: en_alias
+  - slug: qi-zhi-sheng-tie-shui
+    headword: 期指升贴水
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 期货价格与现货指数的价差，升水偏多、贴水偏空。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 期货价格与现货指数的价差，升水偏多、贴水偏空。
+        example: 期指贴水收窄，套保压力减轻。
+        isPrimary: true
+    aliases:
+      - raw: 期指升贴水
+        aliasType: primary
+      - raw: Index Futures Basis
+        aliasType: en_alias
+  - slug: ren-gou-qi-quan
+    headword: 认购期权
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 买方有权按行权价买入标的资产的期权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 买方有权按行权价买入标的资产的期权。
+        example: 认购期权放量，看多情绪升温。
+        isPrimary: true
+    aliases:
+      - raw: 认购期权
+        aliasType: primary
+      - raw: Call Option
+        aliasType: en_alias
+  - slug: ren-gu-qi-quan
+    headword: 认沽期权
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 买方有权按行权价卖出标的资产的期权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 买方有权按行权价卖出标的资产的期权。
+        example: 认沽期权隐含波动率上升，避险需求增加。
+        isPrimary: true
+    aliases:
+      - raw: 认沽期权
+        aliasType: primary
+      - raw: Put Option
+        aliasType: en_alias
+  - slug: wang-ge-jiao-yi
+    headword: 网格交易
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 在预设价格区间内按网格高抛低吸的量化策略。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 在预设价格区间内按网格高抛低吸的量化策略。
+        example: 网格交易适合震荡市标的。
+        isPrimary: true
+    aliases:
+      - raw: 网格交易
+        aliasType: primary
+      - raw: Grid Trading
+        aliasType: en_alias
+  - slug: zhi-shu-zeng-qiang
+    headword: 指数增强
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 在跟踪指数基础上通过选股与择时获取超额收益的策略。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 在跟踪指数基础上通过选股与择时获取超额收益的策略。
+        example: 指数增强基金追求跑赢基准。
+        isPrimary: true
+    aliases:
+      - raw: 指数增强
+        aliasType: primary
+      - raw: Index Enhancement
+        aliasType: en_alias
+  - slug: da-mo-xing
+    headword: 大模型
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 参数量巨大的深度学习模型，是AI应用的基础设施。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 参数量巨大的深度学习模型，是AI应用的基础设施。
+        example: 国产大模型密集发布，应用落地加速。
+        isPrimary: true
+    aliases:
+      - raw: 大模型
+        aliasType: primary
+      - raw: Large Language Model
+        aliasType: en_alias
+  - slug: gui-liao
+    headword: 硅料
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 光伏产业链上游原材料，价格波动主导行业盈利。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 光伏产业链上游原材料，价格波动主导行业盈利。
+        example: 硅料价格触底，产业链盈利有望修复。
+        isPrimary: true
+    aliases:
+      - raw: 硅料
+        aliasType: primary
+      - raw: Polysilicon
+        aliasType: en_alias
+  - slug: tan-suan-li
+    headword: 碳酸锂
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 锂盐核心产品，动力电池关键原料，价格波动剧烈。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 锂盐核心产品，动力电池关键原料，价格波动剧烈。
+        example: 碳酸锂价格反弹，锂矿股大涨。
+        isPrimary: true
+    aliases:
+      - raw: 碳酸锂
+        aliasType: primary
+      - raw: Lithium Carbonate
+        aliasType: en_alias
+  - slug: zhu-zhou-qi
+    headword: 猪周期
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 生猪价格约3-4年一轮的周期性波动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 生猪价格约3-4年一轮的周期性波动。
+        example: 猪周期底部产能去化加速。
+        isPrimary: true
+    aliases:
+      - raw: 猪周期
+        aliasType: primary
+      - raw: Pig Cycle
+        aliasType: en_alias
+  - slug: tui-li
+    headword: 推理
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: AI模型训练后用于实际预测的过程。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: AI模型训练后用于实际预测的过程。
+        example: 推理成本下降推动应用普及。
+        isPrimary: true
+    aliases:
+      - raw: 推理
+        aliasType: primary
+      - raw: Inference
+        aliasType: en_alias
+  - slug: xun-lian
+    headword: 训练
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 用数据调整模型参数的过程，算力消耗大。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 用数据调整模型参数的过程，算力消耗大。
+        example: 大模型训练集群规模庞大。
+        isPrimary: true
+    aliases:
+      - raw: 训练
+        aliasType: primary
+      - raw: Training
+        aliasType: en_alias
+  - slug: gong-yun-jia-zhi-bian-dong
+    headword: 公允价值变动
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 金融资产公允价值波动损益。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 金融资产公允价值波动损益。
+        example: 公允价值变动影响利润波动。
+        isPrimary: true
+    aliases:
+      - raw: 公允价值变动
+        aliasType: primary
+      - raw: Fair Value Change
+        aliasType: en_alias
+  - slug: zhen-dang-shi
+    headword: 震荡市
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 区间波动的市场。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 区间波动的市场。
+        example: 震荡市高抛低吸。
+        isPrimary: true
+    aliases:
+      - raw: 震荡市
+        aliasType: primary
+      - raw: Sideways Market
+        aliasType: en_alias
+  - slug: dui-chong
+    headword: 对冲
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 降低风险的相反头寸操作。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 降低风险的相反头寸操作。
+        example: 对冲降低组合波动。
+        isPrimary: true
+    aliases:
+      - raw: 对冲
+        aliasType: primary
+      - raw: Hedge
+        aliasType: en_alias
+  - slug: tao-li
+    headword: 套利
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 利用价差无风险获利。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 利用价差无风险获利。
+        example: 套利空间转瞬即逝。
+        isPrimary: true
+    aliases:
+      - raw: 套利
+        aliasType: primary
+      - raw: Arbitrage
+        aliasType: en_alias
+  - slug: gang-gan
+    headword: 杠杆
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 借入资金放大收益与风险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 借入资金放大收益与风险。
+        example: 杠杆是双刃剑。
+        isPrimary: true
+    aliases:
+      - raw: 杠杆
+        aliasType: primary
+      - raw: Leverage
+        aliasType: en_alias
+  - slug: ze-shi
+    headword: 择时
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 选择买卖时机。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 选择买卖时机。
+        example: 择时难度高于选股。
+        isPrimary: true
+    aliases:
+      - raw: 择时
+        aliasType: primary
+      - raw: Timing
+        aliasType: en_alias
+  - slug: di-bo-ce-l-e
+    headword: 低波策略
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 低波动股票策略。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 低波动股票策略。
+        example: 低波策略在弱市占优。
+        isPrimary: true
+    aliases:
+      - raw: 低波策略
+        aliasType: primary
+      - raw: Low Volatility
+        aliasType: en_alias
+  - slug: duo-yin-zi-mo-xing
+    headword: 多因子模型
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 多因子叠加的量化模型。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 多因子叠加的量化模型。
+        example: 多因子模型分散单因子风险。
+        isPrimary: true
+    aliases:
+      - raw: 多因子模型
+        aliasType: primary
+      - raw: Multi-factor Model
+        aliasType: en_alias
+  - slug: qi-huo-shi-chang
+    headword: 期货市场
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 标准化远期合约交易市场。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 标准化远期合约交易市场。
+        example: 期货市场提供价格发现。
+        isPrimary: true
+    aliases:
+      - raw: 期货市场
+        aliasType: primary
+      - raw: Futures Market
+        aliasType: en_alias
+  - slug: sheng-zhu-qi-huo
+    headword: 生猪期货
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以生猪为标的的期货。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以生猪为标的的期货。
+        example: 生猪期货对冲养殖风险。
+        isPrimary: true
+    aliases:
+      - raw: 生猪期货
+        aliasType: primary
+      - raw: Pig Futures
+        aliasType: en_alias
+  - slug: ji-cha
+    headword: 基差
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 现货与期货价格之差。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 现货与期货价格之差。
+        example: 基差收敛是交割前提。
+        isPrimary: true
+    aliases:
+      - raw: 基差
+        aliasType: primary
+      - raw: Basis
+        aliasType: en_alias
+  - slug: gang-gan-jiao-yi
+    headword: 杠杆交易
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 保证金放大交易规模。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 保证金放大交易规模。
+        example: 杠杆交易放大盈亏。
+        isPrimary: true
+    aliases:
+      - raw: 杠杆交易
+        aliasType: primary
+      - raw: Leveraged Trading
+        aliasType: en_alias
+  - slug: shi-chang-feng-xian
+    headword: 市场风险
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 市场价格波动带来的风险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场价格波动带来的风险。
+        example: 市场风险无法完全消除。
+        isPrimary: true
+    aliases:
+      - raw: 市场风险
+        aliasType: primary
+      - raw: Market Risk
+        aliasType: en_alias
+  - slug: feng-xian-dui-chong
+    headword: 风险对冲
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 降低风险的相反操作。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 降低风险的相反操作。
+        example: 对冲降低组合波动。
+        isPrimary: true
+    aliases:
+      - raw: 风险对冲
+        aliasType: primary
+      - raw: Hedging
+        aliasType: en_alias
+  - slug: qi-huo
+    headword: 期货
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 约定未来时间以约定价格买卖标的的标准化合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 约定未来时间以约定价格买卖标的的标准化合约。
+        example: 股指期货可用于对冲。
+        isPrimary: true
+    aliases:
+      - raw: 期货
+        aliasType: primary
+      - raw: Futures
+        aliasType: en_alias
+  - slug: hu-huan
+    headword: 互换
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 双方交换现金流的合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 双方交换现金流的合约。
+        example: 利率互换是最常见互换。
+        isPrimary: true
+    aliases:
+      - raw: 互换
+        aliasType: primary
+      - raw: Swap
+        aliasType: en_alias
+  - slug: xing-quan-jia
+    headword: 行权价
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 期权约定的买卖价格。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 期权约定的买卖价格。
+        example: 行权价决定期权内在价值。
+        isPrimary: true
+    aliases:
+      - raw: 行权价
+        aliasType: primary
+      - raw: Strike Price
+        aliasType: en_alias
+  - slug: shi-zhi-qi-quan
+    headword: 实值期权
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 行权有利可图的期权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 行权有利可图的期权。
+        example: 实值认购看涨期权。
+        isPrimary: true
+    aliases:
+      - raw: 实值期权
+        aliasType: primary
+      - raw: In-the-money
+        aliasType: en_alias
+  - slug: ping-zhi-qi-quan
+    headword: 平值期权
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 行权价接近标的价格的期权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 行权价接近标的价格的期权。
+        example: 平值期权时间价值最大。
+        isPrimary: true
+    aliases:
+      - raw: 平值期权
+        aliasType: primary
+      - raw: At-the-money
+        aliasType: en_alias
+  - slug: xu-zhi-qi-quan
+    headword: 虚值期权
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 行权无利可图的期权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 行权无利可图的期权。
+        example: 虚值期权纯属时间价值。
+        isPrimary: true
+    aliases:
+      - raw: 虚值期权
+        aliasType: primary
+      - raw: Out-of-the-money
+        aliasType: en_alias
+  - slug: bo-dong-l-wei-xiao
+    headword: 波动率微笑
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 隐含波动率随行权价变化的曲线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 隐含波动率随行权价变化的曲线。
+        example: 波动率微笑反映尾部风险定价。
+        isPrimary: true
+    aliases:
+      - raw: 波动率微笑
+        aliasType: primary
+      - raw: Volatility Smile
+        aliasType: en_alias
+  - slug: qi-xian-tao-li
+    headword: 期现套利
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 现货与期货价差套利。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 现货与期货价差套利。
+        example: 期现套利收敛基差。
+        isPrimary: true
+    aliases:
+      - raw: 期现套利
+        aliasType: primary
+      - raw: Cash-futures Arbitrage
+        aliasType: en_alias
+  - slug: kua-qi-tao-li
+    headword: 跨期套利
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 不同月份合约价差套利。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 不同月份合约价差套利。
+        example: 跨期套利利用期限结构。
+        isPrimary: true
+    aliases:
+      - raw: 跨期套利
+        aliasType: primary
+      - raw: Calendar Spread
+        aliasType: en_alias
+  - slug: kua-pin-zhong-tao-li
+    headword: 跨品种套利
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 相关品种价差套利。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 相关品种价差套利。
+        example: 豆粕与豆油套利常见。
+        isPrimary: true
+    aliases:
+      - raw: 跨品种套利
+        aliasType: primary
+      - raw: Inter-commodity Spread
+        aliasType: en_alias
+  - slug: hong-guan-dui-chong
+    headword: 宏观对冲
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 基于宏观判断的全球配置。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 基于宏观判断的全球配置。
+        example: 宏观对冲动用多资产。
+        isPrimary: true
+    aliases:
+      - raw: 宏观对冲
+        aliasType: primary
+      - raw: Macro Hedge
+        aliasType: en_alias
+  - slug: tao-li-ce-l-e
+    headword: 套利策略
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 捕捉价差的策略。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 捕捉价差的策略。
+        example: 套利策略风险较低。
+        isPrimary: true
+    aliases:
+      - raw: 套利策略
+        aliasType: primary
+      - raw: Arbitrage Strategy
+        aliasType: en_alias
+  - slug: zhi-liang-yin-zi
+    headword: 质量因子
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 高盈利质量风格因子。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 高盈利质量风格因子。
+        example: 质量因子防御性强。
+        isPrimary: true
+    aliases:
+      - raw: 质量因子
+        aliasType: primary
+      - raw: Quality Factor
+        aliasType: en_alias
+  - slug: gui-mo-yin-zi
+    headword: 规模因子
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 小市值风格因子。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 小市值风格因子。
+        example: 规模因子在中国市场有效。
+        isPrimary: true
+    aliases:
+      - raw: 规模因子
+        aliasType: primary
+      - raw: Size Factor
+        aliasType: en_alias
+  - slug: di-bo-dong-yin-zi
+    headword: 低波动因子
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 低波动风格因子。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 低波动风格因子。
+        example: 低波动因子风险调整收益优。
+        isPrimary: true
+    aliases:
+      - raw: 低波动因子
+        aliasType: primary
+      - raw: Low-vol Factor
+        aliasType: en_alias
+  - slug: hong-li-yin-zi
+    headword: 红利因子
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 高股息风格因子。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 高股息风格因子。
+        example: 红利因子防御属性强。
+        isPrimary: true
+    aliases:
+      - raw: 红利因子
+        aliasType: primary
+      - raw: Dividend Factor
+        aliasType: en_alias
+  - slug: feng-xian-yin-zi
+    headword: 风险因子
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 解释资产收益的共同风险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 解释资产收益的共同风险。
+        example: 风险因子模型度量暴露。
+        isPrimary: true
+    aliases:
+      - raw: 风险因子
+        aliasType: primary
+      - raw: Risk Factor
+        aliasType: en_alias
+  - slug: yin-zi-ze-shi
+    headword: 因子择时
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 判断因子轮动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 判断因子轮动。
+        example: 因子择时难度高。
+        isPrimary: true
+    aliases:
+      - raw: 因子择时
+        aliasType: primary
+      - raw: Factor Timing
+        aliasType: en_alias
+  - slug: shen-jing-wang-luo
+    headword: 神经网络
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 模拟神经元的模型。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 模拟神经元的模型。
+        example: 神经网络用于非线性预测。
+        isPrimary: true
+    aliases:
+      - raw: 神经网络
+        aliasType: primary
+      - raw: Neural Network
+        aliasType: en_alias
+  - slug: hua-dian-mo-xing
+    headword: 滑点模型
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 估算交易冲击的模型。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 估算交易冲击的模型。
+        example: 滑点模型提升回测真实度。
+        isPrimary: true
+    aliases:
+      - raw: 滑点模型
+        aliasType: primary
+      - raw: Slippage Model
+        aliasType: en_alias
+  - slug: jie-suan
+    headword: 结算
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 交易后的清算交割。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 交易后的清算交割。
+        example: T+1结算制度。
+        isPrimary: true
+    aliases:
+      - raw: 结算
+        aliasType: primary
+      - raw: Settlement
+        aliasType: en_alias
+  - slug: jiao-ge
+    headword: 交割
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 合约到期实物或现金交付。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 合约到期实物或现金交付。
+        example: 期货交割决定基差收敛。
+        isPrimary: true
+    aliases:
+      - raw: 交割
+        aliasType: primary
+      - raw: Delivery
+        aliasType: en_alias
+  - slug: gu-piao-qi-quan-ji-li
+    headword: 股票期权激励
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以期权形式的激励。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以期权形式的激励。
+        example: 期权激励弹性更大。
+        isPrimary: true
+    aliases:
+      - raw: 股票期权激励
+        aliasType: primary
+      - raw: Stock Option Incentive
+        aliasType: en_alias
+  - slug: xing-quan-tiao-jian
+    headword: 行权条件
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 期权行权的前提。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 期权行权的前提。
+        example: 行权条件多为业绩考核。
+        isPrimary: true
+    aliases:
+      - raw: 行权条件
+        aliasType: primary
+      - raw: Exercise Condition
+        aliasType: en_alias
+  - slug: qi-quan-fei-yong
+    headword: 期权费用
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 期权激励确认费用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 期权激励确认费用。
+        example: 期权费用影响利润。
+        isPrimary: true
+    aliases:
+      - raw: 期权费用
+        aliasType: primary
+      - raw: Option Expense
+        aliasType: en_alias
+  - slug: gang-gan-shui-ping
+    headword: 杠杆水平
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 市场整体负债率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场整体负债率。
+        example: 杠杆水平影响风险。
+        isPrimary: true
+    aliases:
+      - raw: 杠杆水平
+        aliasType: primary
+      - raw: Leverage Level
+        aliasType: en_alias
+  - slug: jiu-qi-pi-pei
+    headword: 久期匹配
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 资产负债久期匹配。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 资产负债久期匹配。
+        example: 久期缺口管理利率风险。
+        isPrimary: true
+    aliases:
+      - raw: 久期匹配
+        aliasType: primary
+      - raw: Duration Matching
+        aliasType: en_alias
+  - slug: lei-qi-guan
+    headword: 类器官
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 体外培养器官模型。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 体外培养器官模型。
+        example: 类器官用于药物筛选。
+        isPrimary: true
+    aliases:
+      - raw: 类器官
+        aliasType: primary
+      - raw: Organoid
+        aliasType: en_alias
+  - slug: chang-wai-pei-zi
+    headword: 场外配资
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 非法杠杆配资。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 非法杠杆配资。
+        example: 场外配资被清理。
+        isPrimary: true
+    aliases:
+      - raw: 场外配资
+        aliasType: primary
+      - raw: Off-exchange Margin
+        aliasType: en_alias
+  - slug: liang-hua-fen-xi-shi
+    headword: 量化分析师
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 量化研究员。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 量化研究员。
+        example: 量化分析师建模。
+        isPrimary: true
+    aliases:
+      - raw: 量化分析师
+        aliasType: primary
+      - raw: Quant Analyst
+        aliasType: en_alias
+  - slug: mo-xing-feng-xian
+    headword: 模型风险
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 模型错误风险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 模型错误风险。
+        example: 模型风险需管理。
+        isPrimary: true
+    aliases:
+      - raw: 模型风险
+        aliasType: primary
+      - raw: Model Risk
+        aliasType: en_alias
+  - slug: qian-ni-he
+    headword: 欠拟合
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 模型拟合不足。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 模型拟合不足。
+        example: 欠拟合预测差。
+        isPrimary: true
+    aliases:
+      - raw: 欠拟合
+        aliasType: primary
+      - raw: Underfitting
+        aliasType: en_alias
+  - slug: can-shu-gu-ji
+    headword: 参数估计
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 模型参数求解。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 模型参数求解。
+        example: 估计准确性影响模型。
+        isPrimary: true
+    aliases:
+      - raw: 参数估计
+        aliasType: primary
+      - raw: Parameter Estimation
+        aliasType: en_alias
+  - slug: fang-cha
+    headword: 方差
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 数据波动度量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 数据波动度量。
+        example: 方差平方根为标准差。
+        isPrimary: true
+    aliases:
+      - raw: 方差
+        aliasType: primary
+      - raw: Variance
+        aliasType: en_alias
+  - slug: xie-fang-cha
+    headword: 协方差
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 两变量共同波动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 两变量共同波动。
+        example: 协方差度量联动。
+        isPrimary: true
+    aliases:
+      - raw: 协方差
+        aliasType: primary
+      - raw: Covariance
+        aliasType: en_alias
+  - slug: xia-pu-bi-l-ji-suan
+    headword: 夏普比率计算
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 风险调整收益计算。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 风险调整收益计算。
+        example: 夏普=超额收益/波动。
+        isPrimary: true
+    aliases:
+      - raw: 夏普比率计算
+        aliasType: primary
+      - raw: Sharpe Calculation
+        aliasType: en_alias
+  - slug: ka-ma-bi-l
+    headword: 卡玛比率
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 收益与最大回撤比。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 收益与最大回撤比。
+        example: 卡玛衡量回撤效率。
+        isPrimary: true
+    aliases:
+      - raw: 卡玛比率
+        aliasType: primary
+      - raw: Calmar Ratio
+        aliasType: en_alias
+  - slug: xin-xi-bi-l
+    headword: 信息比率
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 超额收益与跟踪误差比。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 超额收益与跟踪误差比。
+        example: 信息比率衡量主动能力。
+        isPrimary: true
+    aliases:
+      - raw: 信息比率
+        aliasType: primary
+      - raw: Information Ratio
+        aliasType: en_alias
+  - slug: gang-gan-xiao-ying
+    headword: 杠杆效应
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 固定成本放大波动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 固定成本放大波动。
+        example: 经营杠杆放大盈亏。
+        isPrimary: true
+    aliases:
+      - raw: 杠杆效应
+        aliasType: primary
+      - raw: Leverage Effect
+        aliasType: en_alias
+  - slug: ye-ji-zhou-qi
+    headword: 业绩周期
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 盈利周期性波动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 盈利周期性波动。
+        example: 业绩周期驱动行情。
+        isPrimary: true
+    aliases:
+      - raw: 业绩周期
+        aliasType: primary
+      - raw: Earnings Cycle
+        aliasType: en_alias
+  - slug: gang-gan-qu-dong
+    headword: 杠杆驱动
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 杠杆放大ROE。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 杠杆放大ROE。
+        example: 杠杆驱动有风险。
+        isPrimary: true
+    aliases:
+      - raw: 杠杆驱动
+        aliasType: primary
+      - raw: Leverage Driver
+        aliasType: en_alias
+  - slug: gu-zhi-biao-zhun-cha
+    headword: 估值标准差
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 估值波动范围。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 估值波动范围。
+        example: 标准差衡量偏离。
+        isPrimary: true
+    aliases:
+      - raw: 估值标准差
+        aliasType: primary
+      - raw: Valuation Std
+        aliasType: en_alias
+  - slug: hui-che-kong-zhi
+    headword: 回撤控制
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 回撤管理。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 回撤管理。
+        example: 控制回撤保心态。
+        isPrimary: true
+    aliases:
+      - raw: 回撤控制
+        aliasType: primary
+      - raw: Drawdown Control
+        aliasType: en_alias
+  - slug: bo-dong-kong-zhi
+    headword: 波动控制
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 波动管理。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 波动管理。
+        example: 控制波动稳收益。
+        isPrimary: true
+    aliases:
+      - raw: 波动控制
+        aliasType: primary
+      - raw: Volatility Control
+        aliasType: en_alias
+  - slug: ping-fen-mo-xing
+    headword: 评分模型
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 量化评分模型。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 量化评分模型。
+        example: 模型促客观。
+        isPrimary: true
+    aliases:
+      - raw: 评分模型
+        aliasType: primary
+      - raw: Scoring Model
+        aliasType: en_alias
+  - slug: jian-guan-tao-li
+    headword: 监管套利
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 利用监管差异获利。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 利用监管差异获利。
+        example: 套利被打击。
+        isPrimary: true
+    aliases:
+      - raw: 监管套利
+        aliasType: primary
+      - raw: Regulatory Arbitrage
+        aliasType: en_alias
+  - slug: zhuan-hua-lou-dou
+    headword: 转化漏斗
+    categoryL1: 量化与风险
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 转化过程模型。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 转化过程模型。
+        example: 漏斗找流失点。
+        isPrimary: true
+    aliases:
+      - raw: 转化漏斗
+        aliasType: primary
+      - raw: Conversion Funnel
+        aliasType: en_alias

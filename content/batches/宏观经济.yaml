@@ -1,0 +1,1441 @@
+# 自动生成的批量词条源（可由 ingest 重新编译为 lexicon.json）
+category: 宏观经济
+source: bootstrap from lexicon.json (2026-10-22)
+terms:
+  - slug: adp
+    headword: ADP就业
+    categoryL1: 宏观经济
+    categoryL2: 就业
+    difficulty: L2
+    summaryPlain: 民间机构统计的美国私营部门就业数据，先于官方非农两天发布，俗称小非农。
+    riskNote: 样本只覆盖 ADP 客户企业，和最终非农常有出入。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 民间机构统计的美国私营部门就业数据，先于官方非农两天发布，俗称小非农。
+        example: 比如小非农爆冷，市场提前两天开始交易降息预期。
+        notMeaning: 样本只覆盖 ADP 客户企业，和最终非农常有出入。
+        isPrimary: true
+        contextKeywords:
+          - 就业
+        frequency: mid
+    aliases:
+      - raw: ADP就业
+        aliasType: primary
+      - raw: 小非农
+        aliasType: cn_alias
+      - raw: ADP
+        aliasType: en_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 小非农：大考前的模考
+    insights:
+      affects:
+        - 预期管理：为非农定调
+        - 美股：数据夜波动加大
+      good:
+        - 强劲：就业市场降温前的喘息
+      bad:
+        - 崩了：衰退担忧前置
+      policy:
+        - 裁员潮直接影响读数
+      example: 期末考试前的模拟考（小非农）：分数出来全家先紧张一轮，正考（非农）两天后见分晓。
+  - slug: cai-xin-pmi
+    headword: 财新PMI
+    categoryL1: 宏观经济
+    categoryL2: 景气
+    difficulty: L2
+    summaryPlain: 民营机构编制的中国 PMI：样本偏中小和出口企业，常和官方 PMI 互相参照。
+    riskNote: 编制机构可能冠名变化，引用时要核实数据来源。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 民营机构编制的中国 PMI：样本偏中小和出口企业，常和官方 PMI 互相参照。
+        example: 比如官方 PMI 回到 50 上方，但财新 PMI 还在 49，说明中小企业更难受。
+        notMeaning: 编制机构可能冠名变化，引用时要核实数据来源。
+        isPrimary: true
+        contextKeywords:
+          - 景气
+        frequency: mid
+    aliases:
+      - raw: 财新PMI
+        aliasType: primary
+      - raw: 财新中国PMI
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: 财新 PMI：民企体感
+        min: 30
+        max: 70
+        threshold: 50
+        initial: 49
+        valueLabel: 财新 PMI
+        zones:
+          - min: 30
+            max: 50
+            label: 民企收缩
+            color: var(--down)
+          - min: 50
+            max: 70
+            label: 民企扩张
+            color: var(--up)
+    insights:
+      affects:
+        - 结构判断：大中型国企 vs 民营中小
+        - 市场：两个 PMI 打架时说明复苏不均
+      good:
+        - 财新回升：民企信心先修复
+      bad:
+        - 背离持续：复苏基础不牢
+      policy:
+        - 冠名与样本调整会改变口径
+      example: 官方问卷问大厂，民调问小厂。大厂说不错、小厂说快撑不住——两份问卷都要看。
+  - slug: chu-qing
+    headword: 初请
+    categoryL1: 宏观经济
+    categoryL2: 就业
+    difficulty: L2
+    summaryPlain: 美国每周公布的初请失业金人数：最高频的就业体温计，看裁员有没有加速。
+    riskNote: 单周噪音大，要看四周移动平均。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 美国每周公布的初请失业金人数：最高频的就业体温计，看裁员有没有加速。
+        example: 比如美国每周的失业救济申请人数连升四周，市场就开始担心就业裂缝。
+        notMeaning: 单周噪音大，要看四周移动平均。
+        isPrimary: true
+        contextKeywords:
+          - 就业
+        frequency: mid
+    aliases:
+      - raw: 初请
+        aliasType: primary
+      - raw: 初请失业金
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: 初请失业金：裁员速度表
+        min: 15
+        max: 40
+        threshold: 26
+        initial: 24
+        valueLabel: 万人/周
+        unit: " 万"
+        zones:
+          - min: 15
+            max: 26
+            label: 温和区
+            color: var(--up)
+          - min: 26
+            max: 40
+            label: 警戒区
+            color: var(--down)
+    insights:
+      affects:
+        - 衰退预警：最领先的就业指标之一
+        - 降息交易：初请飙→宽松预期
+      good:
+        - 回落：裁员压力缓解
+      bad:
+        - 陡升：企业在砍人
+      policy:
+        - 失业救济政策影响申请意愿
+      example: 医院急诊挂号量：平时稳定，某周突然翻倍，说明流行病来了——初请就是就业市场的急诊量。
+  - slug: cnh
+    headword: 离岸人民币
+    categoryL1: 宏观经济
+    categoryL2: 汇率
+    difficulty: L2
+    summaryPlain: 在中国境外交易的人民币（CNH）：香港等地换汇的价格，常和境内价差出一截。
+    riskNote: 价差大往往预示贬值/升值压力，两岸套利资金会收敛它。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 在中国境外交易的人民币（CNH）：香港等地换汇的价格，常和境内价差出一截。
+        example: 比如离岸价的人民币急贬，A 股外资常跟着流出。
+        notMeaning: 价差大往往预示贬值/升值压力，两岸套利资金会收敛它。
+        isPrimary: true
+        contextKeywords:
+          - 汇率
+        frequency: mid
+    aliases:
+      - raw: 离岸人民币
+        aliasType: primary
+      - raw: CNH
+        aliasType: en_alias
+      - raw: 在岸人民币
+        aliasType: cn_alias
+      - raw: CNY
+        aliasType: en_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: USD/CNH：海外人民币价
+        min: 6.7
+        max: 7.4
+        threshold: 7.1
+        initial: 7.25
+        valueLabel: USD/CNH
+        step: 0.05
+        zones:
+          - min: 6.7
+            max: 7.1
+            label: 人民币偏强
+            color: var(--up)
+          - min: 7.1
+            max: 7.4
+            label: 人民币偏弱
+            color: var(--down)
+    insights:
+      affects:
+        - 外资流向：贬值压力大时北向易流出
+        - 出口企业：结汇成本
+      good:
+        - 升值：外资偏好升温
+      bad:
+        - 急贬：资本外流担忧
+      policy:
+        - 中间价引导在岸预期
+        - 逆周期因子调节
+      example: 同一瓶茅台，香港免税店（离岸）和内地专卖店（在岸）两个价：价差大了，黄牛（套利资金）就出没。
+  - slug: cpi
+    headword: CPI
+    categoryL1: 宏观经济
+    categoryL2: 物价指标
+    difficulty: L1
+    summaryPlain: 居民消费价格指数，跟踪一篮子日常用品和服务的价格变化，反映物价涨了多少、钱毛了没。
+    riskNote: 它只看消费端价格，不涵盖房价这类资产价格。
+    frequency: high
+    popularity: 900
+    senses:
+      - senseKey: default
+        plainExplain: 居民消费价格指数，跟踪一篮子日常用品和服务的价格变化，反映物价涨了多少、钱毛了没。
+        example: 比如上个月菜价和房租一起往上走，这个指数就跟着抬升，说明通胀压力在变大。
+        notMeaning: 它只看消费端价格，不涵盖房价这类资产价格。
+        isPrimary: true
+        contextKeywords:
+          - 物价
+          - 通胀
+          - 指数
+          - 生活成本
+        frequency: high
+    aliases:
+      - raw: CPI
+        aliasType: primary
+      - raw: 居民消费价格指数
+        aliasType: cn_alias
+    viz:
+      type: CPIBasket
+      config: {}
+    insights:
+      affects:
+        - 钱袋子：CPI 涨→同样的钱买更少东西
+        - 央行：物价涨太快→可能加息；跌→可能降息
+        - 股市：通胀太高→成本上升压利润
+      good:
+        - 温和上涨（比如 2% 左右）：经济活跃、买卖正常
+        - 说明大家愿意消费、工厂有活干
+      bad:
+        - 涨太猛=钱毛了（通胀），东西贵到买不起
+        - 一直跌=通缩，东西卖不动、工厂停产
+      policy:
+        - 货币放水（降准降息）容易推高 CPI
+        - 收紧货币、补贴供给能压住物价
+      example: 去年 100 块能买 10 斤苹果，今年只能买 8 斤——CPI 涨了，你的钱‘缩水’了。央行就盯着它决定要不要加息。
+  - slug: dxy
+    headword: 美元指数
+    categoryL1: 宏观经济
+    categoryL2: 汇率
+    difficulty: L2
+    summaryPlain: 美元对一篮子主要货币的强弱打分：全球资产定价的背面。
+    riskNote: 它强不一定美国强，也可能是欧日更弱；弱势美元才是风险资产的朋友。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 美元对一篮子主要货币的强弱打分：全球资产定价的背面。
+        example: 比如美元对一篮子货币的强弱打分飙升，黄金、原油、新兴市场同步承压。
+        notMeaning: 它强不一定美国强，也可能是欧日更弱；弱势美元才是风险资产的朋友。
+        isPrimary: true
+        contextKeywords:
+          - 汇率
+        frequency: mid
+    aliases:
+      - raw: 美元指数
+        aliasType: primary
+      - raw: DXY
+        aliasType: en_alias
+      - raw: 美指
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: 美元指数：全球资金的引力
+        min: 88
+        max: 115
+        threshold: 100
+        initial: 104
+        valueLabel: DXY
+        zones:
+          - min: 88
+            max: 100
+            label: 弱美元：冒险模式
+            color: var(--up)
+          - min: 100
+            max: 115
+            label: 强美元：避险模式
+            color: var(--down)
+    insights:
+      affects:
+        - 大宗商品：美元强=商品压
+        - 新兴市场：强美元抽走流动性
+      good:
+        - 回落：全球风险资产友好
+      bad:
+        - 走强：非美货币和黄金承压
+      policy:
+        - 美联储相对其他央行的利率差
+      example: 班级里最壮的同学：他抢镜（美元强）时，其他同学（其他货币、商品）的存在感就被压低。
+  - slug: fai
+    headword: FAI
+    categoryL1: 宏观经济
+    categoryL2: 投资
+    difficulty: L3
+    summaryPlain: 固定资产投资：修路、建厂、买设备的钱花多少，含房地产开发投资。
+    riskNote: 制造业投资结构比总量更重要；民间投资意愿是亮点指标。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 固定资产投资：修路、建厂、买设备的钱花多少，含房地产开发投资。
+        example: 比如固定资产投资增速在基建发力下保持平稳，工程机械订单回暖。
+        notMeaning: 制造业投资结构比总量更重要；民间投资意愿是亮点指标。
+        isPrimary: true
+        contextKeywords:
+          - 投资
+        frequency: mid
+    aliases:
+      - raw: FAI
+        aliasType: primary
+      - raw: 固定资产投资
+        aliasType: cn_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: 固定资产投资：大工程账本
+    insights:
+      affects:
+        - 产业链：基建链、工程机械的订单来源
+        - 政策：逆周期调节的主抓手
+      good:
+        - 回升：政府在托底经济
+      bad:
+        - 地产投资拖累：上下游一起冷
+      policy:
+        - 专项债发行节奏
+        - 房地产调控政策
+      example: 全村的「大工程账本」：修桥补路建厂房的钱记多少。政府想托经济，最先动的就是这本账。
+  - slug: fei-nong
+    headword: 非农
+    categoryL1: 宏观经济
+    categoryL2: 就业
+    difficulty: L1
+    summaryPlain: 美国每月第一个周五公布的「非农业就业人数」：就业市场的成绩单一出，全球市场先抖三抖。
+    riskNote: 它是调查估算，修正值常打脸；数据太好也可能引发加息担忧，跌也慌涨也慌。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 美国每月第一个周五公布的「非农业就业人数」：就业市场的成绩单一出，全球市场先抖三抖。
+        example: 比如公布的新增就业远超预期，市场担心通胀反弹，美元和美债收益率应声走高。
+        notMeaning: 它是调查估算，修正值常打脸；数据太好也可能引发加息担忧，跌也慌涨也慌。
+        isPrimary: true
+        contextKeywords:
+          - 就业
+        frequency: high
+    aliases:
+      - raw: 非农
+        aliasType: primary
+      - raw: 非农就业
+        aliasType: cn_alias
+      - raw: NFP
+        aliasType: en_alias
+      - raw: 小非农
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config: {}
+    insights:
+      affects:
+        - 美联储：就业强→可能继续加息；弱→宽松预期
+        - 美股：非农夜波动大
+        - 美债和美元：数据强→收益率涨、美元强
+      good:
+        - 就业稳：经济底盘稳，消费有支撑
+        - 温和增长：软着陆叙事的主角
+      bad:
+        - 就业骤降：衰退警报
+        - 数字太强：推升降息预期落空的担忧
+      policy:
+        - 财政刺激影响就业修复速度
+        - 临时工/季调方法影响单月读数
+      example: 每月初学校发一次全州统考成绩（非农）：分数高，家长（美联储）就觉得该加作业（加息）；分数低，就给糖吃（降息）。全班（全球市场）在放榜前都不敢喘气。
+  - slug: gdp
+    headword: GDP
+    categoryL1: 宏观经济
+    categoryL2: 总量指标
+    difficulty: L1
+    summaryPlain: 一个国家或地区在一段时间里生产的全部最终商品和服务的市场价值总和，用来衡量经济块头有多大、长得快不快。
+    riskNote: 它衡量的是生产规模，不直接等于老百姓的钱包变厚了。
+    frequency: high
+    popularity: 900
+    senses:
+      - senseKey: default
+        plainExplain: 一个国家或地区在一段时间里生产的全部最终商品和服务的市场价值总和，用来衡量经济块头有多大、长得快不快。
+        example: 比如新闻说上季度这块的总量比上一年同期多了一截，大家就判断经济在回暖。
+        notMeaning: 它衡量的是生产规模，不直接等于老百姓的钱包变厚了。
+        isPrimary: true
+        contextKeywords:
+          - 总量
+          - 增长
+          - 同比
+          - 经济
+        frequency: high
+    aliases:
+      - raw: GDP
+        aliasType: primary
+      - raw: 国内生产总值
+        aliasType: cn_alias
+    viz:
+      type: GDPStack
+      config: {}
+    insights:
+      affects:
+        - 大盘：GDP 好→公司赚钱→股票易涨；差→易跌
+        - 就业：产出多→好找工作、工资易涨
+        - 政策：政府看它决定踩油门还是刹车
+      good:
+        - 同比正增长、稳稳地涨
+        - 说明机器转得动、企业愿意扩产招人
+      bad:
+        - 增速下滑，甚至连续两季负增长（技术性衰退）
+        - 说明订单少、失业多、大家不敢花钱
+      policy:
+        - 踩油门：降准降息、搞基建、减税、发消费券
+        - 踩刹车：加息、收紧贷款、压住房价
+      example: 把国家想成一个村子：今年包子铺多蒸了包子、游客来吃喝→总产出比去年多→GDP 涨了→大家收入涨、开了更多店。2020 疫情后政府发债搞基建+降准，让 GDP 重新回正。
+  - slug: gnp
+    headword: GNP
+    categoryL1: 宏观经济
+    categoryL2: 总量指标
+    difficulty: L3
+    summaryPlain: 国民生产总值：按「是哪国的人」统计，不管他在世界哪个角落生产。
+    riskNote: 现在统计已很少用，看经济块头主要看 GDP。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 国民生产总值：按「是哪国的人」统计，不管他在世界哪个角落生产。
+        example: 比如中国公司在海外工厂赚的钱，算的是本国的国民总收入。
+        notMeaning: 现在统计已很少用，看经济块头主要看 GDP。
+        isPrimary: true
+        contextKeywords:
+          - 总量指标
+        frequency: mid
+    aliases:
+      - raw: GNP
+        aliasType: primary
+      - raw: 国民生产总值
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: GDP 口径
+            point: 100
+            base: 100
+            note: 境内生产都算
+          - name: GNP 口径
+            point: 108
+            base: 100
+            note: 本国人生产都算
+    insights:
+      affects:
+        - 经济统计：和 GDP 只差一个「境内/属民」口径
+        - 国际比较：早年常用，今已少用
+      good:
+        - 包含海外收入：跨国经营强的国家数值更好看
+      bad:
+        - 统计口径复杂，各国差异大
+      policy:
+        - 统计标准的国际化演进
+      example: 同学 A 在班里考了 80、去隔壁班代考又拿 60：本班平均分（GDP）只算 80，算他个人总分（GNP）要加 60。
+  - slug: he-pi-shu
+    headword: 褐皮书
+    categoryL1: 宏观经济
+    categoryL2: 央行调查
+    difficulty: L3
+    summaryPlain: 美联储 12 个地区行汇总的经济调查报告，每年 8 次，用文学语言描述经济冷暖。
+    riskNote: 定性描述多、数据少，对市场影响偏情绪面。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 美联储 12 个地区行汇总的经济调查报告，每年 8 次，用文学语言描述经济冷暖。
+        example: 比如这份地区经济调查报告说「通胀压力缓和、消费温和」，市场解读为偏鸽信号。
+        notMeaning: 定性描述多、数据少，对市场影响偏情绪面。
+        isPrimary: true
+        contextKeywords:
+          - 央行调查
+        frequency: mid
+    aliases:
+      - raw: 褐皮书
+        aliasType: primary
+      - raw: Beige Book
+        aliasType: en_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 褐皮书：美联储的地方巡查笔记
+    insights:
+      affects:
+        - 议息参考：FOMC 会议前必读
+        - 措辞变化：比数字更受解读派关注
+      good:
+        - 描述积极：经济有韧性
+      bad:
+        - 频繁出现「疲软」：衰退信号
+      policy:
+        - 地区行的调研时点
+      example: 班主任家访前，先收集 12 个小组长的班级周记：比成绩单更早知道风向。
+  - slug: he-xin-cpi
+    headword: 核心CPI
+    categoryL1: 宏观经济
+    categoryL2: 物价
+    difficulty: L2
+    summaryPlain: 剔除食品和能源后的 CPI：这两项波动太野，去掉才能看清物价的稳定趋势。
+    riskNote: 它不衡量你真实的菜价感受，只看底层通胀压力。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 剔除食品和能源后的 CPI：这两项波动太野，去掉才能看清物价的稳定趋势。
+        example: 比如菜价油价猛涨带动 CPI 走高，但核心 CPI 平稳，说明是短期扰动不是全面通胀。
+        notMeaning: 它不衡量你真实的菜价感受，只看底层通胀压力。
+        isPrimary: true
+        contextKeywords:
+          - 物价
+        frequency: mid
+    aliases:
+      - raw: 核心CPI
+        aliasType: primary
+      - raw: Core CPI
+        aliasType: en_alias
+    viz:
+      type: CPIBasket
+      config:
+        title: 核心 CPI：把吵闹的拿走
+    insights:
+      affects:
+        - 央行决策：美联储更信核心通胀
+        - 市场：核心数据超预期才影响加息预期
+      good:
+        - 核心回升：需求端真在恢复
+      bad:
+        - 核心高企：顽固通胀，加息压力大
+      policy:
+        - 央行的通胀目标通常盯核心口径
+      example: 班里平均分被两个挂科的拉爆了。把最高最低分去掉再平均（核心），才看得出班级真实水平。
+  - slug: ism
+    headword: ISM
+    categoryL1: 宏观经济
+    categoryL2: 景气
+    difficulty: L3
+    summaryPlain: 美国供应管理协会发布的 PMI：50 荣枯线，分制造业和服务业两套。
+    riskNote: 样本偏大企业，和官方的 Markit PMI 口径不同，别混用。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 美国供应管理协会发布的 PMI：50 荣枯线，分制造业和服务业两套。
+        example: 比如美国这个供应管理协会指数跌破 50，市场开始交易衰退预期。
+        notMeaning: 样本偏大企业，和官方的 Markit PMI 口径不同，别混用。
+        isPrimary: true
+        contextKeywords:
+          - 景气
+        frequency: mid
+    aliases:
+      - raw: ISM
+        aliasType: primary
+      - raw: 供应管理协会指数
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: ISM：美国景气温度计
+        min: 30
+        max: 70
+        threshold: 50
+        initial: 48
+        valueLabel: ISM 读数
+        zones:
+          - min: 30
+            max: 50
+            label: 收缩区
+            color: var(--down)
+          - min: 50
+            max: 70
+            label: 扩张区
+            color: var(--up)
+    insights:
+      affects:
+        - 美股：ISM 差→周期股承压
+        - 美联储：景气下滑时倾向转鸽
+      good:
+        - 扩张：美国企业盈利有支撑
+      bad:
+        - 萎缩：衰退前哨
+      policy:
+        - 库存周期影响新订单分项
+      example: 美国版问卷：问工厂采购经理「这个月忙不忙」，忙的过半（>50）说明机器在转。
+  - slug: jian-dao-cha
+    headword: 剪刀差
+    categoryL1: 宏观经济
+    categoryL2: 货币
+    difficulty: L3
+    summaryPlain: 两个相关指标的差距拉大，常见 M1 和 M2 的差、CPI 和 PPI 的差：差越大，说明两头越拧。
+    riskNote: 剪刀差含义要看清是哪两个指标，不同组合结论可能相反。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 两个相关指标的差距拉大，常见 M1 和 M2 的差、CPI 和 PPI 的差：差越大，说明两头越拧。
+        example: 比如 M1 增速一路走低而 M2 增速平稳，研究员就说资金在空转、企业不愿花钱。
+        notMeaning: 剪刀差含义要看清是哪两个指标，不同组合结论可能相反。
+        isPrimary: true
+        contextKeywords:
+          - 货币
+        frequency: high
+    aliases:
+      - raw: 剪刀差
+        aliasType: primary
+      - raw: M1-M2剪刀差
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: M1-M2 剪刀差
+        min: -15
+        max: 10
+        threshold: 0
+        initial: -7
+        valueLabel: M1 增速 − M2 增速
+        unit: "%"
+        zones:
+          - min: -15
+            max: 0
+            label: M1 跑输：钱在躺
+            color: var(--down)
+          - min: 0
+            max: 10
+            label: M1 跑赢：钱在干活
+            color: var(--up)
+        rows:
+          - - 负值扩大
+            - 活钱少、定期多：大家不花钱
+            - 存钱罐生锈
+          - - 负值收窄
+            - 存款活化：消费投资意愿回升
+            - 钱从罐子往外爬
+          - - 转正
+            - 企业交易活跃
+            - 全村的钱都跑起来了
+    insights:
+      affects:
+        - 企业经营：M1 是企业随时花的钱，增速反映交易活跃度
+        - 股市：剪刀差收窄常被视作流动性好转信号
+        - 消费：钱不活化难有繁荣
+      good:
+        - 负值收窄：大家把定期取出来花/投资
+        - M1 反弹领先：往往先于经济数据好转
+      bad:
+        - 负值持续扩大：资金空转、不进实体
+        - CPI-PPI 剪刀差为负：中游制造业被两头挤压
+      policy:
+        - 降准降息影响存款活化意愿
+        - 楼市股市赚钱效应决定钱动不动
+      example: 两口子一个拼命挣（M1 活钱）一个光存不花（M2 死钱），差距拉大叫剪刀差；差距缩小平，家里的钱才真正转起来。
+  - slug: lian-xi-hui-lv
+    headword: 联系汇率
+    categoryL1: 宏观经济
+    categoryL2: 汇率制度
+    difficulty: L2
+    summaryPlain: 港元盯住美元的汇率制度：约 7.75–7.85 港元兑 1 美元，金管局在区间边缘出手买入卖出。
+    riskNote: 联系汇率意味着香港没有独立利率，美联储加息香港往往也得跟。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 港元盯住美元的汇率制度：约 7.75–7.85 港元兑 1 美元，金管局在区间边缘出手买入卖出。
+        example: 比如港元多次触及弱方兑换保证，金管局入市承接港元沽盘，银行体系结余下降。
+        notMeaning: 联系汇率意味着香港没有独立利率，美联储加息香港往往也得跟。
+        isPrimary: true
+        contextKeywords:
+          - 汇率制度
+        frequency: high
+    aliases:
+      - raw: 联系汇率
+        aliasType: primary
+      - raw: 联汇制度
+        aliasType: cn_alias
+      - raw: 港元挂钩美元
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: 港元联汇：7.75–7.85 的笼子
+        min: 7.6
+        max: 7.9
+        threshold: 0
+        initial: 7.8
+        valueLabel: USD/HKD
+        step: 0.01
+        zones:
+          - min: 7.6
+            max: 7.75
+            label: 强方：金管局卖港元
+            color: var(--up)
+          - min: 7.75
+            max: 7.85
+            label: 区间内
+            color: var(--color-muted)
+          - min: 7.85
+            max: 7.9
+            label: 弱方：金管局买港元
+            color: var(--down)
+        rows:
+          - - 贴近 7.85
+            - 港元被抛售，资金外流
+            - 金管局抽水托价
+          - - 中间
+            - 正常波动
+            - 金管局看戏
+          - - 贴近 7.75
+            - 港元被抢购，资金涌入
+            - 金管局放水压价
+    insights:
+      affects:
+        - 港元利率：随美元走，港楼港股的水位跟着变
+        - 资金流向：接近弱方常伴随资本外流
+        - 本地经济：出口旅游竞争力随汇率浮动
+      good:
+        - 制度稳定：几经风雨没被冲垮
+        - 套利机制让汇率很少失控
+      bad:
+        - 本地利率被动跟美国：经济周期错配
+        - 冲击时金管局要大规模买港元托底，抽水抬息
+      policy:
+        - 金管局在区间边缘自动出手
+        - 资金流入流出会推着汇率贴边
+        - 美元本身强弱影响所有挂钩货币
+      example: 一根弹力绳把港元拴在美元柱子上：风大（资金冲击）时，看门人（金管局）在绳子两端拉着，不让它跑出 7.75–7.85 的院子。
+  - slug: m1m2
+    headword: M1/M2
+    categoryL1: 宏观经济
+    categoryL2: 货币
+    difficulty: L2
+    summaryPlain: M1 是随时能花的活钱，M2 是加上定存的广义货币：两个增速的差就是经济的血压计。
+    riskNote: 口径各国略有差异，别拿中国 M2 增速直接对比美国。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: M1 是随时能花的活钱，M2 是加上定存的广义货币：两个增速的差就是经济的血压计。
+        example: 比如 M1 增速上穿 M2，市场常说「存款活化」，往往对应风险偏好回升。
+        notMeaning: 口径各国略有差异，别拿中国 M2 增速直接对比美国。
+        isPrimary: true
+        contextKeywords:
+          - 货币
+        frequency: mid
+    aliases:
+      - raw: M1/M2
+        aliasType: primary
+      - raw: 广义货币
+        aliasType: cn_alias
+      - raw: 狭义货币
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: M1 与 M2：活钱与总钱
+        min: 0
+        max: 14
+        threshold: 7
+        initial: 5
+        valueLabel: M1 增速
+        unit: "%"
+        zones:
+          - min: 0
+            max: 7
+            label: M1 偏冷
+            color: var(--down)
+          - min: 7
+            max: 14
+            label: M1 偏热
+            color: var(--up)
+    insights:
+      affects:
+        - 流动性判断：M1 看交易活跃度
+        - 股市：M1-M2 剪刀差是经典择时
+      good:
+        - M1 回升：企业愿意花钱
+      bad:
+        - M2 虚胖：放水在金融体系空转
+      policy:
+        - 降准降息改变 M2 增速
+        - 财政发力推高政府存款
+      example: 钱包里的现金+随时能取的余额（M1）；再加上三年定期（M2）。定期越多，说明越不敢花。
+  - slug: mao-yi-cha-e
+    headword: 贸易差额
+    categoryL1: 宏观经济
+    categoryL2: 外贸
+    difficulty: L3
+    summaryPlain: 出口减进口的差额：顺差是赚进来的外汇，逆差是花出去的。
+    riskNote: 要看结构：进口大涨可能是内需好也可能是涨价，不能一概而论。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 出口减进口的差额：顺差是赚进来的外汇，逆差是花出去的。
+        example: 比如出口超预期，市场会炒作出口链（集装箱、家电、光伏）。
+        notMeaning: 要看结构：进口大涨可能是内需好也可能是涨价，不能一概而论。
+        isPrimary: true
+        contextKeywords:
+          - 外贸
+        frequency: mid
+    aliases:
+      - raw: 贸易差额
+        aliasType: primary
+      - raw: 顺差
+        aliasType: cn_alias
+      - raw: 逆差
+        aliasType: cn_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: 贸易差额：钱进还是出
+    insights:
+      affects:
+        - 汇率：顺差大→人民币有升值压力
+        - 板块：出口链公司的景气
+      good:
+        - 顺差扩大：外需强劲
+      bad:
+        - 逆差：买得多卖得少
+      policy:
+        - 关税与贸易协定
+        - 出口退税调整
+      example: 摆摊一天卖了 500 进货花了 300：顺差 200。连续顺差说明生意模式健康。
+  - slug: mei-zhai-shou-yi
+    headword: 美债收益率
+    categoryL1: 宏观经济
+    categoryL2: 利率
+    difficulty: L2
+    summaryPlain: 借钱给美国财政部时收的利息，10 年期是全球资产定价之锚：它升，全球风险资产都承压。
+    riskNote: 收益率上行常常因价格下跌而非加息发生，买债也会亏钱。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 借钱给美国财政部时收的利息，10 年期是全球资产定价之锚：它升，全球风险资产都承压。
+        example: 比如 10 年期收益率快速升破 4%，全球科技股当天普遍回调。
+        notMeaning: 收益率上行常常因价格下跌而非加息发生，买债也会亏钱。
+        isPrimary: true
+        contextKeywords:
+          - 利率
+        frequency: high
+    aliases:
+      - raw: 美债收益率
+        aliasType: primary
+      - raw: 10Y
+        aliasType: cn_alias
+      - raw: 国债收益率
+        aliasType: cn_alias
+      - raw: 倒挂
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: 10Y-2Y 利差：倒挂警报
+        min: -2
+        max: 3
+        threshold: 0
+        initial: -0.6
+        valueLabel: 10 年 − 2 年利差
+        unit: "%"
+        step: 0.1
+        zones:
+          - min: -2
+            max: 0
+            label: 倒挂区
+            color: var(--down)
+          - min: 0
+            max: 3
+            label: 正常区
+            color: var(--up)
+        rows:
+          - - 严重倒挂
+            - 市场赌未来降息
+            - 常出现在衰退前
+          - - 轻微倒挂
+            - 短端太贵
+            - 加息尾声常见
+          - - 正斜率
+            - 长期回报正常
+            - 经济温和扩张
+    insights:
+      affects:
+        - 全球股市：无风险利率越高，股票的相对吸引力越低
+        - 房贷/企业债：收益率上行=融资成本涨
+        - 美元：美债强=美元强，新兴市场承压
+      good:
+        - 回落：通胀预期降温，利好风险资产
+        - 收益率稳定：市场定价清晰
+      bad:
+        - 飙升：股债可能双杀
+        - 倒挂虽准但常提前半年到两年
+      policy:
+        - 美联储加息/缩表直接推高收益率
+        - 发债量、避险需求也影响价格
+      example: 10 年期美债是全球资金的「定存基准利率」：定存利息涨到 5%，谁还愿意冒风险买股票？所以它一涨，全市场的风险偏好都被压。
+  - slug: nber
+    headword: NBER
+    categoryL1: 宏观经济
+    categoryL2: 机构
+    difficulty: L3
+    summaryPlain: 美国官方认定「衰退起止日期」的学术机构：它盖章了才算衰退。
+    riskNote: 认定是滞后的，市场从来不等它官宣。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 美国官方认定「衰退起止日期」的学术机构：它盖章了才算衰退。
+        example: 比如这家学术机构确认衰退从某月开始，其实股市早在一年前就见顶了。
+        notMeaning: 认定是滞后的，市场从来不等它官宣。
+        isPrimary: true
+        contextKeywords:
+          - 机构
+        frequency: mid
+    aliases:
+      - raw: NBER
+        aliasType: primary
+      - raw: 美国国家经济研究局
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 衰退认定：史官的章
+    insights:
+      affects:
+        - 历史研究：衰退起止的权威口径
+        - 政策复盘：政策效果的度量衡
+      good:
+        - 确认结束：新一轮周期起点
+      bad:
+        - 盖棺定论时市场早已跌完
+      policy:
+        - 学术机构的独立裁定机制
+      example: 史官：仗打完了才写「某年某月大战爆发」。仗怎么打的，当事人比史官清楚。
+  - slug: pce
+    headword: PCE
+    categoryL1: 宏观经济
+    categoryL2: 物价
+    difficulty: L2
+    summaryPlain: 个人消费支出价格指数：美国最看重的通胀指标，比 CPI 更贴近真实消费结构。
+    riskNote: 美国口径的指标，对 A 股只有间接影响。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 个人消费支出价格指数：美国最看重的通胀指标，比 CPI 更贴近真实消费结构。
+        example: 比如美国公布的核心个人消费支出物价指数超预期，市场立刻上调加息概率。
+        notMeaning: 美国口径的指标，对 A 股只有间接影响。
+        isPrimary: true
+        contextKeywords:
+          - 物价
+        frequency: mid
+    aliases:
+      - raw: PCE
+        aliasType: primary
+      - raw: 个人消费支出物价指数
+        aliasType: cn_alias
+      - raw: 核心PCE
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: 核心 PCE：美联储的体温计
+        min: 1
+        max: 8
+        threshold: 2
+        initial: 2.8
+        valueLabel: 核心 PCE 同比
+        unit: "%"
+        step: 0.1
+        zones:
+          - min: 1
+            max: 2
+            label: 达标区
+            color: var(--up)
+          - min: 2
+            max: 8
+            label: 超标区
+            color: var(--down)
+        rows:
+          - - "> 2%"
+            - 高于目标，倾向加息
+            - 市场风险资产承压
+          - - ≈ 2%
+            - 刚刚好
+            - 皆大欢喜
+          - - < 2%
+            - 偏冷，可能宽松
+            - 利好股市
+    insights:
+      affects:
+        - 美联储：政策利率以它 2% 目标为锚
+        - 全球市场：美股夜盘常看它
+      good:
+        - 回落：降息预期升温
+      bad:
+        - 超预期：紧缩恐慌
+      policy:
+        - 能源与房价权重影响读数
+      example: 班主任最看重的科目（PCE）：其他科目（CPI）只是参考。班主任要看的那科没过线，全班（市场）补课。
+  - slug: pmi
+    headword: PMI
+    categoryL1: 宏观经济
+    categoryL2: 景气
+    difficulty: L2
+    summaryPlain: 问一堆采购经理「这个月生意比上个月好吗」统计出来的指数：50 是荣枯分界线。
+    riskNote: 它是情绪问卷，不是硬数据；对股市只是参考，别当买卖依据。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 问一堆采购经理「这个月生意比上个月好吗」统计出来的指数：50 是荣枯分界线。
+        example: 比如这个月问一圈工厂采购主管，都说订单比上个月多，统计出来读数在荣枯线以上，就说明景气在扩张。
+        notMeaning: 它是情绪问卷，不是硬数据；对股市只是参考，别当买卖依据。
+        isPrimary: true
+        contextKeywords:
+          - 景气
+        frequency: high
+    aliases:
+      - raw: PMI
+        aliasType: primary
+      - raw: 采购经理指数
+        aliasType: cn_alias
+      - raw: 景气指数
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: PMI：50 是分界线
+        min: 30
+        max: 70
+        threshold: 50
+        initial: 52
+        valueLabel: PMI 读数
+        unit: ""
+        zones:
+          - min: 30
+            max: 50
+            label: 收缩区
+            color: var(--down)
+          - min: 50
+            max: 70
+            label: 扩张区
+            color: var(--up)
+        rows:
+          - - "> 50"
+            - 扩张：生意人觉得在变好
+            - 班级过半数人说明天会更好
+          - - < 50
+            - 收缩：生意人觉得在变差
+            - 过半数人说明天会更糟
+          - - = 50
+            - 荣枯线：和上月打平
+            - 恰好好坏参半
+    insights:
+      affects:
+        - 企业决策：PMI 好→敢备货扩产
+        - 股市：PMI 反弹常被认为是经济见底信号
+        - 债市：PMI 差→宽松预期升温
+      good:
+        - 站上 50 并连续走高：景气扩张
+        - 新订单指数强：未来几个月的活有着落
+      bad:
+        - 掉到 50 以下：订单萎缩，企业收缩
+        - 跌太快：往往是衰退的前哨
+      policy:
+        - 财政发力（基建订单）会推高建筑业 PMI
+        - 出口退税/外贸政策影响新出口订单
+      example: 开学问问全班「这个月零花钱变多了吗」：过半说多了就是扩张 PMI，过少说多了就是收缩。问卷快、但只是感觉，不是查钱包。
+  - slug: ppi
+    headword: PPI
+    categoryL1: 宏观经济
+    categoryL2: 物价
+    difficulty: L2
+    summaryPlain: 工厂卖东西时的出厂价指数：上游先涨价，早晚会传导到你买东西的价签上。
+    riskNote: 它涨企业未必赚钱（成本也涨），单月波动也大，要看趋势。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 工厂卖东西时的出厂价指数：上游先涨价，早晚会传导到你买东西的价签上。
+        example: 比如上游钢材出厂价连涨三个月，做家电的厂家成本跟着抬，媒体就会讨论要不要提前买原材料囤着。
+        notMeaning: 它涨企业未必赚钱（成本也涨），单月波动也大，要看趋势。
+        isPrimary: true
+        contextKeywords:
+          - 物价
+        frequency: high
+    aliases:
+      - raw: PPI
+        aliasType: primary
+      - raw: 工业生产者出厂价格指数
+        aliasType: cn_alias
+      - raw: 生产价格指数
+        aliasType: cn_alias
+    viz:
+      type: CPIBasket
+      config: {}
+    insights:
+      affects:
+        - 企业利润：出厂价涨→利润改善；成本涨更多→被挤压
+        - CPI：PPI 是 CPI 的先行官，上游涨价几个月后零售端常跟上
+        - 政策：PPI 太高太低都会引来调控
+      good:
+        - 温和回升：说明工厂订单回暖、经济在恢复
+        - PPI 止跌：通缩压力缓解，企业收入端改善
+      bad:
+        - 持续大跌：东西卖不上价，企业裁员减产
+        - PPI 涨太猛：中下游小厂被成本压垮
+      policy:
+        - 大宗商品保供稳价：影响上游出厂成本
+        - 环保限产/能耗双控：短期推高 PPI
+      example: 菜贩从农民手里收菜 3 块、卖给你 5 块。农民进货价（PPI）涨到 4 块，菜贩熬一阵，迟早涨到 6 块卖给你。
+  - slug: qu-ku-cun
+    headword: 去库存
+    categoryL1: 宏观经济
+    categoryL2: 增长与产出
+    difficulty: L1
+    summaryPlain: 指企业把手里积压的存货卖出去，把库存降下来。
+    riskNote: 库存高低只是经营信号之一，别据此判断买卖时机。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 指企业把手里积压的存货卖出去，把库存降下来。
+        example: 比如厂家把卖得慢的货降价促销，尽快回笼资金，仓库就不再越堆越多。
+        notMeaning: 它说的是“存货多少”这个现象，不预测价格涨跌。
+        isPrimary: true
+        contextKeywords:
+          - 存货
+          - 促销
+          - 回笼资金
+          - 产能
+        frequency: mid
+    aliases:
+      - raw: 去库存
+        aliasType: primary
+    viz:
+      type: InventoryClear
+      config: {}
+    insights:
+      affects:
+        - 企业现金流回不回得来
+        - 行业是否回暖
+        - 相关股票业绩
+      good:
+        - 把积压货卖掉→回笼资金、减负
+        - 说明需求回来了
+      bad:
+        - 卖不动只能压价甩卖、亏本
+        - 库存高=占用钱、压力大
+      policy:
+        - 促消费、家电下乡帮去库存
+        - 棚改货币化曾刺激地产库存
+      example: 仓库堆了 1000 台旧空调卖不出，占着钱。打折促销卖掉 800 台→回笼资金、腾地方——这就是去库存。卖不掉就只能越压越贱。
+  - slug: ruan-zhuo-lu
+    headword: 软着陆
+    categoryL1: 宏观经济
+    categoryL2: 组合
+    difficulty: L2
+    summaryPlain: 通胀降下来了、经济还没衰退：央行最想要的最优解。
+    riskNote: 软着陆是事后认定的，进行中谁也不知道是软是硬。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 通胀降下来了、经济还没衰退：央行最想要的最优解。
+        example: 比如通胀回落同时失业率稳定，市场就开始交易这种最优解。
+        notMeaning: 软着陆是事后认定的，进行中谁也不知道是软是硬。
+        isPrimary: true
+        contextKeywords:
+          - 组合
+        frequency: mid
+    aliases:
+      - raw: 软着陆
+        aliasType: primary
+      - raw: 硬着陆
+        aliasType: cn_alias
+      - raw: soft landing
+        aliasType: en_alias
+    viz:
+      type: MarketMood
+      config:
+        title: 软着陆：飞机安全触地
+    insights:
+      affects:
+        - 市场：软着陆叙事利好风险资产
+        - 政策：紧缩与增长的平衡术
+      good:
+        - 实现：股债双牛的可能
+      bad:
+        - 变成硬着陆：衰退交易
+      policy:
+        - 紧缩节奏拿捏是关键
+      example: 飞机降落：轮子接地（通胀降温）但没摔（不衰退）。乘客（市场）全程系安全带。
+  - slug: she-ling
+    headword: 社零
+    categoryL1: 宏观经济
+    categoryL2: 消费
+    difficulty: L2
+    summaryPlain: 社会消费品零售总额：全国商店卖东西的总金额，月度发布的中国消费成绩单。
+    riskNote: 是「零售额」不是「利润」，服务消费占比越来越高时它有失真。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 社会消费品零售总额：全国商店卖东西的总金额，月度发布的中国消费成绩单。
+        example: 比如全国社会消费品零售总额同比转正，消费板块往往迎来修复行情。
+        notMeaning: 是「零售额」不是「利润」，服务消费占比越来越高时它有失真。
+        isPrimary: true
+        contextKeywords:
+          - 消费
+        frequency: mid
+    aliases:
+      - raw: 社零
+        aliasType: primary
+      - raw: 社会消费品零售总额
+        aliasType: cn_alias
+    viz:
+      type: CPIBasket
+      config:
+        title: 社零：全国人民买了多少
+    insights:
+      affects:
+        - 消费板块：直接相关的基本面锚
+        - 政策：促消费政策效果的考场
+      good:
+        - 回升：消费信心恢复
+      bad:
+        - 低迷：通缩压力信号
+      policy:
+        - 以旧换新、消费券等刺激
+        - 居民收入预期影响消费意愿
+      example: 全村小卖部一个月的营业额合计：卖得多说明大家愿意花钱，卖不动说明捂紧钱包。
+  - slug: she-rong
+    headword: 社融
+    categoryL1: 宏观经济
+    categoryL2: 信用
+    difficulty: L2
+    summaryPlain: 整个实体经济从金融体系借到多少钱的总量：企业敢借、银行敢贷，说明经济有热度。
+    riskNote: 结构比总量重要：政府债撑起来的社融，含金量要打折。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 整个实体经济从金融体系借到多少钱的总量：企业敢借、银行敢贷，说明经济有热度。
+        example: 比如这个月实体经济融资存量同比多增，券商研究员就判断企业扩张意愿在恢复。
+        notMeaning: 结构比总量重要：政府债撑起来的社融，含金量要打折。
+        isPrimary: true
+        contextKeywords:
+          - 信用
+        frequency: high
+    aliases:
+      - raw: 社融
+        aliasType: primary
+      - raw: 社会融资规模
+        aliasType: cn_alias
+      - raw: TSF
+        aliasType: en_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: 社融：实体经济借到多少钱
+        direction: north
+    insights:
+      affects:
+        - 经济活力：社融扩张≈信用扩张，是经济的油门
+        - 股市：信用改善周期里企业盈利预期回暖
+        - 债市：社融太强会引发紧缩担忧
+      good:
+        - 存量同比回升：企业和居民融资意愿恢复
+        - 中长期贷款占比高：真投资、真消费
+      bad:
+        - 居民中长贷（房贷）连续走弱：购房意愿差
+        - 票据融资冲量：企业缺钱在借短还长
+      policy:
+        - 政策性金融发力、专项债发行节奏
+        - 监管对地产/城投融资的松紧
+      example: 全村（实体）今年总共向钱庄借了多少钱。今年借得多、工厂新开工，说明村里有奔头；没人敢借，说明大家心里没底。
+  - slug: shi-ye-lv
+    headword: 失业率
+    categoryL1: 宏观经济
+    categoryL2: 就业
+    difficulty: L1
+    summaryPlain: 想工作但找不到工作的人占劳动力比例：经济最直接的痛感指标。
+    riskNote: 中国的城镇调查失业率和美国的 U3 口径不同，跨国比较要小心。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 想工作但找不到工作的人占劳动力比例：经济最直接的痛感指标。
+        example: 比如青年调查没工作的比例上升，市场会担心消费和内需。
+        notMeaning: 中国的城镇调查失业率和美国的 U3 口径不同，跨国比较要小心。
+        isPrimary: true
+        contextKeywords:
+          - 就业
+        frequency: mid
+    aliases:
+      - raw: 失业率
+        aliasType: primary
+      - raw: UR
+        aliasType: en_alias
+      - raw: 青年失业率
+        aliasType: cn_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: 失业率：就业体温计
+        min: 2
+        max: 10
+        threshold: 5
+        initial: 5.2
+        valueLabel: 失业率
+        unit: "%"
+        step: 0.1
+        zones:
+          - min: 2
+            max: 5
+            label: 充分就业
+            color: var(--up)
+          - min: 5
+            max: 10
+            label: 压力区
+            color: var(--down)
+    insights:
+      affects:
+        - 消费：没工作=没收入=不敢花
+        - 政策：高失业倒逼刺激
+      good:
+        - 低位：经济热
+        - 高位：政策底常在附近
+      bad:
+        - 攀升：消费和内需双杀
+      policy:
+        - 稳就业政策：补贴、社保减免
+        - 口径：农业转移人口计入方式不同
+      example: 求职市场里「有心仪的 offer」是充分就业；想搬砖没人要就是失业。就业市场太热也会通胀。
+  - slug: xin-zeng-dai-kuan
+    headword: 新增贷款
+    categoryL1: 宏观经济
+    categoryL2: 信用
+    difficulty: L2
+    summaryPlain: 每月新增的人民币贷款：居民房贷和企业经营贷的合计，看谁在借钱。
+    riskNote: 票据冲量会虚增，看结构比看总量重要。
+    frequency: mid
+    popularity: 650
+    senses:
+      - senseKey: default
+        plainExplain: 每月新增的人民币贷款：居民房贷和企业经营贷的合计，看谁在借钱。
+        example: 比如居民中长贷回暖，市场就博弈地产链修复。
+        notMeaning: 票据冲量会虚增，看结构比看总量重要。
+        isPrimary: true
+        contextKeywords:
+          - 信用
+        frequency: mid
+    aliases:
+      - raw: 新增贷款
+        aliasType: primary
+      - raw: 新增人民币贷款
+        aliasType: cn_alias
+      - raw: 信贷数据
+        aliasType: cn_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: 新增贷款：谁在借钱
+    insights:
+      affects:
+        - 信用周期：贷款的领先指标
+        - 地产链：居民按揭回暖的信号
+      good:
+        - 企业中长期贷款强：扩产意愿真实
+      bad:
+        - 票据融资撑数：实体需求弱
+      policy:
+        - 信贷额度窗口指导
+        - 按揭利率调整
+      example: 村里的借条登记簿：这个月新写了多少张。写得多=有人敢投资，没人写=大家躺平。
+  - slug: zhi-zhang
+    headword: 滞胀
+    categoryL1: 宏观经济
+    categoryL2: 组合
+    difficulty: L3
+    summaryPlain: 经济停滞加高通胀：工厂没活干、大家没钱赚，但东西还越来越贵——最难受的组合。
+    riskNote: 政策很难同时治两头，历史上滞胀期股债双杀很常见。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 经济停滞加高通胀：工厂没活干、大家没钱赚，但东西还越来越贵——最难受的组合。
+        example: 比如油价冲击让物价居高不下，而工厂订单在萎缩，媒体就说经济进入最难受的组合。
+        notMeaning: 政策很难同时治两头，历史上滞胀期股债双杀很常见。
+        isPrimary: true
+        contextKeywords:
+          - 组合
+        frequency: high
+    aliases:
+      - raw: 滞胀
+        aliasType: primary
+      - raw: 停滞性通货膨胀
+        aliasType: cn_alias
+      - raw: Stagflation
+        aliasType: en_alias
+    viz:
+      type: CPIBasket
+      config: {}
+    insights:
+      affects:
+        - 民生：工资不涨物价涨，实际购买力缩水
+        - 政策：宽松怕通胀、收紧怕衰退，两难
+        - 资产：现金贬值，实物资产相对抗跌
+      good:
+        - 及早识别并调整资产结构
+        - 上游资源品价格往往坚挺
+      bad:
+        - 企业利润被成本吃掉
+        - 经济增长引擎熄火，失业上升
+      policy:
+        - 能源冲击、供给中断是常见导火索
+        - 货币超发后的沉淀效应
+      example: 钱包瘪了（停滞）但食堂涨价（通胀）：想省钱吧肚子扛不住，想吃饱吧钱包扛不住——食堂阿姨（美联储）加价降价都挨骂。

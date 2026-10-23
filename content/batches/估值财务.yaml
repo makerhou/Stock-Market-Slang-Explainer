@@ -1,0 +1,1255 @@
+# 自动生成的批量词条源（可由 ingest 重新编译为 lexicon.json）
+category: 估值财务
+source: bootstrap from lexicon.json (2026-10-22)
+terms:
+  - slug: bps
+    headword: BPS
+    categoryL1: 估值财务
+    categoryL2: 每股指标
+    difficulty: L3
+    summaryPlain: 每股净资产：账面上的家底摊到每一股，是市净率的分母。
+    riskNote: 账面价值可能虚高（烂资产没减值），也可能低估（隐形土地）。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 每股净资产：账面上的家底摊到每一股，是市净率的分母。
+        example: 比如银行股股价跌破每股净资产，就是所谓的破净。
+        notMeaning: 账面价值可能虚高（烂资产没减值），也可能低估（隐形土地）。
+        isPrimary: true
+        contextKeywords:
+          - 每股指标
+        frequency: mid
+    aliases:
+      - raw: BPS
+        aliasType: primary
+      - raw: 每股净资产
+        aliasType: cn_alias
+      - raw: 账面价值
+        aliasType: cn_alias
+    viz:
+      type: PEScale
+      config:
+        ratioName: 市净率
+        denomLabel: 每股净资产
+        denomMax: 20
+        cheap: 1
+        fair: 3
+    insights:
+      affects:
+        - 估值：PB 锚
+        - 破净：安全边际的幻觉与真相
+      good:
+        - 家底厚实：抗风险强
+      bad:
+        - 资产注水：账面假富裕
+      policy:
+        - 会计准则影响账面价值
+      example: 分家产时的账本：每套房每辆车都记了数。但老破小值多少，账本说的和市場说的不一定一致。
+  - slug: eps
+    headword: EPS
+    categoryL1: 估值财务
+    categoryL2: 每股指标
+    difficulty: L2
+    summaryPlain: 每股收益：公司赚的净利润摊到每一股是多少钱，是市盈率的分母。
+    riskNote: 一次性收益（卖房、补贴）会美化它，要看「扣非」后的真实赚钱能力。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 每股收益：公司赚的净利润摊到每一股是多少钱，是市盈率的分母。
+        example: 比如公司全年赚 10 亿，股本 5 亿股，每股收益就是 2 元。
+        notMeaning: 一次性收益（卖房、补贴）会美化它，要看「扣非」后的真实赚钱能力。
+        isPrimary: true
+        contextKeywords:
+          - 每股指标
+        frequency: high
+    aliases:
+      - raw: EPS
+        aliasType: primary
+      - raw: 每股收益
+        aliasType: cn_alias
+      - raw: earnings per share
+        aliasType: en_alias
+    viz:
+      type: EarningsSeason
+      config:
+        expectEps: 1.5
+    insights:
+      affects:
+        - 估值：PE=股价÷EPS
+        - 业绩：EPS 增速是股价的核心驱动
+        - 分红：EPS×分红率=每股分红
+      good:
+        - 持续增长：盈利能力强
+        - 超预期：市场用脚投票
+      bad:
+        - 负值：公司在亏钱
+        - 靠非经常项目增厚：水分大
+      policy:
+        - 会计准则变化影响计算
+        - 股本变动（回购/增发）改变摊薄
+      example: 全班 40 人一起接了个 2000 元的活：每人分 50 元（EPS）。人多活少，分到的就薄。
+  - slug: ev-ebitda
+    headword: EV/EBITDA
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L3
+    summaryPlain: 企业价值（买下整家公司要花的钱）除以息税折旧前利润：跨行业比较常用的估值尺。
+    riskNote: 忽略了资本开支和税，重资产行业看着便宜可能是因为要不停砸钱。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 企业价值（买下整家公司要花的钱）除以息税折旧前利润：跨行业比较常用的估值尺。
+        example: 比如两家钢铁厂这个倍数一样，但一家设备老旧要花天量维护费，实际就不如账面上划算。
+        notMeaning: 忽略了资本开支和税，重资产行业看着便宜可能是因为要不停砸钱。
+        isPrimary: true
+        contextKeywords:
+          - 估值倍数
+        frequency: high
+    aliases:
+      - raw: EV/EBITDA
+        aliasType: primary
+      - raw: 企业价值倍数
+        aliasType: cn_alias
+      - raw: ev/ebitda
+        aliasType: en_alias
+    viz:
+      type: PEScale
+      config:
+        ratioName: EV/EBITDA
+        denomLabel: 每年EBITDA
+        denomMax: 20
+        cheap: 6
+        fair: 12
+    insights:
+      affects:
+        - 并购定价：买方必看的估值口径
+        - 跨行业/跨国比较：剔除资本结构差异
+        - 重资产行业的主流标尺
+      good:
+        - 倍数低于行业：并购价值
+        - 债台高筑的公司同口径更可比
+      bad:
+        - 低倍数但现金流差：价值陷阱
+        - 高杠杆扭曲企业价值 EV
+      policy:
+        - 利率环境影响并购交易活跃度
+        - 折旧政策改变 EBITDA 可比性
+      example: 买奶茶店不看账上现金，看「盘下整家店要多少钱÷每年真正赚的钱」：装修（折旧）和借条（利息）都还原掉，才是真家底。
+  - slug: gaap
+    headword: GAAP
+    categoryL1: 估值财务
+    categoryL2: 会计准则
+    difficulty: L3
+    summaryPlain: 美国通用会计准则：算利润的「国标」，美股财报的法定口径。
+    riskNote: 公司还爱发 Non-GAAP（剔除股权激励等）「调后利润」，两边差距要看清。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 美国通用会计准则：算利润的「国标」，美股财报的法定口径。
+        example: 比如一家公司美国准则下巨亏但调整口径后盈利，差别常在股权激励和摊销。
+        notMeaning: 公司还爱发 Non-GAAP（剔除股权激励等）「调后利润」，两边差距要看清。
+        isPrimary: true
+        contextKeywords:
+          - 会计准则
+        frequency: mid
+    aliases:
+      - raw: GAAP
+        aliasType: primary
+      - raw: Non-GAAP
+        aliasType: cn_alias
+      - raw: 美国会计准则
+        aliasType: cn_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        title: 官方口径 vs 美颜口径
+    insights:
+      affects:
+        - 跨市场比较：口径差异是最大坑
+        - 估值：用哪套口径的 EPS
+      good:
+        - GAAP 规范：可信度高
+      bad:
+        - Non-GAAP 美化：剔掉的都是成本
+      policy:
+        - FASB 制定规则
+      example: 官方体检报告（GAAP）vs 美颜后的（Non-GAAP）：都看，但别只信带滤镜的。
+  - slug: gu-xi-lv
+    headword: 股息率
+    categoryL1: 估值财务
+    categoryL2: 回报指标
+    difficulty: L1
+    summaryPlain: 每股分红除以股价：你出的钱每年以现金形式回来几个点，像存款利息。
+    riskNote: 高股息可能是股价跌太狠被动抬高，或公司把钱分光没弹药了。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 每股分红除以股价：你出的钱每年以现金形式回来几个点，像存款利息。
+        example: 比如一只股票股价 10 元，每年每股分 0.4 元，折算下来一年的现金回报就是 4%。
+        notMeaning: 高股息可能是股价跌太狠被动抬高，或公司把钱分光没弹药了。
+        isPrimary: true
+        contextKeywords:
+          - 回报指标
+        frequency: high
+    aliases:
+      - raw: 股息率
+        aliasType: primary
+      - raw: 分红收益率
+        aliasType: cn_alias
+      - raw: dividend yield
+        aliasType: en_alias
+    viz:
+      type: DividendSplit
+      config: {}
+    insights:
+      affects:
+        - 收息策略：熊市里的压舱石
+        - 定价：利率下行时高股息资产受宠
+        - 税负：红利税影响实际到手
+      good:
+        - 持续多年高分红：现金流真实的证据
+        - 股息率跑赢存款利率：配置价值
+      bad:
+        - 突然降低分红：公司缺钱了
+        - 股息率高但盈利下滑：典型的价值陷阱
+      policy:
+        - 现金分红监管指引提高分红比例
+        - 利率周期影响股息资产吸引力
+      example: 100 块买只会下蛋的鸡：每年下 5 块钱蛋（股息率 5%），比活期强。但鸡要是不下蛋了（削减分红），你就只剩炖汤。
+  - slug: gui-mu-jing-run
+    headword: 归母净利润
+    categoryL1: 估值财务
+    categoryL2: 盈利质量
+    difficulty: L2
+    summaryPlain: 归属于母公司股东的净利润：把少数股东（子公司其他投资人）那份剔掉。
+    riskNote: 只看总净利润会高估你实际能分享的部分。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 归属于母公司股东的净利润：把少数股东（子公司其他投资人）那份剔掉。
+        example: 比如子公司大赚但母公司只持股 51%，归母部分要打掉一半。
+        notMeaning: 只看总净利润会高估你实际能分享的部分。
+        isPrimary: true
+        contextKeywords:
+          - 盈利质量
+        frequency: mid
+    aliases:
+      - raw: 归母净利润
+        aliasType: primary
+      - raw: 归母净利
+        aliasType: cn_alias
+      - raw: 少数股东
+        aliasType: cn_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        income: 120
+        cost: 100
+    insights:
+      affects:
+        - 估值：EPS 的计算基数
+        - 股东回报：分红的上限来源
+      good:
+        - 归母高增：股东真实受益
+      bad:
+        - 总利润涨归母跌：被少数股东分走
+      policy:
+        - 股权结构变化影响归母比例
+      example: 合伙开店你占七成：赚 10 万你只分 7 万。写「归母」才不作假。
+  - slug: jing-ying-xian-jin-liu
+    headword: 经营现金流
+    categoryL1: 估值财务
+    categoryL2: 现金流
+    difficulty: L2
+    summaryPlain: 主业真正收到口袋的现金：利润可能有水分，现金流难造假。
+    riskNote: 行业淡旺季会让单季度波动，要看多年趋势。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 主业真正收到口袋的现金：利润可能有水分，现金流难造假。
+        example: 比如净利润连年增长但主业收到的现金转负，典型的纸面富贵。
+        notMeaning: 行业淡旺季会让单季度波动，要看多年趋势。
+        isPrimary: true
+        contextKeywords:
+          - 现金流
+        frequency: mid
+    aliases:
+      - raw: 经营现金流
+        aliasType: primary
+      - raw: OCF
+        aliasType: en_alias
+      - raw: CFO
+        aliasType: en_alias
+    viz:
+      type: MoneyFlow
+      config:
+        title: 经营现金流：主业进账
+    insights:
+      affects:
+        - 盈利质量：现金含量的试金石
+        - 偿债与分红：都靠它
+      good:
+        - 利润现金双增：最健康的增长
+      bad:
+        - 利润涨现金跌：应收/存货堆积
+      policy:
+        - 回款政策影响现金流节奏
+      example: 工资条写 2 万（利润）但客户欠着不给（现金没到账）：月底房租照样要付，现金才是王。
+  - slug: kou-fei-jing-run
+    headword: 扣非净利润
+    categoryL1: 估值财务
+    categoryL2: 盈利质量
+    difficulty: L2
+    summaryPlain: 扣除非经常性损益后的净利润：把卖房、补贴、炒股赚的一次性钱剔掉，看主业真本事。
+    riskNote: 主业连续亏损靠非经常项目续命的公司，最擅长在这一项上做文章。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 扣除非经常性损益后的净利润：把卖房、补贴、炒股赚的一次性钱剔掉，看主业真本事。
+        example: 比如年报显示净利大增，细看扣非后反而亏损，说明增长是卖资产和政府补贴凑的。
+        notMeaning: 主业连续亏损靠非经常项目续命的公司，最擅长在这一项上做文章。
+        isPrimary: true
+        contextKeywords:
+          - 盈利质量
+        frequency: high
+    aliases:
+      - raw: 扣非净利润
+        aliasType: primary
+      - raw: 扣非
+        aliasType: cn_alias
+      - raw: 非经常性损益
+        aliasType: cn_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        mode: trap
+        shares: 500
+    insights:
+      affects:
+        - 盈利质量：识别「假赚钱」公司
+        - 退市风险：扣非连亏+营收过低是硬指标
+        - 估值溢价：干净利润值更高价
+      good:
+        - 扣非高增：主业景气
+        - 由负转正：经营拐点信号
+      bad:
+        - 扣非连续为负：靠补贴活着
+        - 大额商誉减值藏在非经常项里
+      policy:
+        - 退市规则对扣非的硬约束
+        - 政府补助披露规则
+      example: 考试突然考了 90 分，但其中 40 分是老师送的附加题（非经常）。扣掉附加，真实水平 50 分——这就是扣非。
+  - slug: li-xi-bao-zhang-bei-shu
+    headword: 利息保障倍数
+    categoryL1: 估值财务
+    categoryL2: 偿债能力
+    difficulty: L3
+    summaryPlain: 利润能覆盖利息多少倍：还得起利息的公司才配谈梦想。
+    riskNote: 低于 1.5 就要警惕，周期下行时恶化极快。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 利润能覆盖利息多少倍：还得起利息的公司才配谈梦想。
+        example: 比如利润只够付一次利息，贷款利率一上调就可能付不起。
+        notMeaning: 低于 1.5 就要警惕，周期下行时恶化极快。
+        isPrimary: true
+        contextKeywords:
+          - 偿债能力
+        frequency: mid
+    aliases:
+      - raw: 利息保障倍数
+        aliasType: primary
+      - raw: ICR
+        aliasType: en_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        income: 105
+        cost: 100
+    insights:
+      affects:
+        - 债务安全：违约概率的前哨
+        - 融资能力：银行放贷的核心指标
+      good:
+        - 高倍数：加杠杆空间大
+      bad:
+        - 逼近 1：随时可能躺平
+      policy:
+        - 利率周期直接影响覆盖能力
+      example: 月薪刚够还房贷利息：一旦降薪（利润下滑），断供就在眼前。
+  - slug: liu-dong-bi-lv
+    headword: 流动比率
+    categoryL1: 估值财务
+    categoryL2: 偿债能力
+    difficulty: L3
+    summaryPlain: 流动资产除以流动负债：一年内到期的债，手头的钱够不够还。
+    riskNote: 比率高也可能是存货积压、应收收不回，要搭配速动比率看。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 流动资产除以流动负债：一年内到期的债，手头的钱够不够还。
+        example: 比如流动资产对流动负债 2 比 1 算稳健，低于 1 就要警惕短期偿债压力。
+        notMeaning: 比率高也可能是存货积压、应收收不回，要搭配速动比率看。
+        isPrimary: true
+        contextKeywords:
+          - 偿债能力
+        frequency: mid
+    aliases:
+      - raw: 流动比率
+        aliasType: primary
+      - raw: 速动比率
+        aliasType: cn_alias
+      - raw: current ratio
+        aliasType: en_alias
+    viz:
+      type: PoolDilution
+      config:
+        title: 一年内要还的钱 vs 手里的钱
+    insights:
+      affects:
+        - 信用风险：银行的授信参考
+        - 危机预警：最先恶化的指标
+      good:
+        - 健康：短期无虞
+      bad:
+        - 低于 1：借新还旧风险
+      policy:
+        - 再融资环境影响偿债压力
+      example: 月底信用卡账单 vs 微信余额：余额盖不住账单，就要动用下个月工资（借新还旧）。
+  - slug: liu-tong-gu
+    headword: 流通股
+    categoryL1: 估值财务
+    categoryL2: 股本结构
+    difficulty: L1
+    summaryPlain: 能在市场上自由买卖的那部分股票：决定实际供需的盘子。
+    riskNote: 流通盘小的股容易被操纵，解禁会改变供需。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 能在市场上自由买卖的那部分股票：决定实际供需的盘子。
+        example: 比如次新股流通盘小，一点点资金就能拉涨停。
+        notMeaning: 流通盘小的股容易被操纵，解禁会改变供需。
+        isPrimary: true
+        contextKeywords:
+          - 股本结构
+        frequency: high
+    aliases:
+      - raw: 流通股
+        aliasType: primary
+      - raw: 流通盘
+        aliasType: cn_alias
+      - raw: 流通市值
+        aliasType: cn_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: 流通股：真正能交易的盘子
+    insights:
+      affects:
+        - 供需定价：流通盘决定弹性
+        - 解禁风险：流通盘扩容
+      good:
+        - 小流通盘：拉升省力
+      bad:
+        - 大盘股：拉不动
+      policy:
+        - 限售解禁制度
+      example: 演唱会黄牛票：官方放票 100 张（流通盘小），黄牛（资金）一炒就翻倍。
+  - slug: mao-li-lv
+    headword: 毛利率
+    categoryL1: 估值财务
+    categoryL2: 盈利能力
+    difficulty: L1
+    summaryPlain: 收入减去直接成本后剩下的比例：这门生意本身赚不赚钱的第一道门槛。
+    riskNote: 高毛利不等于高净利——费用、利息、税都能吃掉它，要看整条链。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 收入减去直接成本后剩下的比例：这门生意本身赚不赚钱的第一道门槛。
+        example: 比如一杯奶茶卖 20 元，原料杯子 6 元，剩下 70% 是毛利，但扣完人工房租可能只赚 2 块。
+        notMeaning: 高毛利不等于高净利——费用、利息、税都能吃掉它，要看整条链。
+        isPrimary: true
+        contextKeywords:
+          - 盈利能力
+        frequency: high
+    aliases:
+      - raw: 毛利率
+        aliasType: primary
+      - raw: 净利率
+        aliasType: cn_alias
+      - raw: gross margin
+        aliasType: en_alias
+    viz:
+      type: ProfitLossScale
+      config: {}
+    insights:
+      affects:
+        - 定价权：毛利率高=有护城河
+        - 行业景气：成本涨它扛得住
+        - 竞争格局：价格战直接砍毛利
+      good:
+        - 提升：产品升级/提价成功
+        - 稳定高位：品牌壁垒的证据
+      bad:
+        - 下滑：竞争恶化或成本失控
+        - 为保量打价格战：毛利率撑不住
+      policy:
+        - 原材料价格与保供稳价
+        - 行业补贴/准入影响竞争烈度
+      example: 烤红薯：5 毛的炭火烤出的卖 5 块，毛利率 90%；但你要穿街走巷叫卖一整天，最后发现净赚的还不如去打工。
+  - slug: mao-li-run-lv
+    headword: 净利率
+    categoryL1: 估值财务
+    categoryL2: 盈利能力
+    difficulty: L1
+    summaryPlain: 净利润占收入的比例：刨掉所有成本费用后真正落袋的比例。
+    riskNote: 净利率低不一定差（零售薄利多销），要和周转率一起看。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 净利润占收入的比例：刨掉所有成本费用后真正落袋的比例。
+        example: 比如白酒龙头每 100 块收入净落 50 块，超市只落 2 块——但超市照样赚钱。
+        notMeaning: 净利率低不一定差（零售薄利多销），要和周转率一起看。
+        isPrimary: true
+        contextKeywords:
+          - 盈利能力
+        frequency: mid
+    aliases:
+      - raw: 净利率
+        aliasType: primary
+      - raw: 净利润率
+        aliasType: cn_alias
+      - raw: Net Margin
+        aliasType: en_alias
+    viz:
+      type: ProfitLossScale
+      config: {}
+    insights:
+      affects:
+        - 盈利质量：最终落袋的刻度
+        - 行业对比：不同生意天差地别
+      good:
+        - 净利率提升：定价权或降本
+      bad:
+        - 持续下滑：竞争恶化
+      policy:
+        - 税负与费用政策影响
+      example: 摆摊卖烤肠：3 块进货卖 5 块，毛利 40%，扣完摊位费煤气费，净赚可能只有 5 毛。
+  - slug: mei-gu-fen-hong
+    headword: 每股分红
+    categoryL1: 估值财务
+    categoryL2: 回报指标
+    difficulty: L2
+    summaryPlain: 每一股分到的现金：股息率的分子，收息族最关心的数字。
+    riskNote: 一次性特别分红会虚高，要看是否可持续。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 每一股分到的现金：股息率的分子，收息族最关心的数字。
+        example: 比如每一股分到的现金从 0.3 涨到 0.5，收息资金的买入意愿明显增强。
+        notMeaning: 一次性特别分红会虚高，要看是否可持续。
+        isPrimary: true
+        contextKeywords:
+          - 回报指标
+        frequency: mid
+    aliases:
+      - raw: 每股分红
+        aliasType: primary
+      - raw: DPS
+        aliasType: en_alias
+      - raw: 股息
+        aliasType: cn_alias
+    viz:
+      type: DividendSplit
+      config:
+        title: 每一股分到多少
+    insights:
+      affects:
+        - 股息率：收息策略的锚
+        - 股东回报：分红意愿的信号
+      good:
+        - 连续提升：现金流自信
+      bad:
+        - 削减分红：危险信号
+      policy:
+        - 现金分红监管指引
+      example: 每张彩票固定返 5 块：看得见摸得着，但老板（公司）今年返 5、明年可能只返 1。
+  - slug: pb
+    headword: 市净率
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 股价除以每股净资产得到的倍数，衡量“为账面家底付了多少溢价”，常用于银行、地产这类重资产行业。
+    riskNote: 净资产里可能有水分（如商誉、存货），不能只看这个数。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 股价除以每股净资产得到的倍数，衡量“为账面家底付了多少溢价”，常用于银行、地产这类重资产行业。
+        example: 比如你拿价格去比公司账上的净资产，发现不到一倍，就觉得是在按家底打折卖。
+        notMeaning: 净资产里可能有水分（如商誉、存货），不能只看这个数。
+        isPrimary: true
+        contextKeywords:
+          - 估值
+          - PB
+          - 净资产
+          - 破净
+        frequency: mid
+    aliases:
+      - raw: 市净率
+        aliasType: primary
+      - raw: PB
+        aliasType: en_alias
+    viz:
+      type: PEScale
+      config:
+        ratioName: 市净率
+        denomLabel: 每股净资产
+        denomMax: 20
+        cheap: 1
+        fair: 3
+    insights:
+      affects:
+        - 股价相对‘家底’（净资产）的贵贱
+        - 重资产行业（银行、钢铁）更看它
+        - 破净（PB<1）常被视为低估
+      good:
+        - 偏低（尤其<1）=可能捡便宜
+        - 用少于家底的钱买下公司
+      bad:
+        - 过高=为‘家底’付太贵
+        - 或资产质量差、不值账面价
+      policy:
+        - 利率、资产质量预期影响 PB
+        - 国企估值修复政策会抬 PB
+      example: 公司家底（净资产）值 100 块，股价让你花 80 块就能按比例买下这份家底→PB=0.8，低于 1 叫‘破净’，常被说便宜。
+  - slug: pe
+    headword: 市盈率
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 股价除以每股盈利得到的倍数，用来粗略衡量“按现在的盈利水平，多少年回本”，倍数高常被说贵、低常被说便宜。
+    riskNote: 倍数低不一定真便宜，也可能是盈利快不行了。
+    frequency: high
+    popularity: 900
+    senses:
+      - senseKey: default
+        plainExplain: 股价除以每股盈利得到的倍数，用来粗略衡量“按现在的盈利水平，多少年回本”，倍数高常被说贵、低常被说便宜。
+        example: 比如你拿当下的价格和公司一年赚的钱一比，发现要几十年才回本，就觉得这价不便宜。
+        notMeaning: 倍数低不一定真便宜，也可能是盈利快不行了。
+        isPrimary: true
+        contextKeywords:
+          - 估值
+          - PE
+          - 回本
+          - 贵贱
+        frequency: high
+    aliases:
+      - raw: 市盈率
+        aliasType: primary
+      - raw: PE
+        aliasType: en_alias
+    viz:
+      type: PEScale
+      config:
+        ratioName: 市盈率
+        denomLabel: 每年赚的钱(每股收益)
+        denomMax: 10
+        cheap: 15
+        fair: 30
+    insights:
+      affects:
+        - 这只股票贵不贵
+        - 你愿为‘每年赚的钱’付多少倍
+        - 机构买卖的参考
+      good:
+        - 偏低=可能便宜、安全垫厚
+        - 说明用较少钱买到它的盈利
+      bad:
+        - 过高=可能太贵、有泡沫
+        - 或市场极度不看好未来
+      policy:
+        - 利率下降→市盈率中枢往往上移
+        - 行业景气影响合理区间
+      example: 花 30 块买一台每年赚 1 块（每股收益）的印钞机，市盈率=30。只花 15 块买同款→市盈率=15，更便宜。但科技股常因‘未来更赚’而贵一些。
+  - slug: peg
+    headword: PEG
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L3
+    summaryPlain: 市盈率除以盈利增速：把「贵不贵」和「长得快不快」放一起看，小于 1 常被认为划算。
+    riskNote: 增速预测本身就不靠谱，PEG 精确计算没意义，只适合拍脑袋比较。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 市盈率除以盈利增速：把「贵不贵」和「长得快不快」放一起看，小于 1 常被认为划算。
+        example: 比如市盈率 30、未来三年利润年增速 30%，这个比率等于 1；增速只有 15% 就偏贵。
+        notMeaning: 增速预测本身就不靠谱，PEG 精确计算没意义，只适合拍脑袋比较。
+        isPrimary: true
+        contextKeywords:
+          - 估值倍数
+        frequency: high
+    aliases:
+      - raw: PEG
+        aliasType: primary
+      - raw: 市盈率相对盈利增长比率
+        aliasType: cn_alias
+      - raw: PEG估值
+        aliasType: cn_alias
+    viz:
+      type: PEScale
+      config:
+        ratioName: PEG
+        denomLabel: 预期利润增速 %
+        denomMax: 50
+        cheap: 1
+        fair: 2
+    insights:
+      affects:
+        - 成长股估值：高速增长的容忍度更高
+        - 基金经理选股常用过滤指标
+        - 周期股慎用：增速不可持续
+      good:
+        - PEG<1：估值增速匹配
+        - PEG 低+行业好：戴维斯双击候选
+      bad:
+        - 高 PEG：为不切实际的增长付钱
+        - 增速放缓时双杀：估值+盈利
+      policy:
+        - 产业趋势影响增速假设
+        - 流动性宽松时市场容忍更高 PEG
+      example: 买复习资料：A 资料 30 块能提 30 分，B 资料 30 块只能提 10 分。看单价没意义，要买「每分成本的性价比」。
+  - slug: po-jing
+    headword: 破净
+    categoryL1: 估值财务
+    categoryL2: 估值状态
+    difficulty: L2
+    summaryPlain: 股价跌破每股净资产：市场说这家公司不值账面家底。
+    riskNote: 破净可能是错杀也可能是真相，银行地产破净是常态。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 股价跌破每股净资产：市场说这家公司不值账面家底。
+        example: 比如银行股市价只有每股家底的一半，长期折价。
+        notMeaning: 破净可能是错杀也可能是真相，银行地产破净是常态。
+        isPrimary: true
+        contextKeywords:
+          - 估值状态
+        frequency: high
+    aliases:
+      - raw: 破净
+        aliasType: primary
+      - raw: 跌破净资产
+        aliasType: cn_alias
+      - raw: PB小于1
+        aliasType: cn_alias
+    viz:
+      type: PEScale
+      config:
+        ratioName: 市净率
+        denomLabel: 每股净资产
+        denomMax: 20
+        cheap: 1
+        fair: 3
+    insights:
+      affects:
+        - 估值锚：净资产的安全边际
+        - 板块特征：金融地产破净集中营
+      good:
+        - 真破净：价值投资的猎场
+      bad:
+        - 假便宜：资产减值前的错觉
+      policy:
+        - 市值管理政策引导破净修复
+      example: 二手书按斤卖：原价 50 的书 5 块甩——是捡漏还是书真不行，翻翻（看资产）才知道。
+  - slug: roa
+    headword: ROA
+    categoryL1: 估值财务
+    categoryL2: 回报率
+    difficulty: L2
+    summaryPlain: 总资产收益率：公司全部资产的赚钱效率，不区分是借来的还是股东的。
+    riskNote: 重资产行业天然低，跨行业比较没意义。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 总资产收益率：公司全部资产的赚钱效率，不区分是借来的还是股东的。
+        example: 比如两家公司净资产回报率相同，但一家几乎全自有资金，它总资产回报率高说明经营更强。
+        notMeaning: 重资产行业天然低，跨行业比较没意义。
+        isPrimary: true
+        contextKeywords:
+          - 回报率
+        frequency: mid
+    aliases:
+      - raw: ROA
+        aliasType: primary
+      - raw: 总资产收益率
+        aliasType: cn_alias
+      - raw: 资产回报率
+        aliasType: cn_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        income: 108
+        cost: 100
+    insights:
+      affects:
+        - 经营效率：单位资产产出
+        - 与 ROE 对照看杠杆依赖
+      good:
+        - 提升：资产周转加快
+      bad:
+        - 低效资产拖累回报
+      policy:
+        - 产能利用率影响 ROA
+      example: 同样的本金开店：一家用自有资金，一家全贷款。ROA 只看店本身赚不赚，不问钱哪来的。
+  - slug: roe
+    headword: ROE
+    categoryL1: 估值财务
+    categoryL2: 回报率
+    difficulty: L2
+    summaryPlain: 净资产收益率：股东每投 100 块，公司一年替他赚多少，巴菲特最看重的指标之一。
+    riskNote: 高 ROE 可能来自高杠杆（借钱撑的），要结合负债率看。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 净资产收益率：股东每投 100 块，公司一年替他赚多少，巴菲特最看重的指标之一。
+        example: 比如两家公司净资产回报率都 20%，但一家几乎不借钱，另一家负债率 80%，质量天差地别。
+        notMeaning: 高 ROE 可能来自高杠杆（借钱撑的），要结合负债率看。
+        isPrimary: true
+        contextKeywords:
+          - 回报率
+        frequency: high
+    aliases:
+      - raw: ROE
+        aliasType: primary
+      - raw: 净资产收益率
+        aliasType: cn_alias
+      - raw: return on equity
+        aliasType: en_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        income: 120
+        cost: 100
+    insights:
+      affects:
+        - 选股：长期高 ROE 是牛股的共同基因
+        - 行业对比：不同行业基准不同
+        - 杜邦拆解：利润率×周转×杠杆看来源
+      good:
+        - 持续 15%+：优秀公司的门槛
+        - ROE 回升周期：戴维斯双击的可能
+      bad:
+        - 突然下滑：竞争力恶化信号
+        - 靠加杠杆撑起的 ROE 风险高
+      policy:
+        - 利率影响杠杆使用意愿
+        - 行业景气周期决定利润率
+      example: 本金 100 块开了个小卖部，一年净赚 15 块，ROE=15%。隔壁老王借了 900 块也赚 15%，他那 15% 里全是借来的胆量。
+  - slug: roic
+    headword: ROIC
+    categoryL1: 估值财务
+    categoryL2: 回报率
+    difficulty: L3
+    summaryPlain: 投入资本回报率：把债权人和股东的钱合起来看回报，专治「靠加杠杆刷高 ROE」。
+    riskNote: 低于资金成本的公司，增长是在毁灭价值。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 投入资本回报率：把债权人和股东的钱合起来看回报，专治「靠加杠杆刷高 ROE」。
+        example: 比如投入资本回报率 15% 而贷款利率 5%，说明这门生意值得借钱扩张。
+        notMeaning: 低于资金成本的公司，增长是在毁灭价值。
+        isPrimary: true
+        contextKeywords:
+          - 回报率
+        frequency: mid
+    aliases:
+      - raw: ROIC
+        aliasType: primary
+      - raw: 投入资本回报率
+        aliasType: cn_alias
+      - raw: ROCE
+        aliasType: en_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        income: 115
+        cost: 100
+    insights:
+      affects:
+        - 资本配置：扩张还是收缩的依据
+        - 质量筛选：识别真赚钱公司
+      good:
+        - 持续高于 WACC：价值创造
+      bad:
+        - 低于成本：越增长越亏
+      policy:
+        - 利率环境影响资本成本基准
+      example: 借钱生蛋：蛋价（ROIC）高于饲料钱（WACC），多借多赚；反之越养越穷。
+  - slug: shang-yu-jian-zhi
+    headword: 商誉减值
+    categoryL1: 估值财务
+    categoryL2: 盈利质量
+    difficulty: L3
+    summaryPlain: 当初收购多花的钱（商誉）被发现「不值了」，一次性计提损失，利润瞬间爆雷。
+    riskNote: 前期高溢价并购积累商誉的公司，常在业绩承诺到期后集中爆雷。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 当初收购多花的钱（商誉）被发现「不值了」，一次性计提损失，利润瞬间爆雷。
+        example: 比如公司花 10 亿买了一家估值 3 亿的公司，形成 7 亿商誉，两年后标的变脸，7 亿一把亏光。
+        notMeaning: 前期高溢价并购积累商誉的公司，常在业绩承诺到期后集中爆雷。
+        isPrimary: true
+        contextKeywords:
+          - 盈利质量
+        frequency: high
+    aliases:
+      - raw: 商誉减值
+        aliasType: primary
+      - raw: 商誉
+        aliasType: cn_alias
+      - raw: goodwill
+        aliasType: en_alias
+      - raw: 洗澡
+        aliasType: cn_alias
+    viz:
+      type: RiskLadder
+      config:
+        initialStep: 2
+    insights:
+      affects:
+        - 报表：减值一次性砸出巨亏
+        - 股价：爆雷日通常跌停开局
+        - 并购：倒逼理性定价和尽调
+      good:
+        - 减值出清：甩掉历史包袱
+        - 轻装上阵后利润表变干净
+      bad:
+        - 连环爆雷：多米诺骨牌
+        - 业绩承诺期前后的财务洗澡
+      policy:
+        - 会计准则对减值测试的强制要求
+        - 监管严查「忽悠式并购」
+      example: 花 10 万彩礼娶了号称年入百万的网红，婚后发现年入 3 万：一次认栽，家底（利润）直接少 7 万。
+  - slug: shi-xiao-lv
+    headword: 市销率
+    categoryL1: 估值财务
+    categoryL2: 估值倍数
+    difficulty: L2
+    summaryPlain: 总市值除以营业收入：还没盈利的成长公司常用的估值尺子，看的是「卖货能力」。
+    riskNote: 收入质量差（烧钱换量、应收账款堆积）时，低市销率也能骗人。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 总市值除以营业收入：还没盈利的成长公司常用的估值尺子，看的是「卖货能力」。
+        example: 比如两家公司都一年卖 10 亿，一家市值 50 亿一家 200 亿，估值差 4 倍。
+        notMeaning: 收入质量差（烧钱换量、应收账款堆积）时，低市销率也能骗人。
+        isPrimary: true
+        contextKeywords:
+          - 估值倍数
+        frequency: high
+    aliases:
+      - raw: 市销率
+        aliasType: primary
+      - raw: PS
+        aliasType: en_alias
+      - raw: price to sales
+        aliasType: en_alias
+    viz:
+      type: PEScale
+      config:
+        ratioName: 市销率
+        denomLabel: 每年收入(每股)
+        denomMax: 20
+        cheap: 2
+        fair: 8
+    insights:
+      affects:
+        - 成长股：亏损期的主估值指标
+        - 行业对比：不同毛利率的行业基准不同
+        - 并购：早期互联网投资的标尺
+      good:
+        - 收入高增长市销率合理：市场买未来
+        - 规模效应显现后利润释放
+      bad:
+        - 烧钱补贴的收入：转化差
+        - 行业天花板可见时高市销率难维持
+      policy:
+        - 反垄断影响平台收入模式
+        - 补贴/价格战政策约束
+      example: 看摊煎饼的摊位值多少钱：不看他赚多少（可能亏本），先看他每天摊多少张（收入）。摊得多，摊位估值高。
+  - slug: shi-zhi
+    headword: 市值
+    categoryL1: 估值财务
+    categoryL2: 规模
+    difficulty: L3
+    summaryPlain: 公司总股本乘以当前股价得到的总价值，代表市场在当下给这家公司的定价规模。
+    riskNote: 价格由交易决定，市值会随股价剧烈波动，不等于公司账上真有这么多钱。
+    frequency: high
+    popularity: 900
+    senses:
+      - senseKey: default
+        plainExplain: 公司总股本乘以当前股价得到的总价值，代表市场在当下给这家公司的定价规模。
+        example: 比如一家公司发行在外的股数乘上现价，得到的那个天文数字就是它在牌价上的体量。
+        notMeaning: 价格由交易决定，市值会随股价剧烈波动，不等于公司账上真有这么多钱。
+        isPrimary: true
+        contextKeywords:
+          - 总市值
+          - 体量
+          - 估值
+          - 大盘股
+        frequency: high
+    aliases:
+      - raw: 市值
+        aliasType: primary
+    viz:
+      type: MarketCapBar
+      config: {}
+    insights:
+      affects:
+        - 公司在市场里的‘体重’
+        - 指数权重、机构能不能买
+        - 抗风险能力
+      good:
+        - 大市值=稳如大象、波动小
+        - 小市值=弹性大、易炒作
+      bad:
+        - 小市值=易被操控、抗跌弱
+        - 过大也可能涨不动
+      policy:
+        - 股价×股本决定市值
+        - 增发、回购会改变它
+      example: 股价 10 元×10 亿股=100 亿市值，这头‘猪’重 100 亿。市值越大越像大象走得稳；越小越像兔子蹦得高也易被叼走。
+  - slug: te-bie-gu-xi
+    headword: 特别股息
+    categoryL1: 估值财务
+    categoryL2: 分红
+    difficulty: L2
+    summaryPlain: 一次性的额外分红：公司突然大方，常因卖资产或藏利润。
+    riskNote: 特别股息不预示未来，别按它线性外推。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 一次性的额外分红：公司突然大方，常因卖资产或藏利润。
+        example: 比如公司卖掉一块地，发一次性额外分红，股价除息后照跌。
+        notMeaning: 特别股息不预示未来，别按它线性外推。
+        isPrimary: true
+        contextKeywords:
+          - 分红
+        frequency: mid
+    aliases:
+      - raw: 特别股息
+        aliasType: primary
+      - raw: Special Dividend
+        aliasType: en_alias
+      - raw: 特别分红
+        aliasType: cn_alias
+    viz:
+      type: DividendSplit
+      config:
+        title: 特别股息：意外之财
+    insights:
+      affects:
+        - 信号：现金充裕或无处投资
+        - 除息：股价会扣掉
+      good:
+        - 真金白银：股东回报
+      bad:
+        - 一次性：不可持续
+        - 「杀鸡取卵」嫌疑
+      policy:
+        - 分红政策的监管约束
+      example: 年终奖：今年发了 10 万，明年未必有。别按 10 万规划月薪。
+  - slug: zi-ben-kai-zhi
+    headword: 资本开支
+    categoryL1: 估值财务
+    categoryL2: 现金流
+    difficulty: L2
+    summaryPlain: 公司买设备建厂房的钱：决定未来产能的大手笔支出。
+    riskNote: 开支过猛可能拖垮现金流，该花不花又会丢掉竞争力，平衡很难。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 公司买设备建厂房的钱：决定未来产能的大手笔支出。
+        example: 比如芯片厂一年买设备建厂房花数百亿，自由现金流常年为负。
+        notMeaning: 开支过猛可能拖垮现金流，该花不花又会丢掉竞争力，平衡很难。
+        isPrimary: true
+        contextKeywords:
+          - 现金流
+        frequency: mid
+    aliases:
+      - raw: 资本开支
+        aliasType: primary
+      - raw: Capex
+        aliasType: en_alias
+      - raw: 运营开支
+        aliasType: cn_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        mode: cut
+        shares: 100
+    insights:
+      affects:
+        - 自由现金流：开支越大 FCF 越薄
+        - 行业周期：开支高峰常伴产能过剩
+      good:
+        - 扩张期开支：为未来买单
+        - 开支纪律：现金流稳健的保障
+      bad:
+        - 无节制开支：现金流失血
+      policy:
+        - 产业政策引导投资方向
+      example: 咖啡店生意再好，隔三差五换设备：赚的钱都进了设备商口袋，自己攒不下。
+  - slug: zi-chan-fu-zhai-lv
+    headword: 资产负债率
+    categoryL1: 估值财务
+    categoryL2: 偿债能力
+    difficulty: L2
+    summaryPlain: 总负债占总资产的比例：公司架子是不是靠借钱搭起来的。
+    riskNote: 不同行业合理水平天差地别，银行负债率 90% 很正常，制造业 70% 就危险。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 总负债占总资产的比例：公司架子是不是靠借钱搭起来的。
+        example: 比如一家公司资产 100 亿、负债 60 亿，比例就是 60%，银行地产这很常见，制造业就偏险。
+        notMeaning: 不同行业合理水平天差地别，银行负债率 90% 很正常，制造业 70% 就危险。
+        isPrimary: true
+        contextKeywords:
+          - 偿债能力
+        frequency: high
+    aliases:
+      - raw: 资产负债率
+        aliasType: primary
+      - raw: D/A
+        aliasType: en_alias
+      - raw: 负债率
+        aliasType: cn_alias
+    viz:
+      type: PoolDilution
+      config:
+        title: 负债 vs 股东的盘子
+    insights:
+      affects:
+        - 风险：利率上行时高杠杆公司最疼
+        - 再融资：负债率高的公司发债难
+        - 周期：顺周期加杠杆放大波动
+      good:
+        - 低负债：抗风险强，有加杠杆空间
+        - 去杠杆完成：财务费用下降
+      bad:
+        - 过高：利息吞掉利润
+        - 短债长投：流动性断裂风险
+      policy:
+        - 货币政策松紧影响债务成本
+        - 行业监管对杠杆的红线（如地产三条红线）
+      example: 首付 30% 买 300 万的房：负债率 70%。房价涨你赚倍数，房价跌+利率涨，断供就被扫地出门。
+  - slug: zi-you-xian-jin-liu
+    headword: 自由现金流
+    categoryL1: 估值财务
+    categoryL2: 现金流
+    difficulty: L2
+    summaryPlain: 经营现金流减去维持生意必须花的钱后，真正可自由支配的现金：公司的真血液。
+    riskNote: 利润是观点、现金是事实；长期自由现金流为负的公司，故事再美也危险。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 经营现金流减去维持生意必须花的钱后，真正可自由支配的现金：公司的真血液。
+        example: 比如一年经营进账 1 亿，设备维护扩张要花 6000 万，能自由支配的只有 4000 万。
+        notMeaning: 利润是观点、现金是事实；长期自由现金流为负的公司，故事再美也危险。
+        isPrimary: true
+        contextKeywords:
+          - 现金流
+        frequency: high
+    aliases:
+      - raw: 自由现金流
+        aliasType: primary
+      - raw: FCF
+        aliasType: en_alias
+      - raw: free cash flow
+        aliasType: en_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        income: 100
+        cost: 60
+    insights:
+      affects:
+        - 估值：DCF 贴现的就是自由现金流
+        - 分红回购能力：现金才是底气
+        - 偿债：有现金流才不怕借债
+      good:
+        - 持续正且增长：造血能力强
+        - 由负转正：商业模式跑通的标志
+      bad:
+        - 长期为负：靠融资续命
+        - 利润涨现金反降：应收/存货积压
+      policy:
+        - 减税/补贴影响短期现金流
+        - 资本开支监管（如限制无序扩张）
+      example: 工资 1 万，房租伙食通勤必须花 6000，剩 4000 才是你能自由支配的。账面吹自己月入过万，不看他必须花多少。
+  - slug: zong-gu-ben
+    headword: 总股本
+    categoryL1: 估值财务
+    categoryL2: 股本结构
+    difficulty: L1
+    summaryPlain: 公司发行的全部股票数量：流通的加上锁定的，市值=总股本×股价。
+    riskNote: 总股本大≠盘子活，看流通股才有意义。
+    frequency: high
+    popularity: 760
+    senses:
+      - senseKey: default
+        plainExplain: 公司发行的全部股票数量：流通的加上锁定的，市值=总股本×股价。
+        example: 比如公司发行股票总数 10 亿股，股价 10 元，总市值就是 100 亿。
+        notMeaning: 总股本大≠盘子活，看流通股才有意义。
+        isPrimary: true
+        contextKeywords:
+          - 股本结构
+        frequency: high
+    aliases:
+      - raw: 总股本
+        aliasType: primary
+      - raw: 股本
+        aliasType: cn_alias
+      - raw: 股本结构
+        aliasType: cn_alias
+    viz:
+      type: MarketCapBar
+      config:
+        title: 总股本：全部的股份
+    insights:
+      affects:
+        - 市值计算：总股本×股价
+        - 摊薄风险：增发会变大
+      good:
+        - 股本稳定：股权清晰
+      bad:
+        - 大额增发：摊薄老股东
+      policy:
+        - 再融资与股权激励的发行规则
+      example: 一块披萨切几份（总股本）：份数越多每份越小（每股权益薄），但整块披萨（市值）没变。

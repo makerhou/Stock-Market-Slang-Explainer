@@ -1,0 +1,177 @@
+category: 港股
+source: import wave 7 from 07_港股术语.tsv (2026-10-22) — 港股上市发行流程，长尾层；示例已改写成无黑话/无建议词
+terms:
+  - slug: jie-shao-shang-shi
+    headword: 介绍上市
+    categoryL1: 港股
+    categoryL2: 上市与发行
+    difficulty: L2
+    summaryPlain: 已发行股票不经过公开招股，直接在交易所挂牌上市、且不募集新资金的方式。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 已发行股票不经过公开招股，直接在交易所挂牌上市、且不募集新资金的方式。
+        example: 这家公司采用介绍上市，挂牌当天没有公开发售新股。
+        isPrimary: true
+    aliases:
+      - raw: 介绍上市
+        aliasType: primary
+      - raw: Introduction
+        aliasType: en_alias
+  - slug: shang-shi-ling-xun
+    headword: 上市聆讯
+    categoryL1: 港股
+    categoryL2: 上市与发行
+    difficulty: L2
+    summaryPlain: 港交所上市委员会审核公司新上市事项的程序，通过后方可启动招股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 港交所上市委员会审核公司新上市事项的程序，通过后方可启动招股。
+        example: 通过聆讯后，公司才会公布招股时间表。
+        isPrimary: true
+    aliases:
+      - raw: 上市聆讯
+        aliasType: primary
+      - raw: Listing Hearing
+        aliasType: en_alias
+      - raw: 聆讯
+        aliasType: cn_alias
+  - slug: shang-shi-lu-yan
+    headword: 上市路演
+    categoryL1: 港股
+    categoryL2: 上市与发行
+    difficulty: L2
+    summaryPlain: 发行人向机构投资者推介新股、收集认购意向的巡回活动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 发行人向机构投资者推介新股、收集认购意向的巡回活动。
+        example: 管理层本周在亚洲与欧美多地为新股路演。
+        isPrimary: true
+    aliases:
+      - raw: 上市路演
+        aliasType: primary
+      - raw: Roadshow
+        aliasType: en_alias
+      - raw: 路演
+        aliasType: cn_alias
+  - slug: bu-ji-jian-dang
+    headword: 簿记建档
+    categoryL1: 港股
+    categoryL2: 上市与发行
+    difficulty: L3
+    summaryPlain: 收集机构认购意向并据此确定发行价区间的过程。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 收集机构认购意向并据此确定发行价区间的过程。
+        example: 簿记建档结果显示需求强劲，定价按区间上限执行。
+        isPrimary: true
+    aliases:
+      - raw: 簿记建档
+        aliasType: primary
+      - raw: Bookbuilding
+        aliasType: en_alias
+  - slug: guo-ji-pei-shou
+    headword: 国际配售
+    categoryL1: 港股
+    categoryL2: 上市与发行
+    difficulty: L2
+    summaryPlain: 新股发行中面向国际机构投资者的配售部分，通常占发行规模大头。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 新股发行中面向国际机构投资者的配售部分，通常占发行规模大头。
+        example: 国际配售反应热烈，公开发售部分获大幅回拨。
+        isPrimary: true
+    aliases:
+      - raw: 国际配售
+        aliasType: primary
+      - raw: International Placing
+        aliasType: en_alias
+      - raw: 机构配售
+        aliasType: cn_alias
+  - slug: hui-bo-ji-zhi
+    headword: 回拨机制
+    categoryL1: 港股
+    categoryL2: 上市与发行
+    difficulty: L3
+    summaryPlain: 公开发售超购到一定倍数时，从国际配售回拨股份给公众投资者的安排。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 公开发售超购到一定倍数时，从国际配售回拨股份给公众投资者的安排。
+        example: 超购达到很高倍数触发回拨，公开发售占比随之上升。
+        isPrimary: true
+    aliases:
+      - raw: 回拨机制
+        aliasType: primary
+      - raw: Clawback Mechanism
+        aliasType: en_alias
+      - raw: 回拨
+        aliasType: cn_alias
+  - slug: bao-xiao
+    headword: 包销
+    categoryL1: 港股
+    categoryL2: 上市与发行
+    difficulty: L2
+    summaryPlain: 承销商承诺按约定价格认购未获足额认购的股份，保障发行完成。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 承销商承诺按约定价格认购未获足额认购的股份，保障发行完成。
+        example: 发行由投行全额包销，即使认购不足也能募足资金。
+        isPrimary: true
+    aliases:
+      - raw: 包销
+        aliasType: primary
+      - raw: Underwriting
+        aliasType: en_alias
+      - raw: 承销
+        aliasType: cn_alias
+  - slug: zhao-gu-jia-qu-jian
+    headword: 招股价区间
+    categoryL1: 港股
+    categoryL2: 上市与发行
+    difficulty: L2
+    summaryPlain: 招股时给出的每股定价范围，最终定价一般不高于区间上限。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 招股时给出的每股定价范围，最终定价一般不高于区间上限。
+        example: 这只新股的招股价区间定在18至22港元。
+        isPrimary: true
+    aliases:
+      - raw: 招股价区间
+        aliasType: primary
+      - raw: Price Range
+        aliasType: en_alias
+      - raw: 定价区间
+        aliasType: cn_alias
+  - slug: gong-gu-quan
+    headword: 供股权
+    categoryL1: 港股
+    categoryL2: 上市与发行
+    difficulty: L2
+    summaryPlain: 供股时合资格股东按持股比例获配的新股认购权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 供股时合资格股东按持股比例获配的新股认购权。
+        example: 供股权可以在市场上短暂转让交易。
+        isPrimary: true
+    aliases:
+      - raw: 供股权
+        aliasType: primary
+      - raw: Rights Entitlement
+        aliasType: en_alias

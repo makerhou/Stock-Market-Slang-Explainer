@@ -1,0 +1,836 @@
+source: gen from full.tsv keyword=中签|顶格|申购|询价|弃购|网下|网上配售|战略配售|绿鞋|超额配售|注册制|核准制|退市|重新上市|风险警示|要约|举牌|权益披露|协议转让|担保品|质押|配号|打新市值|新股 (待精修)
+terms:
+  - slug: e-t-f-shen-gou-shu-hui
+    headword: ETF申购/赎回
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: ETF在一级市场通过实物或现金进行份额创设与赎回的机制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: ETF在一级市场通过实物或现金进行份额创设与赎回的机制。
+        example: ETF申购/赎回活跃，往往伴随大额资金调仓。
+        isPrimary: true
+    aliases:
+      - raw: ETF申购/赎回
+        aliasType: primary
+      - raw: 申购
+        aliasType: cn_alias
+      - raw: 赎回
+        aliasType: cn_alias
+      - raw: Creation
+        aliasType: en_alias
+      - raw: Redemption
+        aliasType: en_alias
+  - slug: zai-zhi-ya
+    headword: 再质押
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 经纪商把客户抵押品再拿去融资或借给第三方使用的行为。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 经纪商把客户抵押品再拿去融资或借给第三方使用的行为。
+        example: 客户保证金被券商再质押出去融资。
+        isPrimary: true
+    aliases:
+      - raw: 再质押
+        aliasType: primary
+      - raw: Rehypothecation
+        aliasType: en_alias
+  - slug: zi-yuan-tui-shi
+    headword: 自愿退市
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 公司主动申请从交易所退出挂牌并转到场外市场交易。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公司主动申请从交易所退出挂牌并转到场外市场交易。
+        example: 中概股近年多选择自愿退市回港。
+        isPrimary: true
+    aliases:
+      - raw: 自愿退市
+        aliasType: primary
+      - raw: Voluntary Delisting
+        aliasType: en_alias
+  - slug: fan-zhi-ya-zheng-ce
+    headword: 反质押政策
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 公司禁止或限制内部人用本公司股票向券商质押融资的政策。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公司禁止或限制内部人用本公司股票向券商质押融资的政策。
+        example: 反质押政策要求高管解除股票质押。
+        isPrimary: true
+    aliases:
+      - raw: 反质押政策
+        aliasType: primary
+      - raw: Anti-Pledging Policy
+        aliasType: en_alias
+  - slug: qiang-zhi-quan-mian-yao-yue
+    headword: 强制全面要约
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 持股突破30%或持续增持触发收购守则下必须向全体股东提出全面收购。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 持股突破30%或持续增持触发收购守则下必须向全体股东提出全面收购。
+        example: 持股越过三成线，就得向所有股东发出收购要约。
+        isPrimary: true
+    aliases:
+      - raw: 强制全面要约
+        aliasType: primary
+      - raw: Mandatory General Offer
+        aliasType: en_alias
+  - slug: yi-shou-zhong-qian-l
+    headword: 一手中签率
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 申购一手股票最终获配发的概率，热门新股常低至百分之几。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 申购一手股票最终获配发的概率，热门新股常低至百分之几。
+        example: 申购一手热门新股，中签概率常常只有几个百分点。
+        isPrimary: true
+    aliases:
+      - raw: 一手中签率
+        aliasType: primary
+      - raw: Allotment Rate
+        aliasType: en_alias
+  - slug: zi-yuan-yao-yue
+    headword: 自愿要约
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 收购方主动提出、非强制的全面或部分要约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 收购方主动提出、非强制的全面或部分要约。
+        example: 这是自愿要约，股东可接受与否。
+        isPrimary: true
+    aliases:
+      - raw: 自愿要约
+        aliasType: primary
+      - raw: Voluntary Offer
+        aliasType: en_alias
+  - slug: bu-fen-yao-yue
+    headword: 部分要约
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 只收购部分股份的要约，而非全面收购。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 只收购部分股份的要约，而非全面收购。
+        example: 部分要约按比例接纳。
+        isPrimary: true
+    aliases:
+      - raw: 部分要约
+        aliasType: primary
+      - raw: Partial Offer
+        aliasType: en_alias
+  - slug: xin-gu
+    headword: 新股
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 公司新发行的股份，通常摊薄老股东。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公司新发行的股份，通常摊薄老股东。
+        example: 批股发行新股会摊薄每股盈利。
+        isPrimary: true
+    aliases:
+      - raw: 新股
+        aliasType: primary
+      - raw: New Share
+        aliasType: en_alias
+  - slug: zhi-ya-shi-hui-gou
+    headword: 质押式回购
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 债券质押不转移所有权、融入资金的回购。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 债券质押不转移所有权、融入资金的回购。
+        example: 质押式回购是市场短期融资主渠道。
+        isPrimary: true
+    aliases:
+      - raw: 质押式回购
+        aliasType: primary
+      - raw: Pledged Repo
+        aliasType: en_alias
+  - slug: tui-shi-zheng-li-qi
+    headword: 退市整理期
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 强制退市决定后、正式摘牌前的过渡交易期，通常为15个交易日：首个交易日不设涨跌幅限制，此后主板10%、创业板20%。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 强制退市决定后、正式摘牌前的过渡交易期，通常为15个交易日：首个交易日不设涨跌幅限制，此后主板10%、创业板20%。
+        example: 进入退市倒计时，首日没涨跌幅限制，价格常常大起大落。
+        isPrimary: true
+    aliases:
+      - raw: 退市整理期
+        aliasType: primary
+      - raw: Delisting Arrangement Period
+        aliasType: en_alias
+  - slug: mian-zhi-tui-shi
+    headword: 面值退市
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 股票连续20个交易日收盘价低于1元面值触发强制退市的规则。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股票连续20个交易日收盘价低于1元面值触发强制退市的规则。
+        example: 股价长期低于1元，触发面值退市。
+        isPrimary: true
+    aliases:
+      - raw: 面值退市
+        aliasType: primary
+      - raw: Par Value Delisting
+        aliasType: en_alias
+  - slug: shi-zhi-tui-shi
+    headword: 市值退市
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 沪深主板A股公司连续20个交易日收盘总市值低于5亿元、科创板与创业板低于3亿元时触发强制退市。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 沪深主板A股公司连续20个交易日收盘总市值低于5亿元、科创板与创业板低于3亿元时触发强制退市。
+        example: 公司连续二十个交易日市值不达标，被交易所启动退市程序。
+        isPrimary: true
+    aliases:
+      - raw: 市值退市
+        aliasType: primary
+      - raw: Market Cap Delisting
+        aliasType: en_alias
+  - slug: cai-wu-tui-shi
+    headword: 财务退市
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 因净利润、营收、净资产等财务指标不达标而强制退市。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 因净利润、营收、净资产等财务指标不达标而强制退市。
+        example: 连续三年亏损触发财务退市条件。
+        isPrimary: true
+    aliases:
+      - raw: 财务退市
+        aliasType: primary
+      - raw: Financial Delisting
+        aliasType: en_alias
+  - slug: zhong-da-wei-fa-tui-shi
+    headword: 重大违法退市
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 因欺诈发行、重大信息披露违法被强制退市。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 因欺诈发行、重大信息披露违法被强制退市。
+        example: 欺诈发行被查实，直接重大违法退市。
+        isPrimary: true
+    aliases:
+      - raw: 重大违法退市
+        aliasType: primary
+      - raw: Illegal Delisting
+        aliasType: en_alias
+  - slug: zhi-ya-bao-cang
+    headword: 质押爆仓
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 质押股票市值跌破警戒线且无法补仓，被强制卖出的情形。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 质押股票市值跌破警戒线且无法补仓，被强制卖出的情形。
+        example: 股价腰斩引发质押爆仓，抛压雪上加霜。
+        isPrimary: true
+    aliases:
+      - raw: 质押爆仓
+        aliasType: primary
+      - raw: Pledge Liquidation
+        aliasType: en_alias
+  - slug: gu-quan-zhi-ya-bi-li
+    headword: 股权质押比例
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 股东质押股数占其持股数的比例，比例越高风险越大。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股东质押股数占其持股数的比例，比例越高风险越大。
+        example: 控股股东质押比例超过警戒线，需关注平仓风险。
+        isPrimary: true
+    aliases:
+      - raw: 股权质押比例
+        aliasType: primary
+      - raw: Pledge Ratio
+        aliasType: en_alias
+  - slug: zhong-qian
+    headword: 中签
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 新股申购被抽中、获得认购资格。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 新股申购被抽中、获得认购资格。
+        example: 申购新股被抽中一千股，上市当天出手收益就很可观。
+        isPrimary: true
+    aliases:
+      - raw: 中签
+        aliasType: primary
+      - raw: Lottery Win
+        aliasType: en_alias
+  - slug: l-xie-ji-zhi
+    headword: 绿鞋机制
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 超额配售选择权，主承销商可额外发行股票稳定上市初期股价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 超额配售选择权，主承销商可额外发行股票稳定上市初期股价。
+        example: 绿鞋机制启动，上市首日股价获得支撑。
+        isPrimary: true
+    aliases:
+      - raw: 绿鞋机制
+        aliasType: primary
+      - raw: Greenshoe Option
+        aliasType: en_alias
+  - slug: he-zhun-zhi
+    headword: 核准制
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 监管机构对发行人的实质条件进行审核批准的发行制度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 监管机构对发行人的实质条件进行审核批准的发行制度。
+        example: 核准制下IPO排队周期较长。
+        isPrimary: true
+    aliases:
+      - raw: 核准制
+        aliasType: primary
+      - raw: Approval-based IPO
+        aliasType: en_alias
+  - slug: shen-gou-shu-hui
+    headword: 申购/赎回
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 向基金公司买入或卖出基金份额的行为。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 向基金公司买入或卖出基金份额的行为。
+        example: 基金限购，暂停大额申购。
+        isPrimary: true
+    aliases:
+      - raw: 申购/赎回
+        aliasType: primary
+      - raw: Subscribe/Redemption
+        aliasType: en_alias
+  - slug: chou-xin-gu
+    headword: 抽新股
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 认购新股的俗称。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 认购新股的俗称。
+        example: 热门新股抽新火爆，超额认购数百倍。
+        isPrimary: true
+    aliases:
+      - raw: 抽新股
+        aliasType: primary
+      - raw: IPO Subscription
+        aliasType: en_alias
+  - slug: zhi-ya
+    headword: 质押
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 以股权质押融资。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以股权质押融资。
+        example: 高比例质押风险大。
+        isPrimary: true
+    aliases:
+      - raw: 质押
+        aliasType: primary
+      - raw: Pledge
+        aliasType: en_alias
+  - slug: zhi-ya-l
+    headword: 质押率
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 质押股数占持股比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 质押股数占持股比例。
+        example: 质押率超50%需警惕。
+        isPrimary: true
+    aliases:
+      - raw: 质押率
+        aliasType: primary
+      - raw: Pledge Ratio
+        aliasType: en_alias
+  - slug: ci-xin-gu
+    headword: 次新股
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 上市不久的股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上市不久的股票。
+        example: 次新股波动剧烈。
+        isPrimary: true
+    aliases:
+      - raw: 次新股
+        aliasType: primary
+      - raw: New Stock
+        aliasType: en_alias
+  - slug: shen-gou
+    headword: 申购
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 买入基金份额。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 买入基金份额。
+        example: 申购按当日净值确认。
+        isPrimary: true
+    aliases:
+      - raw: 申购
+        aliasType: primary
+      - raw: Subscription
+        aliasType: en_alias
+  - slug: wang-xia-fa-xing
+    headword: 网下发行
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 面向机构的网下配售。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 面向机构的网下配售。
+        example: 网下配售以机构为主。
+        isPrimary: true
+    aliases:
+      - raw: 网下发行
+        aliasType: primary
+      - raw: Offline Offering
+        aliasType: en_alias
+  - slug: tui-shi-zheng-li
+    headword: 退市整理
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 退市前的交易期。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 退市前的交易期。
+        example: 退市整理期风险高。
+        isPrimary: true
+    aliases:
+      - raw: 退市整理
+        aliasType: primary
+      - raw: Delisting Trading
+        aliasType: en_alias
+  - slug: feng-xian-jing-shi
+    headword: 风险警示
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 对异常公司的风险提示。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对异常公司的风险提示。
+        example: 风险警示股涨跌幅受限。
+        isPrimary: true
+    aliases:
+      - raw: 风险警示
+        aliasType: primary
+      - raw: Risk Warning
+        aliasType: en_alias
+  - slug: xie-yi-zhuan-rang
+    headword: 协议转让
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 协商定价的股份转让。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 协商定价的股份转让。
+        example: 协议转让用于并购与减持。
+        isPrimary: true
+    aliases:
+      - raw: 协议转让
+        aliasType: primary
+      - raw: Negotiated Transfer
+        aliasType: en_alias
+  - slug: zhu-ce-zhi-gai-ge
+    headword: 注册制改革
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 股票发行审核从实质把关转向以信息披露为核心，企业上市条件更市场化。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 股票发行审核从实质把关转向以信息披露为核心，企业上市条件更市场化。
+        example: 发行审核转向以信息披露为核心后，新股定价更多由市场供需决定。
+        isPrimary: true
+    aliases:
+      - raw: 注册制改革
+        aliasType: primary
+      - raw: Registration Reform
+        aliasType: en_alias
+  - slug: tui-shi-xin-gui
+    headword: 退市新规
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 严格化退市的规定。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 严格化退市的规定。
+        example: 退市新规加速出清。
+        isPrimary: true
+    aliases:
+      - raw: 退市新规
+        aliasType: primary
+      - raw: New Delisting Rules
+        aliasType: en_alias
+  - slug: dan-bao-pin
+    headword: 担保品
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 融资融券的担保资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 融资融券的担保资产。
+        example: 担保品折算率影响融资能力。
+        isPrimary: true
+    aliases:
+      - raw: 担保品
+        aliasType: primary
+      - raw: Collateral
+        aliasType: en_alias
+  - slug: gu-piao-zhi-ya-shi-hui-gou
+    headword: 股票质押式回购
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 股票质押融资业务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股票质押融资业务。
+        example: 质押式回购是股东融资渠道。
+        isPrimary: true
+    aliases:
+      - raw: 股票质押式回购
+        aliasType: primary
+      - raw: Pledge Repo
+        aliasType: en_alias
+  - slug: ju-pai-xian
+    headword: 举牌线
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 持股5%的披露红线。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 持股5%的披露红线。
+        example: 达到举牌线须公告。
+        isPrimary: true
+    aliases:
+      - raw: 举牌线
+        aliasType: primary
+      - raw: Disclosure Threshold
+        aliasType: en_alias
+  - slug: yao-yue-shou-gou-xian
+    headword: 要约收购线
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 持股30%触发要约收购。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 持股30%触发要约收购。
+        example: 要约收购线保障小股东。
+        isPrimary: true
+    aliases:
+      - raw: 要约收购线
+        aliasType: primary
+      - raw: Tender Threshold
+        aliasType: en_alias
+  - slug: feng-xian-jing-shi-ban
+    headword: 风险警示板
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 风险警示股票板块。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 风险警示股票板块。
+        example: 风险警示板交易受限。
+        isPrimary: true
+    aliases:
+      - raw: 风险警示板
+        aliasType: primary
+      - raw: Risk Warning Board
+        aliasType: en_alias
+  - slug: tui-shi-feng-xian-jing-shi
+    headword: 退市风险警示
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 退市风险提示。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 退市风险提示。
+        example: 退市警示股风险高。
+        isPrimary: true
+    aliases:
+      - raw: 退市风险警示
+        aliasType: primary
+      - raw: Delisting Warning
+        aliasType: en_alias
+  - slug: chong-xin-shang-shi
+    headword: 重新上市
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 退市后重新申请上市。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 退市后重新申请上市。
+        example: 重新上市审核从严。
+        isPrimary: true
+    aliases:
+      - raw: 重新上市
+        aliasType: primary
+      - raw: Re-listing
+        aliasType: en_alias
+  - slug: zhu-ce-zhi-quan-mian-tui-xing
+    headword: 注册制全面推行
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 注册制推广到全部市场板块的改革，2023年2月起主板新股发行也纳入注册制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 注册制推广到全部市场板块的改革，2023年2月起主板新股发行也纳入注册制。
+        example: 2023年全面注册制落地，主板新股上市前五日不设涨跌幅。
+        isPrimary: true
+    aliases:
+      - raw: 注册制全面推行
+        aliasType: primary
+      - raw: Full Registration
+        aliasType: en_alias
+  - slug: tui-shi-jia-shu
+    headword: 退市家数
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 退市公司数量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 退市公司数量。
+        example: 退市常态化。
+        isPrimary: true
+    aliases:
+      - raw: 退市家数
+        aliasType: primary
+      - raw: Delisted Companies
+        aliasType: en_alias
+  - slug: zhi-ya-dai
+    headword: 质押贷
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 质押担保贷款。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 质押担保贷款。
+        example: 质押贷风控严格。
+        isPrimary: true
+    aliases:
+      - raw: 质押贷
+        aliasType: primary
+      - raw: Pledge Loan
+        aliasType: en_alias
+  - slug: xun-jia-ding-jia
+    headword: 询价定价
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 询价确定发行价。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 询价确定发行价。
+        example: 询价反映需求。
+        isPrimary: true
+    aliases:
+      - raw: 询价定价
+        aliasType: primary
+      - raw: Book-building Pricing
+        aliasType: en_alias
+  - slug: chao-e-pei-shou
+    headword: 超额配售
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 超额发行安排。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 超额发行安排。
+        example: 绿鞋即超额配售。
+        isPrimary: true
+    aliases:
+      - raw: 超额配售
+        aliasType: primary
+      - raw: Over-allotment
+        aliasType: en_alias
+  - slug: zhi-ya-pi-lu
+    headword: 质押披露
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 股权质押披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股权质押披露。
+        example: 质押披露预警风险。
+        isPrimary: true
+    aliases:
+      - raw: 质押披露
+        aliasType: primary
+      - raw: Pledge Disclosure
+        aliasType: en_alias
+  - slug: xin-gu-ri-li
+    headword: 新股日历
+    categoryL1: 交易制度
+    categoryL2: 发行与上市
+    difficulty: L2
+    summaryPlain: 新股发行安排。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 新股发行安排。
+        example: 日历看打新。
+        isPrimary: true
+    aliases:
+      - raw: 新股日历
+        aliasType: primary
+      - raw: IPO Calendar
+        aliasType: en_alias

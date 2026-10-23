@@ -1,0 +1,3132 @@
+source: gen from full.tsv --all 市场×类型×关键词路由 (待精修)
+terms:
+  - slug: hong-san-bing-san-zhi-wu-ya
+    headword: 红三兵/三只乌鸦
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 连续三根同向K线的组合，红三兵看涨、三只乌鸦看跌。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 连续三根同向K线的组合，红三兵看涨、三只乌鸦看跌。
+        example: 红三兵/三只乌鸦出现在趋势末端，信号意义更强。
+        isPrimary: true
+    aliases:
+      - raw: 红三兵/三只乌鸦
+        aliasType: primary
+      - raw: 红三兵
+        aliasType: cn_alias
+      - raw: 三只乌鸦
+        aliasType: cn_alias
+      - raw: Three White Soldiers
+        aliasType: en_alias
+      - raw: Black Crows
+        aliasType: en_alias
+  - slug: xian-zi-she-bao-nian-jin
+    headword: 险资/社保/年金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 保险资金、社保基金与企业年金等追求稳健收益的长期机构资金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 保险资金、社保基金与企业年金等追求稳健收益的长期机构资金。
+        example: 险资/社保/年金持续入市，成为高股息资产的重要买盘。
+        isPrimary: true
+    aliases:
+      - raw: 险资/社保/年金
+        aliasType: primary
+      - raw: 险资
+        aliasType: cn_alias
+      - raw: 社保
+        aliasType: cn_alias
+      - raw: 年金
+        aliasType: cn_alias
+      - raw: Insurance Fund
+        aliasType: en_alias
+      - raw: Pension
+        aliasType: en_alias
+  - slug: san-fei
+    headword: 三费
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 销售费用、管理费用、财务费用三项期间费用的合称。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 销售费用、管理费用、财务费用三项期间费用的合称。
+        example: 三费同比基本持平，费用管控保持稳定。
+        isPrimary: true
+    aliases:
+      - raw: 三费
+        aliasType: primary
+      - raw: 三费合计
+        aliasType: cn_alias
+  - slug: cheng-xin-l
+    headword: 成新率
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 固定资产净值与原值之比，反映资产的新旧程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 固定资产净值与原值之比，反映资产的新旧程度。
+        example: 固定资产成新率高，说明公司设备较新、折旧压力小。
+        isPrimary: true
+    aliases:
+      - raw: 成新率
+        aliasType: primary
+      - raw: Asset Age Ratio
+        aliasType: en_alias
+  - slug: ke-bian-xian-jing-zhi
+    headword: 可变现净值
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 估计售价减去至完工和销售所需估计成本后的净值，用于存货减值测试。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 估计售价减去至完工和销售所需估计成本后的净值，用于存货减值测试。
+        example: 存货按成本与可变现净值孰低计量。
+        isPrimary: true
+    aliases:
+      - raw: 可变现净值
+        aliasType: primary
+      - raw: Net Realizable Value
+        aliasType: en_alias
+  - slug: chan-pin-ju-zhen
+    headword: 产品矩阵
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公司各类产品的组合布局与相互搭配。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公司各类产品的组合布局与相互搭配。
+        example: 产品矩阵完善后，单产品风险被分散。
+        isPrimary: true
+    aliases:
+      - raw: 产品矩阵
+        aliasType: primary
+      - raw: Product Matrix
+        aliasType: en_alias
+  - slug: you-xing-zi-chan-jing-zhi
+    headword: 有形资产净值
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 净资产扣除商誉与无形资产后的有形部分，更保守的安全垫。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 净资产扣除商誉与无形资产后的有形部分，更保守的安全垫。
+        example: 有形资产净值为正，清算时更有保障。
+        isPrimary: true
+    aliases:
+      - raw: 有形资产净值
+        aliasType: primary
+      - raw: Tangible Net Worth
+        aliasType: en_alias
+  - slug: a-r-b-r-ren-qi-yi-yuan
+    headword: ARBR人气意愿
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: AR反映人气、BR反映买卖意愿的双指标组合，常用于判断短期顶底。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: AR反映人气、BR反映买卖意愿的双指标组合，常用于判断短期顶底。
+        example: AR从高位拐头向下，人气开始退潮。
+        isPrimary: true
+    aliases:
+      - raw: ARBR人气意愿
+        aliasType: primary
+      - raw: ARBR Indicator
+        aliasType: en_alias
+  - slug: e-x-p-m-a-zhi-shu-ping-jun
+    headword: EXPMA指数平均
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对近期价格赋予更高权重的均线，常用12日与50日两条组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对近期价格赋予更高权重的均线，常用12日与50日两条组合。
+        example: EXPMA12上穿EXPMA50是中线买点。
+        isPrimary: true
+    aliases:
+      - raw: EXPMA指数平均
+        aliasType: primary
+      - raw: Exponential Moving Average
+        aliasType: en_alias
+      - raw: EXPMA
+        aliasType: en_alias
+  - slug: mu-zi-xian
+    headword: 母子线
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 前一根长K线实体完全包住后一根小K线实体的组合，预示原趋势减弱。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 前一根长K线实体完全包住后一根小K线实体的组合，预示原趋势减弱。
+        example: 高位母子线出现后通常进入整理。
+        isPrimary: true
+    aliases:
+      - raw: 母子线
+        aliasType: primary
+      - raw: Harami Pattern
+        aliasType: en_alias
+  - slug: xian-ren-zhi-lu
+    headword: 仙人指路
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上涨初期出现长上影线、随后几天股价突破上影高点的K线组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 上涨初期出现长上影线、随后几天股价突破上影高点的K线组合。
+        example: 仙人指路后股价通常再上一个台阶。
+        isPrimary: true
+    aliases:
+      - raw: 仙人指路
+        aliasType: primary
+      - raw: Immortal Pointing
+        aliasType: en_alias
+  - slug: rou-cuo-xian
+    headword: 揉搓线
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上升途中一根长上影与一根长下影交错出现、像主力洗盘的K线组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上升途中一根长上影与一根长下影交错出现、像主力洗盘的K线组合。
+        example: 揉搓线洗盘结束后常再拉一波。
+        isPrimary: true
+    aliases:
+      - raw: 揉搓线
+        aliasType: primary
+      - raw: Washing Line
+        aliasType: en_alias
+  - slug: kan-zhang-tun-mo
+    headword: 看涨吞没
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 下跌末端一根长阳线实体完全包住前一根阴线实体的反转K线组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 下跌末端一根长阳线实体完全包住前一根阴线实体的反转K线组合。
+        example: 低位看涨吞没配合放量是买点。
+        isPrimary: true
+    aliases:
+      - raw: 看涨吞没
+        aliasType: primary
+      - raw: Bullish Engulfing
+        aliasType: en_alias
+  - slug: kan-die-tun-mo
+    headword: 看跌吞没
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上涨末端一根长阴线实体完全包住前一根阳线实体的反转K线组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上涨末端一根长阴线实体完全包住前一根阳线实体的反转K线组合。
+        example: 高位看跌吞没是强烈卖出信号。
+        isPrimary: true
+    aliases:
+      - raw: 看跌吞没
+        aliasType: primary
+      - raw: Bearish Engulfing
+        aliasType: en_alias
+  - slug: liang-zeng-jia-sheng
+    headword: 量增价升
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 成交量与股价同步放大的多头量价组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 成交量与股价同步放大的多头量价组合。
+        example: 量增价升是最健康的上涨形态。
+        isPrimary: true
+    aliases:
+      - raw: 量增价升
+        aliasType: primary
+      - raw: Volume Up Price Up
+        aliasType: en_alias
+  - slug: jian-ding-xin-hao
+    headword: 见顶信号
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 技术上预示股价即将见顶的各种信号组合，如顶背离、天量、长上影。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 技术上预示股价即将见顶的各种信号组合，如顶背离、天量、长上影。
+        example: 多个见顶信号同时出现要减仓。
+        isPrimary: true
+    aliases:
+      - raw: 见顶信号
+        aliasType: primary
+      - raw: Top Signal
+        aliasType: en_alias
+  - slug: jian-di-xin-hao
+    headword: 见底信号
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 技术上预示股价即将见底的各种信号组合，如底背离、地量、长下影。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 技术上预示股价即将见底的各种信号组合，如底背离、地量、长下影。
+        example: 多个见底信号共振可以分批抄底。
+        isPrimary: true
+    aliases:
+      - raw: 见底信号
+        aliasType: primary
+      - raw: Bottom Signal
+        aliasType: en_alias
+  - slug: san-yang-kai-tai
+    headword: 三阳开泰
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 低位连续三根中到大阳线向上推进的看涨K线组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 低位连续三根中到大阳线向上推进的看涨K线组合。
+        example: 三阳开泰出现在底部，是典型启动信号。
+        isPrimary: true
+    aliases:
+      - raw: 三阳开泰
+        aliasType: primary
+      - raw: Three White Soldiers Rising
+        aliasType: en_alias
+  - slug: hei-san-bing
+    headword: 黑三兵
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 低位连续三根小阴线缓慢下移的K线组合，出现在底部可能见底。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 低位连续三根小阴线缓慢下移的K线组合，出现在底部可能见底。
+        example: 低位黑三兵后往往有反弹。
+        isPrimary: true
+    aliases:
+      - raw: 黑三兵
+        aliasType: primary
+      - raw: Three Black Crows at Low
+        aliasType: en_alias
+  - slug: liang-yang-jia-yi-yin
+    headword: 两阳夹一阴
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 两根阳线中间夹一根小阴线的多头组合，俗称多方炮。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 两根阳线中间夹一根小阴线的多头组合，俗称多方炮。
+        example: 两阳夹一阴出现在低位是买点。
+        isPrimary: true
+    aliases:
+      - raw: 两阳夹一阴
+        aliasType: primary
+      - raw: Three Inside Up
+        aliasType: en_alias
+  - slug: liang-yin-jia-yi-yang
+    headword: 两阴夹一阳
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 两根阴线中间夹一根小阳线的空头组合，俗称空方炮。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 两根阴线中间夹一根小阳线的空头组合，俗称空方炮。
+        example: 两阴夹一阳出现在高位是卖点。
+        isPrimary: true
+    aliases:
+      - raw: 两阴夹一阳
+        aliasType: primary
+      - raw: Three Inside Down
+        aliasType: en_alias
+  - slug: san-lian-yang
+    headword: 三连阳
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 连续三根阳线上涨的K线组合，出现在底部是转强信号。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 连续三根阳线上涨的K线组合，出现在底部是转强信号。
+        example: 低位三连阳说明多头开始反攻。
+        isPrimary: true
+    aliases:
+      - raw: 三连阳
+        aliasType: primary
+      - raw: Three Consecutive White Candles
+        aliasType: en_alias
+  - slug: san-lian-yin
+    headword: 三连阴
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 连续三根阴线下跌的K线组合，出现在高位是转弱信号。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 连续三根阴线下跌的K线组合，出现在高位是转弱信号。
+        example: 高位三连阴要警惕出货。
+        isPrimary: true
+    aliases:
+      - raw: 三连阴
+        aliasType: primary
+      - raw: Three Consecutive Black Candles
+        aliasType: en_alias
+  - slug: xu-ri-dong-sheng
+    headword: 旭日东升
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 下跌末端一根大幅高开的阳线完全包住前一根阴线实体的看涨组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 下跌末端一根大幅高开的阳线完全包住前一根阴线实体的看涨组合。
+        example: 旭日东升出现在大幅下跌后是强买点。
+        isPrimary: true
+    aliases:
+      - raw: 旭日东升
+        aliasType: primary
+      - raw: Rising Sun
+        aliasType: en_alias
+  - slug: can-yang-yan-zhui
+    headword: 残阳掩坠
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 上涨末端一根大幅低开的阴线完全包住前一根阳线实体的看跌组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上涨末端一根大幅低开的阴线完全包住前一根阳线实体的看跌组合。
+        example: 残阳掩坠出现在高位是强卖点。
+        isPrimary: true
+    aliases:
+      - raw: 残阳掩坠
+        aliasType: primary
+      - raw: Setting Sun
+        aliasType: en_alias
+  - slug: fan-ji-xian
+    headword: 反击线
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 相邻两根K线收盘同价但方向相反的组合，分看涨反击与看跌反击。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 相邻两根K线收盘同价但方向相反的组合，分看涨反击与看跌反击。
+        example: 低位反击线说明空头力量衰竭。
+        isPrimary: true
+    aliases:
+      - raw: 反击线
+        aliasType: primary
+      - raw: Counterattack Line
+        aliasType: en_alias
+  - slug: fen-shou-xian
+    headword: 分手线
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 相邻两根K线开盘同价但方向相反的组合，预示原趋势延续。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 相邻两根K线开盘同价但方向相反的组合，预示原趋势延续。
+        example: 分手线出现在趋势中途是持续信号。
+        isPrimary: true
+    aliases:
+      - raw: 分手线
+        aliasType: primary
+      - raw: Separating Line
+        aliasType: en_alias
+  - slug: dai-ru-xian
+    headword: 待入线
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 下跌中一根小阳线收盘未及前一根阴线最低点的弱势组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 下跌中一根小阳线收盘未及前一根阴线最低点的弱势组合。
+        example: 待入线说明反弹无力。
+        isPrimary: true
+    aliases:
+      - raw: 待入线
+        aliasType: primary
+      - raw: Advance Line
+        aliasType: en_alias
+  - slug: qie-ru-xian
+    headword: 切入线
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 下跌中一根小阳线切入前一根阴线实体不到三分之一的弱势组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 下跌中一根小阳线切入前一根阴线实体不到三分之一的弱势组合。
+        example: 切入线后通常继续下跌。
+        isPrimary: true
+    aliases:
+      - raw: 切入线
+        aliasType: primary
+      - raw: In Neck Line
+        aliasType: en_alias
+  - slug: zhan-hui-xian
+    headword: 斩回线
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 下跌中一根阳线切入前一根阴线实体一半以上的看涨组合，接近曙光初现。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 下跌中一根阳线切入前一根阴线实体一半以上的看涨组合，接近曙光初现。
+        example: 斩回线出现在低位是买点。
+        isPrimary: true
+    aliases:
+      - raw: 斩回线
+        aliasType: primary
+      - raw: Piercing Line
+        aliasType: en_alias
+  - slug: ding-bu-te-zheng
+    headword: 顶部特征
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 天量、长上影、顶背离、高位放量滞涨等见顶信号的组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 天量、长上影、顶背离、高位放量滞涨等见顶信号的组合。
+        example: 顶部特征齐备就要减仓。
+        isPrimary: true
+    aliases:
+      - raw: 顶部特征
+        aliasType: primary
+      - raw: Top Characteristics
+        aliasType: en_alias
+  - slug: di-bu-te-zheng
+    headword: 底部特征
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 地量、长下影、底背离、低位放量堆量等见底信号的组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 地量、长下影、底背离、低位放量堆量等见底信号的组合。
+        example: 底部特征齐备可以分批建仓。
+        isPrimary: true
+    aliases:
+      - raw: 底部特征
+        aliasType: primary
+      - raw: Bottom Characteristics
+        aliasType: en_alias
+  - slug: niu-shi-te-zheng
+    headword: 牛市特征
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 均线多头排列、低点抬高、成交量温和放大、指标底背离等牛市信号组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 均线多头排列、低点抬高、成交量温和放大、指标底背离等牛市信号组合。
+        example: 牛市特征齐备后可以重仓。
+        isPrimary: true
+    aliases:
+      - raw: 牛市特征
+        aliasType: primary
+      - raw: Bull Market Characteristics
+        aliasType: en_alias
+  - slug: xiong-shi-te-zheng
+    headword: 熊市特征
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 均线空头排列、高点降低、成交量萎缩、指标顶背离等熊市信号组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 均线空头排列、高点降低、成交量萎缩、指标顶背离等熊市信号组合。
+        example: 熊市特征齐备后要轻仓。
+        isPrimary: true
+    aliases:
+      - raw: 熊市特征
+        aliasType: primary
+      - raw: Bear Market Characteristics
+        aliasType: en_alias
+  - slug: jin-shan-gu
+    headword: 金山谷
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 银山谷之后再次出现的均线金叉组合，是更可靠的买入信号。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 银山谷之后再次出现的均线金叉组合，是更可靠的买入信号。
+        example: 金山谷比银山谷信号更可靠。
+        isPrimary: true
+    aliases:
+      - raw: 金山谷
+        aliasType: primary
+      - raw: Golden Valley
+        aliasType: en_alias
+  - slug: liang-jia-ba-jie
+    headword: 量价八阶
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 把量价关系按涨跌与量缩量增组合成八种状态的经典分析框架。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 把量价关系按涨跌与量缩量增组合成八种状态的经典分析框架。
+        example: 量价八阶是短线判断买卖的基础。
+        isPrimary: true
+    aliases:
+      - raw: 量价八阶
+        aliasType: primary
+      - raw: Eight Volume-Price Stages
+        aliasType: en_alias
+  - slug: jin-rong-gu
+    headword: 金融股
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 银行、券商、保险等金融行业股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 银行、券商、保险等金融行业股票。
+        example: 金融股对利率与信贷政策敏感。
+        isPrimary: true
+    aliases:
+      - raw: 金融股
+        aliasType: primary
+      - raw: Financial Stock
+        aliasType: en_alias
+  - slug: ci-ji-ding-qi-zhai-wu
+    headword: 次级定期债务
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 保险公司等发行、用于补充资本的定期次级债务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 保险公司等发行、用于补充资本的定期次级债务。
+        example: 次级定期债务清偿顺序靠后。
+        isPrimary: true
+    aliases:
+      - raw: 次级定期债务
+        aliasType: primary
+      - raw: Subordinated Term Debt
+        aliasType: en_alias
+  - slug: hun-he-xing-ji-jin
+    headword: 混合型基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股债仓位灵活配置的公募基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 股债仓位灵活配置的公募基金。
+        example: 混合型基金攻守兼备。
+        isPrimary: true
+    aliases:
+      - raw: 混合型基金
+        aliasType: primary
+      - raw: Hybrid Fund
+        aliasType: en_alias
+  - slug: f-o-f-l-o-f
+    headword: FOF-LOF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 可上市交易的基金中基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 可上市交易的基金中基金。
+        example: FOF-LOF兼顾配置与流动性。
+        isPrimary: true
+    aliases:
+      - raw: FOF-LOF
+        aliasType: primary
+      - raw: FOF Listed Open Fund
+        aliasType: en_alias
+  - slug: bao-zhang-xing-zu-lin-zhu-fang-r-e-i-t-s
+    headword: 保障性租赁住房REITs
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以保障性租赁住房为底层资产的公募REITs。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以保障性租赁住房为底层资产的公募REITs。
+        example: 保障性租赁住房REITs租金稳定。
+        isPrimary: true
+    aliases:
+      - raw: 保障性租赁住房REITs
+        aliasType: primary
+      - raw: Rental Housing REITs
+        aliasType: en_alias
+  - slug: gao-su-gong-lu-r-e-i-t-s
+    headword: 高速公路REITs
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以收费公路为底层资产的公募REITs。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以收费公路为底层资产的公募REITs。
+        example: 高速公路REITs车流量驱动分派。
+        isPrimary: true
+    aliases:
+      - raw: 高速公路REITs
+        aliasType: primary
+      - raw: Highway REITs
+        aliasType: en_alias
+  - slug: chan-ye-yuan-r-e-i-t-s
+    headword: 产业园REITs
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以产业园区为底层资产的公募REITs。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以产业园区为底层资产的公募REITs。
+        example: 产业园REITs出租率影响分派。
+        isPrimary: true
+    aliases:
+      - raw: 产业园REITs
+        aliasType: primary
+      - raw: Industrial Park REITs
+        aliasType: en_alias
+  - slug: cang-chu-wu-liu-r-e-i-t-s
+    headword: 仓储物流REITs
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以物流仓储为底层资产的公募REITs。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以物流仓储为底层资产的公募REITs。
+        example: 仓储物流REITs受益于电商。
+        isPrimary: true
+    aliases:
+      - raw: 仓储物流REITs
+        aliasType: primary
+      - raw: Logistics REITs
+        aliasType: en_alias
+  - slug: sheng-tai-huan-bao-r-e-i-t-s
+    headword: 生态环保REITs
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以污水、垃圾处理等环保设施为底层的REITs。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以污水、垃圾处理等环保设施为底层的REITs。
+        example: 生态环保REITs依赖政府付费。
+        isPrimary: true
+    aliases:
+      - raw: 生态环保REITs
+        aliasType: primary
+      - raw: Eco-environment REITs
+        aliasType: en_alias
+  - slug: chuang-ye-ban-e-t-f
+    headword: 创业板ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪创业板指数的交易型开放式基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪创业板指数的交易型开放式基金。
+        example: 创业板ETF成长风格鲜明。
+        isPrimary: true
+    aliases:
+      - raw: 创业板ETF
+        aliasType: primary
+      - raw: ChiNext ETF
+        aliasType: en_alias
+  - slug: shang-zheng-5-0-e-t-f
+    headword: 上证50ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪上证50超大盘蓝筹指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪上证50超大盘蓝筹指数的ETF。
+        example: 上证50ETF是首批权益ETF。
+        isPrimary: true
+    aliases:
+      - raw: 上证50ETF
+        aliasType: primary
+      - raw: SSE 50 ETF
+        aliasType: en_alias
+  - slug: zhong-zheng-a-5-0-0-e-t-f
+    headword: 中证A500ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪中证A500行业均衡宽基指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪中证A500行业均衡宽基指数的ETF。
+        example: 中证A500ETF行业分布更均衡。
+        isPrimary: true
+    aliases:
+      - raw: 中证A500ETF
+        aliasType: primary
+      - raw: CSI A500 ETF
+        aliasType: en_alias
+  - slug: hong-li-e-t-f
+    headword: 红利ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪高股息率指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪高股息率指数的ETF。
+        example: 红利ETF在震荡市受追捧。
+        isPrimary: true
+    aliases:
+      - raw: 红利ETF
+        aliasType: primary
+      - raw: Dividend ETF
+        aliasType: en_alias
+  - slug: jia-zhi-e-t-f
+    headword: 价值ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪价值风格指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪价值风格指数的ETF。
+        example: 价值ETF布局低估值蓝筹。
+        isPrimary: true
+    aliases:
+      - raw: 价值ETF
+        aliasType: primary
+      - raw: Value ETF
+        aliasType: en_alias
+  - slug: cheng-zhang-e-t-f
+    headword: 成长ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪成长风格指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪成长风格指数的ETF。
+        example: 成长ETF弹性大。
+        isPrimary: true
+    aliases:
+      - raw: 成长ETF
+        aliasType: primary
+      - raw: Growth ETF
+        aliasType: en_alias
+  - slug: ce-l-e-zhi-shu-ji-jin
+    headword: 策略指数基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 采用红利、低波等加权策略的指数基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 采用红利、低波等加权策略的指数基金。
+        example: 策略指数基金获取风格溢价。
+        isPrimary: true
+    aliases:
+      - raw: 策略指数基金
+        aliasType: primary
+      - raw: Strategy Index Fund
+        aliasType: en_alias
+  - slug: kai-fang-shi-ji-jin
+    headword: 开放式基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 份额随申赎变动、可按净值申购赎回的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 份额随申赎变动、可按净值申购赎回的基金。
+        example: 开放式基金是公募主流。
+        isPrimary: true
+    aliases:
+      - raw: 开放式基金
+        aliasType: primary
+      - raw: Open-end Fund
+        aliasType: en_alias
+  - slug: ding-qi-kai-fang-shi-ji-jin
+    headword: 定期开放式基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 仅在约定开放期可申赎的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 仅在约定开放期可申赎的基金。
+        example: 定期开放式基金利于久期管理。
+        isPrimary: true
+    aliases:
+      - raw: 定期开放式基金
+        aliasType: primary
+      - raw: Periodic Open Fund
+        aliasType: en_alias
+  - slug: yi-ji-zhai-ji
+    headword: 一级债基
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 可参与打新但不直接买股票的债券基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 可参与打新但不直接买股票的债券基金。
+        example: 一级债基靠打新增强收益。
+        isPrimary: true
+    aliases:
+      - raw: 一级债基
+        aliasType: primary
+      - raw: Primary Bond Fund
+        aliasType: en_alias
+  - slug: shang-pin-e-t-f
+    headword: 商品ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪黄金、白银等商品价格的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪黄金、白银等商品价格的ETF。
+        example: 商品ETF投资门槛低。
+        isPrimary: true
+    aliases:
+      - raw: 商品ETF
+        aliasType: primary
+      - raw: Commodity ETF
+        aliasType: en_alias
+  - slug: zhu-dong-quan-yi-ji-jin
+    headword: 主动权益基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 由基金经理主动选股的股票型基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 由基金经理主动选股的股票型基金。
+        example: 主动权益基金比拼alpha。
+        isPrimary: true
+    aliases:
+      - raw: 主动权益基金
+        aliasType: primary
+      - raw: Active Equity Fund
+        aliasType: en_alias
+  - slug: bei-dong-zhi-shu-ji-jin
+    headword: 被动指数基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 完全复制指数、不主动选股的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 完全复制指数、不主动选股的基金。
+        example: 被动指数基金费用低。
+        isPrimary: true
+    aliases:
+      - raw: 被动指数基金
+        aliasType: primary
+      - raw: Passive Index Fund
+        aliasType: en_alias
+  - slug: jue-dui-shou-yi-ji-jin
+    headword: 绝对收益基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 追求正收益而非相对排名的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 追求正收益而非相对排名的基金。
+        example: 绝对收益基金波动小。
+        isPrimary: true
+    aliases:
+      - raw: 绝对收益基金
+        aliasType: primary
+      - raw: Absolute Return Fund
+        aliasType: en_alias
+  - slug: bao-ben-ji-jin
+    headword: 保本基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 通过保本机制保证到期本金安全的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 通过保本机制保证到期本金安全的基金。
+        example: 保本基金已逐步淡出。
+        isPrimary: true
+    aliases:
+      - raw: 保本基金
+        aliasType: primary
+      - raw: Capital Protected Fund
+        aliasType: en_alias
+  - slug: yue-gang-ao-da-wan-qu-ji-jin
+    headword: 粤港澳大湾区基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 投向大湾区建设或湾区主题的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 投向大湾区建设或湾区主题的基金。
+        example: 粤港澳大湾区基金享政策支持。
+        isPrimary: true
+    aliases:
+      - raw: 粤港澳大湾区基金
+        aliasType: primary
+      - raw: Greater Bay Area Fund
+        aliasType: en_alias
+  - slug: e-s-g-ji-jin
+    headword: ESG基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按环境、社会、治理标准选股的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按环境、社会、治理标准选股的基金。
+        example: ESG基金规模持续增长。
+        isPrimary: true
+    aliases:
+      - raw: ESG基金
+        aliasType: primary
+      - raw: ESG Fund
+        aliasType: en_alias
+  - slug: tan-zhong-he-ji-jin
+    headword: 碳中和基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 聚焦低碳与碳中和主题的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 聚焦低碳与碳中和主题的基金。
+        example: 碳中和基金布局新能源。
+        isPrimary: true
+    aliases:
+      - raw: 碳中和基金
+        aliasType: primary
+      - raw: Carbon Neutral Fund
+        aliasType: en_alias
+  - slug: quan-qiu-pei-zhi-ji-jin
+    headword: 全球配置基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 在全球范围内配置股债的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 在全球范围内配置股债的基金。
+        example: 全球配置基金分散单一市场风险。
+        isPrimary: true
+    aliases:
+      - raw: 全球配置基金
+        aliasType: primary
+      - raw: Global Allocation Fund
+        aliasType: en_alias
+  - slug: wai-hui-diao-qi
+    headword: 外汇掉期
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 即期与远期外汇反向操作的组合交易。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 即期与远期外汇反向操作的组合交易。
+        example: 外汇掉期用于银行流动性管理。
+        isPrimary: true
+    aliases:
+      - raw: 外汇掉期
+        aliasType: primary
+      - raw: FX Swap
+        aliasType: en_alias
+  - slug: bing-gou-ji-jin
+    headword: 并购基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以收购成熟企业控制权为目标的私募股权基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以收购成熟企业控制权为目标的私募股权基金。
+        example: 并购基金通过改善运营退出。
+        isPrimary: true
+    aliases:
+      - raw: 并购基金
+        aliasType: primary
+      - raw: Buyout Fund
+        aliasType: en_alias
+  - slug: zheng-fu-yin-dao-ji-jin
+    headword: 政府引导基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 政府出资、引导社会资本投向特定产业的母基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 政府出资、引导社会资本投向特定产业的母基金。
+        example: 政府引导基金撬动社会资本。
+        isPrimary: true
+    aliases:
+      - raw: 政府引导基金
+        aliasType: primary
+      - raw: Government Guidance Fund
+        aliasType: en_alias
+  - slug: fen-hong-xian
+    headword: 分红险
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 保单分红与保险公司经营挂钩的寿险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 保单分红与保险公司经营挂钩的寿险。
+        example: 分红险保证收益较低。
+        isPrimary: true
+    aliases:
+      - raw: 分红险
+        aliasType: primary
+      - raw: Participating Insurance
+        aliasType: en_alias
+  - slug: nian-jin-xian
+    headword: 年金险
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按约定周期领取年金的保险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 按约定周期领取年金的保险。
+        example: 年金险用于养老规划。
+        isPrimary: true
+    aliases:
+      - raw: 年金险
+        aliasType: primary
+      - raw: Annuity Insurance
+        aliasType: en_alias
+  - slug: zhong-ji-xian
+    headword: 重疾险
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 确诊约定重大疾病即赔付的保险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 确诊约定重大疾病即赔付的保险。
+        example: 重疾险是健康保障主力。
+        isPrimary: true
+    aliases:
+      - raw: 重疾险
+        aliasType: primary
+      - raw: Critical Illness Insurance
+        aliasType: en_alias
+  - slug: yi-liao-xian
+    headword: 医疗险
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 补偿医疗费用支出的保险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 补偿医疗费用支出的保险。
+        example: 医疗险与重疾险互补。
+        isPrimary: true
+    aliases:
+      - raw: 医疗险
+        aliasType: primary
+      - raw: Medical Insurance
+        aliasType: en_alias
+  - slug: yi-wai-xian
+    headword: 意外险
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 因意外导致身故伤残的保险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 因意外导致身故伤残的保险。
+        example: 意外险保费低、杠杆高。
+        isPrimary: true
+    aliases:
+      - raw: 意外险
+        aliasType: primary
+      - raw: Accident Insurance
+        aliasType: en_alias
+  - slug: che-xian
+    headword: 车险
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 保障车辆损失与第三方责任的保险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 保障车辆损失与第三方责任的保险。
+        example: 车险是财险第一大险种。
+        isPrimary: true
+    aliases:
+      - raw: 车险
+        aliasType: primary
+      - raw: Auto Insurance
+        aliasType: en_alias
+  - slug: cai-chan-xian
+    headword: 财产险
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 保障家庭或企业财产损失的保险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 保障家庭或企业财产损失的保险。
+        example: 财产险按财产价值投保。
+        isPrimary: true
+    aliases:
+      - raw: 财产险
+        aliasType: primary
+      - raw: Property Insurance
+        aliasType: en_alias
+  - slug: ze-ren-xian
+    headword: 责任险
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 承保被保险人法律赔偿责任的保险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 承保被保险人法律赔偿责任的保险。
+        example: 责任险覆盖第三方索赔。
+        isPrimary: true
+    aliases:
+      - raw: 责任险
+        aliasType: primary
+      - raw: Liability Insurance
+        aliasType: en_alias
+  - slug: ding-qi-shou-xian
+    headword: 定期寿险
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 约定期限内身故赔付的保险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 约定期限内身故赔付的保险。
+        example: 定期寿险保费低廉。
+        isPrimary: true
+    aliases:
+      - raw: 定期寿险
+        aliasType: primary
+      - raw: Term Life Insurance
+        aliasType: en_alias
+  - slug: huang-jin-ji-cun
+    headword: 黄金积存
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 银行按月定投黄金、积累黄金份额的业务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 银行按月定投黄金、积累黄金份额的业务。
+        example: 黄金积存门槛低。
+        isPrimary: true
+    aliases:
+      - raw: 黄金积存
+        aliasType: primary
+      - raw: Gold Accumulation
+        aliasType: en_alias
+  - slug: ji-cun-jin
+    headword: 积存金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 银行挂钩实物黄金、可定投可兑金的产品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 银行挂钩实物黄金、可定投可兑金的产品。
+        example: 积存金可兑换实物。
+        isPrimary: true
+    aliases:
+      - raw: 积存金
+        aliasType: primary
+      - raw: Accumulated Gold
+        aliasType: en_alias
+  - slug: pian-gu-hun-he-xing-ji-jin
+    headword: 偏股混合型基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股票仓位较高的混合型基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 股票仓位较高的混合型基金。
+        example: 偏股混合基金弹性较大。
+        isPrimary: true
+    aliases:
+      - raw: 偏股混合型基金
+        aliasType: primary
+      - raw: Equity-biased Hybrid
+        aliasType: en_alias
+  - slug: pian-zhai-hun-he-xing-ji-jin
+    headword: 偏债混合型基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 债券仓位较高的混合型基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 债券仓位较高的混合型基金。
+        example: 偏债混合基金波动较小。
+        isPrimary: true
+    aliases:
+      - raw: 偏债混合型基金
+        aliasType: primary
+      - raw: Bond-biased Hybrid
+        aliasType: en_alias
+  - slug: ling-huo-pei-zhi-hun-he-xing-ji-jin
+    headword: 灵活配置混合型基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股债仓位可大幅调整的混合型基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 股债仓位可大幅调整的混合型基金。
+        example: 灵活配置基金考验择时。
+        isPrimary: true
+    aliases:
+      - raw: 灵活配置混合型基金
+        aliasType: primary
+      - raw: Flexible Hybrid
+        aliasType: en_alias
+  - slug: ping-heng-hun-he-xing-ji-jin
+    headword: 平衡混合型基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 股债较为均衡配置的混合型基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股债较为均衡配置的混合型基金。
+        example: 平衡混合基金攻守兼备。
+        isPrimary: true
+    aliases:
+      - raw: 平衡混合型基金
+        aliasType: primary
+      - raw: Balanced Hybrid
+        aliasType: en_alias
+  - slug: duan-rong-e-t-f
+    headword: 短融ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 在交易所上市的短期融资券ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 在交易所上市的短期融资券ETF。
+        example: 短融ETF流动性好、波动低。
+        isPrimary: true
+    aliases:
+      - raw: 短融ETF
+        aliasType: primary
+      - raw: SCP ETF
+        aliasType: en_alias
+  - slug: ke-ji-e-t-f
+    headword: 科技ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪科技行业指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪科技行业指数的ETF。
+        example: 科技ETF弹性大。
+        isPrimary: true
+    aliases:
+      - raw: 科技ETF
+        aliasType: primary
+      - raw: Tech ETF
+        aliasType: en_alias
+  - slug: yi-yao-e-t-f
+    headword: 医药ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪医药行业指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪医药行业指数的ETF。
+        example: 医药ETF分散个股风险。
+        isPrimary: true
+    aliases:
+      - raw: 医药ETF
+        aliasType: primary
+      - raw: Pharma ETF
+        aliasType: en_alias
+  - slug: jun-gong-e-t-f
+    headword: 军工ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪军工行业指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪军工行业指数的ETF。
+        example: 军工ETF高贝塔。
+        isPrimary: true
+    aliases:
+      - raw: 军工ETF
+        aliasType: primary
+      - raw: Defense ETF
+        aliasType: en_alias
+  - slug: xin-neng-yuan-e-t-f
+    headword: 新能源ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪新能源产业指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪新能源产业指数的ETF。
+        example: 新能源ETF波动大。
+        isPrimary: true
+    aliases:
+      - raw: 新能源ETF
+        aliasType: primary
+      - raw: New Energy ETF
+        aliasType: en_alias
+  - slug: zheng-quan-e-t-f
+    headword: 证券ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪证券行业指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪证券行业指数的ETF。
+        example: 证券ETF是牛市旗手。
+        isPrimary: true
+    aliases:
+      - raw: 证券ETF
+        aliasType: primary
+      - raw: Brokerage ETF
+        aliasType: en_alias
+  - slug: yin-hang-e-t-f
+    headword: 银行ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪银行业指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪银行业指数的ETF。
+        example: 银行ETF高股息。
+        isPrimary: true
+    aliases:
+      - raw: 银行ETF
+        aliasType: primary
+      - raw: Bank ETF
+        aliasType: en_alias
+  - slug: hong-li-di-bo-e-t-f
+    headword: 红利低波ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 高股息且低波动的策略ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 高股息且低波动的策略ETF。
+        example: 红利低波ETF防御性强。
+        isPrimary: true
+    aliases:
+      - raw: 红利低波ETF
+        aliasType: primary
+      - raw: Dividend Low-vol ETF
+        aliasType: en_alias
+  - slug: shuang-chuang-5-0-e-t-f
+    headword: 双创50ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪科创板与创业板龙头的双创50指数ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪科创板与创业板龙头的双创50指数ETF。
+        example: 双创50ETF聚焦硬科技龙头。
+        isPrimary: true
+    aliases:
+      - raw: 双创50ETF
+        aliasType: primary
+      - raw: STAR ChiNext 50 ETF
+        aliasType: en_alias
+  - slug: liang-hua-duo-tou-ji-jin
+    headword: 量化多头基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 用量化模型选股、纯多头的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 用量化模型选股、纯多头的基金。
+        example: 量化多头基金靠模型超额。
+        isPrimary: true
+    aliases:
+      - raw: 量化多头基金
+        aliasType: primary
+      - raw: Quant Long Fund
+        aliasType: en_alias
+  - slug: q-f-l-p
+    headword: QFLP
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 合格境外有限合伙人制度，外资可投境内私募股权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 合格境外有限合伙人制度，外资可投境内私募股权。
+        example: QFLP便利外资投PE。
+        isPrimary: true
+    aliases:
+      - raw: QFLP
+        aliasType: primary
+      - raw: Qualified Foreign Limited Partner
+        aliasType: en_alias
+  - slug: jing-zhi-xing-li-cai
+    headword: 净值型理财
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 按净值披露、非保本浮动的银行理财。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 按净值披露、非保本浮动的银行理财。
+        example: 净值型理财打破刚兑。
+        isPrimary: true
+    aliases:
+      - raw: 净值型理财
+        aliasType: primary
+      - raw: Net-value WMP
+        aliasType: en_alias
+  - slug: gu-shou-li-cai
+    headword: 固收+理财
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以债券为主、少量权益增强的理财。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 以债券为主、少量权益增强的理财。
+        example: 固收+理财追求稳健增厚。
+        isPrimary: true
+    aliases:
+      - raw: 固收+理财
+        aliasType: primary
+      - raw: Fixed Income Plus WMP
+        aliasType: en_alias
+  - slug: ji-jin-tou-gu
+    headword: 基金投顾
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 代客理财、组合配置基金的持牌业务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 代客理财、组合配置基金的持牌业务。
+        example: 基金投顾帮助普通投资者。
+        isPrimary: true
+    aliases:
+      - raw: 基金投顾
+        aliasType: primary
+      - raw: Fund Advisory
+        aliasType: en_alias
+  - slug: gu-zhi-tao-bao
+    headword: 股指套保
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 用股指期货对冲股票组合下跌风险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 用股指期货对冲股票组合下跌风险。
+        example: 公募常用股指期货套保。
+        isPrimary: true
+    aliases:
+      - raw: 股指套保
+        aliasType: primary
+      - raw: Index Hedging
+        aliasType: en_alias
+  - slug: dou-po-e-t-f
+    headword: 豆粕ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪豆粕期货价格的商品ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪豆粕期货价格的商品ETF。
+        example: 豆粕ETF提供商品敞口。
+        isPrimary: true
+    aliases:
+      - raw: 豆粕ETF
+        aliasType: primary
+      - raw: Soybean Meal ETF
+        aliasType: en_alias
+  - slug: bai-yin-e-t-f
+    headword: 白银ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪白银价格的商品ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪白银价格的商品ETF。
+        example: 白银ETF杠杆属性强。
+        isPrimary: true
+    aliases:
+      - raw: 白银ETF
+        aliasType: primary
+      - raw: Silver ETF
+        aliasType: en_alias
+  - slug: neng-yuan-hua-gong-e-t-f
+    headword: 能源化工ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪能源化工期货的商品ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪能源化工期货的商品ETF。
+        example: 能源化工ETF受商品周期影响。
+        isPrimary: true
+    aliases:
+      - raw: 能源化工ETF
+        aliasType: primary
+      - raw: Energy Chemical ETF
+        aliasType: en_alias
+  - slug: hong-li-di-bo-1-0-0-e-t-f
+    headword: 红利低波100ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪红利低波100指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪红利低波100指数的ETF。
+        example: 红利低波100ETF防御性强。
+        isPrimary: true
+    aliases:
+      - raw: 红利低波100ETF
+        aliasType: primary
+      - raw: Dividend Low-vol 100 ETF
+        aliasType: en_alias
+  - slug: niu-shi-jia-cha
+    headword: 牛市价差
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 买入低行使价、卖出高行使价的期权组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 买入低行使价、卖出高行使价的期权组合。
+        example: 牛市价差在温和上涨中获利。
+        isPrimary: true
+    aliases:
+      - raw: 牛市价差
+        aliasType: primary
+      - raw: Bull Spread
+        aliasType: en_alias
+  - slug: xiong-shi-jia-cha
+    headword: 熊市价差
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 买入高行使价、卖出低行使价的期权组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 买入高行使价、卖出低行使价的期权组合。
+        example: 熊市价差在温和下跌中获利。
+        isPrimary: true
+    aliases:
+      - raw: 熊市价差
+        aliasType: primary
+      - raw: Bear Spread
+        aliasType: en_alias
+  - slug: die-shi-qi-quan
+    headword: 蝶式期权
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 三个不同行使价期权组合、押注震荡的策略。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 三个不同行使价期权组合、押注震荡的策略。
+        example: 蝶式期权在震荡市获利。
+        isPrimary: true
+    aliases:
+      - raw: 蝶式期权
+        aliasType: primary
+      - raw: Butterfly Spread
+        aliasType: en_alias
+  - slug: bao-xian-jin-xin-tuo
+    headword: 保险金信托
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以保险金为信托财产、按约定分配的信托。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以保险金为信托财产、按约定分配的信托。
+        example: 保险金信托结合保险与信托。
+        isPrimary: true
+    aliases:
+      - raw: 保险金信托
+        aliasType: primary
+      - raw: Insurance Trust
+        aliasType: en_alias
+  - slug: jia-ting-cai-chan-bao-xian
+    headword: 家庭财产保险
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 保障家庭财产损失的保险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 保障家庭财产损失的保险。
+        example: 家庭财产保险保费低廉。
+        isPrimary: true
+    aliases:
+      - raw: 家庭财产保险
+        aliasType: primary
+      - raw: Household Property Insurance
+        aliasType: en_alias
+  - slug: l-you-yi-wai-xian
+    headword: 旅游意外险
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 保障旅行期间意外的保险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 保障旅行期间意外的保险。
+        example: 旅游意外险性价比高。
+        isPrimary: true
+    aliases:
+      - raw: 旅游意外险
+        aliasType: primary
+      - raw: Travel Accident Insurance
+        aliasType: en_alias
+  - slug: di-bo-dong-e-t-f
+    headword: 低波动ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 选取低波动股票的策略ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 选取低波动股票的策略ETF。
+        example: 低波动ETF防御性强。
+        isPrimary: true
+    aliases:
+      - raw: 低波动ETF
+        aliasType: primary
+      - raw: Low Volatility ETF
+        aliasType: en_alias
+  - slug: zhi-liang-e-t-f
+    headword: 质量ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 选取高盈利质量股票的策略ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 选取高盈利质量股票的策略ETF。
+        example: 质量ETF聚焦ROE稳定公司。
+        isPrimary: true
+    aliases:
+      - raw: 质量ETF
+        aliasType: primary
+      - raw: Quality ETF
+        aliasType: en_alias
+  - slug: dong-liang-e-t-f
+    headword: 动量ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 选取近期强势股票的策略ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 选取近期强势股票的策略ETF。
+        example: 动量ETF追涨趋势。
+        isPrimary: true
+    aliases:
+      - raw: 动量ETF
+        aliasType: primary
+      - raw: Momentum ETF
+        aliasType: en_alias
+  - slug: yang-qi-e-t-f
+    headword: 央企ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪中央企业指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪中央企业指数的ETF。
+        example: 央企ETF受益国企改革。
+        isPrimary: true
+    aliases:
+      - raw: 央企ETF
+        aliasType: primary
+      - raw: SOE ETF
+        aliasType: en_alias
+  - slug: guo-qi-e-t-f
+    headword: 国企ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪地方与中央国企指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪地方与中央国企指数的ETF。
+        example: 国企ETF享中特估行情。
+        isPrimary: true
+    aliases:
+      - raw: 国企ETF
+        aliasType: primary
+      - raw: SOE-owned ETF
+        aliasType: en_alias
+  - slug: di-chan-e-t-f
+    headword: 地产ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪房地产行业指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪房地产行业指数的ETF。
+        example: 地产ETF受政策影响大。
+        isPrimary: true
+    aliases:
+      - raw: 地产ETF
+        aliasType: primary
+      - raw: Property ETF
+        aliasType: en_alias
+  - slug: ban-dao-ti-e-t-f
+    headword: 半导体ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪半导体行业指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪半导体行业指数的ETF。
+        example: 半导体ETF跟随芯片周期。
+        isPrimary: true
+    aliases:
+      - raw: 半导体ETF
+        aliasType: primary
+      - raw: Semiconductor ETF
+        aliasType: en_alias
+  - slug: xin-pian-e-t-f
+    headword: 芯片ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪芯片产业指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪芯片产业指数的ETF。
+        example: 芯片ETF弹性大。
+        isPrimary: true
+    aliases:
+      - raw: 芯片ETF
+        aliasType: primary
+      - raw: Chip ETF
+        aliasType: en_alias
+  - slug: chu-neng-e-t-f
+    headword: 储能ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪储能产业指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪储能产业指数的ETF。
+        example: 储能ETF随招标数据波动。
+        isPrimary: true
+    aliases:
+      - raw: 储能ETF
+        aliasType: primary
+      - raw: Energy Storage ETF
+        aliasType: en_alias
+  - slug: feng-dian-e-t-f
+    headword: 风电ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪风电产业指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪风电产业指数的ETF。
+        example: 风电ETF受装机数据影响。
+        isPrimary: true
+    aliases:
+      - raw: 风电ETF
+        aliasType: primary
+      - raw: Wind Power ETF
+        aliasType: en_alias
+  - slug: chang-qi-hu-li-bao-xian
+    headword: 长期护理保险
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 为失能护理费用提供保障的保险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 为失能护理费用提供保障的保险。
+        example: 长期护理保险应对老龄化。
+        isPrimary: true
+    aliases:
+      - raw: 长期护理保险
+        aliasType: primary
+      - raw: Long-term Care Insurance
+        aliasType: en_alias
+  - slug: zheng-jin-zhai-e-t-f
+    headword: 政金债ETF
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跟踪政策性金融债指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪政策性金融债指数的ETF。
+        example: 政金债ETF信用风险低。
+        isPrimary: true
+    aliases:
+      - raw: 政金债ETF
+        aliasType: primary
+      - raw: Policy Bank Bond ETF
+        aliasType: en_alias
+  - slug: ji-gou-zhuan-yong-xi-wei
+    headword: 机构专用席位
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 龙虎榜中显示为机构专用的交易通道，通常代表公募、保险等机构资金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 龙虎榜中显示为机构专用的交易通道，通常代表公募、保险等机构资金。
+        example: 机构专用席位大额买入，长线资金入场信号。
+        isPrimary: true
+    aliases:
+      - raw: 机构专用席位
+        aliasType: primary
+      - raw: Institutional Seat
+        aliasType: en_alias
+  - slug: dao-xing-fan-zhuan
+    headword: 岛形反转
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 跳空缺口组合形成的反转形态，预示趋势逆转。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 跳空缺口组合形成的反转形态，预示趋势逆转。
+        example: 岛形反转确认后应及时离场。
+        isPrimary: true
+    aliases:
+      - raw: 岛形反转
+        aliasType: primary
+      - raw: Island Reversal
+        aliasType: en_alias
+  - slug: jing-zhi
+    headword: 净值
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 基金或账户的单位资产价值，用于计算收益。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 基金或账户的单位资产价值，用于计算收益。
+        example: 基金净值创历史新高。
+        isPrimary: true
+    aliases:
+      - raw: 净值
+        aliasType: primary
+      - raw: Net Value
+        aliasType: en_alias
+  - slug: ji-jin-zhong-cang-gu
+    headword: 基金重仓股
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公募基金持仓集中的股票，受基金申赎影响大。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公募基金持仓集中的股票，受基金申赎影响大。
+        example: 基金重仓股面临赎回压力时波动放大。
+        isPrimary: true
+    aliases:
+      - raw: 基金重仓股
+        aliasType: primary
+      - raw: Fund Heavy Holdings
+        aliasType: en_alias
+  - slug: shou-xian
+    headword: 寿险
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 人寿保险业务，新单价值与利差是核心。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 人寿保险业务，新单价值与利差是核心。
+        example: 寿险新业务价值增长转正。
+        isPrimary: true
+    aliases:
+      - raw: 寿险
+        aliasType: primary
+      - raw: Life Insurance
+        aliasType: en_alias
+  - slug: cai-xian
+    headword: 财险
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 财产保险业务，综合成本率是关键指标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 财产保险业务，综合成本率是关键指标。
+        example: 财险综合成本率优化。
+        isPrimary: true
+    aliases:
+      - raw: 财险
+        aliasType: primary
+      - raw: P&C Insurance
+        aliasType: en_alias
+  - slug: yi-ban-gong-gong-yu-suan
+    headword: 一般公共预算
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 政府一般性收支预算，与政府性基金预算并列。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 政府一般性收支预算，与政府性基金预算并列。
+        example: 一般公共预算收入增速回升。
+        isPrimary: true
+    aliases:
+      - raw: 一般公共预算
+        aliasType: primary
+      - raw: General Public Budget
+        aliasType: en_alias
+  - slug: zheng-fu-xing-ji-jin
+    headword: 政府性基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 以土地出让收入为主的政府专项基金预算。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以土地出让收入为主的政府专项基金预算。
+        example: 政府性基金收入受土地市场拖累。
+        isPrimary: true
+    aliases:
+      - raw: 政府性基金
+        aliasType: primary
+      - raw: Government Funds
+        aliasType: en_alias
+  - slug: xin-tuo
+    headword: 信托
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 信托行业，转型标品业务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 信托行业，转型标品业务。
+        example: 信托行业风险出清。
+        isPrimary: true
+    aliases:
+      - raw: 信托
+        aliasType: primary
+      - raw: Trust
+        aliasType: en_alias
+  - slug: jun-xian-xi-tong
+    headword: 均线系统
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 多周期均线组合，判断趋势与支撑压力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 多周期均线组合，判断趋势与支撑压力。
+        example: 均线系统多头排列确认上升趋势。
+        isPrimary: true
+    aliases:
+      - raw: 均线系统
+        aliasType: primary
+      - raw: MA System
+        aliasType: en_alias
+  - slug: li-cai-chan-pin
+    headword: 理财产品
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 企业购买的短期理财。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 企业购买的短期理财。
+        example: 理财收益计入投资收益。
+        isPrimary: true
+    aliases:
+      - raw: 理财产品
+        aliasType: primary
+      - raw: Wealth Products
+        aliasType: en_alias
+  - slug: gong-mu
+    headword: 公募
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 公开发行的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公开发行的基金。
+        example: 公募基金规模超30万亿。
+        isPrimary: true
+    aliases:
+      - raw: 公募
+        aliasType: primary
+      - raw: Public Fund
+        aliasType: en_alias
+  - slug: si-mu
+    headword: 私募
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 非公开发行的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 非公开发行的基金。
+        example: 私募策略多样。
+        isPrimary: true
+    aliases:
+      - raw: 私募
+        aliasType: primary
+      - raw: Private Fund
+        aliasType: en_alias
+  - slug: she-bao
+    headword: 社保
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 全国社会保障基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 全国社会保障基金。
+        example: 社保基金以长期投资为主。
+        isPrimary: true
+    aliases:
+      - raw: 社保
+        aliasType: primary
+      - raw: Social Security Fund
+        aliasType: en_alias
+  - slug: zu-he
+    headword: 组合
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 多资产持仓的集合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 多资产持仓的集合。
+        example: 组合分散降低风险。
+        isPrimary: true
+    aliases:
+      - raw: 组合
+        aliasType: primary
+      - raw: Portfolio
+        aliasType: en_alias
+  - slug: li-cai
+    headword: 理财
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 银行理财等资管产品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 银行理财等资管产品。
+        example: 理财净值化转型完成。
+        isPrimary: true
+    aliases:
+      - raw: 理财
+        aliasType: primary
+      - raw: Wealth Management
+        aliasType: en_alias
+  - slug: jing-zhi-hua
+    headword: 净值化
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 理财按净值披露收益。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 理财按净值披露收益。
+        example: 净值化后理财打破刚兑。
+        isPrimary: true
+    aliases:
+      - raw: 净值化
+        aliasType: primary
+      - raw: Net-value Based
+        aliasType: en_alias
+  - slug: ji-jin-fen-e
+    headword: 基金份额
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 基金发行的份额数量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 基金发行的份额数量。
+        example: 份额变化反映申赎。
+        isPrimary: true
+    aliases:
+      - raw: 基金份额
+        aliasType: primary
+      - raw: Fund Units
+        aliasType: en_alias
+  - slug: shu-hui
+    headword: 赎回
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 卖出基金份额。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 卖出基金份额。
+        example: 大额赎回冲击持仓。
+        isPrimary: true
+    aliases:
+      - raw: 赎回
+        aliasType: primary
+      - raw: Redemption
+        aliasType: en_alias
+  - slug: ji-jin-ye-ji-ji-zhun
+    headword: 基金业绩基准
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 衡量基金表现的参考标准。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 衡量基金表现的参考标准。
+        example: 跑赢基准创造超额收益。
+        isPrimary: true
+    aliases:
+      - raw: 基金业绩基准
+        aliasType: primary
+      - raw: Benchmark
+        aliasType: en_alias
+  - slug: gen-zong-wu-cha
+    headword: 跟踪误差
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 指数基金与基准的偏离度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 指数基金与基准的偏离度。
+        example: 跟踪误差小复制效果好。
+        isPrimary: true
+    aliases:
+      - raw: 跟踪误差
+        aliasType: primary
+      - raw: Tracking Error
+        aliasType: en_alias
+  - slug: chang-wai-ji-jin
+    headword: 场外基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 在销售平台申赎的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 在销售平台申赎的基金。
+        example: 场外基金按净值交易。
+        isPrimary: true
+    aliases:
+      - raw: 场外基金
+        aliasType: primary
+      - raw: OTC Fund
+        aliasType: en_alias
+  - slug: jie-gou-hua-chan-pin
+    headword: 结构化产品
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 嵌入衍生品的组合产品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 嵌入衍生品的组合产品。
+        example: 结构化产品收益复杂。
+        isPrimary: true
+    aliases:
+      - raw: 结构化产品
+        aliasType: primary
+      - raw: Structured Product
+        aliasType: en_alias
+  - slug: dui-chong-ji-jin-ce-l-e
+    headword: 对冲基金策略
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 对冲基金的各类策略。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对冲基金的各类策略。
+        example: 多空、事件、宏观是主流。
+        isPrimary: true
+    aliases:
+      - raw: 对冲基金策略
+        aliasType: primary
+      - raw: Hedge Strategies
+        aliasType: en_alias
+  - slug: duo-ce-l-e
+    headword: 多策略
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 多类策略组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 多类策略组合。
+        example: 多策略降低单一风险。
+        isPrimary: true
+    aliases:
+      - raw: 多策略
+        aliasType: primary
+      - raw: Multi-strategy
+        aliasType: en_alias
+  - slug: yin-zi-bao-lu
+    headword: 因子暴露
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 组合对因子的敏感度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 组合对因子的敏感度。
+        example: 控制因子暴露管理风格风险。
+        isPrimary: true
+    aliases:
+      - raw: 因子暴露
+        aliasType: primary
+      - raw: Factor Exposure
+        aliasType: en_alias
+  - slug: ji-jin-zhong-cang
+    headword: 基金重仓
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 基金集中持仓的股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 基金集中持仓的股票。
+        example: 基金重仓股受申赎影响。
+        isPrimary: true
+    aliases:
+      - raw: 基金重仓
+        aliasType: primary
+      - raw: Fund Heavy Positions
+        aliasType: en_alias
+  - slug: she-bao-zhong-cang
+    headword: 社保重仓
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 社保基金持仓。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 社保基金持仓。
+        example: 社保持仓稳健受关注。
+        isPrimary: true
+    aliases:
+      - raw: 社保重仓
+        aliasType: primary
+      - raw: SSF Holdings
+        aliasType: en_alias
+  - slug: zi-chan-zu
+    headword: 资产组
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 产生现金流的资产组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 产生现金流的资产组合。
+        example: 资产组是减值测试单位。
+        isPrimary: true
+    aliases:
+      - raw: 资产组
+        aliasType: primary
+      - raw: Cash-generating Unit
+        aliasType: en_alias
+  - slug: yin-dao-ji-jin
+    headword: 引导基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 政府引导基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 政府引导基金。
+        example: 引导基金支持初创。
+        isPrimary: true
+    aliases:
+      - raw: 引导基金
+        aliasType: primary
+      - raw: Guidance Fund
+        aliasType: en_alias
+  - slug: ye-wu-jie-gou
+    headword: 业务结构
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 业务构成组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 业务构成组合。
+        example: 结构优化提升质量。
+        isPrimary: true
+    aliases:
+      - raw: 业务结构
+        aliasType: primary
+      - raw: Business Mix
+        aliasType: en_alias
+  - slug: bao-fei-shou-ru
+    headword: 保费收入
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 保险公司保费规模。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 保险公司保费规模。
+        example: 保费增速反映需求。
+        isPrimary: true
+    aliases:
+      - raw: 保费收入
+        aliasType: primary
+      - raw: Premium Income
+        aliasType: en_alias
+  - slug: chang-fu-neng-li
+    headword: 偿付能力
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 保险公司的偿付能力。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 保险公司的偿付能力。
+        example: 偿付能力充足率监管核心。
+        isPrimary: true
+    aliases:
+      - raw: 偿付能力
+        aliasType: primary
+      - raw: Solvency
+        aliasType: en_alias
+  - slug: yang-lao-xian
+    headword: 养老险
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 养老保险产品。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 养老保险产品。
+        example: 养老险受益人口老龄化。
+        isPrimary: true
+    aliases:
+      - raw: 养老险
+        aliasType: primary
+      - raw: Pension Insurance
+        aliasType: en_alias
+  - slug: bao-xian-ke-ji
+    headword: 保险科技
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 科技赋能保险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 科技赋能保险。
+        example: 保险科技提升效率。
+        isPrimary: true
+    aliases:
+      - raw: 保险科技
+        aliasType: primary
+      - raw: InsurTech
+        aliasType: en_alias
+  - slug: bao-xian-zhong-jie
+    headword: 保险中介
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 保险销售服务机构。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 保险销售服务机构。
+        example: 中介市场分化。
+        isPrimary: true
+    aliases:
+      - raw: 保险中介
+        aliasType: primary
+      - raw: Insurance Intermediary
+        aliasType: en_alias
+  - slug: bao-xian-dai-li-ren
+    headword: 保险代理人
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 保险销售个人。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 保险销售个人。
+        example: 代理人队伍转型。
+        isPrimary: true
+    aliases:
+      - raw: 保险代理人
+        aliasType: primary
+      - raw: Insurance Agent
+        aliasType: en_alias
+  - slug: yin-bao-qu-dao
+    headword: 银保渠道
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 银行代销保险渠道。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 银行代销保险渠道。
+        example: 银保渠道保费占比高。
+        isPrimary: true
+    aliases:
+      - raw: 银保渠道
+        aliasType: primary
+      - raw: Bancassurance
+        aliasType: en_alias
+  - slug: xin-yong-bao-zheng-bao-xian
+    headword: 信用保证保险
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 信用担保类保险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 信用担保类保险。
+        example: 信保业务风险需控。
+        isPrimary: true
+    aliases:
+      - raw: 信用保证保险
+        aliasType: primary
+      - raw: Credit Guarantee Insurance
+        aliasType: en_alias
+  - slug: ze-ren-bao-xian
+    headword: 责任保险
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 法律责任保险。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 法律责任保险。
+        example: 责任险需求增长。
+        isPrimary: true
+    aliases:
+      - raw: 责任保险
+        aliasType: primary
+      - raw: Liability Insurance
+        aliasType: en_alias
+  - slug: yi-bao-ji-jin
+    headword: 医保基金
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 医疗保险基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 医疗保险基金。
+        example: 医保控费常态化。
+        isPrimary: true
+    aliases:
+      - raw: 医保基金
+        aliasType: primary
+      - raw: Medical Insurance Fund
+        aliasType: en_alias
+  - slug: zhuan-li-bu-ju
+    headword: 专利布局
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 专利组合策略。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 专利组合策略。
+        example: 布局构筑防御。
+        isPrimary: true
+    aliases:
+      - raw: 专利布局
+        aliasType: primary
+      - raw: Patent Portfolio
+        aliasType: en_alias
+  - slug: mai-fang-yan-jiu-2
+    headword: 买方研究
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 基金内部研究。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 基金内部研究。
+        example: 买方研究服务投资。
+        isPrimary: true
+    aliases:
+      - raw: 买方研究
+        aliasType: primary
+      - raw: Buy-side Research
+        aliasType: en_alias
+  - slug: mian-ban-shu-ju
+    headword: 面板数据
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 时间截面组合数据。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 时间截面组合数据。
+        example: 面板数据双重维度。
+        isPrimary: true
+    aliases:
+      - raw: 面板数据
+        aliasType: primary
+      - raw: Panel Data
+        aliasType: en_alias
+  - slug: kai-fang-qi
+    headword: 开放期
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 产品申赎期。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 产品申赎期。
+        example: 开放期可操作。
+        isPrimary: true
+    aliases:
+      - raw: 开放期
+        aliasType: primary
+      - raw: Open Period
+        aliasType: en_alias
+  - slug: shen-shu-que-ren
+    headword: 申赎确认
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 申赎确认流程。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 申赎确认流程。
+        example: 确认按规则。
+        isPrimary: true
+    aliases:
+      - raw: 申赎确认
+        aliasType: primary
+      - raw: Order Confirmation
+        aliasType: en_alias
+  - slug: ji-jin-he-tong
+    headword: 基金合同
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 基金法律文件。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 基金法律文件。
+        example: 合同约定权利义务。
+        isPrimary: true
+    aliases:
+      - raw: 基金合同
+        aliasType: primary
+      - raw: Fund Contract
+        aliasType: en_alias
+  - slug: zhao-mu-shuo-ming-shu
+    headword: 招募说明书
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 基金招募文件。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 基金招募文件。
+        example: 说明书披露详情。
+        isPrimary: true
+    aliases:
+      - raw: 招募说明书
+        aliasType: primary
+      - raw: Prospectus
+        aliasType: en_alias
+  - slug: zu-he-gou-jian
+    headword: 组合构建
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 组合搭建。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 组合搭建。
+        example: 构建重均衡。
+        isPrimary: true
+    aliases:
+      - raw: 组合构建
+        aliasType: primary
+      - raw: Portfolio Construction
+        aliasType: en_alias
+  - slug: zu-he-you-hua
+    headword: 组合优化
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 组合最优配置。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 组合最优配置。
+        example: 优化求最佳。
+        isPrimary: true
+    aliases:
+      - raw: 组合优化
+        aliasType: primary
+      - raw: Portfolio Optimization
+        aliasType: en_alias
+  - slug: ji-zhun-bi-jiao
+    headword: 基准比较
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 组合与基准对比。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 组合与基准对比。
+        example: 比较评优劣。
+        isPrimary: true
+    aliases:
+      - raw: 基准比较
+        aliasType: primary
+      - raw: Benchmark Comparison
+        aliasType: en_alias
+  - slug: ling-xian-zhi-biao-zu
+    headword: 领先指标组
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 前瞻指标组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 前瞻指标组合。
+        example: 领先看预期。
+        isPrimary: true
+    aliases:
+      - raw: 领先指标组
+        aliasType: primary
+      - raw: Leading Indicator Set
+        aliasType: en_alias
+  - slug: zhi-hou-zhi-biao-zu
+    headword: 滞后指标组
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 确认指标组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 确认指标组合。
+        example: 滞后作确认。
+        isPrimary: true
+    aliases:
+      - raw: 滞后指标组
+        aliasType: primary
+      - raw: Lagging Indicator Set
+        aliasType: en_alias
+  - slug: tong-bu-zhi-biao-zu
+    headword: 同步指标组
+    categoryL1: 基金产品
+    categoryL2: 综合
+    difficulty: L2
+    summaryPlain: 当期指标组合。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 当期指标组合。
+        example: 同步看现状。
+        isPrimary: true
+    aliases:
+      - raw: 同步指标组
+        aliasType: primary
+      - raw: Coincident Indicator Set
+        aliasType: en_alias

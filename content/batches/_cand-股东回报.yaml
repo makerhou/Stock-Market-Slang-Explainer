@@ -1,0 +1,798 @@
+source: gen from full.tsv keyword=派息|送股|转增|回购|注销|股息率|分红率|股利|现金分红|股票股利|股权登记|除权除息|填权|贴权|回购注销|股权激励|定增|配股|可转债|商誉|股利政策|高送转 (待精修)
+terms:
+  - slug: gu-quan-ji-li-fei-yong
+    headword: 股权激励费用
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 公司以股票或期权形式支付给员工的费用，常在Non-GAAP利润中被剔除。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 公司以股票或期权形式支付给员工的费用，常在Non-GAAP利润中被剔除。
+        example: 股权激励费用SBC看似不付现，实则在稀释老股东权益。
+        isPrimary: true
+    aliases:
+      - raw: 股权激励费用
+        aliasType: primary
+      - raw: SBC
+        aliasType: en_alias
+      - raw: Stock-Based Compensation
+        aliasType: en_alias
+  - slug: hui-hui-gou-ding-li-l
+    headword: 回回购定利率
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 借券交易中借出方把借券现金抵押再投资后返还给借入方的利率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 借券交易中借出方把借券现金抵押再投资后返还给借入方的利率。
+        example: Rebate rate越低，说明这只股票借券越紧张。
+        isPrimary: true
+    aliases:
+      - raw: 回回购定利率
+        aliasType: primary
+      - raw: Rebate Rate
+        aliasType: en_alias
+  - slug: hui-gou-shou-quan
+    headword: 回购授权
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 董事会批准公司在未来一段时间内回购特定金额股票的计划。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 董事会批准公司在未来一段时间内回购特定金额股票的计划。
+        example: 董事会新批一大笔回购额度，未来一年内可用。
+        isPrimary: true
+    aliases:
+      - raw: 回购授权
+        aliasType: primary
+      - raw: Buyback Authorization
+        aliasType: en_alias
+  - slug: sheng-yu-hui-gou-e-du
+    headword: 剩余回购额度
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 已宣布回购授权中尚未执行的金额。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 已宣布回购授权中尚未执行的金额。
+        example: 剩余回购额度还有150亿美元，构成股价支撑。
+        isPrimary: true
+    aliases:
+      - raw: 剩余回购额度
+        aliasType: primary
+      - raw: Remaining Buyback Authorization
+        aliasType: en_alias
+  - slug: shou-ci-pai-xi
+    headword: 首次派息
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 公司历史上第一次宣布发放现金股息。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 公司历史上第一次宣布发放现金股息。
+        example: 上市十年后第一次宣布发股息，信号意义大于金额。
+        isPrimary: true
+    aliases:
+      - raw: 首次派息
+        aliasType: primary
+      - raw: Dividend Initiation
+        aliasType: en_alias
+  - slug: ti-gao-pai-xi
+    headword: 提高派息
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 公司宣布比上一期更高的季度股息。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公司宣布比上一期更高的季度股息。
+        example: 连续十年提高派息，是股息贵族候选。
+        isPrimary: true
+    aliases:
+      - raw: 提高派息
+        aliasType: primary
+      - raw: Dividend Increase
+        aliasType: en_alias
+  - slug: zan-ting-pai-xi
+    headword: 暂停派息
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 公司因经营困难或重组暂时取消现金股息。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 公司因经营困难或重组暂时取消现金股息。
+        example: 银行在金融危机期间普遍暂停派息。
+        isPrimary: true
+    aliases:
+      - raw: 暂停派息
+        aliasType: primary
+      - raw: Dividend Suspension
+        aliasType: en_alias
+  - slug: pai-xi-l
+    headword: 派息率
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 股息占盈利的比例，衡量分红慷慨程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 股息占盈利的比例，衡量分红慷慨程度。
+        example: 赚十块钱分八块，剩下的才留作再投入。
+        isPrimary: true
+    aliases:
+      - raw: 派息率
+        aliasType: primary
+      - raw: Payout Ratio
+        aliasType: en_alias
+  - slug: chang-nei-hui-gou
+    headword: 场内回购
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 公司在公开市场按市价回购自身股份。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 公司在公开市场按市价回购自身股份。
+        example: 公司持续场内回购支撑股价。
+        isPrimary: true
+    aliases:
+      - raw: 场内回购
+        aliasType: primary
+      - raw: On-market Buyback
+        aliasType: en_alias
+  - slug: chang-wai-hui-gou
+    headword: 场外回购
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 公司在场外协议回购股份，须经批准。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公司在场外协议回购股份，须经批准。
+        example: 场外回购按指定价格向特定股东回购。
+        isPrimary: true
+    aliases:
+      - raw: 场外回购
+        aliasType: primary
+      - raw: Off-market Buyback
+        aliasType: en_alias
+  - slug: zhu-xiao-gu-fen
+    headword: 注销股份
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 回购股份后予以注销、减少总股本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 回购股份后予以注销、减少总股本。
+        example: 注销股份可提升每股盈利。
+        isPrimary: true
+    aliases:
+      - raw: 注销股份
+        aliasType: primary
+      - raw: Cancellation of Shares
+        aliasType: en_alias
+  - slug: xian-jin-fen-hong-l
+    headword: 现金分红率
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 实际现金分红占净利润的比例，与股利支付率含义相近。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 实际现金分红占净利润的比例，与股利支付率含义相近。
+        example: 现金分红率稳定在三成，回报政策连续。
+        isPrimary: true
+    aliases:
+      - raw: 现金分红率
+        aliasType: primary
+      - raw: Cash Dividend Payout
+        aliasType: en_alias
+  - slug: gu-li-tie-xian-mo-xing
+    headword: 股利贴现模型
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 将未来预期股息折现到当前的绝对估值模型，适用于稳定分红公司。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 将未来预期股息折现到当前的绝对估值模型，适用于稳定分红公司。
+        example: 股利贴现模型DDM常用于银行、公用事业股。
+        isPrimary: true
+    aliases:
+      - raw: 股利贴现模型
+        aliasType: primary
+      - raw: DDM
+        aliasType: en_alias
+      - raw: Dividend Discount Model
+        aliasType: en_alias
+  - slug: fu-shang-yu
+    headword: 负商誉
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 合并成本小于取得可辨认净资产公允价值份额的廉价购买利得。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 合并成本小于取得可辨认净资产公允价值份额的廉价购买利得。
+        example: 负商誉计入当期损益，较为罕见。
+        isPrimary: true
+    aliases:
+      - raw: 负商誉
+        aliasType: primary
+      - raw: Bargain Purchase
+        aliasType: en_alias
+  - slug: mai-duan-shi-hui-gou
+    headword: 买断式回购
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 债券所有权随交易转移、到期再反向交割的回购。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 债券所有权随交易转移、到期再反向交割的回购。
+        example: 买断式回购可期间动用债券。
+        isPrimary: true
+    aliases:
+      - raw: 买断式回购
+        aliasType: primary
+      - raw: Outright Repo
+        aliasType: en_alias
+  - slug: ke-zhuan-zhai-ji-jin
+    headword: 可转债基金
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 主要投资可转换债券的基金，收益特征介于股债之间：股市向好时跟涨，股市下跌时有债底保护。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 主要投资可转换债券的基金，收益特征介于股债之间：股市向好时跟涨，股市下跌时有债底保护。
+        example: 想赚股市回暖的钱又怕大跌，这类基金是股债之间的中间选项。
+        isPrimary: true
+    aliases:
+      - raw: 可转债基金
+        aliasType: primary
+      - raw: Convertible Bond Fund
+        aliasType: en_alias
+  - slug: bao-jia-hui-gou
+    headword: 报价回购
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 券商以债券质押向客户融入资金的业务。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 券商以债券质押向客户融入资金的业务。
+        example: 报价回购是低风险现金管理。
+        isPrimary: true
+    aliases:
+      - raw: 报价回购
+        aliasType: primary
+      - raw: Quote Repo
+        aliasType: en_alias
+  - slug: gao-song-zhuan
+    headword: 高送转
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 大比例送股转增股本，曾是炒作题材，后受监管规范。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 大比例送股转增股本，曾是炒作题材，后受监管规范。
+        example: 监管严控下高送转炒作降温。
+        isPrimary: true
+    aliases:
+      - raw: 高送转
+        aliasType: primary
+      - raw: High Bonus Share
+        aliasType: en_alias
+  - slug: hui-gou-xin-gui
+    headword: 回购新规
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 鼓励上市公司回购并注销的政策，放宽回购条件。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 鼓励上市公司回购并注销的政策，放宽回购条件。
+        example: 回购新规落地，回购潮涌现。
+        isPrimary: true
+    aliases:
+      - raw: 回购新规
+        aliasType: primary
+      - raw: Buyback Rules
+        aliasType: en_alias
+  - slug: zheng-hui-gou
+    headword: 正回购
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 央行从市场回收流动性的公开市场操作。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行从市场回收流动性的公开市场操作。
+        example: 正回购操作回收冗余流动性。
+        isPrimary: true
+    aliases:
+      - raw: 正回购
+        aliasType: primary
+      - raw: Repo
+        aliasType: en_alias
+  - slug: fen-hong-l
+    headword: 分红率
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 分红占净利润比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 分红占净利润比例。
+        example: 高分红率回报股东。
+        isPrimary: true
+    aliases:
+      - raw: 分红率
+        aliasType: primary
+      - raw: Payout Ratio
+        aliasType: en_alias
+  - slug: gu-quan-deng-ji-ri
+    headword: 股权登记日
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 确定享有分红股东名单的日期。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 确定享有分红股东名单的日期。
+        example: 登记日持有方可获分红。
+        isPrimary: true
+    aliases:
+      - raw: 股权登记日
+        aliasType: primary
+      - raw: Record Date
+        aliasType: en_alias
+  - slug: ni-hui-gou-li-l
+    headword: 逆回购利率
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 央行逆回购操作利率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 央行逆回购操作利率。
+        example: 逆回购利率是短期政策利率。
+        isPrimary: true
+    aliases:
+      - raw: 逆回购利率
+        aliasType: primary
+      - raw: Reverse Repo Rate
+        aliasType: en_alias
+  - slug: hui-gou-zhu-xiao
+    headword: 回购注销
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 公司购回自家股票后予以注销，总股本减少、每股收益被动提高。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 公司购回自家股票后予以注销，总股本减少、每股收益被动提高。
+        example: 股本注销后，剩下的每股对应利润变多了。
+        isPrimary: true
+    aliases:
+      - raw: 回购注销
+        aliasType: primary
+      - raw: Buyback Cancellation
+        aliasType: en_alias
+  - slug: shang-yu-lei
+    headword: 商誉雷
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 商誉减值导致业绩暴雷。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 商誉减值导致业绩暴雷。
+        example: 商誉雷多在年报季爆发。
+        isPrimary: true
+    aliases:
+      - raw: 商誉雷
+        aliasType: primary
+      - raw: Goodwill Bomb
+        aliasType: en_alias
+  - slug: hui-gou-chao
+    headword: 回购潮
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 上市公司集中回购。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 上市公司集中回购。
+        example: 回购潮传递低估信号。
+        isPrimary: true
+    aliases:
+      - raw: 回购潮
+        aliasType: primary
+      - raw: Buyback Wave
+        aliasType: en_alias
+  - slug: gu-quan-ji-li-ji-hua
+    headword: 股权激励计划
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 向员工授予股权的计划。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 向员工授予股权的计划。
+        example: 激励计划绑定长期利益。
+        isPrimary: true
+    aliases:
+      - raw: 股权激励计划
+        aliasType: primary
+      - raw: Incentive Plan
+        aliasType: en_alias
+  - slug: hui-gou-gu-fen
+    headword: 回购股份
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 公司在交易所市场购回自家已发行的股票。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 公司在交易所市场购回自家已发行的股票。
+        example: 购回的股票，常被用来奖励员工或直接注销。
+        isPrimary: true
+    aliases:
+      - raw: 回购股份
+        aliasType: primary
+      - raw: Share Buyback
+        aliasType: en_alias
+  - slug: hui-gou-jin-zhan
+    headword: 回购进展
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 回购实施进展。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 回购实施进展。
+        example: 回购进展披露。
+        isPrimary: true
+    aliases:
+      - raw: 回购进展
+        aliasType: primary
+      - raw: Buyback Progress
+        aliasType: en_alias
+  - slug: gu-quan-deng-ji
+    headword: 股权登记
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 股份登记手续。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股份登记手续。
+        example: 登记确定股东资格。
+        isPrimary: true
+    aliases:
+      - raw: 股权登记
+        aliasType: primary
+      - raw: Share Registration
+        aliasType: en_alias
+  - slug: gu-fen-hui-gou-zhuan-hu
+    headword: 股份回购专户
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 回购专用证券账户。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 回购专用证券账户。
+        example: 回购专户股份注销。
+        isPrimary: true
+    aliases:
+      - raw: 股份回购专户
+        aliasType: primary
+      - raw: Buyback Account
+        aliasType: en_alias
+  - slug: chu-quan-chu-xi-ri
+    headword: 除权除息日
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 除权除息基准日。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 除权除息基准日。
+        example: 除权日价格调整。
+        isPrimary: true
+    aliases:
+      - raw: 除权除息日
+        aliasType: primary
+      - raw: Ex-date
+        aliasType: en_alias
+  - slug: xian-jin-fen-hong
+    headword: 现金分红
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 公司以现金形式把利润分给股东，是最直接的分红方式，到账即可使用。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 公司以现金形式把利润分给股东，是最直接的分红方式，到账即可使用。
+        example: 公司年度利润以现金形式打到股东账户，每股分五角。
+        isPrimary: true
+    aliases:
+      - raw: 现金分红
+        aliasType: primary
+      - raw: Cash Dividend
+        aliasType: en_alias
+  - slug: gu-piao-gu-li
+    headword: 股票股利
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 股票形式分红。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 股票形式分红。
+        example: 股票股利扩股本。
+        isPrimary: true
+    aliases:
+      - raw: 股票股利
+        aliasType: primary
+      - raw: Stock Dividend
+        aliasType: en_alias
+  - slug: gu-xi-l-shui-ping
+    headword: 股息率水平
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 市场整体股息率。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场整体股息率。
+        example: 股息率高于债息有吸引力。
+        isPrimary: true
+    aliases:
+      - raw: 股息率水平
+        aliasType: primary
+      - raw: Dividend Yield Level
+        aliasType: en_alias
+  - slug: hui-gou-zong-e
+    headword: 回购总额
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 市场回购总规模。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市场回购总规模。
+        example: 回购总额创新高。
+        isPrimary: true
+    aliases:
+      - raw: 回购总额
+        aliasType: primary
+      - raw: Total Buybacks
+        aliasType: en_alias
+  - slug: hui-gou-xie-yi
+    headword: 回购协议
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 逆回购融资工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 逆回购融资工具。
+        example: 回购是流动性工具。
+        isPrimary: true
+    aliases:
+      - raw: 回购协议
+        aliasType: primary
+      - raw: Repurchase Agreement
+        aliasType: en_alias
+  - slug: hui-gou-xin-xi-pi-lu
+    headword: 回购信息披露
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 回购进展披露。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 回购进展披露。
+        example: 回购披露定期。
+        isPrimary: true
+    aliases:
+      - raw: 回购信息披露
+        aliasType: primary
+      - raw: Buyback Disclosure
+        aliasType: en_alias
+  - slug: hui-gou-tui-chu
+    headword: 回购退出
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 公司回购退出。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 公司回购退出。
+        example: 回购保底退出。
+        isPrimary: true
+    aliases:
+      - raw: 回购退出
+        aliasType: primary
+      - raw: Buyback Exit
+        aliasType: en_alias
+  - slug: dui-du-hui-gou
+    headword: 对赌回购
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 对赌触发回购。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 对赌触发回购。
+        example: 对赌保护投资。
+        isPrimary: true
+    aliases:
+      - raw: 对赌回购
+        aliasType: primary
+      - raw: Repurchase Bet
+        aliasType: en_alias
+  - slug: hui-gou-quan
+    headword: 回购权
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 要求回购权利。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 要求回购权利。
+        example: 回购权保本金。
+        isPrimary: true
+    aliases:
+      - raw: 回购权
+        aliasType: primary
+      - raw: Repurchase Right
+        aliasType: en_alias
+  - slug: hui-gou-xiao-ying
+    headword: 回购效应
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 回购的市场反应。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 回购的市场反应。
+        example: 回购提振股价。
+        isPrimary: true
+    aliases:
+      - raw: 回购效应
+        aliasType: primary
+      - raw: Buyback Effect
+        aliasType: en_alias
+  - slug: ding-zeng-xiao-ying
+    headword: 定增效应
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 定增的市场反应。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 定增的市场反应。
+        example: 定增折价影响股价。
+        isPrimary: true
+    aliases:
+      - raw: 定增效应
+        aliasType: primary
+      - raw: Placement Effect
+        aliasType: en_alias
+  - slug: hui-gou-zhu-xiao-xiao-ying
+    headword: 回购注销效应
+    categoryL1: 财报公司
+    categoryL2: 股东回报
+    difficulty: L2
+    summaryPlain: 回购注销的市场反应。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 回购注销的市场反应。
+        example: 注销提升每股价值。
+        isPrimary: true
+    aliases:
+      - raw: 回购注销效应
+        aliasType: primary
+      - raw: Cancellation Effect
+        aliasType: en_alias

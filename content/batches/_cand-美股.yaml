@@ -1,0 +1,912 @@
+source: gen from full.tsv keyword=粉单|盘前|盘后|中概|恐慌指数|看涨期权|看跌期权|备兑|跨式|隐含波动|保证金|融资|融券|财报|业绩指引|电话会|拆股|合股|ADS|招股|聆讯|借壳|Reg  (待精修)
+terms:
+  - slug: rong-zi-bao-zheng-jin-bi-li
+    headword: 融资保证金比例
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 融资买入时投资者需自付保证金占交易金额的最低比例，上调即收紧杠杆。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 融资买入时投资者需自付保证金占交易金额的最低比例，上调即收紧杠杆。
+        example: 融资保证金比例上调后，两融杠杆水平受到约束。
+        isPrimary: true
+    aliases:
+      - raw: 融资保证金比例
+        aliasType: primary
+      - raw: Initial Margin Ratio
+        aliasType: en_alias
+  - slug: rong-zi-mai-ru-e
+    headword: 融资买入额
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 当日融资买入股票的金额，反映场内杠杆做多的活跃度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 当日融资买入股票的金额，反映场内杠杆做多的活跃度。
+        example: 融资买入额骤增，说明短线杠杆资金在快速进场。
+        isPrimary: true
+    aliases:
+      - raw: 融资买入额
+        aliasType: primary
+  - slug: r-e-g-f-d
+    headword: Reg FD
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 要求上市公司同时向所有投资者公开披露重大信息，禁止选择性透露给分析师。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 要求上市公司同时向所有投资者公开披露重大信息，禁止选择性透露给分析师。
+        example: 公司被罚，因为把好消息先透露给了大机构。
+        isPrimary: true
+    aliases:
+      - raw: Reg FD
+        aliasType: primary
+      - raw: Regulation FD
+        aliasType: en_alias
+      - raw: Fair Disclosure
+        aliasType: en_alias
+  - slug: r-e-g-m
+    headword: Reg M
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 约束发行人和承销商在发行前后操纵二级市场价格的规则，限制做市与投标。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 约束发行人和承销商在发行前后操纵二级市场价格的规则，限制做市与投标。
+        example: Reg M期间承销商不能随便为新股托价。
+        isPrimary: true
+    aliases:
+      - raw: Reg M
+        aliasType: primary
+      - raw: Regulation M
+        aliasType: en_alias
+  - slug: r-e-g-s-k
+    headword: Reg S-K
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: SEC规定非财务信息披露内容与格式的条例，涵盖风险因素、业务描述等。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: SEC规定非财务信息披露内容与格式的条例，涵盖风险因素、业务描述等。
+        example: 风险因素章节按Reg S-K Item 105撰写。
+        isPrimary: true
+    aliases:
+      - raw: Reg S-K
+        aliasType: primary
+      - raw: Regulation S-K
+        aliasType: en_alias
+  - slug: r-e-g-s-x
+    headword: Reg S-X
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: SEC规范财务报表格式、附注和审计师要求的条例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: SEC规范财务报表格式、附注和审计师要求的条例。
+        example: 备考财务报表需按Reg S-X第11条编制。
+        isPrimary: true
+    aliases:
+      - raw: Reg S-X
+        aliasType: primary
+      - raw: Regulation S-X
+        aliasType: en_alias
+  - slug: r-e-g-g
+    headword: Reg G
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 要求公司公开披露非GAAP指标时同时列示最具可比性的GAAP指标并对账。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 要求公司公开披露非GAAP指标时同时列示最具可比性的GAAP指标并对账。
+        example: 非国际会计准则的利润指标，必须搭配标准口径对账披露。
+        isPrimary: true
+    aliases:
+      - raw: Reg G
+        aliasType: primary
+      - raw: Regulation G
+        aliasType: en_alias
+  - slug: r-e-g-b-i
+    headword: Reg BI
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 美国证监会2019年发布、2020年6月起对券商生效的规则，要求向零售客户推荐证券时履行最佳利益义务并披露利益冲突。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 美国证监会2019年发布、2020年6月起对券商生效的规则，要求向零售客户推荐证券时履行最佳利益义务并披露利益冲突。
+        example: 按Reg BI，券商推荐高佣金产品要先披露利益冲突。
+        isPrimary: true
+    aliases:
+      - raw: Reg BI
+        aliasType: primary
+      - raw: Regulation Best Interest
+        aliasType: en_alias
+  - slug: r-e-g-a
+    headword: Reg A+
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 允许小公司向普通公众募资最多7500万美元的豁免注册发行制度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 允许小公司向普通公众募资最多7500万美元的豁免注册发行制度。
+        example: 这家初创公司走Reg A+在网上面向散户募资。
+        isPrimary: true
+    aliases:
+      - raw: Reg A+
+        aliasType: primary
+      - raw: Regulation A+
+        aliasType: en_alias
+  - slug: r-e-g-d
+    headword: Reg D
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 私募发行豁免SEC注册的规则体系，分504、506(b)、506(c)等条款。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 私募发行豁免SEC注册的规则体系，分504、506(b)、506(c)等条款。
+        example: 这轮融资只向合格投资者募集，走的是私募豁免通道。
+        isPrimary: true
+    aliases:
+      - raw: Reg D
+        aliasType: primary
+      - raw: Regulation D
+        aliasType: en_alias
+  - slug: r-e-g-n-m-s
+    headword: Reg NMS
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 2005年SEC出台的全美市场系统现代化规则，含订单保护、访问费与子 Penny 报价限制。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 2005年SEC出台的全美市场系统现代化规则，含订单保护、访问费与子 Penny 报价限制。
+        example: 订单必须路由到当时全市场最优报价，这是核心条款。
+        isPrimary: true
+    aliases:
+      - raw: Reg NMS
+        aliasType: primary
+      - raw: Regulation National Market System
+        aliasType: en_alias
+  - slug: r-e-g-t-bao-zheng-jin
+    headword: Reg T保证金
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 美联储Reg T规定的初始保证金比例，买入股票时客户至少自筹50%资金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 美联储Reg T规定的初始保证金比例，买入股票时客户至少自筹50%资金。
+        example: 按Reg T，买1万美元股票至少要出5000美元。
+        isPrimary: true
+    aliases:
+      - raw: Reg T保证金
+        aliasType: primary
+      - raw: Reg T Margin
+        aliasType: en_alias
+      - raw: Federal Margin
+        aliasType: en_alias
+  - slug: bao-zheng-jin-zhang-hu
+    headword: 保证金账户
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 允许客户向券商借钱买证券或借券卖出的账户，需满足最低保证金要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 允许客户向券商借钱买证券或借券卖出的账户，需满足最低保证金要求。
+        example: 想开保证金账户至少要有2000美元资产。
+        isPrimary: true
+    aliases:
+      - raw: 保证金账户
+        aliasType: primary
+      - raw: Margin Account
+        aliasType: en_alias
+  - slug: ge-ye-bao-zheng-jin
+    headword: 隔夜保证金
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 持仓过夜时必须满足的最低保证金要求，通常低于日内。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 持仓过夜时必须满足的最低保证金要求，通常低于日内。
+        example: 日内可以开3倍杠杆，隔夜就回到2倍。
+        isPrimary: true
+    aliases:
+      - raw: 隔夜保证金
+        aliasType: primary
+      - raw: Overnight Margin
+        aliasType: en_alias
+  - slug: wei-chi-bao-zheng-jin
+    headword: 维持保证金
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 持仓期间账户权益占证券市值的最低比例，通常股票为25%。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 持仓期间账户权益占证券市值的最低比例，通常股票为25%。
+        example: 维持保证金跌破25%就会被强平。
+        isPrimary: true
+    aliases:
+      - raw: 维持保证金
+        aliasType: primary
+      - raw: Maintenance Margin
+        aliasType: en_alias
+  - slug: r-e-g-s-h-o
+    headword: Reg SHO
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: SEC规范卖空、locate要求与交付失败平仓的规则。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: SEC规范卖空、locate要求与交付失败平仓的规则。
+        example: Reg SHO要求卖空前必须先做合理locate。
+        isPrimary: true
+    aliases:
+      - raw: Reg SHO
+        aliasType: primary
+      - raw: Regulation SHO
+        aliasType: en_alias
+  - slug: zu-he-bao-zheng-jin
+    headword: 组合保证金
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 按整个组合风险敞口计算保证金的系统，比Reg T两房法更资金高效。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 按整个组合风险敞口计算保证金的系统，比Reg T两房法更资金高效。
+        example: 组合保证金账户可以用更少资金持有更大期权头寸。
+        isPrimary: true
+    aliases:
+      - raw: 组合保证金
+        aliasType: primary
+      - raw: Portfolio Margin
+        aliasType: en_alias
+  - slug: ke-bao-zheng-jin-zheng-quan
+    headword: 可保证金证券
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 可以作为融资抵押品、按Reg T缴纳50%保证金即可买入的证券。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 可以作为融资抵押品、按Reg T缴纳50%保证金即可买入的证券。
+        example: 大部分大盘股和ETF都是可保证金证券。
+        isPrimary: true
+    aliases:
+      - raw: 可保证金证券
+        aliasType: primary
+      - raw: Marginable Securities
+        aliasType: en_alias
+  - slug: bu-ke-bao-zheng-jin-zheng-quan
+    headword: 不可保证金证券
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 不能作为融资抵押品、必须全额现金买入的证券，如低价股、IPO初期。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 不能作为融资抵押品、必须全额现金买入的证券，如低价股、IPO初期。
+        example: 刚上市的新股前一年通常不可保证金。
+        isPrimary: true
+    aliases:
+      - raw: 不可保证金证券
+        aliasType: primary
+      - raw: Non-Marginable Securities
+        aliasType: en_alias
+  - slug: ke-hu-bao-zheng-jin-ge-li
+    headword: 客户保证金隔离
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 把客户缴纳的保证金与券商自有资金分开存管的要求。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 把客户缴纳的保证金与券商自有资金分开存管的要求。
+        example: 客户保证金隔离是券商破产时客户能拿回资产的关键。
+        isPrimary: true
+    aliases:
+      - raw: 客户保证金隔离
+        aliasType: primary
+      - raw: Customer Margin Segregation
+        aliasType: en_alias
+  - slug: h-o-u-s-e-bao-zheng-jin
+    headword: House保证金
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 券商在SEC最低要求之上自定的更严保证金比例。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 券商在SEC最低要求之上自定的更严保证金比例。
+        example: 券商的House margin对期权组合要求更高。
+        isPrimary: true
+    aliases:
+      - raw: House保证金
+        aliasType: primary
+      - raw: House Margin
+        aliasType: en_alias
+  - slug: bao-zheng-jin-qi-quan
+    headword: 保证金期权
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 卖方必须缴纳现金或股票作为保证金的期权头寸，如裸卖期权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 卖方必须缴纳现金或股票作为保证金的期权头寸，如裸卖期权。
+        example: 裸卖put属于保证金期权，需要现金抵押。
+        isPrimary: true
+    aliases:
+      - raw: 保证金期权
+        aliasType: primary
+      - raw: Margined Options
+        aliasType: en_alias
+  - slug: pan-hou-fa-cai-bao
+    headword: 盘后发财报
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 公司在常规收盘后发布业绩，通常伴随盘后股价大幅波动。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 公司在常规收盘后发布业绩，通常伴随盘后股价大幅波动。
+        example: 收盘后才公布成绩单，股价在盘后交易里跳涨。
+        isPrimary: true
+    aliases:
+      - raw: 盘后发财报
+        aliasType: primary
+      - raw: After-Hours Earnings Release
+        aliasType: en_alias
+  - slug: pan-qian-fa-cai-bao
+    headword: 盘前发财报
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 公司在常规开盘前发布业绩，开盘缺口通常较大。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 公司在常规开盘前发布业绩，开盘缺口通常较大。
+        example: 摩根大通通常盘前发财报。
+        isPrimary: true
+    aliases:
+      - raw: 盘前发财报
+        aliasType: primary
+      - raw: Before-Open Earnings Release
+        aliasType: en_alias
+  - slug: fan-xiang-chai-gu-yin-zi
+    headword: 反向拆股因子
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 合股时几股并成一股的比例，如1比10意味着10股并1股。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 合股时几股并成一股的比例，如1比10意味着10股并1股。
+        example: 1比10反向拆股后股价变成原来10倍。
+        isPrimary: true
+    aliases:
+      - raw: 反向拆股因子
+        aliasType: primary
+      - raw: Reverse Split Ratio
+        aliasType: en_alias
+  - slug: bao-zheng-jin-jie-kuan-yu-e
+    headword: 保证金借款余额
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: FINRA每月公布的客户保证金借款余额，反映市场杠杆情绪。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: FINRA每月公布的客户保证金借款余额，反映市场杠杆情绪。
+        example: 保证金借款余额创历史新高说明杠杆情绪高涨。
+        isPrimary: true
+    aliases:
+      - raw: 保证金借款余额
+        aliasType: primary
+      - raw: Margin Debt
+        aliasType: en_alias
+  - slug: chu-bu-zhao-gu-shu
+    headword: 初步招股书
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: SEC注册声明生效前向投资者提供的、不含最终发行价和数量的招股书草稿。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: SEC注册声明生效前向投资者提供的、不含最终发行价和数量的招股书草稿。
+        example: 封面印满红色警告文字，是早期版本招股文件的特点。
+        isPrimary: true
+    aliases:
+      - raw: 初步招股书
+        aliasType: primary
+      - raw: Red Herring
+        aliasType: en_alias
+      - raw: Preliminary Prospectus
+        aliasType: en_alias
+  - slug: zui-zhong-zhao-gu-shu
+    headword: 最终招股书
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 发行价格确定后向SEC备案并向投资者交付的正式招募说明书。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 发行价格确定后向SEC备案并向投资者交付的正式招募说明书。
+        example: 最终招股书确定了发行价为38美元。
+        isPrimary: true
+    aliases:
+      - raw: 最终招股书
+        aliasType: primary
+      - raw: Final Prospectus
+        aliasType: en_alias
+      - raw: 424(b) Prospectus
+        aliasType: en_alias
+  - slug: d-i-p-rong-zi
+    headword: DIP融资
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 公司破产保护期间获得的优先于普通债权人的新融资。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 公司破产保护期间获得的优先于普通债权人的新融资。
+        example: DIP融资让破产公司能继续经营。
+        isPrimary: true
+    aliases:
+      - raw: DIP融资
+        aliasType: primary
+      - raw: Debtor-in-Possession Financing
+        aliasType: en_alias
+  - slug: zhong-gai-gu-hui-gui
+    headword: 中概股回归
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 中概股从美股退市或转赴香港等地上市的趋势。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 中概股从美股退市或转赴香港等地上市的趋势。
+        example: 越来越多在美上市的中国公司，跑到香港挂牌。
+        isPrimary: true
+    aliases:
+      - raw: 中概股回归
+        aliasType: primary
+      - raw: China Concept Return
+        aliasType: en_alias
+  - slug: rong-zi-ren-gou
+    headword: 融资认购
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 打新时向券商借钱认购新股以放大手数的方式。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 打新时向券商借钱认购新股以放大手数的方式。
+        example: 借钱打新放大中签概率，代价是利息不低。
+        isPrimary: true
+    aliases:
+      - raw: 融资认购
+        aliasType: primary
+      - raw: Margin Subscription
+        aliasType: en_alias
+  - slug: zheng-shi-zhao-gu
+    headword: 正式招股
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 通过聆讯后正式公开招股、接受认购的阶段。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 通过聆讯后正式公开招股、接受认购的阶段。
+        example: 正式招股期限通常为一周。
+        isPrimary: true
+    aliases:
+      - raw: 正式招股
+        aliasType: primary
+      - raw: Official Offering
+        aliasType: en_alias
+  - slug: zhao-gu-xiang-ying
+    headword: 招股响应
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 簿记阶段机构对新股的认购踊跃程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 簿记阶段机构对新股的认购踊跃程度。
+        example: 招股响应热烈，定价有上调空间。
+        isPrimary: true
+    aliases:
+      - raw: 招股响应
+        aliasType: primary
+      - raw: Bookbuilding Response
+        aliasType: en_alias
+  - slug: zhao-gu-tui-kuan
+    headword: 招股退款
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 未中签或多缴认购款的退还。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 未中签或多缴认购款的退还。
+        example: 未中签款项在上市后退回。
+        isPrimary: true
+    aliases:
+      - raw: 招股退款
+        aliasType: primary
+      - raw: Refund of Application Money
+        aliasType: en_alias
+  - slug: yin-hang-rong-zi-ren-gou
+    headword: 银行融资认购
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 透过银行而非券商办理的打新融资。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 透过银行而非券商办理的打新融资。
+        example: 银行融资认购息率有时更低。
+        isPrimary: true
+    aliases:
+      - raw: 银行融资认购
+        aliasType: primary
+      - raw: Bank Margin for IPO
+        aliasType: en_alias
+  - slug: zhao-gu-zhang-cheng
+    headword: 招股章程
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 正式招股时刊发的法定招股文件，取代申请版本。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 正式招股时刊发的法定招股文件，取代申请版本。
+        example: 招股章程所载资料须准确完整。
+        isPrimary: true
+    aliases:
+      - raw: 招股章程
+        aliasType: primary
+      - raw: Prospectus
+        aliasType: en_alias
+  - slug: jiao-yi-xing-jin-rong-zi-chan
+    headword: 交易性金融资产
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 为短期交易获利而持有的股票、债券等金融资产，按公允价值计量。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 为短期交易获利而持有的股票、债券等金融资产，按公允价值计量。
+        example: 交易性金融资产波动会直接影响当期利润。
+        isPrimary: true
+    aliases:
+      - raw: 交易性金融资产
+        aliasType: primary
+      - raw: Trading Financial Assets
+        aliasType: en_alias
+  - slug: ying-shou-kuan-xiang-rong-zi
+    headword: 应收款项融资
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 既以收取合同现金流为目的又用于出售的应收款，列报为金融资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 既以收取合同现金流为目的又用于出售的应收款，列报为金融资产。
+        example: 应收款项融资余额上升，公司在加速回款。
+        isPrimary: true
+    aliases:
+      - raw: 应收款项融资
+        aliasType: primary
+      - raw: Receivables Financing
+        aliasType: en_alias
+  - slug: wai-bu-rong-zi-yi-lai
+    headword: 外部融资依赖
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 经营现金流无法覆盖投资与分红、需外部筹资的程度。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 经营现金流无法覆盖投资与分红、需外部筹资的程度。
+        example: 外部融资依赖高，公司受融资环境影响大。
+        isPrimary: true
+    aliases:
+      - raw: 外部融资依赖
+        aliasType: primary
+      - raw: External Financing Dependence
+        aliasType: en_alias
+  - slug: jin-rong-zi-chan-fen-lei
+    headword: 金融资产分类
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 根据业务模式与合同现金流特征将金融资产分为三类核算。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 根据业务模式与合同现金流特征将金融资产分为三类核算。
+        example: 金融资产分类决定后续计量是摊余成本还是公允价值。
+        isPrimary: true
+    aliases:
+      - raw: 金融资产分类
+        aliasType: primary
+      - raw: Financial Asset Classification
+        aliasType: en_alias
+  - slug: rong-zi-zu-lin
+    headword: 融资租赁
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 实质转移了与资产所有权有关几乎全部风险报酬的租赁。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 实质转移了与资产所有权有关几乎全部风险报酬的租赁。
+        example: 融资租赁下，承租人视同购入资产核算。
+        isPrimary: true
+    aliases:
+      - raw: 融资租赁
+        aliasType: primary
+      - raw: Finance Lease
+        aliasType: en_alias
+  - slug: duan-qi-rong-zi-quan
+    headword: 短期融资券
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 在银行间市场发行、期限不超过一年的短期债务工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 在银行间市场发行、期限不超过一年的短期债务工具。
+        example: 企业在银行间市场发行一年内到期的债务工具，多是为了解决暂时的资金需求。
+        isPrimary: true
+    aliases:
+      - raw: 短期融资券
+        aliasType: primary
+      - raw: Commercial Paper
+        aliasType: en_alias
+      - raw: CP
+        aliasType: en_alias
+  - slug: chao-duan-qi-rong-zi-quan
+    headword: 超短期融资券
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 期限在270天以内的超短期银行间债务工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 期限在270天以内的超短期银行间债务工具。
+        example: 超短期融资券成本低、滚动发行。
+        isPrimary: true
+    aliases:
+      - raw: 超短期融资券
+        aliasType: primary
+      - raw: Super-short CP
+        aliasType: en_alias
+      - raw: SCP
+        aliasType: en_alias
+  - slug: bei-dui-quan-zheng
+    headword: 备兑权证
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 由标的发行人或第三方发行、可兑换股份的权证。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 由标的发行人或第三方发行、可兑换股份的权证。
+        example: 备兑权证不稀释正股。
+        isPrimary: true
+    aliases:
+      - raw: 备兑权证
+        aliasType: primary
+      - raw: Covered Warrant
+        aliasType: en_alias
+  - slug: mao-yi-rong-zi
+    headword: 贸易融资
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 围绕国际贸易的短期融资与结算工具。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 围绕国际贸易的短期融资与结算工具。
+        example: 贸易融资加快企业资金周转。
+        isPrimary: true
+    aliases:
+      - raw: 贸易融资
+        aliasType: primary
+      - raw: Trade Finance
+        aliasType: en_alias
+  - slug: xiang-mu-rong-zi
+    headword: 项目融资
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 以项目自身现金流还款的长期融资。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以项目自身现金流还款的长期融资。
+        example: 项目融资多用于基建与能源。
+        isPrimary: true
+    aliases:
+      - raw: 项目融资
+        aliasType: primary
+      - raw: Project Finance
+        aliasType: en_alias
+  - slug: bao-li-rong-zi
+    headword: 保理融资
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 以应收账款转让获得的融资。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以应收账款转让获得的融资。
+        example: 保理融资帮助中小企业回款。
+        isPrimary: true
+    aliases:
+      - raw: 保理融资
+        aliasType: primary
+      - raw: Factoring Financing
+        aliasType: en_alias
+  - slug: rong-zi-zu-lin-a-b-s
+    headword: 融资租赁ABS
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 以租赁合同应收款为基础的ABS。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以租赁合同应收款为基础的ABS。
+        example: 融资租赁ABS盘活租赁资产。
+        isPrimary: true
+    aliases:
+      - raw: 融资租赁ABS
+        aliasType: primary
+      - raw: Lease ABS
+        aliasType: en_alias
+  - slug: zhong-gai-hu-lian-wang-e-t-f
+    headword: 中概互联网ETF
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 跟踪中国互联网龙头的跨境ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪中国互联网龙头的跨境ETF。
+        example: 中概互联网ETF波动大。
+        isPrimary: true
+    aliases:
+      - raw: 中概互联网ETF
+        aliasType: primary
+      - raw: China Internet ETF
+        aliasType: en_alias
+  - slug: kan-die-qi-quan
+    headword: 看跌期权
+    categoryL1: 美股
+    categoryL2: 术语
+    difficulty: L2
+    summaryPlain: 赋予买方按约定价卖出标的权利的期权。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 赋予买方按约定价卖出标的权利的期权。
+        example: 买入看跌期权对冲下跌。
+        isPrimary: true
+    aliases:
+      - raw: 看跌期权
+        aliasType: primary
+      - raw: Put Option
+        aliasType: en_alias

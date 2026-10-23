@@ -1,0 +1,402 @@
+source: gen from full.tsv keyword=上证指数|深证成指|科创50|创业板指|沪深300|中证500|中证1000|北证50|恒生指数|国企指数|行业指数|主题指数|概念板块|宽基|风格指数|大盘股|中盘股|小盘股|微盘股|茅指数|宁组合|龙头 (待精修)
+terms:
+  - slug: chuang-ye-ban-zhi-shu
+    headword: 创业板指数
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 衡量创业板整体表现的核心指数，权重集中于新能源与医药等成长行业。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 衡量创业板整体表现的核心指数，权重集中于新能源与医药等成长行业。
+        example: 今天成长风格占优，创业板整体表现强于沪深主板。
+        isPrimary: true
+    aliases:
+      - raw: 创业板指数
+        aliasType: primary
+      - raw: 创业板指
+        aliasType: cn_alias
+      - raw: 创业板价格指数
+        aliasType: cn_alias
+      - raw: ChiNext Index
+        aliasType: en_alias
+  - slug: chao-da-pan-gu
+    headword: 超大盘股
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 市值通常超过2000亿美元的最大型上市公司。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 市值通常超过2000亿美元的最大型上市公司。
+        example: 市值超万亿的科技巨头，是指数涨跌的主要引擎。
+        isPrimary: true
+    aliases:
+      - raw: 超大盘股
+        aliasType: primary
+      - raw: Mega-Cap
+        aliasType: en_alias
+  - slug: da-pan-gu
+    headword: 大盘股
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 总市值处于市场较高水平的成熟公司，通常流动性较好、股价波动相对小。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 总市值处于市场较高水平的成熟公司，通常流动性较好、股价波动相对小。
+        example: 大市值公司业务成熟，股价波动通常比小公司小。
+        isPrimary: true
+    aliases:
+      - raw: 大盘股
+        aliasType: primary
+      - raw: Large-Cap
+        aliasType: en_alias
+  - slug: zhong-pan-gu
+    headword: 中盘股
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 市值通常在20亿至100亿美元之间、成长与稳定性兼顾的公司。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市值通常在20亿至100亿美元之间、成长与稳定性兼顾的公司。
+        example: 中盘股长期表现常跑赢大盘。
+        isPrimary: true
+    aliases:
+      - raw: 中盘股
+        aliasType: primary
+      - raw: Mid-Cap
+        aliasType: en_alias
+  - slug: xiao-pan-gu
+    headword: 小盘股
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 市值通常在3亿至20亿美元之间、弹性大但风险高的公司。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 市值通常在3亿至20亿美元之间、弹性大但风险高的公司。
+        example: 小盘公司弹性大，行情来了涨得更快。
+        isPrimary: true
+    aliases:
+      - raw: 小盘股
+        aliasType: primary
+      - raw: Small-Cap
+        aliasType: en_alias
+  - slug: wei-pan-gu
+    headword: 微盘股
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 市值通常低于3亿美元、流动性差、投机性强的微型公司。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 市值通常低于3亿美元、流动性差、投机性强的微型公司。
+        example: 微盘股ETF波动巨大。
+        isPrimary: true
+    aliases:
+      - raw: 微盘股
+        aliasType: primary
+      - raw: Micro-Cap
+        aliasType: en_alias
+  - slug: heng-sheng-zhi-shu-qi-huo
+    headword: 恒生指数期货
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 以恒生指数为标的的期货合约，每点金额固定。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 以恒生指数为标的的期货合约，每点金额固定。
+        example: 外围市场波动常先在夜盘的恒指期货里显现。
+        isPrimary: true
+    aliases:
+      - raw: 恒生指数期货
+        aliasType: primary
+      - raw: HSI Futures
+        aliasType: en_alias
+  - slug: xiao-xing-guo-qi-zhi-shu-qi-huo
+    headword: 小型国企指数期货
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 合约乘数较小的国企指数期货，单张金额较低。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 合约乘数较小的国企指数期货，单张金额较低。
+        example: 小型国企指数期货适合小资金对冲。
+        isPrimary: true
+    aliases:
+      - raw: 小型国企指数期货
+        aliasType: primary
+      - raw: Mini HSCEI Futures
+        aliasType: en_alias
+  - slug: heng-sheng-zhi-shu-gong-si
+    headword: 恒生指数公司
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 编制恒生系列指数的指数服务公司。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 编制恒生系列指数的指数服务公司。
+        example: 恒生指数公司每季度检讨成分。
+        isPrimary: true
+    aliases:
+      - raw: 恒生指数公司
+        aliasType: primary
+      - raw: Hang Seng Indexes
+        aliasType: en_alias
+  - slug: heng-sheng-zhi-shu-qi-quan
+    headword: 恒生指数期权
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 以恒生指数为标的的期权合约。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 以恒生指数为标的的期权合约。
+        example: 恒生指数期权吸引机构对冲。
+        isPrimary: true
+    aliases:
+      - raw: 恒生指数期权
+        aliasType: primary
+      - raw: HSI Options
+        aliasType: en_alias
+  - slug: ke-chuang-5-0-e-t-f
+    headword: 科创50ETF
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 跟踪科创板50指数的交易型开放式基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪科创板50指数的交易型开放式基金。
+        example: 科创50ETF聚焦硬科技龙头。
+        isPrimary: true
+    aliases:
+      - raw: 科创50ETF
+        aliasType: primary
+      - raw: STAR 50 ETF
+        aliasType: en_alias
+  - slug: hu-shen-3-0-0-e-t-f
+    headword: 沪深300ETF
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 跟踪沪深300指数的宽基ETF，是机构核心配置。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪沪深300指数的宽基ETF，是机构核心配置。
+        example: 沪深300ETF规模最大、流动性好。
+        isPrimary: true
+    aliases:
+      - raw: 沪深300ETF
+        aliasType: primary
+      - raw: CSI 300 ETF
+        aliasType: en_alias
+  - slug: zhong-zheng-5-0-0-e-t-f
+    headword: 中证500ETF
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 跟踪中证500中盘指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪中证500中盘指数的ETF。
+        example: 中证500ETF代表中盘风格。
+        isPrimary: true
+    aliases:
+      - raw: 中证500ETF
+        aliasType: primary
+      - raw: CSI 500 ETF
+        aliasType: en_alias
+  - slug: zhong-zheng-1-0-0-0-e-t-f
+    headword: 中证1000ETF
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 跟踪中证1000小盘指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪中证1000小盘指数的ETF。
+        example: 中证1000ETF弹性较大。
+        isPrimary: true
+    aliases:
+      - raw: 中证1000ETF
+        aliasType: primary
+      - raw: CSI 1000 ETF
+        aliasType: en_alias
+  - slug: hang-ye-zhi-shu-ji-jin
+    headword: 行业指数基金
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 跟踪单一行业指数的基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: low
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪单一行业指数的基金。
+        example: 行业指数基金用于布局赛道。
+        isPrimary: true
+    aliases:
+      - raw: 行业指数基金
+        aliasType: primary
+      - raw: Sector Index Fund
+        aliasType: en_alias
+  - slug: zhu-ti-zhi-shu-ji-jin
+    headword: 主题指数基金
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 围绕新能源、医药等主题编制的指数基金。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 围绕新能源、医药等主题编制的指数基金。
+        example: 主题指数基金波动大。
+        isPrimary: true
+    aliases:
+      - raw: 主题指数基金
+        aliasType: primary
+      - raw: Theme Index Fund
+        aliasType: en_alias
+  - slug: bei-zheng-5-0-e-t-f
+    headword: 北证50ETF
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 跟踪北证50指数的ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 跟踪北证50指数的ETF。
+        example: 北证50ETF服务专精特新。
+        isPrimary: true
+    aliases:
+      - raw: 北证50ETF
+        aliasType: primary
+      - raw: BSE 50 ETF
+        aliasType: en_alias
+  - slug: xiao-fei-long-tou-e-t-f
+    headword: 消费龙头ETF
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 聚焦消费龙头公司的行业ETF。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 聚焦消费龙头公司的行业ETF。
+        example: 消费龙头ETF集中度高。
+        isPrimary: true
+    aliases:
+      - raw: 消费龙头ETF
+        aliasType: primary
+      - raw: Consumer Leaders ETF
+        aliasType: en_alias
+  - slug: chuang-ye-ban-zhi
+    headword: 创业板指
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 深交所创业板100只样本股组成的指数，代表成长创新型企业。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: high
+    senses:
+      - senseKey: default
+        plainExplain: 深交所创业板100只样本股组成的指数，代表成长创新型企业。
+        example: 创业板大涨那天，新能源与医药权重股贡献最多。
+        isPrimary: true
+    aliases:
+      - raw: 创业板指
+        aliasType: primary
+      - raw: ChiNext Index
+        aliasType: en_alias
+  - slug: zhong-zheng-1-0-0-0
+    headword: 中证1000
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 选取1000只小盘股组成的指数，代表小盘风格。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 选取1000只小盘股组成的指数，代表小盘风格。
+        example: 中证1000股指期货与期权已上市。
+        isPrimary: true
+    aliases:
+      - raw: 中证1000
+        aliasType: primary
+      - raw: CSI 1000
+        aliasType: en_alias
+  - slug: mao-zhi-shu
+    headword: 茅指数
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 以茅台为代表的核心资产指数化组合，泛指各行业龙头白马。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以茅台为代表的核心资产指数化组合，泛指各行业龙头白马。
+        example: 茅指数走弱，核心资产估值回归。
+        isPrimary: true
+    aliases:
+      - raw: 茅指数
+        aliasType: primary
+      - raw: Maotai Index
+        aliasType: en_alias
+  - slug: ning-zu-he
+    headword: 宁组合
+    categoryL1: 指数板块
+    categoryL2: 综合指数
+    difficulty: L2
+    summaryPlain: 以宁德时代为代表的成长龙头组合，泛指新能源产业链核心资产。
+    riskNote: 术语解释仅供学习了解，不构成投资建议。
+    frequency: mid
+    senses:
+      - senseKey: default
+        plainExplain: 以宁德时代为代表的成长龙头组合，泛指新能源产业链核心资产。
+        example: 宁组合与茅指数风格切换。
+        isPrimary: true
+    aliases:
+      - raw: 宁组合
+        aliasType: primary
+      - raw: Ning Portfolio
+        aliasType: en_alias

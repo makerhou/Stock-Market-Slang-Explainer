@@ -1,0 +1,1454 @@
+# 自动生成的批量词条源（可由 ingest 重新编译为 lexicon.json）
+category: 量化与风险
+source: bootstrap from lexicon.json (2026-10-22)
+terms:
+  - slug: 60-40
+    headword: 60/40组合
+    categoryL1: 量化与风险
+    categoryL2: 策略
+    difficulty: L2
+    summaryPlain: 60% 股票 + 40% 债券的经典配置：机构几百年的默认答案。
+    riskNote: 2022 年股债双杀让它失灵过，但仍是新手的默认起点。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 60% 股票 + 40% 债券的经典配置：机构几百年的默认答案。
+        example: 比如新手无脑配 60/40，比追涨杀跌稳当得多。
+        notMeaning: 2022 年股债双杀让它失灵过，但仍是新手的默认起点。
+        isPrimary: true
+        contextKeywords:
+          - 策略
+        frequency: mid
+    aliases:
+      - raw: 60/40组合
+        aliasType: primary
+      - raw: 60/40
+        aliasType: cn_alias
+      - raw: 股债配置
+        aliasType: cn_alias
+    viz:
+      type: PoolDilution
+      config:
+        title: 60/40：最经典的配方
+    insights:
+      affects:
+        - 资产配置：散户最容易抄的作业
+        - 再平衡：纪律的来源
+      good:
+        - 省心：躺着跑赢多数人
+      bad:
+        - 滞胀期：股债双杀
+      policy:
+        - 股债相关性决定成败
+      example: 奶茶配方：6 份茶 4 份奶，百年经典。换口味（激进配置）容易翻车。
+  - slug: alpha
+    headword: Alpha
+    categoryL1: 量化与风险
+    categoryL2: 收益
+    difficulty: L2
+    summaryPlain: 扣掉大盘涨跌之后，靠真本事多赚的那部分收益：衡量主动能力的含金量。
+    riskNote: 历史 Alpha 不等于未来；策略拥挤后 Alpha 会衰减成负。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 扣掉大盘涨跌之后，靠真本事多赚的那部分收益：衡量主动能力的含金量。
+        example: 比如大盘涨 10%，你的组合涨 18%，多出来的 8% 里扣除市场因素后才是你的真本事。
+        notMeaning: 历史 Alpha 不等于未来；策略拥挤后 Alpha 会衰减成负。
+        isPrimary: true
+        contextKeywords:
+          - 收益
+        frequency: high
+    aliases:
+      - raw: Alpha
+        aliasType: primary
+      - raw: 超额收益
+        aliasType: cn_alias
+      - raw: 阿尔法
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: Alpha：跑赢大盘的真本事
+    insights:
+      affects:
+        - 业绩归因：分清是运气（Beta）还是本事（Alpha）
+        - 基金经理考核的核心指标
+        - 策略拥挤度：太多人赚同类 Alpha 就没了
+      good:
+        - 长期正 Alpha：策略有效
+        - Alpha/Beta 拆分让收益来源透明
+      bad:
+        - 负 Alpha：跑输大盘还付管理费
+        - Alpha 衰减：策略失效的常态
+      policy:
+        - 市场有效性提升压缩 Alpha 空间
+        - 监管对异常交易的约束
+      example: 考试全班平均 70 分（Beta），你考 90：多出来的 20 分就是你的 Alpha。但下次全班都刷了同一本秘籍，90 分就成了平均线。
+  - slug: an-quan-dian
+    headword: 安全垫
+    categoryL1: 量化与风险
+    categoryL2: 风险缓冲
+    difficulty: L2
+    summaryPlain: 资产价格低于价值的那部分空间：跌下来有垫子接着，摔不疼。
+    riskNote: 安全垫是估算出来的，市场可以不讲理很久。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 资产价格低于价值的那部分空间：跌下来有垫子接着，摔不疼。
+        example: 比如 8 毛买 1 块钱的东西，2 毛就是缓冲。
+        notMeaning: 安全垫是估算出来的，市场可以不讲理很久。
+        isPrimary: true
+        contextKeywords:
+          - 风险缓冲
+        frequency: mid
+    aliases:
+      - raw: 安全垫
+        aliasType: primary
+      - raw: 安全边际
+        aliasType: cn_alias
+      - raw: margin of safety
+        aliasType: en_alias
+    viz:
+      type: PEScale
+      config:
+        ratioName: 价格 vs 价值
+        denomLabel: 内在价值
+        denomMax: 10
+        cheap: 8
+        fair: 12
+    insights:
+      affects:
+        - 风控思维：价值投资的核心操作
+        - 仓位依据：垫子厚才敢重
+      good:
+        - 厚安全垫：拿得住
+      bad:
+        - 薄安全垫：一点波动就慌
+      policy:
+        - 无政策含义
+      example: 跳水的气泡垫：垫子厚（安全垫）敢往深水跳，垫子薄只能玩儿童池。
+  - slug: beta
+    headword: Beta
+    categoryL1: 量化与风险
+    categoryL2: 风险
+    difficulty: L2
+    summaryPlain: 你的组合相对大盘的波动倍数：Beta 2 的意思是大盘跌 10%，它可能跌 20%。
+    riskNote: 牛市 Beta 是蜜糖，熊市 Beta 是砒霜；Beta 不是坏指标，是你要的风险敞口。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 你的组合相对大盘的波动倍数：Beta 2 的意思是大盘跌 10%，它可能跌 20%。
+        example: 比如某板块的贝塔系数是 1.5，牛市里涨得快是它，熊市里跌得惨也是它。
+        notMeaning: 牛市 Beta 是蜜糖，熊市 Beta 是砒霜；Beta 不是坏指标，是你要的风险敞口。
+        isPrimary: true
+        contextKeywords:
+          - 风险
+        frequency: high
+    aliases:
+      - raw: Beta
+        aliasType: primary
+      - raw: 贝塔
+        aliasType: cn_alias
+      - raw: 系统性风险
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config: {}
+    insights:
+      affects:
+        - 仓位管理：高 Beta 组合要更小仓位
+        - 资产配置：牛熊切换时调整 Beta
+        - 衍生品：对冲时要算准 Beta
+      good:
+        - 牛市提高 Beta：放大收益
+        - 低 Beta 高股息：熊市防御
+      bad:
+        - 无意识的高 Beta：涨跌都坐过山车
+        - 加杠杆叠加高 Beta：爆仓配方
+      policy:
+        - 流动性周期改变 Beta 系数
+        - 市场结构变化让历史 Beta 失真
+      example: 音响音量旋钮：牛市开 10 倍爽翻天，熊市音响破音震耳欲聋。Beta 就是这个旋钮。
+  - slug: bie-zui-qu-xian
+    headword: 瘪嘴曲线
+    categoryL1: 量化与风险
+    categoryL2: 定投概念
+    difficulty: L3
+    summaryPlain: 定投的噩梦路径：先涨后跌，越买越贵，最后净值回落全程亏损。
+    riskNote: 躲开瘪嘴曲线的方法：高位减速或止盈，别机械扣款。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 定投的噩梦路径：先涨后跌，越买越贵，最后净值回落全程亏损。
+        example: 比如牛市中段开始定投，转熊后全线套牢。
+        notMeaning: 躲开瘪嘴曲线的方法：高位减速或止盈，别机械扣款。
+        isPrimary: true
+        contextKeywords:
+          - 定投概念
+        frequency: mid
+    aliases:
+      - raw: 瘪嘴曲线
+        aliasType: primary
+      - raw: 哭脸曲线
+        aliasType: cn_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: trap
+        shares: 1000
+    insights:
+      affects:
+        - 择时补充：定投也要看估值
+        - 心态管理：瘪嘴时最考验纪律
+      good:
+        - 及时止盈：笑不出来的止损
+      bad:
+        - 死磕到底：瘪到底
+      policy:
+        - 无政策含义
+      example: 倒 U 型过山车：上去多爽，下来多惨。定投在顶点出发，就是坐上瘪嘴。
+  - slug: bo-dong-lv
+    headword: 波动率
+    categoryL1: 量化与风险
+    categoryL2: 风险
+    difficulty: L2
+    summaryPlain: 收益率的标准差：价格晃得多厉害的度量。
+    riskNote: 波动率可以被交易（做多/做空波动），它本身也是资产。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 收益率的标准差：价格晃得多厉害的度量。
+        example: 比如财报前隐含波动飙升，赌方向不如赌波动。
+        notMeaning: 波动率可以被交易（做多/做空波动），它本身也是资产。
+        isPrimary: true
+        contextKeywords:
+          - 风险
+        frequency: mid
+    aliases:
+      - raw: 波动率
+        aliasType: primary
+      - raw: Volatility
+        aliasType: en_alias
+      - raw: σ
+        aliasType: cn_alias
+    viz:
+      type: Oscillator
+      config:
+        needles:
+          - name: 波动率
+        initial:
+          - 60
+        max: 100
+        zones:
+          - min: 0
+            max: 30
+            label: 低波动：无聊
+            color: var(--ok)
+          - min: 30
+            max: 70
+            label: 正常波动
+            color: var(--color-muted)
+          - min: 70
+            max: 100
+            label: 高波动：危险
+            color: var(--down)
+    insights:
+      affects:
+        - 仓位：波动大就少押
+        - 期权：IV 的锚
+      good:
+        - 低波动：适合趋势策略
+      bad:
+        - 高波动：止损难设
+      policy:
+        - 事件与流动性驱动
+      example: 船身摇晃度：波动率就是浪高。浪大要少装货（减仓），浪平才能全速。
+  - slug: cta
+    headword: CTA
+    categoryL1: 量化与风险
+    categoryL2: 策略
+    difficulty: L3
+    summaryPlain: 管理期货策略：趋势跟踪为主，股债商品都做。
+    riskNote: 震荡市里反复止损，是「危机 Alpha」也是「震荡韭菜」。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 管理期货策略：趋势跟踪为主，股债商品都做。
+        example: 比如 2022 年趋势市它大赚，2023 年震荡市原样吐回。
+        notMeaning: 震荡市里反复止损，是「危机 Alpha」也是「震荡韭菜」。
+        isPrimary: true
+        contextKeywords:
+          - 策略
+        frequency: mid
+    aliases:
+      - raw: CTA
+        aliasType: primary
+      - raw: 管理期货
+        aliasType: cn_alias
+      - raw: 趋势跟踪
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 趋势市
+            point: 130
+            base: 100
+            note: CTA 的主场
+          - name: 震荡市
+            point: 85
+            base: 100
+            note: 反复被扫损
+    insights:
+      affects:
+        - 危机 Alpha：股跌它涨的分散器
+        - 配置价值：组合的稳定器
+      good:
+        - 大趋势：吃满全程
+      bad:
+        - 假突破：左右打脸
+      policy:
+        - 杠杆与保证金规则
+      example: 冲浪手：浪大（趋势）时最爽，无风（震荡）时只能在板上晒着。
+  - slug: dcf
+    headword: DCF
+    categoryL1: 量化与风险
+    categoryL2: 估值方法
+    difficulty: L3
+    summaryPlain: 现金流折现估值：把公司未来每年能赚的钱折成今天值多少。
+    riskNote: 结果对假设极度敏感：增长率差 1%，估值能差 30%。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 现金流折现估值：把公司未来每年能赚的钱折成今天值多少。
+        example: 比如折现算出内在价值 50 元，市价 30 元，就是价值投资者的买入区。
+        notMeaning: 结果对假设极度敏感：增长率差 1%，估值能差 30%。
+        isPrimary: true
+        contextKeywords:
+          - 估值方法
+        frequency: mid
+    aliases:
+      - raw: DCF
+        aliasType: primary
+      - raw: 现金流折现
+        aliasType: cn_alias
+      - raw: 绝对估值
+        aliasType: cn_alias
+    viz:
+      type: PEScale
+      config:
+        ratioName: DCF 估值
+        denomLabel: 未来现金流折现
+        denomMax: 20
+        cheap: 8
+        fair: 15
+    insights:
+      affects:
+        - 基本面锚：价值投资的圣经方法
+        - 一级市场：PE/VC 定价基础
+      good:
+        - 现金流可预测的公司：估值可靠
+        - 假设保守：安全边际
+      bad:
+        - 拍脑袋参数：精确的错误
+        - 永续增长假设：漏洞之源
+      policy:
+        - 利率变化改变折现率
+      example: 会下金蛋的鹅值多少：把未来每天下的蛋折成今天的钱加起来。鹅能活多久、下多少蛋，全靠猜。
+  - slug: ding-tou
+    headword: 定投
+    categoryL1: 量化与风险
+    categoryL2: 投资方式
+    difficulty: L1
+    summaryPlain: 定期定额买入：无视涨跌，靠时间摊平成本。
+    riskNote: 定投不能免疫亏损，单边下跌的市场里只是亏得慢一点。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 定期定额买入：无视涨跌，靠时间摊平成本。
+        example: 比如每月发工资投 2000 指数基金，牛市来了收益自然来。
+        notMeaning: 定投不能免疫亏损，单边下跌的市场里只是亏得慢一点。
+        isPrimary: true
+        contextKeywords:
+          - 投资方式
+        frequency: mid
+    aliases:
+      - raw: 定投
+        aliasType: primary
+      - raw: DCA
+        aliasType: en_alias
+      - raw: 定期定额
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 定投成本
+            point: 100
+            base: 100
+            note: 摊平后的均价
+          - name: 一次性买在高点
+            point: 130
+            base: 100
+            note: 站岗成本
+    insights:
+      affects:
+        - 情绪解药：治追涨杀跌的良方
+        - 现金流：适合工薪的强制储蓄
+      good:
+        - 纪律性：克服择时焦虑
+      bad:
+        - 下跌市：钝刀子割肉
+      policy:
+        - 无政策门槛，人人可做
+      example: 每天存 10 块钱进储蓄罐：不猜金价，年底一看也攒下一小笔。定投就是给股票用的储蓄罐。
+  - slug: dong-liang-yin-zi
+    headword: 动量因子
+    categoryL1: 量化与风险
+    categoryL2: 因子
+    difficulty: L3
+    summaryPlain: 过去涨得好的未来倾向于继续涨：追涨杀跌的学术名字。
+    riskNote: 动量崩溃时（风格切换）亏得最快，2021 年初价值反转就是例子。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 过去涨得好的未来倾向于继续涨：追涨杀跌的学术名字。
+        example: 比如动量策略买入过去一年最强的股票，跑着跑着崩了。
+        notMeaning: 动量崩溃时（风格切换）亏得最快，2021 年初价值反转就是例子。
+        isPrimary: true
+        contextKeywords:
+          - 因子
+        frequency: mid
+    aliases:
+      - raw: 动量因子
+        aliasType: primary
+      - raw: Momentum
+        aliasType: en_alias
+      - raw: 趋势因子
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 12
+    insights:
+      affects:
+        - 趋势跟随：行为金融的解释
+        - 风格轮动：动量与价值的跷跷板
+      good:
+        - 趋势市：动量最香
+      bad:
+        - 反转日：动量粉碎机
+      policy:
+        - 流动性与情绪周期
+      example: 滚雪球：坡越长滚越快（动量），但坡尽头是悬崖——动量策略死在拐点。
+  - slug: feng-xian-ping-jia
+    headword: 风险平价
+    categoryL1: 量化与风险
+    categoryL2: 策略
+    difficulty: L3
+    summaryPlain: 按风险而非金额分配仓位：让每类资产贡献相同的波动。
+    riskNote: 实现要借杠杆，利率环境一变组合就变形。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 按风险而非金额分配仓位：让每类资产贡献相同的波动。
+        example: 比如桥水的全天候：股债商品按风险配比，不赌方向。
+        notMeaning: 实现要借杠杆，利率环境一变组合就变形。
+        isPrimary: true
+        contextKeywords:
+          - 策略
+        frequency: mid
+    aliases:
+      - raw: 风险平价
+        aliasType: primary
+      - raw: Risk Parity
+        aliasType: en_alias
+      - raw: 全天候
+        aliasType: cn_alias
+    viz:
+      type: PoolDilution
+      config:
+        title: 按风险分账，不按金额
+    insights:
+      affects:
+        - 组合构建：风险预算的思维
+        - 杠杆依赖：低利率时代的宠儿
+      good:
+        - 各类资产风险均衡：回撤小
+      bad:
+        - 加息周期：杠杆成本反噬
+      policy:
+        - 利率与波动环境影响表现
+      example: 菜篮子按「怕摔程度」分配保护：鸡蛋多包几层，土豆随便放——风险平价就是给组合上保险。
+  - slug: greeks
+    headword: 希腊字母
+    categoryL1: 量化与风险
+    categoryL2: 期权风险
+    difficulty: L3
+    summaryPlain: Delta、Gamma、Theta、Vega、Rho 五个字母，量化期权价格对各因素的敏感度。
+    riskNote: 做期权不懂 Greeks 等于闭眼过马路，卖方尤其要盯 Gamma。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: Delta、Gamma、Theta、Vega、Rho 五个字母，量化期权价格对各因素的敏感度。
+        example: 比如 Theta 每天吃掉期权时间价值，横盘不动也亏。
+        notMeaning: 做期权不懂 Greeks 等于闭眼过马路，卖方尤其要盯 Gamma。
+        isPrimary: true
+        contextKeywords:
+          - 期权风险
+        frequency: mid
+    aliases:
+      - raw: 希腊字母
+        aliasType: primary
+      - raw: Greeks
+        aliasType: en_alias
+      - raw: Delta
+        aliasType: en_alias
+      - raw: Gamma
+        aliasType: en_alias
+      - raw: Theta
+        aliasType: en_alias
+    viz:
+      type: OptionsLadder
+      config:
+        premium: 2
+    insights:
+      affects:
+        - 风险度量：期权定价的语言
+        - 对冲：做市商靠它动态平衡
+      good:
+        - 理解 Greeks：专业入门标志
+      bad:
+        - 无视 Theta：时间价值蒸发
+        - Gamma 风险：末日轮归零
+      policy:
+        - 交易所与券商的风险披露
+      example: 汽车仪表盘：油温（Delta）、水温（Gamma）、油耗（Theta）、胎压（Vega）——五个字母五个仪表，缺一个都危险。
+  - slug: guo-shi-he
+    headword: 过拟合
+    categoryL1: 量化与风险
+    categoryL2: 策略陷阱
+    difficulty: L2
+    summaryPlain: 策略只对历史数据有效、对未来失效：回测的头号杀手。
+    riskNote: 参数越多、样本越少，过拟合越严重。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 策略只对历史数据有效、对未来失效：回测的头号杀手。
+        example: 比如 20 个参数调出来的完美曲线，实盘第一周就崩。
+        notMeaning: 参数越多、样本越少，过拟合越严重。
+        isPrimary: true
+        contextKeywords:
+          - 策略陷阱
+        frequency: mid
+    aliases:
+      - raw: 过拟合
+        aliasType: primary
+      - raw: Overfitting
+        aliasType: en_alias
+      - raw: 过度优化
+        aliasType: cn_alias
+    viz:
+      type: RiskLadder
+      config:
+        title: 过拟合：为历史量身定做
+    insights:
+      affects:
+        - 量化陷阱：散户和机构都中招
+        - 模型选择：简约才是美
+      good:
+        - 识别过拟合：参数砍一半还赚钱=真信号
+      bad:
+        - 复杂模型：精确地错
+      policy:
+        - 交叉验证与样本外检验规范
+      example: 为去年真题量身定做的答题模板：换老师出题就废。学习要学方法，不是背答案。
+  - slug: hft
+    headword: HFT
+    categoryL1: 量化与风险
+    categoryL2: 交易方式
+    difficulty: L2
+    summaryPlain: 高频交易：靠速度和算法赚微利，拼的是机房和光纤。
+    riskNote: 它是机构的军备竞赛，散户连门票都买不起。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 高频交易：靠速度和算法赚微利，拼的是机房和光纤。
+        example: 比如高频做市商一天交易几万次，每次赚零点几个点。
+        notMeaning: 它是机构的军备竞赛，散户连门票都买不起。
+        isPrimary: true
+        contextKeywords:
+          - 交易方式
+        frequency: mid
+    aliases:
+      - raw: HFT
+        aliasType: primary
+      - raw: 高频交易
+        aliasType: cn_alias
+      - raw: 量化交易
+        aliasType: cn_alias
+    viz:
+      type: MarketMood
+      config:
+        title: HFT：纳秒级的战争
+    insights:
+      affects:
+        - 市场流动性：做市的主力
+        - 公平争议：速度是否等于特权
+      good:
+        - 价差收窄：散户成本降
+      bad:
+        - 闪崩：算法踩踏的元凶
+      policy:
+        - 程序化交易报告与监管
+      example: 火车站黄牛里的战斗机：别人排队，他有关系（速度），一张票赚 1 块但一天搬一万张。
+  - slug: hua-dian
+    headword: 滑点
+    categoryL1: 量化与风险
+    categoryL2: 交易成本
+    difficulty: L2
+    summaryPlain: 实际成交价和你想要价格的差：交易里的隐形过路费。
+    riskNote: 滑点在急跌急涨和冷门股上最狠，限价单能防但不能保证成交。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 实际成交价和你想要价格的差：交易里的隐形过路费。
+        example: 比如市价单买小盘股，挂 10 块成交在 10.3，价差 3 个点。
+        notMeaning: 滑点在急跌急涨和冷门股上最狠，限价单能防但不能保证成交。
+        isPrimary: true
+        contextKeywords:
+          - 交易成本
+        frequency: mid
+    aliases:
+      - raw: 滑点
+        aliasType: primary
+      - raw: Slippage
+        aliasType: en_alias
+      - raw: 冲击成本
+        aliasType: cn_alias
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: free
+        basePrice: 10
+    insights:
+      affects:
+        - 交易成本：策略收益的隐形杀手
+        - 大单冲击：机构算法的用武之地
+      good:
+        - 限价单+流动性好：滑点趋近 0
+      bad:
+        - 市价单+冷门股：被滑点收割
+      policy:
+        - 市场流动性与订单类型规则
+      example: 打车软件预估 30 块，暴雨天加价到 50：预估和成交的差就是滑点。
+  - slug: hui-ce
+    headword: 回测
+    categoryL1: 量化与风险
+    categoryL2: 策略验证
+    difficulty: L2
+    summaryPlain: 用历史数据检验策略：过去的成绩单，未来的准考证。
+    riskNote: 回测好≠未来好，过拟合的回测是精心编制的谎言。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 用历史数据检验策略：过去的成绩单，未来的准考证。
+        example: 比如策略历史年化 50%，实盘三个月就现原形。
+        notMeaning: 回测好≠未来好，过拟合的回测是精心编制的谎言。
+        isPrimary: true
+        contextKeywords:
+          - 策略验证
+        frequency: mid
+    aliases:
+      - raw: 回测
+        aliasType: primary
+      - raw: Backtest
+        aliasType: en_alias
+      - raw: 历史回测
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 回测收益
+            point: 150
+            base: 100
+            note: 过去的分数
+          - name: 实盘收益
+            point: 90
+            base: 100
+            note: 现在的真相
+    insights:
+      affects:
+        - 策略研发：必经之路
+        - 过度优化：回测的最大陷阱
+      good:
+        - 样本外也稳：策略可信度提升
+      bad:
+        - 样本内完美：过拟合警报
+      policy:
+        - PIT 数据与幸存者偏差的处理
+      example: 考前刷往年真题：刷出满分可能是记住了答案（过拟合），换套新卷子就懵。
+  - slug: kai-li-gong-shi
+    headword: 凯利公式
+    categoryL1: 量化与风险
+    categoryL2: 仓位
+    difficulty: L3
+    summaryPlain: 根据胜率和赔率算最优下注比例的公式：数学上的财富加速器。
+    riskNote: 它假设赔率已知，现实里谁也说不准，实际常用半凯利。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 根据胜率和赔率算最优下注比例的公式：数学上的财富加速器。
+        example: 比如凯利算出该押 40%，老手只押 20%——留一半给误判。
+        notMeaning: 它假设赔率已知，现实里谁也说不准，实际常用半凯利。
+        isPrimary: true
+        contextKeywords:
+          - 仓位
+        frequency: mid
+    aliases:
+      - raw: 凯利公式
+        aliasType: primary
+      - raw: Kelly
+        aliasType: en_alias
+      - raw: 最优仓位
+        aliasType: cn_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        mode: cut
+        shares: 100
+    insights:
+      affects:
+        - 仓位管理：理论最优解
+        - 赌局：久赌不输的数学
+      good:
+        - 满仓凯利：长期收益最大（理论上）
+      bad:
+        - 高估胜率：加速破产
+        - 全押凯利：波动让你拿不住
+      policy:
+        - 交易成本的现实修正
+      example: 赌场里的数学天才算出每次该押身家的 40%：理论上最快暴富，现实里连输三把就出局。
+  - slug: open-interest
+    headword: 未平仓合约
+    categoryL1: 量化与风险
+    categoryL2: 衍生品
+    difficulty: L3
+    summaryPlain: 期货期权还没平掉的合约总数：市场总押注的存量，增量资金在进场还是离场。
+    riskNote: OI 要和成交量一起看，OI 降+价跌可能是多头撤退。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 期货期权还没平掉的合约总数：市场总押注的存量，增量资金在进场还是离场。
+        example: 比如价格上涨同时 OI 大增，说明新资金在追涨。
+        notMeaning: OI 要和成交量一起看，OI 降+价跌可能是多头撤退。
+        isPrimary: true
+        contextKeywords:
+          - 衍生品
+        frequency: mid
+    aliases:
+      - raw: 未平仓合约
+        aliasType: primary
+      - raw: OI
+        aliasType: en_alias
+      - raw: 持仓量
+        aliasType: cn_alias
+    viz:
+      type: OptionsLadder
+      config:
+        premium: 2
+    insights:
+      affects:
+        - 趋势判断：OI 增量价升=真突破
+        - 流动性：合约活跃度
+      good:
+        - OI 价同增：趋势健康
+      bad:
+        - OI 价背离：动能衰减
+      policy:
+        - 交割与展期影响 OI
+      example: 菜市场的未提货订单：订单越堆越多（OI 增）说明生意在扩张，只减不增说明大家在撤退。
+  - slug: qian-shi-pian-cha
+    headword: 前视偏差
+    categoryL1: 量化与风险
+    categoryL2: 数据陷阱
+    difficulty: L3
+    summaryPlain: 回测用了当时不可能知道的未来信息：数据穿越，量化最脏的作弊。
+    riskNote: 财报发布有时滞，用发布前一天的收盘价算信号就是前视。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 回测用了当时不可能知道的未来信息：数据穿越，量化最脏的作弊。
+        example: 比如用月底才公布的持仓，月初就模拟买入。
+        notMeaning: 财报发布有时滞，用发布前一天的收盘价算信号就是前视。
+        isPrimary: true
+        contextKeywords:
+          - 数据陷阱
+        frequency: mid
+    aliases:
+      - raw: 前视偏差
+        aliasType: primary
+      - raw: Look-ahead Bias
+        aliasType: en_alias
+      - raw: 未来信息
+        aliasType: cn_alias
+    viz:
+      type: HaltClock
+      config:
+        title: 前视偏差：用了未来的答案
+    insights:
+      affects:
+        - 数据纪律：PIT（时点）数据是解药
+        - 研究诚信：机构和散户的分水岭
+      good:
+        - PIT 数据：回测可信的基础
+      bad:
+        - 穿越数据：回测收益全是假的
+      policy:
+        - 数据供应商的时点标注规范
+      example: 考完试对答案时说「我考前就知道」：真考前你不知道，用了考后信息就是穿越。
+  - slug: sheng-lv-ying-kui-bi
+    headword: 胜率/盈亏比
+    categoryL1: 量化与风险
+    categoryL2: 策略
+    difficulty: L2
+    summaryPlain: 赚钱交易的比例，和平均盈利除以平均亏损：策略的一对 DNA。
+    riskNote: 高胜率低盈亏比（赚一点就跑）和低胜率高盈亏比（趋势跟踪）是两种活法。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 赚钱交易的比例，和平均盈利除以平均亏损：策略的一对 DNA。
+        example: 比如胜率 40% 但盈亏比 3:1，照样是赚钱策略。
+        notMeaning: 高胜率低盈亏比（赚一点就跑）和低胜率高盈亏比（趋势跟踪）是两种活法。
+        isPrimary: true
+        contextKeywords:
+          - 策略
+        frequency: mid
+    aliases:
+      - raw: 胜率/盈亏比
+        aliasType: primary
+      - raw: Win Rate
+        aliasType: en_alias
+      - raw: Profit Factor
+        aliasType: en_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        mode: cut
+        shares: 100
+    insights:
+      affects:
+        - 策略画像：交易风格的量化
+        - 预期值：胜率×盈亏决定生死
+      good:
+        - 两者兼得：圣杯（罕见）
+      bad:
+        - 双低：稳定亏钱
+      policy:
+        - 交易成本改变盈亏比
+      example: 打麻将：赢的次数（胜率）和每次赢多少（盈亏比）要搭配。十把赢一把但把把赢大的，也饿不死。
+  - slug: shi-chang-zhong-xing
+    headword: 市场中性
+    categoryL1: 量化与风险
+    categoryL2: 策略
+    difficulty: L3
+    summaryPlain: 多空对冲后市场风险基本为零的策略：只赚选股的 Alpha。
+    riskNote: 对冲有成本，风格切换时多空两头挨打。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 多空对冲后市场风险基本为零的策略：只赚选股的 Alpha。
+        example: 比如量化对冲基金涨的时候比指数少，跌的时候少跌。
+        notMeaning: 对冲有成本，风格切换时多空两头挨打。
+        isPrimary: true
+        contextKeywords:
+          - 策略
+        frequency: mid
+    aliases:
+      - raw: 市场中性
+        aliasType: primary
+      - raw: Market Neutral
+        aliasType: cn_alias
+      - raw: 对冲策略
+        aliasType: cn_alias
+    viz:
+      type: LongShortSeesaw
+      config: {}
+    insights:
+      affects:
+        - 绝对收益：不靠大盘吃饭
+        - 对冲成本：融券和基差损耗
+      good:
+        - 熊市也稳：防御型策略
+      bad:
+        - 牛市跑输：对冲拖后腿
+      policy:
+        - 股指期货与融券的制度环境
+      example: 划船机：原地蹬得再猛（选股强），也不前进（无市场暴露）——稳，但慢。
+  - slug: suan-fa-jiao-yi
+    headword: 算法交易
+    categoryL1: 量化与风险
+    categoryL2: 交易方式
+    difficulty: L2
+    summaryPlain: 用程序自动拆单执行：机构大单的隐形手。
+    riskNote: 算法故障会引发乌龙指，TWAP/VWAP 是常见配方。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 用程序自动拆单执行：机构大单的隐形手。
+        example: 比如机构用 VWAP 算法一天买完 10 亿，不惊动盘口。
+        notMeaning: 算法故障会引发乌龙指，TWAP/VWAP 是常见配方。
+        isPrimary: true
+        contextKeywords:
+          - 交易方式
+        frequency: mid
+    aliases:
+      - raw: 算法交易
+        aliasType: primary
+      - raw: Algo
+        aliasType: en_alias
+      - raw: 程序化交易
+        aliasType: cn_alias
+    viz:
+      type: VolumeRatio
+      config:
+        title: 算法：把大单切碎
+    insights:
+      affects:
+        - 执行效率：机构的核心竞争力
+        - 市场微观结构：订单流的变迁
+      good:
+        - 降低冲击成本：大单友好
+      bad:
+        - 算法共振：集体同向的踩踏
+      policy:
+        - 程序化交易监管
+      example: 蚂蚁搬家：一次搬一粒（小单），一天搬完一仓米，还没人发现。
+  - slug: suo-ti-nuo
+    headword: 索提诺比率
+    categoryL1: 量化与风险
+    categoryL2: 收益
+    difficulty: L3
+    summaryPlain: 只算「坏波动」的夏普比率：比夏普更懂亏钱的痛。
+    riskNote: 它对上涨波动视而不见，是更严格的考官。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 只算「坏波动」的夏普比率：比夏普更懂亏钱的痛。
+        example: 比如两个策略夏普一样，但一个暴跌过，这个指标会揭发它。
+        notMeaning: 它对上涨波动视而不见，是更严格的考官。
+        isPrimary: true
+        contextKeywords:
+          - 收益
+        frequency: mid
+    aliases:
+      - raw: 索提诺比率
+        aliasType: primary
+      - raw: Sortino
+        aliasType: en_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: trap
+        shares: 500
+    insights:
+      affects:
+        - 策略筛选：比夏普更严的标准
+        - 风险观：区分好波动坏波动
+      good:
+        - 高索提诺：下行控制强
+      bad:
+        - 隐藏的暴跌：夏普好看索提诺差
+      policy:
+        - 风险度量的口径选择
+      example: 驾校考官：夏普看总犯规，索提诺只数危险动作（逆行、超速）——后者更懂你会不会出事。
+  - slug: tong-ji-tao-li
+    headword: 统计套利
+    categoryL1: 量化与风险
+    categoryL2: 策略
+    difficulty: L3
+    summaryPlain: 利用相关资产的价差偏离回归获利：Pairs Trading 的学名。
+    riskNote: 价差可以不回归甚至走极端，2012 年的 quant quake 就是教训。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 利用相关资产的价差偏离回归获利：Pairs Trading 的学名。
+        example: 比如买入被低估的招行、卖出高估的工行，等价差收敛。
+        notMeaning: 价差可以不回归甚至走极端，2012 年的 quant quake 就是教训。
+        isPrimary: true
+        contextKeywords:
+          - 策略
+        frequency: mid
+    aliases:
+      - raw: 统计套利
+        aliasType: primary
+      - raw: StatArb
+        aliasType: en_alias
+      - raw: 配对交易
+        aliasType: cn_alias
+    viz:
+      type: CrossLines
+      config:
+        title: 价差回归：两兄弟的橡皮筋
+    insights:
+      affects:
+        - 均值回归：价差的引力
+        - 流动性风险：集体平仓踩踏
+      good:
+        - 价差回归：稳稳的小钱
+      bad:
+        - 价差走极端：亏损无上限
+      policy:
+        - 杠杆监管影响拥挤度
+      example: 两班车的票价差 2 块，黄牛倒票让价差归零：价差消失前你都赚，消失那天你得认赔。
+  - slug: var
+    headword: VaR
+    categoryL1: 量化与风险
+    categoryL2: 风险
+    difficulty: L3
+    summaryPlain: 在给定概率下的最大可能亏损：风控的标准话术。
+    riskNote: 它只告诉你「正常情况」，极端情况照样亏穿。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 在给定概率下的最大可能亏损：风控的标准话术。
+        example: 比如 95% 置信度的日风险值 100 万，意味着 20 天里有一天亏超 100 万。
+        notMeaning: 它只告诉你「正常情况」，极端情况照样亏穿。
+        isPrimary: true
+        contextKeywords:
+          - 风险
+        frequency: mid
+    aliases:
+      - raw: VaR
+        aliasType: primary
+      - raw: 风险价值
+        aliasType: cn_alias
+      - raw: CVaR
+        aliasType: en_alias
+    viz:
+      type: GaugeBar
+      config:
+        title: VaR：最惨不过如此？
+        min: 0
+        max: 100
+        threshold: 50
+        initial: 60
+        valueLabel: 风险值
+        unit: " 万"
+        zones:
+          - min: 0
+            max: 50
+            label: 风险可控
+            color: var(--up)
+          - min: 50
+            max: 100
+            label: 逼近上限
+            color: var(--down)
+    insights:
+      affects:
+        - 风控限额：机构的仓位天花板
+        - 资本金：银行监管的核心
+      good:
+        - 限额清晰：风险有边界
+      bad:
+        - 模型失灵：平时没用、危机时不够
+      policy:
+        - 巴塞尔协议对 VaR 的规定
+      example: 汽车保险承诺「正常事故最多赔 100 万」：正常人够了，连环追尾照样赔穿。
+  - slug: wacc
+    headword: WACC
+    categoryL1: 量化与风险
+    categoryL2: 估值参数
+    difficulty: L3
+    summaryPlain: 加权平均资本成本：公司用各种钱（股+债）的综合成本，也是估值的折现率。
+    riskNote: 它是个估计值，假设多一点，结论能差出天际。
+    frequency: mid
+    popularity: 620
+    senses:
+      - senseKey: default
+        plainExplain: 加权平均资本成本：公司用各种钱（股+债）的综合成本，也是估值的折现率。
+        example: 比如综合资金成本 10%，未来现金流按它折成今天的钱才是价值。
+        notMeaning: 它是个估计值，假设多一点，结论能差出天际。
+        isPrimary: true
+        contextKeywords:
+          - 估值参数
+        frequency: mid
+    aliases:
+      - raw: WACC
+        aliasType: primary
+      - raw: 加权平均资本成本
+        aliasType: cn_alias
+    viz:
+      type: PEScale
+      config:
+        ratioName: 资金成本线
+        denomLabel: 项目回报 %
+        denomMax: 20
+        cheap: 5
+        fair: 10
+    insights:
+      affects:
+        - 估值：DCF 的分母
+        - 投资决策：项目回报要跑赢它
+      good:
+        - 成本下降：估值自动抬升
+      bad:
+        - 加息推高 WACC：杀估值
+      policy:
+        - 利率与信用环境决定
+      example: 你开奶茶店的钱，一部分自己出（要求高回报）一部分借的（要利息）：加权后的「最低满意线」就是 WACC。
+  - slug: wei-xiao-qu-xian
+    headword: 微笑曲线
+    categoryL1: 量化与风险
+    categoryL2: 定投概念
+    difficulty: L1
+    summaryPlain: 定投的理想路径：先跌后涨，摊低成本后获利了结，画出一条 U 形笑脸。
+    riskNote: 微笑曲线的另一半是「瘪嘴曲线」（先涨后跌），不是必然微笑。
+    frequency: mid
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 定投的理想路径：先跌后涨，摊低成本后获利了结，画出一条 U 形笑脸。
+        example: 比如定投两年，前期亏损后期回本大赚，这就是定投的理想路径。
+        notMeaning: 微笑曲线的另一半是「瘪嘴曲线」（先涨后跌），不是必然微笑。
+        isPrimary: true
+        contextKeywords:
+          - 定投概念
+        frequency: mid
+    aliases:
+      - raw: 微笑曲线
+        aliasType: primary
+      - raw: 定投曲线
+        aliasType: cn_alias
+      - raw: U型曲线
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 定投路径
+            point: 100
+            base: 60
+            note: 先跌后涨=微笑
+          - name: 一次性买入
+            point: 100
+            base: 100
+            note: 买在高点就哭
+    insights:
+      affects:
+        - 定投体验：曲线的形状决定心态
+        - 退出时机：嘴角上扬时赎回
+      good:
+        - 先跌后涨：微笑收场
+      bad:
+        - 先涨后跌：瘪嘴哭脸
+      policy:
+        - 无政策含义
+      example: U 型谷：先下后上（微笑）。定投就是不管谷底谷坡都定期存钱，等爬上来时份额最多。
+  - slug: xia-pu-bi-lv
+    headword: 夏普比率
+    categoryL1: 量化与风险
+    categoryL2: 收益
+    difficulty: L3
+    summaryPlain: 每承担一单位波动换来的超额收益：衡量性价比，越高说明赚得稳。
+    riskNote: 它假设风险=波动，但暴跌风险和平稳震荡在夏普眼里是一回事。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 每承担一单位波动换来的超额收益：衡量性价比，越高说明赚得稳。
+        example: 比如两个产品都年化 15%，一个平稳向上一个暴涨暴跌，前者的风险调整后收益肯定高得多。
+        notMeaning: 它假设风险=波动，但暴跌风险和平稳震荡在夏普眼里是一回事。
+        isPrimary: true
+        contextKeywords:
+          - 收益
+        frequency: high
+    aliases:
+      - raw: 夏普比率
+        aliasType: primary
+      - raw: Sharpe
+        aliasType: en_alias
+      - raw: 风险调整后收益
+        aliasType: cn_alias
+    viz:
+      type: ProfitLossScale
+      config:
+        title: 收益 vs 波动的性价比
+        mode: trap
+        shares: 100
+    insights:
+      affects:
+        - 策略比较：同收益率选波动小的
+        - 仓位优化：性价比低的方向减
+        - 基金筛选：专业机构的核心指标
+      good:
+        - 夏普 > 1：可接受的性价比
+        - 夏普稳步抬升：策略进化
+      bad:
+        - 追求高夏普走极端：可能押注小概率
+        - 事后夏普最优≠未来最优
+      policy:
+        - 利率变化影响超额收益基准
+        - 市场环境切换让夏普失真
+      example: 通勤路线：A 路线 40 分钟稳稳到，B 路线平均 20 分钟但一半概率迟到一小时。夏普比率算的就是这种「惊吓成本」。
+  - slug: xiang-guan-xing
+    headword: 相关性
+    categoryL1: 量化与风险
+    categoryL2: 风险
+    difficulty: L3
+    summaryPlain: 两个资产涨跌的联动程度：分散化效果的关键。
+    riskNote: 危机时相关性会趋近 1，你以为分散了其实没有。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 两个资产涨跌的联动程度：分散化效果的关键。
+        example: 比如股债平时负相关，危机时一起跌。
+        notMeaning: 危机时相关性会趋近 1，你以为分散了其实没有。
+        isPrimary: true
+        contextKeywords:
+          - 风险
+        frequency: mid
+    aliases:
+      - raw: 相关性
+        aliasType: primary
+      - raw: Correlation
+        aliasType: en_alias
+      - raw: ρ
+        aliasType: cn_alias
+    viz:
+      type: CrossLines
+      config:
+        title: 相关性：同涨同跌的默契
+    insights:
+      affects:
+        - 组合构建：低相关才能分散
+        - 危机预警：相关性飙升=风暴前兆
+      good:
+        - 低相关组合：平滑收益曲线
+      bad:
+        - 相关性趋 1：分散失效
+      policy:
+        - 市场结构影响联动性
+      example: 两匹马平时各走各路（低相关），受惊时一起尥蹶子（相关性飙升）——分散养马不等于不摔。
+  - slug: xing-cun-zhe-pian-cha
+    headword: 幸存者偏差
+    categoryL1: 量化与风险
+    categoryL2: 数据陷阱
+    difficulty: L3
+    summaryPlain: 只用现在还活着的公司做研究，忽略退市的：数据里的隐形滤镜。
+    riskNote: 它让历史业绩看起来比实际好，退市股才是真教训。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 只用现在还活着的公司做研究，忽略退市的：数据里的隐形滤镜。
+        example: 比如回测只买现茅台们，看不到死掉的千百个同行。
+        notMeaning: 它让历史业绩看起来比实际好，退市股才是真教训。
+        isPrimary: true
+        contextKeywords:
+          - 数据陷阱
+        frequency: mid
+    aliases:
+      - raw: 幸存者偏差
+        aliasType: primary
+      - raw: Survivorship Bias
+        aliasType: en_alias
+      - raw: 生存偏差
+        aliasType: cn_alias
+    viz:
+      type: RiskLadder
+      config:
+        initialStep: 2
+    insights:
+      affects:
+        - 数据质量：量化研究的地基
+        - 认知偏差：投资中的隐形陷阱
+      good:
+        - 意识偏差：主动修正数据
+      bad:
+        - 忽略退市股：策略虚胖
+      policy:
+        - 全历史数据库的可得性
+      example: 统计「长寿村」老人秘诀，却漏掉了早逝的人：只看活着的，规律都是假的。
+  - slug: yin-han-bo-dong-lv
+    headword: 隐含波动率
+    categoryL1: 量化与风险
+    categoryL2: 波动率
+    difficulty: L3
+    summaryPlain: 期权价格反推出来的「市场预期波动」：买保险的价格，贵说明大家怕。
+    riskNote: IV 高时买期权贵、卖期权险；财报前 IV 常被抢高。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 期权价格反推出来的「市场预期波动」：买保险的价格，贵说明大家怕。
+        example: 比如财报前 IV 飙升，财报一出 IV 崩塌，买方两头挨打。
+        notMeaning: IV 高时买期权贵、卖期权险；财报前 IV 常被抢高。
+        isPrimary: true
+        contextKeywords:
+          - 波动率
+        frequency: mid
+    aliases:
+      - raw: 隐含波动率
+        aliasType: primary
+      - raw: IV
+        aliasType: en_alias
+      - raw: 波动率
+        aliasType: cn_alias
+    viz:
+      type: Oscillator
+      config:
+        needles:
+          - name: IV
+        initial:
+          - 65
+        max: 100
+        zones:
+          - min: 0
+            max: 30
+            label: IV 低：保险便宜
+            color: var(--ok)
+          - min: 30
+            max: 70
+            label: IV 中
+            color: var(--color-muted)
+          - min: 70
+            max: 100
+            label: IV 高：恐慌溢价
+            color: var(--down)
+    insights:
+      affects:
+        - 期权定价：IV 是核心变量
+        - 事件交易：财报 IV 的潮汐
+      good:
+        - IV 低位买期权：性价比高
+      bad:
+        - IV 高位追买：崩得快
+      policy:
+        - 事件日历驱动 IV
+      example: 台风前保险涨价：IV 就是保险费率。风越大（预期波动大）越贵，风过了保费跳水。
+  - slug: yin-zi
+    headword: 因子
+    categoryL1: 量化与风险
+    categoryL2: 因子投资
+    difficulty: L3
+    summaryPlain: 解释和预测收益的特征变量：动量、价值、质量、低波都是因子。
+    riskNote: 因子会轮动、会拥挤、会失效，没有永远的圣杯。
+    frequency: mid
+    popularity: 600
+    senses:
+      - senseKey: default
+        plainExplain: 解释和预测收益的特征变量：动量、价值、质量、低波都是因子。
+        example: 比如量化基金同时暴露在动量和质量两个特征上，风格切换时一起回撤。
+        notMeaning: 因子会轮动、会拥挤、会失效，没有永远的圣杯。
+        isPrimary: true
+        contextKeywords:
+          - 因子投资
+        frequency: mid
+    aliases:
+      - raw: 因子
+        aliasType: primary
+      - raw: Factor
+        aliasType: en_alias
+      - raw: 动量因子
+        aliasType: cn_alias
+      - raw: 价值因子
+        aliasType: cn_alias
+    viz:
+      type: IndexTower
+      config:
+        indices:
+          - name: 动量因子
+            point: 110
+            base: 100
+            note: 追涨杀跌的量化版
+          - name: 价值因子
+            point: 95
+            base: 100
+            note: 便宜是硬道理
+    insights:
+      affects:
+        - 收益归因：钱从哪个因子来
+        - 组合构建：因子暴露的管理
+      good:
+        - 因子顺风：超额收益
+      bad:
+        - 因子拥挤：踩踏式失效
+      policy:
+        - 因子库的学术与商业研究
+      example: 厨艺大赛的评分维度：火候（动量）、选材（质量）、性价比（价值）——评委（市场）换口味，得分就变天。
+  - slug: zui-da-hui-che
+    headword: 最大回撤
+    categoryL1: 量化与风险
+    categoryL2: 风险
+    difficulty: L2
+    summaryPlain: 从历史最高点算起，账户最多亏过多少：衡量最惨的时候有多惨。
+    riskNote: 回撤 50% 要涨 100% 才能回本，先看最惨再谈收益。
+    frequency: high
+    popularity: 700
+    senses:
+      - senseKey: default
+        plainExplain: 从历史最高点算起，账户最多亏过多少：衡量最惨的时候有多惨。
+        example: 比如基金 2021 年高点买入拿到现在亏 35%，这就是你要扛住的回撤。
+        notMeaning: 回撤 50% 要涨 100% 才能回本，先看最惨再谈收益。
+        isPrimary: true
+        contextKeywords:
+          - 风险
+        frequency: high
+    aliases:
+      - raw: 最大回撤
+        aliasType: primary
+      - raw: MDD
+        aliasType: en_alias
+      - raw: 回撤
+        aliasType: cn_alias
+      - raw: drawdown
+        aliasType: en_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: trap
+        shares: 1000
+    insights:
+      affects:
+        - 心理承受：回撤超上限就该降仓位
+        - 产品筛选：冠军基金的深坑往往更深
+        - 风控：回撤控制比收益更重要
+      good:
+        - 小回撤创新高：复利机器
+        - 回撤可控+收益稳：上乘产品
+      bad:
+        - 深回撤后很难回本
+        - 冠军魔咒：上年第一次年垫底
+      policy:
+        - 市场系统性风险决定回撤深度
+        - 赎回潮会加剧基金净值回撤
+      example: 坐海盗船：上升多爽，俯冲时胃吐得多惨。买之前先问「最惨能吐多少」，而不是问「最高能爽多少」。

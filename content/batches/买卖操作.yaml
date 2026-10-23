@@ -1,0 +1,286 @@
+# 自动生成的批量词条源（可由 ingest 重新编译为 lexicon.json）
+category: 买卖操作
+source: bootstrap from lexicon.json (2026-10-22)
+terms:
+  - slug: chu-quan
+    headword: 除权
+    categoryL1: 买卖操作
+    categoryL2: 权益调整
+    difficulty: L2
+    summaryPlain: 公司送股或分红后，股价按送转和派现比例相应下调，使总市值前后衔接，避免白捡便宜的错觉。
+    riskNote: 价格下调不是真亏，是权益形式的转换。
+    frequency: low
+    popularity: 300
+    senses:
+      - senseKey: default
+        plainExplain: 公司送股或分红后，股价按送转和派现比例相应下调，使总市值前后衔接，避免白捡便宜的错觉。
+        example: 比如公司十送十后，股价自动砍半，你手里的股数翻倍、单价变低，账面对得上。
+        notMeaning: 价格下调不是真亏，是权益形式的转换。
+        isPrimary: true
+        contextKeywords:
+          - 送股
+          - 派现
+          - 填权
+          - 除息
+        frequency: low
+    aliases:
+      - raw: 除权
+        aliasType: primary
+    viz:
+      type: ExRightAdjust
+      config: {}
+    insights:
+      affects:
+        - 分红 / 送股后股价的‘账面调整’
+        - 你的持仓总成本
+        - 填权行情机会
+      good:
+        - 几乎中性：总财富不变
+        - 低价后常吸引人‘填权’涨回
+      bad:
+        - 账面‘看起来’少了，新手易慌
+        - 不填权=白送股还亏差价
+      policy:
+        - 分红送股方案由公司董事会定
+        - 交易所规则决定除权日
+      example: 一块蛋糕切更多块：公司 10 送 10，你 100 股变 200 股，但股价从 20 元调成 10 元。块数翻倍、每块变小，你手里总蛋糕还是那么大。
+  - slug: da-xin
+    headword: 打新
+    categoryL1: 买卖操作
+    categoryL2: 申购
+    difficulty: L1
+    summaryPlain: 申购新发行的股票就像抽奖：先交钱摇号，中了才有资格按发行价买入，上市当天通常就能卖出。
+    riskNote: 打新不是稳赚：遇到行情差或定价太高，上市首日也可能跌破发行价。
+    frequency: high
+    popularity: 780
+    senses:
+      - senseKey: default
+        plainExplain: 申购新股：先交钱参加摇号，中签后才能按发行价买入这只还没上市的股票。
+        example: 比如软件里弹出提醒，说有一家奶茶公司要上市，可以先申请买一点，中签了上市那天通常就能卖。
+        notMeaning: 它不是保本理财，也不是稳赚不赔，中签后也可能亏钱。
+        isPrimary: true
+        contextKeywords:
+          - 申购
+          - 中签
+          - 新股
+          - 摇号
+        frequency: high
+    aliases:
+      - raw: 打新
+        aliasType: primary
+      - raw: 新股申购
+        aliasType: cn_alias
+      - raw: 打新股
+        aliasType: cn_alias
+    viz:
+      type: IpoLottery
+      config:
+        issuePrice: 10
+        rate: 0.03
+    insights:
+      affects:
+        - 大盘：新股行情热=资金情绪好，常常牛市更旺
+        - 个股：中签到的人按发行价拿货，上市当天浮盈卖出
+        - 发行人：公司能按发行价融到上市的第一笔钱
+      good:
+        - 中签并首日上涨：等于打折拿货、当天赚差价
+        - 打新人数多、中签率稳：说明市场情绪火热
+      bad:
+        - 上市首日跌破发行价（破发）：中的签也亏钱
+        - 中签率越来越低：几百万人抢几个签，纯拼运气
+      policy:
+        - 注册制/新股发行节奏：发得多→中签机会多但质量参差
+        - 限售/减持规则：影响上市后能卖多少、抛压大小
+        - T+1：上市当天买的新股，第二个交易日才能卖
+      example: 把打新想成限量球鞋抽签：官方价（发行价）100 元，你交钱抽签，中了才能按 100 元买。鞋一上市被炒到 120 元，你转手赚 20；没人要跌到 80 元，你就亏 20。中的鞋还不能当天倒卖（类似 T+1）。
+  - slug: die-ting
+    headword: 跌停
+    categoryL1: 买卖操作
+    categoryL2: 涨跌限制
+    difficulty: L1
+    summaryPlain: A股里股价一天最多能跌到的下限（主板一般10%），到了这个价当天就到底不再往下走。
+    riskNote: 到底不代表见底，下跌趋势里也可能继续。
+    frequency: high
+    popularity: 900
+    senses:
+      - senseKey: default
+        plainExplain: A股里股价一天最多能跌到的下限（主板一般10%），到了这个价当天就到底不再往下走。
+        example: 比如一只股票利空出来后一路被砸到下限价，挂单也卖不掉。
+        notMeaning: 到底不代表见底，下跌趋势里也可能继续。
+        isPrimary: true
+        contextKeywords:
+          - 跌停板
+          - 封死
+          - 下限
+          - 踩踏
+        frequency: high
+    aliases:
+      - raw: 跌停
+        aliasType: primary
+      - raw: 跌停板
+        aliasType: colloquial
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: limitDown
+        limitPct: 10
+        basePrice: 10
+    insights:
+      affects:
+        - 这只股票当天最多跌到哪
+        - 市场情绪：跌停多=恐慌抛售
+        - 你的账面：持有的话当天亏到封顶
+      good:
+        - 没有（跌停本身是坏事）
+        - 但极端恐慌后常有反弹机会
+      bad:
+        - 说明卖的人多、抢着逃
+        - 持有者当天亏到最大，想卖也卖不出
+      policy:
+        - 涨跌停板（−10%）限制跌幅
+        - 停牌可暂时躲过连续跌停
+      example: 电梯一天最多降 10 层就锁门。昨天 10 元，今天最低 9 元（跌停价），再多人想卖也出不去，只能等明天。
+  - slug: ge-rou
+    headword: 割肉
+    categoryL1: 买卖操作
+    categoryL2: 认亏卖出
+    difficulty: L1
+    summaryPlain: 亏钱也把股票卖掉，就像手指被刀割了，再疼也得断尾求生。
+    riskNote: 割肉是理性止损也可能是砍在地板上；不做功课容易两头挨打。
+    frequency: high
+    popularity: 820
+    senses:
+      - senseKey: default
+        plainExplain: 亏损状态下把股票卖掉，把账面的浮亏变成真实的亏损。
+        example: 有人买了一只股票跌了两成，怕再跌下去，干脆卖掉，虽然心在滴血，但保住了剩下的本金。
+        notMeaning: 割肉不是跌了就一定要卖，而是自己定的止损线到了。
+        isPrimary: true
+        contextKeywords:
+          - 止损
+          - 卖出
+          - 亏损
+          - 认赔
+        frequency: high
+    aliases:
+      - raw: 割肉
+        aliasType: primary
+      - raw: 止损
+        aliasType: cn_alias
+      - raw: 认赔卖出
+        aliasType: cn_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: cut
+        shares: 1000
+    insights:
+      affects:
+        - 你的本金：越晚止损亏得越多的时候，割肉是保命
+        - 股价：集中割肉盘涌出，会加速下跌形成恐慌盘
+        - 你自己：情绪账户——割肉的痛会让人乱操作
+      good:
+        - 止损纪律严：一次少亏保住本金，留得青山在
+        - 割掉烂股换好股：资金重新投入到更值得的机会
+      bad:
+        - 割在地板上：刚卖就反弹，追高又套
+        - 没有计划地割：被情绪推着反复割，本金越割越少
+      policy:
+        - 涨跌停/T+1 制度：极端行情想割也割不掉
+        - 退市新规：该割不割可能面临归零级风险
+      example: 买了一张游乐园年卡 500 元，玩了两次发现根本不喜欢。是继续硬着头皮去，还是 300 元转卖掉？卖掉是「割肉」（亏 200），但至少止损。死抱着不去，500 元既不快乐也回不来。
+  - slug: tao-lao
+    headword: 套牢
+    categoryL1: 买卖操作
+    categoryL2: 持仓浮亏
+    difficulty: L1
+    summaryPlain: 买了就跌，卖了心疼、拿着闹心——就像被绳子拴在市场里动不了。
+    riskNote: 深套后回本需要的涨幅远大于亏损比例，时间成本高。
+    frequency: high
+    popularity: 850
+    senses:
+      - senseKey: default
+        plainExplain: 买入后股价下跌，账面上处于亏损、又不甘心卖出的状态。
+        example: 有人追高买了股票，一买就连着跌，舍不得割就只能天天拿着，自嘲被绳子拴住了。
+        notMeaning: 套牢不等于公司倒闭，很多时候价格还会回来，但归零风险也存在。
+        isPrimary: true
+        contextKeywords:
+          - 被套
+          - 浮亏
+          - 拿着
+          - 下跌
+        frequency: high
+    aliases:
+      - raw: 套牢
+        aliasType: primary
+      - raw: 被套
+        aliasType: cn_alias
+      - raw: 深度套牢
+        aliasType: cn_alias
+    viz:
+      type: TrapScale
+      config:
+        mode: trap
+        shares: 1000
+    insights:
+      affects:
+        - 你的心情：天天看盘，涨一点激动跌一点焦虑
+        - 家庭资金：钱锁在浮亏里错过其他机会
+        - 市场：套牢盘密集的价位，反弹到那里抛压重
+      good:
+        - 浅套且公司没事：拿住可能自己解套
+        - 定投/分批摊低成本的 Plan B：成本降了回本更容易
+      bad:
+        - 跌得越深回本越难：亏 50% 要涨 100% 才回来
+        - 钱和情绪双被锁死，还可能踩到退市归零
+      policy:
+        - T+1：套牢当天也不能反悔卖出
+        - 退市/ST 规则：垃圾股套牢可能是永久亏损
+        - 融券/对冲工具少：散户套牢缺少保护手段
+      example: 花 200 元买的演唱会门票，临开场发现去不了，闲鱼只值 120——卖掉认亏 80 是「割肉」；想着「说不定过两天有人原价收」挂 200 挂着，就是「套牢」，钱和票一起锁死。
+  - slug: zhang-ting
+    headword: 涨停
+    categoryL1: 买卖操作
+    categoryL2: 涨跌限制
+    difficulty: L1
+    summaryPlain: A股里股价一天最多能涨到的上限（主板一般10%），到了这个价当天就封顶不再往上走。
+    riskNote: 到上限不代表明天还会涨，也可能是情绪过头。
+    frequency: high
+    popularity: 900
+    senses:
+      - senseKey: default
+        plainExplain: A股里股价一天最多能涨到的上限（主板一般10%），到了这个价当天就封顶不再往上走。
+        example: 比如一只股票早盘就被大单顶到了上限价，之后一直停在那里买不进。
+        notMeaning: 到上限不代表明天还会涨，也可能是情绪过头。
+        isPrimary: true
+        contextKeywords:
+          - 涨停板
+          - 封板
+          - 打板
+          - 上限
+        frequency: high
+    aliases:
+      - raw: 涨停
+        aliasType: primary
+      - raw: 涨停板
+        aliasType: colloquial
+    viz:
+      type: PriceChangeBars
+      config:
+        mode: limitUp
+        limitPct: 10
+        basePrice: 10
+    insights:
+      affects:
+        - 这只股票当天最多涨到哪
+        - 市场情绪：涨停多=大家疯狂买入
+        - 你的账面：持有的话当天赚到封顶
+      good:
+        - 说明买的人多、抢着要，很被看好
+        - 持有者当天锁定最大涨幅
+      bad:
+        - 想买也买不进（封板）
+        - 可能是炒作，第二天容易回落
+      policy:
+        - 涨跌停板规则（±10%）本身限制它
+        - 停牌、特停会打断涨停
+      example: 好比电梯一天最多升 10 层就锁门。某股票昨天 10 元，今天最高只能到 11 元（涨停价），再多人想买也进不去。

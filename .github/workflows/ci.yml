@@ -31,3 +31,8 @@ jobs:
       # content-validate：CI 硬门校验（零黑话扫描 / 禁用词 / 字数 / 引用完整性 / 免责存在）
       - name: content-validate
         run: npm run validate --workspace=@jargon/content
+
+      # 部署就绪校验：先再生被 gitignore 的 lexicon.json（content/batches → content/.compiled），
+      # 再 next build，确保 Vercel 部署链路不会因缺词典文件失败。
+      - name: Build (regenerate lexicon + next build)
+        run: npm run build

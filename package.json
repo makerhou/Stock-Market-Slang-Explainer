@@ -12,7 +12,7 @@
   },
   "scripts": {
     "dev": "npm run dev --workspace=@jargon/web",
-    "build": "npm run build --workspace=@jargon/web",
+    "build": "npm run ingest --workspace=@jargon/content && npm run build --workspace=@jargon/web",
     "start": "npm run start --workspace=@jargon/web",
     "lint": "npm run lint --workspaces --if-present",
     "test": "npm run test --workspaces --if-present",

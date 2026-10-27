@@ -11,14 +11,14 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "npm run dev --workspace=@jargon/web",
-    "build": "npm run ingest --workspace=@jargon/content && npm run build --workspace=@jargon/web",
-    "start": "npm run start --workspace=@jargon/web",
-    "lint": "npm run lint --workspaces --if-present",
-    "test": "npm run test --workspaces --if-present",
-    "typecheck": "npm run typecheck --workspaces --if-present",
-    "db:generate": "npm run db:generate --workspace=@jargon/db",
-    "db:migrate": "npm run db:migrate --workspace=@jargon/db"
+    "dev": "pnpm --filter @jargon/web dev",
+    "build": "pnpm --filter @jargon/content run ingest && pnpm --filter @jargon/web run build",
+    "start": "pnpm --filter @jargon/web start",
+    "lint": "pnpm -r run lint",
+    "test": "pnpm -r run test",
+    "typecheck": "pnpm -r run typecheck",
+    "db:generate": "pnpm --filter @jargon/db run db:generate",
+    "db:migrate": "pnpm --filter @jargon/db run db:migrate"
   },
   "devDependencies": {
     "typescript": "^5.6.3"

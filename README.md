@@ -10,7 +10,7 @@ MVP 聚焦：**词条查询（白话解释 + 举例 + 风险提示）+ 小测验
 - 检索：**应用层内存词典 + Aho-Corasick 自动机**（`@glossary/matcher` 同构包），Postgres 仅作权威存储，不引搜索引擎
 - 部署：**Vercel Pro**（海外区域）；CI：**GitHub Actions**
 
-## 仓库结构（Monorepo / npm workspaces）
+## 仓库结构（Monorepo / pnpm workspaces）
 ```
 apps/
   web/                 # Next.js 应用（前端 + 路由 + 页面）
@@ -26,14 +26,16 @@ content-rules/         # 内容管线配置（5 个 YAML，详见各文档）
 
 ## 脚本
 ```bash
-npm install
-npm run dev           # 启动 apps/web 开发服务器
-npm run build
-npm run lint
-npm run typecheck
-npm run db:generate   # drizzle-kit 生成迁移
-npm run db:migrate    # 执行迁移（需 DATABASE_URL）
+pnpm install
+pnpm dev              # 启动 apps/web 开发服务器
+pnpm build            # 先 ingest 再生词典（content/.compiled/lexicon.json），再 next build
+pnpm lint
+pnpm typecheck
+pnpm db:generate      # drizzle-kit 生成迁移
+pnpm db:migrate       # 执行迁移（需 DATABASE_URL）
 ```
+
+> 包管理器为 **pnpm**（锁文件 `pnpm-lock.yaml`）。`pnpm build` 会先由 `content/batches` 离线再生 `content/.compiled/lexicon.json`（该文件被 gitignore，为构建产物），再执行 `next build`。
 
 ## 文档
 需求 / 架构 / 设计 / 数据 / 内容 / 部署 / 测试 / 交付方案等 9 份设计文档均位于仓库根目录（见 `项目交付方案.md` 的交付清单）。

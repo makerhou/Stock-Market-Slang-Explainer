@@ -11,28 +11,32 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # pnpm monorepo：用官方 action 安装 pnpm，并让 setup-node 缓存 pnpm 依赖
+      - uses: pnpm/action-setup@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
+          cache: pnpm
 
+      # 项目锁文件为 pnpm-lock.yaml，必须用 pnpm 安装；--frozen-lockfile 保证与锁文件一致
       - name: Install
-        run: npm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Lint
-        run: npm run lint --if-present
+        run: pnpm -r run lint
 
       - name: Typecheck
-        run: npm run typecheck
+        run: pnpm -r run typecheck
 
       - name: Test
-        run: npm run test --if-present
+        run: pnpm -r run test
 
       # content-validate：CI 硬门校验（零黑话扫描 / 禁用词 / 字数 / 引用完整性 / 免责存在）
       - name: content-validate
-        run: npm run validate --workspace=@jargon/content
+        run: pnpm --filter @jargon/content run validate
 
       # 部署就绪校验：先再生被 gitignore 的 lexicon.json（content/batches → content/.compiled），
       # 再 next build，确保 Vercel 部署链路不会因缺词典文件失败。
       - name: Build (regenerate lexicon + next build)
-        run: npm run build
+        run: pnpm build

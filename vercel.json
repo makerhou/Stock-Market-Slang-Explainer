@@ -1,6 +1,6 @@
 {
   "framework": "nextjs",
-  "buildCommand": "npm run ingest --workspace=@jargon/content && npm run build --workspace=@jargon/web",
+  "buildCommand": "pnpm build",
   "installCommand": "npm install",
   "regions": ["iad1", "hnd1"],
   "github": {
